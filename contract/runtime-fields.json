@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "fields": [
+    {
+      "description": "Combined competitor A name; preferred for singles and doubles.",
+      "field": "combinedAName",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "description": "Combined competitor B name; preferred for singles and doubles.",
+      "field": "combinedBName",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "description": "Current game score for side A.",
+      "field": "currentAGameScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Current game score for side B.",
+      "field": "currentBGameScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Games or sets won by side A in the current match.",
+      "field": "currentAMatchScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Games or sets won by side B in the current match.",
+      "field": "currentBMatchScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Country flag image for competitor A.",
+      "field": "countryA",
+      "group": "image",
+      "valueType": "image"
+    },
+    {
+      "description": "Country flag image for competitor B.",
+      "field": "countryB",
+      "group": "image",
+      "valueType": "image"
+    },
+    {
+      "description": "Competitor image URL for side A.",
+      "field": "imageURLA",
+      "group": "image",
+      "valueType": "image"
+    },
+    {
+      "description": "Competitor image URL for side B.",
+      "field": "imageURLB",
+      "group": "image",
+      "valueType": "image"
+    },
+    {
+      "description": "Jersey or identity color for side A.",
+      "field": "jerseyColorA",
+      "group": "identity",
+      "valueType": "color"
+    },
+    {
+      "description": "Jersey or identity color for side B.",
+      "field": "jerseyColorB",
+      "group": "identity",
+      "valueType": "color"
+    },
+    {
+      "description": "Whether side A is currently serving.",
+      "field": "isACurrentlyServing",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Whether side B is currently serving.",
+      "field": "isBCurrentlyServing",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Whether the current point is game point.",
+      "field": "isGamePoint",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Whether the current point is match point.",
+      "field": "isMatchPoint",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Active timeout countdown for side A.",
+      "field": "timeOutTimerA",
+      "group": "state",
+      "valueType": "timer"
+    },
+    {
+      "description": "Active timeout countdown for side B.",
+      "field": "timeOutTimerB",
+      "group": "state",
+      "valueType": "timer"
+    },
+    {
+      "description": "Whether side A has an active timeout.",
+      "field": "isATimeOutActive",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Whether side B has an active timeout.",
+      "field": "isBTimeOutActive",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Whether side A has used its timeout.",
+      "field": "isATimeOutUsed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Whether side B has used its timeout.",
+      "field": "isBTimeOutUsed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Yellow-card state for side A.",
+      "field": "isAYellowCarded",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Yellow-card state for side B.",
+      "field": "isBYellowCarded",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Red-card state for side A.",
+      "field": "isARedCarded",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Red-card state for side B.",
+      "field": "isBRedCarded",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Team A display name.",
+      "field": "teamAName",
+      "group": "team",
+      "valueType": "text"
+    },
+    {
+      "description": "Team B display name.",
+      "field": "teamBName",
+      "group": "team",
+      "valueType": "text"
+    },
+    {
+      "description": "Team competition score for side A.",
+      "field": "teamAScore",
+      "group": "team",
+      "valueType": "number"
+    },
+    {
+      "description": "Team competition score for side B.",
+      "field": "teamBScore",
+      "group": "team",
+      "valueType": "number"
+    },
+    {
+      "description": "Team A logo image.",
+      "field": "teamLogoURLA",
+      "group": "team",
+      "valueType": "image"
+    },
+    {
+      "description": "Team B logo image.",
+      "field": "teamLogoURLB",
+      "group": "team",
+      "valueType": "image"
+    },
+    {
+      "description": "Competitor A ranking.",
+      "field": "rankingA",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "description": "Competitor B ranking.",
+      "field": "rankingB",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "description": "Competitor A rating.",
+      "field": "ratingA",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "description": "Competitor B rating.",
+      "field": "ratingB",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "description": "Current match round or stage label.",
+      "field": "matchRound",
+      "group": "match",
+      "valueType": "text"
+    },
+    {
+      "description": "Live best-of format derived from match rules, such as BEST OF 5.",
+      "field": "matchFormatLabel",
+      "group": "match",
+      "valueType": "text"
+    },
+    {
+      "description": "Assigned court or table name; hidden when no name is available.",
+      "field": "courtName",
+      "group": "match",
+      "valueType": "text"
+    },
+    {
+      "description": "Side A score in game 1.",
+      "field": "game1AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 1.",
+      "field": "game1BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 1 has started.",
+      "field": "isGame1Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 2.",
+      "field": "game2AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 2.",
+      "field": "game2BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 2 has started.",
+      "field": "isGame2Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 3.",
+      "field": "game3AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 3.",
+      "field": "game3BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 3 has started.",
+      "field": "isGame3Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 4.",
+      "field": "game4AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 4.",
+      "field": "game4BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 4 has started.",
+      "field": "isGame4Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 5.",
+      "field": "game5AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 5.",
+      "field": "game5BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 5 has started.",
+      "field": "isGame5Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 6.",
+      "field": "game6AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 6.",
+      "field": "game6BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 6 has started.",
+      "field": "isGame6Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 7.",
+      "field": "game7AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 7.",
+      "field": "game7BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 7 has started.",
+      "field": "isGame7Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 8.",
+      "field": "game8AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 8.",
+      "field": "game8BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 8 has started.",
+      "field": "isGame8Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Side A score in game 9.",
+      "field": "game9AScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Side B score in game 9.",
+      "field": "game9BScore",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "description": "Whether game 9 has started.",
+      "field": "isGame9Started",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "field": "playerA",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerAFirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerAFirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerANameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerA2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerA2FirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerA2FirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerA2NameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "combinedAFirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "combinedAFirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "combinedANameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedAName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedAFirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedAFirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedANameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "genderA",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "genderA2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "ratingA2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "rankingA2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerB",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerBFirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerBFirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerBNameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerB2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerB2FirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerB2FirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "playerB2NameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "combinedBFirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "combinedBFirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "combinedBNameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedBName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedBFirstInitialLastName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedBFirstNameLastInitial",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "courtSideCombinedBNameWithRating",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "genderB",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "genderB2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "ratingB2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "rankingB2",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "eventName",
+      "description": "Public native runtime text binding.",
+      "group": "identity",
+      "valueType": "text"
+    },
+    {
+      "field": "timeOutTimer",
+      "description": "Public native runtime text binding.",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "field": "courtSideAGameScore",
+      "description": "Public native runtime text binding.",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "field": "courtSideAMatchScore",
+      "description": "Public native runtime text binding.",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "field": "courtSideBGameScore",
+      "description": "Public native runtime text binding.",
+      "group": "score",
+      "valueType": "number"
+    },
+    {
+      "field": "courtSideBMatchScore",
+      "description": "Public native runtime text binding.",
+      "group": "score",
+      "valueType": "number"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+name: Validate templates
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: node tools/check-syntax.mjs
+      - name: Verify deterministic catalog and immutable documents
+        run: node tools/build-catalog.mjs --check
+      - name: Run local contract, corpus and studio harnesses
+        run: node --test tools/*.test.mjs studio/server.test.mjs
+      - name: Report export hygiene
+        run: node tools/audit-export.mjs --check

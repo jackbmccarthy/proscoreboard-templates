@@ -1,0 +1,18 @@
+{
+  "name": "proscoreboard-templates",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node studio/server.mjs",
+    "catalog": "node tools/build-catalog.mjs",
+    "catalog:check": "node tools/build-catalog.mjs --check",
+    "lint": "node tools/check-syntax.mjs",
+    "test": "node --test tools/*.test.mjs studio/server.test.mjs",
+    "audit:export": "node tools/audit-export.mjs",
+    "validate": "npm run lint && npm run catalog:check && npm test"
+  }
+}

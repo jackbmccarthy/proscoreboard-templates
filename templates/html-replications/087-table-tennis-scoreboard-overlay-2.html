@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Table Tennis Scoreboard Overlay 2 - HTML Replication</title>
+  <style>
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: transparent;
+  margin: 0;
+}
+
+.osb-catalog-body {
+  min-height: 100vh;
+  background: transparent;
+  color: #0f172a;
+}
+
+.osb-catalog {
+  margin: 0 auto;
+  max-width: 1560px;
+  padding: 32px;
+}
+
+.osb-catalog > header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+
+.osb-catalog h1,
+.osb-catalog h2,
+.osb-catalog p {
+  margin: 0;
+}
+
+.osb-catalog h1 {
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+.osb-catalog p {
+  color: #475569;
+  margin-top: 8px;
+  max-width: 820px;
+}
+
+.osb-catalog-count {
+  background: #0f172a;
+  border-radius: 6px;
+  color: white;
+  flex: 0 0 auto;
+  font-weight: 800;
+  padding: 10px 14px;
+}
+
+.osb-catalog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.osb-replication-card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #dbe3ef;
+  border-radius: 8px;
+  flex: 1 1 560px;
+  overflow: hidden;
+}
+
+.osb-replication-card__header {
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+
+.osb-replication-card__title {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.osb-replication-card__meta {
+  color: #64748b;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.osb-source-link {
+  color: #0f766e;
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.osb-reference {
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px 16px;
+}
+
+.osb-reference img {
+  aspect-ratio: 16 / 9;
+  border: 1px solid #dbe3ef;
+  border-radius: 6px;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
+
+.osb-render-stage {
+  align-items: center;
+  aspect-ratio: 16 / 9;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 22px;
+}
+
+.osb-individual-body {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 5vw;
+}
+
+.osb-scoreboard {
+  color: var(--osb-text);
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  position: relative;
+}
+
+.osb-scoreboard [data-osb-component="field"] {
+  min-width: 0;
+}
+
+.osb-score-surface,
+.osb-full-main,
+.osb-courtside-surface {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.osb-competitor-row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-width: 0;
+  width: 100%;
+}
+
+.osb-identity {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.osb-name {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  font-weight: 900;
+  line-height: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.osb-meta-line {
+  align-items: center;
+  color: var(--osb-muted);
+  display: flex;
+  font-size: 10px;
+  font-weight: 800;
+  gap: 6px;
+  margin-top: 4px;
+  overflow: hidden;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.osb-rank,
+.osb-rating {
+  align-items: center;
+  display: flex;
+}
+
+.osb-flag {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.16);
+  flex: 0 0 27px;
+  height: 18px;
+  object-fit: cover;
+  width: 27px;
+}
+
+.osb-jersey {
+  align-self: stretch;
+  flex: 0 0 7px;
+  width: 7px;
+}
+
+.osb-jersey-a {
+  background: var(--osb-accent-a);
+}
+
+.osb-jersey-b {
+  background: var(--osb-accent-b);
+}
+
+.osb-serve {
+  align-items: center;
+  display: flex;
+  flex: 0 0 24px;
+  height: 22px;
+  justify-content: center;
+  width: 24px;
+}
+
+.osb-serve span {
+  background: var(--osb-highlight);
+  border-radius: 999px;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--osb-highlight), transparent 72%);
+  display: block;
+  height: 8px;
+  width: 8px;
+}
+
+.osb-match-score,
+.osb-current-score {
+  align-items: center;
+  display: flex;
+  font-variant-numeric: tabular-nums;
+  justify-content: center;
+}
+
+.osb-match-score {
+  color: var(--osb-muted);
+  flex: 0 0 36px;
+  font-size: 16px;
+  font-weight: 900;
+  width: 36px;
+}
+
+.osb-current-score {
+  color: var(--osb-score);
+  flex: 0 0 58px;
+  font-size: 34px;
+  font-weight: 950;
+  letter-spacing: 0;
+  line-height: 1;
+  width: 58px;
+}
+
+.osb-event,
+.osb-round,
+.osb-mini-sport {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.osb-event {
+  color: var(--osb-muted);
+}
+
+.osb-round {
+  color: var(--osb-text);
+}
+
+.osb-game-history {
+  display: flex;
+  gap: 14px;
+}
+
+.osb-history-row {
+  display: flex;
+  gap: 4px;
+}
+
+.osb-history-cell {
+  align-items: center;
+  border-top: 2px solid var(--osb-highlight);
+  color: var(--osb-muted);
+  display: flex;
+  font-size: 10px;
+  font-weight: 900;
+  height: 18px;
+  justify-content: center;
+  min-width: 22px;
+}
+
+.osb-signature-detail {
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
+.osb-signature-detail span {
+  border: 2px solid color-mix(in srgb, var(--osb-highlight), transparent 35%);
+  border-bottom: 0;
+  border-left: 0;
+  border-radius: 999px;
+  display: block;
+  height: 52px;
+  position: absolute;
+  right: 20px;
+  top: -8px;
+  transform: rotate(-8deg);
+  width: 160px;
+}
+
+.osb-lower-third {
+  background: var(--osb-board);
+  border: 1px solid var(--osb-outline);
+  border-radius: 8px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+  max-width: 780px;
+  min-height: 116px;
+  overflow: hidden;
+  padding: 12px 16px 10px;
+  width: min(92%, 780px);
+}
+
+.osb-top-ribbon {
+  align-items: center;
+  border-bottom: 3px solid var(--osb-highlight);
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+}
+
+.osb-ribbon-dots {
+  display: flex;
+  gap: 5px;
+}
+
+.osb-ribbon-dots i,
+.osb-full-serve-strip span,
+.osb-table-top span {
+  background: var(--osb-highlight);
+  display: block;
+}
+
+.osb-ribbon-dots i {
+  border-radius: 999px;
+  height: 5px;
+  width: 5px;
+}
+
+.osb-lower-third .osb-score-surface {
+  gap: 3px;
+}
+
+.osb-row-lower {
+  background: var(--osb-panel);
+  border-radius: 5px;
+  gap: 9px;
+  min-height: 36px;
+  padding: 5px 7px 5px 0;
+}
+
+.osb-row-lower.osb-side-b {
+  background: var(--osb-panel-2);
+}
+
+.osb-row-lower .osb-name {
+  font-size: 18px;
+}
+
+.osb-lower-third .osb-game-history {
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.osb-corner-bug {
+  background: var(--osb-board);
+  border: 1px solid var(--osb-outline);
+  border-radius: 7px 7px 3px 3px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.28);
+  max-width: 420px;
+  min-height: 92px;
+  overflow: hidden;
+  padding: 0;
+  width: min(72%, 420px);
+}
+
+.osb-corner-cap {
+  align-items: center;
+  background: color-mix(in srgb, var(--osb-panel), black 12%);
+  border-bottom: 2px solid var(--osb-highlight);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
+.osb-row-corner {
+  background: var(--osb-panel);
+  gap: 7px;
+  min-height: 30px;
+  padding: 3px 6px 3px 0;
+}
+
+.osb-row-corner.osb-side-b {
+  background: color-mix(in srgb, var(--osb-panel), white 7%);
+}
+
+.osb-row-corner .osb-name {
+  font-size: 13px;
+}
+
+.osb-row-corner .osb-flag {
+  flex-basis: 23px;
+  height: 15px;
+  width: 23px;
+}
+
+.osb-row-corner .osb-current-score {
+  background: linear-gradient(135deg, var(--osb-accent-a), var(--osb-accent-b));
+  color: #ffffff;
+  flex-basis: 42px;
+  font-size: 22px;
+  height: 30px;
+  width: 42px;
+}
+
+.osb-corner-tail {
+  background: var(--osb-highlight);
+  clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+  height: 5px;
+  width: 42%;
+}
+
+.osb-fullscreen-card {
+  aspect-ratio: 16 / 9;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--osb-bg), white 18%), var(--osb-bg)),
+    var(--osb-bg);
+  border: 1px solid var(--osb-outline);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.18);
+  justify-content: space-between;
+  max-width: 860px;
+  overflow: hidden;
+  padding: 34px 44px 30px;
+  width: min(96%, 860px);
+}
+
+.osb-full-header,
+.osb-full-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.osb-full-header {
+  border-bottom: 3px solid var(--osb-highlight);
+  padding-bottom: 10px;
+}
+
+.osb-full-serve-strip {
+  display: flex;
+  gap: 8px;
+}
+
+.osb-full-serve-strip span {
+  border-radius: 999px;
+  height: 7px;
+  width: 28px;
+}
+
+.osb-full-main {
+  gap: 13px;
+  position: relative;
+  z-index: 1;
+}
+
+.osb-row-full {
+  background: color-mix(in srgb, var(--osb-panel), white 8%);
+  border: 1px solid var(--osb-outline);
+  border-radius: 7px;
+  gap: 14px;
+  min-height: 84px;
+  padding: 12px 15px 12px 0;
+}
+
+.osb-row-full.osb-side-b {
+  background: var(--osb-panel-2);
+}
+
+.osb-row-full .osb-name {
+  font-size: 34px;
+}
+
+.osb-row-full .osb-current-score {
+  flex-basis: 112px;
+  font-size: 74px;
+  width: 112px;
+}
+
+.osb-row-full .osb-match-score {
+  background: color-mix(in srgb, var(--osb-highlight), white 55%);
+  border-radius: 4px;
+  color: var(--osb-score-text);
+  flex-basis: 46px;
+  height: 46px;
+  width: 46px;
+}
+
+.osb-row-full .osb-flag {
+  flex-basis: 45px;
+  height: 30px;
+  width: 45px;
+}
+
+.osb-point-state {
+  display: flex;
+  gap: 8px;
+}
+
+.osb-state-pill {
+  border: 1px solid var(--osb-outline);
+  border-radius: 999px;
+  color: var(--osb-muted);
+  font-size: 10px;
+  font-weight: 900;
+  padding: 5px 8px;
+  text-transform: uppercase;
+}
+
+.osb-courtside-board {
+  aspect-ratio: 16 / 9;
+  background: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--osb-highlight), transparent 62%), transparent 34%), var(--osb-bg);
+  border: 1px solid var(--osb-outline);
+  justify-content: center;
+  max-width: 860px;
+  overflow: hidden;
+  padding: 74px 70px 88px;
+  width: min(96%, 860px);
+}
+
+.osb-table-top {
+  display: flex;
+  gap: 8px;
+  left: 50%;
+  position: absolute;
+  top: 42px;
+  transform: translateX(-50%);
+}
+
+.osb-table-top span {
+  height: 8px;
+  width: 56px;
+}
+
+.osb-courtside-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.osb-courtside-surface {
+  background: color-mix(in srgb, var(--osb-board), black 12%);
+  border: 4px solid var(--osb-outline);
+  box-shadow: 0 20px 0 color-mix(in srgb, var(--osb-board), black 28%);
+}
+
+.osb-row-court {
+  background: var(--osb-panel);
+  border-bottom: 2px solid var(--osb-outline);
+  gap: 12px;
+  min-height: 76px;
+  padding: 10px 12px 10px 0;
+}
+
+.osb-row-court.osb-side-b {
+  background: var(--osb-panel-2);
+  border-bottom: 0;
+}
+
+.osb-row-court .osb-name {
+  font-size: 28px;
+}
+
+.osb-row-court .osb-current-score {
+  background: var(--osb-highlight);
+  border-radius: 2px;
+  color: var(--osb-score-text);
+  flex-basis: 86px;
+  font-size: 58px;
+  height: 64px;
+  width: 86px;
+}
+
+.osb-row-court .osb-match-score {
+  flex-basis: 42px;
+  font-size: 22px;
+  width: 42px;
+}
+
+.osb-courtside-history {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.osb-motif-led-ribbon .osb-top-ribbon,
+.osb-motif-led-ribbon .osb-full-header {
+  border-bottom-style: dotted;
+}
+
+.osb-motif-paddle-blade .osb-signature-detail span {
+  border-radius: 80% 20% 80% 20%;
+  height: 84px;
+  right: -18px;
+  top: 10px;
+  transform: rotate(18deg);
+  width: 84px;
+}
+
+.osb-motif-net-knot .osb-signature-detail span {
+  border-left: 2px solid color-mix(in srgb, var(--osb-highlight), transparent 30%);
+  border-radius: 10px;
+  height: 68px;
+  right: 34px;
+  top: -20px;
+  transform: rotate(42deg);
+  width: 68px;
+}
+
+.osb-motif-spin-arc .osb-signature-detail span {
+  height: 80px;
+  right: 8px;
+  top: -24px;
+  width: 230px;
+}
+
+.osb-motif-hex-table .osb-courtside-surface,
+.osb-motif-hex-table .osb-lower-third {
+  clip-path: polygon(4% 0, 96% 0, 100% 18%, 100% 82%, 96% 100%, 4% 100%, 0 82%, 0 18%);
+}
+
+@media (max-width: 720px) {
+  .osb-catalog {
+    padding: 18px;
+  }
+
+  .osb-catalog > header {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .osb-catalog-grid {
+    flex-direction: column;
+  }
+
+  .osb-render-stage {
+    padding: 10px;
+  }
+
+  .osb-row-full .osb-name {
+    font-size: 22px;
+  }
+
+  .osb-row-full .osb-current-score {
+    flex-basis: 76px;
+    font-size: 48px;
+    width: 76px;
+  }
+
+  .osb-row-lower .osb-name {
+    font-size: 13px;
+  }
+
+  .osb-current-score {
+    flex-basis: 44px;
+    font-size: 26px;
+    width: 44px;
+  }
+
+  .osb-flag,
+  .osb-meta-line,
+  .osb-game-history {
+    display: none;
+  }
+}
+
+/* OpenScoreboard paired A/B layout override */
+html, body, body.osb-individual-body, .osb-render-stage { background: transparent !important; }
+body.osb-individual-body { min-height: 100vh; padding: clamp(.65rem, 3vw, 2.4rem); }
+.osb-scoreboard { max-width: 100%; min-width: 0; width: fit-content; }
+.osb-render-stage [data-osb-component="layout"] { display: flex; min-width: 0; }
+.osb-render-stage .rowContainer { flex-direction: row; }
+.osb-render-stage .columnContainer { flex-direction: column; }
+.osb-paired-surface {
+  align-items: stretch;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 0 !important;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0 !important;
+  width: fit-content !important;
+}
+.osb-field-stack {
+  align-items: stretch;
+  display: flex !important;
+  flex: 0 0 auto;
+  flex-direction: column !important;
+  min-width: 0;
+}
+.osb-field-stack > [data-osb-field],
+.osb-field-stack > .osb-player-cell,
+.osb-field-stack > .osb-field-slot {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0 !important;
+  justify-content: center;
+  min-block-size: var(--osb-row-height, clamp(2.9rem, 6vw, 4.4rem));
+  min-width: 0;
+}
+.osb-field-stack > * + * { border-top: 1px solid var(--osb-outline); }
+.osb-jersey-stack { flex-basis: .48rem !important; }
+.osb-jersey { flex: 1 1 0 !important; height: auto !important; min-inline-size: .48rem; width: auto !important; }
+.osb-jersey-a { background: var(--osb-accent-a); }
+.osb-jersey-b { background: var(--osb-accent-b); }
+.osb-flag-stack { padding-inline: .28rem; }
+.osb-flag {
+  aspect-ratio: 3 / 2;
+  flex: 0 1 auto !important;
+  height: auto !important;
+  margin: .42rem .22rem;
+  max-inline-size: clamp(2rem, 4.8vw, 3.1rem);
+  object-fit: cover;
+  width: auto !important;
+}
+.osb-name-stack { flex: 1 1 auto !important; inline-size: fit-content; max-inline-size: min(58vw, 36rem); min-width: 0; }
+.osb-player-cell { align-items: stretch !important; flex-direction: column; justify-content: center !important; padding: .5rem clamp(.62rem, 1.8vw, 1.15rem); }
+.osb-player-cell.osb-side-a { background: var(--osb-panel); }
+.osb-player-cell.osb-side-b { background: var(--osb-panel-2); }
+.osb-name { flex: 0 1 auto !important; height: auto !important; max-width: 100%; min-inline-size: min(28vw, 9ch); min-width: 0; width: auto !important; }
+.osb-meta-line { width: auto !important; }
+.osb-service-stack { padding-inline: .32rem; }
+.osb-field-slot { min-inline-size: 1.3rem; }
+.osb-serve { flex: 1 1 0 !important; height: 100% !important; width: 100% !important; }
+.isBCurrentlyServing { opacity: 0; }
+.osb-match-score-stack, .osb-current-score-stack { flex: 0 0 auto !important; }
+.osb-match-score, .osb-current-score {
+  flex: 1 1 0 !important;
+  font-variant-numeric: tabular-nums;
+  height: auto !important;
+  min-inline-size: 2.3ch;
+  padding-inline: clamp(.42rem, 1.2vw, .72rem);
+  width: auto !important;
+}
+.osb-current-score.osb-side-a { background: var(--osb-accent-a); color: var(--osb-accent-a-text); }
+.osb-current-score.osb-side-b { background: var(--osb-accent-b); color: var(--osb-accent-b-text); }
+.osb-history-pairs { align-items: stretch; display: flex; flex-direction: row; flex-wrap: nowrap; width: fit-content; }
+.osb-history-stack { border-left: 1px solid var(--osb-outline); display: flex; flex-direction: column; }
+.osb-history-stack:last-child { border-right: 1px solid var(--osb-outline); }
+.osb-history-cell {
+  align-items: center;
+  display: flex !important;
+  flex: 1 1 0;
+  font-variant-numeric: tabular-nums;
+  justify-content: center;
+  line-height: 1.1;
+  min-inline-size: 2.35ch;
+  padding: .2rem .38rem !important;
+  width: auto !important;
+}
+.osb-history-cell + .osb-history-cell { border-top: 1px solid var(--osb-outline); }
+.osb-lower-third { max-width: 92vw; }
+.osb-corner-bug { --osb-row-height: clamp(2.5rem, 5vw, 3.35rem); max-width: 78vw; }
+.osb-fullscreen-card {
+  --osb-row-height: clamp(4.6rem, 9vw, 8rem);
+  aspect-ratio: 16 / 9;
+  justify-content: center;
+  max-width: 96vw;
+  min-height: min(84vh, 42rem);
+  padding: clamp(1.4rem, 4vw, 4rem) !important;
+  width: min(96vw, 72rem) !important;
+}
+.osb-fullscreen-card .osb-paired-surface { width: 100% !important; }
+.osb-fullscreen-card .osb-name-stack { max-inline-size: none; }
+.osb-fullscreen-card .osb-game-history { display: flex; flex: 1 1 auto; justify-content: flex-end; }
+.osb-courtside-board {
+  --osb-row-height: clamp(4rem, 8vw, 6.4rem);
+  max-width: 96vw;
+  padding: clamp(1rem, 2.8vw, 2.5rem) !important;
+  width: min(94vw, 68rem) !important;
+}
+.osb-courtside-board .osb-paired-surface { width: 100% !important; }
+.osb-courtside-board .osb-name-stack { max-inline-size: none; }
+@media (max-width: 38rem) {
+  body.osb-individual-body { padding: .45rem; }
+  .osb-flag-stack { display: none !important; }
+  .osb-name { min-inline-size: 7ch; }
+  .osb-player-cell { padding-inline: .45rem; }
+  .osb-fullscreen-card { aspect-ratio: auto; min-height: 72vh; width: 96vw !important; }
+}
+  </style>
+</head>
+<body class="osb-individual-body">
+<main class="osb-render-stage">
+<article class="osb-scoreboard osb-placement-lower-third osb-palette-classic osb-motif-score-ribbon osb-lower-third columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" data-source-image="table_tennis_scoreboard_overlay_2.png" style="--osb-bg:#101624;--osb-board:#0c1220;--osb-panel:#152033;--osb-panel-2:#182438;--osb-text:#f8fafc;--osb-muted:#9fb2cf;--osb-accent-a:#e11d35;--osb-accent-a-text:#ffffff;--osb-accent-b:#0869c4;--osb-accent-b-text:#ffffff;--osb-highlight:#10c8c1;--osb-score:#ffffff;--osb-score-text:#ffffff;--osb-outline:#263650">
+  <div class="osb-top-ribbon"><div class="osb-event eventName" data-osb-component="field" data-osb-field="eventName"></div><div class="osb-round matchRound" data-osb-component="field" data-osb-field="matchRound"></div><span class="osb-ribbon-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
+  <div class="osb-paired-surface osb-row-lower rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <div class="osb-field-stack osb-jersey-stack columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="osb-jersey osb-jersey-a osb-side-a jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></div>
+      <div class="osb-jersey osb-jersey-b osb-side-b jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></div>
+    </div>
+    <div class="osb-field-stack osb-flag-stack columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <img class="osb-flag countryA osb-side-a" data-osb-component="field" data-osb-field="countryA" alt="Side A flag" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%23e11d35'/%3E%3Ctext x='1.5' y='1.3' text-anchor='middle' font-family='Arial' font-size='.65' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+      <img class="osb-flag countryB osb-side-b" data-osb-component="field" data-osb-field="countryB" alt="Side B flag" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%230869c4'/%3E%3Ctext x='1.5' y='1.3' text-anchor='middle' font-family='Arial' font-size='.65' fill='white'%3EB%3C/text%3E%3C/svg%3E">
+    </div>
+    <div class="osb-field-stack osb-name-stack columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="osb-player-cell osb-side-a"><div class="osb-name osb-side-a combinedAName" data-osb-component="field" data-osb-field="combinedAName"></div><div class="osb-meta-line"><div class="osb-rank rankingA" data-osb-component="field" data-osb-field="rankingA"></div><div class="osb-rating ratingA" data-osb-component="field" data-osb-field="ratingA"></div></div></div>
+      <div class="osb-player-cell osb-side-b"><div class="osb-name osb-side-b combinedBName" data-osb-component="field" data-osb-field="combinedBName"></div><div class="osb-meta-line"><div class="osb-rank rankingB" data-osb-component="field" data-osb-field="rankingB"></div><div class="osb-rating ratingB" data-osb-component="field" data-osb-field="ratingB"></div></div></div>
+    </div>
+    <div class="osb-field-stack osb-service-stack columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="osb-field-slot"><div class="osb-serve osb-side-a isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" isA="true"><span></span></div></div>
+      <div class="osb-field-slot"><div class="osb-serve osb-side-b isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing"><span></span></div></div>
+    </div>
+    <div class="osb-field-stack osb-match-score-stack columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="osb-match-score osb-side-a currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</div>
+      <div class="osb-match-score osb-side-b currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</div>
+    </div>
+    <div class="osb-field-stack osb-current-score-stack columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="osb-current-score osb-side-a currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</div>
+      <div class="osb-current-score osb-side-b currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</div>
+    </div>
+  </div>
+  <div class="osb-game-history osb-history-pairs rowContainer"><div class="osb-history-stack columnContainer isGame1Started" data-osb-component="field" data-osb-field="isGame1Started">
+      <div class="osb-history-cell osb-side-a game1AScore" data-osb-component="field" data-osb-field="game1AScore">0</div>
+      <div class="osb-history-cell osb-side-b game1BScore" data-osb-component="field" data-osb-field="game1BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame2Started" data-osb-component="field" data-osb-field="isGame2Started">
+      <div class="osb-history-cell osb-side-a game2AScore" data-osb-component="field" data-osb-field="game2AScore">0</div>
+      <div class="osb-history-cell osb-side-b game2BScore" data-osb-component="field" data-osb-field="game2BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame3Started" data-osb-component="field" data-osb-field="isGame3Started">
+      <div class="osb-history-cell osb-side-a game3AScore" data-osb-component="field" data-osb-field="game3AScore">0</div>
+      <div class="osb-history-cell osb-side-b game3BScore" data-osb-component="field" data-osb-field="game3BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame4Started" data-osb-component="field" data-osb-field="isGame4Started">
+      <div class="osb-history-cell osb-side-a game4AScore" data-osb-component="field" data-osb-field="game4AScore">0</div>
+      <div class="osb-history-cell osb-side-b game4BScore" data-osb-component="field" data-osb-field="game4BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame5Started" data-osb-component="field" data-osb-field="isGame5Started">
+      <div class="osb-history-cell osb-side-a game5AScore" data-osb-component="field" data-osb-field="game5AScore">0</div>
+      <div class="osb-history-cell osb-side-b game5BScore" data-osb-component="field" data-osb-field="game5BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame6Started" data-osb-component="field" data-osb-field="isGame6Started">
+      <div class="osb-history-cell osb-side-a game6AScore" data-osb-component="field" data-osb-field="game6AScore">0</div>
+      <div class="osb-history-cell osb-side-b game6BScore" data-osb-component="field" data-osb-field="game6BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame7Started" data-osb-component="field" data-osb-field="isGame7Started">
+      <div class="osb-history-cell osb-side-a game7AScore" data-osb-component="field" data-osb-field="game7AScore">0</div>
+      <div class="osb-history-cell osb-side-b game7BScore" data-osb-component="field" data-osb-field="game7BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame8Started" data-osb-component="field" data-osb-field="isGame8Started">
+      <div class="osb-history-cell osb-side-a game8AScore" data-osb-component="field" data-osb-field="game8AScore">0</div>
+      <div class="osb-history-cell osb-side-b game8BScore" data-osb-component="field" data-osb-field="game8BScore">0</div>
+    </div>
+<div class="osb-history-stack columnContainer isGame9Started" data-osb-component="field" data-osb-field="isGame9Started">
+      <div class="osb-history-cell osb-side-a game9AScore" data-osb-component="field" data-osb-field="game9AScore">0</div>
+      <div class="osb-history-cell osb-side-b game9BScore" data-osb-component="field" data-osb-field="game9BScore">0</div>
+    </div></div>
+  <div class="osb-signature-detail" aria-hidden="true"><span></span></div>
+</article>
+</main>
+</body>
+</html>

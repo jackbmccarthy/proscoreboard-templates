@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProScoreboard Studio</title>
+  <link rel="stylesheet" href="/studio.css">
+  <script type="module" src="/studio.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand"><img class="brand-mark" src="/brand/icon.webp" alt=""><h1>ProScoreboard <span>Studio</span></h1></div>
+    <span id="connection" class="connection">Connecting</span>
+    <a id="export" class="button header-export" download>Export brief</a>
+  </header>
+  <div id="notice" class="notice" role="status" hidden><span id="notice-text"></span><button id="reload" hidden>Reload latest</button><button id="dismiss" class="icon-button" aria-label="Dismiss notice" title="Dismiss notice" data-icon="close"></button></div>
+  <div id="unsaved" class="unsaved" role="status" hidden>Unsaved changes<span id="dirty-detail"></span></div>
+  <main class="workspace">
+    <aside class="library" aria-label="Template library">
+      <div class="section-heading"><h2>Templates</h2><span id="template-count" class="count">0</span></div>
+      <label class="search"><span data-icon="search"></span><input id="search" type="search" aria-label="Search templates" placeholder="Search templates"></label>
+      <div class="segmented filters" aria-label="Template status"><button id="active-filter" aria-pressed="true">Active</button><button id="archived-filter" aria-pressed="false">Archived</button></div>
+      <div id="template-list" class="template-list" aria-label="Templates"></div>
+    </aside>
+    <section class="editor" aria-label="Template workspace">
+      <div class="document-heading"><div><h2 id="template-title">Loading templates</h2><div id="template-meta" class="muted"></div></div><span id="publication" class="badge" hidden></span></div>
+      <div class="editor-toolbar"><div class="tabs" role="tablist" aria-label="Editor views"><button id="preview-tab" role="tab" aria-selected="true" aria-controls="preview-panel">Preview</button><button id="source-tab" role="tab" aria-selected="false" aria-controls="source-panel">Raw Source</button></div><button id="save-source" class="primary" disabled>Save source</button></div>
+      <div id="preview-panel" role="tabpanel" aria-labelledby="preview-tab">
+        <div class="preview-toolbar"><label class="reference-toggle"><input id="reference-toggle" type="checkbox" disabled>Original reference</label><div class="zoom"><button id="zoom-out" class="icon-button" aria-label="Zoom out" title="Zoom out">&minus;</button><output id="zoom-value">Fit</output><button id="zoom-in" class="icon-button" aria-label="Zoom in" title="Zoom in" data-icon="plus"></button><button id="zoom-fit" class="icon-button" aria-label="Fit preview" title="Fit preview" data-icon="monitor"></button></div></div>
+        <div id="preview-viewport" class="preview-viewport"><div id="preview-size"><div id="preview-stage"><iframe id="preview" title="Template preview" sandbox="allow-same-origin" referrerpolicy="no-referrer"></iframe><img id="reference" alt="Original template reference" hidden><div id="selection-outline" hidden></div></div></div></div>
+        <div class="preview-footer"><span>1280 &times; 720</span><span id="preview-status">Scripts disabled</span></div>
+        <section class="inspector" aria-label="Element inspector"><div class="section-heading"><h2>Element inspector</h2><button id="clear-selection" class="icon-button" aria-label="Clear selection" title="Clear selection" data-icon="close" disabled></button></div><div id="selection-empty" class="empty">No element selected</div><div id="selection-details" hidden><dl class="element-facts"><dt>Selector</dt><dd id="element-selector"></dd><dt>Tag</dt><dd id="element-tag"></dd><dt>Classes</dt><dd id="element-classes"></dd><dt>Binding</dt><dd id="element-field"></dd></dl><details open><summary>Authored CSS</summary><pre id="authored-css"></pre></details><details><summary>Computed CSS</summary><pre id="computed-css"></pre></details><details><summary>Element HTML</summary><pre id="element-html"></pre></details></div></section>
+      </div>
+      <section id="source-panel" role="tabpanel" aria-labelledby="source-tab" hidden><div class="source-caption"><span>HTML + CSS</span><span id="source-hash"></span></div><textarea id="source" aria-label="Raw HTML and CSS source" spellcheck="false" wrap="off"></textarea></section>
+    </section>
+    <aside class="reviews" aria-label="Review notes"><div class="section-heading"><h2>Review notes</h2><span id="note-count" class="count">0</span></div><form id="note-form"><div class="note-form-toolbar"><label>Kind<select id="note-kind"><option value="add">Add</option><option value="remove">Remove</option><option value="restyle">Restyle</option><option value="binding">Binding</option><option value="general">General</option></select></label><label>Status<select id="note-status"><option value="open">Open</option><option value="resolved">Resolved</option></select></label></div><div id="note-context" class="note-context">Template-level note</div><label class="note-label" for="note-text">Requested change</label><textarea id="note-text" rows="5" placeholder="Describe the change and expected result" required></textarea><div class="note-actions"><button id="cancel-note" type="button" hidden>Cancel edit</button><button id="add-note" class="primary" type="submit" disabled>Add note</button></div></form><div class="review-list-heading"><span id="review-summary">0 open</span><button id="save-notes" disabled>Save notes</button></div><div id="note-list" class="note-list"></div></aside>
+  </main>
+</body>
+</html>
