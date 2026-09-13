@@ -264,6 +264,42 @@ test('symlinked source directory is rejected, including writes', async t => {
   assert.equal((await put('/api/template', { id, expectedHash: hash(initialHTML), html: initialHTML })).status, 403);
 });
 
+async function* changeNotices(reader) {
+  const decoder = new TextDecoder();
+  let buffer = '';
+  while (true) {
+    const result = await reader.read();
+    assert.ok(!result.done, 'SSE ended before the expected change');
+    buffer += decoder.decode(result.value, { stream: true });
+    const frames = buffer.split('\n\n');
+    buffer = frames.pop();
+    for (const frame of frames) {
+      if (!frame.includes('event: change')) continue;
+      const notice = JSON.parse(frame.split('\n').find(line => line.startsWith('data: ')).slice(6));
+      assert.ok(!Object.hasOwn(notice, 'html'));
+      assert.ok(Object.keys(notice).every(key => ['type', 'id'].includes(key)));
+      yield notice;
+    }
+  }
+}
+
+test('SSE harness retains coalesced events and reconstructs split frames', async () => {
+  const chunks = [': connected\n\nevent: change\ndata: {"type":"template","id":"001-test"}\n\nevent: cha',
+    'nge\ndata: {"type":"review","id":"001-test"}\n\nevent: change\ndata: {"type":"catalog"}\n\n'];
+  const reader = new ReadableStream({
+    start(controller) {
+      for (const chunk of chunks) controller.enqueue(Buffer.from(chunk));
+      controller.close();
+    },
+  }).getReader();
+  const notices = changeNotices(reader);
+  assert.deepEqual((await notices.next()).value, { type: 'template', id });
+  assert.deepEqual((await notices.next()).value, { type: 'review', id });
+  assert.deepEqual((await notices.next()).value, { type: 'catalog' });
+  await notices.return();
+  await reader.cancel();
+});
+
 test('SSE reports external source/review/manifest changes without sending source HTML', async t => {
   const { studio, root, sourcePath } = await fixture(t);
   const controller = new AbortController();
@@ -271,39 +307,39 @@ test('SSE reports external source/review/manifest changes without sending source
   const response = await fetch(`${studio.url}/api/events`, { signal: controller.signal });
   assert.equal(response.headers.get('content-type'), 'text/event-stream');
   const reader = response.body.getReader();
-  const decoder = new TextDecoder();
-  let buffer = '';
-  async function nextNotice(type) {
-    const deadline = AbortSignal.timeout(4_000);
-    while (true) {
-      const read = reader.read();
-      let cancel;
-      const timeout = new Promise((_, reject) => {
-        cancel = () => reject(new Error(`Missing ${type} notice`));
-        deadline.addEventListener('abort', cancel, { once: true });
-      });
-      let result;
-      try { result = await Promise.race([read, timeout]); }
-      finally { deadline.removeEventListener('abort', cancel); }
-      assert.ok(!result.done);
-      buffer += decoder.decode(result.value, { stream: true });
-      const frames = buffer.split('\n\n');
-      buffer = frames.pop();
-      for (const frame of frames) {
-        if (!frame.includes('event: change')) continue;
-        const notice = JSON.parse(frame.split('\n').find(line => line.startsWith('data: ')).slice(6));
-        assert.ok(!Object.hasOwn(notice, 'html'));
-        if (notice.type === type) return notice;
+  const notices = changeNotices(reader);
+  async function nextNotice(type, expectedId) {
+    const timeout = setTimeout(() => controller.abort(new Error(`Missing ${type} notice for ${expectedId ?? 'catalog'}`)), 4_000);
+    try {
+      while (true) {
+        const { value } = await notices.next();
+        if (value.type === type && value.id === expectedId) return value;
       }
+    } finally { clearTimeout(timeout); }
+  }
+  // fs.watch has no ready event. Observe actual callbacks before the one-shot edits;
+  // the probes retry only until that condition is met, never for an asserted edit.
+  for (const [directory, type, extension] of [['templates/html-replications', 'template', 'html'], ['reviews', 'review', 'json']]) {
+    const probeId = 'watch-ready';
+    const probePath = path.join(root, directory, `${probeId}.${extension}`);
+    let result;
+    const ready = nextNotice(type, probeId).then(value => { result = { value }; }, error => { result = { error }; });
+    try {
+      while (!result) await writeFile(probePath, '');
+      await ready;
+      if (result.error) throw result.error;
+    } finally {
+      await rm(probePath, { force: true });
     }
   }
   await writeFile(sourcePath, initialHTML.replace('Player A', 'External Edit'));
-  assert.equal((await nextNotice('template')).id, id);
+  assert.equal((await nextNotice('template', id)).id, id);
   await writeFile(path.join(root, 'reviews', `${id}.json`), JSON.stringify({ revision: 1, notes: [] }));
-  assert.equal((await nextNotice('review')).id, id);
+  assert.equal((await nextNotice('review', id)).id, id);
   const manifestPath = path.join(root, 'templates/html-replications/manifest.json');
   await writeFile(manifestPath, await readFile(manifestPath));
   assert.equal((await nextNotice('catalog')).type, 'catalog');
+  await notices.return();
   await reader.cancel();
 });
 

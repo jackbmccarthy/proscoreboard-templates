@@ -19,8 +19,8 @@ jobs:
       - name: Check JavaScript syntax
         run: node tools/check-syntax.mjs
       - name: Verify deterministic catalog and immutable documents
-        run: node tools/build-catalog.mjs --check
+        run: npm run catalog:check
       - name: Run local contract, corpus and studio harnesses
-        run: node --test tools/*.test.mjs studio/server.test.mjs
+        run: npm test
       - name: Report export hygiene
         run: node tools/audit-export.mjs --check

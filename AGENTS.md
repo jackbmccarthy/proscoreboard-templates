@@ -31,6 +31,16 @@ The standalone contract contains only safe static helpers and public runtime met
 
 ## Review Workflow
 
+Social graphics live in `social/templates/<id>.json`, with metadata in
+`social/manifest.json`, generated `social/catalog.json`, and immutable JSON documents
+under `social/published/`. These are typed layer documents, not scoreboard HTML.
+Use `social/contract.mjs` to validate them and `social/renderer.mjs` for canvas output.
+Keep layer IDs stable so review feedback stays attached to the correct element.
+Social review files live separately under `reviews/social/`. Do not add real competitor
+names to bound text; sample values are preview-only. Empty image slots render nothing.
+The main application's vendored contract/renderer must be updated and parity-tested
+when those shared modules change. Never fetch or publish private user templates.
+
 Read `reviews/<template-id>.json` annotations and the downloaded `<template-id>-brief.md`
 as requested edits, verify the referenced
 template/revision, and edit only the relevant authoring file. Preserve other agents' changes.
@@ -51,7 +61,7 @@ bindings, point states, legacy hierarchy, original-image exclusion, deterministi
 generation, path safety and historical hash retention. Report changed files, verification
 evidence and remaining risks. Warnings require judgment, not silent rewrites.
 
-Only documented root files, tools, contract, studio, reviews, templates,
+Only documented root files, tools, contract, studio, reviews, templates, social,
 immutable published documents and validation-only CI belong in the export. Keep
 `.DS_Store`, secrets, hidden local state and caches out. The owner audits and publishes;
 this contract does not grant publication authority or infer rights to third-party assets.

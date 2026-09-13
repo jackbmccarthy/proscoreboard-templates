@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "revision": "36baa51ecaf51d08df916e1f95864444406628a69f4a579d8b7d640473284cec",
+  "templates": [
+    {
+      "id": "starter-champion",
+      "name": "Champion announcement",
+      "description": "The original square champion starter: a lime accent, oversized live champion name, and a dark title footer.",
+      "category": "winners",
+      "preset": "square",
+      "width": 1080,
+      "height": 1080,
+      "colors": [
+        "#f2f4f7",
+        "#e4ff3f",
+        "#141820"
+      ],
+      "published": true,
+      "contentHash": "7f6737348b402d1d8a3d42f090171f8decfff6b78f6ffb4e9b81dfd75b0b222e",
+      "documentPath": "social/published/7f6737348b402d1d8a3d42f090171f8decfff6b78f6ffb4e9b81dfd75b0b222e.json"
+    },
+    {
+      "id": "starter-event-courtline",
+      "name": "Event courtline",
+      "description": "A wide event cover with open court-line geometry, large event naming, and a contrasting date rail.",
+      "category": "event",
+      "preset": "facebookCover",
+      "width": 1640,
+      "height": 630,
+      "colors": [
+        "#145442",
+        "#d7f268",
+        "#ffffff"
+      ],
+      "published": true,
+      "contentHash": "93742337a6df0bf6f9594f2a30fc54443681dc4abeb2c6b43448b78fff2c87ec",
+      "documentPath": "social/published/93742337a6df0bf6f9594f2a30fc54443681dc4abeb2c6b43448b78fff2c87ec.json"
+    },
+    {
+      "id": "starter-event-yellow-poster",
+      "name": "Event yellow poster",
+      "description": "A high-contrast typographic event poster with a black information band and offset editorial rules.",
+      "category": "event",
+      "preset": "pinterestPin",
+      "width": 1000,
+      "height": 1500,
+      "colors": [
+        "#f7dc41",
+        "#191919",
+        "#ffffff"
+      ],
+      "published": true,
+      "contentHash": "9db2a3a9e0a055f43eb88db389eca91902d757d9bfce8e1d0de9f586fa95c389",
+      "documentPath": "social/published/9db2a3a9e0a055f43eb88db389eca91902d757d9bfce8e1d0de9f586fa95c389.json"
+    },
+    {
+      "id": "starter-final-score",
+      "name": "Final score",
+      "description": "The original dark square result starter with stacked competitor rows and mint score accents.",
+      "category": "results",
+      "preset": "square",
+      "width": 1080,
+      "height": 1080,
+      "colors": [
+        "#101820",
+        "#27323d",
+        "#80e9d1"
+      ],
+      "published": true,
+      "contentHash": "28f42197bd7694da1e681aa4aec643a5236d1aeda91e1bc74959fc28ac1f17e7",
+      "documentPath": "social/published/28f42197bd7694da1e681aa4aec643a5236d1aeda91e1bc74959fc28ac1f17e7.json"
+    },
+    {
+      "id": "starter-laureate-editorial",
+      "name": "Laureate editorial",
+      "description": "A restrained portrait announcement pairing serif champion typography with a green masthead and runner-up credit.",
+      "category": "winners",
+      "preset": "pinterestPin",
+      "width": 1000,
+      "height": 1500,
+      "colors": [
+        "#ffffff",
+        "#173b30",
+        "#c9a53b"
+      ],
+      "published": true,
+      "contentHash": "e3538ed98db59b018bff0aef19c7ce9723b6419e109fae012a22eee2a7345961",
+      "documentPath": "social/published/e3538ed98db59b018bff0aef19c7ce9723b6419e109fae012a22eee2a7345961.json"
+    },
+    {
+      "id": "starter-match-day",
+      "name": "Match day",
+      "description": "The original warm portrait fixture starter with a vermilion edge stripe and vertically paired competitor names.",
+      "category": "matchday",
+      "preset": "portrait",
+      "width": 1080,
+      "height": 1350,
+      "colors": [
+        "#fff7ed",
+        "#e44d26",
+        "#252525"
+      ],
+      "published": true,
+      "contentHash": "6e1f2cf0a47e37c33d5ee1aa629aafdcb7a581b12290d82849149a4562c5f11b",
+      "documentPath": "social/published/6e1f2cf0a47e37c33d5ee1aa629aafdcb7a581b12290d82849149a4562c5f11b.json"
+    },
+    {
+      "id": "starter-matchday-duotone",
+      "name": "Matchday duotone",
+      "description": "A vertical two-tone fixture poster with opposing name blocks, a central versus bar, and a dedicated event footer.",
+      "category": "matchday",
+      "preset": "instagramStory",
+      "width": 1080,
+      "height": 1920,
+      "colors": [
+        "#c5f1dd",
+        "#ec5683",
+        "#151515"
+      ],
+      "published": true,
+      "contentHash": "679b0d9989c1a9afb694dbc280558c08363f25c78e5d1ef205cefc865f3ac76d",
+      "documentPath": "social/published/679b0d9989c1a9afb694dbc280558c08363f25c78e5d1ef205cefc865f3ac76d.json"
+    },
+    {
+      "id": "starter-recap-pressbox",
+      "name": "Recap pressbox",
+      "description": "An editorial recap for professional feeds, combining a serif winner headline with a compact result rail.",
+      "category": "recap",
+      "preset": "linkedinLandscape",
+      "width": 1200,
+      "height": 627,
+      "colors": [
+        "#f7f7f7",
+        "#0d655d",
+        "#202020"
+      ],
+      "published": true,
+      "contentHash": "911b1181d8cd981e3b9bba5890a3bb356e7407a8b552ee1eab95c0fd00815ca1",
+      "documentPath": "social/published/911b1181d8cd981e3b9bba5890a3bb356e7407a8b552ee1eab95c0fd00815ca1.json"
+    },
+    {
+      "id": "starter-recap-scorecast",
+      "name": "Recap scorecast",
+      "description": "A broadcast recap thumbnail balancing a cyan editorial panel with a two-row result block.",
+      "category": "recap",
+      "preset": "youtubeThumbnail",
+      "width": 1280,
+      "height": 720,
+      "colors": [
+        "#151515",
+        "#56dce2",
+        "#ee394b",
+        "#ffffff"
+      ],
+      "published": true,
+      "contentHash": "69a9bbc59053b9ba59d1bac7b5d45190e8d9219e77ffa894bdcc7ae824059ade",
+      "documentPath": "social/published/69a9bbc59053b9ba59d1bac7b5d45190e8d9219e77ffa894bdcc7ae824059ade.json"
+    },
+    {
+      "id": "starter-result-split",
+      "name": "Result split",
+      "description": "A compact feed result with oversized central scores and paired, equally weighted competitor columns.",
+      "category": "results",
+      "preset": "facebookLandscape",
+      "width": 1200,
+      "height": 630,
+      "colors": [
+        "#ffffff",
+        "#171717",
+        "#007d72"
+      ],
+      "published": true,
+      "contentHash": "524235b562347701c9c5ca072df3664d7f4a3d35fc24573e6c5cc6d92d460db1",
+      "documentPath": "social/published/524235b562347701c9c5ca072df3664d7f4a3d35fc24573e6c5cc6d92d460db1.json"
+    },
+    {
+      "id": "starter-result-verdict",
+      "name": "Result verdict",
+      "description": "A portrait results sheet with a large final heading, inset score columns, and a burgundy winner footer.",
+      "category": "results",
+      "preset": "instagramPortrait",
+      "width": 1080,
+      "height": 1350,
+      "colors": [
+        "#e6e8eb",
+        "#1d1d1d",
+        "#bd2341",
+        "#ffffff"
+      ],
+      "published": true,
+      "contentHash": "614ffa664b66897298e64ccf25dfe497469193a14eb888ac300e08cb495b6d1b",
+      "documentPath": "social/published/614ffa664b66897298e64ccf25dfe497469193a14eb888ac300e08cb495b6d1b.json"
+    },
+    {
+      "id": "starter-victory-redline",
+      "name": "Victory redline",
+      "description": "A bold horizontal victory announcement with a red title rail and generous winner typography.",
+      "category": "winners",
+      "preset": "xLandscape",
+      "width": 1600,
+      "height": 900,
+      "colors": [
+        "#f5f5f5",
+        "#dc2638",
+        "#191919"
+      ],
+      "published": true,
+      "contentHash": "561f6830f17a534051cee5786ea373d85f3625f72c76d78749abf6f885a56e65",
+      "documentPath": "social/published/561f6830f17a534051cee5786ea373d85f3625f72c76d78749abf6f885a56e65.json"
+    }
+  ]
+}

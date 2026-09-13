@@ -19,5 +19,5 @@ async function check(directory) {
 }
 
 let count = 0;
-for (const directory of ['tools', 'contract', 'studio']) count += await check(path.join(DEFAULT_ROOT, directory));
+for (const directory of ['tools', 'contract', 'studio', 'social']) count += await check(path.join(DEFAULT_ROOT, directory));
 console.log(`Syntax checked ${count} JavaScript files; no transpiler or external linter required.`);

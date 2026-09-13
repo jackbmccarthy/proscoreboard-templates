@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { DEFAULT_ROOT } from './build-catalog.mjs';
 
 const rootFiles = new Set(['package.json', 'README.md', 'AGENTS.md', '.gitignore', 'catalog.json']);
-const directories = new Set(['templates', 'tools', 'contract', 'studio', 'reviews', 'published', '.github']);
+const directories = new Set(['templates', 'social', 'tools', 'contract', 'studio', 'reviews', 'published', '.github']);
 const textExtensions = new Set(['.html', '.css', '.js', '.mjs', '.json', '.md', '.txt', '.yml', '.yaml', '.csv', '.svg']);
 const patterns = [
   ['private-key', /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/],
