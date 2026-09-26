@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baseball Diamond Scoreboard</title>
+  <style>
+*{box-sizing:border-box}html,body{margin:0;background:transparent}body{font-family:Impact,"Arial Narrow",Arial,sans-serif;color:#f8fafc}.stage{padding:24px;display:flex;align-items:center;justify-content:center;min-height:320px}.baseball{--board:#031323;--panel:#102840;--line:#25445f;width:100%;max-width:1200px;display:flex;flex-direction:column;border:4px solid var(--line);border-radius:22px;overflow:hidden;background:linear-gradient(115deg,#03101e,var(--board));box-shadow:0 8px 18px #0005}.score-surface{display:flex;align-items:stretch}.teams{display:flex;flex-direction:column;flex:1 1 48%;min-width:0}.team{display:flex;align-items:center;min-height:88px;padding:5px 7px 5px 0;gap:16px}.team+.team{border-top:3px solid var(--line)}.jersey{flex:0 0 58px;align-self:stretch;clip-path:polygon(0 0,100% 0,70% 100%,0 100%);background:#ff2333;box-shadow:inset -13px 0 #0003}.jerseyColorB{background:#0871fa}.name{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:clamp(24px,3.5vw,52px);letter-spacing:.01em}.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}.run{font-size:68px;line-height:1;min-width:104px;text-align:center;align-self:stretch;display:flex;align-items:center;justify-content:center;border-radius:4px;background:var(--panel);font-variant-numeric:tabular-nums}.stats{flex:1 1 39%;display:flex;align-items:center;border-left:2px solid #66717d;margin:10px 0}.stat{display:flex;flex-direction:column;align-items:center;gap:12px;padding:10px 9px;flex:1 1 0;min-width:0}.stat+.stat{border-left:2px solid var(--line)}.label{font-size:clamp(13px,1.7vw,23px);white-space:nowrap}.counter{width:100%;display:block;text-align:center;font-size:54px;line-height:1.3;background:var(--panel);border-radius:9px;font-variant-numeric:tabular-nums}.base-zone{flex:0 0 14%;display:flex;align-items:center;justify-content:center;border-left:2px solid #66717d;margin:10px 0;padding:12px}.diamond{width:83px;height:83px;position:relative;border:2px solid #78838e;transform:rotate(45deg)}.base{position:absolute;background:#8b949c;width:17px;height:17px}.first{right:-9px;top:-9px}.second{left:-9px;top:-9px}.third{left:-9px;bottom:-9px}.home{right:-9px;bottom:-9px;clip-path:polygon(0 0,100% 0,100% 55%,55% 100%,0 100%)}.runtime-reserve{display:none}.point-slot{position:relative;display:none}.point-slot>span{position:absolute;inset:0}.point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint{opacity:0!important}
+@media(max-width:650px){.stage{padding:14px;min-height:300px}.score-surface{flex-wrap:wrap}.teams{flex-basis:100%}.team{min-height:72px;gap:12px}.name{font-size:34px}.jersey{flex-basis:45px}.run{min-width:72px;font-size:52px}.stats{flex:1 1 78%;border-left:0;border-top:2px solid var(--line);margin:0;padding:8px 0}.stat{padding:5px;gap:8px}.label{font-size:13px}.counter{font-size:32px}.base-zone{flex:0 0 22%;margin:0;border-top:2px solid var(--line);padding:10px}.diamond{width:40px;height:40px}.base{width:11px;height:11px}.first{right:-6px;top:-6px}.second{left:-6px;top:-6px}.third{left:-6px;bottom:-6px}.home{right:-6px;bottom:-6px}}
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <article class="baseball columnContainer" aria-label="Baseball scoreboard" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="score-surface rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <div class="teams columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+          <div class="team rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+            <span class="jersey jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span>
+            <span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span>
+            <span class="run currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span>
+          </div>
+          <div class="team rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+            <span class="jersey jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span>
+            <span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span>
+            <span class="run currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span>
+          </div>
+        </div>
+        <div class="stats rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+          <div class="stat"><span class="label">INNING</span><span class="counter" data-osb-static="true" data-sport-stat="inning">0</span></div>
+          <div class="stat"><span class="label">BALLS</span><span class="counter" data-osb-static="true" data-sport-stat="balls">0</span></div>
+          <div class="stat"><span class="label">STRIKES</span><span class="counter" data-osb-static="true" data-sport-stat="strikes">0</span></div>
+          <div class="stat"><span class="label">OUTS</span><span class="counter" data-osb-static="true" data-sport-stat="outs">0</span></div>
+        </div>
+        <div class="base-zone" aria-hidden="true"><div class="diamond"><i class="base first"></i><i class="base second"></i><i class="base third"></i><i class="base home"></i></div></div>
+      </div>
+      <div class="runtime-reserve"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div>
+      <div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </article>
+  </main>
+</body>
+</html>

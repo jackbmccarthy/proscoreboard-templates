@@ -94,6 +94,36 @@ or overwritten, even after changes or retirement. `--check` writes nothing and f
 on missing, stale, corrupt, or unexpected generated files. A catalog build is not a
 publication approval. Consumers must hide retired or explicitly unpublished entries.
 
+## Additional Sport Overlays
+
+Five original CSS overlays cover baseball, softball, basketball, soccer and volleyball
+(`sport-*.html`). They preserve the approved image concepts as selectable HTML/CSS
+components, with transparent document backgrounds and no external rendering assets.
+The original generated reference images remain outside this public repository.
+
+These overlays use **generic/manual scoring**. Competitor names, identity colors and
+current scores are live bindings; volleyball also exposes generic sets-won fields.
+The application currently provides native rules only for table tennis and pickleball.
+Innings, balls, strikes, outs, hits, errors, base occupancy, game/shot clocks, fouls,
+periods, halves and the current volleyball set do not have native runtime bindings.
+Their zero-valued text and base decorations are editable in the template editor and
+remain static during scoring. They are not automatically selected as sport defaults.
+Catalog descriptions and `runtimeSupport` metadata disclose this boundary.
+
+Stored live names remain blank; empty fields show neutral Team A/B CSS fallbacks.
+All numeric defaults are zero. Service and point-state UI is intentionally omitted
+from these designs; required point-state fields are retained in a hidden group for
+contract compatibility. No new runtime field names are introduced.
+
+Run the sport layout checks with existing local Playwright tooling:
+
+```sh
+PLAYWRIGHT_MODULE_PATH=/path/to/playwright/index.mjs node --test studio/sports-templates.browser.test.mjs
+```
+
+Optional `SPORT_TEMPLATE_ARTIFACTS` saves local review PNGs outside this repository.
+Set `PLAYWRIGHT_CHANNEL=chrome` to use an existing local Chrome installation.
+
 ## Contract API
 
 ```js

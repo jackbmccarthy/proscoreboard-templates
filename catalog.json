@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "8225afb733ae11a71274ae2cc1973e4715d9f604f3e471b9242909c1e68d32b5",
+  "revision": "49ea455b77ac1c7f520fee803e87e45ea0f948a57681020f387a8e91234fad71",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -4604,6 +4604,166 @@
       "fileName": "ref-145-horizon-courtline-teal-orange.html",
       "contentHash": "6014a91d8ccd13b850b91b3f056c3ffb0b9c35709cb5a7df0dbe7e2a82ffd301",
       "documentPath": "published/6014a91d8ccd13b850b91b3f056c3ffb0b9c35709cb5a7df0dbe7e2a82ffd301.json"
+    },
+    {
+      "aliases": [],
+      "description": "Two-row navy scorebug with game-state columns and an empty base diamond. Runs bind to current game scores; inning, balls, strikes, outs and base occupancy are editable static placeholders. Stored live names are blank; neutral Team A/B labels are CSS fallbacks. Requires generic/manual scoring; no sport-specific rules are added.",
+      "motif": "Two-row navy scorebug with game-state columns and an empty base diamond.",
+      "output": "html-replications/sport-baseball-diamond.html",
+      "palette": [
+        "#06172b",
+        "#ff2038",
+        "#1474ff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "generic-game-score",
+        "setsWon": "hidden",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "tags": [
+        "baseball",
+        "teams",
+        "editable",
+        "generic-scoring",
+        "manual-sport-counters"
+      ],
+      "title": "Baseball Diamond",
+      "fileName": "sport-baseball-diamond.html",
+      "contentHash": "5ab7431b523b05a542eca4f801ebba18be9d274f8455a4d774fc8415be21811a",
+      "documentPath": "published/5ab7431b523b05a542eca4f801ebba18be9d274f8455a4d774fc8415be21811a.json"
+    },
+    {
+      "aliases": [],
+      "description": "Angular orange ribbon with a central clock, period and foul strip. Points bind to current game scores; game clock, shot clock, period and fouls are editable static placeholders. Stored live names are blank; neutral Team A/B labels are CSS fallbacks. Requires generic/manual scoring; no sport-specific rules are added.",
+      "motif": "Angular orange ribbon with a central clock, period and foul strip.",
+      "output": "html-replications/sport-basketball-clock.html",
+      "palette": [
+        "#171b1d",
+        "#f78321",
+        "#f4f0e6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "generic-game-score",
+        "setsWon": "hidden",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "tags": [
+        "basketball",
+        "teams",
+        "editable",
+        "generic-scoring",
+        "manual-sport-counters"
+      ],
+      "title": "Basketball Clock",
+      "fileName": "sport-basketball-clock.html",
+      "contentHash": "b54d1557d969e5b131e7734df12e786e6a77c620ca7e0ae194566872fc8a8563",
+      "documentPath": "published/b54d1557d969e5b131e7734df12e786e6a77c620ca7e0ae194566872fc8a8563.json"
+    },
+    {
+      "aliases": [],
+      "description": "Midnight match ribbon with violet/lime accents, score pair and clock. Goals bind to current game scores; game clock and half are editable static placeholders. Stored live names are blank; neutral Team A/B labels are CSS fallbacks. Requires generic/manual scoring; no sport-specific rules are added.",
+      "motif": "Midnight match ribbon with violet/lime accents, score pair and clock.",
+      "output": "html-replications/sport-soccer-ribbon.html",
+      "palette": [
+        "#080f28",
+        "#692dff",
+        "#73ed18"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "generic-game-score",
+        "setsWon": "hidden",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "tags": [
+        "soccer",
+        "teams",
+        "editable",
+        "generic-scoring",
+        "manual-sport-counters"
+      ],
+      "title": "Soccer Ribbon",
+      "fileName": "sport-soccer-ribbon.html",
+      "contentHash": "74ed8364aec46ffff2fd632ca90e2faaf772165a3ce912d997010c758cb5bb50",
+      "documentPath": "published/74ed8364aec46ffff2fd632ca90e2faaf772165a3ce912d997010c758cb5bb50.json"
+    },
+    {
+      "aliases": [],
+      "description": "Amber/teal team rows with runs, hits, errors and a diamond footer. Runs bind to current game scores; hits, errors, inning, balls, strikes, outs and base occupancy are editable static placeholders. Stored live names are blank; neutral Team A/B labels are CSS fallbacks. Requires generic/manual scoring; no sport-specific rules are added.",
+      "motif": "Amber/teal team rows with runs, hits, errors and a diamond footer.",
+      "output": "html-replications/sport-softball-innings.html",
+      "palette": [
+        "#191e20",
+        "#ffbd10",
+        "#00ccd5"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "generic-game-score",
+        "setsWon": "hidden",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "tags": [
+        "softball",
+        "teams",
+        "editable",
+        "generic-scoring",
+        "manual-sport-counters"
+      ],
+      "title": "Softball Innings",
+      "fileName": "sport-softball-innings.html",
+      "contentHash": "cbbb80fc303881b36acf9dee1d196a82e23b9e744214a20b6f7f3601518409d9",
+      "documentPath": "published/cbbb80fc303881b36acf9dee1d196a82e23b9e744214a20b6f7f3601518409d9.json"
+    },
+    {
+      "aliases": [],
+      "description": "Indigo paired tracks with turquoise/coral identity wedges, sets and large points. Points and sets won bind to generic game/match scores; current set is an editable static placeholder. Volleyball rules and automatic set progression are not implemented. Stored live names are blank; neutral Team A/B labels are CSS fallbacks. Requires generic/manual scoring; no sport-specific rules are added.",
+      "motif": "Indigo paired tracks with turquoise/coral identity wedges, sets and large points.",
+      "output": "html-replications/sport-volleyball-sets.html",
+      "palette": [
+        "#0c2551",
+        "#08d3d6",
+        "#ff7876"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "generic-game-score",
+        "setsWon": "generic-match-score",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "teams",
+        "editable",
+        "generic-scoring",
+        "manual-sport-counters"
+      ],
+      "title": "Volleyball Sets",
+      "fileName": "sport-volleyball-sets.html",
+      "contentHash": "48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2",
+      "documentPath": "published/48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2.json"
     }
   ]
 }

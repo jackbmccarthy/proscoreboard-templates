@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soccer Ribbon</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: transparent; }
+    body { padding: 24px 12px; color: #f7f8ff; font-family: Impact, "Arial Narrow", Arial, sans-serif; }
+    .soccer-board { --navy: #080f28; --outline: #24366e; --purple: #6c28ff; --lime: #66f51e; width: min(100%, 1650px); margin: 0 auto; container-type: inline-size; display: flex; flex-direction: column; filter: drop-shadow(0 4px 4px #0008); }
+    .main-ribbon { display: flex; align-items: stretch; gap: .45cqw; }
+    .score-surface { flex: 1 1 auto; min-width: 0; display: flex; align-items: stretch; border: 2px solid var(--outline); border-radius: 8px; background: linear-gradient(#111a36, #03091d); transform: skewX(-16deg); overflow: hidden; }
+    .identity { flex: 0 0 2.6cqw; width: 2.6cqw; background: var(--purple); box-shadow: inset 0 0 0 1px #b392ff66; }
+    .identity.jerseyColorB { background: var(--lime); box-shadow: inset 0 0 0 1px #a6ff7d66; }
+    .name-lane { flex: 1 1 0; min-width: 0; display: flex; align-items: center; justify-content: center; padding: 1.1cqw 1.8cqw; }
+    .team-name { min-width: 0; display: block; transform: skewX(16deg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 5.3cqw; line-height: 1.15; letter-spacing: -.06cqw; }
+    .combinedAName:empty::before { content: "Team A"; }
+    .combinedBName:empty::before { content: "Team B"; }
+    .goal-cell { flex: 0 0 9.3cqw; display: flex; justify-content: center; align-items: center; padding: .3cqw .6cqw; background: #020819; }
+    .goal-score { transform: skewX(16deg); font-size: 7.5cqw; line-height: 1.07; font-variant-numeric: tabular-nums; }
+    .separator { flex: 0 0 6cqw; display: flex; align-items: center; justify-content: center; background: linear-gradient(#131d3e, #070e25); }
+    .separator span { transform: skewX(16deg); font-size: 4.8cqw; line-height: 1; }
+    .clock-surface { flex: 0 0 17%; min-width: 0; display: flex; align-items: center; justify-content: center; border: 2px solid var(--outline); border-radius: 8px; background: linear-gradient(#111a36, #03091d); transform: skewX(-16deg); }
+    .game-clock { display: flex; align-items: center; justify-content: center; transform: skewX(16deg); white-space: nowrap; font-size: 5.5cqw; line-height: 1; letter-spacing: -.08cqw; font-variant-numeric: tabular-nums; }
+    .half-ribbon { width: 43%; margin-left: 25.6%; display: flex; align-items: flex-start; justify-content: center; gap: .8cqw; }
+    .half-ribbon::before, .half-ribbon::after { content: ""; flex: 1 1 0; height: 3px; margin-top: 1.4cqw; background: var(--lime); box-shadow: 0 3px 0 #315b24; }
+    .half-surface { flex: 0 0 17cqw; display: flex; align-items: center; justify-content: center; gap: 3.2cqw; padding: .6cqw 1.6cqw .7cqw; border: 2px solid var(--outline); border-top: 0; background: linear-gradient(#0f1933, #040a1d); clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); font-size: 2.5cqw; line-height: 1; }
+    .half-value { font-size: 2.9cqw; font-variant-numeric: tabular-nums; }
+    .runtime-auxiliary, .point-slot { display: none; }
+    .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
+    @media (max-width: 600px) {
+      body { padding: 16px 10px; }
+      .score-surface, .clock-surface { border-width: 1px; border-radius: 4px; }
+      .team-name { font-size: 4.8cqw; }
+      .name-lane { padding-inline: 1cqw; }
+      .half-surface { border-width: 1px; font-size: 3cqw; padding-block: .8cqw; gap: 2cqw; }
+      .half-value { font-size: 3.4cqw; }
+      .half-ribbon::before, .half-ribbon::after { height: 1px; box-shadow: 0 2px 0 #315b24; }
+    }
+    body { padding-inline: 3vw; }
+    @media(max-width:600px) { body { padding-inline: 4vw; } }
+  </style>
+</head>
+<body>
+  <article class="soccer-board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Soccer scoreboard">
+    <div class="main-ribbon rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+      <div class="score-surface rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span>
+        <div class="name-lane"><span class="team-name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></div>
+        <div class="goal-cell"><span class="goal-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div>
+        <div class="separator"><span>–</span></div>
+        <div class="goal-cell"><span class="goal-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+        <div class="name-lane"><span class="team-name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></div>
+        <span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span>
+      </div>
+      <div class="clock-surface"><div class="game-clock"><span data-osb-static="true" data-sport-stat="clockMinutes">00</span><span>:</span><span data-osb-static="true" data-sport-stat="clockSeconds">00</span></div></div>
+    </div>
+    <div class="half-ribbon"><div class="half-surface"><span>HALF</span><span class="half-value" data-osb-static="true" data-sport-stat="half">0</span></div></div>
+    <div class="runtime-auxiliary"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div>
+    <div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+  </article>
+</body>
+</html>
