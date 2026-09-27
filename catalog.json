@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "c7af1d2c73f168b828e24c8a331031de1dbcd2e994feb0457b12fc4976a51db4",
+  "revision": "3d8e970076501d7c266869f6ed4305d0f44341670f96362153e45d70de550169",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -8026,6 +8026,552 @@
       "fileName": "sport-volleyball-sets.html",
       "contentHash": "48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2",
       "documentPath": "published/48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-baseball-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "baseball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — BASEBALL Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-baseball-1.html",
+      "contentHash": "307fdf8c6d69cc2c29eefaa2d1e6d6eefbd446780e33997b58526a14fcf293e1",
+      "documentPath": "published/307fdf8c6d69cc2c29eefaa2d1e6d6eefbd446780e33997b58526a14fcf293e1.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-baseball-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "baseball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — BASEBALL Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-baseball-2.html",
+      "contentHash": "ef49993ae5f0c4581372e59dd080223d7380dce81dafc7758090f6b19ee8eeb0",
+      "documentPath": "published/ef49993ae5f0c4581372e59dd080223d7380dce81dafc7758090f6b19ee8eeb0.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-basketball-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "basketball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — BASKETBALL Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-basketball-1.html",
+      "contentHash": "f9bffcbe3500f22964814b6d8c4ab90e11159c6a9cb20f94475ddb8670609736",
+      "documentPath": "published/f9bffcbe3500f22964814b6d8c4ab90e11159c6a9cb20f94475ddb8670609736.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-basketball-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "basketball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — BASKETBALL Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-basketball-2.html",
+      "contentHash": "1ed849b8124592e5f671be7bfe0fc73bdc9db369bebaff1de6b6419de4cca5ad",
+      "documentPath": "published/1ed849b8124592e5f671be7bfe0fc73bdc9db369bebaff1de6b6419de4cca5ad.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-pickleball-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "pickleball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Vertical Name Spine — PICKLEBALL Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-pickleball-1.html",
+      "contentHash": "51dd404cf01fd2e52a61c090b08e41eb756b4fc8fce6f4b79b05919378575878",
+      "documentPath": "published/51dd404cf01fd2e52a61c090b08e41eb756b4fc8fce6f4b79b05919378575878.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-pickleball-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "pickleball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Vertical Name Spine — PICKLEBALL Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-pickleball-2.html",
+      "contentHash": "47d885088e445c9e77615410af0e7c31c2877eadf192d7af3b17c01b3b5244a5",
+      "documentPath": "published/47d885088e445c9e77615410af0e7c31c2877eadf192d7af3b17c01b3b5244a5.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-soccer-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "soccer",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — SOCCER Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-soccer-1.html",
+      "contentHash": "0d4a0968acd31347fb15efe6f97dc5daa44b290da11aba0fd4620122c885d211",
+      "documentPath": "published/0d4a0968acd31347fb15efe6f97dc5daa44b290da11aba0fd4620122c885d211.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-soccer-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "soccer",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — SOCCER Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-soccer-2.html",
+      "contentHash": "405a36bf5d1146abd3881ad9e63570dd3f5c1b5483900408471deec4cb19fa0b",
+      "documentPath": "published/405a36bf5d1146abd3881ad9e63570dd3f5c1b5483900408471deec4cb19fa0b.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-softball-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "softball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — SOFTBALL Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-softball-1.html",
+      "contentHash": "ba6292fc60b1e17bfee9aa43c5b8a90cfdf55bc4e1d417c77cca9283d1609185",
+      "documentPath": "published/ba6292fc60b1e17bfee9aa43c5b8a90cfdf55bc4e1d417c77cca9283d1609185.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-softball-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "softball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — SOFTBALL Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-softball-2.html",
+      "contentHash": "3b9191df29f5a29d00da41ed80184e6ac7e4e2d5a13e80658e989978b9687ee9",
+      "documentPath": "published/3b9191df29f5a29d00da41ed80184e6ac7e4e2d5a13e80658e989978b9687ee9.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-table-tennis-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Vertical Name Spine — TABLE TENNIS Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-table-tennis-1.html",
+      "contentHash": "10b978f33bdac9a8c3310e4001ebc2bd47599610fa4b5d84076a8bbf3e918c29",
+      "documentPath": "published/10b978f33bdac9a8c3310e4001ebc2bd47599610fa4b5d84076a8bbf3e918c29.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-table-tennis-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Vertical Name Spine — TABLE TENNIS Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-table-tennis-2.html",
+      "contentHash": "bf31e61e5f3d7db9cdfd7d95d2ba6fcb82dcca772b344daf65dda447bccad2d8",
+      "documentPath": "published/bf31e61e5f3d7db9cdfd7d95d2ba6fcb82dcca772b344daf65dda447bccad2d8.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-volleyball-1.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "volleyball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — VOLLEYBALL Stacked panes",
+      "variant": 1,
+      "fileName": "vertical-name-spine-volleyball-1.html",
+      "contentHash": "d3183ec9b2f03e2915bdeaf256d83c99995ad37cce58ec1d58a7879ee5933c30",
+      "documentPath": "published/d3183ec9b2f03e2915bdeaf256d83c99995ad37cce58ec1d58a7879ee5933c30.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached cream score panes with full competitor names rotated along navy identity spines and upright unboxed primary scores. Smaller match counts remain plain top-edge text. Rebuilt as editable HTML/CSS; local type and flat fills approximate the generated reference. Live competitor colors tint the identity spines. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Competitor identity oriented perpendicular to the upright score reading axis",
+      "output": "html-replications/vertical-name-spine-volleyball-2.html",
+      "palette": [
+        "#f2eee6",
+        "#182b35",
+        "#bb6246"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "249f0580a5a3d39b0f0cfe3efe321aae752695ac50afed32160a52546ba9ee06",
+      "styleGuide": {
+        "geometry": "Detached cream score panes beside narrow full-height navy identity spines; full competitor words rotated counterclockwise to read bottom-to-top; dominant upright unboxed primary scores and subdued plain secondary counts at the top edge",
+        "surface": "Flat cream panes and navy name strips; no enclosing chassis, score cells, gradients, shadows, hardware, perforations, portraits, LED dots or text outlines",
+        "typography": "Bold upright Arial Black primary scores, bold Arial competitor names rotated as whole words; compact upright sans-serif labels and counters"
+      },
+      "styleID": "vertical-name-spine",
+      "tags": [
+        "volleyball",
+        "simple",
+        "vertical-identity",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Vertical Name Spine — VOLLEYBALL Outer spines",
+      "variant": 2,
+      "fileName": "vertical-name-spine-volleyball-2.html",
+      "contentHash": "842ab1bc3d7befe02158e85262bf534c70d19a524478105c4e52f8015e10abcd",
+      "documentPath": "published/842ab1bc3d7befe02158e85262bf534c70d19a524478105c4e52f8015e10abcd.json"
     },
     {
       "aliases": [],
