@@ -21,6 +21,10 @@ test(styleID+' overlays keep readable live tracks, neutral states and transparen
         const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.route('**/*',route=>route.abort());
         await page.setContent(html);await page.evaluate(()=>document.fonts.ready);
         assert.equal(await page.evaluate(()=>getComputedStyle(document.body).backgroundColor),'rgba(0, 0, 0, 0)');
+        const truncatedFallbacks=await page.evaluate(()=>['combinedAName','combinedBName'].filter(field=>{
+          const node=document.querySelector('[data-osb-field="'+field+'"]');return node.scrollWidth>node.clientWidth+1;
+        }));
+        assert.deepEqual(truncatedFallbacks,[],key+' '+width+' neutral competitor labels truncate');
         const snapshot=()=>page.evaluate(()=>{
           const fields=['combinedAName','combinedBName','currentAGameScore','currentBGameScore'];
           return Object.fromEntries(fields.map(field=>{
@@ -54,10 +58,17 @@ test(styleID+' overlays keep readable live tracks, neutral states and transparen
           const outside=visible.filter(node=>{const r=node.getBoundingClientRect();return r.left< -1||r.right>innerWidth+1}).map(node=>node.dataset.osbField);
           const scores=visible.filter(node=>/current[AB]GameScore/.test(node.dataset.osbField));
           const clipped=scores.filter(node=>node.scrollWidth>node.clientWidth+1||node.getBoundingClientRect().width>node.parentElement.getBoundingClientRect().width+1).map(node=>node.dataset.osbField);
-          return {outside,clipped,overflow:document.documentElement.scrollWidth>innerWidth};
+          const primary=visible.filter(node=>/^(combined[AB]Name|current[AB]GameScore)$/.test(node.dataset.osbField));
+          const overlaps=[];
+          for(let a=0;a<primary.length;a++)for(let b=a+1;b<primary.length;b++){
+            const first=primary[a].getBoundingClientRect(),second=primary[b].getBoundingClientRect();
+            if(Math.min(first.right,second.right)-Math.max(first.left,second.left)>1&&Math.min(first.bottom,second.bottom)-Math.max(first.top,second.top)>1)overlaps.push([primary[a].dataset.osbField,primary[b].dataset.osbField]);
+          }
+          return {outside,clipped,overlaps,overflow:document.documentElement.scrollWidth>innerWidth};
         });
         assert.deepEqual(check.outside,[],key+' '+width+' outside');
         assert.deepEqual(check.clipped,[],key+' '+width+' clipped');
+        assert.deepEqual(check.overlaps,[],key+' '+width+' overlapping names or primary scores');
         assert.equal(check.overflow,false,key+' '+width+' horizontal overflow');
         assert.deepEqual(errors,[]);
         evidence.push({key,width,passed:true});await page.close();

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "5211c746333c29c2bbd575e65bcd79902bce9d667a2676a70ca905da3cf186db",
+  "revision": "92d7375dc79b06097ea35b465f2c3584be9d64361388f6444703c1f57378adfc",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -7494,6 +7494,538 @@
       "fileName": "sport-volleyball-sets.html",
       "contentHash": "48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2",
       "documentPath": "published/48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-baseball-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "baseball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — BASEBALL Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-baseball-1.html",
+      "contentHash": "b48850e8c2bd4457cc7e25d145cbdb9919826a754a45812e42721cc16bf8d59a",
+      "documentPath": "published/b48850e8c2bd4457cc7e25d145cbdb9919826a754a45812e42721cc16bf8d59a.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-baseball-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "baseball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — BASEBALL Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-baseball-2.html",
+      "contentHash": "9f7ed9d3156adf0653e449bdc81eab4b378c42fea19cd5b7587ef7d45d1ceab4",
+      "documentPath": "published/9f7ed9d3156adf0653e449bdc81eab4b378c42fea19cd5b7587ef7d45d1ceab4.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-basketball-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "basketball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — BASKETBALL Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-basketball-1.html",
+      "contentHash": "a7985174bdfb4e5991daa7d40fa2667fb4ee2d8993f5748d24409b414196e197",
+      "documentPath": "published/a7985174bdfb4e5991daa7d40fa2667fb4ee2d8993f5748d24409b414196e197.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-basketball-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "basketball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — BASKETBALL Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-basketball-2.html",
+      "contentHash": "55840042263da38d12901f934bacaee2edfaef2dba0119b7bd118bb3d8395834",
+      "documentPath": "published/55840042263da38d12901f934bacaee2edfaef2dba0119b7bd118bb3d8395834.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-pickleball-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "pickleball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Wire Numeral — PICKLEBALL Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-pickleball-1.html",
+      "contentHash": "8818402678935ac92c3a73b8235b322c1e2e5456c1a622aaaf7d17abbae13948",
+      "documentPath": "published/8818402678935ac92c3a73b8235b322c1e2e5456c1a622aaaf7d17abbae13948.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-pickleball-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "pickleball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Wire Numeral — PICKLEBALL Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-pickleball-2.html",
+      "contentHash": "d770a2252e184cbeb3ffdb1c2b16dfa206e1f3372a4f8a4542ef843a743a68b1",
+      "documentPath": "published/d770a2252e184cbeb3ffdb1c2b16dfa206e1f3372a4f8a4542ef843a743a68b1.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-soccer-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "soccer",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — SOCCER Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-soccer-1.html",
+      "contentHash": "b17609bae5a17118bba1f29001ab0a890f8092bd0f97ebf5647a7b63e221ec9c",
+      "documentPath": "published/b17609bae5a17118bba1f29001ab0a890f8092bd0f97ebf5647a7b63e221ec9c.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-soccer-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "soccer",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — SOCCER Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-soccer-2.html",
+      "contentHash": "bf3ac24eb108344572b63f1a0ed8df2e53909ed069d0221f1529d71792743ed1",
+      "documentPath": "published/bf3ac24eb108344572b63f1a0ed8df2e53909ed069d0221f1529d71792743ed1.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-softball-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "softball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — SOFTBALL Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-softball-1.html",
+      "contentHash": "9e78f9556c0043a79abbacb391a28e9166cad0f844f6581ca2fd7b36146985c9",
+      "documentPath": "published/9e78f9556c0043a79abbacb391a28e9166cad0f844f6581ca2fd7b36146985c9.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-softball-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "softball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — SOFTBALL Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-softball-2.html",
+      "contentHash": "d4e8a3c223d8fb6b616bd3b76e9a8726fe1fc995c7a21eae65b75356b5f358a4",
+      "documentPath": "published/d4e8a3c223d8fb6b616bd3b76e9a8726fe1fc995c7a21eae65b75356b5f358a4.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-table-tennis-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Wire Numeral — TABLE TENNIS Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-table-tennis-1.html",
+      "contentHash": "544760c7866ecca3ae9b0b40749af5d94778dcb66455b153f94dd1dfc7077cf9",
+      "documentPath": "published/544760c7866ecca3ae9b0b40749af5d94778dcb66455b153f94dd1dfc7077cf9.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-table-tennis-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Wire Numeral — TABLE TENNIS Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-table-tennis-2.html",
+      "contentHash": "f09db0a4e635f86787a3ff904cf2262b66c43f837340a4c55b04a3814f3181e6",
+      "documentPath": "published/f09db0a4e635f86787a3ff904cf2262b66c43f837340a4c55b04a3814f3181e6.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-volleyball-1.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "volleyball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — VOLLEYBALL Score-left",
+      "variant": 1,
+      "fileName": "wire-numeral-volleyball-1.html",
+      "contentHash": "ea1c7c7ac697cbf2cba7f969a84c3635dd6e4cec6f1b3bf14d8adea27c3f11f1",
+      "documentPath": "published/ea1c7c7ac697cbf2cba7f969a84c3635dd6e4cec6f1b3bf14d8adea27c3f11f1.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached typography scoreboard with hollow cyan primary glyphs, solid competitor names and short identity underlines. Scores lead names in rows or sit above names in paired columns. Rebuilt as editable HTML/CSS; local outline fonts approximate generated glyph geometry. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "The outline of the numeral glyph itself is the dominant shape; solid secondary GAMES or SETS counts sit beneath names",
+      "output": "html-replications/wire-numeral-volleyball-2.html",
+      "palette": [
+        "#9fe9e2",
+        "#f5f8fa"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "3469a0a68bde271abd86fe11f34ff5c54f5036314173a1433b0441538e4e258d",
+      "styleGuide": {
+        "geometry": "Detached score-first typographic groups with huge hollow outlined primary numerals; primary score LEFT of the solid name in rows or ABOVE the name in paired columns; short detached identity underlines only",
+        "surface": "No filled board, panels, score cells, boxes, brackets, full-width grid, texture, gradient, glow or shadows; transparent outside glyphs and short rules",
+        "typography": "Hollow bold Courier New monospace primary numerals with a crisp cyan stroke and black/transparent interior; solid bold Arial names; solid small uppercase data labels"
+      },
+      "styleID": "wire-numeral",
+      "tags": [
+        "volleyball",
+        "simple",
+        "outline-numerals",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Wire Numeral — VOLLEYBALL Score-above",
+      "variant": 2,
+      "fileName": "wire-numeral-volleyball-2.html",
+      "contentHash": "e18a3e571b0440f16a797ccbad006d7b09f73260c836bfa63f948c65477aabf1",
+      "documentPath": "published/e18a3e571b0440f16a797ccbad006d7b09f73260c836bfa63f948c65477aabf1.json"
     }
   ]
 }
