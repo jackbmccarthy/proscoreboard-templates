@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "92d7375dc79b06097ea35b465f2c3584be9d64361388f6444703c1f57378adfc",
+  "revision": "c7af1d2c73f168b828e24c8a331031de1dbcd2e994feb0457b12fc4976a51db4",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -1526,6 +1526,538 @@
       "fileName": "carbon-copy-ticket-volleyball-2.html",
       "contentHash": "9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72",
       "documentPath": "published/9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-baseball-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "baseball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — BASEBALL Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-baseball-1.html",
+      "contentHash": "3a319d20933c4ec02e252b051a8118e07566ef095e1df50cc352d87f71f6ebcc",
+      "documentPath": "published/3a319d20933c4ec02e252b051a8118e07566ef095e1df50cc352d87f71f6ebcc.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-baseball-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "baseball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — BASEBALL Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-baseball-2.html",
+      "contentHash": "c55fb96bcf759aff10a08e34915da2304b01e8e9ebaafcc4a49b94145da4ee6d",
+      "documentPath": "published/c55fb96bcf759aff10a08e34915da2304b01e8e9ebaafcc4a49b94145da4ee6d.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-basketball-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "basketball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — BASKETBALL Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-basketball-1.html",
+      "contentHash": "0ab38ac624deeb81814175583a4630d89a4273bbd312f076a992128d7f949e17",
+      "documentPath": "published/0ab38ac624deeb81814175583a4630d89a4273bbd312f076a992128d7f949e17.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-basketball-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "basketball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — BASKETBALL Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-basketball-2.html",
+      "contentHash": "e76e960d1782169c75f1c190300f52a1f900f33661bcdc201331d48112c99b4f",
+      "documentPath": "published/e76e960d1782169c75f1c190300f52a1f900f33661bcdc201331d48112c99b4f.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-pickleball-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "pickleball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Dot Matrix Sentence — PICKLEBALL Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-pickleball-1.html",
+      "contentHash": "bc79e55f771eea249d95b43223e8fb3040674a52708bd9e4c44096ffdb44eae2",
+      "documentPath": "published/bc79e55f771eea249d95b43223e8fb3040674a52708bd9e4c44096ffdb44eae2.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-pickleball-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "pickleball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Dot Matrix Sentence — PICKLEBALL Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-pickleball-2.html",
+      "contentHash": "312c97a841f047a14a2178431012badb5d7e1eca7714ff6e31f9e205c573d6e2",
+      "documentPath": "published/312c97a841f047a14a2178431012badb5d7e1eca7714ff6e31f9e205c573d6e2.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-soccer-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "soccer",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — SOCCER Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-soccer-1.html",
+      "contentHash": "82cb09d30436dc5d00507fdb05dbc47412a893c69fd5f96da7a25e3d0c4ae595",
+      "documentPath": "published/82cb09d30436dc5d00507fdb05dbc47412a893c69fd5f96da7a25e3d0c4ae595.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-soccer-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "soccer",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — SOCCER Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-soccer-2.html",
+      "contentHash": "a851ac748998642bf56fc6246d9b941f339f3a9c71046d776c9c7f8afe078bb5",
+      "documentPath": "published/a851ac748998642bf56fc6246d9b941f339f3a9c71046d776c9c7f8afe078bb5.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-softball-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "softball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — SOFTBALL Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-softball-1.html",
+      "contentHash": "deee6791f68d80f972d0ecd2285421dc1109b2b7e523ae36b66483ddfab6d9da",
+      "documentPath": "published/deee6791f68d80f972d0ecd2285421dc1109b2b7e523ae36b66483ddfab6d9da.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-softball-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "softball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — SOFTBALL Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-softball-2.html",
+      "contentHash": "a5ef2219d0480ae5276afa2ff44f8d80d796f56bafb0cbc5b989d1a23aac1ce8",
+      "documentPath": "published/a5ef2219d0480ae5276afa2ff44f8d80d796f56bafb0cbc5b989d1a23aac1ce8.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-table-tennis-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Dot Matrix Sentence — TABLE TENNIS Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-table-tennis-1.html",
+      "contentHash": "6ece427078b928876af49113ff6d1cb004808ca6d2f19b468ea13dd7e63bc3ac",
+      "documentPath": "published/6ece427078b928876af49113ff6d1cb004808ca6d2f19b468ea13dd7e63bc3ac.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-table-tennis-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Dot Matrix Sentence — TABLE TENNIS Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-table-tennis-2.html",
+      "contentHash": "39b74e7e1abe917ffaca8827f085abd5688f88ff3ed8d2d95370a71be3aaeb5d",
+      "documentPath": "published/39b74e7e1abe917ffaca8827f085abd5688f88ff3ed8d2d95370a71be3aaeb5d.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-volleyball-1.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "volleyball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — VOLLEYBALL Shared sentence",
+      "variant": 1,
+      "fileName": "dot-matrix-sentence-volleyball-1.html",
+      "contentHash": "d3c8e1e3be73e259e8cae7c51acc6fbbc88e6fa3e2040972fe6d3e53a9e5ad9d",
+      "documentPath": "published/d3c8e1e3be73e259e8cae7c51acc6fbbc88e6fa3e2040972fe6d3e53a9e5ad9d.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent typography scoreboard with amber dot-matrix primary scores and solid competitor names. Primary values form a shared score sentence or two aligned name-score rows. Rebuilt as editable HTML/CSS; local glyph masks and circular dot pitch approximate the generated reference. Competitor colors tint the live name text. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Filled dot-matrix glyphs as live primary scores, rather than decorative edge LEDs or outlined glyphs",
+      "output": "html-replications/dot-matrix-sentence-volleyball-2.html",
+      "palette": [
+        "#ffbe44",
+        "#f5f5ef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2fbc0f696bbff934f6d4b9e710e65cb91ef6d37d81108bbd5c6c0fd641d1364e",
+      "styleGuide": {
+        "geometry": "Primary scores form a shared centered 0 : 0 sentence with corresponding names below, or two aligned name-score sentences; no containing surface, tiles, badges, score frames or identity underlines",
+        "surface": "Transparent outside dotted glyphs and plain text; no board fill, panels, glow, hardware, texture, gradients in the visible surface, shadows or seven-segment artwork",
+        "typography": "Huge bold Arial Black primary numeral silhouettes filled with an even matrix of crisp round amber dots; solid Arial competitor names and small tracked uppercase labels; secondary counts plain solid text"
+      },
+      "styleID": "dot-matrix-sentence",
+      "tags": [
+        "volleyball",
+        "simple",
+        "dot-matrix-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Dot Matrix Sentence — VOLLEYBALL Aligned rows",
+      "variant": 2,
+      "fileName": "dot-matrix-sentence-volleyball-2.html",
+      "contentHash": "6b8d8817cd3ce56ac1d847919bdbc12b24c4cb98f7e986acb36c992183307afa",
+      "documentPath": "published/6b8d8817cd3ce56ac1d847919bdbc12b24c4cb98f7e986acb36c992183307afa.json"
     },
     {
       "aliases": [],
