@@ -29,13 +29,14 @@ test(styleID+' overlays keep readable live tracks, neutral states and transparen
             const r=parent.getBoundingClientRect();return[field,{x:r.x,y:r.y,width:r.width,height:r.height}];
           }));
         });
-        const before=await snapshot();
         if(process.env.SPORT_TEMPLATE_ARTIFACTS){
           await mkdir(process.env.SPORT_TEMPLATE_ARTIFACTS,{recursive:true});
           await page.evaluate(()=>{document.body.style.background='#000'});
           await page.locator('.ticket,.board').first().screenshot({path:path.join(process.env.SPORT_TEMPLATE_ARTIFACTS,key+'-'+width+'.png')});
           await page.evaluate(()=>{document.body.style.background='transparent'});
         }
+        // Capturing a tall overlay may scroll it into view; measure after that scroll.
+        const before=await snapshot();
         await page.evaluate(({score})=>{
           for(const side of ['A','B']){
             document.querySelector('[data-osb-field="combined'+side+'Name"]').textContent='Team '+side+' With A Long Name That Must Truncate Without Moving Scores';

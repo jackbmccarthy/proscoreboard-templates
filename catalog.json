@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "3ed64f8358c25f373bb3b76fb0e9ef6b0a8614c683fabfb171e78dd07d46432b",
+  "revision": "55d1e06aa9e05bbe1b6fdd5c7a3f72dc787b75fbcfeedb9041f9318f87024abe",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -6228,6 +6228,566 @@
       "fileName": "ref-145-horizon-courtline-teal-orange.html",
       "contentHash": "6014a91d8ccd13b850b91b3f056c3ffb0b9c35709cb5a7df0dbe7e2a82ffd301",
       "documentPath": "published/6014a91d8ccd13b850b91b3f056c3ffb0b9c35709cb5a7df0dbe7e2a82ffd301.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-baseball-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "baseball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — BASEBALL Lanes",
+      "variant": 1,
+      "fileName": "score-halo-baseball-1.html",
+      "contentHash": "a61f7bd3bd39bdcb845841a0cd4e47ec00ff37adebe7a77fe7971ab4eb139d04",
+      "documentPath": "published/a61f7bd3bd39bdcb845841a0cd4e47ec00ff37adebe7a77fe7971ab4eb139d04.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-baseball-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "baseball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — BASEBALL Duel",
+      "variant": 2,
+      "fileName": "score-halo-baseball-2.html",
+      "contentHash": "2bc2fb351508d8364c47ec13ac4d9a3d80f2ad1859d28e03e4114ae31f5d44db",
+      "documentPath": "published/2bc2fb351508d8364c47ec13ac4d9a3d80f2ad1859d28e03e4114ae31f5d44db.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-basketball-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "basketball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — BASKETBALL Lanes",
+      "variant": 1,
+      "fileName": "score-halo-basketball-1.html",
+      "contentHash": "f1a881a504f515e8300449a0630d31c964bf3eb9b7e917ea3323e090f8df209a",
+      "documentPath": "published/f1a881a504f515e8300449a0630d31c964bf3eb9b7e917ea3323e090f8df209a.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-basketball-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "basketball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — BASKETBALL Duel",
+      "variant": 2,
+      "fileName": "score-halo-basketball-2.html",
+      "contentHash": "2cf94c109b3e03b9c3d965eba002bb28c6e8b5b3bbe925052cba0ec85e2fd7c7",
+      "documentPath": "published/2cf94c109b3e03b9c3d965eba002bb28c6e8b5b3bbe925052cba0ec85e2fd7c7.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions and adjacent secondary score circles. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Live competitor names, identity hooks, game/match scores, paired service and neutral point states.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-pickleball-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "pickleball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Score Halo — PICKLEBALL Lanes",
+      "variant": 1,
+      "fileName": "score-halo-pickleball-1.html",
+      "contentHash": "06ed50e17a74bcdf436e88ddc5118633a4f9baaab168b0d4673d7f40ff1b575e",
+      "documentPath": "published/06ed50e17a74bcdf436e88ddc5118633a4f9baaab168b0d4673d7f40ff1b575e.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions and adjacent secondary score circles. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Live competitor names, identity hooks, game/match scores, paired service and neutral point states.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-pickleball-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "pickleball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Score Halo — PICKLEBALL Duel",
+      "variant": 2,
+      "fileName": "score-halo-pickleball-2.html",
+      "contentHash": "bcbdf3c928292583d049a7a8718a689677c768c9022648900000f9502f7b32f0",
+      "documentPath": "published/bcbdf3c928292583d049a7a8718a689677c768c9022648900000f9502f7b32f0.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-soccer-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "soccer",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — SOCCER Lanes",
+      "variant": 1,
+      "fileName": "score-halo-soccer-1.html",
+      "contentHash": "5a36d3dc68e47635abef9de5f108ac4096cde2f1030de55f43db7d3a16f15bab",
+      "documentPath": "published/5a36d3dc68e47635abef9de5f108ac4096cde2f1030de55f43db7d3a16f15bab.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-soccer-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "soccer",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — SOCCER Duel",
+      "variant": 2,
+      "fileName": "score-halo-soccer-2.html",
+      "contentHash": "af46b04fe197e1c6937ca84d79a8cab26cd08d6e0475aaee9bd60b052b29f5b8",
+      "documentPath": "published/af46b04fe197e1c6937ca84d79a8cab26cd08d6e0475aaee9bd60b052b29f5b8.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-softball-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "softball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — SOFTBALL Lanes",
+      "variant": 1,
+      "fileName": "score-halo-softball-1.html",
+      "contentHash": "7227acfa36caa2d14f00a5bf4584ac0c5d749ab3b98e9531b88eef710f024022",
+      "documentPath": "published/7227acfa36caa2d14f00a5bf4584ac0c5d749ab3b98e9531b88eef710f024022.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-softball-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "softball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — SOFTBALL Duel",
+      "variant": 2,
+      "fileName": "score-halo-softball-2.html",
+      "contentHash": "b69efddca0325289bdd8fbb89d4fe20ef3617387a550a011d2737c817b78294c",
+      "documentPath": "published/b69efddca0325289bdd8fbb89d4fe20ef3617387a550a011d2737c817b78294c.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions and adjacent secondary score circles. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Live competitor names, identity hooks, game/match scores, paired service and neutral point states.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-table-tennis-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Score Halo — TABLE TENNIS Lanes",
+      "variant": 1,
+      "fileName": "score-halo-table-tennis-1.html",
+      "contentHash": "458d2197fe6f3b2d205bab2b0443ea4ece143be5698d441edfbbdbf07884f38d",
+      "documentPath": "published/458d2197fe6f3b2d205bab2b0443ea4ece143be5698d441edfbbdbf07884f38d.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions and adjacent secondary score circles. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Live competitor names, identity hooks, game/match scores, paired service and neutral point states.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-table-tennis-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Score Halo — TABLE TENNIS Duel",
+      "variant": 2,
+      "fileName": "score-halo-table-tennis-2.html",
+      "contentHash": "e64b594e6a90ca360179152e47a15c6979199ff50b0f0aeadffc6777700c40c2",
+      "documentPath": "published/e64b594e6a90ca360179152e47a15c6979199ff50b0f0aeadffc6777700c40c2.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions and adjacent secondary score circles. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-volleyball-1.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "volleyball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — VOLLEYBALL Lanes",
+      "variant": 1,
+      "fileName": "score-halo-volleyball-1.html",
+      "contentHash": "095b6267427fe7e323f7bc2d5a76f6bb06b04a372743cafd45729b6e6ec96112",
+      "documentPath": "published/095b6267427fe7e323f7bc2d5a76f6bb06b04a372743cafd45729b6e6ec96112.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original detached-name scoreboard with dominant double-ring circular score medallions and adjacent secondary score circles. Rebuilt as editable HTML/CSS; local type and subtle disc shading approximate the generated reference. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Primary circular score halos and clustered secondary medallions",
+      "output": "html-replications/score-halo-volleyball-2.html",
+      "palette": [
+        "#e7eee0",
+        "#162324",
+        "#8daf8b",
+        "#f0f3f6"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2ab095618520b4ae0fb49e2fd7ccb7d1394e0ade10cc7ca799168f6e157661e3",
+      "styleGuide": {
+        "geometry": "Dominant round point medallions with pale sage solid centers and two thin concentric rings; smaller adjacent secondary score circles where applicable, detached name labels and open whitespace",
+        "surface": "Flat matte circles; transparent outside the scoring medallions; no enclosing rectangular scoreboard panels",
+        "typography": "Bold rounded Arial/Helvetica sans-serif names and primary numerals; small tracked uppercase labels"
+      },
+      "styleID": "score-halo",
+      "tags": [
+        "volleyball",
+        "simple",
+        "circular-scores",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Score Halo — VOLLEYBALL Duel",
+      "variant": 2,
+      "fileName": "score-halo-volleyball-2.html",
+      "contentHash": "83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e",
+      "documentPath": "published/83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e.json"
     },
     {
       "aliases": [],

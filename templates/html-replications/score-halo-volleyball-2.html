@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Score Halo Volleyball — Duel</title>
+  <style>
+* { box-sizing: border-box; }
+html, body { margin: 0; background: transparent; }
+body { font-family: Arial, Helvetica, sans-serif; color: #fafafa; }
+.stage { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.board { display: flex; flex-direction: column; width: 100%; max-width: 1440px; }
+.title { text-align: center; font-weight: 800; font-size: 82px; line-height: 1; margin-bottom: 48px; }
+.duel { display: flex; gap: 170px; }
+.team { display: flex; flex-direction: column; flex: 1 1 0; min-width: 0; }
+.name { width: 100%; min-width: 0; text-align: center; font-size: 94px; font-weight: 800; line-height: 1; margin-bottom: 29px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.combinedAName:empty::before { content: "Team A"; }
+.combinedBName:empty::before { content: "Team B"; }
+.cluster { display: flex; align-items: flex-end; }
+.halo { display: flex; border-radius: 50%; background: #99b795; padding: 8px; aspect-ratio: 1; flex: 0 0 69%; min-width: 0; }
+.ring-gap { width: 100%; min-width: 0; min-height: 0; display: flex; border: 9px solid #07100d; border-radius: 50%; }
+.disc { width: 100%; min-width: 0; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 50%; border: 6px solid #99b795; background: #e0e8d9; color: #0b1d1d; }
+.label { font-size: 39px; line-height: 1; letter-spacing: .11em; font-weight: 600; margin-bottom: 14px; }
+.score { width: 100%; display: block; text-align: center; font-size: 232px; font-weight: 800; line-height: .92; font-variant-numeric: tabular-nums; letter-spacing: -.05em; padding-right: .05em; }
+.sets-halo { flex-basis: 34%; padding: 6px; margin-left: -10px; margin-bottom: 18px; }
+.sets-halo .ring-gap { border-width: 7px; }
+.sets-halo .disc { border-width: 4px; }
+.sets-halo .label { font-size: 27px; letter-spacing: .09em; margin-bottom: 6px; }
+.sets-halo .score { font-size: 78px; line-height: .95; }
+.set-footer { display: flex; flex-direction: column; align-items: center; margin-top: -6px; gap: 5px; font-size: 32px; letter-spacing: .14em; font-weight: 600; }
+.set-value { display: block; width: 100px; text-align: center; font-size: 78px; line-height: 1; letter-spacing: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+.point-slot { display: none; }
+.point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
+@media (max-width: 1480px) {
+  .duel { gap: 9vw; }
+  .title { font-size: clamp(30px, 5.5vw, 82px); }
+  .name { font-size: clamp(27px, 6.1vw, 94px); }
+  .label { font-size: clamp(16px, 2.5vw, 39px); }
+  .score { font-size: clamp(46px, 15vw, 224px); }
+  .sets-halo .label { font-size: clamp(12px, 1.7vw, 27px); }
+  .sets-halo .score { font-size: clamp(24px, 5vw, 78px); }
+}
+@media (max-width: 600px) {
+  .stage { padding: 14px; }
+  .title { font-size: 29px; margin-bottom: 32px; }
+  .duel { gap: 24px; }
+  .name { font-size: 27px; margin-bottom: 17px; }
+  .halo { padding: 3px; flex-basis: 72%; }
+  .ring-gap { border-width: 3px; }
+  .disc { border-width: 2px; }
+  .label { font-size: 12px; letter-spacing: .05em; margin-bottom: 6px; }
+  .score { font-size: 48px; }
+  .sets-halo { flex-basis: 36%; padding: 2px; margin-left: -7px; margin-bottom: 4px; }
+  .sets-halo .ring-gap { border-width: 2px; }
+  .sets-halo .disc { border-width: 2px; }
+  .sets-halo .label { font-size: 9px; margin-bottom: 4px; }
+  .sets-halo .score { font-size: 24px; }
+  .set-footer { margin-top: 22px; font-size: 18px; gap: 5px; }
+  .set-value { width: 45px; font-size: 36px; }
+}
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+      <header class="title">VOLLEYBALL</header>
+      <div class="duel rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <div class="team columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+          <span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span>
+          <div class="cluster rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+            <div class="halo jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"><div class="ring-gap"><div class="disc"><span class="label">POINTS</span><span class="score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div></div></div>
+            <div class="halo sets-halo"><div class="ring-gap"><div class="disc"><span class="label">SETS</span><span class="score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div></div></div>
+          </div>
+        </div>
+        <div class="team columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+          <span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span>
+          <div class="cluster rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+            <div class="halo jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"><div class="ring-gap"><div class="disc"><span class="label">POINTS</span><span class="score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div></div></div>
+            <div class="halo sets-halo"><div class="ring-gap"><div class="disc"><span class="label">SETS</span><span class="score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></div></div>
+          </div>
+        </div>
+      </div>
+      <footer class="set-footer">SET <span class="set-value" data-osb-static="true" data-sport-stat="set">0</span></footer>
+      <div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </article>
+  </main>
+</body>
+</html>
