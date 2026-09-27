@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "55d047d443d1a6e92ff6d4deedb5aa89bec98ab3356572a6c8afd5a3a2546290",
+  "revision": "674f6f4e8416ad35782433e0acc8071afc6241d54c16da573956a66063d797fa",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -4270,6 +4270,650 @@
       "fileName": "inverted-splitline-volleyball-2.html",
       "contentHash": "d9177159a30bc7b0c42cdbd68ba5f79bcd215f7289c8d1e0833d06cc020b00c0",
       "documentPath": "published/d9177159a30bc7b0c42cdbd68ba5f79bcd215f7289c8d1e0833d06cc020b00c0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-baseball-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-baseball-1.html",
+      "contentHash": "151045419eea434592b17b1bed8d9fe6f5c9b14d0b6ce47127ebca406200f761",
+      "documentPath": "published/151045419eea434592b17b1bed8d9fe6f5c9b14d0b6ce47127ebca406200f761.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-baseball-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-baseball-2.html",
+      "contentHash": "d30dc1647598e655de5306ec7c57dcc118a16a06a20c99168883fc86121770fa",
+      "documentPath": "published/d30dc1647598e655de5306ec7c57dcc118a16a06a20c99168883fc86121770fa.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-basketball-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-basketball-1.html",
+      "contentHash": "381212cc930a38dc8dcc13ea59071b2945d897acc201b769b433feaa1aca82a3",
+      "documentPath": "published/381212cc930a38dc8dcc13ea59071b2945d897acc201b769b433feaa1aca82a3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-basketball-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-basketball-2.html",
+      "contentHash": "4649d658f684f86eac4a4b5661d32a32e6512214c9f21e3b8d455508af995c82",
+      "documentPath": "published/4649d658f684f86eac4a4b5661d32a32e6512214c9f21e3b8d455508af995c82.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-pickleball-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Cobalt Line — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-pickleball-1.html",
+      "contentHash": "b42f9414b75fd90f2a7c36817e2ed224fca26ccf7c9ed8039128373616ba32fb",
+      "documentPath": "published/b42f9414b75fd90f2a7c36817e2ed224fca26ccf7c9ed8039128373616ba32fb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-pickleball-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Cobalt Line — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-pickleball-2.html",
+      "contentHash": "cbd63ccb39c3ffa3a37312c9436d54779b27ad2cadb9432b77ecad8dc4c78565",
+      "documentPath": "published/cbd63ccb39c3ffa3a37312c9436d54779b27ad2cadb9432b77ecad8dc4c78565.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-soccer-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-soccer-1.html",
+      "contentHash": "0f3f24d166045f7a99d6cfd6ff25fc982f8f47d147259239a5352544b6e273a3",
+      "documentPath": "published/0f3f24d166045f7a99d6cfd6ff25fc982f8f47d147259239a5352544b6e273a3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-soccer-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-soccer-2.html",
+      "contentHash": "468f84e949152ce4e6f9ae3ea5d022b41432d9d2fde3c28eb8f9e69cc2638460",
+      "documentPath": "published/468f84e949152ce4e6f9ae3ea5d022b41432d9d2fde3c28eb8f9e69cc2638460.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-softball-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-softball-1.html",
+      "contentHash": "f719f095dac7e7048385d3aa560074c77e37d2c3f29828a00a58cf2f779f1b15",
+      "documentPath": "published/f719f095dac7e7048385d3aa560074c77e37d2c3f29828a00a58cf2f779f1b15.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-softball-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-softball-2.html",
+      "contentHash": "0e39830d5fb3d5585b05afe7bddf1d7e9cc857ca8d1632c953c2251a8b9e4b48",
+      "documentPath": "published/0e39830d5fb3d5585b05afe7bddf1d7e9cc857ca8d1632c953c2251a8b9e4b48.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-table-tennis-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Cobalt Line — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-table-tennis-1.html",
+      "contentHash": "39cb99e42128c01b9825f2368221450b137b64b897d4d29b1c7f41fb0e0bd0c4",
+      "documentPath": "published/39cb99e42128c01b9825f2368221450b137b64b897d4d29b1c7f41fb0e0bd0c4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-table-tennis-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Cobalt Line — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-table-tennis-2.html",
+      "contentHash": "331fe5c53e184134321cf6184278e190c7b1b1f38e8015398f15475cd972602d",
+      "documentPath": "published/331fe5c53e184134321cf6184278e190c7b1b1f38e8015398f15475cd972602d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Compact aligned two-row scorebug with white header. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-volleyball-1.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-cobalt-line-volleyball-1.html",
+      "contentHash": "aa9215598c317ce0b5a5ab9613f21fd38c8ba00056b8badec3d4c486ce9ffadf",
+      "documentPath": "published/aa9215598c317ce0b5a5ab9613f21fd38c8ba00056b8badec3d4c486ce9ffadf.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with ivory name lanes, navy mixed-case lettering, integrated same-cobalt primary score channels with complete white numerals, pale-blue supporting cells, a coherent cobalt frame and navy counter footer where applicable. Balanced horizontal lower-third with a text-only cobalt sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous cobalt score channels and a disciplined light-body/dark-footer broadcast information hierarchy;3px independent live competitor-color ticks",
+      "output": "html-replications/ivory-cobalt-line-volleyball-2.html",
+      "palette": [
+        "#faf9f3",
+        "#152842",
+        "#1557b0",
+        "#e4ecf8",
+        "#587089",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "544117fa8ec09fd01bbfc95f5396c4026a17353fcab6249c1a55c9c91d902406",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or balanced horizontal lower-third with ivory name lanes, integrated same-cobalt primary score channel, pale-blue secondary cells, white metadata header and enclosed navy counter footer; text-only sport endcap",
+        "professionalFinish": "Credible static sports-broadcast scorebug/lower-third with complete normal solid numerals, aligned fixed tracks, clear names, disciplined contrast and restrained decoration. No animation dependency, flip/flicker, inversion within a glyph, stencil/dot/hollow numbers, rotated names, braces, oversized poster type or abstract layouts.",
+        "surface": "Flat ivory and cobalt surfaces with a crisp2px cobalt frame, consistent square-to2px corners and thin blue-gray row separators; no gradients, shadows, textures, icons or separate raised numeric tiles",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names around26px and complete solid tabular primary scores around34px; compact22px secondary counts and13px uppercase metadata; denser44px row rhythm"
+      },
+      "styleID": "ivory-cobalt-line",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-cobalt",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Cobalt Line — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-cobalt-line-volleyball-2.html",
+      "contentHash": "fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62",
+      "documentPath": "published/fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62.json"
     },
     {
       "aliases": [],
