@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "49ea455b77ac1c7f520fee803e87e45ea0f948a57681020f387a8e91234fad71",
+  "revision": "85a55e1471985e9f42cd7473809f21b59955cc5a12a8985571ef7a8a3d3750cf",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -980,6 +980,552 @@
       "fileName": "089-table-tennis-scoreboard-overlay.html",
       "contentHash": "288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295",
       "documentPath": "published/288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for inning, balls, strikes and outs. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-baseball-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "baseball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — BASEBALL Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-baseball-1.html",
+      "contentHash": "e3e058872951ed8ecf775fd532b4fddb81a8b2209470cc67b0b78dd8372dc8b6",
+      "documentPath": "published/e3e058872951ed8ecf775fd532b4fddb81a8b2209470cc67b0b78dd8372dc8b6.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for inning, balls, strikes and outs. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-baseball-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "baseball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — BASEBALL Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-baseball-2.html",
+      "contentHash": "c76264dd5067cde65212afd232affdf924972579f82affbb74544ce52c89fb44",
+      "documentPath": "published/c76264dd5067cde65212afd232affdf924972579f82affbb74544ce52c89fb44.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for clock, period and shot clock. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-basketball-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "basketball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — BASKETBALL Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-basketball-1.html",
+      "contentHash": "6a27cb050c765a45106d6b374c508cadd25c997d02d31a74ae69450ce891965e",
+      "documentPath": "published/6a27cb050c765a45106d6b374c508cadd25c997d02d31a74ae69450ce891965e.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for clock, period and shot clock. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-basketball-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "basketball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — BASKETBALL Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-basketball-2.html",
+      "contentHash": "d96194f2b73310d88d309e1baf473ba450eea0cf1f6a94a6f1bdc387a5c0be45",
+      "documentPath": "published/d96194f2b73310d88d309e1baf473ba450eea0cf1f6a94a6f1bdc387a5c0be45.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Live names, identity colors, game/match scores, service and neutral point states.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-pickleball-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "pickleball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "native-scoring"
+      ],
+      "title": "Carbon Copy Ticket — PICKLEBALL Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-pickleball-1.html",
+      "contentHash": "f00d10aacd5373f93984979030f11aa60f7c159aa0eeff45728c469d740c000d",
+      "documentPath": "published/f00d10aacd5373f93984979030f11aa60f7c159aa0eeff45728c469d740c000d.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Live names, identity colors, game/match scores, service and neutral point states.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-pickleball-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "pickleball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "native-scoring"
+      ],
+      "title": "Carbon Copy Ticket — PICKLEBALL Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-pickleball-2.html",
+      "contentHash": "dd5ec24d53d0490f8dcc7f1aab2ee5a41efff4a55b5b1092a2384dc80947686a",
+      "documentPath": "published/dd5ec24d53d0490f8dcc7f1aab2ee5a41efff4a55b5b1092a2384dc80947686a.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for clock and half. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-soccer-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "soccer",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — SOCCER Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-soccer-1.html",
+      "contentHash": "9cdaddf78ce25f4fbb675e0a40fa4c5347c0211d3dd1907dfffe5ee1a59d9b04",
+      "documentPath": "published/9cdaddf78ce25f4fbb675e0a40fa4c5347c0211d3dd1907dfffe5ee1a59d9b04.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for clock and half. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-soccer-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "soccer",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — SOCCER Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-soccer-2.html",
+      "contentHash": "372239aee2143755e891f2a34e1602e4abc6e63ad6e392f10d69216e71c0da3d",
+      "documentPath": "published/372239aee2143755e891f2a34e1602e4abc6e63ad6e392f10d69216e71c0da3d.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for inning, balls, strikes and outs. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-softball-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "softball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — SOFTBALL Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-softball-1.html",
+      "contentHash": "877966a0bd81762a4b5a61e5844258208ba3f3f3fc22f6d0973b84f69a100170",
+      "documentPath": "published/877966a0bd81762a4b5a61e5844258208ba3f3f3fc22f6d0973b84f69a100170.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores; editable static placeholders for inning, balls, strikes and outs. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-softball-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "softball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — SOFTBALL Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-softball-2.html",
+      "contentHash": "a5239565602be9371b6fde04cd3bb7502888fea5e405ced728c504de8e3e596a",
+      "documentPath": "published/a5239565602be9371b6fde04cd3bb7502888fea5e405ced728c504de8e3e596a.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Live names, identity colors, game/match scores, service and neutral point states.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-table-tennis-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "native-scoring"
+      ],
+      "title": "Carbon Copy Ticket — TABLE TENNIS Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-table-tennis-1.html",
+      "contentHash": "cf6484491ba10072f0bbdfbc37dac232748995c5fe81d7c277ca9823784a6c2b",
+      "documentPath": "published/cf6484491ba10072f0bbdfbc37dac232748995c5fe81d7c277ca9823784a6c2b.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Live names, identity colors, game/match scores, service and neutral point states.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-table-tennis-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "native-scoring"
+      ],
+      "title": "Carbon Copy Ticket — TABLE TENNIS Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-table-tennis-2.html",
+      "contentHash": "adf840bfeba4a57ca22c52b343f921f84ee00302639c21e1228564daf037773f",
+      "documentPath": "published/adf840bfeba4a57ca22c52b343f921f84ee00302639c21e1228564daf037773f.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket paired-row scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores and sets won; editable static placeholders for current set. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-volleyball-1.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "volleyball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — VOLLEYBALL Stacked",
+      "variant": 1,
+      "fileName": "carbon-copy-ticket-volleyball-1.html",
+      "contentHash": "fa88499e85591b9f3ff7af0092476588569405f875733eabfcf407780362107b",
+      "documentPath": "published/fa88499e85591b9f3ff7af0092476588569405f875733eabfcf407780362107b.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original punched paper-ticket side-by-side scoreboard. CSS geometry approximates generated type and corner detailing. Generic/manual scoring: live names/colors/current scores and sets won; editable static placeholders for current set. No native sport rules are supplied.",
+      "motif": "perforated tear-off ticket",
+      "output": "html-replications/carbon-copy-ticket-volleyball-2.html",
+      "palette": [
+        "#f4f0e4",
+        "#181818",
+        "#bdb4a0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "498f466d8e7bfcdb15548635c5a7bb76e38c884830f4ddd25bbb3284607e84e1",
+      "styleGuide": {
+        "geometry": "square paper ticket with scalloped punched side edges, dashed detachable seams and thin black rules",
+        "surface": "flat paper; no gradients, glow, shadows or 3D",
+        "typography": "Courier New bold monospaced names and tabular scores"
+      },
+      "styleID": "carbon-copy-ticket",
+      "tags": [
+        "volleyball",
+        "simple",
+        "monospaced",
+        "paper-ticket",
+        "generic-scoring"
+      ],
+      "title": "Carbon Copy Ticket — VOLLEYBALL Duplex",
+      "variant": 2,
+      "fileName": "carbon-copy-ticket-volleyball-2.html",
+      "contentHash": "9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72",
+      "documentPath": "published/9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72.json"
     },
     {
       "aliases": [],
