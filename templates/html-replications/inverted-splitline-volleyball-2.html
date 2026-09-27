@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inverted Splitline Volleyball — Shared Panel</title>
+  <style>
+* { box-sizing: border-box; }
+html, body { margin: 0; background: transparent; }
+body { color: #f3f0e6; font-family: Arial, Helvetica, sans-serif; }
+.stage { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.board { width: 100%; max-width: 1366px; display: flex; flex-direction: column; background: transparent; }
+.title { font-size: 104px; font-weight: 800; text-align: center; line-height: 1; margin-bottom: 33px; }
+.headers { display: flex; gap: 84px; padding: 0 46px; margin-bottom: 24px; }
+.identity { display: flex; align-items: center; flex: 1 1 0; min-width: 0; gap: 18px; height: 102px; padding: 13px 30px; background: #ffc42b; color: #080a0b; }
+.name { flex: 1 1 0; min-width: 0; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 74px; font-weight: 800; line-height: 1; }
+.combinedAName:empty::before { content: "Team A"; }
+.combinedBName:empty::before { content: "Team B"; }
+.sets-band { display: flex; align-items: center; gap: 12px; flex: 0 0 auto; font-size: 40px; line-height: 1; font-weight: 800; }
+.match-score { display: block; width: 58px; font-size: 52px; text-align: center; font-variant-numeric: tabular-nums; }
+.panel { position: relative; isolation: isolate; height: 582px; display: flex; background: #15161a; }
+.panel::before, .panel::after { content: ""; position: absolute; inset: 0 0 50%; z-index: -1; background: #f3f0e6; }
+.panel::after { inset: 50% 0 0; background: #15161a; }
+.score-track { display: flex; flex-direction: column; align-items: center; flex: 1 1 0; min-width: 0; padding: 20px 24px 12px; }
+.primary-score { display: flex; align-items: center; justify-content: center; width: 100%; height: 480px; flex: 0 0 480px; font-family: "Arial Black", Arial, sans-serif; font-size: 540px; font-weight: 900; color: #fff; mix-blend-mode: difference; line-height: 1; letter-spacing: -.09em; font-variant-numeric: tabular-nums; }
+.points-label { display: block; font-size: 56px; font-weight: 800; line-height: 1; margin-top: 14px; }
+.set-footer { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 31px; font-size: 56px; font-weight: 800; line-height: 1; }
+.set-value { display: block; width: 64px; text-align: center; font-variant-numeric: tabular-nums; }
+.point-slot { display: none; }
+.point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
+@media (max-width: 1400px) and (min-width: 701px) {
+  .headers { gap: 50px; padding: 0 32px; }
+  .name { font-size: 58px; }
+  .primary-score { font-size: 470px; }
+}
+@media (max-height: 800px) and (min-width: 701px) {
+  .title { font-size: 58px; margin-bottom: 18px; }
+  .headers { margin-bottom: 14px; }
+  .identity { height: 62px; padding-top: 8px; padding-bottom: 8px; }
+  .name { font-size: 40px; }
+  .sets-band { font-size: 27px; }
+  .match-score { font-size: 37px; width: 44px; }
+  .panel { height: 340px; }
+  .score-track { padding: 18px 24px; }
+  .primary-score { font-size: 320px; height: 262px; flex-basis: 262px; }
+  .points-label { font-size: 32px; margin-top: 10px; }
+  .set-footer { font-size: 38px; margin-top: 24px; }
+  .set-value { width: 44px; }
+}
+@media (max-width: 700px) {
+  .stage { padding: 14px; }
+  .title { font-size: 30px; margin-bottom: 24px; }
+  .headers { gap: 20px; padding: 0; margin-bottom: 12px; }
+  .identity { height: 56px; padding: 10px; gap: 6px; }
+  .name { font-size: 21px; }
+  .sets-band { font-size: 12px; gap: 4px; }
+  .match-score { font-size: 16px; width: 22px; }
+  .panel { height: 242px; }
+  .score-track { padding: 12px 12px 15px; }
+  .primary-score { font-size: 130px; height: 187px; flex-basis: 187px; }
+  .points-label { font-size: 21px; margin-top: 7px; }
+  .set-footer { font-size: 30px; margin-top: 26px; gap: 8px; }
+  .set-value { width: 35px; }
+}
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+      <header class="title">VOLLEYBALL</header>
+      <div class="headers rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><div class="identity jerseyColorA rowContainer" data-osb-component="field" data-osb-field="jerseyColorA"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="sets-band"><span>SETS</span><span class="match-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div></div><div class="identity jerseyColorB rowContainer" data-osb-component="field" data-osb-field="jerseyColorB"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="sets-band"><span>SETS</span><span class="match-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></div></div>
+      <div class="panel rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><div class="score-track columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="points-label">POINTS</span></div><div class="score-track columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="points-label">POINTS</span></div></div>
+      <footer class="set-footer">SET <span class="set-value" data-osb-static="true" data-sport-stat="set">0</span></footer>
+      <div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </article>
+  </main>
+</body>
+</html>

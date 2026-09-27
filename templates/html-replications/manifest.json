@@ -8048,5 +8048,523 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-table-tennis-1.html",
+    "title": "Inverted Splitline — TABLE TENNIS Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "table-tennis",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels stack vertically. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Native table tennis current scores, separate service indicators and neutral point states.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "independent-stacked",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-table-tennis-2.html",
+    "title": "Inverted Splitline — TABLE TENNIS Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "table-tennis",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Native table tennis current scores, separate service indicators and neutral point states.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-pickleball-1.html",
+    "title": "Inverted Splitline — PICKLEBALL Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "pickleball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels sit side by side. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Native pickleball current scores, separate service indicators and neutral point states.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "independent-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-pickleball-2.html",
+    "title": "Inverted Splitline — PICKLEBALL Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "pickleball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Native pickleball current scores, separate service indicators and neutral point states.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-baseball-1.html",
+    "title": "Inverted Splitline — BASEBALL Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "baseball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels sit side by side. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "independent-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-baseball-2.html",
+    "title": "Inverted Splitline — BASEBALL Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "baseball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-softball-1.html",
+    "title": "Inverted Splitline — SOFTBALL Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "softball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels sit side by side. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "independent-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-softball-2.html",
+    "title": "Inverted Splitline — SOFTBALL Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "softball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-basketball-1.html",
+    "title": "Inverted Splitline — BASKETBALL Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "basketball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels sit side by side. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "independent-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-basketball-2.html",
+    "title": "Inverted Splitline — BASKETBALL Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "basketball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-soccer-1.html",
+    "title": "Inverted Splitline — SOCCER Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "soccer",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels sit side by side. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied. Primary displays are verified for two-digit values; larger goal values may require font-size adjustments.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "independent-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-soccer-2.html",
+    "title": "Inverted Splitline — SOCCER Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "soccer",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied. Primary displays are verified for two-digit values; larger goal values may require font-size adjustments.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-volleyball-1.html",
+    "title": "Inverted Splitline — VOLLEYBALL Independent panels",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "volleyball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Independent score panels sit side by side. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "independent-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/inverted-splitline-volleyball-2.html",
+    "title": "Inverted Splitline — VOLLEYBALL Shared panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#f3f1e8",
+      "#15161a",
+      "#d8a63f"
+    ],
+    "motif": "Foreground/background inversion within one continuous live score glyph across a two-tone horizontal field",
+    "tags": [
+      "volleyball",
+      "simple",
+      "inverted-type",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Original two-tone scoreboard with continuous live primary glyphs inverted across ivory/near-black half-fields and detached colored identity headers. Both scores share one continuous panel. Rebuilt as editable HTML/CSS; local type and difference-blend colors approximate the generated reference. Live competitor colors tint the name headers. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "shared-paired",
+    "styleID": "inverted-splitline",
+    "styleFingerprint": "2bf083bb68d1fae77f409cc41368b6a2336f3797f9f25902596bab9dc47f2205",
+    "styleGuide": {
+      "geometry": "Square-edged broad scoring panels divided into equal ivory upper and near-black lower fields; huge upright primary glyphs cross the shared horizontal boundary; compact colored identity headers detached above",
+      "typography": "Huge solid Arial Black primary numerals reversing from dark-on-ivory to ivory-on-black at the panel split; small solid upright Arial names and supporting counts",
+      "surface": "Two flat contrasting half-fields joined without a hinge line; no score chips, frames, hardware, gradients, shadows, perforations or texture"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]

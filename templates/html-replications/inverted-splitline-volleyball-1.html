@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inverted Splitline Volleyball — Separate Panels</title>
+  <style>
+* { box-sizing: border-box; }
+html, body { margin: 0; background: transparent; }
+body { color: #f3f0e6; font-family: Arial, Helvetica, sans-serif; }
+.stage { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.board { width: 100%; max-width: 1424px; display: flex; flex-direction: column; background: transparent; }
+.title { font-size: 96px; font-weight: 800; line-height: 1; text-align: center; margin-bottom: 28px; }
+.duel { display: flex; gap: 36px; }
+.team { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.identity { min-width: 0; display: flex; align-items: center; gap: 20px; height: 94px; padding: 12px 25px; background: #e5b333; color: #080a0b; }
+.name { flex: 1 1 0; min-width: 0; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 58px; font-weight: 800; line-height: 1; }
+.combinedAName:empty::before { content: "Team A"; }
+.combinedBName:empty::before { content: "Team B"; }
+.sets-band { display: flex; align-items: center; gap: 14px; flex: 0 0 auto; font-size: 40px; font-weight: 800; line-height: 1; }
+.match-score { display: block; width: 65px; text-align: center; font-size: 58px; font-variant-numeric: tabular-nums; }
+.panel { position: relative; isolation: isolate; display: flex; flex-direction: column; align-items: center; height: 558px; padding: 20px 24px 18px; background: #15161a; }
+.panel::before, .panel::after { content: ""; position: absolute; inset: 0 0 50%; z-index: -1; background: #f3f0e6; }
+.panel::after { inset: 50% 0 0; background: #15161a; }
+.primary-score { width: 100%; display: flex; align-items: center; justify-content: center; height: 458px; flex: 0 0 458px; color: #fff; mix-blend-mode: difference; font-family: "Arial Black", Arial, sans-serif; font-size: 520px; font-weight: 900; line-height: 1; letter-spacing: -.08em; font-variant-numeric: tabular-nums; }
+.points-label { display: block; margin-top: 10px; font-size: 52px; font-weight: 800; line-height: 1; }
+.set-footer { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 48px; font-size: 74px; font-weight: 800; line-height: 1; }
+.set-value { display: block; width: 85px; text-align: center; font-variant-numeric: tabular-nums; }
+.point-slot { display: none; }
+.point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
+@media (max-height: 800px) and (min-width: 701px) {
+  .title { font-size: 58px; margin-bottom: 20px; }
+  .identity { height: 70px; }
+  .name { font-size: 40px; }
+  .sets-band { font-size: 28px; }
+  .match-score { font-size: 40px; width: 48px; }
+  .team { gap: 10px; }
+  .panel { height: 380px; padding: 16px 24px 18px; }
+  .primary-score { font-size: 340px; height: 300px; flex-basis: 300px; }
+  .points-label { font-size: 36px; }
+  .set-footer { margin-top: 26px; font-size: 40px; }
+  .set-value { width: 48px; }
+}
+@media (max-width: 700px) {
+  .stage { padding: 14px; }
+  .title { font-size: 30px; margin-bottom: 23px; }
+  .duel { gap: 20px; }
+  .team { gap: 8px; }
+  .identity { height: 56px; padding: 10px; gap: 6px; }
+  .name { font-size: 21px; }
+  .sets-band { font-size: 12px; gap: 4px; }
+  .match-score { font-size: 16px; width: 22px; }
+  .panel { height: 225px; padding: 12px 12px 11px; }
+  .primary-score { font-size: 120px; height: 175px; flex-basis: 175px; }
+  .points-label { margin-top: 6px; font-size: 21px; }
+  .set-footer { font-size: 33px; margin-top: 28px; gap: 9px; }
+  .set-value { width: 38px; }
+}
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+      <header class="title">VOLLEYBALL</header>
+      <div class="duel rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <div class="team columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="identity jerseyColorA rowContainer" data-osb-component="field" data-osb-field="jerseyColorA"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="sets-band"><span>SETS</span><span class="match-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div></div><div class="panel columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="points-label">POINTS</span></div></div>
+        <div class="team columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="identity jerseyColorB rowContainer" data-osb-component="field" data-osb-field="jerseyColorB"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="sets-band"><span>SETS</span><span class="match-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></div><div class="panel columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="points-label">POINTS</span></div></div>
+      </div>
+      <footer class="set-footer">SET <span class="set-value" data-osb-static="true" data-sport-stat="set">0</span></footer>
+      <div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </article>
+  </main>
+</body>
+</html>
