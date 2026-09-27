@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "61a34300f84e2ff470759024b427ec70415287acc22c77791f054bb86eb6ea3d",
+  "revision": "a4c88a3e1635beb9dc8ade0d1d3c450a709610702d1976debc22e6ea84b3c447",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -980,6 +980,566 @@
       "fileName": "089-table-tennis-scoreboard-overlay.html",
       "contentHash": "288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295",
       "documentPath": "published/288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-baseball-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "baseball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — BASEBALL Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-baseball-1.html",
+      "contentHash": "17fc96d139239f2f1766cd808f7b8038b8193ef9ee0f445265827c0ff79d21ec",
+      "documentPath": "published/17fc96d139239f2f1766cd808f7b8038b8193ef9ee0f445265827c0ff79d21ec.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-baseball-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "baseball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — BASEBALL Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-baseball-2.html",
+      "contentHash": "4704d887c48c6e9027b35738a0e62cd7f072f0b737ffcfb17fb07f1b18b041b2",
+      "documentPath": "published/4704d887c48c6e9027b35738a0e62cd7f072f0b737ffcfb17fb07f1b18b041b2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-basketball-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "basketball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — BASKETBALL Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-basketball-1.html",
+      "contentHash": "4cb25c780046b20f77fa39e513a55ab42942db8b358e926fd1641851d4ed2c01",
+      "documentPath": "published/4cb25c780046b20f77fa39e513a55ab42942db8b358e926fd1641851d4ed2c01.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-basketball-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "basketball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — BASKETBALL Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-basketball-2.html",
+      "contentHash": "974f0c41eda87d18013cddba9e856ce60f56dec69edd131270820a39e4f9d12a",
+      "documentPath": "published/974f0c41eda87d18013cddba9e856ce60f56dec69edd131270820a39e4f9d12a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Native pickleball scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-pickleball-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "pickleball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Brace Register — PICKLEBALL Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-pickleball-1.html",
+      "contentHash": "be3e923fae09c5c78430e13957dd9ba555476f88327a98e8d392594da20d5ed5",
+      "documentPath": "published/be3e923fae09c5c78430e13957dd9ba555476f88327a98e8d392594da20d5ed5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Native pickleball scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-pickleball-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "pickleball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Brace Register — PICKLEBALL Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-pickleball-2.html",
+      "contentHash": "f4264f018c4b6f1c68773cd1efc7636139d76efd2810869c3bff770ec820ca13",
+      "documentPath": "published/f4264f018c4b6f1c68773cd1efc7636139d76efd2810869c3bff770ec820ca13.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-soccer-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "soccer",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — SOCCER Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-soccer-1.html",
+      "contentHash": "74fb69a515caae8532d509e638396646170db24c7f4f6c90baf69387ffd29227",
+      "documentPath": "published/74fb69a515caae8532d509e638396646170db24c7f4f6c90baf69387ffd29227.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-soccer-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "soccer",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — SOCCER Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-soccer-2.html",
+      "contentHash": "d4bd91065d819bf4c83593e6f067f92b27c4a887a16b31ebe8fe565a7c4c8733",
+      "documentPath": "published/d4bd91065d819bf4c83593e6f067f92b27c4a887a16b31ebe8fe565a7c4c8733.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-softball-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "softball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — SOFTBALL Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-softball-1.html",
+      "contentHash": "022b46656f22582102983f359a013a2275fdd4eade2598f366e0360c534227cb",
+      "documentPath": "published/022b46656f22582102983f359a013a2275fdd4eade2598f366e0360c534227cb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-softball-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "softball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — SOFTBALL Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-softball-2.html",
+      "contentHash": "94536d7fbb29b170add2947f007d791c71cc6a306ee4ccb93f12fb57bd874d42",
+      "documentPath": "published/94536d7fbb29b170add2947f007d791c71cc6a306ee4ccb93f12fb57bd874d42.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Native table tennis scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-table-tennis-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Brace Register — TABLE TENNIS Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-table-tennis-1.html",
+      "contentHash": "3eca4738e0d44093ee802eb98aa53715f48559b07a573ff37ae57f6951ad9882",
+      "documentPath": "published/3eca4738e0d44093ee802eb98aa53715f48559b07a573ff37ae57f6951ad9882.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Native table tennis scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-table-tennis-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Brace Register — TABLE TENNIS Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-table-tennis-2.html",
+      "contentHash": "17ba0b927f9accc35783a71bceb3cdaca4867b3fbe1d56d06b4e3299657406f9",
+      "documentPath": "published/17ba0b927f9accc35783a71bceb3cdaca4867b3fbe1d56d06b4e3299657406f9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-rows",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two aligned name-to-score rows. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-volleyball-1.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "volleyball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — VOLLEYBALL Aligned rows",
+      "variant": 1,
+      "fileName": "brace-register-volleyball-1.html",
+      "contentHash": "be58a0ed5d731a951087a4e6e376258728dd740219ca1cfb051d761975667008",
+      "documentPath": "published/be58a0ed5d731a951087a4e6e376258728dd740219ca1cfb051d761975667008.json"
+    },
+    {
+      "aliases": [],
+      "composition": "shared-brace-columns",
+      "description": "One continuous curly-brace pair encloses the entire match on transparent surroundings. Two side-by-side name-above-score columns. Rounded bold local sans numerals match the generated lettering, which departed from the requested slab-serif guide; raised GAMES/SETS annotations appear where applicable. Rebuilt as editable HTML/CSS; local glyph shapes approximate the generated reference. Competitor colors tint the names. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Shared typographic curly-brace enclosure groups both competitors as one match; secondary match counts are raised annotations",
+      "output": "html-replications/brace-register-volleyball-2.html",
+      "palette": [
+        "#f5f0e3",
+        "#d8c9a3",
+        "#a5d8c2"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "e51a0ddb696b64f38f16ba00c7995248804a26447da56ae980ee1e18a97170b4",
+      "styleGuide": {
+        "geometry": "One oversized continuous curly brace pair encloses the entire match register on transparent canvas; open name/score expressions and small raised secondary counts, without per-side panels",
+        "surface": "Transparent open field with no filled board, score boxes, keylines, backgrounds, frames, shadows, gradients or texture",
+        "typography": "Generated realization: solid rounded bold sans primary digits, upright Arial names, raised monospace GAMES/SETS annotations; requested slab-serif guide preserved locally."
+      },
+      "styleID": "brace-register",
+      "tags": [
+        "volleyball",
+        "simple",
+        "typographic-braces",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Brace Register — VOLLEYBALL Paired columns",
+      "variant": 2,
+      "fileName": "brace-register-volleyball-2.html",
+      "contentHash": "991db9156b784c1159217170e4bac6806239389bd36c73032ae91fc19d446301",
+      "documentPath": "published/991db9156b784c1159217170e4bac6806239389bd36c73032ae91fc19d446301.json"
     },
     {
       "aliases": [],
