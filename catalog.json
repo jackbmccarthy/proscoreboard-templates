@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "19f63f042e4c0fefeb10b8df8cb1494620e46010e37a4b08f72c058c297ed6dd",
+  "revision": "428f0dddad885c4768c2e3785a8cd0b1a9aec763a4ec79ab75ba13be261cac79",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -5558,6 +5558,636 @@
       "fileName": "ivory-cobalt-line-volleyball-2.html",
       "contentHash": "fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62",
       "documentPath": "published/fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-baseball-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-baseball-1.html",
+      "contentHash": "b3c2742ad355456e493e061bc1eaa395379115d8262b1164c60bdd2cd974a904",
+      "documentPath": "published/b3c2742ad355456e493e061bc1eaa395379115d8262b1164c60bdd2cd974a904.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-baseball-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-baseball-2.html",
+      "contentHash": "188b4acb9c844dc0998df5bdd66eaad0f1c78fc2f3f11748add9cf8bb51b0de5",
+      "documentPath": "published/188b4acb9c844dc0998df5bdd66eaad0f1c78fc2f3f11748add9cf8bb51b0de5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-basketball-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-basketball-1.html",
+      "contentHash": "6cdbc9aabd99f9cc6e779c3cd7441cd6e33452a0cbd7056ce58c6fe07843963a",
+      "documentPath": "published/6cdbc9aabd99f9cc6e779c3cd7441cd6e33452a0cbd7056ce58c6fe07843963a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-basketball-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-basketball-2.html",
+      "contentHash": "005e0d6708563b77f9939da95c6942a708432dc75340b8fb3e2857bf61601ebd",
+      "documentPath": "published/005e0d6708563b77f9939da95c6942a708432dc75340b8fb3e2857bf61601ebd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-pickleball-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Midnight Teal Capsule — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-pickleball-1.html",
+      "contentHash": "e8ca67bbac5689aab6fdc88b6937d943fe4fc2d29a71d7e3cb48361c2a5d2f04",
+      "documentPath": "published/e8ca67bbac5689aab6fdc88b6937d943fe4fc2d29a71d7e3cb48361c2a5d2f04.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-pickleball-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Midnight Teal Capsule — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-pickleball-2.html",
+      "contentHash": "855555c0ebc2248bdde26f75ba8e9aaebd55e9d19f83c2b4e664d1084fce7cfa",
+      "documentPath": "published/855555c0ebc2248bdde26f75ba8e9aaebd55e9d19f83c2b4e664d1084fce7cfa.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-soccer-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-soccer-1.html",
+      "contentHash": "e89bed8b58d90a78ffa74d354b8fedafab9ade716015fe2df22356f0db6745c5",
+      "documentPath": "published/e89bed8b58d90a78ffa74d354b8fedafab9ade716015fe2df22356f0db6745c5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-soccer-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-soccer-2.html",
+      "contentHash": "4d51b068e64b16f516b137e70af30e4fab4dd39b57aed8d0c6e04440d863d45f",
+      "documentPath": "published/4d51b068e64b16f516b137e70af30e4fab4dd39b57aed8d0c6e04440d863d45f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-softball-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-softball-1.html",
+      "contentHash": "08dbd726394330fb3b1761f9e23c00ce90bea02cbb355105b7db7592193ff40c",
+      "documentPath": "published/08dbd726394330fb3b1761f9e23c00ce90bea02cbb355105b7db7592193ff40c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-softball-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-softball-2.html",
+      "contentHash": "e3f6e55923a2938aa3d06bf1ca8fdb8a4e67f2e751085d2ea3fdfadfc15ddad9",
+      "documentPath": "published/e3f6e55923a2938aa3d06bf1ca8fdb8a4e67f2e751085d2ea3fdfadfc15ddad9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-table-tennis-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Midnight Teal Capsule — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-table-tennis-1.html",
+      "contentHash": "4f256ced6e8379cae86522faf4dce4b6501cc6d13ab86813e947f450fed02247",
+      "documentPath": "published/4f256ced6e8379cae86522faf4dce4b6501cc6d13ab86813e947f450fed02247.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-table-tennis-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Midnight Teal Capsule — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-table-tennis-2.html",
+      "contentHash": "afb2c17c2cf9bf6f70f749fbebcd720904bc67e14c82319b357044e68e7fed29",
+      "documentPath": "published/afb2c17c2cf9bf6f70f749fbebcd720904bc67e14c82319b357044e68e7fed29.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-volleyball-1.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "midnight-teal-capsule-volleyball-1.html",
+      "contentHash": "885e18387a8d1b9a7a86fcfccd4c60174a5276cd050456ecba833beb1a392444",
+      "documentPath": "published/885e18387a8d1b9a7a86fcfccd4c60174a5276cd050456ecba833beb1a392444.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep navy name lanes, white mixed-case Arial lettering, complete white primary numerals on teal channels, unboxed pale-teal supporting counts, a continuous pale-teal header ribbon and a navy counter footer where applicable. Balanced horizontal lower-third beneath a full-width pale-teal sport header, with two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Continuous contrasting pale-teal header ribbon with airy dark information lanes and consistent teal primary channel; independent thin live identity ticks",
+      "output": "html-replications/midnight-teal-capsule-volleyball-2.html",
+      "palette": [
+        "#102331",
+        "#147d86",
+        "#f7fbfc",
+        "#b9e2df",
+        "#36545e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "e2ea7b8d365594f46a736980791bce4ad1daa48d61a55a2b26a35ccbccac3fd6",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or balanced horizontal lower-third with continuous narrow full-width pale-teal header ribbon, airy54px rows, integrated square primary terminals and navy counter footer",
+        "professionalFinish": "Static credible broadcast graphics with aligned flexible name lanes, stable score tracks, complete solid numerals, disciplined contrast/spacing and restrained borders; no animation dependency or novelty effects.",
+        "surface": "Flat deep navy lanes and footer, same teal primary cells with white complete digits, unboxed pale-teal secondary counts, pale-teal header with dark navy type; subtle1px outline/dividers, uniform8px outer corners and square internal cells, no gradients/shadows/icons/history",
+        "typography": "Normal upright bold Arial mixed-case names24px, complete solid white bold Arial tabular primary34px, unboxed pale-teal secondary22px and restrained uppercase12px metadata; no condensed italics or glyph scaling"
+      },
+      "styleID": "midnight-teal-capsule",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "midnight-teal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Midnight Teal Capsule — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "midnight-teal-capsule-volleyball-2.html",
+      "contentHash": "bbb51398db911a3c6eb119f16a51737bbca8967753986926d48820d6d7156437",
+      "documentPath": "published/bbb51398db911a3c6eb119f16a51737bbca8967753986926d48820d6d7156437.json"
     },
     {
       "aliases": [],
