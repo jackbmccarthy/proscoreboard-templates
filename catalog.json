@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "428f0dddad885c4768c2e3785a8cd0b1a9aec763a4ec79ab75ba13be261cac79",
+  "revision": "694eec661c4d1f0dfc41eb1f13cf4c5a7ef8f08c793dd5f27c5b5e62d82af22e",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -10904,6 +10904,622 @@
       "fileName": "score-halo-volleyball-2.html",
       "contentHash": "83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e",
       "documentPath": "published/83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-baseball-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-baseball-1.html",
+      "contentHash": "ff73334ce4ae9db68ca4a09589310b2ddaef4ebe1e0b6ed502a5ff75b24cf8a3",
+      "documentPath": "published/ff73334ce4ae9db68ca4a09589310b2ddaef4ebe1e0b6ed502a5ff75b24cf8a3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-baseball-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-baseball-2.html",
+      "contentHash": "8b7d5f8bfd3e36ca2257974b2293f108eb9405fba17fd1731d9b9be6e88d892d",
+      "documentPath": "published/8b7d5f8bfd3e36ca2257974b2293f108eb9405fba17fd1731d9b9be6e88d892d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-basketball-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-basketball-1.html",
+      "contentHash": "3d59e9a385b969672e96885d31fad93401bee73deb15b3e6b8dc7c4e6181b32e",
+      "documentPath": "published/3d59e9a385b969672e96885d31fad93401bee73deb15b3e6b8dc7c4e6181b32e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-basketball-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-basketball-2.html",
+      "contentHash": "146ec89d58d42fc7fedd2c633d1358b3b88654c88da26d005577aba0d68b21a1",
+      "documentPath": "published/146ec89d58d42fc7fedd2c633d1358b3b88654c88da26d005577aba0d68b21a1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-pickleball-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Plum Ledger — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-pickleball-1.html",
+      "contentHash": "dcd4b01d4a28d7ccebf51ae0ff3ce40e359b652def88b7e6cc8ec9b984b64485",
+      "documentPath": "published/dcd4b01d4a28d7ccebf51ae0ff3ce40e359b652def88b7e6cc8ec9b984b64485.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-pickleball-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Plum Ledger — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-pickleball-2.html",
+      "contentHash": "76fdf7fb8277503626045667908e51c54ef2aeb92c7e0e66f37af35fc66109ae",
+      "documentPath": "published/76fdf7fb8277503626045667908e51c54ef2aeb92c7e0e66f37af35fc66109ae.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-soccer-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-soccer-1.html",
+      "contentHash": "cab50ff01cc0fff7cddc8873ed87f87a4fa5b43876be7ee9a99d4cb35fa4a9f4",
+      "documentPath": "published/cab50ff01cc0fff7cddc8873ed87f87a4fa5b43876be7ee9a99d4cb35fa4a9f4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-soccer-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-soccer-2.html",
+      "contentHash": "b1b8526a439db2eac5f098653b1f59cce353a75e67abca40263975de1503cbca",
+      "documentPath": "published/b1b8526a439db2eac5f098653b1f59cce353a75e67abca40263975de1503cbca.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-softball-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-softball-1.html",
+      "contentHash": "d966b7c6a1c13be4213543eea83818d13cc724a50f9b25317e8900efdf823e8d",
+      "documentPath": "published/d966b7c6a1c13be4213543eea83818d13cc724a50f9b25317e8900efdf823e8d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-softball-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-softball-2.html",
+      "contentHash": "b947631952c84c31ed687178f47dd45eddf6c75163a344d2673068fc26dc4f68",
+      "documentPath": "published/b947631952c84c31ed687178f47dd45eddf6c75163a344d2673068fc26dc4f68.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-table-tennis-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Plum Ledger — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-table-tennis-1.html",
+      "contentHash": "6620698b6254feacf9e163eade24f2c7ee8108ba65416196a7b8fabc4486dd57",
+      "documentPath": "published/6620698b6254feacf9e163eade24f2c7ee8108ba65416196a7b8fabc4486dd57.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-table-tennis-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Plum Ledger — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-table-tennis-2.html",
+      "contentHash": "2127d68bc42a1aa53ea61a3aff9049df3e419dbd6dc547ad2889122eafbdfc4e",
+      "documentPath": "published/2127d68bc42a1aa53ea61a3aff9049df3e419dbd6dc547ad2889122eafbdfc4e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-volleyball-1.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-plum-ledger-volleyball-1.html",
+      "contentHash": "5996ba6a28c7ac294b8420f712e609ada04f329898bd8fe37e314b62424119c1",
+      "documentPath": "published/5996ba6a28c7ac294b8420f712e609ada04f329898bd8fe37e314b62424119c1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool silver name lanes/footer, dark plum mixed-case Arial lettering, complete dark plum primary numerals on white cells, unboxed plum supporting counts, a full dark plum header with white lettering, square edges and a thin bottom keyline. Balanced horizontal lower-third beneath a centered sport title in a full-width plum header, with two identical name-to-score lanes and inset white primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained plum header/bottom-keyline information enclosure over light silver lanes and white score tracks with independent thin identity ticks",
+      "output": "html-replications/silver-plum-ledger-volleyball-2.html",
+      "palette": [
+        "#e8edf0",
+        "#402944",
+        "#ffffff",
+        "#bec7cd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "cbef75080daaf7323f7ab20ff78e89042cdc63637a8968b0025ef4283df6082e",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, thin continuous full-width dark plum header, dense40px rows and stable white primary terminal cells; light silver footer",
+        "professionalFinish": "Conventional static credible light broadcast package, complete solid score numerals on white terminals, aligned flexible names and fixed tracks, high contrast and neat grouped counters; no animation dependency or experimental effects.",
+        "surface": "Flat cool silver name lanes/footer and white same-color primary cells with dark plum numerals; unboxed plum supporting counts; dark plum full-width header with white lettering, gray1px dividers, square zero-radius outer corners, thin2px plum bottom keyline and no thick frame, gradients, shadows, icons or history",
+        "typography": "Normal upright bold Arial mixed-case names20px, complete solid dark plum bold Arial tabular primary30px, plain unboxed dark plum secondary18px and11px uppercase captions; compact balanced hierarchy with no glyph scaling"
+      },
+      "styleID": "silver-plum-ledger",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-plum",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Plum Ledger — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-plum-ledger-volleyball-2.html",
+      "contentHash": "c770fa7f8d305d646e373e62d50a71be17c0c35ccfb034dea733fe4ec02f412d",
+      "documentPath": "published/c770fa7f8d305d646e373e62d50a71be17c0c35ccfb034dea733fe4ec02f412d.json"
     },
     {
       "aliases": [],
