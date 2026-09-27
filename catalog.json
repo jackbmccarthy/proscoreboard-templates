@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "a4c88a3e1635beb9dc8ade0d1d3c450a709610702d1976debc22e6ea84b3c447",
+  "revision": "d86e8dd4cff9e4004e20a160b0cabb3df7930d3d4aa31fea26a97eca2a8f348c",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -9146,6 +9146,552 @@
       "fileName": "sport-volleyball-sets.html",
       "contentHash": "48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2",
       "documentPath": "published/48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-baseball-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "baseball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — BASEBALL Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-baseball-1.html",
+      "contentHash": "a7a607d2ef548e857d007c886dd7ca05697566faf94b61298bf175c3e9086b35",
+      "documentPath": "published/a7a607d2ef548e857d007c886dd7ca05697566faf94b61298bf175c3e9086b35.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-baseball-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "baseball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — BASEBALL Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-baseball-2.html",
+      "contentHash": "fc9879ccbdeaac0414674a3e0bf2f97b6f16ca61fe3af306fb57ef24b8f8a163",
+      "documentPath": "published/fc9879ccbdeaac0414674a3e0bf2f97b6f16ca61fe3af306fb57ef24b8f8a163.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-basketball-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "basketball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — BASKETBALL Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-basketball-1.html",
+      "contentHash": "f40cfc23d6c6cdfafa523280c2aea7128e5cbbfbceb287110588ec8fd170d8ab",
+      "documentPath": "published/f40cfc23d6c6cdfafa523280c2aea7128e5cbbfbceb287110588ec8fd170d8ab.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-basketball-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "basketball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — BASKETBALL Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-basketball-2.html",
+      "contentHash": "8cb35bce837b088926fc2565b923c66d6c28953e56cbdf20372e69cc4f683776",
+      "documentPath": "published/8cb35bce837b088926fc2565b923c66d6c28953e56cbdf20372e69cc4f683776.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Native pickleball scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-pickleball-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "pickleball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Staircase Stencil — PICKLEBALL Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-pickleball-1.html",
+      "contentHash": "2d90908ec81725046946d70aea3a5208b9689391774c1f9551884f31ea0434c6",
+      "documentPath": "published/2d90908ec81725046946d70aea3a5208b9689391774c1f9551884f31ea0434c6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Native pickleball scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-pickleball-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "pickleball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Staircase Stencil — PICKLEBALL Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-pickleball-2.html",
+      "contentHash": "0d9ec11e4ed8cfdf577d0da4b1f80f24922eed846ab9cd5222b0d5f5ca2240cc",
+      "documentPath": "published/0d9ec11e4ed8cfdf577d0da4b1f80f24922eed846ab9cd5222b0d5f5ca2240cc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-soccer-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "soccer",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — SOCCER Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-soccer-1.html",
+      "contentHash": "40735f444c67d6be2b21182b264fca48133b0fefd8ebf241c8a665403e836811",
+      "documentPath": "published/40735f444c67d6be2b21182b264fca48133b0fefd8ebf241c8a665403e836811.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-soccer-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "soccer",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — SOCCER Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-soccer-2.html",
+      "contentHash": "b6e41fcb99b03e95064d921f29494fbf467bf5b7fd88edc100cfc3bab1d1565a",
+      "documentPath": "published/b6e41fcb99b03e95064d921f29494fbf467bf5b7fd88edc100cfc3bab1d1565a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-softball-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "softball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — SOFTBALL Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-softball-1.html",
+      "contentHash": "991b5a712713f794b6289395cffc05d9c20d1c37aba3bb01c570424df9ad1f3f",
+      "documentPath": "published/991b5a712713f794b6289395cffc05d9c20d1c37aba3bb01c570424df9ad1f3f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-softball-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "softball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — SOFTBALL Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-softball-2.html",
+      "contentHash": "a25b351695700bb4efeebf628529695916c50f845a9d20c75bbc76ff342f8e95",
+      "documentPath": "published/a25b351695700bb4efeebf628529695916c50f845a9d20c75bbc76ff342f8e95.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Native table tennis scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-table-tennis-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Staircase Stencil — TABLE TENNIS Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-table-tennis-1.html",
+      "contentHash": "a626bdbec34b506f63afafbd65a3e579d5ba5dc78940bcf13867953c0a28a16e",
+      "documentPath": "published/a626bdbec34b506f63afafbd65a3e579d5ba5dc78940bcf13867953c0a28a16e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Native table tennis scoring bindings with separate service indicators and neutral game/match-point states in reserved slots.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-table-tennis-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Staircase Stencil — TABLE TENNIS Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-table-tennis-2.html",
+      "contentHash": "aacfb5286f9a9d61f9b216728610cb35c2060309ae858893c8e949756c552f5d",
+      "documentPath": "published/aacfb5286f9a9d61f9b216728610cb35c2060309ae858893c8e949756c552f5d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "staggered-name-above-score",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. A sits upper-left and B lower-right, each with a name above its score. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-volleyball-1.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "volleyball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — VOLLEYBALL Diagonal groups",
+      "variant": 1,
+      "fileName": "staircase-stencil-volleyball-1.html",
+      "contentHash": "ba4b23e442125893a44de2c68c133ec88b8fef108b0b2bb6047275fcb6b8afe2",
+      "documentPath": "published/ba4b23e442125893a44de2c68c133ec88b8fef108b0b2bb6047275fcb6b8afe2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "mirrored-name-score-rows",
+      "description": "Detached competitor expressions with two transparent stencil gaps through each single live primary numeral. The top row places name left and score right; the lower row reverses that order. Small GAMES/SETS counts sit below-left of their primary where applicable. Rebuilt as editable HTML/CSS; local glyph contours approximate the generated reference, with live competitor colors tinting names. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Two clean horizontal stencil gaps through each single live primary glyph combined with staggered or mirrored competitor placement",
+      "output": "html-replications/staircase-stencil-volleyball-2.html",
+      "palette": [
+        "#f5f1e8",
+        "#d96d4a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "f2a652d6064b56c9447ff7e39dabc0a7e59fc1ced811f640360269d197d8aa18",
+      "styleGuide": {
+        "geometry": "Detached competitor expressions on open transparent space, staggered diagonally or mirrored across two rows; no common filled surface, per-score enclosures, rulers or dividers",
+        "surface": "Open flat typography on transparent surroundings; stencil voids reveal the backdrop, without gradients, shadows, textures, cards, rails, medallions or frames",
+        "typography": "Huge solid bold Arial Black primary numerals with two broad horizontal transparent stencil cuts; smaller upright Arial names and supporting labels; plain small secondary counts below-left of their primary score"
+      },
+      "styleID": "staircase-stencil",
+      "tags": [
+        "volleyball",
+        "simple",
+        "stencil-type",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Staircase Stencil — VOLLEYBALL Mirrored rows",
+      "variant": 2,
+      "fileName": "staircase-stencil-volleyball-2.html",
+      "contentHash": "ac62e8ce6d969b41407dae8bae4d8ec8f5487fd0f030f121d88d775bfdfcf836",
+      "documentPath": "published/ac62e8ce6d969b41407dae8bae4d8ec8f5487fd0f030f121d88d775bfdfcf836.json"
     },
     {
       "aliases": [],
