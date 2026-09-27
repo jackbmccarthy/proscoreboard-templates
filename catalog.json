@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "55d1e06aa9e05bbe1b6fdd5c7a3f72dc787b75fbcfeedb9041f9318f87024abe",
+  "revision": "5211c746333c29c2bbd575e65bcd79902bce9d667a2676a70ca905da3cf186db",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -1526,6 +1526,552 @@
       "fileName": "carbon-copy-ticket-volleyball-2.html",
       "contentHash": "9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72",
       "documentPath": "published/9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-baseball-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "baseball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — BASEBALL Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-baseball-1.html",
+      "contentHash": "34af9e2d2379a12c204a093c427c4ff4cee60a6e94a968d8f291fe9abf526a8b",
+      "documentPath": "published/34af9e2d2379a12c204a093c427c4ff4cee60a6e94a968d8f291fe9abf526a8b.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-baseball-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "baseball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — BASEBALL Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-baseball-2.html",
+      "contentHash": "aea24901da4c14019cbc3772c92c415bc2e7c70d646d25b3cd826e6fb9657360",
+      "documentPath": "published/aea24901da4c14019cbc3772c92c415bc2e7c70d646d25b3cd826e6fb9657360.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-basketball-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "basketball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — BASKETBALL Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-basketball-1.html",
+      "contentHash": "4f085371cf9051dfd612a83747ea7b5e4666a8a8b0f3a7fa33f5dd374e23d750",
+      "documentPath": "published/4f085371cf9051dfd612a83747ea7b5e4666a8a8b0f3a7fa33f5dd374e23d750.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-basketball-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "basketball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — BASKETBALL Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-basketball-2.html",
+      "contentHash": "5130a47cfc6283febf15192ac1359fc96b124f04927e778b7d0612441cc49f9a",
+      "documentPath": "published/5130a47cfc6283febf15192ac1359fc96b124f04927e778b7d0612441cc49f9a.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-pickleball-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "pickleball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Editorial Quotient — PICKLEBALL Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-pickleball-1.html",
+      "contentHash": "5e945114f6d615c411fb3302def76f17d97410698bfc9f26597caf184822629f",
+      "documentPath": "published/5e945114f6d615c411fb3302def76f17d97410698bfc9f26597caf184822629f.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Native pickleball current scores, separate service indicators and neutral point states.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-pickleball-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "pickleball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Editorial Quotient — PICKLEBALL Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-pickleball-2.html",
+      "contentHash": "6370972ce2375202613c52eac4c7c703f6e94bdedfe14c42077fcfe3c9f8fda4",
+      "documentPath": "published/6370972ce2375202613c52eac4c7c703f6e94bdedfe14c42077fcfe3c9f8fda4.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-soccer-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "soccer",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — SOCCER Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-soccer-1.html",
+      "contentHash": "1de5df6f68b906ef0ed94f02797852b4e3e07d41089f4b14c8a1142eff5de5b7",
+      "documentPath": "published/1de5df6f68b906ef0ed94f02797852b4e3e07d41089f4b14c8a1142eff5de5b7.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-soccer-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "soccer",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — SOCCER Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-soccer-2.html",
+      "contentHash": "889322d6b9816b49cc856ed0c3f82f6ed64c941835281e0e79355360103309b9",
+      "documentPath": "published/889322d6b9816b49cc856ed0c3f82f6ed64c941835281e0e79355360103309b9.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-softball-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "softball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — SOFTBALL Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-softball-1.html",
+      "contentHash": "7c32c4dc8768dc3245572db1aa9f38c65e244025353f0d32794de68a09b68f91",
+      "documentPath": "published/7c32c4dc8768dc3245572db1aa9f38c65e244025353f0d32794de68a09b68f91.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-softball-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "softball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — SOFTBALL Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-softball-2.html",
+      "contentHash": "cda79a989da0a88c1c502baadca6558e602255889798b13836d1a9eda41f6ff1",
+      "documentPath": "published/cda79a989da0a88c1c502baadca6558e602255889798b13836d1a9eda41f6ff1.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-table-tennis-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Editorial Quotient — TABLE TENNIS Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-table-tennis-1.html",
+      "contentHash": "a1f823caaf9c3c7d9cbd21f74d05768f2fdb04f2535803888294bcbb6f1be80f",
+      "documentPath": "published/a1f823caaf9c3c7d9cbd21f74d05768f2fdb04f2535803888294bcbb6f1be80f.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Native table tennis current scores, separate service indicators and neutral point states.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-table-tennis-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Editorial Quotient — TABLE TENNIS Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-table-tennis-2.html",
+      "contentHash": "415d19fc8548649ab31e9834bd96d219fd7f3e1df93d50142c045a5d88905980",
+      "documentPath": "published/415d19fc8548649ab31e9834bd96d219fd7f3e1df93d50142c045a5d88905980.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-volleyball-1.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "volleyball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — VOLLEYBALL Rows",
+      "variant": 1,
+      "fileName": "editorial-quotient-volleyball-1.html",
+      "contentHash": "7cdb366396016861979fbadba9e73b0bd07a1b2a3d26c4a0e1cba9481882e115",
+      "documentPath": "published/7cdb366396016861979fbadba9e73b0bd07a1b2a3d26c4a0e1cba9481882e115.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original editorial scoreboard with italic serif names and unboxed orange primary scores below a thin keyline. Rebuilt as editable HTML/CSS; local serif fonts approximate the generated reference. Generic/manual scoring: live competitor names/current scores and sets won; unsupported sport counters are editable static placeholders. No native sport rules are supplied.",
+      "motif": "Labelled numerator/primary-score typography separated by a keyline; no arithmetic slash",
+      "output": "html-replications/editorial-quotient-volleyball-2.html",
+      "palette": [
+        "#fbf5ed",
+        "#231b17",
+        "#a74620"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ce54156b01f0cb8ab17dab212d72eae7b676b299c4058e3b8eda6586a60e5385",
+      "styleGuide": {
+        "geometry": "One flat warm-white editorial sheet with unboxed type, italic serif competitor names, dominant orange serif points below a thin keyline, small secondary score band above that keyline when applicable",
+        "surface": "Flat editorial paper field with thin rules, no cards, score tiles, punched edges, circles, hardware, gradients or texture",
+        "typography": "Georgia/Times bold high-contrast serif numerals and italic serif names; tiny tracked sans-serif data labels"
+      },
+      "styleID": "editorial-quotient",
+      "tags": [
+        "volleyball",
+        "simple",
+        "serif-editorial",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Editorial Quotient — VOLLEYBALL Duel",
+      "variant": 2,
+      "fileName": "editorial-quotient-volleyball-2.html",
+      "contentHash": "81b4c6ddd6b946ec7111ec210ab9559a4a25ccb119d4bd38fbabaf9c2c7506d2",
+      "documentPath": "published/81b4c6ddd6b946ec7111ec210ab9559a4a25ccb119d4bd38fbabaf9c2c7506d2.json"
     },
     {
       "aliases": [],
