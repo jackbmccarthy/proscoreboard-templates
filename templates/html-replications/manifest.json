@@ -12556,5 +12556,607 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-table-tennis-1.html",
+    "title": "Coral Slate Header — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-table-tennis-2.html",
+    "title": "Coral Slate Header — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-pickleball-1.html",
+    "title": "Coral Slate Header — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-pickleball-2.html",
+    "title": "Coral Slate Header — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-baseball-1.html",
+    "title": "Coral Slate Header — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-baseball-2.html",
+    "title": "Coral Slate Header — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-softball-1.html",
+    "title": "Coral Slate Header — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-softball-2.html",
+    "title": "Coral Slate Header — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-basketball-1.html",
+    "title": "Coral Slate Header — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-basketball-2.html",
+    "title": "Coral Slate Header — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-soccer-1.html",
+    "title": "Coral Slate Header — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-soccer-2.html",
+    "title": "Coral Slate Header — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-volleyball-1.html",
+    "title": "Coral Slate Header — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-two-row",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/coral-slate-header-volleyball-2.html",
+    "title": "Coral Slate Header — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1d2226",
+      "#30383d",
+      "#f4f5f3",
+      "#ffffff",
+      "#e68a72",
+      "#59656a"
+    ],
+    "motif": "Strong but restrained coral full-width information header paired with dark continuous footer labels, tonal gray score channels and independent3px live identity ticks",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "coral-slate",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with charcoal name lanes and footer, upright off-white mixed-case Arial names, complete white primary numerals on tonal slate cells, unboxed off-white supporting counts, a full muted-coral sport header and coral counter labels on the dark footer. Balanced horizontal lower-third beneath a centered sport title in the full-width coral header, with two identical name-to-score lanes and tonal slate primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-lower-third",
+    "styleID": "coral-slate-header",
+    "styleFingerprint": "9eafca9ed5ffc611683783e36b3921b56a2ef6b9c184e506a80fdf37220218ef",
+    "styleGuide": {
+      "geometry": "Conventional compact aligned two-row scorebug or balanced horizontal two-lane lower-third, each with a continuous full-width coral sport header, fixed tonal slate score terminals and a continuous dark counter footer;52px row rhythm",
+      "typography": "Upright bold Arial mixed-case competitor names23px, complete solid white bold Arial tabular primary digits32px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling or novelty lettering",
+      "surface": "Flat charcoal name lanes and footer, slightly lighter same-slate primary cells with white digits, off-white unboxed secondary scores, full muted-coral header with charcoal text and coral footer labels/white values; restrained1px gray rules, uniform6px outer corners and square internal cells, no gradients/icons/history",
+      "professionalFinish": "Static credible broadcast package with complete solid score digits, conventional aligned flexible name lanes, stable same-tone primary tracks, high contrast and neat grouped counters; no animation dependency or experimental effects."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
