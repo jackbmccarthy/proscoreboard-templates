@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "d86e8dd4cff9e4004e20a160b0cabb3df7930d3d4aa31fea26a97eca2a8f348c",
+  "revision": "55d047d443d1a6e92ff6d4deedb5aa89bec98ab3356572a6c8afd5a3a2546290",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -8986,6 +8986,650 @@
       "fileName": "score-halo-volleyball-2.html",
       "contentHash": "83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e",
       "documentPath": "published/83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-baseball-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-baseball-1.html",
+      "contentHash": "f108371fa71dc5a0119d51c71d982a98451cda6bcc89f9b989219a73dfb795a1",
+      "documentPath": "published/f108371fa71dc5a0119d51c71d982a98451cda6bcc89f9b989219a73dfb795a1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-baseball-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-baseball-2.html",
+      "contentHash": "94a91380bb5c3446657ca671a051f93b3a45394584ba2a3c0b85ec3070549c15",
+      "documentPath": "published/94a91380bb5c3446657ca671a051f93b3a45394584ba2a3c0b85ec3070549c15.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-basketball-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-basketball-1.html",
+      "contentHash": "a8b914c364066818a37d54cc52e315dfedee61ab9bb9d2069becb46207da089c",
+      "documentPath": "published/a8b914c364066818a37d54cc52e315dfedee61ab9bb9d2069becb46207da089c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-basketball-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-basketball-2.html",
+      "contentHash": "ec2802627afe183632c49513deb68d958f72894fa94d4f04577ac1cf90cb50f2",
+      "documentPath": "published/ec2802627afe183632c49513deb68d958f72894fa94d4f04577ac1cf90cb50f2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-pickleball-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Slate Lime Desk — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-pickleball-1.html",
+      "contentHash": "720cf4a027bfcd4307468132266a1222456488388d5e367da6fc7b41b4f80c8b",
+      "documentPath": "published/720cf4a027bfcd4307468132266a1222456488388d5e367da6fc7b41b4f80c8b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-pickleball-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Slate Lime Desk — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-pickleball-2.html",
+      "contentHash": "c8a2ebd145a787707db2470b83f52a26b1402e663d0b36a6e7840b945414ff09",
+      "documentPath": "published/c8a2ebd145a787707db2470b83f52a26b1402e663d0b36a6e7840b945414ff09.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-soccer-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-soccer-1.html",
+      "contentHash": "7a2fac5272a4c922b95e7d5f35ac2c6d036c69b0142505d42ca71d089b99547f",
+      "documentPath": "published/7a2fac5272a4c922b95e7d5f35ac2c6d036c69b0142505d42ca71d089b99547f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-soccer-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-soccer-2.html",
+      "contentHash": "5c75a21ef66f92329d2ff309cbf38d9a409554cfa8ed67df9abf34dbecd7fdf9",
+      "documentPath": "published/5c75a21ef66f92329d2ff309cbf38d9a409554cfa8ed67df9abf34dbecd7fdf9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-softball-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-softball-1.html",
+      "contentHash": "cc021418275f79fd2adc4d5c587476dde44a576ec4880d27457f56932cb9bad7",
+      "documentPath": "published/cc021418275f79fd2adc4d5c587476dde44a576ec4880d27457f56932cb9bad7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-softball-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-softball-2.html",
+      "contentHash": "6ebb247112a777395aafd823848d6557a90e8dd132a06e1012c999863dc7d618",
+      "documentPath": "published/6ebb247112a777395aafd823848d6557a90e8dd132a06e1012c999863dc7d618.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-table-tennis-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Slate Lime Desk — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-table-tennis-1.html",
+      "contentHash": "41f983541bd8d440c4e21286871e8fa945333fcbe026d8b60a8745325b12ff59",
+      "documentPath": "published/41f983541bd8d440c4e21286871e8fa945333fcbe026d8b60a8745325b12ff59.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-table-tennis-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Slate Lime Desk — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-table-tennis-2.html",
+      "contentHash": "aded72de13849a84acfb65a9df28beb732f6a6556e262b882c005f6086a2465d",
+      "documentPath": "published/aded72de13849a84acfb65a9df28beb732f6a6556e262b882c005f6086a2465d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-volleyball-1.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "slate-lime-desk-volleyball-1.html",
+      "contentHash": "85c32682bc9d6000010c8b292bc3daeca2e06976f1adfe940c33ee5708a64262",
+      "documentPath": "published/85c32682bc9d6000010c8b292bc3daeca2e06976f1adfe940c33ee5708a64262.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with flat charcoal/slate surfaces, complete solid white numerals, mixed-case names, tonal score terminals, muted separators and restrained lime accents. Balanced horizontal lower-third with two identical name-to-score lanes and a small generic sport pictogram endcap. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Restrained2px lime header accent and4px live competitor-color identity ticks; history-free compact broadcast hierarchy",
+      "output": "html-replications/slate-lime-desk-volleyball-2.html",
+      "palette": [
+        "#20262e",
+        "#2a3440",
+        "#374451",
+        "#f1f4f6",
+        "#a8bbca",
+        "#b6cf61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2c4fd0492fbbac46c465227912f9dad565b28ffb5ae466178ab91a469a14f8c9",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third; flexible left name lanes, fixed right score terminals, small sport header and neatly grouped footer counters",
+        "professionalFinish": "Static credible sports-broadcast scorebug/lower-third; conventional hierarchy, aligned tracks, complete normal numerals, disciplined spacing and subtle decoration. Reject any image or template with animation dependency, flip/flicker, split inversion, stencil/dot/hollow numbers, rotated names, decorative braces or abstract/staggered layouts.",
+        "surface": "Flat charcoal/slate panels and slightly lighter same-tone score terminals for both sides; uniform3px corners, muted1px separators, no gradients, shadows, textures or mechanical effects",
+        "typography": "Upright Arial/Helvetica semibold mixed-case names and complete solid white tabular scores; primary scores only moderately larger than names; small uppercase column labels and metadata"
+      },
+      "styleID": "slate-lime-desk",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "slate-lime",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Slate Lime Desk — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "slate-lime-desk-volleyball-2.html",
+      "contentHash": "e1a038cc35fbed1e372e97aff58d32d16d98643196ff74f0f89d7ddc90a8db32",
+      "documentPath": "published/e1a038cc35fbed1e372e97aff58d32d16d98643196ff74f0f89d7ddc90a8db32.json"
     },
     {
       "aliases": [],
