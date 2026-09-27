@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "674f6f4e8416ad35782433e0acc8071afc6241d54c16da573956a66063d797fa",
+  "revision": "19f63f042e4c0fefeb10b8df8cb1494620e46010e37a4b08f72c058c297ed6dd",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -3164,6 +3164,650 @@
       "fileName": "editorial-quotient-volleyball-2.html",
       "contentHash": "81b4c6ddd6b946ec7111ec210ab9559a4a25ccb119d4bd38fbabaf9c2c7506d2",
       "documentPath": "published/81b4c6ddd6b946ec7111ec210ab9559a4a25ccb119d4bd38fbabaf9c2c7506d2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-baseball-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-baseball-1.html",
+      "contentHash": "dd0d5c6583b0b31e9b5bc6653ecc25ed4f6185fbcdb95350f89091bb2e197a05",
+      "documentPath": "published/dd0d5c6583b0b31e9b5bc6653ecc25ed4f6185fbcdb95350f89091bb2e197a05.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-baseball-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-baseball-2.html",
+      "contentHash": "f8d4fe617d6912e48fbc68277d9e1442b7561e1cb71eaae541607f4fddae7d0c",
+      "documentPath": "published/f8d4fe617d6912e48fbc68277d9e1442b7561e1cb71eaae541607f4fddae7d0c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-basketball-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-basketball-1.html",
+      "contentHash": "2e5dab052094fc2fec523c59f5238fba12f080a8fdc327c2338c33f76fac9412",
+      "documentPath": "published/2e5dab052094fc2fec523c59f5238fba12f080a8fdc327c2338c33f76fac9412.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-basketball-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-basketball-2.html",
+      "contentHash": "f4af3c2e83fe257879862dcbf0e4480344e63d5fba01e75e13e65df5e2d0738c",
+      "documentPath": "published/f4af3c2e83fe257879862dcbf0e4480344e63d5fba01e75e13e65df5e2d0738c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-pickleball-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Graphite Amber Band — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-pickleball-1.html",
+      "contentHash": "7a03b30ef40a2d78da16acf4702d4795d141c01d2cb4c5d3e3827dbe0bf7806a",
+      "documentPath": "published/7a03b30ef40a2d78da16acf4702d4795d141c01d2cb4c5d3e3827dbe0bf7806a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-pickleball-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Graphite Amber Band — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-pickleball-2.html",
+      "contentHash": "54985b708287b1a7ede0decb4736586e572208ae0367d6b35292bff90335f3cc",
+      "documentPath": "published/54985b708287b1a7ede0decb4736586e572208ae0367d6b35292bff90335f3cc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-soccer-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-soccer-1.html",
+      "contentHash": "094f837b4dbd97024d58d8d06902e69fd14c29bab49d2ba71f0aa63dd8f30ffe",
+      "documentPath": "published/094f837b4dbd97024d58d8d06902e69fd14c29bab49d2ba71f0aa63dd8f30ffe.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-soccer-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-soccer-2.html",
+      "contentHash": "35351bfbfda70a2a0d47e9689262f5b37446d07600f41ab390e31c7ba84170ac",
+      "documentPath": "published/35351bfbfda70a2a0d47e9689262f5b37446d07600f41ab390e31c7ba84170ac.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-softball-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-softball-1.html",
+      "contentHash": "0e65c8e9216e60b4803f3a918b4bca4bc397d348bd54e8854bb97f8a5285de7c",
+      "documentPath": "published/0e65c8e9216e60b4803f3a918b4bca4bc397d348bd54e8854bb97f8a5285de7c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-softball-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-softball-2.html",
+      "contentHash": "132e8bd63e6fc23c018f61f425074a13716bcb73779dad83b74b18a7c4613511",
+      "documentPath": "published/132e8bd63e6fc23c018f61f425074a13716bcb73779dad83b74b18a7c4613511.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-table-tennis-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Graphite Amber Band — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-table-tennis-1.html",
+      "contentHash": "35d24da2ee5c2ed7fc0923fddcb8a327de7aaf82b0f20420b6fe07d29f5846e0",
+      "documentPath": "published/35d24da2ee5c2ed7fc0923fddcb8a327de7aaf82b0f20420b6fe07d29f5846e0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-table-tennis-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Graphite Amber Band — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-table-tennis-2.html",
+      "contentHash": "7b3db3dfa4ae9387b77e497eff3acaf03473683a4a35fcdf67885539c5936c38",
+      "documentPath": "published/7b3db3dfa4ae9387b77e497eff3acaf03473683a4a35fcdf67885539c5936c38.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-volleyball-1.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "graphite-amber-band-volleyball-1.html",
+      "contentHash": "05964dce32ad1724953ba7c86bf129830ca70e80ce5321ca2fecab69b40cf71e",
+      "documentPath": "published/05964dce32ad1724953ba7c86bf129830ca70e80ce5321ca2fecab69b40cf71e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm graphite name lanes, off-white mixed-case lettering, complete dark primary numerals on amber channels, plain unboxed off-white supporting counts, a small amber sport tab and light counter footer where applicable. Balanced horizontal lower-third with an amber text-only sport endcap and two identical name-to-score lanes. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small amber sport tab and coherent dark-body/light-footer information hierarchy with independent3px live identity ticks; solid normal scoring typography",
+      "output": "html-replications/graphite-amber-band-volleyball-2.html",
+      "palette": [
+        "#252322",
+        "#332f2b",
+        "#f3f0e9",
+        "#e9b64d",
+        "#937c54",
+        "#fefaf0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "4290cb5d06462ed814efd69a200cb4a388ba9880a4dcd915e7e547329d87b1ae",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned competitor rows or balanced horizontal lower-third on warm graphite; integrated same-amber primary channel, unboxed secondary counts, small amber sport tab/endcap and enclosed light counter footer",
+        "professionalFinish": "Credible static broadcast scorebug/lower-third with complete solid normal numerals, aligned fixed tracks, clear names, restrained accents and balanced contrast. No animation dependency, flip/flicker, partial/inverted/hollow/stencil/dotted digits, rotated names, braces, oversized poster type, icons or abstract layouts.",
+        "surface": "Flat warm graphite panels, amber primary channels with dark digits, off-white unboxed secondary text and light footer with dark counters; restrained1px bronze outer rule and uniform4px corners; no gradients, shadows, icons, history or raised tiles",
+        "typography": "Upright semibold Arial Narrow/Arial mixed-case names around24px; complete normal bold Arial tabular primary numerals32px, plain22px supporting counts and13px uppercase metadata; compact48px row rhythm without glyph scaling"
+      },
+      "styleID": "graphite-amber-band",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "graphite-amber",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Graphite Amber Band — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "graphite-amber-band-volleyball-2.html",
+      "contentHash": "8512f799ce82084491573e19452785089bfe6fe4b8869a5308803bdd26bb1949",
+      "documentPath": "published/8512f799ce82084491573e19452785089bfe6fe4b8869a5308803bdd26bb1949.json"
     },
     {
       "aliases": [],
