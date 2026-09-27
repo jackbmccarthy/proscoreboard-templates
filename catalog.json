@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "1f5151e6c15d0548c00a058ff715225bcb9e8e5c6bd468913bb546514f159674",
+  "revision": "08884e9247f36545f77fab6a0fea306a265a935dba34a5d63389725f868fe3d2",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -1526,6 +1526,538 @@
       "fileName": "carbon-copy-ticket-volleyball-2.html",
       "contentHash": "9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72",
       "documentPath": "published/9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-baseball-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "baseball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — BASEBALL Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-baseball-1.html",
+      "contentHash": "1eb2bea95fd703603731dcb3205fe6e6aa18f12cebb304835405f28d86ec20fc",
+      "documentPath": "published/1eb2bea95fd703603731dcb3205fe6e6aa18f12cebb304835405f28d86ec20fc.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-baseball-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "baseball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — BASEBALL Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-baseball-2.html",
+      "contentHash": "a2897e03f9d9760d2eeae28984825f64f649deebaac616700095306dbceda5ba",
+      "documentPath": "published/a2897e03f9d9760d2eeae28984825f64f649deebaac616700095306dbceda5ba.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-basketball-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "basketball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — BASKETBALL Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-basketball-1.html",
+      "contentHash": "c058eb0442762bb6d70edc4613ad196c0b31f6f5841384341aec19fd5e4c83a6",
+      "documentPath": "published/c058eb0442762bb6d70edc4613ad196c0b31f6f5841384341aec19fd5e4c83a6.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-basketball-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "basketball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — BASKETBALL Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-basketball-2.html",
+      "contentHash": "347438333b0a6dbe50510976ab81d7a5ad9612c3a078810e9a945f57465854db",
+      "documentPath": "published/347438333b0a6dbe50510976ab81d7a5ad9612c3a078810e9a945f57465854db.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Live competitor names, game/match scores, identity colors, paired service and neutral point states.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-pickleball-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "pickleball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "native-scoring"
+      ],
+      "title": "Open Corner Grid — PICKLEBALL Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-pickleball-1.html",
+      "contentHash": "87cd86b18ac94abac7af1f0eb1f6c654b31be7d79db601de884c4ec4a051a53f",
+      "documentPath": "published/87cd86b18ac94abac7af1f0eb1f6c654b31be7d79db601de884c4ec4a051a53f.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Live competitor names, game/match scores, identity colors, paired service and neutral point states.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-pickleball-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "pickleball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "native-scoring"
+      ],
+      "title": "Open Corner Grid — PICKLEBALL Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-pickleball-2.html",
+      "contentHash": "91f8e24c83e6472b9792a186de2df9e19c7921318947ef3ee3a7162aae1c62ad",
+      "documentPath": "published/91f8e24c83e6472b9792a186de2df9e19c7921318947ef3ee3a7162aae1c62ad.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-soccer-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "soccer",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — SOCCER Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-soccer-1.html",
+      "contentHash": "e9f9b04eaafcdf74948c48b217a664d6f99c77fd5634893d6ffdde9f5d067c21",
+      "documentPath": "published/e9f9b04eaafcdf74948c48b217a664d6f99c77fd5634893d6ffdde9f5d067c21.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-soccer-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "soccer",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — SOCCER Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-soccer-2.html",
+      "contentHash": "e26f4a609d5ab0e3fa599e15ac08ab2fe2ca81d9a52f1c2a2c4db1b1a461fda7",
+      "documentPath": "published/e26f4a609d5ab0e3fa599e15ac08ab2fe2ca81d9a52f1c2a2c4db1b1a461fda7.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-softball-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "softball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — SOFTBALL Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-softball-1.html",
+      "contentHash": "b22a8cd720a7fc8cec44069c902c8f4fa0189656de00020fe0031d4b560b7c96",
+      "documentPath": "published/b22a8cd720a7fc8cec44069c902c8f4fa0189656de00020fe0031d4b560b7c96.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-softball-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "softball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — SOFTBALL Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-softball-2.html",
+      "contentHash": "9f72082dc6a23fce2178b1b6678fca2b05c18c7977975f46e1ebb40c4b2d0fb7",
+      "documentPath": "published/9f72082dc6a23fce2178b1b6678fca2b05c18c7977975f46e1ebb40c4b2d0fb7.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Live competitor names, game/match scores, identity colors, paired service and neutral point states.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-table-tennis-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "transparent",
+        "open-corners",
+        "native-scoring"
+      ],
+      "title": "Open Corner Grid — TABLE TENNIS Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-table-tennis-1.html",
+      "contentHash": "79b6762018bc0be6b64c7d3db6f5da4d1d0af9183a3e901b1e0140a415cf3ebf",
+      "documentPath": "published/79b6762018bc0be6b64c7d3db6f5da4d1d0af9183a3e901b1e0140a415cf3ebf.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Live competitor names, game/match scores, identity colors, paired service and neutral point states.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-table-tennis-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "tableTennis",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "table-tennis",
+        "simple",
+        "transparent",
+        "open-corners",
+        "native-scoring"
+      ],
+      "title": "Open Corner Grid — TABLE TENNIS Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-table-tennis-2.html",
+      "contentHash": "4e4f3e4af7945fa191afa0a84ad2b154486001d09f0beaca106b3aa4d3529080",
+      "documentPath": "published/4e4f3e4af7945fa191afa0a84ad2b154486001d09f0beaca106b3aa4d3529080.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent stacked open-lane scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores and sets won; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-volleyball-1.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "volleyball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — VOLLEYBALL Lanes",
+      "variant": 1,
+      "fileName": "open-corner-grid-volleyball-1.html",
+      "contentHash": "c67dae814550197c8028248f56d670df8432ea056ea27c4ef385b26df8f0c9f1",
+      "documentPath": "published/c67dae814550197c8028248f56d670df8432ea056ea27c4ef385b26df8f0c9f1.json"
+    },
+    {
+      "aliases": [],
+      "description": "Original transparent horizontal duel scoreboard with separated L-corners, white typography and a red alignment rule. Fine type and stroke dimensions are CSS approximations of the generated reference. Generic/manual scoring: live names/colors/current scores and sets won; sport counters remain editable static placeholders. No native sport rules are supplied.",
+      "motif": "Separated open corner brackets and a red alignment ruler",
+      "output": "html-replications/open-corner-grid-volleyball-2.html",
+      "palette": [
+        "#f4f6f8",
+        "#ef442c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "934a38fa3a9701ea24b8e285bdcf9352c66df318e6a900db697a48040db06407",
+      "styleGuide": {
+        "geometry": "Unenclosed transparent lanes; each score marked by four separated L-shaped corner strokes; thin horizontal alignment lines and one red ruler",
+        "surface": "No filled board, tiles, cards, gradients, glow, shadows, bevels or paper",
+        "typography": "Arial/Helvetica sans-serif bold names and large tabular scores; small uppercase supporting labels"
+      },
+      "styleID": "open-corner-grid",
+      "tags": [
+        "volleyball",
+        "simple",
+        "transparent",
+        "open-corners",
+        "generic-scoring"
+      ],
+      "title": "Open Corner Grid — VOLLEYBALL Duel",
+      "variant": 2,
+      "fileName": "open-corner-grid-volleyball-2.html",
+      "contentHash": "4d92c4d45c4aa4caca41404c27afd5ad4ebcba2f24a8f38a227c454018c0660a",
+      "documentPath": "published/4d92c4d45c4aa4caca41404c27afd5ad4ebcba2f24a8f38a227c454018c0660a.json"
     },
     {
       "aliases": [],

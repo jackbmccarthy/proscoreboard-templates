@@ -124,6 +124,12 @@ PLAYWRIGHT_MODULE_PATH=/path/to/playwright/index.mjs node --test studio/sports-t
 Optional `SPORT_TEMPLATE_ARTIFACTS` saves local review PNGs outside this repository.
 Set `PLAYWRIGHT_CHANNEL=chrome` to use an existing local Chrome installation.
 
+Hourly style batches share the same responsive browser harness. Set
+`SCOREBOARD_TEST_STYLE` to the manifest's `styleID` (for example,
+`open-corner-grid`) when running `studio/carbon-copy-ticket.browser.test.mjs`.
+The default remains `carbon-copy-ticket`. Each style checks fourteen overlays
+at three viewport widths, long names, broad scores and conditional-state stability.
+
 ## Contract API
 
 ```js

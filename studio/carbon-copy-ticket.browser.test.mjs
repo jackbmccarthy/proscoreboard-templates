@@ -6,13 +6,15 @@ import {pathToFileURL} from 'node:url';
 import manifest from '../templates/html-replications/manifest.json' with {type:'json'};
 const modulePath=process.env.PLAYWRIGHT_MODULE_PATH;
 const {chromium}=await import(modulePath?pathToFileURL(path.resolve(modulePath)).href:'playwright');
-const entries=manifest.filter(entry=>entry.styleID==='carbon-copy-ticket');
-test('fourteen ticket overlays keep readable live tracks, neutral states and transparent responsive roots',{timeout:120000},async()=>{
+const styleID=process.env.SCOREBOARD_TEST_STYLE || 'carbon-copy-ticket';
+const entries=manifest.filter(entry=>entry.styleID===styleID);
+test(styleID+' overlays keep readable live tracks, neutral states and transparent responsive roots',{timeout:120000},async()=>{
+  assert.equal(entries.length,14,'the selected style must have a complete batch');
   const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHANNEL?{channel:process.env.PLAYWRIGHT_CHANNEL}:{})});
   const evidence=[];
   try{
     for(const entry of entries){
-      const key=entry.output.replace('html-replications/carbon-copy-ticket-','').replace('.html','');
+      const key=entry.output.replace('html-replications/'+styleID+'-','').replace('.html','');
       const html=await readFile(new URL('../templates/'+entry.output,import.meta.url),'utf8');
       for(const width of [1920,1280,390]){
         const page=await browser.newPage({viewport:{width,height:width===390?844:Math.round(width*9/16)}});
@@ -31,7 +33,7 @@ test('fourteen ticket overlays keep readable live tracks, neutral states and tra
         if(process.env.SPORT_TEMPLATE_ARTIFACTS){
           await mkdir(process.env.SPORT_TEMPLATE_ARTIFACTS,{recursive:true});
           await page.evaluate(()=>{document.body.style.background='#000'});
-          await page.locator('.ticket').screenshot({path:path.join(process.env.SPORT_TEMPLATE_ARTIFACTS,key+'-'+width+'.png')});
+          await page.locator('.ticket,.board').first().screenshot({path:path.join(process.env.SPORT_TEMPLATE_ARTIFACTS,key+'-'+width+'.png')});
           await page.evaluate(()=>{document.body.style.background='transparent'});
         }
         await page.evaluate(({score})=>{
@@ -43,7 +45,7 @@ test('fourteen ticket overlays keep readable live tracks, neutral states and tra
           for(const field of ['isACurrentlyServing','isMatchPoint']){
             const node=document.querySelector('[data-osb-field="'+field+'"]');if(node)node.style.opacity='1';
           }
-        },{score:entry.sport==='basketball'?'128':'12'});
+        },{score:entry.sport==='basketball'?'128':['tableTennis','pickleball','volleyball'].includes(entry.sport)?'88':'12'});
         const after=await snapshot();
         for(const field of Object.keys(before))for(const axis of ['x','y','width','height'])assert.ok(Math.abs(before[field][axis]-after[field][axis])<1,key+' '+width+' '+field+' '+axis+' shifted');
         const check=await page.evaluate(()=>{
