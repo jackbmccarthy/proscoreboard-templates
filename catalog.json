@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "09591a01ac0960ce60df6dffe4d032a6001ac09aed0c85b22b9555459771a7eb",
+  "revision": "bb0bd1cb7e4a873f922c803ca535b8ae64f49f4c2bb8e1b1afcce0f204b29934",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -2730,6 +2730,650 @@
       "fileName": "coral-slate-header-volleyball-2.html",
       "contentHash": "98eb2d3fdcf0a107e8cfd0fafd59ea4462363470204da3e06bbb4db10aad999b",
       "documentPath": "published/98eb2d3fdcf0a107e8cfd0fafd59ea4462363470204da3e06bbb4db10aad999b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-baseball-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-baseball-1.html",
+      "contentHash": "3b54024dddd6f532eb00439813c6b6a3b7b5ddee00c951254471fa3264f8e67c",
+      "documentPath": "published/3b54024dddd6f532eb00439813c6b6a3b7b5ddee00c951254471fa3264f8e67c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-baseball-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-baseball-2.html",
+      "contentHash": "dd9295755e359f95762ecc48f09b6678291a30f43b27c3e149e584f6e9774aa4",
+      "documentPath": "published/dd9295755e359f95762ecc48f09b6678291a30f43b27c3e149e584f6e9774aa4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-basketball-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-basketball-1.html",
+      "contentHash": "1eb365c56f45cdf7f7f8eca195ed8252feaec89392118966095adbcd16cf9444",
+      "documentPath": "published/1eb365c56f45cdf7f7f8eca195ed8252feaec89392118966095adbcd16cf9444.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-basketball-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-basketball-2.html",
+      "contentHash": "4e6f028c661d1ad6e1870b8578c7593e1b3ef86ec5c3c72776103fa358dbb287",
+      "documentPath": "published/4e6f028c661d1ad6e1870b8578c7593e1b3ef86ec5c3c72776103fa358dbb287.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-pickleball-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-pickleball-1.html",
+      "contentHash": "fbadbb201c1a3f057c5e98c4de5ae28a127577c0435d87ec090e192d43805492",
+      "documentPath": "published/fbadbb201c1a3f057c5e98c4de5ae28a127577c0435d87ec090e192d43805492.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-pickleball-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-pickleball-2.html",
+      "contentHash": "79bceeace403059e0bce3258c3266d5262651ae6c0f4c850937ba80fc7615eec",
+      "documentPath": "published/79bceeace403059e0bce3258c3266d5262651ae6c0f4c850937ba80fc7615eec.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-soccer-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-soccer-1.html",
+      "contentHash": "8365d293025fb55ca3a50d0c02694a3c0e8e256886707e69278a088fd827cd78",
+      "documentPath": "published/8365d293025fb55ca3a50d0c02694a3c0e8e256886707e69278a088fd827cd78.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-soccer-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-soccer-2.html",
+      "contentHash": "ffc157e4a9d641304c65d21fec493818a4ba8afc16c4f08829510058b8f4649a",
+      "documentPath": "published/ffc157e4a9d641304c65d21fec493818a4ba8afc16c4f08829510058b8f4649a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-softball-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-softball-1.html",
+      "contentHash": "8b9124e2900dc7adbee4bd551081367ab503ff178489ae4171c11fd65f7cf9af",
+      "documentPath": "published/8b9124e2900dc7adbee4bd551081367ab503ff178489ae4171c11fd65f7cf9af.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-softball-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-softball-2.html",
+      "contentHash": "29ea101ae4d24b90d73a2930006e04a4ac47eadcb3d4de15697787195b1a2417",
+      "documentPath": "published/29ea101ae4d24b90d73a2930006e04a4ac47eadcb3d4de15697787195b1a2417.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-table-tennis-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-table-tennis-1.html",
+      "contentHash": "c76d636773e2d52021730f1ac642d6ea1f82d1231f6bc33e52c547d4310608ae",
+      "documentPath": "published/c76d636773e2d52021730f1ac642d6ea1f82d1231f6bc33e52c547d4310608ae.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-table-tennis-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-table-tennis-2.html",
+      "contentHash": "1568c8c6b0dd231d8eb4ec932e4e0007f47ff4bef49b298a6d936ed9fd0d7573",
+      "documentPath": "published/1568c8c6b0dd231d8eb4ec932e4e0007f47ff4bef49b298a6d936ed9fd0d7573.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-volleyball-1.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cyan-blue-broadcast-volleyball-1.html",
+      "contentHash": "8537f0bb5298da333ef60500061622067beb9194908aaefedc3d17e580d8fcfe",
+      "documentPath": "published/8537f0bb5298da333ef60500061622067beb9194908aaefedc3d17e580d8fcfe.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with cool blue-gray name lanes with upright dark navy Arial names, complete white primary numerals on navy score cells, unboxed dark supporting counts, a full muted-cyan sport header and a compact ink-blue footer with white counters where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width cyan header, with two identical name-to-score lanes and navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A restrained cool cyan information header over pale name lanes and clear navy score terminals, balanced by a compact darker supporting footer and independent live identity ticks",
+      "output": "html-replications/cyan-blue-broadcast-volleyball-2.html",
+      "palette": [
+        "#e6eef1",
+        "#19384c",
+        "#ffffff",
+        "#a3cbd2",
+        "#142b3a",
+        "#9bb1bd"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "b0c046e3ac45ddaa8eef77ad3d4094e5fca594142fe28bc776a11f268af2f067",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or equal-lane horizontal lower-third, full muted-cyan sport header, flexible cool blue-gray name lanes, fixed dark-navy primary tracks and compact deep-ink footer; disciplined48px rows",
+        "professionalFinish": "Static credible broadcast package with complete solid numerals, conventional flexible names/fixed score tracks, high contrast and neatly grouped counters; no animation dependency or novelty effects.",
+        "surface": "Flat blue-gray name lanes with dark navy names, same-navy primary cells with white numerals, unboxed navy supporting scores, full muted-cyan header with dark type, deep-ink footer with white counters, subtle1px rules and modest3px outer-only corners; no gradient/texture/shadows/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold tabular primary digits32px, unboxed navy secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "cyan-blue-broadcast",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cyan-blue-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cyan Blue Broadcast — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cyan-blue-broadcast-volleyball-2.html",
+      "contentHash": "07c6d87d069bc4686857e99c1ebadea676843f5ba9cec56bd706fe2856cdb800",
+      "documentPath": "published/07c6d87d069bc4686857e99c1ebadea676843f5ba9cec56bd706fe2856cdb800.json"
     },
     {
       "aliases": [],
