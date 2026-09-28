@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "e96c188f76d2dacb039fee0ba52b573a26e8a611ea38b75aa52546e300ef0d1b",
+  "revision": "9111517243c568a2648cb48d14a349fb70d349731212b2e08685b00ec85ad32f",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -8890,6 +8890,650 @@
       "fileName": "hinge-rail-volleyball-2.html",
       "contentHash": "576e33332ba0d3235f510fa9545740375101e3506d6015ee13c50b2686088719",
       "documentPath": "published/576e33332ba0d3235f510fa9545740375101e3506d6015ee13c50b2686088719.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-baseball-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-baseball-1.html",
+      "contentHash": "33c9435a4650c08ab5fd741d0d017dd9d35677b34ec40bf647548734059b7e65",
+      "documentPath": "published/33c9435a4650c08ab5fd741d0d017dd9d35677b34ec40bf647548734059b7e65.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-baseball-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-baseball-2.html",
+      "contentHash": "e7add66803ca9356cb3ee85ab5584797dd2cd33c05d3af68337c6e265cf78d73",
+      "documentPath": "published/e7add66803ca9356cb3ee85ab5584797dd2cd33c05d3af68337c6e265cf78d73.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-basketball-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-basketball-1.html",
+      "contentHash": "80075eb7b297418b10e8098c76ab07bfb476baf087554eb402f345dbb01ae373",
+      "documentPath": "published/80075eb7b297418b10e8098c76ab07bfb476baf087554eb402f345dbb01ae373.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-basketball-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-basketball-2.html",
+      "contentHash": "64fe92ec30782c0df80d0323493dc4f8bdf3b4d6473c65ca275e183f1da45ba6",
+      "documentPath": "published/64fe92ec30782c0df80d0323493dc4f8bdf3b4d6473c65ca275e183f1da45ba6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving indicators and neutral game/match-point states; match point takes precedence. Per-side games are shown once in live row fields.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-pickleball-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Open Data Lane — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-pickleball-1.html",
+      "contentHash": "1fb82af726eb22dbd852a3f492c5e874d1c9a8c374df7d1016411df56b3c231d",
+      "documentPath": "published/1fb82af726eb22dbd852a3f492c5e874d1c9a8c374df7d1016411df56b3c231d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving indicators and neutral game/match-point states; match point takes precedence. Per-side games are shown once in live row fields.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-pickleball-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Open Data Lane — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-pickleball-2.html",
+      "contentHash": "17f6945a989813331faae63662aee1b98077f25331236454cbb90a74ea055cd4",
+      "documentPath": "published/17f6945a989813331faae63662aee1b98077f25331236454cbb90a74ea055cd4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-soccer-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-soccer-1.html",
+      "contentHash": "e1a8968a8ce56455aa30c732badf74787d9947d619d895ae69638eacc320d350",
+      "documentPath": "published/e1a8968a8ce56455aa30c732badf74787d9947d619d895ae69638eacc320d350.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-soccer-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-soccer-2.html",
+      "contentHash": "9a6098ecb71914f8ff3975fed66dbbc6a4d127b3a0f44df7faf52f8904c02a5c",
+      "documentPath": "published/9a6098ecb71914f8ff3975fed66dbbc6a4d127b3a0f44df7faf52f8904c02a5c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-softball-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-softball-1.html",
+      "contentHash": "900f494d33bcdf001e75d90e7316ac2ab9df1a815625073a4100e353de176d55",
+      "documentPath": "published/900f494d33bcdf001e75d90e7316ac2ab9df1a815625073a4100e353de176d55.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-softball-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-softball-2.html",
+      "contentHash": "05178714a3af3d070e7a1759c73af535f1dfada0d3b05e59b75023b5db2c84fb",
+      "documentPath": "published/05178714a3af3d070e7a1759c73af535f1dfada0d3b05e59b75023b5db2c84fb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving indicators and neutral game/match-point states; match point takes precedence. Per-side games are shown once in live row fields.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-table-tennis-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Open Data Lane — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-table-tennis-1.html",
+      "contentHash": "882e8c22ee510dcb7b4941788f35ad1fe39406461f2e7786af0a1c67f67a7e65",
+      "documentPath": "published/882e8c22ee510dcb7b4941788f35ad1fe39406461f2e7786af0a1c67f67a7e65.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving indicators and neutral game/match-point states; match point takes precedence. Per-side games are shown once in live row fields.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-table-tennis-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Open Data Lane — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-table-tennis-2.html",
+      "contentHash": "6150ab3f29d9961cb0e619251de4877cccba07248fc02913f80b64c791b7fafc",
+      "documentPath": "published/6150ab3f29d9961cb0e619251de4877cccba07248fc02913f80b64c791b7fafc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. Two aligned competitor rows keep fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-volleyball-1.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-open-data-lane-volleyball-1.html",
+      "contentHash": "8347052d3168c615406a6d24b5cbffa317d01b22edea60f05a465dab2596cdf4",
+      "documentPath": "published/8347052d3168c615406a6d24b5cbffa317d01b22edea60f05a465dab2596cdf4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-open-right",
+      "description": "Professional static broadcast scoreboard with one continuous deep-indigo name and score field, fixed unboxed right primary score tracks carrying complete solid white numerals, open sea-glass supporting counts and one same-surface sport/status line. A true horizontal lower-third places both competitors side by side with equal fixed score geometry. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical open right score tracks with much larger complete solid digits and a quiet same-surface data line; independent narrow live competitor-color ticks, no decorative art, hardware or motion",
+      "output": "html-replications/indigo-open-data-lane-volleyball-2.html",
+      "palette": [
+        "#1b2d3b",
+        "#f0f2ed",
+        "#92b3b1",
+        "#718f95",
+        "#ffffff",
+        "#28404e"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "1298ea5914d7fd162539c45c2f0d62307d2cfd6897482766fad2fc93b3341e70",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 50px competitor rows or true one-row horizontal lower-third; one continuous deep-indigo body for flexible names and equal fixed unboxed right primary tracks, with smaller unboxed supporting count immediately before each primary and one thin sea-glass divider before the numeric area",
+        "professionalFinish": "Static real-coverage broadcast board with solid complete white scores in stable open tracks, legible flexible names and concise same-surface supporting data",
+        "surface": "Flat continuous deep indigo-blue #1b2d3b behind BOTH names and scores; equal fixed primary score tracks use the exact SAME fill as names, with NO score tile, box, border or colored panel; one slim sea-glass vertical rule at the numeric transition, one quiet row rule, square corners and thin cool perimeter outline; sport/status and shared static counters in one small text line on SAME dark surface above rows; no contrasting header/footer/dock, gradients or shadows",
+        "typography": "Upright narrow medium-weight uppercase warm-white competitor names about 21px; complete solid bold warm-white tabular primary numerals 40px; sea-glass 18px secondary counts and compact 10px same-surface metadata"
+      },
+      "styleID": "indigo-open-data-lane",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-open-data-lane",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Open Data Lane — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-open-data-lane-volleyball-2.html",
+      "contentHash": "33719289d7d171a2a365b34a540dceaf5da7fcd1d9f9747890c04f30ea21723b",
+      "documentPath": "published/33719289d7d171a2a365b34a540dceaf5da7fcd1d9f9747890c04f30ea21723b.json"
     },
     {
       "aliases": [],
