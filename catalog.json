@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "098692ffc7793acc0d896ede5bb04017010fc375420d9ee07a5214fd5db782bf",
+  "revision": "ea82db6ea9a25a235d3251385eb2f477185177e7a9fa273a71f3cff2f317a3c5",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -11396,6 +11396,650 @@
       "fileName": "ivory-cobalt-line-volleyball-2.html",
       "contentHash": "fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62",
       "documentPath": "published/fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal hits supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-baseball-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-baseball-1.html",
+      "contentHash": "fe848a576be4e2ea37595b017a488ba56a7c7b769d2c26131f5363e20432ba25",
+      "documentPath": "published/fe848a576be4e2ea37595b017a488ba56a7c7b769d2c26131f5363e20432ba25.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal hits supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-baseball-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-baseball-2.html",
+      "contentHash": "5522d52a55ab30aaabb594afdc491c17e893382f935a6d10dad047683dce6ff7",
+      "documentPath": "published/5522d52a55ab30aaabb594afdc491c17e893382f935a6d10dad047683dce6ff7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal fouls supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-basketball-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-basketball-1.html",
+      "contentHash": "46803b1595abd5a4a3e11e7ed9f05c55ac1951adeee63e875fe9c7b3a869c789",
+      "documentPath": "published/46803b1595abd5a4a3e11e7ed9f05c55ac1951adeee63e875fe9c7b3a869c789.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal fouls supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-basketball-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-basketball-2.html",
+      "contentHash": "cbf229293c9c810127555259474c5fe9b03fe6a07fd1c818f0b83e97a9ae442b",
+      "documentPath": "published/cbf229293c9c810127555259474c5fe9b03fe6a07fd1c818f0b83e97a9ae442b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal games won supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-pickleball-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Limestone Inset Subscore — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-pickleball-1.html",
+      "contentHash": "b4cc0941bca5d114cbb51d678fea54f37bb0841099748cb7d7ca0fe718d3b4fe",
+      "documentPath": "published/b4cc0941bca5d114cbb51d678fea54f37bb0841099748cb7d7ca0fe718d3b4fe.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal games won supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-pickleball-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Limestone Inset Subscore — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-pickleball-2.html",
+      "contentHash": "2e20ba6af0e447023e03b0f4ce8cc54266f4778531a0dca1f2d8e951bd0fcdf9",
+      "documentPath": "published/2e20ba6af0e447023e03b0f4ce8cc54266f4778531a0dca1f2d8e951bd0fcdf9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal fouls supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-soccer-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-soccer-1.html",
+      "contentHash": "ceb8a4eb9cf4bce23b4c133a230d47d995105897573db8c517cf729e91497c16",
+      "documentPath": "published/ceb8a4eb9cf4bce23b4c133a230d47d995105897573db8c517cf729e91497c16.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal fouls supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-soccer-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-soccer-2.html",
+      "contentHash": "ddf38949626e4b266110c61ce97e0d29ff3bfaaf74d537238f1cccd89ffa7c1c",
+      "documentPath": "published/ddf38949626e4b266110c61ce97e0d29ff3bfaaf74d537238f1cccd89ffa7c1c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal hits supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-softball-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-softball-1.html",
+      "contentHash": "edee40d9e0d4a3cc979fda5cfc6dedc394eb5f3c467cb9ec510608ddc44ec8dd",
+      "documentPath": "published/edee40d9e0d4a3cc979fda5cfc6dedc394eb5f3c467cb9ec510608ddc44ec8dd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal hits supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-softball-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-softball-2.html",
+      "contentHash": "c497c304f3e0043b80c4b6351ed4fbb435bf82dddec4ed4b5eab4bde0abdd4a5",
+      "documentPath": "published/c497c304f3e0043b80c4b6351ed4fbb435bf82dddec4ed4b5eab4bde0abdd4a5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal games won supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-table-tennis-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Limestone Inset Subscore — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-table-tennis-1.html",
+      "contentHash": "7dccf62af54c0ce40346869cd648a1e4858021251a711757daceeb1080e88044",
+      "documentPath": "published/7dccf62af54c0ce40346869cd648a1e4858021251a711757daceeb1080e88044.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal games won supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-table-tennis-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Limestone Inset Subscore — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-table-tennis-2.html",
+      "contentHash": "5de6f814e19224d66827d249328a703ac41bed358f4fed59572ca3d930086adf",
+      "documentPath": "published/5de6f814e19224d66827d249328a703ac41bed358f4fed59572ca3d930086adf.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal sets won supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. Two aligned competitor rows share a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-volleyball-1.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "limestone-inset-subscore-volleyball-1.html",
+      "contentHash": "9d1b7d2c191f0391f564f66c21c51dca97207572778d359ee15dc6f568d3f47f",
+      "documentPath": "published/9d1b7d2c191f0391f564f66c21c51dca97207572778d359ee15dc6f568d3f47f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-open-primary",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink competitor names on continuous warm limestone. A compact filled muted-teal sets won supporting cell with solid white digits sits immediately before each dominant open dark primary score on the same limestone surface. A true horizontal lower-third places both competitors side by side above a restrained bottom sport/status line. Shared status counters, where displayed, use a quiet same-limestone baseline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional contrast between contained small supporting number and dominant open primary number, with independent narrow live competitor-color ticks; no decorative art or motion",
+      "output": "html-replications/limestone-inset-subscore-volleyball-2.html",
+      "palette": [
+        "#ebe9e2",
+        "#243941",
+        "#365d67",
+        "#ffffff",
+        "#aeb9b5",
+        "#788986"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "4280d175d6303316c7562d397ff5e68a535a0e2436f0a4bb1e774630c4aec918",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true one-row horizontal lower-third; flexible warm-limestone name lanes lead into a compact filled supporting-score cell, then an equal fixed OPEN primary score track at each competitor lane's far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable score tracks, flexible names and small honest manual/live supporting counts",
+        "surface": "One flat continuous warm-limestone field across names and open primary score tracks; compact adjacent muted-teal filled supporting cell with complete white digit and no decorative bevel; primary score track has EXACT SAME limestone fill as names, no tile/fill/box/border; no top header; same-limestone narrow bottom sport-and-status baseline below competitor rows with one hairline top rule, 2px outer corners and thin neutral row dividers; no contrasting footer/dock, gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica marine-ink competitor names about 24px, complete solid bold dark tabular primary numerals 40px on same limestone, white tabular supporting counts about 18px with compact uppercase labels, small 10px bottom status text"
+      },
+      "styleID": "limestone-inset-subscore",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "limestone-inset-subscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Limestone Inset Subscore — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "limestone-inset-subscore-volleyball-2.html",
+      "contentHash": "ef055c929714b5b9ccc8312a3a067f78153e619fc8f736080292f174d9cc140e",
+      "documentPath": "published/ef055c929714b5b9ccc8312a3a067f78153e619fc8f736080292f174d9cc140e.json"
     },
     {
       "aliases": [],
