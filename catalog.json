@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "bb0bd1cb7e4a873f922c803ca535b8ae64f49f4c2bb8e1b1afcce0f204b29934",
+  "revision": "3a6826da882a53a669d11539d2ccf08996f308318b5cbb20c3513ea1e01d734f",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -1540,6 +1540,664 @@
       "fileName": "brace-register-volleyball-2.html",
       "contentHash": "991db9156b784c1159217170e4bac6806239389bd36c73032ae91fc19d446301",
       "documentPath": "published/991db9156b784c1159217170e4bac6806239389bd36c73032ae91fc19d446301.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-baseball-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-baseball-1.html",
+      "contentHash": "762b9fdce07aaa43044ea68424809d2725ff4aaaf94880a19eb106433cc4a55d",
+      "documentPath": "published/762b9fdce07aaa43044ea68424809d2725ff4aaaf94880a19eb106433cc4a55d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-baseball-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-baseball-2.html",
+      "contentHash": "15a883c7add183820fd6c6491d14c95b45584911723826375eaa2f0ee0b23771",
+      "documentPath": "published/15a883c7add183820fd6c6491d14c95b45584911723826375eaa2f0ee0b23771.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-basketball-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-basketball-1.html",
+      "contentHash": "89be5770c2b6b90c777a04f27ff87959362c35be2598fbf67bbf41ca663b01a9",
+      "documentPath": "published/89be5770c2b6b90c777a04f27ff87959362c35be2598fbf67bbf41ca663b01a9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-basketball-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-basketball-2.html",
+      "contentHash": "99f67fbef25c382c7fd8e2b15a4e5fc643b26e3c277d1ffcf3f3e6c18f4f4a6f",
+      "documentPath": "published/99f67fbef25c382c7fd8e2b15a4e5fc643b26e3c277d1ffcf3f3e6c18f4f4a6f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-pickleball-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-pickleball-1.html",
+      "contentHash": "601f78152fa76e6fe3b5115a905785e47b49542f3c4bfb6939a30045e50e2f46",
+      "documentPath": "published/601f78152fa76e6fe3b5115a905785e47b49542f3c4bfb6939a30045e50e2f46.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-pickleball-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-pickleball-2.html",
+      "contentHash": "61ab70edf975d979d6638c1b2b04997b2683512e2c19886e04cc595e25d91fe6",
+      "documentPath": "published/61ab70edf975d979d6638c1b2b04997b2683512e2c19886e04cc595e25d91fe6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-soccer-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-soccer-1.html",
+      "contentHash": "ffa47e4a8ba866c36d11313a7589fa2e59dc10a43108b24a9fc9e2b2777a979a",
+      "documentPath": "published/ffa47e4a8ba866c36d11313a7589fa2e59dc10a43108b24a9fc9e2b2777a979a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-soccer-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-soccer-2.html",
+      "contentHash": "f3124f0662fa17bfa432540c0ed4cdb021895d2b6c83260440afeccea395b8cb",
+      "documentPath": "published/f3124f0662fa17bfa432540c0ed4cdb021895d2b6c83260440afeccea395b8cb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-softball-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-softball-1.html",
+      "contentHash": "cc479925ea4d8665122d998dd89b2945bda180c34216e3c300d75bcbc9eba955",
+      "documentPath": "published/cc479925ea4d8665122d998dd89b2945bda180c34216e3c300d75bcbc9eba955.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-softball-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-softball-2.html",
+      "contentHash": "eb71bb8f9fb299fb55d2407e6baf4a7047cf5870c922398b544b1bb318e9d193",
+      "documentPath": "published/eb71bb8f9fb299fb55d2407e6baf4a7047cf5870c922398b544b1bb318e9d193.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-table-tennis-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-table-tennis-1.html",
+      "contentHash": "b52c2936c191b3a93897b66bd2f67cd4c6ff02e5ceadd8fcfc42b1e0d9ca543a",
+      "documentPath": "published/b52c2936c191b3a93897b66bd2f67cd4c6ff02e5ceadd8fcfc42b1e0d9ca543a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-table-tennis-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-table-tennis-2.html",
+      "contentHash": "1a7d77730a8987fc341139042f647943e5e8891eaf5d1d46644a7deb02d16e73",
+      "documentPath": "published/1a7d77730a8987fc341139042f647943e5e8891eaf5d1d46644a7deb02d16e73.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-volleyball-1.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "burgundy-sand-volleyball-1.html",
+      "contentHash": "19e3c6c92b25bce2cc21ba836dc7e42aeab875d3cb3fc7d2bd57952fa58776c2",
+      "documentPath": "published/19e3c6c92b25bce2cc21ba836dc7e42aeab875d3cb3fc7d2bd57952fa58776c2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes and header with upright dark ink Arial names, complete white primary numerals on bottle-dark score cells, unboxed dark supporting counts, a compact burgundy sport tab or endcap, and a bottle footer with rose labels and white counters where applicable. Balanced horizontal lower-third with a compact left burgundy sport endcap, two identical name-to-score lanes and bottle primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Small burgundy sport identity tab and linked three-pixel competitor ticks balance unboxed scores and a dark practical counter footer",
+      "output": "html-replications/burgundy-sand-volleyball-2.html",
+      "palette": [
+        "#e8e4db",
+        "#273537",
+        "#183336",
+        "#ffffff",
+        "#893d4d",
+        "#d3828d",
+        "#b6b4ad"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "58ae4c3ec2f037b416f0e963fdfdf57d7b213e0597106234c75a5bd40f847c61",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with small left burgundy sport tab, or equal-lane horizontal lower-third with burgundy text endcap; flexible warm sand names, fixed dark bottle primary cells and continuous dark footer;52px row rhythm",
+        "professionalFinish": "Static broadcast package with complete solid numerals, aligned flexible names/fixed score cells, readable supporting counters and no animation dependency or novelty effects.",
+        "surface": "Flat sand name/header lanes with dark ink text, deep bottle same-color primary score cells with white numerals, unboxed supporting values, compact burgundy sport tab/endcap rather than a full colored header, bottle dark counter footer with dusty-rose labels and white values, subtle1px rules and square corners; no gradients/icons/history",
+        "typography": "Upright bold mixed-case Arial names23px, complete solid white bold tabular primary digits32px, unboxed dark supporting scores21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "burgundy-sand",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "burgundy-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Burgundy Sand Broadcast — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "burgundy-sand-volleyball-2.html",
+      "contentHash": "00ce7379f09a60cd9d4e2dbcf08fdccefafcffeb88b945da47c8c030015a9fe7",
+      "documentPath": "published/00ce7379f09a60cd9d4e2dbcf08fdccefafcffeb88b945da47c8c030015a9fe7.json"
     },
     {
       "aliases": [],
