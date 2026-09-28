@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "b22f297b2f8a4ac03fe5e424dd10dc9e71c4a6185beeb7c2d4f1717c421242e1",
+  "revision": "e96c188f76d2dacb039fee0ba52b573a26e8a611ea38b75aa52546e300ef0d1b",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -11900,6 +11900,664 @@
       "fileName": "open-corner-grid-volleyball-2.html",
       "contentHash": "4d92c4d45c4aa4caca41404c27afd5ad4ebcba2f24a8f38a227c454018c0660a",
       "documentPath": "published/4d92c4d45c4aa4caca41404c27afd5ad4ebcba2f24a8f38a227c454018c0660a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-baseball-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-baseball-1.html",
+      "contentHash": "d717133d891021dce3eafec6dd7b2ae0f2a6e0121e8e61bec4bbefd9f5e5a433",
+      "documentPath": "published/d717133d891021dce3eafec6dd7b2ae0f2a6e0121e8e61bec4bbefd9f5e5a433.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-baseball-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-baseball-2.html",
+      "contentHash": "9c49b7a6d42aef7e92b736e195a32a6cde2e16c02d13d0ffff8e08647dcb66cd",
+      "documentPath": "published/9c49b7a6d42aef7e92b736e195a32a6cde2e16c02d13d0ffff8e08647dcb66cd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-basketball-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-basketball-1.html",
+      "contentHash": "99a096e03bc717e5dde07571e4ae18ddd025a0ec01e499bdd60a1f16ad92391a",
+      "documentPath": "published/99a096e03bc717e5dde07571e4ae18ddd025a0ec01e499bdd60a1f16ad92391a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-basketball-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-basketball-2.html",
+      "contentHash": "70ebd3f6ef529bec6694e68f66df300ed3cd32c20cb6d95c94f1299701d8f55f",
+      "documentPath": "published/70ebd3f6ef529bec6694e68f66df300ed3cd32c20cb6d95c94f1299701d8f55f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving indicators and neutral game/match-point states with match-point precedence.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-pickleball-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-pickleball-1.html",
+      "contentHash": "1b25f5cafb014b9d881f5b43494523b4e5b72a23596a10a17b4d2400465aa4f2",
+      "documentPath": "published/1b25f5cafb014b9d881f5b43494523b4e5b72a23596a10a17b4d2400465aa4f2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving indicators and neutral game/match-point states with match-point precedence.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-pickleball-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-pickleball-2.html",
+      "contentHash": "ca24baa77c7d5520db6eca9bb62f1e34175920b71a72e940db23ee701d06bc56",
+      "documentPath": "published/ca24baa77c7d5520db6eca9bb62f1e34175920b71a72e940db23ee701d06bc56.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-soccer-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-soccer-1.html",
+      "contentHash": "90cb389d9487d9636e99a99295a555cbf1095d6a8b971ee18db9c9e665ac1609",
+      "documentPath": "published/90cb389d9487d9636e99a99295a555cbf1095d6a8b971ee18db9c9e665ac1609.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-soccer-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-soccer-2.html",
+      "contentHash": "5a5f0ad52090c55e6857fc846af5959d9c89a9419a7a694889072a5432b86793",
+      "documentPath": "published/5a5f0ad52090c55e6857fc846af5959d9c89a9419a7a694889072a5432b86793.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-softball-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-softball-1.html",
+      "contentHash": "74c961eabc48094dfb91b72e80ebdbaf7783b8ccafb712ed0ecb7c1cd9f98a90",
+      "documentPath": "published/74c961eabc48094dfb91b72e80ebdbaf7783b8ccafb712ed0ecb7c1cd9f98a90.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-softball-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-softball-2.html",
+      "contentHash": "72fa83ab07c880bb330094413a5fe6aa10dad760eb98da5649ccb26829730078",
+      "documentPath": "published/72fa83ab07c880bb330094413a5fe6aa10dad760eb98da5649ccb26829730078.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving indicators and neutral game/match-point states with match-point precedence.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-table-tennis-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-table-tennis-1.html",
+      "contentHash": "d9bc3d545e4ffef0f8117599207b317a78562f28795fcee83939cc6f104da547",
+      "documentPath": "published/d9bc3d545e4ffef0f8117599207b317a78562f28795fcee83939cc6f104da547.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving indicators and neutral game/match-point states with match-point precedence.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-table-tennis-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-table-tennis-2.html",
+      "contentHash": "138ca9579eea3acf61df15170039d4549e3695f0f7054150fed1d5098f868388",
+      "documentPath": "published/138ca9579eea3acf61df15170039d4549e3695f0f7054150fed1d5098f868388.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-aligned-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. Two aligned competitor rows preserve score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-volleyball-1.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oxblood-ivory-inrow-rail-volleyball-1.html",
+      "contentHash": "d2dde1f4a169f32c0d5f40a83f931b46ccdf241f38f3e3c7b2497231eb591f97",
+      "documentPath": "published/d2dde1f4a169f32c0d5f40a83f931b46ccdf241f38f3e3c7b2497231eb591f97.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-side-by-side-inrow-rail",
+      "description": "Professional static broadcast scoreboard with a continuous warm ivory body, condensed uppercase competitor names, unboxed taupe supporting counts and fixed deep-oxblood score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable score tracks. The sport label and shared counters sit on the same ivory field, without a contrasting header, footer or dock. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; displayed clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet in-row numerical rail aligning supporting score then primary score; narrow independent live competitor-color ticks and only practical broadcast metadata, no decorative art or motion",
+      "output": "html-replications/oxblood-ivory-inrow-rail-volleyball-2.html",
+      "palette": [
+        "#eee9e2",
+        "#552f39",
+        "#ffffff",
+        "#2b2a2b",
+        "#81736e",
+        "#7e7671",
+        "#f5f1eb"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "3b9b7b7ae4881aabeea4302c08795eddedda0bf61ad176eb18a6f26934b4b5bb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true one-row horizontal lower-third; one continuous warm ivory body with flexible left-to-right name lanes and equal fixed oxblood score terminals at the right end of each competitor lane; small in-row supporting counts directly before primary cells, 52px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete white numerals on stable oxblood tracks, condensed legible names, restrained same-surface metadata and practical counters",
+        "surface": "Flat continuous warm ivory field, identical deep-oxblood filled primary score terminals with complete white digits, unboxed taupe in-row secondary numbers, small dark-ink inline sport/status text ABOVE names on the same ivory field and a low-height same-ivory text line BELOW competitors only for dense shared static counters; hairline charcoal outer border, thin neutral row separators, square-to-2px corners; no contrasting header, footer, dock, keyline, gradient or shadow",
+        "typography": "Upright condensed uppercase semibold Arial Narrow/Arial competitor names about 22px, complete solid bold white tabular primary numerals 38px, unobtrusive 10px ink sport/status text and 18px taupe supporting counts"
+      },
+      "styleID": "oxblood-ivory-inrow-rail",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "oxblood-ivory-inrow-rail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oxblood Ivory In-Row Rail — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oxblood-ivory-inrow-rail-volleyball-2.html",
+      "contentHash": "999e06f8b45e35a717f369dccb5ace4cb7231c680e8d26db8463c4f8a1ab37ab",
+      "documentPath": "published/999e06f8b45e35a717f369dccb5ace4cb7231c680e8d26db8463c4f8a1ab37ab.json"
     },
     {
       "aliases": [],

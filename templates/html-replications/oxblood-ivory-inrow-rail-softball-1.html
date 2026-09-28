@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Softball — Oxblood Ivory In-Row Rail compact</title>
+<style>
+*{box-sizing:border-box}
+html,body{width:100%;min-height:100%;margin:0;background:transparent}
+body{font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,Helvetica,sans-serif;color:#252322}
+.stage{width:100%;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:8px}
+.board{display:flex;flex-direction:column;width:min(55vw,1060px);max-width:100%;min-width:0;overflow:hidden;background:#eeeae4;border:5px solid #4e4945;container-type:inline-size}
+.header{display:flex;align-items:center;justify-content:space-between;flex:none;height:6.8cqw;padding:0 2cqw;border-bottom:2px solid #9e9690}
+.sport-tag,.heading{font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:3.2cqw;font-weight:700;line-height:1;letter-spacing:.03em;white-space:nowrap}
+.heading{width:16.5%;text-align:center}
+.competitors{display:flex;flex-direction:column;min-width:0}
+.competitor{display:flex;align-items:stretch;min-width:0;height:11.2cqw}
+.competitor+.competitor{border-top:2px solid #9e9690}
+.identity{display:block;align-self:center;flex:0 0 1.5%;height:70%;margin-left:1.8%;background:#642438}
+.jerseyColorB{background:#0c4a83}
+.name{display:block;align-content:center;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 2.6cqw;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:6.6cqw;font-weight:700;line-height:1.05;letter-spacing:.015em;text-transform:uppercase}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+.score-cell{display:flex;align-items:center;justify-content:center;flex:0 0 16.5%;min-width:0;background:#68283b;border-left:2px solid #a58f90}
+.score{display:block;max-width:100%;overflow:hidden;text-align:center;color:#fff;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:7.5cqw;line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.rail{display:flex;align-items:center;justify-content:space-around;gap:0;flex:none;height:8.8cqw;border-top:2px solid #9e9690;padding:0 2.6cqw;color:#68625d}
+.stat{display:flex;align-items:baseline;justify-content:center;gap:1cqw;flex:1 1 0;min-width:0;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:2.8cqw;line-height:1;white-space:nowrap}
+.stat+.stat{border-left:2px solid #8b827b}
+.stat strong{color:#252322;font-weight:700;font-variant-numeric:tabular-nums}
+.retained,.point-slot{display:none}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:700px){.board{width:100%;border-width:3px}.header{height:34px;border-bottom-width:1px}.sport-tag,.heading{font-size:13px}.competitor{height:53px}.competitor+.competitor{border-top-width:1px}.name{font-size:clamp(22px,7vw,32px);padding:0 9px}.score-cell{border-left-width:1px}.score{font-size:clamp(30px,9vw,40px)}.rail{height:46px;padding:0 6px;border-top-width:1px}.stat{font-size:clamp(9px,2.6vw,13px);gap:3px}.stat+.stat{border-left-width:1px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body><main class="stage" data-osb-component="layout">
+  <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Softball scoreboard">
+    <div class="header rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="sport-tag" data-osb-component="text">SOFTBALL</span><span class="heading" data-osb-component="text">RUNS</span></div>
+    <div class="competitors columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="competitor rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="score-cell" data-osb-component="layout"><span class="score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div><span class="retained currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div>
+      <div class="competitor rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="score-cell" data-osb-component="layout"><span class="score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div><span class="retained currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div>
+    </div>
+    <div class="rail rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container" aria-label="Editable static softball counters"><span class="stat" data-osb-component="layout"><span data-osb-component="text">INNING</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="inning">0</strong></span><span class="stat" data-osb-component="layout"><span data-osb-component="text">BALLS</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="balls">0</strong></span><span class="stat" data-osb-component="layout"><span data-osb-component="text">STRIKES</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="strikes">0</strong></span><span class="stat" data-osb-component="layout"><span data-osb-component="text">OUTS</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="outs">0</strong></span></div>
+    <div class="point-slot" data-osb-component="layout"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+  </article>
+</main></body>
+</html>
