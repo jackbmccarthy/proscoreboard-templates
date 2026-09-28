@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "ceb1a5bc341d7116b84e5044901c54397dcba5c0ff1e569564d5259b0166bb72",
+  "revision": "8ce88720993ff5eb698d7cd683d3db30b9c91b33f6996283950054bf96528343",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -3402,6 +3402,664 @@
       "fileName": "carbon-copy-ticket-volleyball-2.html",
       "contentHash": "9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72",
       "documentPath": "published/9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small hits supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-baseball-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-baseball-1.html",
+      "contentHash": "725fb9f433c0a3fcbb579692defe44672ce69a0a742054328ef9a69896870406",
+      "documentPath": "published/725fb9f433c0a3fcbb579692defe44672ce69a0a742054328ef9a69896870406.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small hits supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-baseball-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-baseball-2.html",
+      "contentHash": "59d1fc585d95bf12f79a266b516901f7910d991093cc938c1f1791518dcb3100",
+      "documentPath": "published/59d1fc585d95bf12f79a266b516901f7910d991093cc938c1f1791518dcb3100.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small fouls supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-basketball-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-basketball-1.html",
+      "contentHash": "06d252874bd598de5b0e756d2a194fa88c8d8470f3ec8c80c5a4ddc69d137e8e",
+      "documentPath": "published/06d252874bd598de5b0e756d2a194fa88c8d8470f3ec8c80c5a4ddc69d137e8e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small fouls supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-basketball-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-basketball-2.html",
+      "contentHash": "e42ba4c94cc05417896e9c1dddf4ff9411bfcb6a3f5c09a3f9d8d438380d53f9",
+      "documentPath": "published/e42ba4c94cc05417896e9c1dddf4ff9411bfcb6a3f5c09a3f9d8d438380d53f9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small games won supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-pickleball-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-pickleball-1.html",
+      "contentHash": "28374708883c1d0964d08da87ee43ad598c3cbc4a979a183d31f8a99a94a7b66",
+      "documentPath": "published/28374708883c1d0964d08da87ee43ad598c3cbc4a979a183d31f8a99a94a7b66.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small games won supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-pickleball-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-pickleball-2.html",
+      "contentHash": "9f2c7360868d6aabee0a847a8f253fb8475e586950d7b6ae40a2a045041edfbb",
+      "documentPath": "published/9f2c7360868d6aabee0a847a8f253fb8475e586950d7b6ae40a2a045041edfbb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small fouls supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-soccer-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-soccer-1.html",
+      "contentHash": "e4ddec7c5f5a6848e4823b99589faa37706e0fba242ca74900c83b95710c3cf7",
+      "documentPath": "published/e4ddec7c5f5a6848e4823b99589faa37706e0fba242ca74900c83b95710c3cf7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small fouls supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-soccer-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-soccer-2.html",
+      "contentHash": "69dfff0177468729243fe3187e5bc14feae3a54ea0ea8c52829c77b3a3521f58",
+      "documentPath": "published/69dfff0177468729243fe3187e5bc14feae3a54ea0ea8c52829c77b3a3521f58.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small hits supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-softball-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-softball-1.html",
+      "contentHash": "78193ad607c65c88101d531136ce69ac432ac9316f4ff68234593ffe94854f8a",
+      "documentPath": "published/78193ad607c65c88101d531136ce69ac432ac9316f4ff68234593ffe94854f8a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small hits supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-softball-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-softball-2.html",
+      "contentHash": "082ff968a4375d0af69087519cf15f1cfd922a6a8b7692027944c7bdb89c761f",
+      "documentPath": "published/082ff968a4375d0af69087519cf15f1cfd922a6a8b7692027944c7bdb89c761f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small games won supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-table-tennis-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-table-tennis-1.html",
+      "contentHash": "b7851622f914dfbd100c87456db618f42fad5ab89b633930c6e264680f33be78",
+      "documentPath": "published/b7851622f914dfbd100c87456db618f42fad5ab89b633930c6e264680f33be78.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small games won supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-table-tennis-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-table-tennis-2.html",
+      "contentHash": "d184502541303b96af5dabee5202cb06e7d45f9f525db29fb37cafa7135aed63",
+      "documentPath": "published/d184502541303b96af5dabee5202cb06e7d45f9f525db29fb37cafa7135aed63.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small sets won supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. Two aligned competitor rows share a slim same-cedar lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-volleyball-1.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cedar-ivory-namefoot-volleyball-1.html",
+      "contentHash": "73610ade73d24db943b8a4295541c3423faec0eff7e05b8a260b5189371ff0cc",
+      "documentPath": "published/73610ade73d24db943b8a4295541c3423faec0eff7e05b8a260b5189371ff0cc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-namefoot",
+      "description": "Professional static broadcast scoreboard on one continuous deep-cedar competitor surface. Each flexible warm-white name has a small sets won supporting zero on a second line beneath it, and ONE narrow ivory primary scorecap at the far right holds a complete solid dark zero. A true horizontal lower-third places both competitors side by side above a slim same-cedar sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional secondary score in the namefoot and restrained single primary scorecap; no decorative art or motion",
+      "output": "html-replications/cedar-ivory-namefoot-volleyball-2.html",
+      "palette": [
+        "#253b37",
+        "#f3f0e8",
+        "#e8e3d8",
+        "#b8c7c0",
+        "#627973",
+        "#2378a9",
+        "#ca6060"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "d1286de591407f93f58c5598ec5e4a59b32be24fa0aa42a67567a2c72f9ffed0",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible name lane has a small second line for its supporting count, while ONE fixed modest ivory primary scorecap closes the far right of each competitor lane",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid digits, stable ivory primary tracks, flexible names, readable secondary line and honest generic/manual counters",
+        "surface": "One flat continuous deep desaturated cedar field behind names, supporting-namefoot lines, and a slim SAME-CEDAR sport/status line below both competitor rows; each row has ONE narrow warm-ivory filled primary scorecap with complete dark digits, but no filled supporting cell, no pale score column before names, no contrasting header/footer/dock, gradients, texture or shadows; thin cool-green row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; restrained uppercase 10px supporting label with solid muted ivory 16px zero beneath each name; large complete solid dark 40px tabular primary numeral with a tiny dark primary caption inside the ivory scorecap; 10px bottom sport/status text"
+      },
+      "styleID": "cedar-ivory-namefoot",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cedar-ivory-namefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cedar Ivory Namefoot — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cedar-ivory-namefoot-volleyball-2.html",
+      "contentHash": "4c61e2ae231696e19f6009ff46a861340889119f2d89af1aa8de7c9264b48e95",
+      "documentPath": "published/4c61e2ae231696e19f6009ff46a861340889119f2d89af1aa8de7c9264b48e95.json"
     },
     {
       "aliases": [],
