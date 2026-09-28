@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petrol Ivory Keyline Volleyball — Horizontal</title>
+  <style>
+* { box-sizing: border-box; min-width: 0; }
+html, body { margin: 0; background: transparent; }
+body { font-family: Arial, Helvetica, sans-serif; color: #fff; }
+.stage { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 18px; }
+.group { width: min(100%, 1170px); display: flex; flex-direction: column; align-items: center; gap: 15px; }
+.board { width: 100%; display: flex; flex-direction: column; overflow: hidden; border: 1px solid #b7c6c4; border-top: 3px solid #bd8d5a; border-radius: 6px; background: #203b45; }
+.header { min-height: 52px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #b7c6c4; font-size: 31px; font-weight: 700; line-height: 1; }
+.lanes { display: flex; align-items: stretch; }
+.lane { flex: 1 1 0; min-width: 0; min-height: 142px; display: flex; align-items: center; gap: 18px; padding: 12px 15px 12px 20px; }
+.lane + .lane { border-left: 1px solid #b7c6c4; }
+.tick { display: block; flex: 0 0 8px; width: 8px; height: 97px; background: #bd8d5a; }
+.jerseyColorB { background: #5e9a9d; }
+.name { display: block; flex: 1 1 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 40px; font-weight: 700; line-height: 1.05; }
+.combinedAName:empty::before { content: "Team A"; }
+.combinedBName:empty::before { content: "Team B"; }
+.sets { flex: 0 0 55px; width: 55px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; }
+.sets-label { font-size: 17px; font-weight: 700; line-height: 1; }
+.sets-value { display: block; font-size: 39px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.point-cell { flex: 0 0 148px; width: 148px; min-height: 114px; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 5px; background: #f3f1e9; color: #152c33; }
+.point-value { display: block; font-size: 64px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.point-label { font-size: 17px; font-weight: 700; line-height: 1; }
+.set-dock { width: 63%; min-height: 45px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid #b7c6c4; border-radius: 5px; background: #dbe2de; color: #152c33; font-size: 26px; font-weight: 700; line-height: 1; }
+.set-value { display: block; min-width: 1.4ch; text-align: center; font-variant-numeric: tabular-nums; }
+.point-slot { display: none; }
+.point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
+@media (max-width: 900px) {
+  .lane { gap: 10px; padding: 9px; min-height: 100px; }
+  .tick { height: 70px; }
+  .name { font-size: clamp(16px, 3.3vw, 29px); }
+  .sets { flex-basis: 38px; width: 38px; }
+  .sets-label, .point-label { font-size: 12px; }
+  .sets-value { font-size: 27px; }
+  .point-cell { flex-basis: 85px; width: 85px; min-height: 75px; }
+  .point-value { font-size: 43px; }
+}
+@media (max-width: 600px) {
+  .stage { padding: 9px; }
+  .group { gap: 8px; }
+  .header { min-height: 34px; font-size: 17px; }
+  .lane { min-height: 70px; gap: 5px; padding: 5px; }
+  .tick { flex-basis: 4px; width: 4px; height: 43px; }
+  .name { font-size: clamp(14px, 4vw, 19px); }
+  .sets { flex-basis: 27px; width: 27px; gap: 3px; }
+  .sets-label, .point-label { font-size: 8px; }
+  .sets-value { font-size: 20px; }
+  .point-cell { flex-basis: 48px; width: 48px; min-height: 54px; }
+  .point-value { font-size: 27px; }
+  .set-dock { min-height: 31px; font-size: 17px; }
+}
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <div class="group columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+        <header class="header">VOLLEYBALL</header>
+        <div class="lanes rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+          <div class="lane fixedRowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="sets"><span class="sets-label">SETS</span><span class="sets-value currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div><div class="point-cell"><span class="point-value currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="point-label">POINTS</span></div></div>
+          <div class="lane fixedRowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="sets"><span class="sets-label">SETS</span><span class="sets-value currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div><div class="point-cell"><span class="point-value currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="point-label">POINTS</span></div></div>
+        </div>
+      </article>
+      <div class="set-dock rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span>SET</span><span class="set-value" data-osb-static="true" data-sport-stat="set">0</span></div>
+      <div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </div>
+  </main>
+</body>
+</html>

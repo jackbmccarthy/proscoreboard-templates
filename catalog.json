@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "3a6826da882a53a669d11539d2ccf08996f308318b5cbb20c3513ea1e01d734f",
+  "revision": "15cae7493ac62dcbe0455ca0d96063660f11721badf08c9c905a1b356f2f9a0e",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -9296,6 +9296,678 @@
       "fileName": "open-corner-grid-volleyball-2.html",
       "contentHash": "4d92c4d45c4aa4caca41404c27afd5ad4ebcba2f24a8f38a227c454018c0660a",
       "documentPath": "published/4d92c4d45c4aa4caca41404c27afd5ad4ebcba2f24a8f38a227c454018c0660a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-baseball-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-baseball-1.html",
+      "contentHash": "e235266172d9ffc4709a9de0236f20807cf198571d82fcf17ea47c3c950dc49a",
+      "documentPath": "published/e235266172d9ffc4709a9de0236f20807cf198571d82fcf17ea47c3c950dc49a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-baseball-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-baseball-2.html",
+      "contentHash": "f6f45ff015647d95c75073688961fc108e89d93f3afd1bebbae2a6cf6bf27905",
+      "documentPath": "published/f6f45ff015647d95c75073688961fc108e89d93f3afd1bebbae2a6cf6bf27905.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-basketball-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-basketball-1.html",
+      "contentHash": "811127db2a0728bb7442ea0aac4f2c49e5d1913e5d3980450d700fc4a5fc0f19",
+      "documentPath": "published/811127db2a0728bb7442ea0aac4f2c49e5d1913e5d3980450d700fc4a5fc0f19.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-basketball-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-basketball-2.html",
+      "contentHash": "fca590052e8d1a60409f8a266aa812f544ba01aa28a98b4f431e9cc15909f8fc",
+      "documentPath": "published/fca590052e8d1a60409f8a266aa812f544ba01aa28a98b4f431e9cc15909f8fc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-pickleball-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-pickleball-1.html",
+      "contentHash": "5b6046ca2ff0b61753cbeae24a43ed5b857f3024e84fc6e28d776201bd8c022a",
+      "documentPath": "published/5b6046ca2ff0b61753cbeae24a43ed5b857f3024e84fc6e28d776201bd8c022a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-pickleball-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-pickleball-2.html",
+      "contentHash": "6ecb4e4859028c203c9b1cf9a069643dd7e83d8f37a80f4a4986287ea6c746f2",
+      "documentPath": "published/6ecb4e4859028c203c9b1cf9a069643dd7e83d8f37a80f4a4986287ea6c746f2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-soccer-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-soccer-1.html",
+      "contentHash": "831db8ab7d179052f40b4f86482b0b188c9a215f9f5a80f37163bb76ca0110fa",
+      "documentPath": "published/831db8ab7d179052f40b4f86482b0b188c9a215f9f5a80f37163bb76ca0110fa.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-soccer-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-soccer-2.html",
+      "contentHash": "90505de95cb798e1321f963bf7ee78007784e102389fb6886285ecae0638ec4b",
+      "documentPath": "published/90505de95cb798e1321f963bf7ee78007784e102389fb6886285ecae0638ec4b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-softball-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-softball-1.html",
+      "contentHash": "988cb920d4815244eeb65bd36b4e3ff64bdc65a8fd598e0d8baa38a161a4276b",
+      "documentPath": "published/988cb920d4815244eeb65bd36b4e3ff64bdc65a8fd598e0d8baa38a161a4276b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-softball-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-softball-2.html",
+      "contentHash": "832a91210695649c41659f3686185ee796321f9600bbdfa2aaa563fcadb2c9e6",
+      "documentPath": "published/832a91210695649c41659f3686185ee796321f9600bbdfa2aaa563fcadb2c9e6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-table-tennis-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-table-tennis-1.html",
+      "contentHash": "6c61f7f6861e53f409856d27eac3faa3308aa0753ae5b116282e128f1df62aec",
+      "documentPath": "published/6c61f7f6861e53f409856d27eac3faa3308aa0753ae5b116282e128f1df62aec.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-table-tennis-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-table-tennis-2.html",
+      "contentHash": "ad633ae4b7f9ae67491c12883b94c8567ded73d7980e06230fb4c80189158123",
+      "documentPath": "published/ad633ae4b7f9ae67491c12883b94c8567ded73d7980e06230fb4c80189158123.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-volleyball-1.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-ivory-keyline-volleyball-1.html",
+      "contentHash": "640cce8c0fda2e4d3b46cc04a5f2a493ab5d489346f4fb37efc920b2157edb8a",
+      "documentPath": "published/640cce8c0fda2e4d3b46cc04a5f2a493ab5d489346f4fb37efc920b2157edb8a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with deep petrol names and shallow integrated sport header, warm ivory score cells containing complete solid dark numerals, unboxed secondary scores, a restrained brass top keyline and a separate pale statistics dock only where needed. Balanced two-lane horizontal lower-third. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One fine brass top keyline and a detached practical stat dock; independent thin competitor-color ticks remain editable live fields",
+      "output": "html-replications/petrol-ivory-keyline-volleyball-2.html",
+      "palette": [
+        "#203b45",
+        "#f3f1e9",
+        "#152c33",
+        "#ffffff",
+        "#bd8d5a",
+        "#b7c6c4",
+        "#dbe2de",
+        "#5e9a9d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "68a6ead1583135addd40af29b8acb8ae2296d842d21b05a4769f2ebd142c26a5",
+      "styleGuide": {
+        "geometry": "Conventional compact paired rows or equal-lane horizontal lower-third, shallow integrated dark header, flexible aligned names, fixed light primary terminals, roomy 60px row rhythm; optional detached compact statistics dock below the board",
+        "professionalFinish": "Static conventional broadcast package with complete solid score numerals, stable tracks and no animation or novelty effects",
+        "surface": "Flat deep petrol name lanes and same-tone shallow sport header, warm ivory primary score cells with dark ink digits, thin continuous brass TOP keyline, subtle cool-gray separators, 5px outer-only corners, and a separate pale modular statistics dock with dark labels and values where needed; no full contrasting header or continuous footer",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid dark-ink bold tabular primary numerals 36px, unboxed white secondary counts 20px, compact uppercase header and dock labels 11px"
+      },
+      "styleID": "petrol-ivory-keyline",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-ivory-keyline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Ivory Keyline — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-ivory-keyline-volleyball-2.html",
+      "contentHash": "a69944fed5d6281d10f31fa97556ebc0cfba5bbe73dd7f1ef22c042f3a1b0259",
+      "documentPath": "published/a69944fed5d6281d10f31fa97556ebc0cfba5bbe73dd7f1ef22c042f3a1b0259.json"
     },
     {
       "aliases": [],
