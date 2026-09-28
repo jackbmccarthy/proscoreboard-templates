@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "f55c6217e6166d15f8d90f224a3dcd9fac26c526c603a5f9d062717a060a49be",
+  "revision": "3fb1a99255cbd710d7d79afe193d7c1f655c40eaed64fcab77e2f073a7b549f1",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -10626,6 +10626,650 @@
       "fileName": "petrol-ivory-keyline-volleyball-2.html",
       "contentHash": "a69944fed5d6281d10f31fa97556ebc0cfba5bbe73dd7f1ef22c042f3a1b0259",
       "documentPath": "published/a69944fed5d6281d10f31fa97556ebc0cfba5bbe73dd7f1ef22c042f3a1b0259.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-baseball-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-baseball-1.html",
+      "contentHash": "b464a0206a97c3ec1a61c13f112c20230f11c44923cdab8dbc26f82932469ecd",
+      "documentPath": "published/b464a0206a97c3ec1a61c13f112c20230f11c44923cdab8dbc26f82932469ecd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-baseball-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-baseball-2.html",
+      "contentHash": "c8824db5f2421087e896a038d5d705644c0e66659c5434939d27f4e2a4858817",
+      "documentPath": "published/c8824db5f2421087e896a038d5d705644c0e66659c5434939d27f4e2a4858817.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-basketball-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-basketball-1.html",
+      "contentHash": "6881a4c7a4a6ff3658074b464946d879e4fd818c08da44259a402477c5a1e7fe",
+      "documentPath": "published/6881a4c7a4a6ff3658074b464946d879e4fd818c08da44259a402477c5a1e7fe.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-basketball-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-basketball-2.html",
+      "contentHash": "cd91bbeafeac357a4819e8c670cf49cb0453533ae975754bb080f64659de7be4",
+      "documentPath": "published/cd91bbeafeac357a4819e8c670cf49cb0453533ae975754bb080f64659de7be4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Native pickleball bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-pickleball-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Inkline — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-pickleball-1.html",
+      "contentHash": "5953322d5f28ac43ec131d2b60c83aad64d78c2b4d7bf7b317681306dd92859c",
+      "documentPath": "published/5953322d5f28ac43ec131d2b60c83aad64d78c2b4d7bf7b317681306dd92859c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Native pickleball bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-pickleball-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Inkline — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-pickleball-2.html",
+      "contentHash": "acc1997f0dc570c736564ae246716d164f8093b423987858df7500e912c2e46d",
+      "documentPath": "published/acc1997f0dc570c736564ae246716d164f8093b423987858df7500e912c2e46d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-soccer-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-soccer-1.html",
+      "contentHash": "3225875ba1a07623eb4284153684d6d5f966dbd70e41e51c0de3a3cd5856f1ec",
+      "documentPath": "published/3225875ba1a07623eb4284153684d6d5f966dbd70e41e51c0de3a3cd5856f1ec.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-soccer-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-soccer-2.html",
+      "contentHash": "86d206c211d03b79921a090febcb6f8fc5ffbfbf80add97286057ba29da66b71",
+      "documentPath": "published/86d206c211d03b79921a090febcb6f8fc5ffbfbf80add97286057ba29da66b71.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-softball-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-softball-1.html",
+      "contentHash": "951707c623f4a3ce74fa55572ae116ecf24704e913e4033b06f3916931354a8e",
+      "documentPath": "published/951707c623f4a3ce74fa55572ae116ecf24704e913e4033b06f3916931354a8e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-softball-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-softball-2.html",
+      "contentHash": "80ed29d5fc6b2c069cba61967b1a4268d433854301f9c66e5d23edb4270b3003",
+      "documentPath": "published/80ed29d5fc6b2c069cba61967b1a4268d433854301f9c66e5d23edb4270b3003.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Native table tennis bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-table-tennis-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Inkline — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-table-tennis-1.html",
+      "contentHash": "c5501015e284a65d0956a54cf67d5227fe3151fcb040424bf6c6d316dff4666e",
+      "documentPath": "published/c5501015e284a65d0956a54cf67d5227fe3151fcb040424bf6c6d316dff4666e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Native table tennis bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-table-tennis-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Inkline — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-table-tennis-2.html",
+      "contentHash": "ec17156c40f4ec9f52bee7987bd0e8011a5d78cd33f605156ecd727069ddead6",
+      "documentPath": "published/ec17156c40f4ec9f52bee7987bd0e8011a5d78cd33f605156ecd727069ddead6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-unboxed",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-volleyball-1.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-inkline-volleyball-1.html",
+      "contentHash": "fc4d37f22fa7547dd518da947966cc2436ac9050620c4b1db45798981c8d25ab",
+      "documentPath": "published/fc4d37f22fa7547dd518da947966cc2436ac9050620c4b1db45798981c8d25ab.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-unboxed-lower-third",
+      "description": "Professional static broadcast scoreboard with competitor names and fixed unboxed primary score tracks on one continuous porcelain surface, complete solid dark numerals, a shallow charcoal sport header with a fine teal baseline, and an attached dark counter footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving the same-surface score hierarchy. Live competitor-color ticks update independently. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One teal baseline beneath the narrow charcoal header and quiet straight separators; thin live competitor-color ticks stay independent from house accent; no gradient, icons, history, glow or motion",
+      "output": "html-replications/porcelain-inkline-volleyball-2.html",
+      "palette": [
+        "#f0f1ed",
+        "#202a2e",
+        "#ffffff",
+        "#397a78",
+        "#c6cbc7",
+        "#7da2a1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "580ac76d979c75f24aaa35becd237f9b7b91ee34c6634cdbcbd1b8aa77bffed1",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug or balanced equal-lane horizontal lower-third; one continuous pale body for flexible name lanes and fixed unboxed 76px right primary score tracks, 56px row rhythm, attached narrow status header and grouped footer",
+        "professionalFinish": "Static conventional broadcast package with complete solid unboxed digits on stable tracks, flexible names, readable grouped counters and no animation or novelty typography",
+        "surface": "Flat porcelain body with no filled score cells, chips, numeric boxes or reversed score tiles; dark ink names and digits share the same pale field with stable invisible score tracks; shallow full-width charcoal header with white sport text and fine muted-teal bottom rule, attached charcoal counter footer with white values and muted teal separators, thin neutral row/column rules and square edges",
+        "typography": "Upright semibold mixed-case Arial competitor names 24px, complete solid charcoal bold tabular primary numerals 36px on the SAME pale surface, plain unboxed secondary counts 21px and compact uppercase sport/counter captions 12px"
+      },
+      "styleID": "porcelain-inkline",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-inkline",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Inkline — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-inkline-volleyball-2.html",
+      "contentHash": "54731ab4afadd524bea780cfe2b9e21777c950fc1e391f64c5c8aa53a1e371fc",
+      "documentPath": "published/54731ab4afadd524bea780cfe2b9e21777c950fc1e391f64c5c8aa53a1e371fc.json"
     },
     {
       "aliases": [],

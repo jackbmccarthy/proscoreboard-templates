@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Porcelain Inkline Volleyball — Paired Rows</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; margin: 0; background: transparent; }
+    body { font-family: Arial, Helvetica, sans-serif; }
+    .stage { display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 12px; }
+    .board { display: flex; flex-direction: column; width: min(61vw, 1120px); max-width: 100%; overflow: hidden; background: #f0f1ed; color: #202a2e; container-type: inline-size; }
+    .header { display: flex; align-items: stretch; height: 7.4cqw; min-height: 30px; background: #202a2e; color: #fff; border-bottom: .45cqw solid #397a78; }
+    .sport { display: flex; align-items: center; flex: 1 1 0; min-width: 0; padding-left: 3.2cqw; font-size: 4.15cqw; font-weight: 800; line-height: 1; white-space: nowrap; }
+    .header-label { display: flex; align-items: center; justify-content: center; flex: none; font-size: 2.35cqw; font-weight: 700; line-height: 1; }
+    .sets-track { width: 14.3%; }
+    .points-track { width: 19.7%; }
+    .teams { display: flex; flex-direction: column; min-width: 0; }
+    .team { display: flex; align-items: stretch; height: 11.65cqw; min-height: 56px; background: #f0f1ed; }
+    .team + .team { border-top: 1px solid #c6cbc7; }
+    .tick { display: block; flex: 0 0 3%; background: #397a78; }
+    .jerseyColorB { background: #7da2a1; }
+    .name { display: block; align-content: center; flex: 1 1 0; min-width: 0; overflow: hidden; padding: 0 2.6cqw; color: #202a2e; font-size: 5.8cqw; font-weight: 700; line-height: 1; text-overflow: ellipsis; white-space: nowrap; }
+    .combinedAName:empty::before { content: "Team A"; }
+    .combinedBName:empty::before { content: "Team B"; }
+    .score { display: flex; align-items: center; justify-content: center; flex: none; border-left: 1px solid #c6cbc7; color: #202a2e; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .sets-score { font-size: 5.5cqw; }
+    .points-score { font-size: 8.5cqw; }
+    .footer { display: flex; align-items: center; justify-content: center; height: 7.5cqw; min-height: 40px; background: #202a2e; color: #fff; }
+    .set-group { display: flex; align-items: center; justify-content: center; gap: 1.6cqw; height: 50%; padding: 0 2.6cqw; border-right: .35cqw solid #397a78; border-left: .35cqw solid #397a78; white-space: nowrap; }
+    .set-label { color: #c1cfcd; font-size: 2.8cqw; font-weight: 700; line-height: 1; }
+    .set-value { color: #fff; font-size: 5.2cqw; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+    .point-slot { display: none; }
+    .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint,
+    .point-slot:has(> .isMatchPoint[style*="opacity:1"]) > .isGamePoint { opacity: 0 !important; }
+    @media (max-width: 600px) {
+      .board { width: 100%; }
+      .header { height: 32px; border-bottom-width: 2px; }
+      .sport { padding-left: 10px; font-size: 15px; }
+      .header-label { font-size: 10px; }
+      .team { height: 58px; }
+      .name { padding: 0 9px; font-size: clamp(18px, 5.8vw, 25px); }
+      .sets-score { font-size: 24px; }
+      .points-score { font-size: 35px; }
+      .footer { height: 40px; }
+      .set-group { gap: 8px; padding: 0 13px; border-width: 2px; }
+      .set-label { font-size: 13px; }
+      .set-value { font-size: 23px; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="stage" data-osb-component="layout">
+    <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+      <header class="header rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <span class="sport" data-osb-component="text">VOLLEYBALL</span>
+        <span class="header-label sets-track" data-osb-component="text">SETS</span>
+        <span class="header-label points-track" data-osb-component="text">POINTS</span>
+      </header>
+      <div class="teams columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+        <div class="team rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+          <span class="tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span>
+          <span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span>
+          <span class="score sets-score sets-track currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span>
+          <span class="score points-score points-track currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span>
+        </div>
+        <div class="team rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+          <span class="tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span>
+          <span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span>
+          <span class="score sets-score sets-track currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span>
+          <span class="score points-score points-track currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span>
+        </div>
+      </div>
+      <footer class="footer rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <div class="set-group rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="set-label" data-osb-component="text">SET</span><span class="set-value" data-osb-component="text" data-osb-static="true" data-sport-stat="set">0</span></div>
+      </footer>
+      <div class="point-slot" data-osb-component="layout"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </article>
+  </main>
+</body>
+</html>
