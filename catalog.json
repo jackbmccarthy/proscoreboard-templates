@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "e5b01c50aeec239754dbd3b894005691106d92c126d1945270bda8b2c41f49e5",
+  "revision": "b39d2a4162c1f77965626e31ab0e04b521a494ee993f6d861abfdb7b8b060dab",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -27192,6 +27192,664 @@
       "fileName": "stone-gold-broadcast-volleyball-2.html",
       "contentHash": "69bc0019972ec11e8d2127b3530b267ce33fefde649a6dc5eef98e4e71386c6d",
       "documentPath": "published/69bc0019972ec11e8d2127b3530b267ce33fefde649a6dc5eef98e4e71386c6d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled hits supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-baseball-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-baseball-1.html",
+      "contentHash": "e7f6e8ba1bf602e7a90d09eced307929198b60eb1caa97aa467910582ed720ec",
+      "documentPath": "published/e7f6e8ba1bf602e7a90d09eced307929198b60eb1caa97aa467910582ed720ec.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled hits supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-baseball-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-baseball-2.html",
+      "contentHash": "e6a7516febc76936eea6dce918604fae076d64c2ee2e78045236519ef363dd8c",
+      "documentPath": "published/e6a7516febc76936eea6dce918604fae076d64c2ee2e78045236519ef363dd8c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled fouls supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-basketball-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-basketball-1.html",
+      "contentHash": "697a94f14cc178933ddc402ce308d97e8bc7d7487c26a43786d8c639b6738f4b",
+      "documentPath": "published/697a94f14cc178933ddc402ce308d97e8bc7d7487c26a43786d8c639b6738f4b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled fouls supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-basketball-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-basketball-2.html",
+      "contentHash": "97f5fd5e075ca1afad4cd836be9fe2959d60c1aee29c450965393f889c50f785",
+      "documentPath": "published/97f5fd5e075ca1afad4cd836be9fe2959d60c1aee29c450965393f889c50f785.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled games won supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-pickleball-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-pickleball-1.html",
+      "contentHash": "86fe505cb910ed922e5d19d39f82588a67d303ab44c3cb411e780bb6d8e015e6",
+      "documentPath": "published/86fe505cb910ed922e5d19d39f82588a67d303ab44c3cb411e780bb6d8e015e6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled games won supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-pickleball-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-pickleball-2.html",
+      "contentHash": "cd3e5295d91b8657f64674092ec3410b782585b2ed58a2618d0fe5fcc992fd5b",
+      "documentPath": "published/cd3e5295d91b8657f64674092ec3410b782585b2ed58a2618d0fe5fcc992fd5b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled fouls supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-soccer-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-soccer-1.html",
+      "contentHash": "d86b1b3b2c8a1ea71cde6a83d64e67270731cd3879625a991884bd5a505a3914",
+      "documentPath": "published/d86b1b3b2c8a1ea71cde6a83d64e67270731cd3879625a991884bd5a505a3914.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled fouls supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-soccer-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-soccer-2.html",
+      "contentHash": "e26c48cbcea2f4f7379cdd743a81b93aaff9d8044d88a794fcb29c18f5f99c01",
+      "documentPath": "published/e26c48cbcea2f4f7379cdd743a81b93aaff9d8044d88a794fcb29c18f5f99c01.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled hits supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-softball-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-softball-1.html",
+      "contentHash": "0baeac31b7221c24cade43fa13b2e15f933524bda7b2ba84f70b51f518d61f6f",
+      "documentPath": "published/0baeac31b7221c24cade43fa13b2e15f933524bda7b2ba84f70b51f518d61f6f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled hits supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-softball-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-softball-2.html",
+      "contentHash": "41969d67124272a9bbc7a5180a707a8f20fbf5f1103e1afbe660a375f9a1b0e2",
+      "documentPath": "published/41969d67124272a9bbc7a5180a707a8f20fbf5f1103e1afbe660a375f9a1b0e2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled games won supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-table-tennis-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-table-tennis-1.html",
+      "contentHash": "12b03aeb22d9879dfcf317fb1fe3abae33e57ecf428fe0fb965bae7246145ea4",
+      "documentPath": "published/12b03aeb22d9879dfcf317fb1fe3abae33e57ecf428fe0fb965bae7246145ea4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled games won supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-table-tennis-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-table-tennis-2.html",
+      "contentHash": "5127057f53c693522331bc94cc5564868b1c4077e074d5aa74d8d5bb51c51903",
+      "documentPath": "published/5127057f53c693522331bc94cc5564868b1c4077e074d5aa74d8d5bb51c51903.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled sets won supporting zero; a live color tick follows the bay before the flexible dark-ink name. Two aligned competitor rows share a slim same-stone lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-volleyball-1.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-ink-lead-bay-volleyball-1.html",
+      "contentHash": "14a87d4714ee8885a3717e16bf9c45f3656555505ef8a2ff5c7e95d188e5e147",
+      "documentPath": "published/14a87d4714ee8885a3717e16bf9c45f3656555505ef8a2ff5c7e95d188e5e147.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-primary-first",
+      "description": "Professional static broadcast scoreboard on one continuous warm-stone name field. Each competitor lane starts with ONE compact deep-ink numeric bay stacking a large complete solid white primary zero ABOVE a small labeled sets won supporting zero; a live color tick follows the bay before the flexible dark-ink name. A true horizontal lower-third places both competitors side by side above a slim same-stone sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading combined numeric bay with primary above support, followed by independent live color tick and flexible name; no decorative art",
+      "output": "html-replications/stone-ink-lead-bay-volleyball-2.html",
+      "palette": [
+        "#e9e7e1",
+        "#263741",
+        "#f7f7f4",
+        "#b4bfbb",
+        "#6c7d7c",
+        "#2678a9",
+        "#c65f67"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "4259173d7e16c049aa9a11bb768e7ee1f3a45e1641f419a1089e7adf90565c89",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 70px competitor rows or true equal-lane horizontal lower-third; each side begins with ONE compact fixed dark numeric bay at the LEFT, then a slim live identity tick and a wide flexible name lane, with a same-light slim sport/status line beneath the competitors",
+        "professionalFinish": "Static polished broadcast scorebug with large complete primary numerals, stable leading score bays, flexible names and honest secondary/manual data",
+        "surface": "One flat continuous warm light-stone field for flexible names and a shallow SAME-STONE bottom sport/status line; each lane starts with ONE compact deep-ink filled numeric bay holding complete white primary and supporting counts in vertical order, primary ABOVE support. No second score cell, no top header, contrasting footer/dock, gradient, texture, shadow or motion; thin cool-neutral row rules and 2px outer corners",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; inside the leading bay a large complete solid white 40px tabular PRIMARY zero with small uppercase caption ABOVE a restrained white 16px supporting zero/caption BELOW; bottom status 10px"
+      },
+      "styleID": "stone-ink-lead-bay",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-ink-lead-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Ink Lead Bay — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-ink-lead-bay-volleyball-2.html",
+      "contentHash": "9c0da6b509c537a04d8ef014f08156bfc903e84a36d367b9542dcdb8920323e7",
+      "documentPath": "published/9c0da6b509c537a04d8ef014f08156bfc903e84a36d367b9542dcdb8920323e7.json"
     },
     {
       "aliases": [],
