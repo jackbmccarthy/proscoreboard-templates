@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "9111517243c568a2648cb48d14a349fb70d349731212b2e08685b00ec85ad32f",
+  "revision": "098692ffc7793acc0d896ede5bb04017010fc375420d9ee07a5214fd5db782bf",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -980,6 +980,664 @@
       "fileName": "089-table-tennis-scoreboard-overlay.html",
       "contentHash": "288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295",
       "documentPath": "published/288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog hits supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-baseball-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-baseball-1.html",
+      "contentHash": "9c3d3cf122efc575c1cf5dd55e3ec56e2fcb0dc8b34278c9d37bf7f769d5c060",
+      "documentPath": "published/9c3d3cf122efc575c1cf5dd55e3ec56e2fcb0dc8b34278c9d37bf7f769d5c060.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog hits supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-baseball-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-baseball-2.html",
+      "contentHash": "968830e60b7594a5298100a15ebd473a331a485a829a20d03466ab592f217ab2",
+      "documentPath": "published/968830e60b7594a5298100a15ebd473a331a485a829a20d03466ab592f217ab2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog fouls supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-basketball-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-basketball-1.html",
+      "contentHash": "aa2fac04ec131a8499b1d654d1833ca1156dd128d844f07680633dec78c169a5",
+      "documentPath": "published/aa2fac04ec131a8499b1d654d1833ca1156dd128d844f07680633dec78c169a5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog fouls supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-basketball-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-basketball-2.html",
+      "contentHash": "36a9a8ba690719079c58a84d387909ca953c680575f8a32564b46a577f5624ba",
+      "documentPath": "published/36a9a8ba690719079c58a84d387909ca953c680575f8a32564b46a577f5624ba.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog games won supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-pickleball-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-pickleball-1.html",
+      "contentHash": "e9d1aed77e6a4a9fa2ec9e5df0e0c88930a0c5d4fb8c0e1be749e44d373195e5",
+      "documentPath": "published/e9d1aed77e6a4a9fa2ec9e5df0e0c88930a0c5d4fb8c0e1be749e44d373195e5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog games won supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-pickleball-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-pickleball-2.html",
+      "contentHash": "c10250272618e93570e020b7a25d0a14977efabb2555a7f21b3acf41dd4bee1a",
+      "documentPath": "published/c10250272618e93570e020b7a25d0a14977efabb2555a7f21b3acf41dd4bee1a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog fouls supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-soccer-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-soccer-1.html",
+      "contentHash": "9995597dad200313368db37b19a8533a5955caa2d16d8e90e02110a403b1de6c",
+      "documentPath": "published/9995597dad200313368db37b19a8533a5955caa2d16d8e90e02110a403b1de6c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog fouls supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-soccer-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-soccer-2.html",
+      "contentHash": "e79f114133d2ea447499f2438ca1caadcd993e9dce653dc9de1d6d7987e15a14",
+      "documentPath": "published/e79f114133d2ea447499f2438ca1caadcd993e9dce653dc9de1d6d7987e15a14.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog hits supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-softball-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-softball-1.html",
+      "contentHash": "3707e63bf75dc86777dbb94912265f6d6ae129936f73cf156736fdeeef80420c",
+      "documentPath": "published/3707e63bf75dc86777dbb94912265f6d6ae129936f73cf156736fdeeef80420c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog hits supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-softball-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-softball-2.html",
+      "contentHash": "5da6cd0fc7a266c6e283c9b70956de63711d5f95608a2734288de37651eb4887",
+      "documentPath": "published/5da6cd0fc7a266c6e283c9b70956de63711d5f95608a2734288de37651eb4887.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog games won supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-table-tennis-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-table-tennis-1.html",
+      "contentHash": "cac9616d2e8e8a6956bf6470ee8ed1a26deb325777416a2897c6697118820f41",
+      "documentPath": "published/cac9616d2e8e8a6956bf6470ee8ed1a26deb325777416a2897c6697118820f41.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog games won supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-table-tennis-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-table-tennis-2.html",
+      "contentHash": "348939a1bf98e2baf783109344eb480982d49e9d58addfd41daa68e1c4d6f3bb",
+      "documentPath": "published/348939a1bf98e2baf783109344eb480982d49e9d58addfd41daa68e1c4d6f3bb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog sets won supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. Two aligned competitor rows share a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-volleyball-1.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-copper-dual-track-volleyball-1.html",
+      "contentHash": "b433b01d4045f5c576e4c513e0005ddbd904b2e81d819489948d86463fb4f78a",
+      "documentPath": "published/b433b01d4045f5c576e4c513e0005ddbd904b2e81d819489948d86463fb4f78a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-one-row-dual-track",
+      "description": "Professional static broadcast scoreboard with flexible dark-basalt competitor names and two adjacent fixed filled numeric cells: a pale-fog sets won supporting cell with dark digits and a muted copper primary score cell with complete solid white numerals. A true horizontal lower-third places both competitors side by side under a text-only sport kicker. Shared game-status counters, where displayed, use a quiet same-basalt line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical pair of adjacent filled numeric tracks with opposite light/dark digit polarity and independent narrow live competitor-color ticks; no decorative art, motion or hardware",
+      "output": "html-replications/basalt-copper-dual-track-volleyball-2.html",
+      "palette": [
+        "#26333a",
+        "#dce2df",
+        "#87473a",
+        "#ffffff",
+        "#23343a",
+        "#8fa5a4",
+        "#aab6b1"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "11716b39a66d2118d675e0b093ce15f9bc0c7c99330144217c0420078dfee27a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 56px competitor rows or true one-row side-by-side lower-third; flexible deep-basalt name lanes terminate in TWO ADJACENT equal-height fixed filled numeric tracks at each lane's right edge—a narrow pale supporting count, then a wider copper primary score",
+        "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid numerals, stable paired tracks, flexible readable names and honestly scoped live/manual counters",
+        "surface": "Flat continuous deep-basalt competitor body; adjacent filled pale-fog secondary score cell with dark digit and muted burnt-copper primary score cell with complete white digit, square internal tracks; detached text-only sport kicker at upper left, not a full filled header; match-wide status in a slim SAME-BASALT utility line below rows where needed, no contrasting footer/dock; subtle 1px cool separators and 2px outer corners, no gradients or shadows",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names about 24px; complete solid bold white tabular primary numerals 38px; dark 18px tabular supporting values, quiet 10px labels and match-wide status text"
+      },
+      "styleID": "basalt-copper-dual-track",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-copper-dual-track",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Copper Dual Track — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-copper-dual-track-volleyball-2.html",
+      "contentHash": "b6077a0bb2fb0280f9875c6ae8cc64a71482dec913601ea673b2dedb4e4221f5",
+      "documentPath": "published/b6077a0bb2fb0280f9875c6ae8cc64a71482dec913601ea673b2dedb4e4221f5.json"
     },
     {
       "aliases": [],
