@@ -24134,5 +24134,607 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-table-tennis-1.html",
+    "title": "Pearl Ledger Side Index — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN games won supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-table-tennis-2.html",
+    "title": "Pearl Ledger Side Index — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN games won supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-pickleball-1.html",
+    "title": "Pearl Ledger Side Index — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN games won supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-pickleball-2.html",
+    "title": "Pearl Ledger Side Index — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN games won supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-baseball-1.html",
+    "title": "Pearl Ledger Side Index — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN hits supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-baseball-2.html",
+    "title": "Pearl Ledger Side Index — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN hits supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-softball-1.html",
+    "title": "Pearl Ledger Side Index — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN hits supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-softball-2.html",
+    "title": "Pearl Ledger Side Index — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN hits supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-basketball-1.html",
+    "title": "Pearl Ledger Side Index — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN fouls supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-basketball-2.html",
+    "title": "Pearl Ledger Side Index — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN fouls supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-soccer-1.html",
+    "title": "Pearl Ledger Side Index — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN fouls supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-soccer-2.html",
+    "title": "Pearl Ledger Side Index — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN fouls supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-volleyball-1.html",
+    "title": "Pearl Ledger Side Index — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN sets won supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. Two aligned competitor rows sit to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-paired-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-ledger-side-index-volleyball-2.html",
+    "title": "Pearl Ledger Side Index — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9eeeb",
+      "#24373c",
+      "#697c7c",
+      "#a7b7b4",
+      "#2178a8",
+      "#c95c5b"
+    ],
+    "motif": "Functional same-color shared sport/status index and two open fixed score tracks; no decorative art or motion",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-ledger-side-index",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard on one continuous pearl-gray surface. A narrow left sport/status index is separated only by a hairline, while flexible dark-ink competitor names lead to a small OPEN sets won supporting count and a large OPEN complete solid dark primary score in fixed tracks, with no filled numeric cells. A true horizontal lower-third places both competitors side by side to the right of the shared index. Shared status counters, where displayed, remain editable in that same-color left index. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-ledger-index",
+    "styleID": "pearl-ledger-side-index",
+    "styleFingerprint": "d40c1b4948e07577cba297fc3df9f9352ff167d13a17db3a85a43e601f1d9c88",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 58px competitor rows or a true one-row horizontal lower-third to the RIGHT of a narrow shared 18% LEFT sport/status index; each row has a flexible name lane, small fixed unboxed supporting score track and large fixed unboxed primary score track at its far right",
+      "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-ink names about 24px; small uppercase 10px supporting caption with dark 18px zero; large complete solid dark 42px tabular primary zero and small primary caption; sport/status index uses disciplined 11px uppercase text",
+      "surface": "One flat uninterrupted pearl-gray #e9eeeb fill across the LEFT sport/status index, competitor names, small supporting tracks and large primary tracks; only a hairline separates the same-color index from the rows, and quiet row/column rules align fields; NO dark/pale split, no filled/boxed/outlined numeric cells, no top header, bottom footer or detached dock, no texture/gradient/shadow; 2px outer corners and restrained live identity ticks",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals on one consistent pale surface, stable tracks, flexible names and honest manual/live supporting counts"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]

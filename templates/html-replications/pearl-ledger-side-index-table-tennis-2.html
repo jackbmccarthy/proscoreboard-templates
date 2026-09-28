@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Table Tennis — Pearl Ledger Side Index Lower Third</title><style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center}
+.board{--pearl:#e9eeeb;--ink:#24373c;--line:#a7b7b4;display:flex;width:min(84vw,1825px);min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:3px;background:var(--pearl);color:var(--ink);container-type:inline-size}
+.index{position:relative;display:flex;flex:0 0 18%;min-width:0;align-items:center;justify-content:center;padding:0 .8cqw;border-right:1px solid var(--line)}
+.sport-title{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:1.95cqw;line-height:1;font-weight:700}
+.sides{display:flex;flex:1 1 auto;min-width:0}
+.side{display:flex;flex:1 1 50%;min-width:0;min-height:8.7cqw;align-items:stretch}
+.side+.side{border-left:1px solid var(--line)}
+.identity-wrap{display:flex;flex:0 0 5%;align-items:center;justify-content:center;padding:.85cqw 0}
+.identity{display:block;flex:0 0 .8cqw;width:.8cqw;height:100%;min-width:5px;background:#2178a8}
+.jerseyColorB{background:#c95c5b}
+.name-lane{display:flex;flex:1 1 auto;min-width:0;align-items:center;gap:.4cqw;padding:0 1cqw;color:var(--ink)}
+.name{display:block;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:3.22cqw;line-height:1;font-weight:700}
+.combinedAName:empty::before{content:"Player A"}.combinedBName:empty::before{content:"Player B"}
+.serve{display:block;flex:0 0 .38cqw;width:.38cqw;height:.38cqw;min-width:5px;min-height:5px;border-radius:50%;background:var(--ink)}
+.support-track,.primary-track{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;white-space:nowrap}
+.support-track{flex:0 0 17%;width:17%}.primary-track{flex:0 0 24%;width:24%;position:relative}
+.primary-track:before{content:"";position:absolute;left:0;top:19%;bottom:19%;width:1px;background:var(--line)}
+.caption{display:block;max-width:100%;overflow:hidden;font-size:1.22cqw;line-height:1;font-weight:700}
+.support-score,.primary-score{display:block;max-width:100%;overflow:hidden;line-height:1;font-weight:700;font-variant-numeric:tabular-nums}
+.support-score{font-size:2.85cqw}.primary-score{font-size:4.6cqw}
+.point-slot{position:absolute;left:4%;right:4%;bottom:8%;height:1.2cqw;color:var(--ink);font-size:.8cqw;line-height:1;font-weight:700;text-align:center}
+.point-state{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--pearl)}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:600px){.board{width:94vw}.index{flex-basis:20%;padding:0 2px}.sport-title{font-size:7px}.side{min-height:80px}.identity-wrap{flex-basis:5px;padding:5px 0}.identity{flex-basis:4px;width:4px}.name-lane{gap:2px;padding:0 2px}.name{font-size:13px}.serve{flex-basis:5px;width:5px;height:5px}.support-track{flex-basis:18%;width:18%}.primary-track{flex-basis:25%;width:25%}.caption{font-size:6px}.support-score{font-size:17px}.primary-score{font-size:25px}.point-slot{height:12px;font-size:5px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body><main class="stage"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><aside class="index"><span class="sport-title">TABLE TENNIS</span><div class="point-slot"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></aside><div class="sides rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><div class="side rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity-wrap"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span></span><div class="name-lane"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true"></span></div><div class="support-track"><span class="caption">GAMES</span><span class="support-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div><div class="primary-track"><span class="caption">POINTS</span><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div></div><div class="side rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity-wrap"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span><div class="name-lane"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;"></span></div><div class="support-track"><span class="caption">GAMES</span><span class="support-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div><div class="primary-track"><span class="caption">POINTS</span><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div></div></div></article></main></body></html>
