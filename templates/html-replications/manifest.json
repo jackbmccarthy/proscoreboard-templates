@@ -19864,5 +19864,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-table-tennis-1.html",
+    "title": "Pewter Columnhead — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving fields and neutral shared game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-table-tennis-2.html",
+    "title": "Pewter Columnhead — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving fields and neutral shared game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-pickleball-1.html",
+    "title": "Pewter Columnhead — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving fields and neutral shared game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-pickleball-2.html",
+    "title": "Pewter Columnhead — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving fields and neutral shared game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-baseball-1.html",
+    "title": "Pewter Columnhead — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; this compact composition omits game-wide counters. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-baseball-2.html",
+    "title": "Pewter Columnhead — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks and one shared game-status area. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-softball-1.html",
+    "title": "Pewter Columnhead — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; this compact composition omits game-wide counters. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-softball-2.html",
+    "title": "Pewter Columnhead — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks and one shared game-status area. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-basketball-1.html",
+    "title": "Pewter Columnhead — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; this compact composition omits game-wide counters. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-basketball-2.html",
+    "title": "Pewter Columnhead — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks and one shared game-status area. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-soccer-1.html",
+    "title": "Pewter Columnhead — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; this compact composition omits game-wide counters. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-soccer-2.html",
+    "title": "Pewter Columnhead — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks and one shared game-status area. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-volleyball-1.html",
+    "title": "Pewter Columnhead — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Compact paired rows present only per-competitor scores and supporting sets where applicable; no game-wide status counter is displayed. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; this compact composition omits game-wide counters. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-paired-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pewter-columnhead-volleyball-2.html",
+    "title": "Pewter Columnhead — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dfe6e5",
+      "#25343a",
+      "#bccdd0",
+      "#314a54",
+      "#f5f7f4",
+      "#8da1a5",
+      "#ffffff"
+    ],
+    "motif": "Practical numeric-only columnheads over the scoring and counter tracks; narrow independent live competitor-color ticks and no decoration, texture, gradient, shadow, animation, hardware, portraits or logos",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pewter-columnhead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with continuous cool pewter competitor lanes, muted blue-gray filled primary score cells with complete solid dark numerals, a separate upright sport tab and numeric-only dark columnheads. Horizontal lower-third presents both competitors side by side with stable fixed score tracks. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; this compact composition omits game-wide counters. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-equal-lane-columnhead",
+    "styleID": "pewter-columnhead",
+    "styleFingerprint": "5c0a8ec542e34db8222f1ed502ee1a58040afc5cadd5f4d508c48f8866866cf7",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 52px competitor rows or one-row equal-lane horizontal lower-third on a continuous cool pewter body; flexible open name lanes, fixed filled score tracks, in-row secondary scores where applicable, and numeric-only 22px caption band with a visible gap from the separate left sport tab",
+      "typography": "Upright semibold Arial dark mixed-case competitor names 23px; complete solid bold dark tabular primary numerals 34px; concise 10px uppercase numeric column captions and 18px supporting values",
+      "surface": "One flat continuous cool-pewter competitor field, with equal muted blue-gray filled primary cells and dark solid digits; slim dark caption bands only above numeric columns, a small dark sport tab separated from those bands by open name space; unboxed secondary values in the same row and an integrated pale numeric shelf for dense static counters, never a contrasting footer or detached right dock; 1px cool rules, 4px outer corners",
+      "professionalFinish": "Static real-coverage broadcast scoreboard with complete solid dark numerals, flexible names, stable muted score cells and clearly labeled practical numeric columns"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
   }
 ]

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Baseball — Pewter Columnhead horizontal</title><style>
+*{box-sizing:border-box}html,body{width:100%;min-height:100%;margin:0;background:transparent}body{font-family:Arial,Helvetica,sans-serif;color:#25343a}
+.stage{min-height:100vh;width:100%;display:flex;align-items:center;justify-content:center;padding:12px}
+.shell{width:min(92vw,1580px);max-width:100%;container-type:inline-size}
+.sport{display:flex;align-items:center;justify-content:center;width:15%;height:3.3cqw;margin-bottom:.4cqw;border:1px solid #8da1a5;border-radius:4px;background:#25343a;color:#f5f7f4;font-size:1.75cqw;font-weight:800;line-height:1;white-space:nowrap}
+.board{display:flex;align-items:stretch;width:100%;min-width:0;overflow:hidden;background:#dfe6e5;border:1px solid #8da1a5;border-radius:4px}
+.competitors{display:flex;flex:1 1 0;min-width:0}.competitor{display:flex;align-items:stretch;flex:1 1 0;min-width:0;height:9.3cqw}.competitor+.competitor{border-left:1px solid #8da1a5}
+.tick{display:block;flex:none;align-self:center;width:.7cqw;min-width:6px;height:72%;margin-left:1.3cqw;background:#1688e9}.jerseyColorB{background:#ec202f}
+.name{display:block;align-content:center;flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 1.45cqw;font-size:3.5cqw;font-weight:800;line-height:1.06}
+.combinedAName:empty:before{content:"Team A"}.combinedBName:empty:before{content:"Team B"}
+.score-cell,.stat{display:flex;flex-direction:column;flex:none;min-width:0;border-left:1px solid #8da1a5;background:#bccdd0}
+.score-cell{width:8.6cqw}.score{display:flex;align-items:center;justify-content:center;flex:1 1 0;min-height:0;width:100%;font-size:4.1cqw;font-weight:800;line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.caption{display:flex;align-items:center;justify-content:center;flex:none;height:28%;padding:0 .3cqw;background:#25343a;color:#f5f7f4;font-size:1.3cqw;font-weight:800;line-height:1;white-space:nowrap}
+.stats{display:flex;flex:0 0 33%;min-width:0;border-left:1px solid #8da1a5}.stat{flex:1 1 0;border-left:0}.stat+.stat{border-left:1px solid #8da1a5}.stat-value{display:flex;align-items:center;justify-content:center;flex:1 1 0;min-height:0;font-size:3.8cqw;font-weight:800;line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.retained,.point-slot{display:none}.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:700px){.shell{width:100%}.sport{width:105px;height:29px;margin-bottom:4px;font-size:13px}.board{flex-wrap:wrap}.competitors{flex-basis:100%}.competitor{height:66px}.tick{min-width:5px;margin-left:5px}.name{font-size:18px;padding:0 4px}.score-cell{width:47px}.score{font-size:24px}.caption{font-size:9px}.stats{flex-basis:100%;height:48px;border-left:0;border-top:1px solid #8da1a5}.stat:first-child{border-left:0}.stat-value{font-size:24px}.stats .caption{font-size:9px}}
+@media(max-width:390px){.name{font-size:17px}.score-cell{width:43px}.score{font-size:22px}.caption{font-size:8px}.stats .caption{font-size:8px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style></head>
+<body><main class="stage" data-osb-component="layout"><div class="shell"><div class="sport sport-tag" data-osb-component="text">BASEBALL</div>
+<article class="board rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container" aria-label="Baseball scoreboard">
+  <div class="competitors rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <div class="competitor rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="score-cell" data-osb-component="layout"><span class="caption" data-osb-component="text">RUNS</span><span class="score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div><span class="retained currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div>
+    <div class="competitor rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="score-cell" data-osb-component="layout"><span class="caption" data-osb-component="text">RUNS</span><span class="score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div><span class="retained currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div>
+  </div>
+  <aside class="stats rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container" aria-label="Editable static game counters">
+    <div class="stat" data-osb-component="layout"><span class="caption" data-osb-component="text">INNING</span><span class="stat-value" data-osb-component="text" data-osb-static="true" data-sport-stat="inning">0</span></div>
+    <div class="stat" data-osb-component="layout"><span class="caption" data-osb-component="text">BALLS</span><span class="stat-value" data-osb-component="text" data-osb-static="true" data-sport-stat="balls">0</span></div>
+    <div class="stat" data-osb-component="layout"><span class="caption" data-osb-component="text">STRIKES</span><span class="stat-value" data-osb-component="text" data-osb-static="true" data-sport-stat="strikes">0</span></div>
+    <div class="stat" data-osb-component="layout"><span class="caption" data-osb-component="text">OUTS</span><span class="stat-value" data-osb-component="text" data-osb-static="true" data-sport-stat="outs">0</span></div>
+  </aside>
+  <div class="point-slot" data-osb-component="layout"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</article></div></main></body></html>
