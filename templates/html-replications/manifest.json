@@ -27172,5 +27172,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-table-tennis-1.html",
+    "title": "Maroon Frost Matchline — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled games won supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-table-tennis-2.html",
+    "title": "Maroon Frost Matchline — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled games won supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-pickleball-1.html",
+    "title": "Maroon Frost Matchline — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled games won supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-pickleball-2.html",
+    "title": "Maroon Frost Matchline — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled games won supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-baseball-1.html",
+    "title": "Maroon Frost Matchline — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled hits supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-baseball-2.html",
+    "title": "Maroon Frost Matchline — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled hits supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-softball-1.html",
+    "title": "Maroon Frost Matchline — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled hits supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-softball-2.html",
+    "title": "Maroon Frost Matchline — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled hits supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-basketball-1.html",
+    "title": "Maroon Frost Matchline — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled fouls supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-basketball-2.html",
+    "title": "Maroon Frost Matchline — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled fouls supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-soccer-1.html",
+    "title": "Maroon Frost Matchline — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled fouls supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-soccer-2.html",
+    "title": "Maroon Frost Matchline — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled fouls supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-volleyball-1.html",
+    "title": "Maroon Frost Matchline — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled sets won supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. Two aligned competitor rows sit beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-paired-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/maroon-frost-matchline-volleyball-2.html",
+    "title": "Maroon Frost Matchline — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e9edef",
+      "#572f3c",
+      "#26343b",
+      "#bec8cb",
+      "#f8f6f2",
+      "#287d9d",
+      "#c45f65"
+    ],
+    "motif": "Functional top matchline and one terminal score track per side; restrained identity ticks with no decorative art or motion.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "maroon-frost-matchline",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with cool pale name lanes and a continuous deep-maroon top matchline. In each competitor lane, a flexible dark name sits above a small labeled sets won supporting zero, then ONE fixed deep-maroon right terminal holds the complete solid-white primary zero. A slim live competitor-color tick marks each lane. A true horizontal lower-third places both competitors side by side beneath the sport/status matchline. Shared status counters, where displayed, remain editable static text in the top matchline. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-matchline",
+    "styleID": "maroon-frost-matchline",
+    "styleFingerprint": "02fada91aeb567ee335feb00c05226a83c94d79a3e2bc1fffec165d9f3d9d7af",
+    "styleGuide": {
+      "geometry": "Conventional compact paired 74px competitor rows or true equal-lane horizontal lower-third; a shallow continuous sport/status MATCHLINE sits ABOVE both competitor lanes. Each lane has a flexible two-line name-and-support area and exactly ONE fixed deep-maroon primary score terminal at the RIGHT of that lane. No bottom bar.",
+      "typography": "Upright mixed-case bold Arial/Helvetica dark-charcoal names around 26px; supporting count in a quiet second line with 10px uppercase label and solid 17px dark tabular zero; large complete solid-white 42px tabular primary numeral in an equal fixed maroon score terminal with tiny white primary caption.",
+      "surface": "One flat pale cool-frost body for name/support lanes and one 24px deep-maroon top matchline carrying sport at left and grouped static counters at right. The two fixed deep-maroon score terminals sit flush at the right of each competitor lane; no separate filled support cell, no bottom dock, no gradient/shadow/texture. Thin blue-gray row rules and modest 4px outer corners.",
+      "professionalFinish": "Static professional broadcast scorebug with complete solid numerals, stable terminal score tracks, long-name lanes, readable supporting line and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
