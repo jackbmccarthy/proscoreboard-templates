@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "1b70a30b75c4e790a980c90f2efbc4d3a7f0c4edf850ba3225acd426deb0615b",
+  "revision": "ef31cdcdf585f5e684ccb1fe0f145c8d2b87555db89dc2e529b3b5ddcb3673e7",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -9436,6 +9436,650 @@
       "fileName": "ivory-cobalt-line-volleyball-2.html",
       "contentHash": "fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62",
       "documentPath": "published/fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-baseball-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-baseball-1.html",
+      "contentHash": "2e4edd062f6b639a13e2f5f44c6740773becc63a6add6cb009b95087512a7f7e",
+      "documentPath": "published/2e4edd062f6b639a13e2f5f44c6740773becc63a6add6cb009b95087512a7f7e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-baseball-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-baseball-2.html",
+      "contentHash": "37622175d81c50ad4fc036cd9d36d51536e2a977df784466da48d034e0f77fb3",
+      "documentPath": "published/37622175d81c50ad4fc036cd9d36d51536e2a977df784466da48d034e0f77fb3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-basketball-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-basketball-1.html",
+      "contentHash": "12592311b473c427c3dc3d36ea6e762ff7407d5769fd66b2e5057cd1cba83427",
+      "documentPath": "published/12592311b473c427c3dc3d36ea6e762ff7407d5769fd66b2e5057cd1cba83427.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-basketball-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-basketball-2.html",
+      "contentHash": "e5791d48d8c951bced4090c2edd535b7b7fbd05a1ee1cfb438797261366d7f06",
+      "documentPath": "published/e5791d48d8c951bced4090c2edd535b7b7fbd05a1ee1cfb438797261366d7f06.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Native pickleball bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-pickleball-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-pickleball-1.html",
+      "contentHash": "b82a346ba1d75e4307cbcb1aff5d5ba3aac8d5f7dbc58e02fffabeaef6591069",
+      "documentPath": "published/b82a346ba1d75e4307cbcb1aff5d5ba3aac8d5f7dbc58e02fffabeaef6591069.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Native pickleball bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-pickleball-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-pickleball-2.html",
+      "contentHash": "44322a75d8616f943c37870226619514b6c23ef99f290a62b3e450624e4ca215",
+      "documentPath": "published/44322a75d8616f943c37870226619514b6c23ef99f290a62b3e450624e4ca215.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-soccer-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-soccer-1.html",
+      "contentHash": "1ca87bf657241f787e31194118cd419f7e66c21e4a709f33abca3089cd2524ae",
+      "documentPath": "published/1ca87bf657241f787e31194118cd419f7e66c21e4a709f33abca3089cd2524ae.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-soccer-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-soccer-2.html",
+      "contentHash": "823b54b7c60ba1cf34bd369feaf61416bef05beae5b34b2ce069b30f0683b644",
+      "documentPath": "published/823b54b7c60ba1cf34bd369feaf61416bef05beae5b34b2ce069b30f0683b644.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-softball-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-softball-1.html",
+      "contentHash": "38322eb54f2c11144c0fdb857b7b5c7d1d9d8d062fb82324fbed29210f4e6dce",
+      "documentPath": "published/38322eb54f2c11144c0fdb857b7b5c7d1d9d8d062fb82324fbed29210f4e6dce.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-softball-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-softball-2.html",
+      "contentHash": "04449aefa05196241f52319b8df6195e41cbb3d41331cf5e421343d0d17de481",
+      "documentPath": "published/04449aefa05196241f52319b8df6195e41cbb3d41331cf5e421343d0d17de481.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Native table tennis bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-table-tennis-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-table-tennis-1.html",
+      "contentHash": "9e6005b1ceac45d48ede58abfde62dd1559acc7f06fa76bc6d0cc7cde883608b",
+      "documentPath": "published/9e6005b1ceac45d48ede58abfde62dd1559acc7f06fa76bc6d0cc7cde883608b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Native table tennis bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-table-tennis-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-table-tennis-2.html",
+      "contentHash": "69eb8a8d321e874070a5ad29f84c8d853deb0f715a45db35d4fae04420d4ca8a",
+      "documentPath": "published/69eb8a8d321e874070a5ad29f84c8d853deb0f715a45db35d4fae04420d4ca8a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-upright-sideband",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Compact paired rows use a full-height left sport sideband and aligned right score cells. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-volleyball-1.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-pearl-centerbank-volleyball-1.html",
+      "contentHash": "782e399ae4967c3557555ce710cd2f084e38e8343a3aff64a11bfaa15d83d817",
+      "documentPath": "published/782e399ae4967c3557555ce710cd2f084e38e8343a3aff64a11bfaa15d83d817.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-filled-centerbank",
+      "description": "Professional static broadcast scoreboard with flat pearl competitor lanes, identical deep-marine filled primary score cells containing complete white numerals, a practical upright navy sport sideband/endcap, subtle sea-glass rules and an inset pale counter strip where needed. Horizontal lower-third uses a compact left sport endcap and two equal filled score cells adjacent at center. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Live competitor colors update independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "One practical upright sport sideband and paired center bank of equal filled score cells in horizontal layout; thin independent live competitor-color ticks and quiet hairline separators only",
+      "output": "html-replications/marine-pearl-centerbank-volleyball-2.html",
+      "palette": [
+        "#152f3c",
+        "#edf0ed",
+        "#284e5d",
+        "#23343b",
+        "#90a8a7",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "9a162f061574dfca714481cf12cabb46e8739e9f96d7de2b8375aaadf833a667",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row board with full-height upright dark sport sideband at left and fixed right primary score cells, or horizontal lower-third with compact left sport endcap and two equal adjacent filled primary score cells at CENTER between outer flexible name lanes; 52px rows, no top header",
+        "professionalFinish": "Static broadcast package with complete solid numerals, stable filled score tracks, flexible names, legible upright sport label and no animation or decorative gimmick",
+        "surface": "Flat pearl competitor name lanes with dark ink type, deep marine identical primary score cells with complete white numerals, solid navy text-only upright sport sideband/endcap, slim inset pale supporting-counter strip beneath data area but not across sideband, one fine sea-glass rule and square-to-3px corners; no top banner, raised tiles, gradients or shadows",
+        "typography": "Upright semibold Arial mixed-case names 23px, complete solid bold white tabular primary numerals 35px on deep-marine fixed cells, unboxed supporting scores 20px and compact upright uppercase sideband/stat labels 11px"
+      },
+      "styleID": "marine-pearl-centerbank",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-pearl-centerbank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Pearl Centerbank — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-pearl-centerbank-volleyball-2.html",
+      "contentHash": "22a29ea16b243f6c6b4370aca4eb0329a84a41932eefbba223582896dbb6cdc3",
+      "documentPath": "published/22a29ea16b243f6c6b4370aca4eb0329a84a41932eefbba223582896dbb6cdc3.json"
     },
     {
       "aliases": [],
