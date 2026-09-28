@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "ea82db6ea9a25a235d3251385eb2f477185177e7a9fa273a71f3cff2f317a3c5",
+  "revision": "4ff4ec822076398a7d3d37b9a864fcdbba08e9c9d9494f3009f5ec25077e32ce",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -4704,6 +4704,650 @@
       "fileName": "charcoal-outline-sidecar-volleyball-2.html",
       "contentHash": "5be7146831dda42065806abc1ee1050d76381f9a4be5dae7cec283f3fcb9dcb4",
       "documentPath": "published/5be7146831dda42065806abc1ee1050d76381f9a4be5dae7cec283f3fcb9dcb4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper hits supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-baseball-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-baseball-1.html",
+      "contentHash": "d150cd9e72f64c1a6749b39e790f3954d5c1c28ee1cdbcba2ce1b7fbc534412d",
+      "documentPath": "published/d150cd9e72f64c1a6749b39e790f3954d5c1c28ee1cdbcba2ce1b7fbc534412d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper hits supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-baseball-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-baseball-2.html",
+      "contentHash": "03f4e77e1a361f8db3340d837cb3fddce9ff59c0817c26af3036083395ee3751",
+      "documentPath": "published/03f4e77e1a361f8db3340d837cb3fddce9ff59c0817c26af3036083395ee3751.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper fouls supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-basketball-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-basketball-1.html",
+      "contentHash": "cdd1204aefddba0dac1de43cc9813a6813cb84e5d160ba54e1fde41cd7721033",
+      "documentPath": "published/cdd1204aefddba0dac1de43cc9813a6813cb84e5d160ba54e1fde41cd7721033.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper fouls supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-basketball-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-basketball-2.html",
+      "contentHash": "831916154b978b31bb1e5bf9f8559d8b25561cd55569c4ed02157c5517a24cad",
+      "documentPath": "published/831916154b978b31bb1e5bf9f8559d8b25561cd55569c4ed02157c5517a24cad.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper games won supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-pickleball-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-pickleball-1.html",
+      "contentHash": "b3d912f35a0de73e129f7550f0f38414f5f85cb32aee21b2485173941e335257",
+      "documentPath": "published/b3d912f35a0de73e129f7550f0f38414f5f85cb32aee21b2485173941e335257.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper games won supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-pickleball-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-pickleball-2.html",
+      "contentHash": "1326750ca2358efb9e26b1085113cc5b0c1d94b168eeb79482b795ef1e687f67",
+      "documentPath": "published/1326750ca2358efb9e26b1085113cc5b0c1d94b168eeb79482b795ef1e687f67.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper fouls supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-soccer-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-soccer-1.html",
+      "contentHash": "0438099e03c7785fed6a6a9f8b184657dfb781bb7361cb660eac224f2232f2d0",
+      "documentPath": "published/0438099e03c7785fed6a6a9f8b184657dfb781bb7361cb660eac224f2232f2d0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper fouls supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-soccer-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-soccer-2.html",
+      "contentHash": "590b0c953742a5909e8e683fc104d1770bd455733ab28dfb34ccdad4c8270bcf",
+      "documentPath": "published/590b0c953742a5909e8e683fc104d1770bd455733ab28dfb34ccdad4c8270bcf.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper hits supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-softball-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-softball-1.html",
+      "contentHash": "95e27f2e6208e9c0e00966a9ea6cf993361c8c0dd2fcb5feb235258bd9f63aae",
+      "documentPath": "published/95e27f2e6208e9c0e00966a9ea6cf993361c8c0dd2fcb5feb235258bd9f63aae.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper hits supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-softball-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-softball-2.html",
+      "contentHash": "d1fd6803897d858ae94f0ad01343201aef87ef01df240f53f85aab867a0daef5",
+      "documentPath": "published/d1fd6803897d858ae94f0ad01343201aef87ef01df240f53f85aab867a0daef5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper games won supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-table-tennis-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-table-tennis-1.html",
+      "contentHash": "afe5dd95ca21d6919aa865b5bcd1f2a586bb987cae421d5672d695fbb4377f0d",
+      "documentPath": "published/afe5dd95ca21d6919aa865b5bcd1f2a586bb987cae421d5672d695fbb4377f0d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper games won supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-table-tennis-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-table-tennis-2.html",
+      "contentHash": "4775d2c3a33ab6e790f459884af08c8b338eacd931fe78e0ae7b858b9bf8cc1b",
+      "documentPath": "published/4775d2c3a33ab6e790f459884af08c8b338eacd931fe78e0ae7b858b9bf8cc1b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper sets won supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. Two aligned competitor rows sit below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-volleyball-1.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cloud-graphite-combined-bay-volleyball-1.html",
+      "contentHash": "60e126e720f45d6edd1ea9dc81b5b42969b686abe947205eb8c9f66b0be585bb",
+      "documentPath": "published/60e126e720f45d6edd1ea9dc81b5b42969b686abe947205eb8c9f66b0be585bb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-integrated-bay",
+      "description": "Professional static broadcast scoreboard with flexible dark-ink names on continuous cool cloud gray. Each side has one fixed graphite numeric bay with a small upper sets won supporting zero above a dominant complete solid white primary score, separated by a subtle rule inside the same bay. A true horizontal lower-third places both competitors side by side below a slim same-gray sport/status line. Shared status counters, where displayed, remain in that top line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical integrated numeric bay with a small upper supporting count and large lower primary score; no decorative art or motion",
+      "output": "html-replications/cloud-graphite-combined-bay-volleyball-2.html",
+      "palette": [
+        "#e8edeb",
+        "#293b44",
+        "#f7faf8",
+        "#aebbb8",
+        "#2178a8",
+        "#c95c5b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "f3b62062c192feb6a6d4c7ad3c5535243fe08b3614fa9df802634722920b1668",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true equal-lane horizontal lower-third; each flexible cool-cloud-gray name lane ends in ONE fixed graphite numeric bay, with the small supporting score stacked ABOVE a dominant primary score inside that same bay",
+        "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, stable one-piece score bays, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous cool-cloud-gray field for names and a slim SAME-GRAY top sport/status text line; at each row end ONE dark graphite filled numeric bay stacks supporting and primary values vertically with one subtle internal hairline; no second score cell, no detached footer, no contrasting full header, no split-field inversion, no gradient, texture, shadow or score animation; 2px outer corners, thin neutral row dividers, slim live identity ticks",
+        "typography": "Upright mixed-case medium-bold Arial/Helvetica dark-graphite competitor names around 24px; one compact uppercase 10px supporting caption and solid white 18px zero above a large complete solid white 40px tabular primary zero with a restrained tiny primary caption"
+      },
+      "styleID": "cloud-graphite-combined-bay",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cloud-graphite-combined-bay",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cloud Graphite Combined Bay — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cloud-graphite-combined-bay-volleyball-2.html",
+      "contentHash": "8080263f7352b310c75e3e6cb7cae5488d4d7d1113b5a6625260fe46330882ff",
+      "documentPath": "published/8080263f7352b310c75e3e6cb7cae5488d4d7d1113b5a6625260fe46330882ff.json"
     },
     {
       "aliases": [],
