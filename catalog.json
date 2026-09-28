@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "c94d439362527aa1aa88e1bb0dc6a824c5e0e8c39276a5913c59c35e84a1047b",
+  "revision": "85a58107bc90084151f51032c3e1d44692cd950de2a9ca39309167192ead56ff",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -3808,6 +3808,636 @@
       "fileName": "editorial-quotient-volleyball-2.html",
       "contentHash": "81b4c6ddd6b946ec7111ec210ab9559a4a25ccb119d4bd38fbabaf9c2c7506d2",
       "documentPath": "published/81b4c6ddd6b946ec7111ec210ab9559a4a25ccb119d4bd38fbabaf9c2c7506d2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-baseball-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-baseball-1.html",
+      "contentHash": "d020310aab4b9956a25c7e653784e0b311eafe1dc072cdc14c060ed45ef8fcd9",
+      "documentPath": "published/d020310aab4b9956a25c7e653784e0b311eafe1dc072cdc14c060ed45ef8fcd9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-baseball-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-baseball-2.html",
+      "contentHash": "3a708ed11d33df810ba3389cb29448f79271b637ad5cd8e1ff92142461496f03",
+      "documentPath": "published/3a708ed11d33df810ba3389cb29448f79271b637ad5cd8e1ff92142461496f03.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-basketball-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-basketball-1.html",
+      "contentHash": "55a850edd6b071e68422155bac0a5c62105e5dbdc7776eacf8ef1a24b1000541",
+      "documentPath": "published/55a850edd6b071e68422155bac0a5c62105e5dbdc7776eacf8ef1a24b1000541.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-basketball-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-basketball-2.html",
+      "contentHash": "1793ae8f25bbcfac1aa427f55df6b49f40cc1f447c3d52f4046071e1cd76893f",
+      "documentPath": "published/1793ae8f25bbcfac1aa427f55df6b49f40cc1f447c3d52f4046071e1cd76893f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-pickleball-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Evergreen Sand — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-pickleball-1.html",
+      "contentHash": "3b6660d5bc0c78de672028501759667465a3389b4d01c22a2fe27052a95c5a13",
+      "documentPath": "published/3b6660d5bc0c78de672028501759667465a3389b4d01c22a2fe27052a95c5a13.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-pickleball-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Evergreen Sand — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-pickleball-2.html",
+      "contentHash": "73ae5da02ccb90ecb2da862a0378895df1a23fc3585807bc5a0135ad697d3627",
+      "documentPath": "published/73ae5da02ccb90ecb2da862a0378895df1a23fc3585807bc5a0135ad697d3627.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-soccer-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-soccer-1.html",
+      "contentHash": "ac94da75634ac5f0815dbcd67912dfea48a2ddad981a4e6b58888240b1477158",
+      "documentPath": "published/ac94da75634ac5f0815dbcd67912dfea48a2ddad981a4e6b58888240b1477158.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-soccer-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-soccer-2.html",
+      "contentHash": "890ea73bc7e27ba39eb6993028b431ccd5d0dfac0dd68f93e67ff57fdb1564f8",
+      "documentPath": "published/890ea73bc7e27ba39eb6993028b431ccd5d0dfac0dd68f93e67ff57fdb1564f8.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-softball-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-softball-1.html",
+      "contentHash": "1c574b3302dfecd97eec2057fde09dba389a8d2f3517403e57e5eb6ec11deaae",
+      "documentPath": "published/1c574b3302dfecd97eec2057fde09dba389a8d2f3517403e57e5eb6ec11deaae.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-softball-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-softball-2.html",
+      "contentHash": "38a87470469b23578ccc0ab21ea8911d0cd613619fe2f0c63275ef1db8fd043d",
+      "documentPath": "published/38a87470469b23578ccc0ab21ea8911d0cd613619fe2f0c63275ef1db8fd043d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-table-tennis-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Evergreen Sand — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-table-tennis-1.html",
+      "contentHash": "51fdd2af94bb40988b4da1033eaaf5fc6108f717fec734e25b9ee4b6283c5775",
+      "documentPath": "published/51fdd2af94bb40988b4da1033eaaf5fc6108f717fec734e25b9ee4b6283c5775.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-table-tennis-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Evergreen Sand — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-table-tennis-2.html",
+      "contentHash": "a7273985c5a474ecd7ac534e07e85fbf7ea3cd9ce8c1c09998214abd8190a6f4",
+      "documentPath": "published/a7273985c5a474ecd7ac534e07e85fbf7ea3cd9ce8c1c09998214abd8190a6f4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-volleyball-1.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "evergreen-sand-volleyball-1.html",
+      "contentHash": "194c172e68bb715a94c91db376b0de8b21449e73f5fba07c6019be1078446aba",
+      "documentPath": "published/194c172e68bb715a94c91db376b0de8b21449e73f5fba07c6019be1078446aba.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with warm sand name lanes, upright dark-forest Arial names, complete white primary numerals on forest score cells, unboxed forest supporting counts, a full forest sport header and a pale tan footer with grouped dark counters. Balanced horizontal lower-third beneath a centered sport title in the full-width forest header, with two identical name-to-score lanes and forest primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A coordinated forest header-and-score information hierarchy over warm sand lanes and a pale tan supporting footer, with independent narrow live identity ticks",
+      "output": "html-replications/evergreen-sand-volleyball-2.html",
+      "palette": [
+        "#f4f0e8",
+        "#174b40",
+        "#ffffff",
+        "#e8decc",
+        "#c7c2b7"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ccc5e7fff55cd994d2e5a29ff0f65ddc0e9eb51acbbcaf304627e7dcac99ee4a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third, full-width dark-forest sport header, fixed same-forest primary cells, flexible warm sand name lanes and continuous light tan counter footer; roomy58px row rhythm",
+        "professionalFinish": "Static credible broadcast package with complete solid score numerals, conventional aligned flexible names/fixed score tracks, high contrast, restrained surfaces and balanced supporting counters; no animation dependency.",
+        "surface": "Flat warm sand competitor lanes, dark forest primary score channels with white digits, unboxed forest secondary counts, full forest header with white lettering and light tan footer with forest counter labels/values; 1px warm-gray rules, 6px outer-only corners, square internal cells, no texture/gradient/shadow/icons/history",
+        "typography": "Upright bold mixed-case Arial names24px, complete solid white bold Arial tabular primary numerals34px, unboxed dark-forest supporting scores22px and compact12px labels; no glyph scaling or novelty forms"
+      },
+      "styleID": "evergreen-sand",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "evergreen-sand",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Evergreen Sand — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "evergreen-sand-volleyball-2.html",
+      "contentHash": "3485a9752ded563cc7fdf4a9c0f5a9ae373ae398856eed6ec0b6f67403bf951a",
+      "documentPath": "published/3485a9752ded563cc7fdf4a9c0f5a9ae373ae398856eed6ec0b6f67403bf951a.json"
     },
     {
       "aliases": [],
