@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "720ef34709cdb0f99a19bbe1e9169e831daced7c25681aaed21087673bb2cafc",
+  "revision": "e5b01c50aeec239754dbd3b894005691106d92c126d1945270bda8b2c41f49e5",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -980,6 +980,650 @@
       "fileName": "089-table-tennis-scoreboard-overlay.html",
       "contentHash": "288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295",
       "documentPath": "published/288872b4d1fed6cffba41cb974676398e69acab851a2b7168fcc9da909a1b295.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass hits supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-baseball-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-baseball-1.html",
+      "contentHash": "c3ba46f2272c8c22782db735b7754a4ad556908f3b71681295b0df8481d9b644",
+      "documentPath": "published/c3ba46f2272c8c22782db735b7754a4ad556908f3b71681295b0df8481d9b644.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass hits supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-baseball-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-baseball-2.html",
+      "contentHash": "8b95b11a028bc3abbf063844acad3104a986c7d05fea7951464554040b288022",
+      "documentPath": "published/8b95b11a028bc3abbf063844acad3104a986c7d05fea7951464554040b288022.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass fouls supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-basketball-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-basketball-1.html",
+      "contentHash": "17546124c91ccfbcedd6c8ba6d527774bd282387b9356500808f196279fffc73",
+      "documentPath": "published/17546124c91ccfbcedd6c8ba6d527774bd282387b9356500808f196279fffc73.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass fouls supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-basketball-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-basketball-2.html",
+      "contentHash": "6eb1c457188bdd1706fdb30c37c0dbb4b970a37d6c5a39b22bc9218d40c1a0bb",
+      "documentPath": "published/6eb1c457188bdd1706fdb30c37c0dbb4b970a37d6c5a39b22bc9218d40c1a0bb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass games won supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-pickleball-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Atlantic Open Flank — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-pickleball-1.html",
+      "contentHash": "5e08952d932dc9559ee14145238b44ab7a4d0c05c0eb37f1e4de8ae5c85c019e",
+      "documentPath": "published/5e08952d932dc9559ee14145238b44ab7a4d0c05c0eb37f1e4de8ae5c85c019e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass games won supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-pickleball-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Atlantic Open Flank — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-pickleball-2.html",
+      "contentHash": "5cbb386eef376d8c6d9d194b942a22a4047e62a1bed9aa5fb8f6753fd7580185",
+      "documentPath": "published/5cbb386eef376d8c6d9d194b942a22a4047e62a1bed9aa5fb8f6753fd7580185.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass fouls supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-soccer-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-soccer-1.html",
+      "contentHash": "8feb12bdede2b874a68efd9d92a600e28194a85c69499f5ee0cc318dcaae1aa6",
+      "documentPath": "published/8feb12bdede2b874a68efd9d92a600e28194a85c69499f5ee0cc318dcaae1aa6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass fouls supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-soccer-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-soccer-2.html",
+      "contentHash": "88bd205d3002643e2ffba75e12b32d07c9cd5c391b50c7d86fef6e3aa5a184d2",
+      "documentPath": "published/88bd205d3002643e2ffba75e12b32d07c9cd5c391b50c7d86fef6e3aa5a184d2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass hits supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-softball-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-softball-1.html",
+      "contentHash": "7f3dc5b79cedf89c7d53e780a47afb074172968d355787d97612d68216042ba1",
+      "documentPath": "published/7f3dc5b79cedf89c7d53e780a47afb074172968d355787d97612d68216042ba1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass hits supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-softball-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-softball-2.html",
+      "contentHash": "e5443f7106cc15d87a71fc384572e7e387617e5876a7ef21d6ff409faa08e03e",
+      "documentPath": "published/e5443f7106cc15d87a71fc384572e7e387617e5876a7ef21d6ff409faa08e03e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass games won supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-table-tennis-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Atlantic Open Flank — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-table-tennis-1.html",
+      "contentHash": "f7f9746ec23136a5d954a429cac7894f4d63de628c0f0b9df8f19d6dfb54d8b2",
+      "documentPath": "published/f7f9746ec23136a5d954a429cac7894f4d63de628c0f0b9df8f19d6dfb54d8b2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass games won supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-table-tennis-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Atlantic Open Flank — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-table-tennis-2.html",
+      "contentHash": "a25566172f36df2ed87c6b5bc24a3900f9f19b98f25b2f17b531d5a237b4fe64",
+      "documentPath": "published/a25566172f36df2ed87c6b5bc24a3900f9f19b98f25b2f17b531d5a237b4fe64.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass sets won supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. Two aligned competitor rows share a slim same-marine lower sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-volleyball-1.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "atlantic-open-flank-volleyball-1.html",
+      "contentHash": "f24c1a93e4aed8326dada8733b8ce2cc519f34555ba8c7f8714803810bb06fca",
+      "documentPath": "published/f24c1a93e4aed8326dada8733b8ce2cc519f34555ba8c7f8714803810bb06fca.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-leading-support",
+      "description": "Professional static broadcast scoreboard on one continuous deep-marine field. Each competitor lane has a small OPEN sea-glass sets won supporting zero BEFORE its flexible warm-white name and a large complete solid white OPEN primary score at the far right, both on the same dark surface. A true horizontal lower-third places both competitors side by side above a slim same-marine sport/status text line. Shared status counters, where displayed, remain editable in that lower line. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading supporting count before the flexible name, then dominant open score at the far right; no decorative art or motion",
+      "output": "html-replications/atlantic-open-flank-volleyball-2.html",
+      "palette": [
+        "#21343c",
+        "#f6f8f5",
+        "#a5c5c3",
+        "#5c7379",
+        "#2678a9",
+        "#c85e66"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "c3794fbc2d0ddfd1f1416fd074c7a4eac651aaf885332d17a38f15ff1d2d07e7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 58px competitor rows or true equal-lane horizontal lower-third; each row has a slim identity tick, a small fixed OPEN LEADING supporting-count track, a flexible name lane, and a large fixed OPEN primary score track at the far right",
+        "professionalFinish": "Static polished broadcast scorebug with complete white numerals on one consistent dark surface, stable fixed tracks, flexible names and honest manual/live supporting counts",
+        "surface": "One flat continuous muted deep-marine field across names, leading support tracks, open right primary tracks and a shallow SAME-MARINE bottom sport/status text line; NO filled score cells, pale endcaps, top header, contrasting footer, dock, background image, gradient, texture or shadow; 1px cool dividers, 2px outer corners and restrained live identity-color ticks",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; small uppercase 10px sea-glass supporting caption with solid 17px zero, large complete solid white 42px tabular primary numeral with tiny caption; 10px bottom sport/status line"
+      },
+      "styleID": "atlantic-open-flank",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "atlantic-open-flank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Atlantic Open Flank — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "atlantic-open-flank-volleyball-2.html",
+      "contentHash": "843e5299c28e0e5c425415694b0f66398a294bda3d0b9824bc9a2d510a8bd077",
+      "documentPath": "published/843e5299c28e0e5c425415694b0f66398a294bda3d0b9824bc9a2d510a8bd077.json"
     },
     {
       "aliases": [],
