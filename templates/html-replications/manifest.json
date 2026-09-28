@@ -16196,5 +16196,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-table-tennis-1.html",
+    "title": "Copper Slate Score Rail — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Native table tennis scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-table-tennis-2.html",
+    "title": "Copper Slate Score Rail — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Native table tennis scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-pickleball-1.html",
+    "title": "Copper Slate Score Rail — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Native pickleball scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-pickleball-2.html",
+    "title": "Copper Slate Score Rail — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Native pickleball scoring bindings include separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-baseball-1.html",
+    "title": "Copper Slate Score Rail — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-baseball-2.html",
+    "title": "Copper Slate Score Rail — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-softball-1.html",
+    "title": "Copper Slate Score Rail — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-softball-2.html",
+    "title": "Copper Slate Score Rail — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-basketball-1.html",
+    "title": "Copper Slate Score Rail — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-basketball-2.html",
+    "title": "Copper Slate Score Rail — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-soccer-1.html",
+    "title": "Copper Slate Score Rail — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-soccer-2.html",
+    "title": "Copper Slate Score Rail — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-volleyball-1.html",
+    "title": "Copper Slate Score Rail — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Compact aligned two-row scorebug. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-two-row-left-rail",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/copper-slate-score-rail-volleyball-2.html",
+    "title": "Copper Slate Score Rail — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#dce4e8",
+      "#252c33",
+      "#ffffff",
+      "#1e2b35",
+      "#f4f5f2",
+      "#b98262",
+      "#9babb3"
+    ],
+    "motif": "Disciplined copper header underline and filled left score rail, with independent narrow live competitor-color ticks between score and name; no gradients, icons, history or animated effects",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "copper-slate-score-rail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a fixed filled charcoal primary score cell to the LEFT of each flexible light blue-gray competitor name lane, complete solid white numerals, a thin copper underline under the shallow off-white sport header, and an attached charcoal statistics footer where needed. Balanced equal-lane horizontal lower-third. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving its information hierarchy and left score-rail geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-left-rail-lower-third",
+    "styleID": "copper-slate-score-rail",
+    "styleFingerprint": "09c2d91a6ce62510c1155bae45bb310cc8e7c4506b677a3845258501c84fd9e5",
+    "styleGuide": {
+      "geometry": "Conventional compact paired-row scorebug or equal-lane horizontal lower-third; in BOTH variants a fixed filled primary score rail sits LEFT of each flexible competitor name lane, followed by an unboxed right supporting score where relevant; 54px row rhythm",
+      "typography": "Upright bold Arial mixed-case deep-ink names 23px, complete solid bold white tabular primary numerals 34px, unboxed deep-ink secondary scores 20px, compact uppercase header/footer labels 11px",
+      "surface": "Flat light blue-gray name lanes with dark ink text, same charcoal filled primary score cells on the LEFT with white complete numerals, shallow off-white sport header with one fine copper BOTTOM rule, thin slate separators and 2px outer corners; generic sport counters grouped in one compact continuous charcoal footer with pale labels/white values",
+      "professionalFinish": "Static broadcast package with complete solid numerals, fixed left score tracks, flexible names and practical supporting data; no novelty text or motion dependency"
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
