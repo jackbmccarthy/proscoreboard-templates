@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "85a58107bc90084151f51032c3e1d44692cd950de2a9ca39309167192ead56ff",
+  "revision": "09591a01ac0960ce60df6dffe4d032a6001ac09aed0c85b22b9555459771a7eb",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -14144,6 +14144,650 @@
       "fileName": "staircase-stencil-volleyball-2.html",
       "contentHash": "ac62e8ce6d969b41407dae8bae4d8ec8f5487fd0f030f121d88d775bfdfcf836",
       "documentPath": "published/ac62e8ce6d969b41407dae8bae4d8ec8f5487fd0f030f121d88d775bfdfcf836.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-baseball-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-baseball-1.html",
+      "contentHash": "36182437429a2126ac3a219e666f7daefbc412cfd4a06bd99c1ca36af999265d",
+      "documentPath": "published/36182437429a2126ac3a219e666f7daefbc412cfd4a06bd99c1ca36af999265d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-baseball-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-baseball-2.html",
+      "contentHash": "91aff17b972a02519fadd549e716ef01f599582ab43c606c826719fa3a17e8f3",
+      "documentPath": "published/91aff17b972a02519fadd549e716ef01f599582ab43c606c826719fa3a17e8f3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-basketball-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-basketball-1.html",
+      "contentHash": "505379b52550833ff65314c2b0ad1db183c0e60da68dea9e150292e27e5665a6",
+      "documentPath": "published/505379b52550833ff65314c2b0ad1db183c0e60da68dea9e150292e27e5665a6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-basketball-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-basketball-2.html",
+      "contentHash": "2a31b18c5697a662c887ab3f8fc12b32c9993ea98d5c560a5159c1e14c5151fa",
+      "documentPath": "published/2a31b18c5697a662c887ab3f8fc12b32c9993ea98d5c560a5159c1e14c5151fa.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-pickleball-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Gold Broadcast — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-pickleball-1.html",
+      "contentHash": "5820268c123af06ebe5026115c513685c775d29af3e91bfbb7cb8a8d99153f2e",
+      "documentPath": "published/5820268c123af06ebe5026115c513685c775d29af3e91bfbb7cb8a8d99153f2e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native pickleball scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-pickleball-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Gold Broadcast — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-pickleball-2.html",
+      "contentHash": "0c9de7ea0de8f3a4bb94b23e0a0f8e1bf1c2bd0fe959a7b9665b77fb12b104a9",
+      "documentPath": "published/0c9de7ea0de8f3a4bb94b23e0a0f8e1bf1c2bd0fe959a7b9665b77fb12b104a9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-soccer-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-soccer-1.html",
+      "contentHash": "13304dda55bdcf4030091f03fe45cfd5b50c350b7ed7afcc9feea5bffad5a9ac",
+      "documentPath": "published/13304dda55bdcf4030091f03fe45cfd5b50c350b7ed7afcc9feea5bffad5a9ac.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-soccer-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-soccer-2.html",
+      "contentHash": "b6cfce2fcc19a7e718162f934b30110bd8129a55389f62747a775249cf099d2d",
+      "documentPath": "published/b6cfce2fcc19a7e718162f934b30110bd8129a55389f62747a775249cf099d2d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-softball-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-softball-1.html",
+      "contentHash": "ba03a7d9f4aa456d6201dec3e77a8588b096aa2862a3774ae74348ff81722b2f",
+      "documentPath": "published/ba03a7d9f4aa456d6201dec3e77a8588b096aa2862a3774ae74348ff81722b2f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-softball-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-softball-2.html",
+      "contentHash": "9f205e5c037e2aaf02423fb43405070d777954d72383ee853b6992d4d8152abf",
+      "documentPath": "published/9f205e5c037e2aaf02423fb43405070d777954d72383ee853b6992d4d8152abf.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-table-tennis-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Gold Broadcast — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-table-tennis-1.html",
+      "contentHash": "f73a61cf501e5ab39e0e7476efb51aa034e5381ba9ae605873435359a5b50c47",
+      "documentPath": "published/f73a61cf501e5ab39e0e7476efb51aa034e5381ba9ae605873435359a5b50c47.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Native table tennis scoring bindings with separate serving indicators and neutral game/match-point states in discreet reserved slots, without decorative animation.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-table-tennis-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Stone Gold Broadcast — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-table-tennis-2.html",
+      "contentHash": "26d595d66f2525f378893542209221c7ca231dced9ee97a0a3a94ce42b29f7bd",
+      "documentPath": "published/26d595d66f2525f378893542209221c7ca231dced9ee97a0a3a94ce42b29f7bd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Compact aligned two-row scorebug. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-volleyball-1.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "stone-gold-broadcast-volleyball-1.html",
+      "contentHash": "351e424513b69f64c48595797c949abc8f6002dad8bbd782a54cf8452341847c",
+      "documentPath": "published/351e424513b69f64c48595797c949abc8f6002dad8bbd782a54cf8452341847c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-lower-third",
+      "description": "Professional static broadcast scoreboard with slate-blue name lanes with upright off-white Arial names, complete white primary numerals on deeper navy score cells, unboxed off-white supporting counts, a full pale-gold sport header and a matching gold counter footer where applicable. Balanced horizontal lower-third beneath a centered sport title in the full-width gold header, with two identical name-to-score lanes and deep navy primary score cells. Rebuilt as editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and geometry. Live competitor colors update independent identity ticks. Generic/manual scoring: live competitor names/current scores and sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Symmetric pale-gold information bands framing calm slate lanes and deep-navy score tracks, with independent narrow live identity ticks",
+      "output": "html-replications/stone-gold-broadcast-volleyball-2.html",
+      "palette": [
+        "#273745",
+        "#101d2b",
+        "#f4f4f0",
+        "#ffffff",
+        "#ddc79f",
+        "#75818c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "9f03586ea0a4e78dee080d8980413a413db1182d7b7d8d549b3354e0c09fff8a",
+      "styleGuide": {
+        "geometry": "Conventional aligned two-row compact scorebug or equal-lane horizontal lower-third with a full-width muted-gold sport header, fixed deep-navy primary cells, flexible slate-blue name lanes and a matching muted-gold counter footer; roomy62px rows",
+        "professionalFinish": "Static credible broadcast overlay with complete solid white score numerals, conventional aligned flexible names/fixed data tracks, high contrast and neatly grouped supporting counters; no animation dependency.",
+        "surface": "Flat slate-blue name lanes, deep navy same-color primary score cells with white digits, unboxed off-white supporting counts, continuous pale-gold header/footer with dark navy text, thin cool-gray1px dividers, square zero-radius edges; no gradients, metal texture, icons, history or shadow",
+        "typography": "Upright semibold mixed-case Arial names22px, complete solid white bold Arial tabular primary numerals34px, unboxed off-white secondary counts21px and compact12px metadata; no glyph scaling"
+      },
+      "styleID": "stone-gold-broadcast",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "stone-gold-broadcast",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Stone Gold Broadcast — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "stone-gold-broadcast-volleyball-2.html",
+      "contentHash": "69bc0019972ec11e8d2127b3530b267ce33fefde649a6dc5eef98e4e71386c6d",
+      "documentPath": "published/69bc0019972ec11e8d2127b3530b267ce33fefde649a6dc5eef98e4e71386c6d.json"
     },
     {
       "aliases": [],
