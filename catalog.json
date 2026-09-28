@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "ef31cdcdf585f5e684ccb1fe0f145c8d2b87555db89dc2e529b3b5ddcb3673e7",
+  "revision": "ccc6c5d7bdc6a17e5d8d5ab443d863a85b2680550c94a1d5b4afc69c512370da",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -3388,6 +3388,664 @@
       "fileName": "charcoal-ivory-open-score-volleyball-2.html",
       "contentHash": "9d137e9fd38ab14ae762175883ab26e5a560e7a8e5dff04e51555e2796ced0bc",
       "documentPath": "published/9d137e9fd38ab14ae762175883ab26e5a560e7a8e5dff04e51555e2796ced0bc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-baseball-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-baseball-1.html",
+      "contentHash": "60f5233fc4969c0ee92452e18b34ea99e686ce120e772727b6ef5e2afc39279f",
+      "documentPath": "published/60f5233fc4969c0ee92452e18b34ea99e686ce120e772727b6ef5e2afc39279f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-baseball-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-baseball-2.html",
+      "contentHash": "f7ec407802ca79f890386c8a5335203786b63aacefe83287e78f0c746210925b",
+      "documentPath": "published/f7ec407802ca79f890386c8a5335203786b63aacefe83287e78f0c746210925b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-basketball-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-basketball-1.html",
+      "contentHash": "80d5f2a82ca6747a5b5ddd74a79d1999fe278927451c7d7a47ae97035ab79a3b",
+      "documentPath": "published/80d5f2a82ca6747a5b5ddd74a79d1999fe278927451c7d7a47ae97035ab79a3b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-basketball-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-basketball-2.html",
+      "contentHash": "57b4c33383063d3be7f54e00fee886266496bc24bc6d556ad6d0ec8ae204903f",
+      "documentPath": "published/57b4c33383063d3be7f54e00fee886266496bc24bc6d556ad6d0ec8ae204903f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-pickleball-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-pickleball-1.html",
+      "contentHash": "c21bb5c32b7da0754681637c0a33b8bc3ffde3caf3336e1bf03fbfb09f327eb5",
+      "documentPath": "published/c21bb5c32b7da0754681637c0a33b8bc3ffde3caf3336e1bf03fbfb09f327eb5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-pickleball-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-pickleball-2.html",
+      "contentHash": "928fa05d845b5087dcff14282e9f9ad7f69f2e1bb553601efc09b9b6b46fd964",
+      "documentPath": "published/928fa05d845b5087dcff14282e9f9ad7f69f2e1bb553601efc09b9b6b46fd964.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-soccer-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-soccer-1.html",
+      "contentHash": "b0aab715394b399ca5a6818a18e1b6417becbef9844900330ed6b4621f23e512",
+      "documentPath": "published/b0aab715394b399ca5a6818a18e1b6417becbef9844900330ed6b4621f23e512.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-soccer-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-soccer-2.html",
+      "contentHash": "23ae6a5b9e9b40a84d39bc5ac9121b791a3e04932dd4dba91e8f4394553cab81",
+      "documentPath": "published/23ae6a5b9e9b40a84d39bc5ac9121b791a3e04932dd4dba91e8f4394553cab81.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-softball-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-softball-1.html",
+      "contentHash": "e81bd3bfc48f9c64026d957fe6a699560d406fd513ee26ccf2d67234e0fef79f",
+      "documentPath": "published/e81bd3bfc48f9c64026d957fe6a699560d406fd513ee26ccf2d67234e0fef79f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-softball-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-softball-2.html",
+      "contentHash": "bd2305572359bfa7e8f420004f589af51c9da285fb80ac3d3f7e2f7f490d27df",
+      "documentPath": "published/bd2305572359bfa7e8f420004f589af51c9da285fb80ac3d3f7e2f7f490d27df.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-table-tennis-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-table-tennis-1.html",
+      "contentHash": "ec610e8b9ef38f8ee7ae3260325e92c8e2ac4b39a73bb0225d312cac9f0cf87f",
+      "documentPath": "published/ec610e8b9ef38f8ee7ae3260325e92c8e2ac4b39a73bb0225d312cac9f0cf87f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-table-tennis-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-table-tennis-2.html",
+      "contentHash": "dd9e1ab28f5bd85f11777eea4fa151b1b6ad9367fdcf9087f69784ccfa6983b2",
+      "documentPath": "published/dd9e1ab28f5bd85f11777eea4fa151b1b6ad9367fdcf9087f69784ccfa6983b2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-two-row-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Two aligned competitor rows use stable fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-volleyball-1.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-outline-sidecar-volleyball-1.html",
+      "contentHash": "6d059908ab050b6ba8d953c171c92372bbf6415726d3f1ead6781de75c4c562f",
+      "documentPath": "published/6d059908ab050b6ba8d953c171c92372bbf6415726d3f1ead6781de75c4c562f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-two-lane-sidecar",
+      "description": "Professional static broadcast scoreboard with a charcoal competitor body, same-fill score windows outlined by pale hairlines, complete solid white numerals, upright inset sport tag and a distinct pale right information dock. Horizontal lower-third places both competitors in one balanced row with fixed score tracks. Rebuilt as selectable editable HTML/CSS. Live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters are editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Practical separate right-hand information dock and hairline score-window keylines; independent narrow live competitor-color ticks, no decorative hardware, motion, photos, gradients or shadows",
+      "output": "html-replications/charcoal-outline-sidecar-volleyball-2.html",
+      "palette": [
+        "#20272c",
+        "#f2f3ee",
+        "#dce3e2",
+        "#304047",
+        "#a8b8bc",
+        "#7e958f",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ea3f9eb9f7cb39ecde485cbca7a4f0733a32fac0601d2f88298ff3c637d547fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or balanced horizontal two-lane lower-third; flexible dark name lanes, fixed same-dark primary score windows with plain pale hairline outlines, and a separate rectangular pale information dock at RIGHT; 54px row rhythm",
+        "professionalFinish": "Static polished sports-broadcast board with complete solid numerals, flexible names, fixed outlined tracks and readable practical sidecar counters",
+        "surface": "Flat continuous charcoal competitor body; primary score windows have the SAME charcoal fill as names, a restrained 1px pale outline and solid white digits, never hollow or dotted glyphs; compact inset pale sport tag at upper-left rather than a full-width header; separate flat pale dock at right holds aligned counters with dark ink and muted rules, no bottom footer; 2px outer corners",
+        "typography": "Upright semibold Arial mixed-case white competitor names 23px, complete solid bold white tabular primary numerals 34px, concise 10px uppercase dark information labels and 20px supporting values"
+      },
+      "styleID": "charcoal-outline-sidecar",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-outline-sidecar",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Outline Sidecar — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-outline-sidecar-volleyball-2.html",
+      "contentHash": "5be7146831dda42065806abc1ee1050d76381f9a4be5dae7cec283f3fcb9dcb4",
+      "documentPath": "published/5be7146831dda42065806abc1ee1050d76381f9a4be5dae7cec283f3fcb9dcb4.json"
     },
     {
       "aliases": [],

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pickleball — Charcoal Outline Sidecar Scorebug</title><style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center}
+.board{--ink:#20272c;--pale:#f2f3ee;--line:#a8b8bc;position:relative;width:min(52vw,1080px);min-width:0;container-type:inline-size}
+.sport-tag{position:absolute;left:0;bottom:100%;display:flex;align-items:center;justify-content:center;min-width:25%;height:4.4cqw;min-height:31px;padding:0 2cqw;background:var(--pale);color:#263239;font-size:3.05cqw;line-height:1;font-weight:700;white-space:nowrap}
+.surface{display:flex;align-items:stretch;min-width:0;border:1px solid var(--line);border-radius:2px;background:var(--ink);overflow:hidden}
+.rows{display:flex;flex:1 1 auto;min-width:0;flex-direction:column}
+.row{display:flex;flex:1 1 50%;min-width:0;min-height:clamp(72px,6.8vw,132px);align-items:center;padding:0 1.3cqw;background:var(--ink);color:#fff}
+.row+.row{border-top:1px solid #829197}
+.identity{display:block;flex:0 0 1.4cqw;width:1.4cqw;height:70%;min-width:5px;background:#168fdb}
+.jerseyColorB{background:#32db4b}
+.name-lane{display:flex;flex:1 1 auto;min-width:0;align-items:center;gap:1cqw;padding:0 3cqw}
+.name{display:block;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:5.2cqw;line-height:1.06;font-weight:700}
+.combinedAName:empty::before{content:"Player A"}.combinedBName:empty::before{content:"Player B"}
+.serve{display:block;flex:0 0 .72cqw;width:.72cqw;height:.72cqw;min-width:6px;min-height:6px;border-radius:50%;background:#f2f3ee}
+.score-window{display:flex;flex:0 0 18.4cqw;width:18.4cqw;height:84%;align-items:center;justify-content:center;border:1px solid #c7d0d1;background:var(--ink)}
+.score{display:block;max-width:100%;overflow:hidden;white-space:nowrap;text-align:center;font-size:7.15cqw;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;color:#fff}
+.dock{display:flex;flex:0 0 16.6%;min-width:0;flex-direction:column;align-items:stretch;position:relative;background:var(--pale);color:#304047}
+.dock-title{position:absolute;top:6%;left:0;right:0;text-align:center;font-size:2.5cqw;line-height:1;font-weight:700}
+.dock-cell{display:flex;flex:1 1 50%;min-height:0;align-items:center;justify-content:center}
+.dock-cell.first{padding-top:2.5cqw}
+.dock-cell+.dock-cell{border-top:1px solid #a7b3b6}
+.match-score{display:block;max-width:100%;font-size:4.4cqw;line-height:1;font-weight:700;font-variant-numeric:tabular-nums}
+.point-slot{position:absolute;right:0;bottom:100%;width:150px;height:19px;color:#fff;text-align:center;font-size:10px;font-weight:700}
+.point-state{position:absolute;inset:0;display:block;background:var(--ink);padding:3px 4px}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:600px){.board{width:94vw}.sport-tag{min-width:125px;height:30px;font-size:14px;padding:0 7px}.row{min-height:72px;padding:0 7px}.identity{flex-basis:5px;width:5px}.name-lane{gap:4px;padding:0 9px}.name{font-size:18px}.serve{flex-basis:6px;width:6px;height:6px}.score-window{flex-basis:57px;width:57px;height:58px}.score{font-size:39px}.dock{flex-basis:72px}.dock-title{top:8px;font-size:10px}.dock-cell.first{padding-top:15px}.match-score{font-size:24px}.point-slot{height:16px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body><main class="stage"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="sport-tag">PICKLEBALL</div><div class="surface rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><div class="rows columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="name-lane"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true"></span></div><div class="score-window"><span class="score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div></div><div class="row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="name-lane"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;"></span></div><div class="score-window"><span class="score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div></div></div><aside class="dock columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="dock-title">GAMES</span><div class="dock-cell first"><span class="match-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div><div class="dock-cell"><span class="match-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></aside></div><div class="point-slot"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></article></main></body></html>
