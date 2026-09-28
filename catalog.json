@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "3fb1a99255cbd710d7d79afe193d7c1f655c40eaed64fcab77e2f073a7b549f1",
+  "revision": "3ddc32e0dd11788252e15803fd953482e24addb77785e19f60a31b4732bf0b5d",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -2744,6 +2744,650 @@
       "fileName": "carbon-copy-ticket-volleyball-2.html",
       "contentHash": "9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72",
       "documentPath": "published/9b429c175e043e19d8c19ca4865a1ac0ad8e06fc73bde851e3dd93bd6c3e0d72.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-baseball-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-baseball-1.html",
+      "contentHash": "11f9ae45b4375af2a2187c756a13fb8b314cc0c0205e0d79849b06100ec1421e",
+      "documentPath": "published/11f9ae45b4375af2a2187c756a13fb8b314cc0c0205e0d79849b06100ec1421e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-baseball-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-baseball-2.html",
+      "contentHash": "83ee25e182c9118296670c22be8adb6acd62462aef8b0d042c1ed519e40e6fe6",
+      "documentPath": "published/83ee25e182c9118296670c22be8adb6acd62462aef8b0d042c1ed519e40e6fe6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-basketball-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-basketball-1.html",
+      "contentHash": "4897056374aa260c0f47a2025c9c2502682570925e0b969d6914218996e91736",
+      "documentPath": "published/4897056374aa260c0f47a2025c9c2502682570925e0b969d6914218996e91736.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-basketball-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-basketball-2.html",
+      "contentHash": "23a8ebaeda79b4ec9a71b20dd91b1b4e2ae3b1333f76632f02641a16aef4fdcc",
+      "documentPath": "published/23a8ebaeda79b4ec9a71b20dd91b1b4e2ae3b1333f76632f02641a16aef4fdcc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Native pickleball bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-pickleball-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-pickleball-1.html",
+      "contentHash": "e706672cca80bb98d361e2d7f04dadd3ea19ff63bf9277af48bae13c7d2943df",
+      "documentPath": "published/e706672cca80bb98d361e2d7f04dadd3ea19ff63bf9277af48bae13c7d2943df.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Native pickleball bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-pickleball-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-pickleball-2.html",
+      "contentHash": "8af275f6280d51046c6a5ffb3d06effb7a0466997978622bdf91bae00fb18975",
+      "documentPath": "published/8af275f6280d51046c6a5ffb3d06effb7a0466997978622bdf91bae00fb18975.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-soccer-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-soccer-1.html",
+      "contentHash": "534d24894f434cc33c9b1f3945d6da2497ded2b3d5373dfb63693bf1a93584d5",
+      "documentPath": "published/534d24894f434cc33c9b1f3945d6da2497ded2b3d5373dfb63693bf1a93584d5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-soccer-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-soccer-2.html",
+      "contentHash": "9a206d335882edef50e22ee2c6034ce0d8f0b4fcd5e31f9cb3631e553ad6799a",
+      "documentPath": "published/9a206d335882edef50e22ee2c6034ce0d8f0b4fcd5e31f9cb3631e553ad6799a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-softball-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-softball-1.html",
+      "contentHash": "c6908acfd0d52c69ae506e30db88e1f0361402b89fe64550fd9ec0c230931748",
+      "documentPath": "published/c6908acfd0d52c69ae506e30db88e1f0361402b89fe64550fd9ec0c230931748.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-softball-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-softball-2.html",
+      "contentHash": "1b7d67a1029e4351fd20fac0e346331990a896919da764586c0d80a949b0b334",
+      "documentPath": "published/1b7d67a1029e4351fd20fac0e346331990a896919da764586c0d80a949b0b334.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Native table tennis bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-table-tennis-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-table-tennis-1.html",
+      "contentHash": "b86e8ccd548276b698adc82e45b738161c210b8612c3f06b9114cf08871bbe39",
+      "documentPath": "published/b86e8ccd548276b698adc82e45b738161c210b8612c3f06b9114cf08871bbe39.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Native table tennis bindings include separate serving indicators and neutral game/match-point states in reserved stable slots, without decorative animation.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-table-tennis-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-table-tennis-2.html",
+      "contentHash": "588629ee32816464c15fe623a512f623358223277759f2cb0f9b2b9efbb18f40",
+      "documentPath": "published/588629ee32816464c15fe623a512f623358223277759f2cb0f9b2b9efbb18f40.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-score-first",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Compact paired rows put each current score before its name. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-volleyball-1.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "charcoal-ivory-open-score-volleyball-1.html",
+      "contentHash": "01cf9a0ad3a64d2b178688d697567d8f5d78b902031fc2a04eb41ec9dc514ae6",
+      "documentPath": "published/01cf9a0ad3a64d2b178688d697567d8f5d78b902031fc2a04eb41ec9dc514ae6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-center-paired-scores",
+      "description": "Professional static broadcast scoreboard with flexible competitor names and fixed unboxed solid white current scores on one continuous charcoal surface, slim ivory sport header, practical attached ivory counter footer where needed, and restrained moss/bronze rules. Balanced horizontal lower-third pairs the two current scores at the center between outer competitor names. Rebuilt as selectable editable HTML/CSS; flat fills and local font contours approximate the generated reference while preserving hierarchy and score geometry. Competitor-color identity ticks update independently. Generic/manual scoring uses live competitor names and current scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Quiet center-paired scores in horizontal layout and open score-first tracks in compact rows; thin live competitor-color ticks stay independent from moss/bronze house rules, no icons/history/texture/motion",
+      "output": "html-replications/charcoal-ivory-open-score-volleyball-2.html",
+      "palette": [
+        "#232c2b",
+        "#f6f7f2",
+        "#e9e6da",
+        "#718779",
+        "#ab9470",
+        "#53615c"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "91b7c9b7922b4197aa4b55810c92b2373671e2fe72c40b6c0a0e98eb2573cfe5",
+      "styleGuide": {
+        "geometry": "Conventional compact aligned two-row scorebug with fixed unboxed primary score track BEFORE each flexible name lane, or balanced horizontal lower-third with two adjacent unboxed primary scores at the CENTER between outer flexible name lanes; 48px row rhythm",
+        "professionalFinish": "Static coherent broadcast board with solid complete unboxed numerals, stable score tracks, flexible names and neatly grouped static counters",
+        "surface": "One continuous flat charcoal body for BOTH names and fixed score tracks, with no filled score cells or contrasting numeric tiles; narrow continuous ivory sport header and attached ivory stat footer with dark ink text, 1px moss/bronze dividers, modest 2px outer corners; solid white scores and names on charcoal",
+        "typography": "Upright semibold Arial mixed-case names 22px, complete solid bold white tabular primary numerals 32px, unboxed pale secondary counts 19px, compact uppercase ivory-band captions 11px"
+      },
+      "styleID": "charcoal-ivory-open-score",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "charcoal-ivory-open-score",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Charcoal Ivory Open Score — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "charcoal-ivory-open-score-volleyball-2.html",
+      "contentHash": "9d137e9fd38ab14ae762175883ab26e5a560e7a8e5dff04e51555e2796ced0bc",
+      "documentPath": "published/9d137e9fd38ab14ae762175883ab26e5a560e7a8e5dff04e51555e2796ced0bc.json"
     },
     {
       "aliases": [],

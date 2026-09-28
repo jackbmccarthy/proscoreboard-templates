@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charcoal Ivory Open Score Volleyball — Center Paired</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; margin: 0; background: transparent; }
+    body { font-family: Arial, Helvetica, sans-serif; }
+    .stage { display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 12px; }
+    .board { display: flex; flex-direction: column; width: min(88vw, 1800px); max-width: 100%; background: transparent; color: #f6f7f2; container-type: inline-size; }
+    .header { display: flex; align-items: center; justify-content: center; height: 2.8cqw; min-height: 27px; border: 2px solid #718779; border-bottom: 0; border-radius: 6px 6px 0 0; background: #e9e6da; color: #232c2b; }
+    .sport { min-width: 0; overflow: hidden; font-size: 2.35cqw; font-weight: 800; line-height: 1; text-overflow: ellipsis; white-space: nowrap; }
+    .teams { display: flex; min-width: 0; height: 9.8cqw; min-height: 74px; border: 2px solid #53615c; border-radius: 0 0 6px 6px; background: #232c2b; }
+    .team { display: flex; align-items: center; flex: 1 1 50%; min-width: 0; background: #232c2b; }
+    .team-a { padding-left: 1.8%; }
+    .team-b { padding-right: 1.8%; }
+    .tick { display: block; flex: 0 0 1.7%; align-self: center; height: 57%; background: #718779; }
+    .jerseyColorB { background: #ab9470; }
+    .name { display: block; flex: 1 1 0; min-width: 0; overflow: hidden; color: #f6f7f2; font-size: 3.7cqw; font-weight: 700; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
+    .combinedAName { padding-left: 2.4cqw; }
+    .combinedBName { padding-right: 2.4cqw; text-align: right; }
+    .combinedAName:empty::before { content: "Team A"; }
+    .combinedBName:empty::before { content: "Team B"; }
+    .number-group { display: flex; flex-direction: column; align-items: center; justify-content: center; flex: none; min-width: 0; white-space: nowrap; }
+    .sets-group { width: 13%; }
+    .number-label { color: #e9e6da; font-size: 1.7cqw; font-weight: 700; line-height: 1; }
+    .sets-score { color: #f6f7f2; font-size: 3.1cqw; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+    .points-score { display: flex; align-items: center; justify-content: center; flex: 0 0 18%; width: 18%; color: #f6f7f2; font-size: 6.5cqw; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; white-space: nowrap; }
+    .team-b .points-score { border-left: .35cqw solid #718779; }
+    .footer-row { display: flex; justify-content: center; min-width: 0; }
+    .footer { display: flex; align-items: center; justify-content: center; width: 35%; height: 3.5cqw; min-height: 34px; border: 2px solid #718779; border-top: 0; border-radius: 0 0 12px 12px; background: #e9e6da; color: #232c2b; }
+    .footer-rule { display: block; flex: 1 1 0; height: .18cqw; margin: 0 4%; background: #718779; }
+    .set-group { display: flex; align-items: baseline; gap: .55cqw; white-space: nowrap; }
+    .set-label, .set-value { font-size: 2.3cqw; font-weight: 800; line-height: 1; }
+    .set-value { font-variant-numeric: tabular-nums; }
+    .point-slot { display: none; }
+    .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint,
+    .point-slot:has(> .isMatchPoint[style*="opacity:1"]) > .isGamePoint { opacity: 0 !important; }
+    @media (max-width: 600px) {
+      .board { width: 100%; }
+      .header { height: 28px; }
+      .sport { font-size: 15px; }
+      .teams { height: 78px; }
+      .team-a { padding-left: 1%; }
+      .team-b { padding-right: 1%; }
+      .tick { flex-basis: 4px; height: 49px; }
+      .name { font-size: clamp(12px, 3.6vw, 16px); }
+      .combinedAName { padding-left: 6px; }
+      .combinedBName { padding-right: 6px; }
+      .sets-group { width: 15%; }
+      .number-label { font-size: 8px; }
+      .sets-score { font-size: 20px; }
+      .points-score { flex-basis: 23%; width: 23%; font-size: 32px; }
+      .team-b .points-score { border-left-width: 2px; }
+      .footer { width: 51%; height: 34px; }
+      .footer-rule { height: 2px; }
+      .set-group { gap: 3px; }
+      .set-label, .set-value { font-size: 17px; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="stage" data-osb-component="layout">
+    <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+      <header class="header rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="sport" data-osb-component="text">VOLLEYBALL</span></header>
+      <div class="teams rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <div class="team team-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+          <span class="tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span>
+          <span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span>
+          <div class="number-group sets-group columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="number-label" data-osb-component="text">SETS</span><span class="sets-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div>
+          <span class="points-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span>
+        </div>
+        <div class="team team-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+          <span class="points-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span>
+          <div class="number-group sets-group columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="number-label" data-osb-component="text">SETS</span><span class="sets-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div>
+          <span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span>
+          <span class="tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span>
+        </div>
+      </div>
+      <div class="footer-row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><footer class="footer rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="footer-rule" data-osb-component="decoration"></span><div class="set-group rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="set-label" data-osb-component="text">SET</span><span class="set-value" data-osb-component="text" data-osb-static="true" data-sport-stat="set">0</span></div><span class="footer-rule" data-osb-component="decoration"></span></footer></div>
+      <div class="point-slot" data-osb-component="layout"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+    </article>
+  </main>
+</body>
+</html>
