@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Table Tennis — Sage Slate Data Console Lower Third</title><style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center}
+.board{--slate:#1d3034;--pale:#e8eeec;--sage:#5b7971;--line:#a5bab6;--ink:#102126;position:relative;display:flex;align-items:stretch;width:min(88vw,1800px);height:auto;aspect-ratio:12 / 1;min-width:0;border:2px solid var(--line);background:var(--pale);overflow:visible;container-type:inline-size}
+.console{display:flex;flex:0 0 18%;min-width:0;flex-direction:column;justify-content:space-between;padding:.6cqw 1.2cqw;background:var(--slate);color:#f1f4f0}
+.sport-tag{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:1.5cqw;line-height:1.1;font-weight:700;letter-spacing:.01em}
+.console-rule{height:1px;flex:0 0 1px;margin:.45cqw 0 .25cqw;background:#a8bfbc}
+.games-label{display:block;text-align:left;color:#b7cbc8;font-size:1.2cqw;line-height:1.1;font-weight:700;letter-spacing:.06em}
+.games-values{display:flex;align-items:center;justify-content:flex-start;gap:1.5cqw;font-size:2cqw;line-height:1.05;font-weight:700;font-variant-numeric:tabular-nums}
+.match-score{display:block;min-width:1ch;text-align:center}
+.competitors{display:flex;flex:1 1 auto;min-width:0;;background:var(--pale)}
+.side{display:flex;flex:1 1 50%;min-width:0;min-height:0;align-items:stretch}
+.side+.side{border-left:2px solid var(--line)}
+.identity-wrap{display:flex;flex:0 0 3.0cqw;align-items:center;justify-content:center;min-width:0}
+.identity{display:block;width:1.1cqw;height:67%;background:var(--sage)}
+.jerseyColorB{background:var(--sage)}
+.name-lane{display:flex;flex:1 1 auto;min-width:0;align-items:center;gap:1cqw;padding:0 0.6cqw;color:var(--ink)}
+.name{display:block;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:3.45cqw;line-height:1.1;font-weight:700}
+.combinedAName:empty::before{content:"Player A"}.combinedBName:empty::before{content:"Player B"}
+.serve{display:block;flex:0 0 .7cqw;width:.7cqw;height:.7cqw;min-width:6px;min-height:6px;border-radius:50%;background:var(--sage)}
+.score-terminal{display:flex;flex:0 0 20%;min-width:0;flex-direction:column;align-items:center;justify-content:center;background:var(--sage);color:#fff}
+.points-label{display:block;font-size:1.35cqw;line-height:1.1;font-weight:700;color:#e0e9e5;letter-spacing:.04em}
+.score{display:block;max-width:100%;overflow:hidden;white-space:nowrap;text-align:center;font-size:4.8cqw;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;color:#fff}
+.point-slot{position:absolute;left:0;bottom:100%;width:160px;height:18px;color:#fff;text-align:center;font-size:10px;font-weight:700}
+.point-state{position:absolute;inset:0;display:block;padding:3px 4px;background:var(--slate)}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:600px){
+.board{width:96vw;height:74px}
+.console{flex-basis:20%;padding:5px}
+.sport-tag{font-size:8px}
+.console-rule{margin:4px 0 3px}
+.games-label{font-size:8px}
+.games-values{gap:6px;font-size:14px}
+.identity-wrap{flex-basis:9px}
+.identity{width:5px;height:70%}
+.name-lane{gap:2px;padding:0 2px}
+.name{font-size:13px}
+.serve{flex-basis:5px;width:5px;height:5px;min-width:5px;min-height:5px}
+.score-terminal{flex-basis:43px}
+.score{font-size:26px}
+.points-label{font-size:8px}
+.point-slot{height:16px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body><main class="stage"><article class="board rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><aside class="console columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="sport-tag">TABLE TENNIS</span><span class="console-rule"></span><span class="games-label">GAMES</span><div class="games-values"><span class="match-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="match-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></aside><div class="competitors rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><section class="side rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity-wrap"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span></span><div class="name-lane"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true"></span></div><div class="score-terminal"><span class="points-label">POINTS</span><span class="score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div></section><section class="side rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity-wrap"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span><div class="name-lane"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;"></span></div><div class="score-terminal"><span class="points-label">POINTS</span><span class="score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div></section></div><div class="point-slot"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></article></main></body></html>

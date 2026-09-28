@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "05bad4c94d76075c1110730a41f1d96ccdf488fd9f9d8955556ba2005dbe5506",
+  "revision": "b22f297b2f8a4ac03fe5e424dd10dc9e71c4a6185beeb7c2d4f1717c421242e1",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -18170,6 +18170,664 @@
       "fileName": "ref-145-horizon-courtline-teal-orange.html",
       "contentHash": "6014a91d8ccd13b850b91b3f056c3ffb0b9c35709cb5a7df0dbe7e2a82ffd301",
       "documentPath": "published/6014a91d8ccd13b850b91b3f056c3ffb0b9c35709cb5a7df0dbe7e2a82ffd301.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-baseball-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-baseball-1.html",
+      "contentHash": "f57c1f36f9a1aca6ceeab9c272e381f66e6003738d12981a268273e2fb8b406b",
+      "documentPath": "published/f57c1f36f9a1aca6ceeab9c272e381f66e6003738d12981a268273e2fb8b406b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-baseball-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-baseball-2.html",
+      "contentHash": "4a226ef542fb13f6909fc6e421b296f0123faf4cacd17bdca1f2c8d6011a7a64",
+      "documentPath": "published/4a226ef542fb13f6909fc6e421b296f0123faf4cacd17bdca1f2c8d6011a7a64.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-basketball-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-basketball-1.html",
+      "contentHash": "89b41508ddd0ed44ddcf31150f5ff00e865d78e366c49f8b8c67ed3b77bfcb5e",
+      "documentPath": "published/89b41508ddd0ed44ddcf31150f5ff00e865d78e366c49f8b8c67ed3b77bfcb5e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-basketball-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-basketball-2.html",
+      "contentHash": "a2a4b9a544e4cd9ccfad901303fcf434836994ac650a29c78edf422ee2406928",
+      "documentPath": "published/a2a4b9a544e4cd9ccfad901303fcf434836994ac650a29c78edf422ee2406928.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-pickleball-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Sage Slate Data Console — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-pickleball-1.html",
+      "contentHash": "da62c0743070d21946abf6673d3b05c97276da41169b45938aac824c87b5700e",
+      "documentPath": "published/da62c0743070d21946abf6673d3b05c97276da41169b45938aac824c87b5700e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native pickleball bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-pickleball-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Sage Slate Data Console — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-pickleball-2.html",
+      "contentHash": "1988976b8639b4f35941a15fd99c5d3571da1af44a18ab2b89f280471f701943",
+      "documentPath": "published/1988976b8639b4f35941a15fd99c5d3571da1af44a18ab2b89f280471f701943.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-soccer-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-soccer-1.html",
+      "contentHash": "d5e7b1ff0a9ba996c82ba64f1627b76a02b29382c19e1af526c47fb58e8c5119",
+      "documentPath": "published/d5e7b1ff0a9ba996c82ba64f1627b76a02b29382c19e1af526c47fb58e8c5119.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-soccer-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-soccer-2.html",
+      "contentHash": "410531781bdfc455e7c8fd81b00de59ad911d76c585d4bf1eec268435227d378",
+      "documentPath": "published/410531781bdfc455e7c8fd81b00de59ad911d76c585d4bf1eec268435227d378.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-softball-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-softball-1.html",
+      "contentHash": "022c8ca690e849a3fc3e1d12b5915e3cf857181330db21048e95024ed86f2e4a",
+      "documentPath": "published/022c8ca690e849a3fc3e1d12b5915e3cf857181330db21048e95024ed86f2e4a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-softball-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-softball-2.html",
+      "contentHash": "b4b5e1e6422ca88623ce1a1b864e0ecc5a3a7794c337bba8ee9a6168a239bdb7",
+      "documentPath": "published/b4b5e1e6422ca88623ce1a1b864e0ecc5a3a7794c337bba8ee9a6168a239bdb7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-table-tennis-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Sage Slate Data Console — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-table-tennis-1.html",
+      "contentHash": "054fda26179d8cef4f3dfbd52ef80f1480fc1a31c6decaebf60b4149823871e0",
+      "documentPath": "published/054fda26179d8cef4f3dfbd52ef80f1480fc1a31c6decaebf60b4149823871e0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Native table tennis bindings include separate serving slots and neutral game/match-point states; match point takes precedence.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-table-tennis-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Sage Slate Data Console — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-table-tennis-2.html",
+      "contentHash": "e118718e1bb2faea528dc9f099eb92b23f3db4a0c904b241b14a483637491dce",
+      "documentPath": "published/e118718e1bb2faea528dc9f099eb92b23f3db4a0c904b241b14a483637491dce.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. Two aligned competitor rows use stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-volleyball-1.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "sage-slate-data-console-volleyball-1.html",
+      "contentHash": "2fbeed885b888e33d121a764425ea316af89c8550992a9cc50efca0d85e8ba3f",
+      "documentPath": "published/2fbeed885b888e33d121a764425ea316af89c8550992a9cc50efca0d85e8ba3f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-shared-left-console",
+      "description": "Professional static broadcast scoreboard with one shared dark-slate left sport-and-status console, pale flexible competitor lanes and separate muted-sage filled primary score cells with complete solid white numerals. A true horizontal lower-third places both competitors side by side with stable fixed score terminals. Rebuilt as selectable editable HTML/CSS; live competitor colors update narrow independent identity ticks. Generic/manual scoring uses live competitor names and current scores plus sets won; displayed game clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "A practical ONE shared left sport-plus-counter console, then flexible names and independent right-end score terminals; narrow live competitor-color ticks only, no decorative art or animation",
+      "output": "html-replications/sage-slate-data-console-volleyball-2.html",
+      "palette": [
+        "#26383d",
+        "#e8ebe5",
+        "#55766d",
+        "#ffffff",
+        "#b8c8c1",
+        "#829a91",
+        "#23343a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "adac743e82a5bb1a711626670fa186d6345c719f3f603189e2d602439b3eac26",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned competitor rows or true single-row horizontal lower-third; one shared attached dark-slate console at LEFT spans the board and groups the upright sport label with match-wide status, while each pale flexible competitor lane ends in its own equal fixed sage primary score cell; 54px row rhythm",
+        "professionalFinish": "Static polished broadcast scoreboard with clearly scoped match-wide information, complete solid score numerals, stable score terminals and generous live name lanes",
+        "surface": "Flat charcoal-slate LEFT information console, warm pale-fog competitor name lanes and identical muted-sage filled primary score cells with solid white digits; thin cool-sage separators and 3px corners; no full-width header, top numeric columnheads, attached bottom footer, detached dock, gradients or shadows",
+        "typography": "Upright bold Arial/Helvetica dark competitor names about 23px, complete solid bold WHITE tabular score numerals about 36px, quiet console labels 10px uppercase and zero values 19px"
+      },
+      "styleID": "sage-slate-data-console",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "sage-slate-data-console",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Sage Slate Data Console — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "sage-slate-data-console-volleyball-2.html",
+      "contentHash": "9458d3083558489cf4da97c9b6dff119da6654655be14881be2358145c78997e",
+      "documentPath": "published/9458d3083558489cf4da97c9b6dff119da6654655be14881be2358145c78997e.json"
     },
     {
       "aliases": [],
