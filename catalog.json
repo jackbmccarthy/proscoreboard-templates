@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "7d9c3d543e4f863df2ed2d44958008307343bb67e5aaadeae40dd6de30fcbf23",
+  "revision": "c118e384afe5eeaea228be367a35e43384293a1c7d78f8b3b8e5ff5ebe333cf5",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -13342,6 +13342,664 @@
       "fileName": "ivory-cobalt-line-volleyball-2.html",
       "contentHash": "fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62",
       "documentPath": "published/fee190fac5bd05d63275452f1b92da91ec1e346202fd5041a5302312fa630d62.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss hits supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-baseball-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-baseball-1.html",
+      "contentHash": "e6c856cb980a74020db5c3750932ece2a86dc9eb4db8fbb0c3b3fa54e1388675",
+      "documentPath": "published/e6c856cb980a74020db5c3750932ece2a86dc9eb4db8fbb0c3b3fa54e1388675.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss hits supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-baseball-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-baseball-2.html",
+      "contentHash": "88267a9922f27d98adf9fbf4b7fa97368d7792e07c72481d2928bec58da45335",
+      "documentPath": "published/88267a9922f27d98adf9fbf4b7fa97368d7792e07c72481d2928bec58da45335.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss fouls supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-basketball-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-basketball-1.html",
+      "contentHash": "6f59b0ab5336bb8a7ade0c50128e1611926cadddf70d434f96628d8b82e83cd6",
+      "documentPath": "published/6f59b0ab5336bb8a7ade0c50128e1611926cadddf70d434f96628d8b82e83cd6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss fouls supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-basketball-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-basketball-2.html",
+      "contentHash": "5b2cbbaadacd3e985e5d29b498a228496587119fac1362fe5494e553685238cb",
+      "documentPath": "published/5b2cbbaadacd3e985e5d29b498a228496587119fac1362fe5494e553685238cb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss games won supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-pickleball-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-pickleball-1.html",
+      "contentHash": "eaa6f09374920d09fe66e279934a7139880be33de6ef3ec6ece92ffad711eabe",
+      "documentPath": "published/eaa6f09374920d09fe66e279934a7139880be33de6ef3ec6ece92ffad711eabe.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss games won supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-pickleball-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-pickleball-2.html",
+      "contentHash": "bdff1ae5375139165975439aaa64461369750eba4b59f0adaa75fa64689f792b",
+      "documentPath": "published/bdff1ae5375139165975439aaa64461369750eba4b59f0adaa75fa64689f792b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss fouls supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-soccer-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-soccer-1.html",
+      "contentHash": "74da3cabcc87a7f234e9f9a1deb09aacc5d0c4593f4b0a6272048098a101efc8",
+      "documentPath": "published/74da3cabcc87a7f234e9f9a1deb09aacc5d0c4593f4b0a6272048098a101efc8.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss fouls supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-soccer-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-soccer-2.html",
+      "contentHash": "25843097a985136f6899649a64e6d685a469360694785f32eae227b6352aaff2",
+      "documentPath": "published/25843097a985136f6899649a64e6d685a469360694785f32eae227b6352aaff2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss hits supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-softball-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-softball-1.html",
+      "contentHash": "004e5415ad7125e20c2a7dee78cdb18d61fd72893f3e7a29427eb8311bbc29d2",
+      "documentPath": "published/004e5415ad7125e20c2a7dee78cdb18d61fd72893f3e7a29427eb8311bbc29d2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss hits supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-softball-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-softball-2.html",
+      "contentHash": "def91fddc2ff3214b50f3268da21d0f1e22fdb15c7bd2411c45ee975484432ee",
+      "documentPath": "published/def91fddc2ff3214b50f3268da21d0f1e22fdb15c7bd2411c45ee975484432ee.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss games won supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-table-tennis-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-table-tennis-1.html",
+      "contentHash": "1b4ef5c594cbbb8d3fc08210ab4db06490ff927d4399c1153a0ec076a4cee0ee",
+      "documentPath": "published/1b4ef5c594cbbb8d3fc08210ab4db06490ff927d4399c1153a0ec076a4cee0ee.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss games won supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-table-tennis-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-table-tennis-2.html",
+      "contentHash": "771e9b4e2fa0add5bcc50f938eefcf957488e333af5f57b75a09ba3278ff7b0b",
+      "documentPath": "published/771e9b4e2fa0add5bcc50f938eefcf957488e333af5f57b75a09ba3278ff7b0b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss sets won supporting cell at the FAR RIGHT. Two aligned competitor rows sit beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-volleyball-1.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "ivory-moss-scorefront-volleyball-1.html",
+      "contentHash": "097ddcc632013dd8542dc5ad30035f0c8a08b78f1dba3875443c02962df695ce",
+      "documentPath": "published/097ddcc632013dd8542dc5ad30035f0c8a08b78f1dba3875443c02962df695ce.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorefront",
+      "description": "Professional static broadcast scoreboard with a deep-indigo top sport/status header and continuous warm-ivory field for OPEN primary scores and flexible names. Each lane starts with a slim live identity-color tick, then one large complete solid dark primary zero BEFORE the name on the SAME ivory fill, a flexible dark name, and one small FILLED muted-moss sets won supporting cell at the FAR RIGHT. A true horizontal lower-third places both competitors side by side beneath the shallow dark sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open score-first reading path with a compact trailing supporting cell; no decorative art or motion.",
+      "output": "html-replications/ivory-moss-scorefront-volleyball-2.html",
+      "palette": [
+        "#f0eee8",
+        "#303f57",
+        "#d9e0d3",
+        "#273643",
+        "#fbfbf8",
+        "#2584a0",
+        "#c46a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "7ccfc9d2efd9ac9616b1825a2aedd7167c42fa35ce6cac9be7bdd9f794c0eb22",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 62px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width dark sport/status header sits ABOVE a continuous warm-ivory competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, one large fixed OPEN primary score track immediately BEFORE the flexible name, then one small fixed FILLED muted-moss supporting-count cell at the FAR RIGHT. Both lanes preserve the same order in either composition.",
+        "professionalFinish": "Static credible broadcast scorebug with complete solid numerals, fixed score tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-ivory #f0eee8 field across OPEN leading primary score tracks and flexible names; ONE pale muted-moss #d9e0d3 FILLED supporting cell at the FAR RIGHT of each competitor lane, after the name. Shallow full-width deep-indigo #303f57 top header carries sport and grouped static status. Primary numerals remain dark on the EXACT SAME ivory fill as names, without an outline or tile. Thin neutral rules, 2px corners; no bottom dock, gradients, texture, shadows or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names around 24px; one complete solid bold dark 42px tabular primary numeral on the ivory open field with 10px caption; compact 18px dark supporting zero with 10px uppercase label in the muted-moss cell; small white sport/status text in the dark header."
+      },
+      "styleID": "ivory-moss-scorefront",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "ivory-moss-scorefront",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Ivory Moss Scorefront — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "ivory-moss-scorefront-volleyball-2.html",
+      "contentHash": "aa4dbe24af643390e55049d7958ea465fc94032ffc9bfede7cde624fbc81c4be",
+      "documentPath": "published/aa4dbe24af643390e55049d7958ea465fc94032ffc9bfede7cde624fbc81c4be.json"
     },
     {
       "aliases": [],
