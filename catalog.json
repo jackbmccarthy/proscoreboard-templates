@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2172c0238ac7ce89593e0fd5707a0b3ab080719213f8121195032b7e6f09c624",
+  "revision": "d9ed996aaec180aa833247f78ff1c79946cb0420804ebcd678f7ed87bbe5a882",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -37188,6 +37188,664 @@
       "fileName": "sport-volleyball-sets.html",
       "contentHash": "48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2",
       "documentPath": "published/48d0b87e88d169fb1f0dd0b56fa306485a09b545f43d5cc64b550d9a4e3f01a2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN hits supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-baseball-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-baseball-1.html",
+      "contentHash": "6758e03b0022bb9efdb66fc434f09b95e635dd96982a430c62210056316fac6b",
+      "documentPath": "published/6758e03b0022bb9efdb66fc434f09b95e635dd96982a430c62210056316fac6b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN hits supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-baseball-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-baseball-2.html",
+      "contentHash": "077e3eb64365eeb500c1da0f58ba2a1336f40f943bf23eb16ba72ca204d65810",
+      "documentPath": "published/077e3eb64365eeb500c1da0f58ba2a1336f40f943bf23eb16ba72ca204d65810.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN fouls supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-basketball-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-basketball-1.html",
+      "contentHash": "29b850e78b928170872eca05592d0b04b182ef64faaf9b522a5080d035ac2b51",
+      "documentPath": "published/29b850e78b928170872eca05592d0b04b182ef64faaf9b522a5080d035ac2b51.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN fouls supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-basketball-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-basketball-2.html",
+      "contentHash": "6f31b57264014936d25d57309a1ea30024eedd4cdab792d95afcbbea6814032e",
+      "documentPath": "published/6f31b57264014936d25d57309a1ea30024eedd4cdab792d95afcbbea6814032e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN games won supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-pickleball-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-pickleball-1.html",
+      "contentHash": "515cafaec267566bbaa3f463a2eb75cf97aad9e5a27c3daa30b181a64bb49a69",
+      "documentPath": "published/515cafaec267566bbaa3f463a2eb75cf97aad9e5a27c3daa30b181a64bb49a69.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN games won supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-pickleball-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-pickleball-2.html",
+      "contentHash": "ced7705e586424308fc2e279f48f2866c60aec64b15ad3385f5fc1aa8e52ae78",
+      "documentPath": "published/ced7705e586424308fc2e279f48f2866c60aec64b15ad3385f5fc1aa8e52ae78.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN fouls supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-soccer-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-soccer-1.html",
+      "contentHash": "7363ca552bf2641a41a7b7cc1cdda9a95bcde5f6adc36357a3eeaec30b473ac3",
+      "documentPath": "published/7363ca552bf2641a41a7b7cc1cdda9a95bcde5f6adc36357a3eeaec30b473ac3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN fouls supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-soccer-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-soccer-2.html",
+      "contentHash": "7f22cd0f5d3cf2b07a3e10180486f0f2286d0b121705af10e683afb310b54c13",
+      "documentPath": "published/7f22cd0f5d3cf2b07a3e10180486f0f2286d0b121705af10e683afb310b54c13.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN hits supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-softball-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-softball-1.html",
+      "contentHash": "6086936dc51bbfddb4f67bf00559f7e0a82042f548500e8d4a2593d65a510765",
+      "documentPath": "published/6086936dc51bbfddb4f67bf00559f7e0a82042f548500e8d4a2593d65a510765.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN hits supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-softball-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-softball-2.html",
+      "contentHash": "9f950a28e457fe41c4953b91ce8f9416915c1fb87c9e2281015522d2f37920fd",
+      "documentPath": "published/9f950a28e457fe41c4953b91ce8f9416915c1fb87c9e2281015522d2f37920fd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN games won supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-table-tennis-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-table-tennis-1.html",
+      "contentHash": "ad847a914f6d46ab16cea0fcd1d03521f64fe5145149332436f5a802f10b848f",
+      "documentPath": "published/ad847a914f6d46ab16cea0fcd1d03521f64fe5145149332436f5a802f10b848f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN games won supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-table-tennis-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-table-tennis-2.html",
+      "contentHash": "2c42dae6bbf18a1a6f1ecd5d46c92a5d206a69fea7d3d1f21a0614b30c234f98",
+      "documentPath": "published/2c42dae6bbf18a1a6f1ecd5d46c92a5d206a69fea7d3d1f21a0614b30c234f98.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-spruce-leadnote-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN sets won supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-volleyball-1.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "spruce-pearl-leadnote-volleyball-1.html",
+      "contentHash": "16b5759ec39f575480ed8458a16e427402c91d269eded4940a89bc27e65f9681",
+      "documentPath": "published/16b5759ec39f575480ed8458a16e427402c91d269eded4940a89bc27e65f9681.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-spruce-leadnote-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-spruce competitor lanes and a full-width pale-pearl sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED pale-pearl PRIMARY scorecap with a complete solid dark zero at the LEADING side, then a flexible two-line white name area with a small OPEN sets won supporting count directly ABOVE the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale primary scorecap, open support-above-name lane and a restrained full-width pale bottom status strip.",
+      "output": "html-replications/spruce-pearl-leadnote-volleyball-2.html",
+      "palette": [
+        "#28443f",
+        "#e4e9e3",
+        "#f9fbf8",
+        "#a7bcb4",
+        "#60776e",
+        "#3185aa",
+        "#c96d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "470b04e64da897f642488b3664d73f9fe147df1935a96c94bb35af30edc7b119",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 74px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px pale sport/status strip. Each deep-spruce competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one fixed FILLED pale-pearl PRIMARY scorecap at the LEADING side occupying about 18–20% of the lane, then a wide flexible TWO-LINE supporting-eyebrow-and-name area. The supporting count is OPEN on the same spruce background in a small line ABOVE its own name, never a separate far-right track or tile. Both horizontal halves repeat this order without mirroring. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-spruce #28443f field holds flexible white names and OPEN supporting eyebrow counts on the EXACT SAME spruce fill; no support chip, separate rail or outline. One fixed pale-pearl #e4e9e3 FILLED primary scorecap with complete solid dark zero sits immediately after each live identity tick at the LEADING side BEFORE the name. A shallow pale-pearl sport/status strip spans the FULL width BELOW both rows, sport at left and grouped zero counters at right in dark spruce. Fine neutral row dividers and modest 4px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 26px on the second line; small 10px uppercase supporting label and complete solid white 17px tabular zero on the first line ABOVE the name; complete solid bold dark-spruce 46px tabular primary zero with concise dark caption inside each pearl scorecap; dark-spruce sport title near 14px and compact dark static counters near 11px in the pale bottom strip."
+      },
+      "styleID": "spruce-pearl-leadnote",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "spruce-pearl-leadnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Spruce Pearl Leadnote — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "spruce-pearl-leadnote-volleyball-2.html",
+      "contentHash": "641e3c5fc83b097cde3f5d06811545c25bd3fce3392abb3b5222177767dbb75b",
+      "documentPath": "published/641e3c5fc83b097cde3f5d06811545c25bd3fce3392abb3b5222177767dbb75b.json"
     },
     {
       "aliases": [],
