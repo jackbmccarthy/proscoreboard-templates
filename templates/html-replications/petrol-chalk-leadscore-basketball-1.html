@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basketball Petrol Chalk Scoreboard</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif;color:#f7f9f5}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:12px}
+.board{position:relative;container-type:inline-size;width:min(78vw,1512px);overflow:hidden;border:1px solid #4d6970;border-radius:3px;background:#18353f}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:4.1cqw;padding:0 1.8cqw;border-bottom:1px solid #a8bbb6;background:#18353f}
+.sport-tag{font-size:2.25cqw;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+.status{display:flex;align-items:center;justify-content:flex-end;min-width:0}
+.stat{display:flex;align-items:baseline;gap:.45em;padding:0 1.5cqw;font-size:1.55cqw;white-space:nowrap}
+.stat+.stat{border-left:1px solid #a8bbb6}.stat:last-child{padding-right:0}
+.stat-value{font-size:1.9cqw;font-weight:700;font-variant-numeric:tabular-nums}
+.lanes{display:flex;flex-direction:column}
+.lane{display:grid;grid-template-columns:2.6cqw 15.5cqw minmax(0,1fr) 8.6cqw;min-width:0;min-height:8.65cqw;background:#18353f}
+.lane+.lane{border-top:1px solid #a8bbb6}
+.tick{display:block;min-width:0;align-self:stretch;margin:.3cqw;background:#2786a5}.lane-b .tick{background:#c76a61}
+.primary{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:.25cqw;background:#e9eee8;color:#18353f}
+.primary-score{max-width:100%;font-size:6cqw;font-weight:800;line-height:.92;font-variant-numeric:tabular-nums;white-space:nowrap}
+.caption{font-size:1.5cqw;font-weight:700;line-height:1.05;white-space:nowrap}
+.name{display:block;align-self:center;min-width:0;overflow:hidden;margin:0;padding:0 2.7cqw;font-size:4.3cqw;font-weight:700;line-height:1.1;text-overflow:ellipsis;white-space:nowrap}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+.support{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:.25cqw;background:#18353f}
+.support-value{font-size:3.8cqw;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}.support .caption{color:#f7f9f5}
+.hidden-field,.point-slot{position:absolute!important;width:0!important;height:0!important;overflow:hidden!important;clip-path:inset(50%)}
+.point-slot>span{position:absolute;inset:0;opacity:0}.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint{opacity:0!important}
+@media(max-width:700px){.board{width:100%}.header{min-height:32px;padding:4px 7px}.sport-tag{font-size:12px}.stat{padding:0 5px;font-size:9px}.stat-value{font-size:11px}.lane{grid-template-columns:7px 66px minmax(0,1fr) 43px;min-height:68px}.tick{margin:3px 1px}.primary-score{font-size:32px}.caption{font-size:9px}.name{padding:0 9px;font-size:clamp(16px,5.4vw,28px)}.support-value{font-size:27px}}
+@media(max-width:450px){.header{flex-wrap:wrap;gap:2px}.status{width:100%;justify-content:space-between}.stat:first-child{padding-left:0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body><main class="stage" data-osb-component="layout"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Basketball scoreboard">
+<header class="header rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="sport-tag" data-osb-static="true">BASKETBALL</span><div class="status rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="stat"><span data-osb-static="true">CLOCK</span><span class="stat-value" data-osb-static="true" data-sport-stat="clock">00:00</span></span><span class="stat"><span data-osb-static="true">PERIOD</span><span class="stat-value" data-osb-static="true" data-sport-stat="period">0</span></span><span class="stat"><span data-osb-static="true">SHOT</span><span class="stat-value" data-osb-static="true" data-sport-stat="shotClock">00</span></span></div></header>
+<div class="lanes columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+<div class="lane lane-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="primary" data-osb-component="layout"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="caption" data-osb-static="true">POINTS</span></div><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="support" data-osb-component="layout"><span class="support-value" data-osb-static="true" data-sport-stat="foulsA">0</span><span class="caption" data-osb-static="true">FOULS</span></div><span class="hidden-field currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></div>
+<div class="lane lane-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="primary" data-osb-component="layout"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="caption" data-osb-static="true">POINTS</span></div><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="support" data-osb-component="layout"><span class="support-value" data-osb-static="true" data-sport-stat="foulsB">0</span><span class="caption" data-osb-static="true">FOULS</span></div><span class="hidden-field currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div>
+</div><div class="point-slot" data-osb-component="layout"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</article></main></body></html>

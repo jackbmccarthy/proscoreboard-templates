@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "4a613c9846ced9e62de607bf888aa7b29f22d050c2ac2091c49777534db3fb55",
+  "revision": "d7ada3473901bad8b1d34a9c5af48ac3d19c0bc6a26d1079639ed3ffe1305218",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -23016,6 +23016,664 @@
       "fileName": "pearl-slate-stat-lead-volleyball-2.html",
       "contentHash": "e649e80231104e5de80b638faf0fb136692286fc48c0af1467d174f25742a14c",
       "documentPath": "published/e649e80231104e5de80b638faf0fb136692286fc48c0af1467d174f25742a14c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white hits supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-baseball-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-baseball-1.html",
+      "contentHash": "d34e1ef0891ffe7c755b3be0ebd367bb581d7c2d0f3667456440c1cb0429d7cf",
+      "documentPath": "published/d34e1ef0891ffe7c755b3be0ebd367bb581d7c2d0f3667456440c1cb0429d7cf.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white hits supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-baseball-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-baseball-2.html",
+      "contentHash": "85f61f5e63b9252d6f40e50b87856da8a1d68f94195545b776c9fd0f1267016c",
+      "documentPath": "published/85f61f5e63b9252d6f40e50b87856da8a1d68f94195545b776c9fd0f1267016c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white fouls supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-basketball-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-basketball-1.html",
+      "contentHash": "eb6a90bcf36ffcb9fa24ca738c28de6f1787f15af4f90eff9a2153f3295bb160",
+      "documentPath": "published/eb6a90bcf36ffcb9fa24ca738c28de6f1787f15af4f90eff9a2153f3295bb160.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white fouls supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-basketball-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-basketball-2.html",
+      "contentHash": "2cc94aa6b905ef50787ae8bb14d7eca494005214af4b55e2c4d81ed707258060",
+      "documentPath": "published/2cc94aa6b905ef50787ae8bb14d7eca494005214af4b55e2c4d81ed707258060.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white games won supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-pickleball-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-pickleball-1.html",
+      "contentHash": "2b001fd860a72f512753b81a78c12348ec7a13a44cd4e4c09675f95bf28f47ec",
+      "documentPath": "published/2b001fd860a72f512753b81a78c12348ec7a13a44cd4e4c09675f95bf28f47ec.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white games won supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-pickleball-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-pickleball-2.html",
+      "contentHash": "4145f1314819762f87e4ababbecd17158e68896ae40237ca963301e013835f29",
+      "documentPath": "published/4145f1314819762f87e4ababbecd17158e68896ae40237ca963301e013835f29.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white fouls supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-soccer-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-soccer-1.html",
+      "contentHash": "5c9657e55b4149da0a7909e3a194b23c06c6a92e15e10fe56945b73ff1eca34e",
+      "documentPath": "published/5c9657e55b4149da0a7909e3a194b23c06c6a92e15e10fe56945b73ff1eca34e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white fouls supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-soccer-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-soccer-2.html",
+      "contentHash": "3f16f0caafa6127328fabb61b81e1a8fc68c4758fd7ed25fb2f5b525a75e5eea",
+      "documentPath": "published/3f16f0caafa6127328fabb61b81e1a8fc68c4758fd7ed25fb2f5b525a75e5eea.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white hits supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-softball-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-softball-1.html",
+      "contentHash": "c0ffe9698c49b3be7a391c7b1084f40f93d8462b7a11856c245de52ce6f61996",
+      "documentPath": "published/c0ffe9698c49b3be7a391c7b1084f40f93d8462b7a11856c245de52ce6f61996.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white hits supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-softball-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-softball-2.html",
+      "contentHash": "9d2a6a52e039a1170165b0170c472a745de5f27704ad77b6b1f336198454ff0f",
+      "documentPath": "published/9d2a6a52e039a1170165b0170c472a745de5f27704ad77b6b1f336198454ff0f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white games won supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-table-tennis-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-table-tennis-1.html",
+      "contentHash": "b3f4d3b3606c02c852b0214664f2b7353c60b80b3589622119683d259c271412",
+      "documentPath": "published/b3f4d3b3606c02c852b0214664f2b7353c60b80b3589622119683d259c271412.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white games won supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-table-tennis-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-table-tennis-2.html",
+      "contentHash": "dd2dad2f709f733b5a82def6ad0c77dc224a851b2ae806a02db98debf35bb7cd",
+      "documentPath": "published/dd2dad2f709f733b5a82def6ad0c77dc224a851b2ae806a02db98debf35bb7cd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-leading-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white sets won supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-volleyball-1.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "petrol-chalk-leadscore-volleyball-1.html",
+      "contentHash": "dfce4a6614e30c7cf9697911bbc068726ac8abe0a06b7b11d75c6b9b4c33ec20",
+      "documentPath": "published/dfce4a6614e30c7cf9697911bbc068726ac8abe0a06b7b11d75c6b9b4c33ec20.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-leading-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-petrol competitor body and a shallow SAME-PETROL sport/status utility line ABOVE the competitors. Each lane reads from a slim live blue/coral identity tick through one fixed FILLED pale-chalk PRIMARY score cell with a complete solid dark zero, then a flexible white name and a smaller OPEN white sets won supporting count at the far right on the SAME petrol fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the slim top line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading chalk primary scorecell and open trailing support, with a quiet same-color top utility line.",
+      "output": "html-replications/petrol-chalk-leadscore-volleyball-2.html",
+      "palette": [
+        "#18353f",
+        "#e9eee8",
+        "#f7f9f5",
+        "#a8bbb6",
+        "#4d6970",
+        "#2786a5",
+        "#c76a61"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "ba47281db6d4f1e00f79a15b7602d2e123c705c4c57100a7d9aae0b85dacc50a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third. A shallow SAME-PETROL sport/status utility line sits ABOVE the competitor body without a contrasting banner. Each deep-petrol lane reads LEFT-to-RIGHT as a slim blue/coral live identity tick, one fixed FILLED pale-chalk PRIMARY score bank at the LEADING edge, a wide flexible white name lane, then one narrow fixed OPEN white supporting-count track at the far right on the SAME petrol fill as the name. Both horizontal halves preserve this left-to-right order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-petrol #18353f field holds flexible white names and OPEN supporting counts at far right. ONE fixed pale-chalk #e9eee8 filled PRIMARY cell sits immediately after each identity tick and BEFORE the name, with a complete solid dark score. The supporting track has the EXACT SAME petrol fill as the name, no tile or outline. A shallow full-width SAME-PETROL top utility line groups sport and shared status in white, separated from rows by one subtle sea-glass hairline. Thin row rules, 3px outer corners; no contrasting top banner, bottom footer, side console, gradient, shadow, texture or novelty hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 27px; complete solid bold dark-petrol 43px tabular primary zero with a compact dark caption in its chalk cell; smaller complete solid warm-white 20px tabular supporting zero with a 10px uppercase caption directly on petrol; white sport/status lettering around 11px in the slim top utility line."
+      },
+      "styleID": "petrol-chalk-leadscore",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "petrol-chalk-leadscore",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Petrol Chalk Leadscore — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "petrol-chalk-leadscore-volleyball-2.html",
+      "contentHash": "89413acacd1ee6602323adcb04363b2245db8c3eca18fd8e436ee3f3dcd02a0b",
+      "documentPath": "published/89413acacd1ee6602323adcb04363b2245db8c3eca18fd8e436ee3f3dcd02a0b.json"
     },
     {
       "aliases": [],
