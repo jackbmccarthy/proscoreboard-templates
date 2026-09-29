@@ -30868,5 +30868,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-table-tennis-1.html",
+    "title": "Champagne Graphite Columnrail — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller games won before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-table-tennis-2.html",
+    "title": "Champagne Graphite Columnrail — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller games won before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-pickleball-1.html",
+    "title": "Champagne Graphite Columnrail — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller games won before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-pickleball-2.html",
+    "title": "Champagne Graphite Columnrail — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller games won before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-baseball-1.html",
+    "title": "Champagne Graphite Columnrail — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller hits before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-baseball-2.html",
+    "title": "Champagne Graphite Columnrail — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller hits before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-softball-1.html",
+    "title": "Champagne Graphite Columnrail — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller hits before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-softball-2.html",
+    "title": "Champagne Graphite Columnrail — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller hits before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-basketball-1.html",
+    "title": "Champagne Graphite Columnrail — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller fouls before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-basketball-2.html",
+    "title": "Champagne Graphite Columnrail — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller fouls before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-soccer-1.html",
+    "title": "Champagne Graphite Columnrail — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller fouls before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-soccer-2.html",
+    "title": "Champagne Graphite Columnrail — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller fouls before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-volleyball-1.html",
+    "title": "Champagne Graphite Columnrail — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller sets won before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two aligned competitor rows form a compact scorebug. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-two-row-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/champagne-graphite-columnrail-volleyball-2.html",
+    "title": "Champagne Graphite Columnrail — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#2b3036",
+      "#d8c9ae",
+      "#f7f5f0",
+      "#c9c0b0",
+      "#67737b",
+      "#2b8aa8",
+      "#d06461"
+    ],
+    "motif": "Functional open two-column numeric rail with quiet vertical separators and one restrained top utility header.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "champagne-graphite-columnrail",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a shallow matte-champagne top sport/status header over one continuous graphite competitor field. Each lane reads from a slim live blue/coral identity tick through a flexible white name to two FIXED OPEN numeric tracks: smaller sets won before a larger primary score at far right. Complete solid white numerals sit on the SAME graphite background as the names, with quiet vertical rules and no score tiles. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "balanced-horizontal-columnrail",
+    "styleID": "champagne-graphite-columnrail",
+    "styleFingerprint": "f1ef2dbb36304164ff2a610cf955989e8410810416c82899dc88116fab3ebd0d",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced equal-lane horizontal lower-third. Each lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, wide flexible competitor name, a smaller fixed OPEN supporting-count track, and a larger fixed OPEN primary-score track at the far right. Fine vertical hairlines mark the two numeric columns; a continuous shallow champagne header above the lanes carries sport at left and neatly grouped status at right. No footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white names around 24px; complete solid bold 43px tabular white primary zero and smaller 20px tabular warm-white supporting zero, each with a restrained 10px uppercase caption below; dark graphite 12px uppercase sport/status type in the pale header.",
+      "surface": "One flat uninterrupted graphite #2b3036 body spans names and BOTH OPEN score tracks. No score box, tile, fill or outline; scores sit on exactly the SAME graphite fill as names, with only 1px cool-gray column/row rules. A full-width shallow matte champagne #d8c9ae sport/status header is attached above; there is NO footer or dock. Square outer/internal corners, no gradient, shadow, texture, shine, decorative hardware or motion.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
