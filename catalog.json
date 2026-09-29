@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "c2125ff90378845caa819ac82f6e4f4656ea628bc4f9e87fa4945e27fec72ebd",
+  "revision": "d412086c7af96ffd37c4bbd6dbd6133635e0a681b586de1ccfa4900c5568f26c",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -38400,6 +38400,664 @@
       "fileName": "score-halo-volleyball-2.html",
       "contentHash": "83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e",
       "documentPath": "published/83a1f6192f6f8ad334c83e283cc26c6157e832fc1919eea57e5a84244278222e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray hits chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-baseball-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-baseball-1.html",
+      "contentHash": "600cc3c649b141bc9ddf800f76f7bf4f3c7734cbbb572164bcfd52823b7d7648",
+      "documentPath": "published/600cc3c649b141bc9ddf800f76f7bf4f3c7734cbbb572164bcfd52823b7d7648.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray hits chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-baseball-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-baseball-2.html",
+      "contentHash": "edb61767e289dd5e378028c86f7d9ec3a7264023d311e42ecd19c13cc6ad98b9",
+      "documentPath": "published/edb61767e289dd5e378028c86f7d9ec3a7264023d311e42ecd19c13cc6ad98b9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray fouls chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-basketball-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-basketball-1.html",
+      "contentHash": "7eb98427f59bb091707170447b16c61516d70f66301dbcd7ead5938ae2c0d00f",
+      "documentPath": "published/7eb98427f59bb091707170447b16c61516d70f66301dbcd7ead5938ae2c0d00f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray fouls chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-basketball-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-basketball-2.html",
+      "contentHash": "7fc38dfb60daea2b10ceac82331c41ee5b0a6f376226cc9f33d2c26171345776",
+      "documentPath": "published/7fc38dfb60daea2b10ceac82331c41ee5b0a6f376226cc9f33d2c26171345776.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray games won chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-pickleball-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Ink Counterrail — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-pickleball-1.html",
+      "contentHash": "4a5736c36a370e686aa3a62191db345a41b1612c3eff4e7af5bcd63df7ed1351",
+      "documentPath": "published/4a5736c36a370e686aa3a62191db345a41b1612c3eff4e7af5bcd63df7ed1351.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray games won chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-pickleball-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Ink Counterrail — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-pickleball-2.html",
+      "contentHash": "1d7a6b863addac8bfcca47f14a4121b7a994edf4477dabee153756d3a426fa19",
+      "documentPath": "published/1d7a6b863addac8bfcca47f14a4121b7a994edf4477dabee153756d3a426fa19.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray fouls chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-soccer-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-soccer-1.html",
+      "contentHash": "af9ab193eb54ee536f92bb7ba33be1f265f6692a40d0142932eddf9b0d7f886b",
+      "documentPath": "published/af9ab193eb54ee536f92bb7ba33be1f265f6692a40d0142932eddf9b0d7f886b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray fouls chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-soccer-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-soccer-2.html",
+      "contentHash": "58a96f0931e0c6e310109264d94cec7c3b804bc4969bbd4037dd58b78151cbcb",
+      "documentPath": "published/58a96f0931e0c6e310109264d94cec7c3b804bc4969bbd4037dd58b78151cbcb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray hits chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-softball-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-softball-1.html",
+      "contentHash": "2221983e25472b6288ea8af1c1a7f01ec33a192d6460ba98dabd2d282ef28a45",
+      "documentPath": "published/2221983e25472b6288ea8af1c1a7f01ec33a192d6460ba98dabd2d282ef28a45.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray hits chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-softball-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-softball-2.html",
+      "contentHash": "fc8320a6c82eb82e603f22a835d809ccf18120894390c3398b3158350bcdeaef",
+      "documentPath": "published/fc8320a6c82eb82e603f22a835d809ccf18120894390c3398b3158350bcdeaef.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray games won chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-table-tennis-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Ink Counterrail — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-table-tennis-1.html",
+      "contentHash": "50b487589f06e3ce73490907b39d39dccb5ff78ce636a83a9ae528b5d93b1615",
+      "documentPath": "published/50b487589f06e3ce73490907b39d39dccb5ff78ce636a83a9ae528b5d93b1615.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray games won chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-table-tennis-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Silver Ink Counterrail — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-table-tennis-2.html",
+      "contentHash": "7c28e93293b851423a9e228ec58eea95767b15d9723a7df30f99339eb3fadac4",
+      "documentPath": "published/7c28e93293b851423a9e228ec58eea95767b15d9723a7df30f99339eb3fadac4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-silver-ink-counterrail-scorebug",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray sets won chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-volleyball-1.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "silver-ink-counterrail-volleyball-1.html",
+      "contentHash": "3efb6459b275a0406f5ed2f7e42b0aba64031196844a82e2b7d903b510b07488",
+      "documentPath": "published/3efb6459b275a0406f5ed2f7e42b0aba64031196844a82e2b7d903b510b07488.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-silver-ink-counterrail-lower-third",
+      "description": "Professional static broadcast scoreboard with cool-silver competitor lanes and one full-width deep-ink bottom sport/status line. Each lane holds a flexible dark competitor name, then one small FILLED blue-gray sets won chip, then an OPEN primary score at the far right on the SAME silver field as the name. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Bottom sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional filled supporting chip after the flexible name, open primary score at the right, and a quiet full-width bottom sport/status strip.",
+      "output": "html-replications/silver-ink-counterrail-volleyball-2.html",
+      "palette": [
+        "#e5eaec",
+        "#253641",
+        "#c6d4d8",
+        "#f9fbfa",
+        "#6d8188",
+        "#3485a5",
+        "#be6c68"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "2e6764eb985500cc06d836590ea2b529b3e4ef525a5afcabd4cfaa8a249fcee7",
+      "styleGuide": {
+        "geometry": "Conventional compact scorebug with two aligned 74px competitor rows, or balanced equal-lane horizontal lower-third. One restrained full-width 30px deep-ink sport/status strip sits BELOW the competitor lanes. Each cool-silver lane reads LEFT-TO-RIGHT: slim independent live identity tick, WIDE flexible dark name, ONE small fixed FILLED blue-gray SUPPORTING-count chip, then ONE larger fixed OPEN dark PRIMARY score on the SAME silver background at the far right. Both horizontal halves repeat this order without mirroring. No top header, side dock or score tile around the primary.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One uninterrupted flat cool-silver #e5eaec field carries the flexible dark names and OPEN dark primary score tracks. A fixed muted blue-gray #c6d4d8 FILLED support chip sits AFTER each flexible name and BEFORE the open primary, with complete solid dark zero and caption. The deep-ink #253641 sport/status strip spans the FULL width BELOW both lanes, sport at left and neatly grouped editable static counters at right. Narrow independent blue/coral live identity ticks, fine cool-gray separators and restrained 2px corners; no scorecell behind the primary, top banner, gradient, shadow, texture, photo, decorative hardware or animation.",
+        "typography": "Upright semibold deep-ink Arial/Helvetica names near 31px; complete solid bold dark 50px tabular primary zero OPEN on silver with a small dark caption below; a labeled dark 19px supporting zero inside the blue-gray chip after each name; compact warm-white 13px sport title and counters in the bottom ink strip."
+      },
+      "styleID": "silver-ink-counterrail",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "silver-ink-counterrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Silver Ink Counterrail — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "silver-ink-counterrail-volleyball-2.html",
+      "contentHash": "7bfecba20d60337432477ea58b8a9961b1fdab02abf278118ee039da01ce1f64",
+      "documentPath": "published/7bfecba20d60337432477ea58b8a9961b1fdab02abf278118ee039da01ce1f64.json"
     },
     {
       "aliases": [],
