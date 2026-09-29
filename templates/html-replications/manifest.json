@@ -27788,5 +27788,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-table-tennis-1.html",
+    "title": "Pearl Slate Stat Lead — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass games won supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-table-tennis-2.html",
+    "title": "Pearl Slate Stat Lead — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass games won supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-pickleball-1.html",
+    "title": "Pearl Slate Stat Lead — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass games won supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-pickleball-2.html",
+    "title": "Pearl Slate Stat Lead — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass games won supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-baseball-1.html",
+    "title": "Pearl Slate Stat Lead — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass hits supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-baseball-2.html",
+    "title": "Pearl Slate Stat Lead — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass hits supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-softball-1.html",
+    "title": "Pearl Slate Stat Lead — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass hits supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-softball-2.html",
+    "title": "Pearl Slate Stat Lead — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass hits supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-basketball-1.html",
+    "title": "Pearl Slate Stat Lead — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass fouls supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-basketball-2.html",
+    "title": "Pearl Slate Stat Lead — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass fouls supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-soccer-1.html",
+    "title": "Pearl Slate Stat Lead — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass fouls supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-soccer-2.html",
+    "title": "Pearl Slate Stat Lead — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass fouls supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-volleyball-1.html",
+    "title": "Pearl Slate Stat Lead — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass sets won supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. Two aligned competitor rows sit beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-paired-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-slate-stat-lead-volleyball-2.html",
+    "title": "Pearl Slate Stat Lead — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8edea",
+      "#243b49",
+      "#bfd1ce",
+      "#1f3440",
+      "#f6f8f5",
+      "#2682a7",
+      "#c66366"
+    ],
+    "motif": "Functional leading filled support and open primary score, no decorative motif or motion.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-slate-stat-lead",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a deep-slate top sport/status header and a continuous light-pearl field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick and one small FILLED muted-sea-glass sets won supporting cell, then the flexible name and one large complete solid dark primary zero at the far right on the SAME pale fill. A true horizontal lower-third places both competitors side by side beneath the shallow sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-leading-stat",
+    "styleID": "pearl-slate-stat-lead",
+    "styleFingerprint": "e5bfd1a2c04b729432a1b05627d8e46218417bba040632b65e0dda7effe24279",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 64px competitor rows or a true balanced equal-lane horizontal lower-third; a narrow full-width dark sport/status header sits ABOVE both lanes. Each lane reads LEFT-to-RIGHT as slim identity tick, one small FIXED FILLED leading supporting-count cell, flexible name lane, then one large fixed OPEN primary score track at its RIGHT edge. Both counts remain separate and consistently aligned.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names near 24px; complete solid dark tabular primary numerals near 43px with compact 10px primary caption on the same pale field; small dark tabular 18px support zero and concise 10px uppercase caption in its filled muted-sea-glass cell; white sport/status text in the header.",
+      "surface": "One flat continuous light-pearl fill across flexible names and OPEN primary score tracks; one pale sea-glass #bfd1ce filled supporting cell at the LEADING side of each lane after a slim live blue/coral identity tick. A full-width 26px deep-slate #243b49 header carries sport at left and grouped counters at right. Primary score has EXACT SAME pearl background as names, with no terminal tile or outline. Thin cool-gray rules, 2px corners; no gradients, texture, shadow, footer dock or decorative art.",
+      "professionalFinish": "Static professional broadcast package with fixed score tracks, flexible names, complete solid numerals, stable native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
