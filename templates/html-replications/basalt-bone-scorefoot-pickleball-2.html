@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PICKLEBALL · Basalt Bone Scorefoot</title>
+<style>
+:root{color-scheme:light}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif;color:#f9faf8}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center;background:transparent}
+.board{width:58vw;max-width:1160px;min-width:0;overflow:hidden;border:1px solid #5a727c;border-radius:4px;background:#253747;container-type:inline-size}
+.board.horizontal{width:86vw;max-width:1720px}
+.lanes{display:flex;flex-direction:column;min-width:0}
+.lane{height:18cqw;min-height:108px;flex:0 0 auto;display:flex;align-items:stretch;min-width:0;background:#253747}
+.lane+.lane{border-top:1px solid #5a727c}
+.identity{display:block;flex:0 0 2.2cqw;min-width:6px;background:#3186a8}
+.jerseyColorB{background:#c86d70}
+.name-lane{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:1cqw;padding:0 3.6cqw;overflow:hidden}
+.name{display:block;flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:7.2cqw;font-weight:700;line-height:1.05}
+.combinedAName:empty::before{content:"Player A"}
+.combinedBName:empty::before{content:"Player B"}
+.serve{display:block;flex:0 0 1.7cqw;width:1.7cqw;text-align:center;color:#f9faf8;font-size:1.5cqw;line-height:1}
+.score-terminal{flex:0 0 23%;width:23%;min-width:0;display:flex;flex-direction:column;align-items:stretch;overflow:hidden;background:#e8e1d4;color:#253747}
+.primary-track{flex:1 1 0;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.primary-number{display:block;max-width:100%;font-size:9cqw;font-weight:700;line-height:.92;white-space:nowrap;font-variant-numeric:tabular-nums}
+.primary-caption{display:block;margin-top:.2cqw;font-size:2.1cqw;font-weight:700;line-height:1;white-space:nowrap}
+.support-foot{flex:0 0 34%;min-height:0;margin:0 1.8cqw;border-top:1px solid #5a727c;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.support-number{display:block;max-width:100%;font-size:4cqw;font-weight:700;line-height:.88;white-space:nowrap;font-variant-numeric:tabular-nums}
+.support-caption{display:block;margin-top:.2cqw;font-size:1.9cqw;font-weight:700;line-height:1;white-space:nowrap}
+.utility{position:relative;height:6.5cqw;min-height:35px;display:flex;align-items:center;padding:0 2.5cqw;background:#253747;color:#f9faf8;border-top:1px solid #5a727c}
+.sport-tag{font-size:3.5cqw;font-weight:700;line-height:1;letter-spacing:.015em;white-space:nowrap}
+.point-slot{position:absolute;right:2cqw;top:50%;transform:translateY(-50%);width:19cqw;height:2em;text-align:right;pointer-events:none}
+.point-state{position:absolute;inset:0;background:#253747;color:#f9faf8;font-size:1.35cqw;font-weight:700;line-height:2em;white-space:nowrap}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint{opacity:0!important}
+.horizontal .lanes{flex-direction:row}
+.horizontal .lane{height:12.5cqw;flex:1 1 50%}
+.horizontal .lane+.lane{border-top:0;border-left:1px solid #5a727c}
+.horizontal .identity{flex-basis:1.8cqw}
+.horizontal .name-lane{padding:0 2.1cqw;gap:.7cqw}
+.horizontal .name{font-size:4.7cqw}
+.horizontal .serve{flex-basis:1.1cqw;width:1.1cqw;font-size:1.1cqw}
+.horizontal .score-terminal{flex-basis:23%;width:23%}
+.horizontal .primary-number{font-size:5.8cqw}
+.horizontal .primary-caption{font-size:1.45cqw}
+.horizontal .support-foot{margin:0 1cqw}
+.horizontal .support-number{font-size:2.6cqw}
+.horizontal .support-caption{font-size:1.25cqw}
+.horizontal .utility{height:4.4cqw}
+.horizontal .sport-tag{font-size:2.4cqw}
+.horizontal .point-state{font-size:.9cqw}
+@media(max-width:650px){
+ .board,.board.horizontal{width:94vw}
+ .lanes,.horizontal .lanes{flex-direction:column}
+ .lane,.horizontal .lane{height:32cqw;min-height:115px;flex:0 0 auto}
+ .lane+.lane,.horizontal .lane+.lane{border-left:0;border-top:1px solid #5a727c}
+ .identity,.horizontal .identity{flex-basis:2cqw}
+ .name-lane,.horizontal .name-lane{padding:0 3cqw}
+ .name,.horizontal .name{font-size:6.3cqw}
+ .serve,.horizontal .serve{flex-basis:2cqw;width:2cqw;font-size:1.8cqw}
+ .score-terminal,.horizontal .score-terminal{flex-basis:28%;width:28%}
+ .primary-number,.horizontal .primary-number{font-size:11cqw}
+ .primary-caption,.horizontal .primary-caption{font-size:2.6cqw}
+ .support-foot,.horizontal .support-foot{margin:0 1.5cqw}
+ .support-number,.horizontal .support-number{font-size:5cqw}
+ .support-caption,.horizontal .support-caption{font-size:2.3cqw}
+ .utility,.horizontal .utility{height:10cqw;min-height:36px;padding:0 3cqw}
+ .sport-tag,.horizontal .sport-tag{font-size:4.1cqw}
+ .point-slot{right:2cqw;width:24cqw}
+ .point-state,.horizontal .point-state{font-size:2cqw}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="stage"><article class="board columnContainer horizontal" data-osb-component="layout" data-osb-component-type="osb-column-container">
+  <div class="lanes fixedRowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <div class="lane rowContainer side-a" data-osb-component="layout" data-osb-component-type="osb-row-container">
+      <span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA" aria-hidden="true"></span>
+      <div class="name-lane"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true" aria-label="Serving">●</span></div>
+      <div class="score-terminal"><div class="primary-track"><span class="primary-number currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="primary-caption">POINTS</span></div><div class="support-foot"><span class="support-number currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="support-caption">GAMES</span></div></div>
+    </div>
+    <div class="lane rowContainer side-b" data-osb-component="layout" data-osb-component-type="osb-row-container">
+      <span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB" aria-hidden="true"></span>
+      <div class="name-lane"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;" aria-label="Serving">●</span></div>
+      <div class="score-terminal"><div class="primary-track"><span class="primary-number currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="primary-caption">POINTS</span></div><div class="support-foot"><span class="support-number currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="support-caption">GAMES</span></div></div>
+    </div>
+  </div>
+  <footer class="utility"><div class="sport-tag">PICKLEBALL</div><div class="point-slot"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></footer>
+</article></main>
+</body>
+</html>

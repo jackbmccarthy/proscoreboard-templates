@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SOCCER · Basalt Bone Scorefoot</title><style>
+*{box-sizing:border-box}
+html,body{width:100%;min-height:100%;margin:0;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif;color:#f9faf8}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:8px;background:transparent}
+.board{width:min(61vw,1180px);min-width:0;overflow:hidden;border:1px solid #5a727c;border-radius:4px;background:#253747;container-type:inline-size;font-variant-numeric:tabular-nums}
+.board.horizontal{width:min(84vw,1660px)}
+.lanes{display:flex;flex-direction:column;min-width:0}
+.lane{display:flex;align-items:stretch;min-width:0;height:17.5cqw;background:#253747}
+.lane+.lane{border-top:1px solid #5a727c}
+.identity{display:block;flex:0 0 2.3cqw;min-width:6px;background:#3186a8}
+.jerseyColorB{background:#c86d70}
+.namebed{display:flex;align-items:center;flex:1 1 0;min-width:0;padding:0 3cqw;overflow:hidden}
+.name{display:block;flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:7cqw;font-weight:700;line-height:1.1}
+.combinedAName:empty::before{content:"Team A"}
+.combinedBName:empty::before{content:"Team B"}
+.primary-track{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;flex:0 0 22%;width:22%;min-width:0;margin:0.35cqw;overflow:hidden;border-radius:3px;background:#e8e1d4;color:#253747;text-align:center}
+.primary-upper{display:flex;flex:1 1 0;min-height:0;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.primary-number{display:block;max-width:100%;font-size:8.2cqw;font-weight:700;line-height:.88;font-variant-numeric:tabular-nums;white-space:nowrap}
+.primary-caption{display:block;margin-top:.4cqw;font-size:2cqw;font-weight:700;line-height:1;white-space:nowrap}
+.score-foot{display:flex;flex:0 0 30%;min-height:0;flex-direction:column;align-items:center;justify-content:center;margin:0 1.3cqw;border-top:1px solid #5a727c}
+.support-number{display:block;font-size:3cqw;font-weight:700;line-height:.9;font-variant-numeric:tabular-nums}
+.support-caption{display:block;margin-top:.2cqw;font-size:1.6cqw;font-weight:700;line-height:1;white-space:nowrap}
+.utility{display:flex;align-items:center;min-width:0;min-height:7cqw;padding:0 2.4cqw;border-top:1px solid #5a727c;background:#253747;white-space:nowrap}
+.sport-tag{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;font-size:3.4cqw;font-weight:700;line-height:1}
+.status{display:flex;align-items:center;justify-content:flex-end;min-width:0;flex:0 0 auto}
+.status-item{display:flex;align-items:baseline;justify-content:center;gap:.7cqw;min-width:0;padding:0 1.3cqw;border-left:1px solid #acbbc1;font-size:2cqw;font-weight:700;line-height:1}
+.status-value{font-size:1.2em;font-variant-numeric:tabular-nums}
+.point-slot{display:none}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+.horizontal .lanes{flex-direction:row}
+.horizontal .lane{height:12cqw;flex:1 1 50%}
+.horizontal .lane+.lane{border-top:0;border-left:1px solid #5a727c}
+.horizontal .identity{flex-basis:1.45cqw}
+.horizontal .namebed{padding:0 1.9cqw}
+.horizontal .name{font-size:4.7cqw}
+.horizontal .primary-track{flex-basis:24%;width:24%;margin:.25cqw}
+.horizontal .primary-number{font-size:5.8cqw}
+.horizontal .primary-caption{font-size:1.3cqw;margin-top:.2cqw}
+.horizontal .score-foot{margin:0 .8cqw}
+.horizontal .support-number{font-size:2.2cqw}
+.horizontal .support-caption{font-size:1.2cqw}
+.horizontal .utility{min-height:4.8cqw}
+.horizontal .sport-tag{font-size:2.5cqw}
+.horizontal .status-item{font-size:1.5cqw}
+@media(max-width:650px){
+ .board,.board.horizontal{width:94vw;container-type:normal}
+ .lanes,.horizontal .lanes{flex-direction:column}
+ .lane,.horizontal .lane{height:96px;flex:0 0 auto}
+ .lane+.lane,.horizontal .lane+.lane{border-left:0;border-top:1px solid #5a727c}
+ .identity,.horizontal .identity{flex-basis:7px}
+ .namebed,.horizontal .namebed{padding:0 12px}
+ .name,.horizontal .name{font-size:clamp(20px,6.6vw,27px)}
+ .primary-track,.horizontal .primary-track{flex-basis:26%;width:26%;margin:3px}
+ .primary-number,.horizontal .primary-number{font-size:39px}
+ .primary-caption,.horizontal .primary-caption{font-size:10px;margin-top:1px}
+ .score-foot,.horizontal .score-foot{margin:0 7px}
+ .support-number,.horizontal .support-number{font-size:16px}
+ .support-caption,.horizontal .support-caption{font-size:9px;margin-top:1px}
+ .utility,.horizontal .utility{min-height:56px;flex-direction:column;align-items:stretch;justify-content:center;gap:5px;padding:5px 8px}
+ .sport-tag,.horizontal .sport-tag{flex:none;font-size:12px}
+ .status{flex:none;justify-content:space-between}
+ .status-item,.horizontal .status-item{flex:1 1 auto;gap:3px;padding:0 4px;font-size:10px}
+ .status-item:first-child{border-left:0;padding-left:0}
+ .status-item:last-child{padding-right:0}
+ .status-value{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style></head>
+<body><main class="stage"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="soccer scoreboard">
+ <div class="lanes columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="lane rowContainer side-a" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA" aria-hidden="true"></span>
+    <div class="namebed" data-osb-component="layout"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></div>
+    <div class="primary-track" data-osb-component="layout"><div class="primary-upper" data-osb-component="layout"><span class="primary-number currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="primary-caption" data-osb-component="text">GOALS</span></div><div class="score-foot" data-osb-component="layout"><span class="support-number" data-osb-component="text" data-osb-static="true" data-sport-stat="foulsA">0</span><span class="support-caption" data-osb-component="text">FOULS</span></div></div>
+    <span class="hidden-match currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore" hidden>0</span>
+  </div><div class="lane rowContainer side-b" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB" aria-hidden="true"></span>
+    <div class="namebed" data-osb-component="layout"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></div>
+    <div class="primary-track" data-osb-component="layout"><div class="primary-upper" data-osb-component="layout"><span class="primary-number currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="primary-caption" data-osb-component="text">GOALS</span></div><div class="score-foot" data-osb-component="layout"><span class="support-number" data-osb-component="text" data-osb-static="true" data-sport-stat="foulsB">0</span><span class="support-caption" data-osb-component="text">FOULS</span></div></div>
+    <span class="hidden-match currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore" hidden>0</span>
+  </div></div>
+ <footer class="utility" data-osb-component="layout"><span class="sport-tag" data-osb-component="text">SOCCER</span><div class="status" data-osb-component="layout"><span class="status-item" data-osb-component="layout"><span data-osb-component="text">CLOCK</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="game-clock">00:00</span></span><span class="status-item" data-osb-component="layout"><span data-osb-component="text">HALF</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="half">0</span></span></div></footer>
+ <div class="point-slot" data-osb-component="layout" hidden><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div>
+</article></main></body></html>

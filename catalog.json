@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "d9ed996aaec180aa833247f78ff1c79946cb0420804ebcd678f7ed87bbe5a882",
+  "revision": "9b20b7eb0497f51583b14ee8d4944e975493c3ea286b19da4dbd9f6c0ce7182b",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -2282,6 +2282,664 @@
       "fileName": "aubergine-cloud-scorebank-volleyball-2.html",
       "contentHash": "df27adc8615926206da30dfb15f4a9cc08e9b70446fb0c595d94b6edf98690c1",
       "documentPath": "published/df27adc8615926206da30dfb15f4a9cc08e9b70446fb0c595d94b6edf98690c1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled hits supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-baseball-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-baseball-1.html",
+      "contentHash": "efa6277f7ce202a24913808695e62ceb7f6afb364b4c2a1fabf77d40e59f9a2d",
+      "documentPath": "published/efa6277f7ce202a24913808695e62ceb7f6afb364b4c2a1fabf77d40e59f9a2d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled hits supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-baseball-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-baseball-2.html",
+      "contentHash": "73ebd53d7284a7db93db33c29fe73758310716097dae6cdb634ed87c8207d2ed",
+      "documentPath": "published/73ebd53d7284a7db93db33c29fe73758310716097dae6cdb634ed87c8207d2ed.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled fouls supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-basketball-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-basketball-1.html",
+      "contentHash": "e55a49d4065f98410c173d89297cce9cbb100da24c7b5ece20c5f456a6de461b",
+      "documentPath": "published/e55a49d4065f98410c173d89297cce9cbb100da24c7b5ece20c5f456a6de461b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled fouls supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-basketball-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-basketball-2.html",
+      "contentHash": "466f9caa27b7c9556454d0bbb13f8a1b073c87f9a4f4dea789c985429f911370",
+      "documentPath": "published/466f9caa27b7c9556454d0bbb13f8a1b073c87f9a4f4dea789c985429f911370.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled games won supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-pickleball-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-pickleball-1.html",
+      "contentHash": "d7a2d9064009940204a9cda7e0ebbd6537569d038377b1d283bffca7e91fca26",
+      "documentPath": "published/d7a2d9064009940204a9cda7e0ebbd6537569d038377b1d283bffca7e91fca26.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled games won supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-pickleball-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-pickleball-2.html",
+      "contentHash": "ecf636d10a5f90f8db1cb625c46d5fe66da6a826cb6628b178c79044b540ed7b",
+      "documentPath": "published/ecf636d10a5f90f8db1cb625c46d5fe66da6a826cb6628b178c79044b540ed7b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled fouls supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-soccer-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-soccer-1.html",
+      "contentHash": "5a8fa26d6ef8776f984b7586399be453679ff813f392e3b703345bf5bf8d2f6f",
+      "documentPath": "published/5a8fa26d6ef8776f984b7586399be453679ff813f392e3b703345bf5bf8d2f6f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled fouls supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-soccer-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-soccer-2.html",
+      "contentHash": "0892d716c3be6c09149377263f681da11596809d5b61783951d20ddaee44d6bc",
+      "documentPath": "published/0892d716c3be6c09149377263f681da11596809d5b61783951d20ddaee44d6bc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled hits supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-softball-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-softball-1.html",
+      "contentHash": "2aa8d1627b7975bb4d1f0e5db5c10c52c8c60857b86bd4562deb8eb782d34c48",
+      "documentPath": "published/2aa8d1627b7975bb4d1f0e5db5c10c52c8c60857b86bd4562deb8eb782d34c48.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled hits supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-softball-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-softball-2.html",
+      "contentHash": "5dc601c4dc150727b0be6ef49e346bfed66c5847a2901839648cb7ca88e2aead",
+      "documentPath": "published/5dc601c4dc150727b0be6ef49e346bfed66c5847a2901839648cb7ca88e2aead.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled games won supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-table-tennis-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-table-tennis-1.html",
+      "contentHash": "bbaaf756849b137f49e81849867978a15d91a3fa0d4e6e04d9505c6706b23f6c",
+      "documentPath": "published/bbaaf756849b137f49e81849867978a15d91a3fa0d4e6e04d9505c6706b23f6c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled games won supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-table-tennis-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-table-tennis-2.html",
+      "contentHash": "26fb8e80f259484a1dddc85a8afb2f22f2b95312819c4a361557c39d1173a81c",
+      "documentPath": "published/26fb8e80f259484a1dddc85a8afb2f22f2b95312819c4a361557c39d1173a81c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-basalt-scorefoot-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled sets won supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-volleyball-1.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "basalt-bone-scorefoot-volleyball-1.html",
+      "contentHash": "f81a8638b8dcb9800e1413a28cffdc627d69997b956b5b658b40de5b28631d7a",
+      "documentPath": "published/f81a8638b8dcb9800e1413a28cffdc627d69997b956b5b658b40de5b28631d7a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-basalt-scorefoot-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous deep-basalt competitor lanes and a shallow same-basalt sport/status line below. Each lane reads from a slim live blue/coral identity tick through a wide flexible single-line white name, then ONE fixed FILLED warm-bone numeric terminal at the far right. A dominant complete solid dark primary zero sits ABOVE a smaller labeled sets won supporting zero in a reserved foot of that SAME terminal, separated by a fine rule. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional primary-over-support scorefoot inside one terminal and a quiet same-basalt bottom status line.",
+      "output": "html-replications/basalt-bone-scorefoot-volleyball-2.html",
+      "palette": [
+        "#253747",
+        "#e8e1d4",
+        "#f9faf8",
+        "#acbbc1",
+        "#5a727c",
+        "#3186a8",
+        "#c86d70"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "be50656825b48c4fb0b7b416c80401edaa8392e74382c8ff4fbf8e2ad2ad355a",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 88px competitor rows or balanced equal-lane horizontal lower-third ABOVE a shallow 25px SAME-BASALT sport/status line. Each muted deep-basalt competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, one wide flexible SINGLE-LINE white competitor name, then ONE fixed warm-bone numeric terminal at the FAR RIGHT occupying about 22% of the lane. Within that single terminal the dominant PRIMARY score sits ABOVE, its concise caption follows, and a smaller labeled SUPPORTING zero occupies a reserved foot BELOW a fine quiet rule. Both horizontal halves repeat this order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted deep-basalt #253747 field holds flexible white names. At the FAR RIGHT of EACH lane is exactly ONE fixed warm-bone #e8e1d4 filled score terminal, with complete solid dark primary zero ABOVE a small supporting count in a RESERVED BOTTOM FOOT of the SAME terminal; a fine hairline separates the supporting foot. The primary is visually dominant at all values. A shallow SAME-BASALT sport/status line spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine row dividers and modest 4px outer corners; no extra support cell, top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; complete solid bold dark-basalt 46px tabular primary zero with compact dark caption in each bone terminal; a labeled complete solid dark 17px tabular supporting zero in the terminal foot BELOW the primary; white sport title near 14px and compact white static counters near 11px in the same-basalt bottom status line."
+      },
+      "styleID": "basalt-bone-scorefoot",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "basalt-bone-scorefoot",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Basalt Bone Scorefoot — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "basalt-bone-scorefoot-volleyball-2.html",
+      "contentHash": "9d04f1d3f12e1e8876d769bbb5c88de361dbef0fe2d6c33940d01fa27d1f55a3",
+      "documentPath": "published/9d04f1d3f12e1e8876d769bbb5c88de361dbef0fe2d6c33940d01fa27d1f55a3.json"
     },
     {
       "aliases": [],
