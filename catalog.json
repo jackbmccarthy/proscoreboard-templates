@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "27849cc782adbf923dd62553e52a50469d2da75d01f28fe1a6419d12c81e3be6",
+  "revision": "2172c0238ac7ce89593e0fd5707a0b3ab080719213f8121195032b7e6f09c624",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -23156,6 +23156,664 @@
       "fileName": "night-mist-trailing-stat-volleyball-2.html",
       "contentHash": "811e756b83228440874f90963c00c4d8b4f1b1f94c71a3c1765a75709c336297",
       "documentPath": "published/811e756b83228440874f90963c00c4d8b4f1b1f94c71a3c1765a75709c336297.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN hits supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-baseball-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-baseball-1.html",
+      "contentHash": "ba3225a1bd628e4a7029fe0c6229c4f7aae026ea1404c96f925e94400bfb4fda",
+      "documentPath": "published/ba3225a1bd628e4a7029fe0c6229c4f7aae026ea1404c96f925e94400bfb4fda.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN hits supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-baseball-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-baseball-2.html",
+      "contentHash": "aef1236115c8a95b2b793678bb624d55f9d527c2825f8c72ff95fa3d13af10dd",
+      "documentPath": "published/aef1236115c8a95b2b793678bb624d55f9d527c2825f8c72ff95fa3d13af10dd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN fouls supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-basketball-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-basketball-1.html",
+      "contentHash": "08eaed0acf94712ee538057411ec21274e1cb944f00496713e7ccb6ad129a1de",
+      "documentPath": "published/08eaed0acf94712ee538057411ec21274e1cb944f00496713e7ccb6ad129a1de.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN fouls supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-basketball-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-basketball-2.html",
+      "contentHash": "73583e17966f1fb8f3acc1ac05c30da89f9e8ab1e3d9d99bccc8ba610223fbb4",
+      "documentPath": "published/73583e17966f1fb8f3acc1ac05c30da89f9e8ab1e3d9d99bccc8ba610223fbb4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN games won supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-pickleball-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-pickleball-1.html",
+      "contentHash": "15795c0ced195af7449cd2a0bdc8a1479311162dabbe716b38d576e92fe5ea40",
+      "documentPath": "published/15795c0ced195af7449cd2a0bdc8a1479311162dabbe716b38d576e92fe5ea40.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN games won supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-pickleball-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-pickleball-2.html",
+      "contentHash": "fc06d7bbae44927d46481a53cb4258319dd9dbfc0d2c201e7db23ec9521190c7",
+      "documentPath": "published/fc06d7bbae44927d46481a53cb4258319dd9dbfc0d2c201e7db23ec9521190c7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN fouls supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-soccer-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-soccer-1.html",
+      "contentHash": "e6cd3978636f61a1ac0abafcfe1f288fc8efec8923391dd5fa87421cb1458e9d",
+      "documentPath": "published/e6cd3978636f61a1ac0abafcfe1f288fc8efec8923391dd5fa87421cb1458e9d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN fouls supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-soccer-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-soccer-2.html",
+      "contentHash": "83370fdda7df3d611c728002ffb517d20292c97decb3e75d9cd7fc0cefadfd94",
+      "documentPath": "published/83370fdda7df3d611c728002ffb517d20292c97decb3e75d9cd7fc0cefadfd94.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN hits supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-softball-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-softball-1.html",
+      "contentHash": "7b68e1243c04ce17bf244a942ae53816355ce1c51b42bd53c5a6cbaf27bcacca",
+      "documentPath": "published/7b68e1243c04ce17bf244a942ae53816355ce1c51b42bd53c5a6cbaf27bcacca.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN hits supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-softball-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-softball-2.html",
+      "contentHash": "8015180ced1417c726be7e038e3ceb49ad3713b688be82b47a0795d82b45ee86",
+      "documentPath": "published/8015180ced1417c726be7e038e3ceb49ad3713b688be82b47a0795d82b45ee86.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN games won supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-table-tennis-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-table-tennis-1.html",
+      "contentHash": "1272ea86ce5305011b7f7784a045bc99e6eb1eb34cfff3b27430c28c5266cf71",
+      "documentPath": "published/1272ea86ce5305011b7f7784a045bc99e6eb1eb34cfff3b27430c28c5266cf71.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN games won supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-table-tennis-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-table-tennis-2.html",
+      "contentHash": "a7d30e95548a19559ea9f491f005ceacb6a20e7a79afa625144ae849798d5a6f",
+      "documentPath": "published/a7d30e95548a19559ea9f491f005ceacb6a20e7a79afa625144ae849798d5a6f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-oat-eyebrow-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN sets won supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-volleyball-1.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "oat-graphite-eyebrow-volleyball-1.html",
+      "contentHash": "64052642c10ed8941610cdf64282a2ce241c52ff0374e720b35c28171979478f",
+      "documentPath": "published/64052642c10ed8941610cdf64282a2ce241c52ff0374e720b35c28171979478f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-oat-eyebrow-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous warm-oat competitor body and a full-width deep-graphite sport/status strip below. Each lane reads from a slim live blue/coral identity tick through a flexible two-line dark name area with a small OPEN sets won supporting count directly ABOVE the name, then a fixed FILLED deep-graphite primary scorecap with a complete solid white zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached bottom utility strip, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional support-above-name reading order, stable graphite primary scorecaps and a restrained full-width bottom status strip.",
+      "output": "html-replications/oat-graphite-eyebrow-volleyball-2.html",
+      "palette": [
+        "#e8e2d7",
+        "#293238",
+        "#f8f7f2",
+        "#abb7b3",
+        "#5b6a6d",
+        "#2f88a8",
+        "#c46e6b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "a7b6e1f6f1514d0b6129c256b31c96a5e9864d7558f290433cd3f080f6814be4",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 82px competitor rows or balanced equal-lane horizontal lower-third ABOVE one shallow 28px graphite sport/status utility strip. Each warm-oat lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE supporting-eyebrow-and-name area, then exactly one equal fixed FILLED graphite PRIMARY scorecap at the FAR RIGHT, about 19% of the lane width. Supporting count and label are OPEN on the same oat field in a small first line ABOVE the name, not a separate numeric column or filled tile. Both horizontal halves repeat the same order. No top header or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-oat #e8e2d7 field holds flexible dark names and OPEN supporting eyebrow counts on the EXACT SAME oat background; no support chip, separate rail, outline or score tile. One fixed deep-graphite #293238 filled PRIMARY scorecap with complete solid white zero closes each competitor lane at the FAR RIGHT. A shallow graphite sport/status strip spans the FULL width BELOW both lanes, sport at left and grouped zero counters at right in white. Fine neutral row dividers and modest 5px outer corners; no top banner, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold deep-graphite Arial/Helvetica names near 27px on the second line; a quiet 10px uppercase supporting label and complete solid dark 17px tabular zero on the small first line ABOVE the name; complete solid bold white 46px tabular primary zero with concise white caption inside each graphite scorecap; white sport title near 14px and compact white static counters near 11px in the graphite bottom strip."
+      },
+      "styleID": "oat-graphite-eyebrow",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "oat-graphite-eyebrow",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Oat Graphite Eyebrow — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "oat-graphite-eyebrow-volleyball-2.html",
+      "contentHash": "bf9af261531fb4b0120d6aff199f4dbec2b3178cf284705a7e36f1642682c2fa",
+      "documentPath": "published/bf9af261531fb4b0120d6aff199f4dbec2b3178cf284705a7e36f1642682c2fa.json"
     },
     {
       "aliases": [],

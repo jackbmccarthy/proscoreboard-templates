@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Softball · Oat Graphite Eyebrow</title>
+  <style>
+    *{box-sizing:border-box}
+    html,body{width:100%;min-height:100%;margin:0;background:transparent}
+    body{font-family:Arial,Helvetica,sans-serif}
+    .stage{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:8px}
+    .board{--oat:#e8e2d7;--graphite:#293238;--white:#f8f7f2;--rule:#abb7b3;--blue:#2f88a8;--coral:#c46e6b;width:min(92vw,1700px);overflow:hidden;border-radius:5px;background:var(--oat);color:var(--graphite);container-type:inline-size;font-variant-numeric:tabular-nums}
+    .lanes{display:flex;flex-direction:row;min-width:0}
+    .lane{display:flex;align-items:stretch;flex:1 1 50%;min-width:0;height:9.3cqw;background:var(--oat)}
+    .lane+.lane{border-left:2px solid var(--rule)}
+    .identity{flex:0 0 1.7cqw;background:var(--blue)}
+    .lane-b .identity{background:var(--coral)}
+    .namebed{display:flex;flex:1 1 auto;flex-direction:column;justify-content:center;gap:.25cqw;min-width:0;padding:0 1.9cqw}
+    .support-line{display:flex;align-items:baseline;gap:.7cqw;min-width:0;white-space:nowrap;font-size:1.7cqw;font-weight:700;line-height:1.05}
+    .support-value{font-size:1.12em;font-weight:750}
+    .name{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:3.5cqw;font-weight:700;line-height:1.08}
+    .combinedAName:empty::before{content:"Team A"}
+    .combinedBName:empty::before{content:"Team B"}
+    .scorecap{display:flex;flex:0 0 19%;flex-direction:column;align-items:center;justify-content:center;min-width:0;background:var(--graphite);color:var(--white);border-left:1px solid var(--rule);white-space:nowrap}
+    .primary-score{display:block;max-width:100%;overflow:hidden;font-size:5.3cqw;font-weight:750;line-height:1;font-variant-numeric:tabular-nums}
+    .score-label{font-size:1.7cqw;font-weight:700;line-height:1.05}
+    .footer{display:flex;align-items:center;gap:0;min-width:0;height:4.7cqw;padding:0 2.3cqw;background:var(--graphite);color:var(--white);white-space:nowrap}
+    .sport{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;font-size:2.5cqw;font-weight:750;line-height:1}
+    .status{display:flex;align-items:center;justify-content:flex-end;min-width:0;flex:0 0 auto}
+    .status-item{display:flex;align-items:baseline;justify-content:center;gap:.7cqw;min-width:0;padding:0 1.3cqw;border-left:1px solid var(--rule);font-size:1.45cqw;font-weight:650;line-height:1}
+    .status-item:first-child{border-left:0}
+    .status-value{font-size:1.25em;font-weight:750}
+    .point-slot{display:none}
+    .point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+    @media(max-width:700px){.board{width:100%;container-type:normal}.lanes{flex-direction:column}.lane{flex:1 1 auto;height:86px}.lane+.lane{border-left:0;border-top:1px solid var(--rule)}.identity{flex-basis:7px}.namebed{gap:3px;padding:0 12px}.support-line{gap:5px;font-size:11px}.support-value{font-size:14px}.name{font-size:clamp(20px,6.8vw,28px)}.scorecap{flex-basis:27%}.primary-score{font-size:clamp(29px,8.5vw,40px)}.score-label{font-size:11px}.footer{height:43px;padding:0 7px}.sport{font-size:11px}.status-item{gap:2px;padding:0 4px;font-size:8px}.status-value{font-size:10px}}
+    @media(max-width:390px){.sport{font-size:10px}.status-item{padding:0 3px;font-size:7px}.status-value{font-size:9px}.namebed{padding:0 9px}}
+    @media(max-width:700px){.footer{height:53px;flex-direction:column;align-items:stretch;justify-content:center;gap:3px;padding:4px 8px}.sport{flex:none;font-size:12px}.status{flex:none;justify-content:space-between}.status-item{flex:1 1 auto;gap:3px;padding:0 5px;font-size:10px}.status-item:first-child{padding-left:0}.status-item:last-child{padding-right:0}.status-value{font-size:12px}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body><main class="stage"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Softball scoreboard">
+  <div class="lanes" data-osb-component="layout">
+    <div class="lane lane-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="namebed" data-osb-component="layout"><span class="support-line" data-osb-component="layout"><span data-osb-component="text">HITS</span><span class="support-value" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsA">0</span></span><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></div><div class="scorecap" data-osb-component="layout"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="score-label" data-osb-component="text">RUNS</span></div><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore" hidden>0</span></div>
+    <div class="lane lane-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="namebed" data-osb-component="layout"><span class="support-line" data-osb-component="layout"><span data-osb-component="text">HITS</span><span class="support-value" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsB">0</span></span><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></div><div class="scorecap" data-osb-component="layout"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="score-label" data-osb-component="text">RUNS</span></div><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore" hidden>0</span></div>
+  </div>
+  <footer class="footer" data-osb-component="layout"><span class="sport" data-osb-component="text">SOFTBALL</span><div class="status" data-osb-component="layout">
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">INNING</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="inning">0</span></span>
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">BALLS</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="balls">0</span></span>
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">STRIKES</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="strikes">0</span></span>
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">OUTS</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="outs">0</span></span>
+  </div></footer>
+  <div class="point-slot" data-osb-component="layout" hidden><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</article></main></body></html>
