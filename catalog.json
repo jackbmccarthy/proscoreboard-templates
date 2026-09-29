@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "4bc23e802dcbe863ed29808cd4c69a3b5eeae5c8a6700f4c72dd7f5f23be298f",
+  "revision": "eded3aefcd9005501deed2c9309cef98d3d56b00b52df23a171df15a33919c52",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -1624,6 +1624,664 @@
       "fileName": "atlantic-open-flank-volleyball-2.html",
       "contentHash": "843e5299c28e0e5c425415694b0f66398a294bda3d0b9824bc9a2d510a8bd077",
       "documentPath": "published/843e5299c28e0e5c425415694b0f66398a294bda3d0b9824bc9a2d510a8bd077.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white hits supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-baseball-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-baseball-1.html",
+      "contentHash": "fc4265dbcee8bd9276261df2393b0bb2dff3e15a193cdf69fc213d85d474b28c",
+      "documentPath": "published/fc4265dbcee8bd9276261df2393b0bb2dff3e15a193cdf69fc213d85d474b28c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white hits supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-baseball-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-baseball-2.html",
+      "contentHash": "775619d21c4388b484f0a6abc38b1dd5a76b352c3e76f04f26de319c6d4d66c7",
+      "documentPath": "published/775619d21c4388b484f0a6abc38b1dd5a76b352c3e76f04f26de319c6d4d66c7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white fouls supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-basketball-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-basketball-1.html",
+      "contentHash": "fb21021bd3c6901f3070b00d3afd2dc1feb5b986c2b0bacc1869f69d4284872e",
+      "documentPath": "published/fb21021bd3c6901f3070b00d3afd2dc1feb5b986c2b0bacc1869f69d4284872e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white fouls supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-basketball-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-basketball-2.html",
+      "contentHash": "0c7533a0943112e0a20115ea26d5d1ffb45891c2952bf3027d1e72872858b1fb",
+      "documentPath": "published/0c7533a0943112e0a20115ea26d5d1ffb45891c2952bf3027d1e72872858b1fb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white games won supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-pickleball-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-pickleball-1.html",
+      "contentHash": "1426d73ed4c9f9e0c682a1d9000fbfa20dabe61b99c3641460dc076930e64c1c",
+      "documentPath": "published/1426d73ed4c9f9e0c682a1d9000fbfa20dabe61b99c3641460dc076930e64c1c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white games won supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-pickleball-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-pickleball-2.html",
+      "contentHash": "67b2dea71b741ed08527fc7aa2b1766a32dd4966dffdfe0e4cef8fcd1368e854",
+      "documentPath": "published/67b2dea71b741ed08527fc7aa2b1766a32dd4966dffdfe0e4cef8fcd1368e854.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white fouls supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-soccer-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-soccer-1.html",
+      "contentHash": "e732b9810ea06593d2f27fc24e990e66b0d342e5ab976674340ac9a04e33faea",
+      "documentPath": "published/e732b9810ea06593d2f27fc24e990e66b0d342e5ab976674340ac9a04e33faea.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white fouls supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-soccer-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-soccer-2.html",
+      "contentHash": "c2a6b8c73ff950865b004435d0dc5273a89b3d27d95c96391ca978a877b97afd",
+      "documentPath": "published/c2a6b8c73ff950865b004435d0dc5273a89b3d27d95c96391ca978a877b97afd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white hits supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-softball-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-softball-1.html",
+      "contentHash": "9dc449650d6c77b0081cf7a864b0448605d841bec82b4d9d92a7255002ff75f9",
+      "documentPath": "published/9dc449650d6c77b0081cf7a864b0448605d841bec82b4d9d92a7255002ff75f9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white hits supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-softball-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-softball-2.html",
+      "contentHash": "67b8e7a9683d72954b9b2f82d4e1e3f8884b9d5309a79d8f32e4f31008ff899f",
+      "documentPath": "published/67b8e7a9683d72954b9b2f82d4e1e3f8884b9d5309a79d8f32e4f31008ff899f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white games won supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-table-tennis-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-table-tennis-1.html",
+      "contentHash": "26e61c3b496cbd5aeefbafb927747eecf070ea2925c8968131df6780b5ff3ff7",
+      "documentPath": "published/26e61c3b496cbd5aeefbafb927747eecf070ea2925c8968131df6780b5ff3ff7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white games won supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-table-tennis-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-table-tennis-2.html",
+      "contentHash": "24f6c5a9653d980a4ed96ba165b1c14116ba106a25fd6fd50b87a74326192da3",
+      "documentPath": "published/24f6c5a9653d980a4ed96ba165b1c14116ba106a25fd6fd50b87a74326192da3.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white sets won supporting count at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-volleyball-1.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "aubergine-cloud-scorebank-volleyball-1.html",
+      "contentHash": "6dfd6d95eba02b367f95eaedaefc0db231fd4c8b541b8072d19a8cf01b6e06fe",
+      "documentPath": "published/6dfd6d95eba02b367f95eaedaefc0db231fd4c8b541b8072d19a8cf01b6e06fe.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-scorebank",
+      "description": "Professional static broadcast scoreboard with a pale-cloud top sport/status header and continuous deep-aubergine competitor field. Each lane starts with a slim live identity-color tick, then a flexible white name, one FIXED FILLED silver-cloud primary score bank with a complete solid dark zero, and one SMALLER OPEN white sets won supporting count at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale primary bank followed by a smaller open support count; no decorative art or motion.",
+      "output": "html-replications/aubergine-cloud-scorebank-volleyball-2.html",
+      "palette": [
+        "#35313b",
+        "#e2e4e7",
+        "#c9d0d9",
+        "#25313b",
+        "#f8f7f5",
+        "#2b87a8",
+        "#c56568"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "39c9aaed6cf7d63b5b8742f83ce8807463a1b809275c5f5a774c6d3672626ad9",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third. A shallow full-width pale sport/status header sits ABOVE a continuous dark aubergine competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED pale primary score bank immediately AFTER the name, then one narrow fixed OPEN supporting-count track at the FAR RIGHT on the same dark fill as the name.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, fixed numeric tracks, flexible names, stable native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-aubergine #35313b field behind flexible white names and OPEN far-right supporting count; ONE filled silver-cloud #c9d0d9 primary score bank sits between the name and support track. The support track has the exact same dark aubergine fill as the names, with no tile or outline. One shallow full-width pale-cloud #e2e4e7 top header groups sport and static status in dark text. Thin cool-neutral rules and 4px corners; no footer dock, gradients, shadows, textures or decorative motifs.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names near 24px; a complete solid bold dark 40px tabular primary numeral and small dark caption in the pale fixed score bank; a smaller complete solid warm-white 18px tabular supporting zero with compact 10px caption on the open dark track; dark sport/status lettering in the light header."
+      },
+      "styleID": "aubergine-cloud-scorebank",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "aubergine-cloud-scorebank",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Aubergine Cloud Scorebank — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "aubergine-cloud-scorebank-volleyball-2.html",
+      "contentHash": "df27adc8615926206da30dfb15f4a9cc08e9b70446fb0c595d94b6edf98690c1",
+      "documentPath": "published/df27adc8615926206da30dfb15f4a9cc08e9b70446fb0c595d94b6edf98690c1.json"
     },
     {
       "aliases": [],

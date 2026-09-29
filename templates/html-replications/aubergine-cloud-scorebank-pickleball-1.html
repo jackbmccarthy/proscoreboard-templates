@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pickleball — Aubergine Cloud Scorebank Scorebug</title><style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center}
+.board{--aubergine:#35313b;--cloud:#e2e4e7;--bank:#c9d0d9;--ink:#25313b;--white:#f8f7f5;--rule:#8e959d;display:flex;flex-direction:column;width:min(63.3vw,1260px);min-width:0;overflow:hidden;border:1px solid var(--rule);border-radius:4px;background:var(--aubergine);color:var(--white);container-type:inline-size}
+.topline{position:relative;display:flex;flex:0 0 auto;height:7.5cqw;align-items:center;padding:0 4cqw;background:var(--cloud);color:var(--ink);font-size:4.35cqw;line-height:1;font-weight:700;white-space:nowrap}
+.rows{display:flex;flex:1 1 auto;min-width:0;flex-direction:column}
+.row{display:flex;flex:1 1 50%;min-width:0;min-height:11.7cqw;align-items:stretch}
+.row+.row{border-top:1px solid var(--rule)}
+.identity{display:block;flex:0 0 2.7%;width:2.7%;background:#2b87a8}
+.jerseyColorB{background:#c56568}
+.name-lane{display:flex;flex:1 1 auto;min-width:0;align-items:center;gap:.7cqw;padding:0 3.5cqw}
+.name{display:block;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:5.5cqw;line-height:1.04;font-weight:700}
+.combinedAName:empty::before{content:"Player A"}.combinedBName:empty::before{content:"Player B"}
+.serve{display:block;flex:0 0 .55cqw;width:.55cqw;height:.55cqw;min-width:6px;min-height:6px;border-radius:50%;background:var(--white)}
+.primary-bank,.support-track{display:flex;min-width:0;flex-direction:column;align-items:center;justify-content:center;white-space:nowrap}
+.primary-bank{flex:0 0 18.6%;width:18.6%;background:var(--bank);color:var(--ink)}
+.support-track{flex:0 0 15.3%;width:15.3%;background:var(--aubergine);color:var(--white)}
+.primary-score,.support-score{display:block;max-width:100%;overflow:hidden;white-space:nowrap;line-height:1;font-weight:700;font-variant-numeric:tabular-nums}
+.primary-score{font-size:6.75cqw}.support-score{font-size:4.35cqw}
+.primary-label,.support-label{display:block;max-width:100%;overflow:hidden;white-space:nowrap;font-size:2.15cqw;line-height:1;font-weight:700}
+.point-slot{position:absolute;right:2%;top:0;width:20%;height:100%;font-size:1.05cqw;font-weight:700;text-align:center}
+.point-state{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--cloud)}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:600px){.board{width:94vw}.topline{height:34px;padding:0 9px;font-size:14px}.row{min-height:86px}.identity{flex-basis:5px;width:5px}.name-lane{gap:2px;padding:0 6px}.name{font-size:17px}.serve{flex-basis:5px;width:5px;height:5px}.primary-bank{flex-basis:26%;width:26%}.support-track{flex-basis:23%;width:23%}.primary-score{font-size:37px}.support-score{font-size:24px}.primary-label,.support-label{font-size:8px}.point-slot{font-size:8px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body><main class="stage"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="topline"><span>PICKLEBALL</span><div class="point-slot"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div><div class="rows columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="name-lane"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true"></span></div><div class="primary-bank"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="primary-label">POINTS</span></div><div class="support-track"><span class="support-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="support-label">GAMES</span></div></div><div class="row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="name-lane"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;"></span></div><div class="primary-bank"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="primary-label">POINTS</span></div><div class="support-track"><span class="support-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="support-label">GAMES</span></div></div></div></article></main></body></html>
