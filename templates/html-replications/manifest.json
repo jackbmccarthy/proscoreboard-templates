@@ -28404,5 +28404,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-table-tennis-1.html",
+    "title": "Night Mist Trailing Stat — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale games won supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-table-tennis-2.html",
+    "title": "Night Mist Trailing Stat — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale games won supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-pickleball-1.html",
+    "title": "Night Mist Trailing Stat — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale games won supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-pickleball-2.html",
+    "title": "Night Mist Trailing Stat — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale games won supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-baseball-1.html",
+    "title": "Night Mist Trailing Stat — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale hits supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-baseball-2.html",
+    "title": "Night Mist Trailing Stat — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale hits supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-softball-1.html",
+    "title": "Night Mist Trailing Stat — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale hits supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-softball-2.html",
+    "title": "Night Mist Trailing Stat — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale hits supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-basketball-1.html",
+    "title": "Night Mist Trailing Stat — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale fouls supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-basketball-2.html",
+    "title": "Night Mist Trailing Stat — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale fouls supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-soccer-1.html",
+    "title": "Night Mist Trailing Stat — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale fouls supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-soccer-2.html",
+    "title": "Night Mist Trailing Stat — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale fouls supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-volleyball-1.html",
+    "title": "Night Mist Trailing Stat — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale sets won supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. Two aligned competitor rows sit beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-paired-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/night-mist-trailing-stat-volleyball-2.html",
+    "title": "Night Mist Trailing Stat — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#263944",
+      "#e4ebe7",
+      "#cfdbd8",
+      "#f7f8f4",
+      "#899ba0",
+      "#2f8aae",
+      "#c76769"
+    ],
+    "motif": "Functional contrast between one trailing filled support and one open dominant score; no decorative art or motion.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "night-mist-trailing-stat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with a light-mist top sport/status header and a continuous deep-night-slate field for flexible names and OPEN primary scores. Each competitor lane starts with a slim live identity-color tick, then a flexible white name, one small FILLED pale sets won supporting cell AFTER the name, and one large complete solid white primary zero at the far right on the SAME dark fill as the name. A true horizontal lower-third places both competitors side by side beneath the shallow pale sport/status header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "horizontal-trailing-stat",
+    "styleID": "night-mist-trailing-stat",
+    "styleFingerprint": "c264f2845c047f92080d4c9a7c953a9d3b5134b4e1eb86740f7c25b4555a75ca",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 60px competitor rows or a true balanced equal-lane horizontal lower-third; one shallow full-width light sport/status header sits ABOVE a continuous dark competitor field. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one fixed FILLED light supporting-count cell AFTER the name, then one large fixed OPEN primary score track at the far right. The primary track and name lane share the exact same dark fill.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica warm-white competitor names around 24px; a complete solid bold white tabular primary numeral around 43px on the dark open field with small white caption; 18px dark-slate support zero with compact 10px label inside the pale filled cell; header sport and counters in dark 11px upright sans-serif.",
+      "surface": "One flat uninterrupted deep-night-slate #263944 field across competitor names and OPEN primary score tracks; a small fixed pale-mist #cfdbd8 FILLED supporting cell sits immediately after each flexible name. A shallow full-width pale #e4ebe7 header carries sport at left and grouped status at right. The primary score stays WHITE and OPEN on the SAME DARK fill as the names, with no terminal tile, score outline or bottom dock. Thin cool-gray rules and 2px corners; no gradients, texture, shadows or decorative motifs.",
+      "professionalFinish": "Static polished broadcast scorebug with complete solid numerals, flexible name lanes, fixed paired score tracks, stable native status slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
