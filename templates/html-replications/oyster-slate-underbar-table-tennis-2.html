@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oyster Slate Underbar TABLE TENNIS 2</title>
+  <style>
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: transparent; }
+body { font-family: Arial, Helvetica, sans-serif; color: #283844; }
+.stage { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 16px; }
+.board { --board-width: 1650px; --row-direction: row; --lane-height: 125px; --tick-width: 26px; --name-padding: 32px; --name-size: clamp(28px, 3.1vw, 58px); --primary-width: 23%; --support-width: 18%; --primary-size: clamp(42px, 4.4vw, 72px); --support-size: clamp(31px, 3.2vw, 52px); --caption-size: clamp(12px, 1.15vw, 20px); --underbar-height: 56px; --underbar-padding: 30px; --sport-size: clamp(17px, 1.8vw, 30px); --row-border-top: 0; --row-border-left: 1px solid #aeb4b2; }
+.board { --oyster: #ece8df; --slate: #283844; width: min(100%, var(--board-width)); background: var(--oyster); border-radius: 3px; overflow: hidden; }
+.rows { display: flex; flex-direction: var(--row-direction); min-width: 0; }
+.lane { display: flex; flex: 1 1 0; min-width: 0; height: var(--lane-height); background: var(--oyster); }
+.lane + .lane { border-top: var(--row-border-top); border-left: var(--row-border-left); }
+.identity { flex: 0 0 var(--tick-width); background: #2684a3; }
+.jerseyColorB { background: #c86a61; }
+.name-cell { display: flex; align-items: center; flex: 1 1 0; min-width: 0; gap: 8px; padding: 0 var(--name-padding); }
+.name { display: block; flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--name-size); line-height: 1.1; font-weight: 700; }
+.combinedAName:empty::before { content: "Player A"; }
+.combinedBName:empty::before { content: "Player B"; }
+.serve { flex: 0 0 12px; width: 12px; height: 12px; color: #283844; font-size: 11px; line-height: 12px; text-align: center; }
+.primary, .support { display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0; min-width: 0; font-variant-numeric: tabular-nums; }
+.primary { flex-basis: var(--primary-width); color: #fff; background: var(--slate); }
+.support { flex-basis: var(--support-width); color: var(--slate); background: var(--oyster); }
+.value { display: block; width: 100%; text-align: center; font-weight: 700; white-space: nowrap; line-height: 1; }
+.primary .value { font-size: var(--primary-size); }
+.support .value { font-size: var(--support-size); }
+.caption { display: block; margin-top: 3px; font-size: var(--caption-size); line-height: 1; font-weight: 700; text-align: center; }
+.underbar { position: relative; display: flex; align-items: center; width: 100%; height: var(--underbar-height); padding: 0 var(--underbar-padding); background: var(--slate); color: #fff; border-top: 1px solid #b8c1be; }
+.sport-tag { font-size: var(--sport-size); font-weight: 700; letter-spacing: .045em; white-space: nowrap; }
+.point-slot { position: relative; margin-left: auto; width: 116px; height: 18px; font-size: 11px; line-height: 18px; text-align: right; }
+.point-label { position: absolute; inset: 0; white-space: nowrap; }
+.point-slot:has(.isMatchPoint[style*="opacity: 1"]) .isGamePoint { opacity: 0 !important; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+@media (max-width: 640px) {
+  .board { width: min(100%, 520px); --row-direction: column; --lane-height: 76px; --tick-width: 5px; --name-padding: 12px; --name-size: 22px; --primary-width: 76px; --support-width: 61px; --primary-size: 34px; --support-size: 27px; --caption-size: 10px; --underbar-height: 38px; --underbar-padding: 14px; --sport-size: 13px; --row-border-top: 1px solid #aeb4b2; --row-border-left: 0; }
+  .point-slot { width: 92px; font-size: 9px; }
+}
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+      <div class="rows rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+      <div class="lane rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span>
+        <div class="name-cell">
+          <span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span>
+          <span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true">●</span>
+        </div>
+        <div class="primary"><span class="value currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="caption">POINTS</span></div>
+        <div class="support"><span class="value currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="caption">GAMES</span></div>
+      </div>
+      <div class="lane rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+        <span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span>
+        <div class="name-cell">
+          <span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span>
+          <span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;">●</span>
+        </div>
+        <div class="primary"><span class="value currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="caption">POINTS</span></div>
+        <div class="support"><span class="value currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="caption">GAMES</span></div>
+      </div>
+      </div>
+      <div class="underbar">
+        <span class="sport-tag">TABLE TENNIS</span>
+        <span class="point-slot">
+          <span class="point-label isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span>
+          <span class="point-label isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span>
+        </span>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

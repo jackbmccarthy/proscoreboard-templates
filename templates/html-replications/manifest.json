@@ -32100,5 +32100,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-table-tennis-1.html",
+    "title": "Oyster Slate Underbar — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark games won supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-table-tennis-2.html",
+    "title": "Oyster Slate Underbar — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark games won supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-pickleball-1.html",
+    "title": "Oyster Slate Underbar — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark games won supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-pickleball-2.html",
+    "title": "Oyster Slate Underbar — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark games won supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-baseball-1.html",
+    "title": "Oyster Slate Underbar — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark hits supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-baseball-2.html",
+    "title": "Oyster Slate Underbar — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark hits supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-softball-1.html",
+    "title": "Oyster Slate Underbar — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark hits supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-softball-2.html",
+    "title": "Oyster Slate Underbar — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark hits supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-basketball-1.html",
+    "title": "Oyster Slate Underbar — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark fouls supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-basketball-2.html",
+    "title": "Oyster Slate Underbar — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark fouls supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-soccer-1.html",
+    "title": "Oyster Slate Underbar — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark fouls supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-soccer-2.html",
+    "title": "Oyster Slate Underbar — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark fouls supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-volleyball-1.html",
+    "title": "Oyster Slate Underbar — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark sets won supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-paired-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/oyster-slate-underbar-volleyball-2.html",
+    "title": "Oyster Slate Underbar — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ece8df",
+      "#283844",
+      "#f8f7f2",
+      "#b8c1be",
+      "#546670",
+      "#2684a3",
+      "#c86a61"
+    ],
+    "motif": "Functional filled primary bank followed by open support, anchored by a compact sport/status underbar.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "oyster-slate-underbar",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous warm-oyster competitor body and a shallow deep-slate sport/status underbar BELOW the competitors. Each lane reads from a slim live blue/coral identity tick through a flexible dark name to one fixed FILLED deep-slate PRIMARY score bank with a complete white zero, then a smaller OPEN dark sets won supporting count at the far right on the SAME oyster fill as the name. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the bottom underbar, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "balanced-horizontal-underbar",
+    "styleID": "oyster-slate-underbar",
+    "styleFingerprint": "919d7263f677916f7814fe31eada4864bb5a6d712fdd92923b9bbbc3acafac5e",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 68px competitor rows or a true balanced horizontal lower-third. Each warm-oyster competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, flexible dark name, one fixed FILLED deep-slate PRIMARY score bank immediately after the name, and one narrower fixed OPEN dark supporting-count track at the far right on the SAME oyster fill as the name. A shallow full-width deep-slate sport/status UNDERBAR attaches BELOW both competitor lanes, carrying sport at left and grouped static counters at right. No top header or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark-slate competitor names around 27px; one complete solid bold white 43px tabular primary zero and compact white caption in the dark filled score bank; smaller complete solid dark-slate 20px tabular supporting zero and compact 10px caption in the open oyster track; white 12px uppercase sport/status text in the bottom underbar.",
+      "surface": "One flat uninterrupted warm-oyster #ece8df field holds flexible dark names and OPEN far-right supporting counts. ONE equal fixed deep-slate #283844 filled PRIMARY bank with complete white zero sits between each name and support; the supporting track has the EXACT SAME oyster fill as names, no separate tile or outline. A shallow continuous deep-slate underbar BELOW both lanes carries sport and shared status in white. Thin neutral row rules, 2px outer corners; no top header, left console, gradient, shadow, texture, decorative hardware or animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
