@@ -35180,5 +35180,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-table-tennis-1.html",
+    "title": "Harbor Silver Leadstat — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale games won supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-table-tennis-2.html",
+    "title": "Harbor Silver Leadstat — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale games won supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-pickleball-1.html",
+    "title": "Harbor Silver Leadstat — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale games won supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-pickleball-2.html",
+    "title": "Harbor Silver Leadstat — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale games won supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-baseball-1.html",
+    "title": "Harbor Silver Leadstat — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale hits supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-baseball-2.html",
+    "title": "Harbor Silver Leadstat — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale hits supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-softball-1.html",
+    "title": "Harbor Silver Leadstat — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale hits supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-softball-2.html",
+    "title": "Harbor Silver Leadstat — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale hits supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-basketball-1.html",
+    "title": "Harbor Silver Leadstat — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale fouls supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-basketball-2.html",
+    "title": "Harbor Silver Leadstat — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale fouls supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-soccer-1.html",
+    "title": "Harbor Silver Leadstat — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale fouls supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-soccer-2.html",
+    "title": "Harbor Silver Leadstat — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale fouls supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-volleyball-1.html",
+    "title": "Harbor Silver Leadstat — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale sets won supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-harbor-leadstat-scorebug",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/harbor-silver-leadstat-volleyball-2.html",
+    "title": "Harbor Silver Leadstat — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#1e3949",
+      "#d9e3e4",
+      "#f7faf8",
+      "#9fb5bc",
+      "#58717b",
+      "#338ba6",
+      "#c86e69"
+    ],
+    "motif": "Functional leading open support track and trailing filled silver primary score terminal with a quiet same-color top status line.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "harbor-silver-leadstat",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous deep-harbor competitor body and a shallow same-harbor sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a smaller OPEN pale sets won supporting count on the same dark fill, a flexible white name, then one fixed FILLED silver-mist PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "balanced-harbor-leadstat-lower-third",
+    "styleID": "harbor-silver-leadstat",
+    "styleFingerprint": "84f34afa8cc56ef14f2ff7a9f1299068d390c134ccf0fdbbbcfc65cb6ddf6ce5",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 66px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-HARBOR sport/status utility line. Each deep-harbor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, small fixed OPEN pale supporting-count track at the LEADING side on the SAME dark fill, wide flexible white name, then one larger fixed FILLED silver-mist PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No bottom footer or side dock.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-harbor 44px tabular primary numeral with concise dark caption in the silver terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open harbor lane; white sport title near 14px and compact 11px status counters in the same-harbor top utility line.",
+      "surface": "One flat uninterrupted deep-harbor #1e3949 field holds the OPEN leading supporting count and flexible white name. ONE equal fixed silver-mist #d9e3e4 filled PRIMARY terminal with complete solid dark zero closes each competitor lane at FAR RIGHT, AFTER the name. The support track has the EXACT SAME dark fill as the name with only a fine cool-gray separator, no tile or outline. A slim full-width SAME-HARBOR sport/status utility line sits ABOVE both lanes, sport at left and grouped zero-valued counters at right, separated by one subtle rule. Thin neutral row rules, 3px outer corners; no bottom footer, contrasting banner, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]

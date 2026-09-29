@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TABLE TENNIS Scoreboard</title><style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif;color:#f7faf8}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center}
+.board{width:min(58vw,1180px);max-width:calc(100vw - 16px);overflow:hidden;border:1px solid #58717b;border-radius:3px;background:#1e3949;container-type:inline-size}
+.board.horizontal{width:min(79vw,1618px)}
+.header{height:39px;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 17px 0 18px;border-bottom:1px solid #6f8790;background:#1e3949}
+.sport-tag{font-size:16px;line-height:1;font-weight:700;letter-spacing:.035em;white-space:nowrap}
+.point-slot{position:relative;flex:0 0 124px;height:100%;font-size:10px;line-height:1;font-weight:700;letter-spacing:.09em;text-align:right}
+.point-state{position:absolute;inset:0;display:flex;align-items:center;justify-content:flex-end;background:#1e3949;white-space:nowrap}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+.lanes{display:flex;flex-direction:column}
+.lane{display:flex;align-items:stretch;min-width:0;height:91px;background:#1e3949}
+.lane+.lane{border-top:1px solid #6f8790}
+.identity{flex:0 0 5px;width:5px;background:#338ba6}
+.jerseyColorB{background:#c86e69}
+.support-track{flex:0 0 90px;width:90px;display:flex;align-items:center;justify-content:center;flex-direction:column;min-width:0;border-right:1px solid #90a7ae;font-variant-numeric:tabular-nums}
+.support-score{display:block;max-width:100%;overflow:hidden;color:#d9e3e4;font-size:23px;line-height:1;font-weight:700;white-space:nowrap}
+.caption{display:block;max-width:100%;overflow:hidden;white-space:nowrap;font-weight:700;line-height:1;letter-spacing:.025em}
+.support-track .caption{margin-top:3px;color:#cbd9db;font-size:10px}
+.name-track{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:8px;padding:0 15px}
+.name{display:block;flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:26px;line-height:1.1;font-weight:700}
+.combinedAName:empty::before{content:"Player A"}
+.combinedBName:empty::before{content:"Player B"}
+.serve{flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:#d9e3e4}
+.primary-track{flex:0 0 102px;width:102px;display:flex;align-items:center;justify-content:center;flex-direction:column;min-width:0;background:#d9e3e4;color:#1e3949;font-variant-numeric:tabular-nums}
+.primary-score{display:block;max-width:100%;overflow:hidden;white-space:nowrap;font-size:43px;line-height:.95;font-weight:800}
+.primary-track .caption{margin-top:4px;font-size:10px}
+.horizontal .lanes{flex-direction:row}
+.horizontal .lane{flex:1 1 0;width:50%;height:78px}
+.horizontal .lane+.lane{border-top:0;border-left:1px solid #6f8790}
+@media(max-width:700px){.board,.board.horizontal{width:calc(100vw - 16px)}.header{height:34px;padding:0 9px}.sport-tag{font-size:13px}.point-slot{flex-basis:100px;font-size:8px}.horizontal .lanes{flex-direction:column}.horizontal .lane{flex:none;width:100%}.horizontal .lane+.lane{border-left:0;border-top:1px solid #6f8790}.lane{height:66px}.support-track{flex-basis:59px;width:59px}.support-score{font-size:21px}.support-track .caption{font-size:8px}.name-track{gap:4px;padding:0 7px}.name{font-size:clamp(15px,5vw,22px)}.serve{flex-basis:5px;width:5px;height:5px}.primary-track{flex-basis:76px;width:76px}.primary-score{font-size:39px}.primary-track .caption{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style></head><body><main class="stage"><article class="board horizontal columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><header class="header"><span class="sport-tag">TABLE TENNIS</span><div class="point-slot"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></header><div class="lanes columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="lane rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="support-track"><span class="support-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="caption">GAMES</span></div><div class="name-track"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span> <span class="serve isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" style="opacity: 0;" isA="true"></span></div><div class="primary-track"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="caption">POINTS</span></div></div><div class="lane rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="support-track"><span class="support-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="caption">GAMES</span></div><div class="name-track"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span> <span class="serve isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity: 0;"></span></div><div class="primary-track"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="caption">POINTS</span></div></div></div></article></main></body></html>
