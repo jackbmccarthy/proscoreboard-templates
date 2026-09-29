@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Warm Paper Rightnote — SOCCER 2</title>
+<style>
+*{box-sizing:border-box}
+html,body{width:100%;min-height:100%;margin:0;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:12px}
+.board{position:relative;display:flex;overflow:hidden;background:#f2efe9;color:#293a44;border-radius:6px;font-variant-numeric:tabular-nums;container-type:inline-size}
+.lanes{display:flex;flex:1 1 auto;min-width:0}
+.lane{display:flex;align-items:stretch;flex:1 1 0;min-width:0;background:#f2efe9}
+.tick{display:block;flex:0 0 9px;background:#2f86a7}
+.jerseyColorB{background:#c77469}
+.name-lane{display:flex;flex:1 1 auto;min-width:0;flex-direction:column;justify-content:center;padding:0 18px 0 22px}
+.name{display:block;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:clamp(20px,3.5cqw,46px);font-weight:800;line-height:1.05}
+.combinedAName:empty::before{content:"Team A"}
+.combinedBName:empty::before{content:"Team B"}
+.support-track{display:flex;align-items:baseline;gap:7px;margin-top:5px;white-space:nowrap;line-height:1}
+.support-number{font-size:clamp(15px,1.65cqw,23px);font-weight:800}
+.support-label{font-size:clamp(10px,1.12cqw,16px);font-weight:700;letter-spacing:.015em}
+.primary-track{display:flex;flex:0 0 110px;min-width:0;flex-direction:column;align-items:center;justify-content:center;align-self:stretch;background:#f2efe9;text-align:center}
+.primary-number{display:block;font-size:clamp(42px,5.4cqw,60px);font-weight:800;line-height:.98;font-variant-numeric:tabular-nums}
+.primary-label{margin-top:3px;font-size:clamp(11px,1.2cqw,16px);font-weight:700;line-height:1.1;letter-spacing:.02em}
+.dock{display:flex;flex:0 0 24%;min-width:0;flex-direction:column;background:#293a44;color:#faf9f5}
+.dock-title{font-size:clamp(15px,1.65cqw,23px);font-weight:800;line-height:1.05;letter-spacing:.015em}
+.stats{display:flex;min-width:0}
+.stat{display:flex;min-width:0}
+.stat-label{color:#b9c2bf;font-size:clamp(10px,1.02cqw,14px);font-weight:700;line-height:1.1}
+.stat-value{font-size:clamp(21px,2.45cqw,34px);font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.retained{display:none}
+.neutral-point-slot{position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
+.neutral-point-slot:has(.isMatchPoint[style*="opacity: 1"]) .isGamePoint,.neutral-point-slot:has(.isMatchPoint[style*="opacity:1"]) .isGamePoint{opacity:0!important}
+.compact{width:min(60vw,930px);aspect-ratio:3.65}
+.compact .lanes{flex-direction:column}
+.compact .lane+.lane{border-top:1px solid #b9c2bf}
+.compact .dock{align-items:center;padding:13px 13px 12px;text-align:center}
+.compact .dock-title{margin:0 0 13px}
+.compact .stats{flex:1;flex-direction:column;justify-content:space-around;width:100%}
+.compact .stat{flex-direction:column;align-items:center;gap:3px}
+.wide{width:min(88vw,1660px);aspect-ratio:9.8}
+.wide .lanes{flex-direction:row}
+.wide .lane+.lane{border-left:1px solid #b9c2bf}
+.wide .dock{flex-basis:22%;padding:14px 16px}
+.wide .dock-title{margin:0 0 auto}
+.wide .stats{align-items:stretch}
+.wide .stat{flex:1 1 0;flex-direction:column;align-items:center;justify-content:center;gap:5px;text-align:center}
+.wide .stat+.stat{border-left:1px solid #667a7d}
+.wide .primary-track{flex-basis:103px}
+.wide .name-lane{padding-left:19px}
+@media(max-width:800px){
+.stage{padding:8px}
+.compact{width:100%;aspect-ratio:auto;height:174px}
+.wide{width:100%;aspect-ratio:auto;height:132px}
+.tick{flex-basis:6px}
+.name-lane{padding-left:11px;padding-right:4px}
+.name{font-size:clamp(15px,4.1vw,28px)}
+.support-track{gap:4px;margin-top:3px}
+.support-number{font-size:15px}
+.support-label{font-size:10px}
+.primary-track,.wide .primary-track{flex-basis:65px}
+.primary-number{font-size:37px}
+.primary-label{font-size:9px}
+.compact .dock{flex-basis:25%;padding:10px 5px}
+.wide .dock{flex-basis:24%;padding:10px 6px}
+.dock-title{font-size:clamp(10px,2vw,16px)}
+.stat-label{font-size:9px}
+.stat-value{font-size:18px}
+.wide .name-lane{padding-left:8px}
+.wide .name{font-size:clamp(13px,2.6vw,22px)}
+.wide .stats{flex-direction:column}
+.wide .stat{flex-direction:row;justify-content:space-between;gap:3px;text-align:left}
+.wide .stat+.stat{border-left:0;border-top:1px solid #667a7d}
+}
+@media(max-width:700px){
+.wide{height:174px}
+.wide .lanes{flex-direction:column}
+.wide .lane{min-height:0}
+.wide .lane+.lane{border-left:0;border-top:1px solid #b9c2bf}
+.wide .name-lane{padding-left:11px;padding-right:4px}
+.wide .name{font-size:clamp(15px,4.1vw,28px)}
+.wide .support-number{font-size:15px}
+.wide .support-label{font-size:10px}
+.wide .primary-track{flex-basis:65px}
+.wide .primary-number{font-size:37px}
+.wide .primary-label{font-size:9px}
+}
+@media(max-width:460px){
+.wide{height:174px}
+.wide .tick{flex-basis:4px}
+.wide .name-lane{padding:0 3px 0 9px}
+.wide .name{font-size:clamp(15px,4.1vw,22px)}
+.wide .support-number{font-size:14px}
+.wide .support-label{font-size:9px}
+.wide .primary-track{flex-basis:62px}
+.wide .primary-number{font-size:35px}
+.wide .primary-label{font-size:8px}
+.wide .dock{flex-basis:25%;padding:7px 4px}
+.wide .dock-title{font-size:10px}
+.wide .stat-label{font-size:8px}
+.wide .stat-value{font-size:15px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="stage" data-osb-component="layout">
+<article class="board wide rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container" aria-label="SOCCER scoreboard">
+  <div class="lanes rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+  <div class="lane rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+  <span class="tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span>
+  <div class="name-lane" data-osb-component="layout">
+    <span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span>
+    <span class="support-track" data-osb-component="layout"><span class="support-number" data-osb-component="text" data-osb-static="true" data-sport-stat="fouls-a">0</span><span class="support-label" data-osb-component="text">FOULS</span></span>
+  </div>
+  <div class="primary-track" data-osb-component="layout"><span class="primary-number currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="primary-label" data-osb-component="text">GOALS</span></div>
+  <span class="retained currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span>
+</div>
+  <div class="lane rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+  <span class="tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span>
+  <div class="name-lane" data-osb-component="layout">
+    <span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span>
+    <span class="support-track" data-osb-component="layout"><span class="support-number" data-osb-component="text" data-osb-static="true" data-sport-stat="fouls-b">0</span><span class="support-label" data-osb-component="text">FOULS</span></span>
+  </div>
+  <div class="primary-track" data-osb-component="layout"><span class="primary-number currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="primary-label" data-osb-component="text">GOALS</span></div>
+  <span class="retained currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span>
+</div>
+  </div>
+  <aside class="dock columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Editable static soccer status">
+    <span class="dock-title" data-osb-component="text">SOCCER</span>
+    <div class="stats" data-osb-component="layout">
+      <div class="stat" data-osb-component="layout"><span class="stat-label" data-osb-component="text">CLOCK</span><span class="stat-value" data-osb-component="text" data-osb-static="true" data-sport-stat="game-clock">00:00</span></div>
+      <div class="stat" data-osb-component="layout"><span class="stat-label" data-osb-component="text">HALF</span><span class="stat-value" data-osb-component="text" data-osb-static="true" data-sport-stat="half">0</span></div>
+    </div>
+  </aside>
+  <span class="neutral-point-slot" aria-hidden="true"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;"></span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;"></span></span>
+</article>
+</main>
+</body>
+</html>

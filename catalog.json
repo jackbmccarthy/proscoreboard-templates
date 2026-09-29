@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "f8d72b74783ea0303a8165d3238efed6e1f80e8cbe702b455e466af0ae182fc3",
+  "revision": "0147e2e24c6445b76ecb8a77973fabc136b910a36d1abf7952f4400b5da0fb2f",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -38252,6 +38252,664 @@
       "fileName": "violet-ash-open-register-volleyball-2.html",
       "contentHash": "3c93bfbaef7c760373b111421a70b1da66ca7d5664749659d3f34a14c605dbeb",
       "documentPath": "published/3c93bfbaef7c760373b111421a70b1da66ca7d5664749659d3f34a14c605dbeb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller hits supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-baseball-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-baseball-1.html",
+      "contentHash": "775c1b80375640296ec3c92e0b28f139cad45b84d4f8f490ca51e917dd0b8b3a",
+      "documentPath": "published/775c1b80375640296ec3c92e0b28f139cad45b84d4f8f490ca51e917dd0b8b3a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller hits supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-baseball-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-baseball-2.html",
+      "contentHash": "ed410f406e8f826c3ced953b5d65aafd67c61892f3e56031b9805149ff21b49c",
+      "documentPath": "published/ed410f406e8f826c3ced953b5d65aafd67c61892f3e56031b9805149ff21b49c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller fouls supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-basketball-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-basketball-1.html",
+      "contentHash": "1ba6e94a8676c1eb12d1b40757785832446b48c05857aaee8d4fb6215a6abcbd",
+      "documentPath": "published/1ba6e94a8676c1eb12d1b40757785832446b48c05857aaee8d4fb6215a6abcbd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller fouls supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-basketball-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-basketball-2.html",
+      "contentHash": "f540e73a917faab383cfd43110949fb964bcc6b6b148d4aa9f7f6eb01c7a1917",
+      "documentPath": "published/f540e73a917faab383cfd43110949fb964bcc6b6b148d4aa9f7f6eb01c7a1917.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller games won supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-pickleball-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Warm Paper Rightnote — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-pickleball-1.html",
+      "contentHash": "bafb083e549bd8ba2873ad2c6d0f81c681754b26c6b15b6c147c83c12ad4e07d",
+      "documentPath": "published/bafb083e549bd8ba2873ad2c6d0f81c681754b26c6b15b6c147c83c12ad4e07d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller games won supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-pickleball-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Warm Paper Rightnote — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-pickleball-2.html",
+      "contentHash": "845298f4066d46960b480f15c6069816f93efe37c1cdd04cd4d6caf4f0312a72",
+      "documentPath": "published/845298f4066d46960b480f15c6069816f93efe37c1cdd04cd4d6caf4f0312a72.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller fouls supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-soccer-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-soccer-1.html",
+      "contentHash": "bb3862d7bc4bcb228ee232a8336b56a69ee34332cf219679bdb9f7da4682fa75",
+      "documentPath": "published/bb3862d7bc4bcb228ee232a8336b56a69ee34332cf219679bdb9f7da4682fa75.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller fouls supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-soccer-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-soccer-2.html",
+      "contentHash": "f445730513a8bac7e0ef5c42a782fb0166e3a740700120e38098d36d9c8d01b4",
+      "documentPath": "published/f445730513a8bac7e0ef5c42a782fb0166e3a740700120e38098d36d9c8d01b4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller hits supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-softball-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-softball-1.html",
+      "contentHash": "1465fce6a3ec84884292982e64fa22d4259efc17ac0f18c8802a0e72e1a134b0",
+      "documentPath": "published/1465fce6a3ec84884292982e64fa22d4259efc17ac0f18c8802a0e72e1a134b0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller hits supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-softball-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-softball-2.html",
+      "contentHash": "47a4999585cecf26653d12fc681b32da795d53c9f2ed5029fe9f45172f96df16",
+      "documentPath": "published/47a4999585cecf26653d12fc681b32da795d53c9f2ed5029fe9f45172f96df16.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller games won supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-table-tennis-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Warm Paper Rightnote — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-table-tennis-1.html",
+      "contentHash": "6980d4f1886f4642d611f7d7d6f916bc81417f974df66852fc06d62c955dffb1",
+      "documentPath": "published/6980d4f1886f4642d611f7d7d6f916bc81417f974df66852fc06d62c955dffb1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller games won supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-table-tennis-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Warm Paper Rightnote — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-table-tennis-2.html",
+      "contentHash": "a005e702c4aa5f67129274a73d145a0fb2980ea38ca54c6f373b8272a5a270ba",
+      "documentPath": "published/a005e702c4aa5f67129274a73d145a0fb2980ea38ca54c6f373b8272a5a270ba.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paper-rightnote-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller sets won supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-volleyball-1.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "warm-paper-rightnote-volleyball-1.html",
+      "contentHash": "ebdadee7c2cf6fbbbdbc19212fe8501bfdeba7773055211c2ed1db3f9152e650",
+      "documentPath": "published/ebdadee7c2cf6fbbbdbc19212fe8501bfdeba7773055211c2ed1db3f9152e650.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-paper-rightnote-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous warm-paper competitor body and a full-height deep-ink sport/status dock at right. Each lane reads from a slim live blue/coral identity tick through a flexible dark name with a smaller sets won supporting count directly below it, then a fixed OPEN primary score track with a complete solid dark zero on the same paper fill before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional full-height right information dock with open primary scores and second-line support inside flexible name lanes.",
+      "output": "html-replications/warm-paper-rightnote-volleyball-2.html",
+      "palette": [
+        "#f2efe9",
+        "#293a44",
+        "#faf9f5",
+        "#b9c2bf",
+        "#667a7d",
+        "#2f86a7",
+        "#c77469"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "cf6b0ee69eccf6bf986e27fee226f7774f04d2523d785916381ab5251daa9632",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 76px competitor rows or a balanced horizontal lower-third attached to one full-height dark sport/status RIGHT dock. Each warm-paper competitor lane to the LEFT of the dock reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name with a small supporting-count line DIRECTLY BELOW it on the same paper fill, then one fixed OPEN dark PRIMARY score track at the lane’s FAR RIGHT immediately before the dock. Both horizontal halves repeat that order. No top header or bottom footer.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted warm-paper #f2efe9 field holds flexible dark names, the small supporting count BELOW each name, and fixed OPEN primary score tracks on the EXACT SAME paper fill. No score tile, outline or filled numeric cell. One full-height deep-ink #293a44 sport/status RIGHT dock attaches after both lane score tracks, grouping the upright title with zero-valued shared counters and restrained separators. Thin warm-neutral row rules and modest 6px outer corners; no top or bottom band, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case bold Arial/Helvetica dark-ink competitor names near 28px; complete solid bold dark-ink 46px tabular primary numeral with compact dark caption on the same pale paper field; smaller 16px dark supporting zero and 10px uppercase caption tucked below each name; white sport title near 18px and compact 11px white static status counters in the attached right dock."
+      },
+      "styleID": "warm-paper-rightnote",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "warm-paper-rightnote",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Warm Paper Rightnote — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "warm-paper-rightnote-volleyball-2.html",
+      "contentHash": "4d7d0e2f81c47f23a1cd2718973152f83b82820bfc770ffc48c2f7b01f255f40",
+      "documentPath": "published/4d7d0e2f81c47f23a1cd2718973152f83b82820bfc770ffc48c2f7b01f255f40.json"
     },
     {
       "aliases": [],
