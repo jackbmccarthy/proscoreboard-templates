@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Porcelain Umber Leadbed Volleyball 1</title>
+<style>
+*{box-sizing:border-box}
+html,body{width:100%;min-height:100%;margin:0;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:12px}
+.board{display:flex;flex-direction:column;width:min(56vw,1060px);max-width:100%;overflow:hidden;border:1px solid #aeb9b3;border-radius:5px;background:#e7e9e5;color:#403938;container-type:inline-size;font-variant-numeric:tabular-nums}
+.header{display:flex;align-items:center;height:74px;min-width:0;gap:32px;padding:0 30px;border-bottom:1px solid #89918d;background:#e7e9e5;white-space:nowrap}
+.sport{font-size:clamp(19px,3.7cqw,40px);font-weight:750;line-height:1}
+.header-rule{flex:0 0 2px;align-self:center;height:65%;background:#665d5a}
+.set-status{display:flex;align-items:baseline;gap:.4em;font-size:clamp(17px,2.95cqw,32px);line-height:1}
+.set-number{font-weight:700;font-variant-numeric:tabular-nums}
+.lanes{display:flex;flex-direction:column;min-width:0}
+.lane{display:flex;align-items:stretch;min-width:0;height:146px;background:#e7e9e5}
+.lane+.lane{border-top:1px solid #89918d}
+.identity-tick{flex:0 0 4.5%;min-width:0;background:#3186a8}
+.jerseyColorB{background:#c96b71}
+.scorecap{display:flex;flex:0 0 20%;min-width:0;flex-direction:column;align-items:center;justify-content:center;background:#403938;color:#f8f6f2}
+.primary-number{display:block;max-width:100%;overflow:hidden;text-align:center;white-space:nowrap;font-size:clamp(48px,7.6cqw,82px);font-weight:800;line-height:1.02;font-variant-numeric:tabular-nums}
+.primary-caption{display:block;max-width:100%;overflow:hidden;text-align:center;white-space:nowrap;font-size:clamp(13px,2.5cqw,27px);font-weight:700;line-height:1.1}
+.namebed{display:flex;flex:1 1 0;min-width:0;flex-direction:column;justify-content:center;gap:8px;padding:4px 4%;background:#e7e9e5}
+.name{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:clamp(29px,5.4cqw,58px);font-weight:700;line-height:1.04}
+.combinedAName:empty::before{content:"Team A"}
+.combinedBName:empty::before{content:"Team B"}
+.support{display:flex;align-items:baseline;gap:.4em;min-width:0;white-space:nowrap;font-size:clamp(17px,2.9cqw,31px);line-height:1}
+.support-score{display:block;max-width:4ch;overflow:hidden;font-weight:700;font-variant-numeric:tabular-nums}
+.point-slot{display:none!important}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:1300px){
+ .board{width:min(62vw,800px)}
+ .header{height:50px;gap:18px;padding:0 18px}
+ .sport{font-size:clamp(17px,3.7cqw,29px)}
+ .set-status{font-size:clamp(15px,2.9cqw,23px)}
+ .lane{height:106px}
+ .primary-number{font-size:clamp(43px,7.3cqw,59px)}
+ .primary-caption{font-size:clamp(12px,2.2cqw,18px)}
+ .name{font-size:clamp(28px,5.3cqw,43px)}
+ .support{font-size:clamp(16px,2.8cqw,22px)}
+}
+@media(max-width:600px){
+ .stage{padding:5px}
+ .board{width:100%}
+ .header{height:34px;gap:11px;padding:0 10px}
+ .header-rule{flex-basis:1px}
+ .sport{font-size:15px}
+ .set-status{font-size:13px}
+ .lane{height:72px}
+ .identity-tick{flex-basis:7px}
+ .scorecap{flex-basis:77px}
+ .primary-number{font-size:39px}
+ .primary-caption{font-size:10px}
+ .namebed{gap:4px;padding:3px 11px}
+ .name{font-size:23px}
+ .support{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="stage" data-osb-component="layout" data-osb-component-type="osb-column-container">
+ <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard with generic manual scoring">
+  <header class="header rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="sport" data-osb-component="text">VOLLEYBALL</span><span class="header-rule" aria-hidden="true"></span><span class="set-status" data-osb-component="layout"><span data-osb-component="text">SET</span><span class="set-number" data-osb-component="text" data-osb-static="true" data-sport-stat="current-set">0</span></span></header>
+  <div class="lanes columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+   <section class="lane side-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity-tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="scorecap columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="primary-number currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="primary-caption" data-osb-component="text">POINTS</span></div><div class="namebed columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="support rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span data-osb-component="text">SETS</span><span class="support-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span></span></div></section>
+   <section class="lane side-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity-tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="scorecap columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="primary-number currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="primary-caption" data-osb-component="text">POINTS</span></div><div class="namebed columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="support rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span data-osb-component="text">SETS</span><span class="support-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></span></div></section>
+  </div>
+  <div class="point-slot" data-osb-component="layout" hidden><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+ </article>
+</main>
+</body>
+</html>

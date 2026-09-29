@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "f0c18d9c70b4caa93c0a117f04c31ab592731dbfa48b2f537c12bc1b192a369e",
+  "revision": "d6e39f9603690669a1efd3651f00c60ccdb0615ad69e8b0e7d6b9945e0eb9c73",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -32242,6 +32242,664 @@
       "fileName": "porcelain-inkline-volleyball-2.html",
       "contentHash": "54731ab4afadd524bea780cfe2b9e21777c950fc1e391f64c5c8aa53a1e371fc",
       "documentPath": "published/54731ab4afadd524bea780cfe2b9e21777c950fc1e391f64c5c8aa53a1e371fc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN hits supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-baseball-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-baseball-1.html",
+      "contentHash": "e82d9f804c0508c7d0ad08b651a644f64f45f7278d37f9d3d781e05d9c6ba8c6",
+      "documentPath": "published/e82d9f804c0508c7d0ad08b651a644f64f45f7278d37f9d3d781e05d9c6ba8c6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN hits supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-baseball-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-baseball-2.html",
+      "contentHash": "ef57b1459d6026c60de90655b0d5d06b7656a495405341628cc4db51543e8191",
+      "documentPath": "published/ef57b1459d6026c60de90655b0d5d06b7656a495405341628cc4db51543e8191.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN fouls supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-basketball-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-basketball-1.html",
+      "contentHash": "646bb7a32577008ef81b614857ac1ae85bf50a1e100f4f4a466242e236302862",
+      "documentPath": "published/646bb7a32577008ef81b614857ac1ae85bf50a1e100f4f4a466242e236302862.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN fouls supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-basketball-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-basketball-2.html",
+      "contentHash": "db608f20cd9aa1490f35a80475a96a7e7f6f43f694d5df025b458d5184b1784a",
+      "documentPath": "published/db608f20cd9aa1490f35a80475a96a7e7f6f43f694d5df025b458d5184b1784a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN games won supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-pickleball-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-pickleball-1.html",
+      "contentHash": "22fdc53e20b16561922649fc3b57f6af45823f10dee6beed022cc78948669075",
+      "documentPath": "published/22fdc53e20b16561922649fc3b57f6af45823f10dee6beed022cc78948669075.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN games won supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-pickleball-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-pickleball-2.html",
+      "contentHash": "691a601680184c35c57837cbc936c3fff6627556ddf78ed8e320dba77880367b",
+      "documentPath": "published/691a601680184c35c57837cbc936c3fff6627556ddf78ed8e320dba77880367b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN fouls supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-soccer-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-soccer-1.html",
+      "contentHash": "db27c14230a4262295721c451e6697b504be5cc5612cd5f84b49deaebf5d9abb",
+      "documentPath": "published/db27c14230a4262295721c451e6697b504be5cc5612cd5f84b49deaebf5d9abb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN fouls supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-soccer-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-soccer-2.html",
+      "contentHash": "576f70bed5f6e93edb5a902d3a24d92c48d29e832e95a5f17d669f15b6fc684b",
+      "documentPath": "published/576f70bed5f6e93edb5a902d3a24d92c48d29e832e95a5f17d669f15b6fc684b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN hits supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-softball-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-softball-1.html",
+      "contentHash": "eca3b146f76fec254375739c06b375872df6531d29492f901d6a3a1e544bb478",
+      "documentPath": "published/eca3b146f76fec254375739c06b375872df6531d29492f901d6a3a1e544bb478.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN hits supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-softball-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-softball-2.html",
+      "contentHash": "bb4e19f256ae500864e9f8d9f7b833844be4106fab45bc6ed9ea30210ecd0510",
+      "documentPath": "published/bb4e19f256ae500864e9f8d9f7b833844be4106fab45bc6ed9ea30210ecd0510.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN games won supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-table-tennis-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-table-tennis-1.html",
+      "contentHash": "38eb662372ef1865b8f49385dcb6b76de542b5f9ff86f25c3756855f60f231b4",
+      "documentPath": "published/38eb662372ef1865b8f49385dcb6b76de542b5f9ff86f25c3756855f60f231b4.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN games won supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-table-tennis-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-table-tennis-2.html",
+      "contentHash": "3803a24e76b7fd5e3b4dc317f9870f341bc042918f0158cdaddd7758bff4f69b",
+      "documentPath": "published/3803a24e76b7fd5e3b4dc317f9870f341bc042918f0158cdaddd7758bff4f69b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-porcelain-umber-leadbed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN sets won supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-volleyball-1.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "porcelain-umber-leadbed-volleyball-1.html",
+      "contentHash": "979ebbe554775891906620a3197e226b68b0b367b12d6fcc1246b88b25e3e218",
+      "documentPath": "published/979ebbe554775891906620a3197e226b68b0b367b12d6fcc1246b88b25e3e218.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-porcelain-umber-leadbed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous cool-porcelain competitor lanes and a shallow same-porcelain sport/status line above. Each lane reads from a slim live blue/coral identity tick through a fixed FILLED deep-umber PRIMARY scorecap with a complete solid warm-white zero at the LEADING left side, then a flexible two-line dark name area with a small OPEN sets won supporting zero directly BENEATH the name on the SAME porcelain fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading dark primary scorecap, open support-under-name lane and quiet same-porcelain top status line.",
+      "output": "html-replications/porcelain-umber-leadbed-volleyball-2.html",
+      "palette": [
+        "#e7e9e5",
+        "#403938",
+        "#f8f6f2",
+        "#aeb9b3",
+        "#566862",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "1d496040887c87f78b952f59b7cdfdac4f1768c2971bd01491f1ed0d63c782fb",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 28px SAME-PORCELAIN sport/status line. Each cool-porcelain lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, ONE fixed FILLED deep-umber PRIMARY scorecap occupying about 18–20% at the LEADING edge, then a wide flexible TWO-LINE dark competitor name with a small OPEN supporting count directly BENEATH it on the SAME porcelain fill. Both horizontal halves repeat this order without mirroring. The same-porcelain top line carries sport at left and neatly grouped static counters at right. No contrasting header, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted cool-porcelain #e7e9e5 field holds flexible dark names and OPEN supporting counts directly beneath them. ONE fixed deep-umber #403938 FILLED PRIMARY scorecap with complete solid warm-white zero sits immediately after each live identity tick at the LEADING edge BEFORE the name. A shallow SAME-PORCELAIN sport/status line spans the FULL width ABOVE both lanes, sport at left and grouped zero counters at right in dark umber, separated from rows by a fine neutral rule. Fine row dividers and modest 5px outer corners; no full-width dark header, bottom footer, side dock, extra score cells, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold dark Arial/Helvetica names near 28px; complete solid bold warm-white 46px tabular primary zero with compact white caption in each umber scorecap; a labeled complete solid dark 16px tabular supporting zero beneath each name; dark sport title near 14px and compact dark static counters near 11px in the same-porcelain top line."
+      },
+      "styleID": "porcelain-umber-leadbed",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "porcelain-umber-leadbed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Porcelain Umber Leadbed — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "porcelain-umber-leadbed-volleyball-2.html",
+      "contentHash": "2820dfb2eb196daa537ab140631091b0ac384ea96eb2f19b9d5a0175f76a0cd4",
+      "documentPath": "published/2820dfb2eb196daa537ab140631091b0ac384ea96eb2f19b9d5a0175f76a0cd4.json"
     },
     {
       "aliases": [],
