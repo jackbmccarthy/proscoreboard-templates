@@ -33332,5 +33332,621 @@
       "sportCounters": "editable-static"
     },
     "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-table-tennis-1.html",
+    "title": "Pearl Graphite Rightdock — TABLE TENNIS Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark games won supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-table-tennis-2.html",
+    "title": "Pearl Graphite Rightdock — TABLE TENNIS Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "table-tennis",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark games won supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "tableTennis",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "tableTennis",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-pickleball-1.html",
+    "title": "Pearl Graphite Rightdock — PICKLEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark games won supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-pickleball-2.html",
+    "title": "Pearl Graphite Rightdock — PICKLEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "pickleball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "native-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark games won supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+    "sport": "pickleball",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "pickleball",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "none"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-baseball-1.html",
+    "title": "Pearl Graphite Rightdock — BASEBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark hits supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-baseball-2.html",
+    "title": "Pearl Graphite Rightdock — BASEBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "baseball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark hits supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "baseball",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-softball-1.html",
+    "title": "Pearl Graphite Rightdock — SOFTBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark hits supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-softball-2.html",
+    "title": "Pearl Graphite Rightdock — SOFTBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "softball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark hits supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "softball",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-basketball-1.html",
+    "title": "Pearl Graphite Rightdock — BASKETBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark fouls supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-basketball-2.html",
+    "title": "Pearl Graphite Rightdock — BASKETBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "basketball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark fouls supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "basketball",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-soccer-1.html",
+    "title": "Pearl Graphite Rightdock — SOCCER Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark fouls supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-soccer-2.html",
+    "title": "Pearl Graphite Rightdock — SOCCER Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "soccer",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark fouls supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "soccer",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-volleyball-1.html",
+    "title": "Pearl Graphite Rightdock — VOLLEYBALL Compact scorebug",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark sets won supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 1,
+    "composition": "compact-rightdock-scorebug",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/pearl-graphite-rightdock-volleyball-2.html",
+    "title": "Pearl Graphite Rightdock — VOLLEYBALL Horizontal lower-third",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#e8ebe7",
+      "#26363e",
+      "#f8faf8",
+      "#b5c0bd",
+      "#62777d",
+      "#2b85a3",
+      "#c76b64"
+    ],
+    "motif": "Functional attached right sport/status dock, with open support followed by a filled primary score bank.",
+    "tags": [
+      "volleyball",
+      "professional",
+      "broadcast",
+      "static",
+      "pearl-graphite-rightdock",
+      "transparent",
+      "generic-scoring"
+    ],
+    "description": "Professional static broadcast scoreboard with one continuous pale-pearl competitor body and an attached full-height deep-graphite sport/status dock at RIGHT. Each lane reads from a slim live blue/coral identity tick through a flexible dark name and smaller OPEN dark sets won supporting count on the same pearl fill, then one fixed FILLED graphite PRIMARY score bank with a complete solid white zero immediately before the dock. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the right dock, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+    "sport": "volleyball",
+    "variant": 2,
+    "composition": "balanced-rightdock-lower-third",
+    "styleID": "pearl-graphite-rightdock",
+    "styleFingerprint": "b795af24333b64c3f8abb0e8ab73f96d40f65573ca34130f3c70ceef6a41d05a",
+    "styleGuide": {
+      "geometry": "Conventional compact two aligned 70px competitor rows or a balanced horizontal lower-third. One attached full-height deep-graphite sport/status DOCK sits at the RIGHT, about 20% of compact width or 17% of horizontal width. To its LEFT, each pale-pearl competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, a wide flexible dark name, one narrow fixed OPEN dark supporting-count track on the SAME pale fill, then a larger fixed FILLED graphite PRIMARY score bank immediately BEFORE the dock. Both horizontal halves use this same order. No top header or bottom footer.",
+      "typography": "Upright mixed-case semibold Arial/Helvetica dark graphite competitor names around 26px; complete solid bold white 43px tabular primary zero with compact white caption in its graphite cell; smaller complete solid dark 20px tabular supporting zero and 10px uppercase caption on the open pearl lane; white sport title near 17px and small 11px white status/counters aligned in the right dock.",
+      "surface": "One flat continuous pale-pearl #e8ebe7 field holds flexible dark names and OPEN supporting counts. ONE fixed deep-graphite #26363e filled PRIMARY bank with a complete white zero closes each competitor lane immediately BEFORE an attached full-height graphite RIGHT sport/status dock. The support track has the EXACT SAME pale fill as the name, no tile or outline. The graphite dock groups the upright sport title and shared zero-valued counters with restrained rules. Thin pearl-gray row separators, square-to-2px corners; no top banner, bottom footer, score animation, gradients, shadows, texture or decorative hardware.",
+      "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters."
+    },
+    "scoringMode": "generic",
+    "runtimeSupport": {
+      "sportRules": false,
+      "scores": "game-match",
+      "sportCounters": "editable-static"
+    },
+    "aliases": []
   }
 ]
