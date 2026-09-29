@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "9b20b7eb0497f51583b14ee8d4944e975493c3ea286b19da4dbd9f6c0ce7182b",
+  "revision": "f0c18d9c70b4caa93c0a117f04c31ab592731dbfa48b2f537c12bc1b192a369e",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -30268,6 +30268,664 @@
       "fileName": "pewter-columnhead-volleyball-2.html",
       "contentHash": "72462dbb83fd9e5fce4a9f845e046aa10c8c03a9efcf20ebfde95cc0b7ac7843",
       "documentPath": "published/72462dbb83fd9e5fce4a9f845e046aa10c8c03a9efcf20ebfde95cc0b7ac7843.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-baseball-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-baseball-1.html",
+      "contentHash": "e4bc75b9bed24aa68adf724a71fd112bbf8c6ed88862c9d4aea803470b49ac8f",
+      "documentPath": "published/e4bc75b9bed24aa68adf724a71fd112bbf8c6ed88862c9d4aea803470b49ac8f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-baseball-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-baseball-2.html",
+      "contentHash": "1eb52e6a36dfab3d6c1d45e1867bcb9eb213ea28feb9d92c80fb5b9cb81f1590",
+      "documentPath": "published/1eb52e6a36dfab3d6c1d45e1867bcb9eb213ea28feb9d92c80fb5b9cb81f1590.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-basketball-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-basketball-1.html",
+      "contentHash": "faa3629660e946aa40dd336c9b1729084b30cc6c02f5c1fa7ff579f8c3fc4641",
+      "documentPath": "published/faa3629660e946aa40dd336c9b1729084b30cc6c02f5c1fa7ff579f8c3fc4641.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-basketball-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-basketball-2.html",
+      "contentHash": "576685be397b46c73f4ce7118c63079f5347fad6c1754c015d5797406c1a9c4f",
+      "documentPath": "published/576685be397b46c73f4ce7118c63079f5347fad6c1754c015d5797406c1a9c4f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-pickleball-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-pickleball-1.html",
+      "contentHash": "90b94a60ffa674c863213f05c4da2e4abbbfdb77dfb7bbb3d516b5fe5146d142",
+      "documentPath": "published/90b94a60ffa674c863213f05c4da2e4abbbfdb77dfb7bbb3d516b5fe5146d142.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-pickleball-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-pickleball-2.html",
+      "contentHash": "01af2703ed0a0fea18da184f822d4b41dd8017b5099a3489b3d07b9bb90690c0",
+      "documentPath": "published/01af2703ed0a0fea18da184f822d4b41dd8017b5099a3489b3d07b9bb90690c0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-soccer-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-soccer-1.html",
+      "contentHash": "beca795e3b380c05a4a1cb7425389b1b8314e0e81ad12a30f0322421290bb78b",
+      "documentPath": "published/beca795e3b380c05a4a1cb7425389b1b8314e0e81ad12a30f0322421290bb78b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-soccer-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-soccer-2.html",
+      "contentHash": "f5c5665ebd4ae7ae43d04bf87012a2554e2544c220e1f534a60156d695aca197",
+      "documentPath": "published/f5c5665ebd4ae7ae43d04bf87012a2554e2544c220e1f534a60156d695aca197.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-softball-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-softball-1.html",
+      "contentHash": "0ab02d9f3fd671162819ee77c7885cf40e09d3fa96a9c14bf29fe29278b00269",
+      "documentPath": "published/0ab02d9f3fd671162819ee77c7885cf40e09d3fa96a9c14bf29fe29278b00269.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-softball-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-softball-2.html",
+      "contentHash": "eb1a05e54840d23373934e42eac38d536e49706043b830f6f000ea5e71766358",
+      "documentPath": "published/eb1a05e54840d23373934e42eac38d536e49706043b830f6f000ea5e71766358.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-table-tennis-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-table-tennis-1.html",
+      "contentHash": "d416e5308d13a263a77560814e2b385c56061b01a6d63fdbba699a58bdd3e67e",
+      "documentPath": "published/d416e5308d13a263a77560814e2b385c56061b01a6d63fdbba699a58bdd3e67e.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-table-tennis-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-table-tennis-2.html",
+      "contentHash": "51d65adde3b458404dfae922e954c72db81ab2b63cff82a65028d13ae103b1d6",
+      "documentPath": "published/51d65adde3b458404dfae922e954c72db81ab2b63cff82a65028d13ae103b1d6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-plum-open-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN sets won supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-volleyball-1.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "plum-mist-open-namebed-volleyball-1.html",
+      "contentHash": "6701b9f1e7fb3eb8f96f0874b0e5c1564ad048d113fc70461a54d98029a1fe66",
+      "documentPath": "published/6701b9f1e7fb3eb8f96f0874b0e5c1564ad048d113fc70461a54d98029a1fe66.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-plum-open-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with continuous muted-plum competitor lanes and a shallow same-plum top utility cap holding a small attached pale-mist sport tab. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN sets won supporting zero directly BENEATH its name, then a fixed OPEN primary score track with a complete solid white zero at the far right on the SAME plum fill. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional mist sport tab inside a quiet same-plum top cap, two-line name/support bed and open trailing white primary score.",
+      "output": "html-replications/plum-mist-open-namebed-volleyball-2.html",
+      "palette": [
+        "#403943",
+        "#e7e5e6",
+        "#f9f7f7",
+        "#aba3ad",
+        "#6d6672",
+        "#3186a8",
+        "#c96b71"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "b66b63e7562ed3d31da3c53de952fed6b5cbdffeba45fd37e321ee1735968b25",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or balanced equal-lane horizontal lower-third BELOW one shallow 26px SAME-PLUM sport/status cap. A small fixed pale-mist sport tab is INSET at the LEFT of that cap, while grouped white status counters sit OPEN at the RIGHT. Each muted-plum competitor lane reads LEFT-TO-RIGHT as a slim live blue/coral identity tick, a wide flexible TWO-LINE white name with a small OPEN supporting count directly BENEATH its own name, then a fixed OPEN solid-white PRIMARY score track at the FAR RIGHT on the SAME plum fill as the name. Both horizontal halves repeat this order. No filled primary tile, footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted muted plum #403943 competitor field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME plum fill. The smaller supporting count remains an OPEN second line directly beneath each name, not a filled chip, terminal foot or separate numeric column. ONE shallow SAME-PLUM #403943 top cap spans the full width, with a small ATTACHED pale-mist #e7e5e6 sport tab INSET at its left and grouped white static status text open at right. Fine cool-neutral row dividers and modest 3px corners; no full-width pale header, bottom footer, filled primary cell, side dock, gradient, shadow, texture, photo, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica names near 24px; complete solid bold white 43px tabular primary zero with compact white caption on the open plum track; a labeled complete solid pale-white 17px tabular supporting zero beneath each name; dark-plum sport title near 13px inside the pale tab and compact white static counters near 11px in the same-plum top cap."
+      },
+      "styleID": "plum-mist-open-namebed",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "plum-mist-open-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Plum Mist Open Namebed — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "plum-mist-open-namebed-volleyball-2.html",
+      "contentHash": "6a7360fd706e4838c3f7deb03e59c6e37a911e097048f8e5f1be0a723419955b",
+      "documentPath": "published/6a7360fd706e4838c3f7deb03e59c6e37a911e097048f8e5f1be0a723419955b.json"
     },
     {
       "aliases": [],
