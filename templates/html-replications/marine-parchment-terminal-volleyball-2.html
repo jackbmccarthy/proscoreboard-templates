@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marine Parchment Terminal — Volleyball Lower Third</title>
+<style>
+:root{--marine:#173947;--paper:#ece5d7;--white:#f7f9f6;--pale:#ece5d7;--blue:#2f8eaa;--coral:#cb746a}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:transparent}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:Arial,Helvetica,sans-serif}
+.board{width:min(1040px,94vw);overflow:hidden;border-radius:5px;background:var(--marine);color:var(--white)}
+.header{height:36px;background:var(--paper);color:var(--marine);display:flex;align-items:center;gap:22px;padding:0 27px}
+.sport-tag{font-size:21px;font-weight:800;letter-spacing:.025em;line-height:1}
+.set-label{height:22px;border-left:1px solid #a8aaa6;padding-left:22px;display:flex;align-items:center;font-size:15px;font-weight:700;letter-spacing:.04em;white-space:nowrap}
+.lanes{display:flex;min-width:0}
+.lane{flex:1 1 50%;min-width:0;height:79px;display:flex;align-items:center;background:var(--marine)}
+.lane+.lane{border-left:1px solid #a8b9b8}
+.identity-tick{align-self:stretch;flex:0 0 12px;margin:8px 0 8px 10px;background:var(--blue);border-radius:3px}
+.lane-b .identity-tick{background:var(--coral)}
+.team-name{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 16px;color:var(--white);font-size:36px;line-height:1;font-weight:700}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+.support-track{flex:0 0 63px;align-self:stretch;display:flex;align-items:center;justify-content:center;flex-direction:column;background:var(--marine);color:var(--pale);font-variant-numeric:tabular-nums}
+.support-score{font-size:27px;font-weight:700;line-height:1}
+.support-caption{font-size:11px;font-weight:700;letter-spacing:.04em;margin-top:4px}
+.primary-track{flex:0 0 85px;align-self:stretch;margin:7px 8px 7px 7px;display:flex;align-items:center;justify-content:center;flex-direction:column;border-radius:5px;background:var(--paper);color:var(--marine);font-variant-numeric:tabular-nums}
+.primary-score{font-size:43px;line-height:.95;font-weight:800}
+.primary-caption{font-size:11px;line-height:1;font-weight:800;letter-spacing:.025em;margin-top:3px}
+.point-slot{display:none;position:relative}
+.point-slot>.isGamePoint,.point-slot>.isMatchPoint{opacity:0}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint{opacity:0!important}
+@media(max-width:700px){.board{width:min(94vw,480px)}.header{height:38px;padding:0 16px;gap:13px}.sport-tag{font-size:17px}.set-label{height:18px;padding-left:13px;font-size:12px}.lanes{flex-direction:column}.lane{flex:auto;width:100%;height:67px}.lane+.lane{border-left:0;border-top:1px solid #a8b9b8}.identity-tick{flex-basis:9px;margin:5px 0 5px 7px}.team-name{font-size:clamp(20px,5vw,30px);padding:0 12px}.support-track{flex-basis:56px}.support-score{font-size:24px}.primary-track{flex-basis:76px;margin:5px}.primary-score{font-size:38px}}
+@media(max-width:360px){.team-name{font-size:19px;padding:0 8px}.support-track{flex-basis:48px}.primary-track{flex-basis:65px}.primary-score{font-size:34px}.primary-caption{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Volleyball scoreboard">
+  <header class="header"><span class="sport-tag">VOLLEYBALL</span><span class="set-label">SET 0</span></header>
+  <div class="lanes fixedRowContainer" data-osb-component="layout" data-osb-component-type="osb-fixed-row-container">
+    <div class="lane lane-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+      <div class="identity-tick jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></div>
+      <div class="team-name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></div>
+      <div class="support-track"><span class="support-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="support-caption">SETS</span></div>
+      <div class="primary-track"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="primary-caption">POINTS</span></div>
+    </div>
+    <div class="lane lane-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+      <div class="identity-tick jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></div>
+      <div class="team-name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></div>
+      <div class="support-track"><span class="support-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="support-caption">SETS</span></div>
+      <div class="primary-track"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="primary-caption">POINTS</span></div>
+    </div>
+  </div>
+  <div class="point-slot" aria-hidden="true"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">MATCH POINT</span></div>
+</article>
+</body>
+</html>

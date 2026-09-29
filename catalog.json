@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "cc9a17ce8faaf3437e4e0967b8e11814708b7d2e564101f50185e42d22c795df",
+  "revision": "f76083589da600a85effe73cfc5cd892a685bce794e18a234029e0277406cbbe",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -17276,6 +17276,664 @@
       "fileName": "linen-navy-sideconsole-volleyball-2.html",
       "contentHash": "16e6a73e22e2fec714e4e6a2b3a11801e7b56dad1c9a3a099abf4bf7f487d4e9",
       "documentPath": "published/16e6a73e22e2fec714e4e6a2b3a11801e7b56dad1c9a3a099abf4bf7f487d4e9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale hits supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-baseball-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-baseball-1.html",
+      "contentHash": "592058c23e08c7080d25bb055039b759a42a39bc0d73029d2e9e7a0da13582d7",
+      "documentPath": "published/592058c23e08c7080d25bb055039b759a42a39bc0d73029d2e9e7a0da13582d7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale hits supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-baseball-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-baseball-2.html",
+      "contentHash": "3604ba6244f2d50f748d546abcbeb48caf816b23918bc85d73cf8cc44552354c",
+      "documentPath": "published/3604ba6244f2d50f748d546abcbeb48caf816b23918bc85d73cf8cc44552354c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale fouls supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-basketball-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-basketball-1.html",
+      "contentHash": "2fa62b5c005644724bd8dde6917c98252bc96667c88ba5d4a424333a18a847a0",
+      "documentPath": "published/2fa62b5c005644724bd8dde6917c98252bc96667c88ba5d4a424333a18a847a0.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale fouls supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-basketball-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-basketball-2.html",
+      "contentHash": "aa28701be329a5c3ca03b2bc56ade5e0ee1f0ee84adfe72b644230b4796f7d28",
+      "documentPath": "published/aa28701be329a5c3ca03b2bc56ade5e0ee1f0ee84adfe72b644230b4796f7d28.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale games won supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-pickleball-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Parchment Terminal — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-pickleball-1.html",
+      "contentHash": "ecb66a80fec2f634a3b270074f9f42cbd81e028ffcb3a8a439dd724a37b8a3ce",
+      "documentPath": "published/ecb66a80fec2f634a3b270074f9f42cbd81e028ffcb3a8a439dd724a37b8a3ce.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale games won supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-pickleball-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Parchment Terminal — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-pickleball-2.html",
+      "contentHash": "9b632acf3b0843bbeacbd4751cbac33f2e31793fca66127190f68b2c3853f58d",
+      "documentPath": "published/9b632acf3b0843bbeacbd4751cbac33f2e31793fca66127190f68b2c3853f58d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale fouls supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-soccer-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-soccer-1.html",
+      "contentHash": "4b263fbff581bb2e45020c92fa36850147485a373dd8593f2f2238a4ab8df35a",
+      "documentPath": "published/4b263fbff581bb2e45020c92fa36850147485a373dd8593f2f2238a4ab8df35a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale fouls supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-soccer-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-soccer-2.html",
+      "contentHash": "54db58f65cdbd59c431342b3ba5a8200ab74ebb6c8b212547edd60a2133a0da1",
+      "documentPath": "published/54db58f65cdbd59c431342b3ba5a8200ab74ebb6c8b212547edd60a2133a0da1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale hits supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-softball-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-softball-1.html",
+      "contentHash": "6e5058b10d8b99617c45d59ed138f7365323ad812389dcbc59d1cbf574d9393f",
+      "documentPath": "published/6e5058b10d8b99617c45d59ed138f7365323ad812389dcbc59d1cbf574d9393f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale hits supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-softball-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-softball-2.html",
+      "contentHash": "630d274188ed0dfb58f420513cea869d7ff362d0cfaf5268b7fef7d49bcb470b",
+      "documentPath": "published/630d274188ed0dfb58f420513cea869d7ff362d0cfaf5268b7fef7d49bcb470b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale games won supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-table-tennis-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Parchment Terminal — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-table-tennis-1.html",
+      "contentHash": "5f43335d1f69c5c98af9db3d26c07b11a887436a30520c9b86feef13208c877d",
+      "documentPath": "published/5f43335d1f69c5c98af9db3d26c07b11a887436a30520c9b86feef13208c877d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale games won supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-table-tennis-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Marine Parchment Terminal — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-table-tennis-2.html",
+      "contentHash": "16f8461edad9debaf4626b3bb82c466f7e13b1b34bb52e1f52e21abdb418cebc",
+      "documentPath": "published/16f8461edad9debaf4626b3bb82c466f7e13b1b34bb52e1f52e21abdb418cebc.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-parchment-terminal-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale sets won supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-volleyball-1.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "marine-parchment-terminal-volleyball-1.html",
+      "contentHash": "143654e36fc1fc4a23af44feb35cfff4ef560da44add66be5c46e0ffc8fe3f1d",
+      "documentPath": "published/143654e36fc1fc4a23af44feb35cfff4ef560da44add66be5c46e0ffc8fe3f1d.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-parchment-terminal-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-marine competitor body and a shallow full-width warm-parchment sport/status cap above. Each lane reads from a slim live blue/coral identity tick through a flexible white name and smaller OPEN pale sets won supporting count on the same marine fill, then one fixed FILLED parchment PRIMARY score terminal with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the top parchment cap, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional pale full-width status cap and trailing parchment primary score terminals after open supporting counts.",
+      "output": "html-replications/marine-parchment-terminal-volleyball-2.html",
+      "palette": [
+        "#173947",
+        "#ece5d7",
+        "#f7f9f6",
+        "#aec1c2",
+        "#546b72",
+        "#2f8eaa",
+        "#cb746a"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "aa050d68b119049598e5195ddfcb35fb9df13a9081a11a9deaf33104d40c5a72",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 68px competitor rows or a balanced horizontal lower-third beneath one shallow full-width parchment sport/status cap. Each deep-marine competitor lane reads LEFT-to-RIGHT as slim live blue/coral identity tick, flexible white name lane, smaller fixed OPEN pale supporting-count track on the SAME marine fill, and one larger fixed FILLED parchment PRIMARY score terminal at the FAR RIGHT. Both horizontal halves repeat that order. No footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat continuous deep-marine #173947 field holds flexible white names and OPEN supporting counts. ONE fixed warm-parchment #ece5d7 filled PRIMARY terminal with a complete solid dark zero closes each lane at FAR RIGHT, after support. The support track has the EXACT SAME marine fill as the name with no tile or outline. A shallow full-width parchment sport/status cap sits ABOVE the lanes with dark sport title at left and grouped zero counters at right. Thin cool-gray row separators, restrained 5px outer corners; no footer, side dock, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold dark-marine 44px tabular primary numeral with concise dark caption in the parchment terminal; smaller complete solid pale 20px tabular supporting zero with 10px uppercase caption on the open marine lane; dark sport title near 17px and restrained 11px static status counters across the parchment cap."
+      },
+      "styleID": "marine-parchment-terminal",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "marine-parchment-terminal",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Marine Parchment Terminal — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "marine-parchment-terminal-volleyball-2.html",
+      "contentHash": "67fe37a54615e63790a70153674b780cfa39c3c3ef3de4568a3b9682d3db99cd",
+      "documentPath": "published/67fe37a54615e63790a70153674b780cfa39c3c3ef3de4568a3b9682d3db99cd.json"
     },
     {
       "aliases": [],
