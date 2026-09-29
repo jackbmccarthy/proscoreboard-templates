@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "d6e39f9603690669a1efd3651f00c60ccdb0615ad69e8b0e7d6b9945e0eb9c73",
+  "revision": "c2125ff90378845caa819ac82f6e4f4656ea628bc4f9e87fa4945e27fec72ebd",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -13594,6 +13594,664 @@
       "fileName": "evergreen-sand-volleyball-2.html",
       "contentHash": "3485a9752ded563cc7fdf4a9c0f5a9ae373ae398856eed6ec0b6f67403bf951a",
       "documentPath": "published/3485a9752ded563cc7fdf4a9c0f5a9ae373ae398856eed6ec0b6f67403bf951a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN hits count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-baseball-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-baseball-1.html",
+      "contentHash": "405dca6aab80f04e4c58c89c4d9a72d627d7386cd0612f7c7a54c04559a17cfd",
+      "documentPath": "published/405dca6aab80f04e4c58c89c4d9a72d627d7386cd0612f7c7a54c04559a17cfd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN hits count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-baseball-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-baseball-2.html",
+      "contentHash": "863f0e2aa72ea7b02a68556310caf950d2ccdd86d2b634510c3c64d67ecf0b02",
+      "documentPath": "published/863f0e2aa72ea7b02a68556310caf950d2ccdd86d2b634510c3c64d67ecf0b02.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN fouls count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-basketball-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-basketball-1.html",
+      "contentHash": "b0bc2db497ee917c8a63ead0144e1ee7bd0fb1fef2dd854603e89556ac51086f",
+      "documentPath": "published/b0bc2db497ee917c8a63ead0144e1ee7bd0fb1fef2dd854603e89556ac51086f.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN fouls count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-basketball-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-basketball-2.html",
+      "contentHash": "9398104efcbd1ee6c3865771182f0c586fe1df2ff1123b1fcf7f2d44a0c919b1",
+      "documentPath": "published/9398104efcbd1ee6c3865771182f0c586fe1df2ff1123b1fcf7f2d44a0c919b1.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN games won count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-pickleball-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Forest Linen Headrail — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-pickleball-1.html",
+      "contentHash": "b8f07db610590155e437ae5b25e1546409b5ae15b04b5ec754b0c08af9baab03",
+      "documentPath": "published/b8f07db610590155e437ae5b25e1546409b5ae15b04b5ec754b0c08af9baab03.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN games won count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-pickleball-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Forest Linen Headrail — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-pickleball-2.html",
+      "contentHash": "20f4e40f98913f68676590048e6238ba865d6d8ebcaaedd740661901ca867bae",
+      "documentPath": "published/20f4e40f98913f68676590048e6238ba865d6d8ebcaaedd740661901ca867bae.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN fouls count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-soccer-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-soccer-1.html",
+      "contentHash": "8ef10e19326c3422cb13c64f8abc7a4e5d460f8ac139c54dbb9cea8d30d3de79",
+      "documentPath": "published/8ef10e19326c3422cb13c64f8abc7a4e5d460f8ac139c54dbb9cea8d30d3de79.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN fouls count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-soccer-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-soccer-2.html",
+      "contentHash": "bca7337307fb00d4868a4dce719af266bd5f07a7515c9499dd3e33a76787e660",
+      "documentPath": "published/bca7337307fb00d4868a4dce719af266bd5f07a7515c9499dd3e33a76787e660.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN hits count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-softball-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-softball-1.html",
+      "contentHash": "ecf0c3bbbab4408c220be682e88549dd4ccc5c53b3ea6bf48628f7318f30f40b",
+      "documentPath": "published/ecf0c3bbbab4408c220be682e88549dd4ccc5c53b3ea6bf48628f7318f30f40b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN hits count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-softball-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-softball-2.html",
+      "contentHash": "072a99d38af66e9d572d3f97ce5db1b5c3cc61ab22c6680455c8ab841afdea3a",
+      "documentPath": "published/072a99d38af66e9d572d3f97ce5db1b5c3cc61ab22c6680455c8ab841afdea3a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN games won count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-table-tennis-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Forest Linen Headrail — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-table-tennis-1.html",
+      "contentHash": "67b67cc6d00333b3321722337c655e796fec0715bee64060f341e80bd07bf83b",
+      "documentPath": "published/67b67cc6d00333b3321722337c655e796fec0715bee64060f341e80bd07bf83b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN games won count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate paired service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-table-tennis-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Forest Linen Headrail — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-table-tennis-2.html",
+      "contentHash": "3e0a694a9ee7656dd5fd466041e1a69ac6e7176d4430b9f0248fa31336f6a3aa",
+      "documentPath": "published/3e0a694a9ee7656dd5fd466041e1a69ac6e7176d4430b9f0248fa31336f6a3aa.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-forest-linen-headrail-scorebug",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN sets won count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two aligned competitor rows form a compact scorebug. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-volleyball-1.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "forest-linen-headrail-volleyball-1.html",
+      "contentHash": "359ad547c0e67a4b7d82a5db9569d26b57d3f9612c762e9fe590529ea5d5b8c7",
+      "documentPath": "published/359ad547c0e67a4b7d82a5db9569d26b57d3f9612c762e9fe590529ea5d5b8c7.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-forest-linen-headrail-lower-third",
+      "description": "Professional static broadcast scoreboard with deep-forest competitor lanes and an attached dark top header carrying a modest linen sport tab. Each lane has a small OPEN sets won count before its flexible warm-white competitor name and one fixed FILLED linen PRIMARY score terminal at the far right. Complete solid numerals remain readable without animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Header sport/status counters, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional open leading supporting count, flexible forest name lane, filled linen right score terminal and an attached linen sport tab in the dark top header.",
+      "output": "html-replications/forest-linen-headrail-volleyball-2.html",
+      "palette": [
+        "#213a36",
+        "#ebe5d8",
+        "#f8f7f1",
+        "#c7a778",
+        "#61776f",
+        "#3d879f",
+        "#c67165"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "1280bd65996af481d061e59c882531a521d1131999ee771a29fc4f0ae122068a",
+      "styleGuide": {
+        "geometry": "Conventional compact two-row scorebug with two aligned 84px lanes, or balanced equal-lane horizontal lower-third. A 34px deep-forest header spans the board, with one attached linen sport tab at the left and grouped status counters at the right. Each lane reads LEFT-TO-RIGHT: slim independent live identity tick, small fixed OPEN supporting count on the SAME forest fill as the flexible name, wide name lane, then a fixed FILLED linen PRIMARY terminal at the far right. Both horizontal halves repeat this order without mirroring. No footer or side dock.",
+        "professionalFinish": "Credible static sports coverage: solid numerals, conventional lane hierarchy, fixed score terminals, flexible names, discreet native states and honest generic/manual counters.",
+        "surface": "One continuous flat deep-forest #213a36 surface carries the OPEN small supporting count, flexible warm-white name and a restrained 34px header. The primary score in each lane is ONE fixed FILLED warm-linen #ebe5d8 terminal at the FAR RIGHT, with a complete solid deep-forest zero. A modest linen sport tab is ATTACHED within the otherwise forest header, with practical static status counters set on forest to its right. Narrow independent blue/coral live identity ticks, fine forest-light row separator and modest 3px outer corners. No gradient, shadow, texture, photo, decorative hardware, animation or extra numeric boxes.",
+        "typography": "Upright semibold warm-white Arial/Helvetica names near 30px; complete solid bold deep-forest 48px tabular primary zero in a 96px linen terminal; compact labeled warm-white 18px supporting zero at the leading edge; dark 14px sport label on the linen header tab and small warm-white status counters to its right."
+      },
+      "styleID": "forest-linen-headrail",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "forest-linen-headrail",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Forest Linen Headrail — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "forest-linen-headrail-volleyball-2.html",
+      "contentHash": "97692efe3ccba2a9567684c912ca0d5b794234758480c5ca3370a734f8f542d7",
+      "documentPath": "published/97692efe3ccba2a9567684c912ca0d5b794234758480c5ca3370a734f8f542d7.json"
     },
     {
       "aliases": [],

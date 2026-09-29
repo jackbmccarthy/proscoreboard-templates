@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BASEBALL — Forest Linen Headrail horizontal lower-third</title><style>
+*{box-sizing:border-box}
+html,body{width:100%;min-height:100%;margin:0;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif;color:#f8f7f1}
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:8px}
+.board{--forest:#213a36;--linen:#ebe5d8;--white:#f8f7f1;--line:#61776f;display:flex;flex-direction:column;width:min(92vw,1720px);max-width:100%;min-width:0;overflow:hidden;border-radius:3px;background:var(--forest);color:var(--white);container-type:inline-size}
+.header{display:flex;align-items:stretch;min-width:0;height:4.15cqw;min-height:32px;background:var(--forest);border-bottom:1px solid var(--line)}
+.sport-tag{display:flex;align-items:center;justify-content:center;flex:0 0 auto;max-width:38%;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 2.3cqw;background:var(--linen);color:var(--forest);font-size:2.25cqw;font-weight:800;line-height:1}
+.stats{display:flex;align-items:center;justify-content:space-around;flex:1 1 auto;min-width:0;padding:0 1.1cqw;gap:.6cqw}
+.stat{display:flex;align-items:center;justify-content:center;gap:.65cqw;min-width:0;white-space:nowrap;color:var(--white);font-size:1.38cqw;font-weight:700;line-height:1}
+.stat strong{font-size:1.22em;font-weight:800;font-variant-numeric:tabular-nums}
+.stat+.stat{border-left:1px solid var(--line);padding-left:1.5cqw}
+.point-slot{position:relative;display:flex;align-items:center;justify-content:flex-end;flex:1 1 auto;min-width:0;padding:0 1.5cqw;font-size:1.1cqw;font-weight:700;white-space:nowrap}
+.point-slot .point-state{opacity:0;white-space:nowrap}
+.point-slot .isMatchPoint{position:absolute;right:1.5cqw}
+.point-slot:has(.isMatchPoint[style*="opacity: 1"]) .isGamePoint,.point-slot:has(.isMatchPoint[style*="opacity:1"]) .isGamePoint{opacity:0!important}
+.point-slot.contract-only{display:none}
+.lanes{display:flex;flex-direction:row;min-width:0}
+.lane{display:flex;align-items:stretch;flex:1 1 50%;min-width:0;height:8.1cqw;min-height:78px;background:var(--forest)}
+.lane+.lane{border-left:1px solid var(--line)}
+.identity{flex:0 0 .95cqw;min-width:5px;align-self:stretch;background-color:#3d879f}
+.side-b .identity{background-color:#c67165}
+.support-track{display:flex;align-items:center;justify-content:center;flex-direction:column;flex:0 0 7.5cqw;min-width:58px;max-width:108px;overflow:hidden;color:var(--white);border-right:1px solid var(--line);font-variant-numeric:tabular-nums}
+.support-value{display:block;max-width:100%;font-size:3.2cqw;font-weight:700;line-height:.98;white-space:nowrap}
+.support-caption{display:block;margin-top:3px;font-size:1.05cqw;font-weight:700;line-height:1;white-space:nowrap}
+.name-lane{display:flex;align-items:center;flex:1 1 auto;min-width:0;padding:0 1.8cqw;gap:8px}
+.name{display:block;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:3.4cqw;font-weight:700;line-height:1.05;color:var(--white)}
+.combinedAName:empty::before{content:"Player A"}.combinedBName:empty::before{content:"Player B"}
+.board.team .combinedAName:empty::before{content:"Team A"}.board.team .combinedBName:empty::before{content:"Team B"}
+.serve{display:block;flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:var(--linen);opacity:0}
+.primary-track{display:flex;align-items:center;justify-content:center;flex-direction:column;flex:0 0 11.1cqw;min-width:82px;max-width:220px;overflow:hidden;background:var(--linen);color:var(--forest);font-variant-numeric:tabular-nums}
+.primary-value{display:block;max-width:100%;font-size:5.1cqw;font-weight:800;line-height:.92;letter-spacing:-.035em;white-space:nowrap}
+.primary-caption{display:block;margin-top:3px;font-size:1.05cqw;font-weight:800;line-height:1;white-space:nowrap}
+.retained{display:none}
+@media(max-width:700px){.stage{padding:8px}.board{width:100%}.header{height:auto;min-height:38px;flex-wrap:wrap}.sport-tag{min-height:36px;max-width:100%;padding:0 12px;font-size:15px}.stats{order:2;flex-basis:100%;justify-content:flex-start;min-height:25px;padding:0 7px;gap:9px}.stat{gap:3px;font-size:10px}.stat strong{font-size:11px}.stat+.stat{padding-left:9px}.point-slot{font-size:10px}.lanes{flex-direction:column}.lane{flex:0 0 78px;height:78px}.lane+.lane{border-left:0;border-top:1px solid var(--line)}.identity{flex-basis:6px}.support-track{flex:0 0 55px;min-width:55px}.support-value{font-size:23px}.support-caption{font-size:9px}.name-lane{padding:0 10px;gap:6px}.name{font-size:clamp(16px,5.4vw,27px)}.primary-track{flex:0 0 78px;min-width:78px}.primary-value{font-size:35px}.primary-caption{font-size:9px}}
+@media(max-width:390px){.support-track{flex-basis:49px;min-width:49px}.name-lane{padding:0 7px}.primary-track{flex-basis:73px;min-width:73px}.name{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style></head><body><main class="stage" data-osb-component="layout"><article class="board columnContainer team" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="BASEBALL scoreboard"><header class="header rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="sport-tag" data-osb-component="text">BASEBALL</span><div class="stats" data-osb-component="layout" aria-label="Editable static baseball counters"><span class="stat" data-osb-component="layout"><span data-osb-component="text">INNING</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="inning">0</strong></span><span class="stat" data-osb-component="layout"><span data-osb-component="text">BALLS</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="balls">0</strong></span><span class="stat" data-osb-component="layout"><span data-osb-component="text">STRIKES</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="strikes">0</strong></span><span class="stat" data-osb-component="layout"><span data-osb-component="text">OUTS</span><strong data-osb-component="text" data-osb-static="true" data-sport-stat="outs">0</strong></span></div></header><div class="lanes fixedRowContainer" data-osb-component="layout" data-osb-component-type="osb-fixed-row-container"><section class="lane side-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA" style="background-color:#3d879f"></span>
+    <div class="support-track" data-osb-component="layout"><strong class="support-value" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsA">0</strong><span class="support-caption" data-osb-component="text">HITS</span></div>
+    <div class="name-lane" data-osb-component="layout"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></div>
+    <div class="primary-track" data-osb-component="layout"><strong class="primary-value currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</strong><span class="primary-caption" data-osb-component="text">RUNS</span></div><span class="retained currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span>
+  </section><section class="lane side-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+    <span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB" style="background-color:#c67165"></span>
+    <div class="support-track" data-osb-component="layout"><strong class="support-value" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsB">0</strong><span class="support-caption" data-osb-component="text">HITS</span></div>
+    <div class="name-lane" data-osb-component="layout"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></div>
+    <div class="primary-track" data-osb-component="layout"><strong class="primary-value currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</strong><span class="primary-caption" data-osb-component="text">RUNS</span></div><span class="retained currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span>
+  </section></div><span class="point-slot contract-only" data-osb-component="layout"><span class="point-state isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">GAME POINT</span><span class="point-state isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">MATCH POINT</span></span></article></main></body></html>
