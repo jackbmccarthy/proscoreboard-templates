@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Softball · Indigo Pearl Namebed</title>
+  <style>
+    *{box-sizing:border-box}
+    html,body{width:100%;min-height:100%;margin:0;background:transparent}
+    body{font-family:Arial,Helvetica,sans-serif}
+    .stage{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:8px}
+    .board{--indigo:#292f4b;--pearl:#dfe6e8;--white:#f8faf9;--rule:#aebdca;--blue:#3184a9;--coral:#c87175;width:min(94vw,1880px);overflow:hidden;border-radius:4px;background:var(--indigo);color:var(--white);container-type:inline-size;font-variant-numeric:tabular-nums}
+    .header{display:flex;align-items:center;gap:1cqw;height:3.6cqw;min-width:0;padding:0 2%;background:var(--pearl);color:var(--indigo);border-bottom:1px solid #677b92;white-space:nowrap}
+    .sport{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;font-size:2.4cqw;font-weight:750;line-height:1}
+    .status{display:flex;align-items:center;justify-content:flex-end;gap:0;flex:0 0 auto;min-width:0}
+    .status-item{display:flex;align-items:baseline;justify-content:center;gap:.8cqw;min-width:0;padding:0 1.4cqw;border-left:1px solid #677b92;font-size:1.4cqw;font-weight:650;line-height:1}
+    .status-item:first-child{border-left:0}
+    .status-value{font-size:1.15em;font-weight:750}
+    .lanes{display:flex;flex-direction:row;min-width:0}
+    .lane{display:flex;align-items:stretch;flex:1 1 50%;min-width:0;height:8cqw;background:var(--indigo)}
+    .lane+.lane{border-left:2px solid var(--rule)}
+    .identity{flex:0 0 1.5cqw;background:var(--blue)}
+    .lane-b .identity{background:var(--coral)}
+    .namebed{display:flex;flex:1 1 auto;flex-direction:column;justify-content:center;gap:.3cqw;min-width:0;padding:0 2.2cqw}
+    .name{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:3.5cqw;font-weight:650;line-height:1.05}
+    .combinedAName:empty::before{content:"Team A"}
+    .combinedBName:empty::before{content:"Team B"}
+    .support-line{display:flex;align-items:baseline;gap:1.2cqw;min-width:0;white-space:nowrap;font-size:1.6cqw;font-weight:650;line-height:1.1}
+    .support-value{font-size:1.2em;font-weight:700}
+    .scorecap{display:flex;flex:0 0 17.8%;flex-direction:column;align-items:center;justify-content:center;min-width:0;background:var(--pearl);color:var(--indigo);border-left:1px solid #677b92;white-space:nowrap}
+    .primary-score{display:block;max-width:100%;overflow:hidden;font-size:5.2cqw;font-weight:750;line-height:1;font-variant-numeric:tabular-nums}
+    .score-label{font-size:1.5cqw;font-weight:750;line-height:1.1}
+    .point-slot{display:none}
+    .point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+    @media(max-width:700px){.board{width:100%;container-type:normal}.header{height:40px;padding:0 8px;gap:4px}.sport{font-size:12px}.status-item{gap:2px;padding:0 4px;font-size:8px}.status-value{font-size:10px}.lanes{flex-direction:column}.lane{flex:1 1 auto;height:85px}.lane+.lane{border-left:0;border-top:1px solid var(--rule)}.identity{flex-basis:7px}.namebed{gap:3px;padding:0 12px}.name{font-size:clamp(20px,6vw,28px)}.support-line{gap:6px;font-size:11px}.support-value{font-size:15px}.scorecap{flex-basis:27%}.primary-score{font-size:clamp(29px,8.6vw,40px)}.score-label{font-size:11px}}
+    @media(max-width:390px){.sport{font-size:11px}.status-item{padding:0 3px;font-size:7px}.status-value{font-size:9px}.namebed{padding:0 8px}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body><main class="stage"><article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Softball scoreboard">
+  <header class="header" data-osb-component="layout"><span class="sport" data-osb-component="text">SOFTBALL</span><div class="status" data-osb-component="layout">
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">INNING</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="inning">0</span></span>
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">BALLS</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="balls">0</span></span>
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">STRIKES</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="strikes">0</span></span>
+    <span class="status-item" data-osb-component="layout"><span data-osb-component="text">OUTS</span><span class="status-value" data-osb-component="text" data-osb-static="true" data-sport-stat="outs">0</span></span>
+  </div></header>
+  <div class="lanes" data-osb-component="layout">
+    <div class="lane lane-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="namebed" data-osb-component="layout"><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="support-line" data-osb-component="layout"><span data-osb-component="text">HITS</span><span class="support-value" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsA">0</span></span></div><div class="scorecap" data-osb-component="layout"><span class="primary-score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="score-label" data-osb-component="text">RUNS</span></div><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore" hidden>0</span></div>
+    <div class="lane lane-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="namebed" data-osb-component="layout"><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="support-line" data-osb-component="layout"><span data-osb-component="text">HITS</span><span class="support-value" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsB">0</span></span></div><div class="scorecap" data-osb-component="layout"><span class="primary-score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="score-label" data-osb-component="text">RUNS</span></div><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore" hidden>0</span></div>
+  </div>
+  <div class="point-slot" data-osb-component="layout" hidden><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</article></main></body></html>

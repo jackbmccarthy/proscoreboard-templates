@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "659fb3b0ae4f7c01e0e600168f220baec965c77dd3ce2bc4aff075ff502bcf68",
+  "revision": "27849cc782adbf923dd62553e52a50469d2da75d01f28fe1a6419d12c81e3be6",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -16086,6 +16086,664 @@
       "fileName": "indigo-open-data-lane-volleyball-2.html",
       "contentHash": "33719289d7d171a2a365b34a540dceaf5da7fcd1d9f9747890c04f30ea21723b",
       "documentPath": "published/33719289d7d171a2a365b34a540dceaf5da7fcd1d9f9747890c04f30ea21723b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-baseball-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-baseball-1.html",
+      "contentHash": "1777c1c0181887b9efb5d8c2051663ca7177d70b1e9358a6235e518fd81c5557",
+      "documentPath": "published/1777c1c0181887b9efb5d8c2051663ca7177d70b1e9358a6235e518fd81c5557.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-baseball-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-baseball-2.html",
+      "contentHash": "27648f31580cf0c27c0558c60a0125669dd457c2048c6ef2366b21d800d8f0c5",
+      "documentPath": "published/27648f31580cf0c27c0558c60a0125669dd457c2048c6ef2366b21d800d8f0c5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-basketball-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-basketball-1.html",
+      "contentHash": "a68a631d7c0702ea2a17abdcb0c660f1f08df2a59a8ada2df2f8989a766367b6",
+      "documentPath": "published/a68a631d7c0702ea2a17abdcb0c660f1f08df2a59a8ada2df2f8989a766367b6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-basketball-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-basketball-2.html",
+      "contentHash": "184bc1e5385356c25662cd903bf14baef23303a5c1e74f256d8eb648f9ff72de",
+      "documentPath": "published/184bc1e5385356c25662cd903bf14baef23303a5c1e74f256d8eb648f9ff72de.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-pickleball-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-pickleball-1.html",
+      "contentHash": "bf4422b2ea5cc8168457392d0f12aef4f5cb4371b81d7a0533a9c4ecf6de83c5",
+      "documentPath": "published/bf4422b2ea5cc8168457392d0f12aef4f5cb4371b81d7a0533a9c4ecf6de83c5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-pickleball-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-pickleball-2.html",
+      "contentHash": "050bed62df4cc48e1ee687d104a6ceba834d5bc693204fc51c63bacf4c3e0b6b",
+      "documentPath": "published/050bed62df4cc48e1ee687d104a6ceba834d5bc693204fc51c63bacf4c3e0b6b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-soccer-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-soccer-1.html",
+      "contentHash": "43780276011a26e312e944914ffd40775a1fcfc04298cce22e530309dc1d7634",
+      "documentPath": "published/43780276011a26e312e944914ffd40775a1fcfc04298cce22e530309dc1d7634.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN fouls supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-soccer-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-soccer-2.html",
+      "contentHash": "ec81cda987948647234a103a1586a6d2282083462bf713230448e253e0b6f214",
+      "documentPath": "published/ec81cda987948647234a103a1586a6d2282083462bf713230448e253e0b6f214.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-softball-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-softball-1.html",
+      "contentHash": "d62eb495485e234cbdcff35637a9e07f69ec093b91e8c58787e6f4854053ba6c",
+      "documentPath": "published/d62eb495485e234cbdcff35637a9e07f69ec093b91e8c58787e6f4854053ba6c.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN hits supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-softball-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-softball-2.html",
+      "contentHash": "86bbaf0d7bb5e75bf7049bf2087fcf06bec7d1cbab3574c9ddb4af5b4e87c1c9",
+      "documentPath": "published/86bbaf0d7bb5e75bf7049bf2087fcf06bec7d1cbab3574c9ddb4af5b4e87c1c9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-table-tennis-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-table-tennis-1.html",
+      "contentHash": "184295588520fd6856bc928da4c4bc8dc4864dfa07e19f03a3cdec2af8945776",
+      "documentPath": "published/184295588520fd6856bc928da4c4bc8dc4864dfa07e19f03a3cdec2af8945776.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN games won supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-table-tennis-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-table-tennis-2.html",
+      "contentHash": "277ed2cfc39abbf0dd1f7bce2e49f0fd0be302bd672c75dbf6c70be208612020",
+      "documentPath": "published/277ed2cfc39abbf0dd1f7bce2e49f0fd0be302bd672c75dbf6c70be208612020.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-indigo-namebed-scorebug",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN sets won supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-volleyball-1.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "indigo-pearl-namebed-volleyball-1.html",
+      "contentHash": "a0bbb7da938afe69509377ef5067bad5043f627a0e962c6bf10ffbdfef0ef8e2",
+      "documentPath": "published/a0bbb7da938afe69509377ef5067bad5043f627a0e962c6bf10ffbdfef0ef8e2.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-indigo-namebed-lower-third",
+      "description": "Professional static broadcast scoreboard with a continuous deep-indigo competitor body and a shallow full-width pale-pearl sport/status utility header above. Each lane reads from a slim live blue/coral identity tick through a flexible two-line white name area with a small OPEN sets won supporting count directly beneath the name, then a fixed FILLED pale-pearl primary scorecap with a complete solid dark zero at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional two-line name/support bed beneath a pale utility header and one filled pearl primary scorecap per competitor.",
+      "output": "html-replications/indigo-pearl-namebed-volleyball-2.html",
+      "palette": [
+        "#292f4b",
+        "#dfe6e8",
+        "#f8faf9",
+        "#aebdca",
+        "#677b92",
+        "#3184a9",
+        "#c87175"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "f7f04e3cebd6588f67f6cdf1532f54c3a601aa919220cbfadb97025c6c231883",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 78px competitor rows or a balanced horizontal lower-third beneath one 28px pale sport/status utility header. Every deep-indigo competitor lane reads LEFT-TO-RIGHT as a slim blue/coral live identity tick, a roomy flexible TWO-LINE name-and-support area, and exactly one fixed pale-pearl PRIMARY scorecap occupying roughly 18–20% of the lane width at the FAR RIGHT. The supporting count is an OPEN second line directly beneath its own name, never a separate tile or score column. Both horizontal halves repeat the same order. No footer or side dock.",
+        "professionalFinish": "Credible static broadcast graphic with complete solid numerals, fixed paired scorecaps, flexible long-name lanes, discreet native states and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-indigo #292f4b field holds both flexible white name lines and OPEN supporting counts; there is NO separate support chip, rail or enclosure. One equal fixed pale-pearl #dfe6e8 FILLED primary terminal with complete solid dark score closes each lane at FAR RIGHT. One narrow pale-pearl sport/status utility header spans the FULL width ABOVE both lanes with dark title and grouped zero counters. A fine muted-blue rule separates header from body, with thin row dividers and modest 4px outer corners. No footer, dock, gradients, shadow, texture, photos, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold white Arial/Helvetica competitor names near 27px; a small quiet second line with 10px uppercase supporting label and complete solid white 17px tabular zero; complete solid bold deep-indigo 48px tabular primary zero and concise deep-indigo caption inside each pale scorecap; deep-indigo sport title near 14px and static counters near 11px in the pale utility header."
+      },
+      "styleID": "indigo-pearl-namebed",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "indigo-pearl-namebed",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Indigo Pearl Namebed — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "indigo-pearl-namebed-volleyball-2.html",
+      "contentHash": "474e7494f527a2d3f197b962abcdc87962f9eb92497d89846f30a9e47a5d73f0",
+      "documentPath": "published/474e7494f527a2d3f197b962abcdc87962f9eb92497d89846f30a9e47a5d73f0.json"
     },
     {
       "aliases": [],
