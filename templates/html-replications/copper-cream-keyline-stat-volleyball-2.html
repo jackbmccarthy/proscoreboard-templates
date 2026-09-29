@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volleyball — Copper Cream Keyline Stat 2</title>
+<style>
+*{box-sizing:border-box}
+html,body{width:100%;min-height:100%;margin:0;background:transparent}
+body{font-family:Arial,Helvetica,sans-serif}
+.stage{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:12px}
+.board{display:flex;flex-direction:column;width:min(96vw,1732px);max-width:100%;aspect-ratio:8.06;overflow:hidden;border-radius:8px;background:#f2efe8;color:#263540;container-type:inline-size}
+.head{display:flex;align-items:center;justify-content:space-between;flex:0 0 26.5%;min-width:0;padding:0 34px;background:#78544a;color:#fbfaf6}
+.sport-tag{display:block;min-width:0;overflow:hidden;font-size:clamp(20px,2.5cqw,42px);font-weight:800;line-height:1;text-overflow:ellipsis;white-space:nowrap}
+.status{display:flex;align-items:center;align-self:stretch;gap:.35em;padding-left:35px;border-left:2px solid #fbfaf6;font-size:clamp(19px,2.2cqw,38px);font-weight:800;line-height:1;white-space:nowrap}
+.current-set{display:inline-block;min-width:1ch;max-width:4ch;overflow:hidden;font-variant-numeric:tabular-nums;text-align:center}
+.pair{display:flex;flex:1 1 0;min-width:0;min-height:0}
+.side{display:flex;align-items:stretch;flex:1 1 0;min-width:0}
+.side+.side{border-left:2px solid #aeb9b0}
+.identity{display:block;flex:0 0 3.5%;align-self:stretch;margin:6px 0 6px 8px;background:#3a95e5}
+.jerseyColorB{background:#f26872}
+.name{display:block;align-self:center;flex:1 1 0;min-width:0;overflow:hidden;padding:0 25px;color:#263540;font-size:clamp(28px,4.2cqw,65px);font-weight:700;line-height:1.1;text-overflow:ellipsis;white-space:nowrap}
+.combinedAName:empty::before{content:"Team A"}
+.combinedBName:empty::before{content:"Team B"}
+.sets,.points{display:flex;align-items:center;justify-content:center;min-width:0;flex-direction:column;gap:2px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sets{flex:0 0 14%;margin:16px 0;border:2px solid #aeb9b0;border-radius:7px;background:#f2efe8;color:#263540}
+.points{flex:0 0 24%;margin:6px 6px 6px 18px;border-radius:7px;background:#263540;color:#fff}
+.set-score{display:block;max-width:100%;overflow:hidden;font-size:clamp(30px,3.1cqw,53px);font-weight:800;line-height:1;text-align:center}
+.score{display:block;max-width:100%;overflow:hidden;font-size:clamp(45px,5cqw,87px);font-weight:800;line-height:1;text-align:center}
+.label{display:block;max-width:100%;overflow:hidden;font-size:clamp(12px,1.35cqw,23px);font-weight:750;line-height:1}
+.point-slot{display:none}
+.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+@media(max-width:700px){
+ .stage{padding:6px}
+ .board{width:100%;height:135px;aspect-ratio:auto;border-radius:3px}
+ .head{flex-basis:25%;padding:0 8px}
+ .sport-tag{font-size:clamp(10px,2.8cqw,14px)}
+ .status{padding-left:8px;border-width:1px;font-size:clamp(10px,2.8cqw,14px)}
+ .side+.side{border-width:1px}
+ .identity{flex-basis:5px;margin:4px 0 4px 3px}
+ .name{padding:0 5px;font-size:clamp(12px,3.6cqw,17px)}
+ .sets{flex-basis:19%;margin:10px 0;border-width:1px;border-radius:2px;gap:1px}
+ .points{flex-basis:27%;margin:4px 4px 4px 4px;border-radius:2px;gap:1px}
+ .set-score{font-size:clamp(18px,5cqw,24px)}
+ .score{font-size:clamp(25px,6.8cqw,33px)}
+ .label{font-size:clamp(7px,2cqw,10px)}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="stage" data-osb-component="layout">
+ <article class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Horizontal volleyball scoreboard with generic manual scoring">
+  <div class="head rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="sport-tag" data-osb-component="text">VOLLEYBALL</span><div class="status" data-osb-component="layout"><span data-osb-component="text">SET</span><span class="current-set" data-osb-component="text" data-osb-static="true" data-sport-stat="current-set">0</span></div></div>
+  <div class="pair rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container">
+   <div class="side side-a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><div class="sets" data-osb-component="layout"><span class="set-score currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="label" data-osb-component="text">SETS</span></div><div class="points" data-osb-component="layout"><span class="score currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="label" data-osb-component="text">POINTS</span></div></div>
+   <div class="side side-b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="identity jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><div class="sets" data-osb-component="layout"><span class="set-score currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="label" data-osb-component="text">SETS</span></div><div class="points" data-osb-component="layout"><span class="score currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="label" data-osb-component="text">POINTS</span></div></div>
+  </div>
+ </article>
+ <div class="point-slot" data-osb-component="layout"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</main>
+</body>
+</html>

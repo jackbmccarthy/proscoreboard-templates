@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "c118e384afe5eeaea228be367a35e43384293a1c7d78f8b3b8e5ff5ebe333cf5",
+  "revision": "4bc23e802dcbe863ed29808cd4c69a3b5eeae5c8a6700f4c72dd7f5f23be298f",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -6650,6 +6650,664 @@
       "fileName": "cloud-graphite-combined-bay-volleyball-2.html",
       "contentHash": "8080263f7352b310c75e3e6cb7cae5488d4d7d1113b5a6625260fe46330882ff",
       "documentPath": "published/8080263f7352b310c75e3e6cb7cae5488d4d7d1113b5a6625260fe46330882ff.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream hits supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-baseball-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-baseball-1.html",
+      "contentHash": "1875da423af0499a88b49d3a50930b0eaf1cf4a59da7b6e0962d80da6329a505",
+      "documentPath": "published/1875da423af0499a88b49d3a50930b0eaf1cf4a59da7b6e0962d80da6329a505.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream hits supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-baseball-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-baseball-2.html",
+      "contentHash": "4ab54cc28291ce52c8600eeb5ab70630c1de844d0a634ce375ff9ec66dc911f6",
+      "documentPath": "published/4ab54cc28291ce52c8600eeb5ab70630c1de844d0a634ce375ff9ec66dc911f6.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream fouls supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-basketball-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-basketball-1.html",
+      "contentHash": "899199029f0a5c537ee93bda446853d0939674410252bdd6c2ab96e6906a9fbb",
+      "documentPath": "published/899199029f0a5c537ee93bda446853d0939674410252bdd6c2ab96e6906a9fbb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream fouls supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-basketball-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-basketball-2.html",
+      "contentHash": "71570a1720d824becfcd8f2e0db5feed487167e8c88de7d00c31832fcc7ddacb",
+      "documentPath": "published/71570a1720d824becfcd8f2e0db5feed487167e8c88de7d00c31832fcc7ddacb.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream games won supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-pickleball-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-pickleball-1.html",
+      "contentHash": "e2be2b5a8f9a4509f9045e681b91cc5004af96fb033ff1d50fcb4a5243879f12",
+      "documentPath": "published/e2be2b5a8f9a4509f9045e681b91cc5004af96fb033ff1d50fcb4a5243879f12.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream games won supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-pickleball-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-pickleball-2.html",
+      "contentHash": "19d7881201cab6477729066a105bf987c009dcd7670639ecee7b3fb36759d570",
+      "documentPath": "published/19d7881201cab6477729066a105bf987c009dcd7670639ecee7b3fb36759d570.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream fouls supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-soccer-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-soccer-1.html",
+      "contentHash": "6b3e2f10607a551d30b132bd53f99bb2983d78a08e48128ec87220a41b61505b",
+      "documentPath": "published/6b3e2f10607a551d30b132bd53f99bb2983d78a08e48128ec87220a41b61505b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream fouls supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-soccer-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-soccer-2.html",
+      "contentHash": "b1add0374323ad684b3e50e05a06563e2552b8f6af751c24f8297cbc35bf8286",
+      "documentPath": "published/b1add0374323ad684b3e50e05a06563e2552b8f6af751c24f8297cbc35bf8286.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream hits supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-softball-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-softball-1.html",
+      "contentHash": "9329b5a90e0d391543ba54657fbb0acaad2b8429304eb8aaa9fa56210c8566b9",
+      "documentPath": "published/9329b5a90e0d391543ba54657fbb0acaad2b8429304eb8aaa9fa56210c8566b9.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream hits supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-softball-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-softball-2.html",
+      "contentHash": "2d30b5751f30d65402e6fb5183b5d4c94b184ada6d0073ece79b1f8dc4c65e68",
+      "documentPath": "published/2d30b5751f30d65402e6fb5183b5d4c94b184ada6d0073ece79b1f8dc4c65e68.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream games won supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-table-tennis-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-table-tennis-1.html",
+      "contentHash": "a790900b8387b6b9485607ceac10a397030c5513d467630064f6ecf9d5345c71",
+      "documentPath": "published/a790900b8387b6b9485607ceac10a397030c5513d467630064f6ecf9d5345c71.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream games won supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-table-tennis-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-table-tennis-2.html",
+      "contentHash": "91b05a13e57a675156f0a48513c4d689c68064bf16fff2ca3b41d1161284848a",
+      "documentPath": "published/91b05a13e57a675156f0a48513c4d689c68064bf16fff2ca3b41d1161284848a.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-paired-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream sets won supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. Two aligned competitor rows sit beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-volleyball-1.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "copper-cream-keyline-stat-volleyball-1.html",
+      "contentHash": "9beca151fc80dfc31baba8bb91a87add33e01e8bf63cb94aeee053123ef1690b",
+      "documentPath": "published/9beca151fc80dfc31baba8bb91a87add33e01e8bf63cb94aeee053123ef1690b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "horizontal-keyline-stat",
+      "description": "Professional static broadcast scoreboard with a muted-copper top sport/status header and warm-cream flexible name lanes. Each competitor lane starts with a slim live identity-color tick, then a flexible dark name, one small FIXED UNFILLED thin-outlined cream sets won supporting track, and one large complete solid-white primary zero in a FIXED FILLED deep-ink scorecap at the far right. A true horizontal lower-third places both competitors side by side beneath the shallow copper header. Shared status counters, where displayed, remain editable static text in the top header. Rebuilt as selectable editable HTML/CSS with independent live competitor-color ticks. Generic/manual scoring uses live competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional thin supporting keyline next to a stable dark primary terminal, no decorative motif or motion.",
+      "output": "html-replications/copper-cream-keyline-stat-volleyball-2.html",
+      "palette": [
+        "#f2efe8",
+        "#78544a",
+        "#263540",
+        "#aeb9b0",
+        "#fbfaf6",
+        "#2685a2",
+        "#c76863"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "e522bc20bcf01692a2b81d3867de833ad907844cda747cdcfef4a28e84fb5ec3",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 66px competitor rows or true balanced equal-lane horizontal lower-third. A shallow full-width muted-copper sport/status header sits ABOVE warm-cream competitor lanes. Each lane reads LEFT-to-RIGHT as slim live identity tick, flexible name lane, one small FIXED THIN-OUTLINED supporting-count track on the cream field, then one large fixed FILLED dark primary scorecap at its RIGHT end. The outlined support and filled primary keep a consistent two-track rhythm.",
+        "professionalFinish": "Static polished broadcast package with complete solid numerals, flexible names, stable fixed tracks, restrained status header, native state slots and honest generic/manual counters.",
+        "surface": "One flat warm-cream #f2efe8 field behind flexible names and outlined supporting tracks, with one fixed deep-ink #263540 filled primary scorecap at the right edge of each lane. The supporting track remains cream, bounded only by a fine #aeb9b0 hairline; it is NOT another filled score cell. One shallow continuous muted-copper #78544a top header groups sport at left and static status at right. Thin neutral row dividers, 3px corners; no bottom dock, gradients, shadows, texture or decorative hardware.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica dark-ink competitor names near 25px; complete solid bold white 42px tabular primary numeral and small white caption inside the dark filled terminal; 18px solid dark supporting zero and compact 10px uppercase caption inside a fine 1px outlined cream track; white sport/status type in the copper header."
+      },
+      "styleID": "copper-cream-keyline-stat",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "copper-cream-keyline-stat",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Copper Cream Keyline Stat — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "copper-cream-keyline-stat-volleyball-2.html",
+      "contentHash": "fd6363ff88d1f5813e4e44b632fb833825227d34845246982460bef3a4f3f04d",
+      "documentPath": "published/fd6363ff88d1f5813e4e44b632fb833825227d34845246982460bef3a4f3f04d.json"
     },
     {
       "aliases": [],
