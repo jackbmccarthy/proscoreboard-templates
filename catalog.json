@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "0147e2e24c6445b76ecb8a77973fabc136b910a36d1abf7952f4400b5da0fb2f",
+  "revision": "659fb3b0ae4f7c01e0e600168f220baec965c77dd3ce2bc4aff075ff502bcf68",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -7966,6 +7966,664 @@
       "fileName": "cloud-graphite-combined-bay-volleyball-2.html",
       "contentHash": "8080263f7352b310c75e3e6cb7cae5488d4d7d1113b5a6625260fe46330882ff",
       "documentPath": "published/8080263f7352b310c75e3e6cb7cae5488d4d7d1113b5a6625260fe46330882ff.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog hits supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-baseball-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — BASEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-baseball-1.html",
+      "contentHash": "5bc3ff5efabc6a4a527c6bf838becd51ba19193178748bc208e7d6da719cac44",
+      "documentPath": "published/5bc3ff5efabc6a4a527c6bf838becd51ba19193178748bc208e7d6da719cac44.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog hits supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-baseball-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "baseball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "baseball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — BASEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-baseball-2.html",
+      "contentHash": "5c3f256afd9ebbf51c1e83f676c59ed1ded9f4b4eb52773d86f5baec69a5170b",
+      "documentPath": "published/5c3f256afd9ebbf51c1e83f676c59ed1ded9f4b4eb52773d86f5baec69a5170b.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog fouls supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-basketball-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — BASKETBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-basketball-1.html",
+      "contentHash": "a4810dcf85262fb86db48086a55e4f7711fcbeeef13d00785b8e6a97ac8721e5",
+      "documentPath": "published/a4810dcf85262fb86db48086a55e4f7711fcbeeef13d00785b8e6a97ac8721e5.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog fouls supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-basketball-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "basketball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "basketball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — BASKETBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-basketball-2.html",
+      "contentHash": "066704c1c3d27ad6e6afe300f44d0dd0c42cca48bed247f05aa588b97c368b93",
+      "documentPath": "published/066704c1c3d27ad6e6afe300f44d0dd0c42cca48bed247f05aa588b97c368b93.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog games won supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-pickleball-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — PICKLEBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-pickleball-1.html",
+      "contentHash": "71051601ae063f746ae4f70f9ca3f516d988d6cb5cbf40db0f3070cad966dc99",
+      "documentPath": "published/71051601ae063f746ae4f70f9ca3f516d988d6cb5cbf40db0f3070cad966dc99.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog games won supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native pickleball bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-pickleball-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "pickleball",
+      "sport": "pickleball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "pickleball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — PICKLEBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-pickleball-2.html",
+      "contentHash": "cfa54016a340fb4f5324c47e3ab9d074d100860e33027effa5c3dc29472e6d27",
+      "documentPath": "published/cfa54016a340fb4f5324c47e3ab9d074d100860e33027effa5c3dc29472e6d27.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog fouls supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-soccer-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — SOCCER Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-soccer-1.html",
+      "contentHash": "aa6f16c58c3844cfefbf847e9f98fd509c3e414dc8f02d095f4b0e465e00e5fd",
+      "documentPath": "published/aa6f16c58c3844cfefbf847e9f98fd509c3e414dc8f02d095f4b0e465e00e5fd.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog fouls supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side fouls count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-soccer-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "soccer",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "soccer",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — SOCCER Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-soccer-2.html",
+      "contentHash": "64967e092d1a26276af6be92a043dd8881c276fc61bd6135b2ae392e510c9526",
+      "documentPath": "published/64967e092d1a26276af6be92a043dd8881c276fc61bd6135b2ae392e510c9526.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog hits supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-softball-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — SOFTBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-softball-1.html",
+      "contentHash": "f97e179bd5b20925f1f21c7b9610dd4bdaf663f81765e0176a64771a8c36d206",
+      "documentPath": "published/f97e179bd5b20925f1f21c7b9610dd4bdaf663f81765e0176a64771a8c36d206.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog hits supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores; the per-side hits count and unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-softball-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "softball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "softball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — SOFTBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-softball-2.html",
+      "contentHash": "003074a229d736c31522ac77e7414e18dcd28ad2321533dda58e0914d2fb8600",
+      "documentPath": "published/003074a229d736c31522ac77e7414e18dcd28ad2321533dda58e0914d2fb8600.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog games won supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-table-tennis-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — TABLE TENNIS Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-table-tennis-1.html",
+      "contentHash": "2d087092b3ce4609d3311b85840a2826b82d72b0bca95cb34d7031cd0f654380",
+      "documentPath": "published/2d087092b3ce4609d3311b85840a2826b82d72b0bca95cb34d7031cd0f654380.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog games won supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Native table tennis bindings include separate service fields and neutral game/match-point states with match-point precedence.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-table-tennis-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "none",
+        "sportRules": true
+      },
+      "scoringMode": "tableTennis",
+      "sport": "tableTennis",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "table-tennis",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "native-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — TABLE TENNIS Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-table-tennis-2.html",
+      "contentHash": "d830d4fc6ddcc1825c18b374077600f3be89b53bfe8b2c2f79d24dac46d3f341",
+      "documentPath": "published/d830d4fc6ddcc1825c18b374077600f3be89b53bfe8b2c2f79d24dac46d3f341.json"
+    },
+    {
+      "aliases": [],
+      "composition": "compact-cobalt-leadchip-scorebug",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog sets won supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two aligned competitor rows form a compact scorebug. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-volleyball-1.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — VOLLEYBALL Compact scorebug",
+      "variant": 1,
+      "fileName": "cobalt-fog-leadchip-volleyball-1.html",
+      "contentHash": "bc846185e9bbc3ec9635787b03bc8058f89d92f581e962b10469603c1d837979",
+      "documentPath": "published/bc846185e9bbc3ec9635787b03bc8058f89d92f581e962b10469603c1d837979.json"
+    },
+    {
+      "aliases": [],
+      "composition": "balanced-cobalt-leadchip-lower-third",
+      "description": "Professional static broadcast scoreboard with one continuous deep-cobalt competitor body and a shallow same-color sport/status utility line above. Each lane reads from a slim live blue/coral identity tick through a small FILLED pale-fog sets won supporting chip, a flexible white name, then a fixed OPEN primary score track with a complete solid white zero on the same dark field at the far right. Complete solid numerals remain readable without score animation. Two balanced side-by-side competitor lanes form a horizontal lower-third. Shared sport/status counters in the attached top utility line, where displayed, are editable static text. The source is standalone selectable HTML/CSS with transparent surroundings. Generic/manual scoring binds competitor names and primary scores plus sets won; unsupported clocks and sport counters remain editable static placeholders. No native sport rules or automatic sport defaults are supplied.",
+      "motif": "Functional leading pale supporting chip and trailing open white primary score with quiet same-color top status line.",
+      "output": "html-replications/cobalt-fog-leadchip-volleyball-2.html",
+      "palette": [
+        "#23394b",
+        "#c9d7d7",
+        "#f7faf9",
+        "#94a9b2",
+        "#506c75",
+        "#3186a8",
+        "#c76c69"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "editable-static",
+        "sportRules": false
+      },
+      "scoringMode": "generic",
+      "sport": "volleyball",
+      "styleFingerprint": "dcf91fec6cea0de54bda1a91866a8df0d654a4e569cdb55bbb63c5473fdd35b7",
+      "styleGuide": {
+        "geometry": "Conventional compact two aligned 64px competitor rows or a balanced horizontal lower-third beneath one shallow SAME-COBALT sport/status utility line. Each deep-cobalt competitor lane reads LEFT-to-RIGHT as a slim live blue/coral identity tick, one small fixed FILLED pale-fog supporting-count chip at the LEADING side, a wide flexible white name, then one larger fixed OPEN white PRIMARY score track at the FAR RIGHT on the SAME cobalt fill as the name. Both horizontal halves repeat that order. No bottom footer or side dock.",
+        "professionalFinish": "Static credible broadcast scoreboard with complete solid numerals, fixed paired score tracks, flexible names, discreet native state slots and honest generic/manual counters.",
+        "surface": "One flat uninterrupted deep-cobalt #23394b field holds flexible white names and fixed OPEN white primary scores on the EXACT SAME background. ONE small pale-fog #c9d7d7 FILLED supporting-count chip sits immediately after the live identity tick and BEFORE each name, with a complete solid dark zero. A shallow full-width SAME-COBALT sport/status utility line sits ABOVE both lanes with white title at left and grouped zero counters at right, separated by one subtle rule. Thin cool-neutral row rules and modest 4px outer corners; no footer, side dock, outlined/hollow score glyphs, gradients, shadows, texture, image background, decorative hardware or score animation.",
+        "typography": "Upright mixed-case semibold Arial/Helvetica white competitor names near 26px; complete solid bold white 44px tabular primary numeral with compact white caption on the dark cobalt field; smaller complete solid dark-ink 20px tabular supporting zero with 10px uppercase caption in the pale-fog chip; white sport title near 14px and compact 11px white static status counters in the same-cobalt top utility line."
+      },
+      "styleID": "cobalt-fog-leadchip",
+      "tags": [
+        "volleyball",
+        "professional",
+        "broadcast",
+        "static",
+        "cobalt-fog-leadchip",
+        "transparent",
+        "generic-scoring"
+      ],
+      "title": "Cobalt Fog Leadchip — VOLLEYBALL Horizontal lower-third",
+      "variant": 2,
+      "fileName": "cobalt-fog-leadchip-volleyball-2.html",
+      "contentHash": "2a3e816659d001fa3a761d6c1fe2ef251546a14963eff422f1e5e5943dd537eb",
+      "documentPath": "published/2a3e816659d001fa3a761d6c1fe2ef251546a14963eff422f1e5e5943dd537eb.json"
     },
     {
       "aliases": [],
