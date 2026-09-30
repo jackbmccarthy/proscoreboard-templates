@@ -65,7 +65,11 @@ New public templates use `starter-` IDs so ProScoreboard saves a new private use
 rather than treating the repository document as an existing account-owned design.
 Neither editor sends feedback to an AI service or publishes on your behalf.
 
-- `templates/html-replications/manifest.json`: authoring metadata, initially 234 entries:
+- `templates/html-replications/manifest.json`: authoring metadata, including a `sport`
+  category such as `tableTennis` or `pickleball` for sport-specific templates. This
+  field drives the application's browse filter; it does not claim native scoring
+  support. Active legacy table-tennis entries now carry the explicit category.
+  The manifest began with 234 entries:
   145 active reference conversions and 89 explicitly retired legacy seeds.
 - `templates/html-replications/*.html`: authored documents, including embedded CSS.
 - Original generated images, reference images, source archives, and historical conversion
@@ -77,6 +81,9 @@ Neither editor sends feedback to an AI service or publishes on your behalf.
   The studio downloads selected notes as `<template-id>-brief.md` agent briefs.
 - `published/<hash>.json`: immutable `{ "html": "...", "css": "" }` documents.
 - `catalog.json`: generated `{ schemaVersion: 1, revision, templates: [...] }` index.
+  Each entry preserves the optional `sport` presentation category from the manifest;
+  consumers should continue to use `defaultForSports` only for default-template
+  selection, not as the template's sport classification.
 
 Run `node tools/build-catalog.mjs` after approved authoring changes. The builder reads
 every manifest entry, including retired entries, preserving all original metadata and
