@@ -16,8 +16,9 @@ npm run audit:export
 ```
 
 The studio prints its local URL. It is a local authoring/review tool, not a production
-server. Tests use fixtures and loopback harnesses, never real remote services. CI only
-validates; it does not deploy or publish. `private: true` prevents accidental npm publication.
+server. Tests use fixtures and loopback harnesses, never real remote services.
+Run validation locally before publishing; no GitHub Actions workflows are included.
+`private: true` prevents accidental npm publication.
 
 ## Review To Publication
 
