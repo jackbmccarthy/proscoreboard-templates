@@ -38,6 +38,7 @@ export function getSportFixture(sport) {
   }
   Object.assign(fields, { matchRound: 'Semifinal', matchFormatLabel: formatLabels[sport], courtName: 'Court 2', eventName: 'Sample Open', timeOutTimer: '00:30' });
   const setSport = ['pickleball', 'tableTennis', 'volleyball'].includes(sport);
+  // Period/inning headers are cumulative; history cells hold only that segment's points.
   const currentSegment = setSport ? sample.score : sample.score.map((total, side) => total - sample.history.reduce((sum, score) => sum + score[side], 0));
   for (let game = 1; game <= 9; game++) {
     const score = sample.history[game - 1] ?? (game === sample.history.length + 1 ? currentSegment : null);

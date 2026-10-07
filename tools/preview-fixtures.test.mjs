@@ -77,3 +77,23 @@ test('manual sport formats describe their actual segments and period history sum
     }
   }
 });
+
+test('current history segments preserve exact residuals while live headers keep aggregate scores', () => {
+  const expected = {
+    basketball: { segment: 4, score: [13, 12], header: [78, 74] },
+    soccer: { segment: 2, score: [1, 1], header: [2, 1] },
+    baseball: { segment: 6, score: [1, 0], header: [4, 2] },
+    softball: { segment: 5, score: [2, 0], header: [5, 3] },
+    tableTennis: { segment: 4, score: [9, 7], header: [9, 7] },
+    pickleball: { segment: 3, score: [8, 6], header: [8, 6] },
+    volleyball: { segment: 3, score: [18, 16], header: [18, 16] },
+  };
+  for (const [sport, { segment, score, header }] of Object.entries(expected)) {
+    const { fields } = getSportFixture(sport);
+    assert.deepEqual([fields[`game${segment}AScore`], fields[`game${segment}BScore`]], score, sport);
+    assert.deepEqual([fields.currentAGameScore, fields.currentBGameScore], header, sport);
+    assert.equal(fields[`isGame${segment}Started`], true, sport);
+    assert.equal(fields[`isGame${segment + 1}Started`], false, sport);
+    assert.ok(score.every(value => Number.isInteger(value) && value >= 0), sport);
+  }
+});
