@@ -12,6 +12,34 @@ const FILE_PATTERN = /^[a-z0-9][a-z0-9-]{1,190}\.html$/;
 export const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 export const contentHash = ({ html, css }) => sha256(JSON.stringify([html, css]));
 
+export async function readPreviewManifest(root, manifest) {
+  if (manifest === undefined) {
+    try { manifest = JSON.parse(await readBounded(root, 'previews/manifest.json', MAX_JSON_BYTES)); }
+    catch (error) { if (error.code === 'ENOENT') return {}; throw error; }
+  }
+  if (manifest.schemaVersion !== 1 || manifest.fixtureVersion !== 'sport-samples-v1' || manifest.rendererVersion !== '1'
+    || !manifest.entries || typeof manifest.entries !== 'object' || Array.isArray(manifest.entries)) throw new Error('Invalid preview manifest.');
+  const entries = {};
+  for (const [fileName, preview] of Object.entries(manifest.entries)) {
+    if (!FILE_PATTERN.test(fileName) || !preview || typeof preview !== 'object' || Array.isArray(preview)
+      || !HASH_PATTERN.test(preview.imageHash) || !HASH_PATTERN.test(preview.contentHash)
+      || preview.path !== `previews/${preview.imageHash}.png`
+      || preview.fixtureVersion !== manifest.fixtureVersion || preview.rendererVersion !== manifest.rendererVersion
+      || !['tableTennis', 'pickleball', 'volleyball', 'basketball', 'soccer', 'baseball', 'softball'].includes(preview.sport)
+      || !Number.isSafeInteger(preview.width) || !Number.isSafeInteger(preview.height)
+      || preview.width < 1 || preview.height < 1 || preview.width > 4096 || preview.height > 4096) throw new Error(`Invalid preview metadata: ${fileName}`);
+    const target = await checkedPath(root, preview.path);
+    if ((await lstat(target)).size > 10_000_000) throw new Error(`Preview image is too large: ${fileName}`);
+    const bytes = await readFile(target);
+    if (bytes.length < 33 || !bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
+      || bytes.toString('ascii', 12, 16) !== 'IHDR' || bytes.readUInt32BE(16) !== preview.width
+      || bytes.readUInt32BE(20) !== preview.height || sha256(bytes) !== preview.imageHash) throw new Error(`Preview image identity or dimensions differ: ${fileName}`);
+    entries[fileName] = { path: preview.path, imageHash: preview.imageHash, contentHash: preview.contentHash,
+      width: preview.width, height: preview.height, fixtureVersion: preview.fixtureVersion, rendererVersion: preview.rendererVersion, sport: preview.sport };
+  }
+  return entries;
+}
+
 function canonical(value) {
   if (Array.isArray(value)) return value.map(canonical);
   if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])]));
@@ -71,7 +99,7 @@ function validateEntry(entry, seen) {
   if (entry.aliases !== undefined && (!Array.isArray(entry.aliases) || entry.aliases.some((value) => typeof value !== 'string'))) throw new Error(`${fileName}: aliases must be strings.`);
   for (const alias of entry.aliases || []) assertSafeRelativePath(alias);
   for (const field of ['title', 'description', 'placement', 'motif']) if (entry[field] !== undefined && typeof entry[field] !== 'string') throw new Error(`${fileName}: ${field} must be text.`);
-  for (const field of ['fileName', 'contentHash', 'documentPath']) if (Object.hasOwn(entry, field)) throw new Error(`${fileName}: ${field} is generated, not authored.`);
+  for (const field of ['fileName', 'contentHash', 'documentPath', 'preview', 'previewURL']) if (Object.hasOwn(entry, field)) throw new Error(`${fileName}: ${field} is generated, not authored.`);
   return fileName;
 }
 
@@ -101,6 +129,7 @@ export async function buildCatalog({ root = DEFAULT_ROOT, check = false } = {}) 
   const blobs = new Map();
   const seen = new Set();
   let warningCount = 0;
+  const previews = await readPreviewManifest(root);
   for (const entry of manifest) {
     const fileName = validateEntry(entry, seen);
     const html = await readBounded(root, `templates/${entry.output}`, MAX_DOCUMENT_BYTES);
@@ -114,8 +143,12 @@ export async function buildCatalog({ root = DEFAULT_ROOT, check = false } = {}) 
     const hash = contentHash(document);
     const documentPath = `published/${hash}.json`;
     blobs.set(documentPath, `${JSON.stringify(document)}\n`);
-    templates.push({ ...canonical(entry), fileName, contentHash: hash, documentPath });
+    const preview = previews[fileName];
+    if (preview && (preview.contentHash !== hash || (entry.sport && entry.sport !== preview.sport))) throw new Error(`Stale preview: ${fileName}. Regenerate screenshots before publishing.`);
+    templates.push({ ...canonical(entry), fileName, contentHash: hash, documentPath,
+      ...(preview && !entry.retired && entry.published !== false ? { preview } : {}) });
   }
+  for (const fileName of Object.keys(previews)) if (!seen.has(fileName)) throw new Error(`Preview has no source template: ${fileName}`);
   templates.sort((a, b) => a.fileName < b.fileName ? -1 : a.fileName > b.fileName ? 1 : 0);
   const catalog = { schemaVersion: 1, revision: sha256(JSON.stringify(templates)), templates };
   const serialized = `${JSON.stringify(catalog, null, 2)}\n`;

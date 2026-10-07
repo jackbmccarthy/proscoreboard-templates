@@ -10,10 +10,12 @@
     "dev": "node studio/server.mjs",
     "catalog": "node tools/build-catalog.mjs && node tools/build-social-catalog.mjs",
     "catalog:check": "node tools/build-catalog.mjs --check && node tools/build-social-catalog.mjs --check",
+    "previews": "node tools/render-previews.mjs",
+    "previews:check": "node tools/render-previews.mjs --check && node tools/check-supplemental-preview.mjs",
     "lint": "node tools/check-syntax.mjs",
     "test": "node --test tools/*.test.mjs studio/server.test.mjs studio/social-server.test.mjs",
     "test:browser": "node --test studio/*browser.test.mjs",
     "audit:export": "node tools/audit-export.mjs",
-    "validate": "npm run lint && npm run catalog:check && npm test"
+    "validate": "npm run lint && npm run catalog:check && npm test && npm run previews:check"
   }
 }

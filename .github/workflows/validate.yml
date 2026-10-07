@@ -20,6 +20,8 @@ jobs:
         run: node tools/check-syntax.mjs
       - name: Verify deterministic catalog and immutable documents
         run: npm run catalog:check
+      - name: Verify screenshot source, image and recipe identities
+        run: npm run previews:check
       - name: Run local contract, corpus and studio harnesses
         run: npm test
       - name: Report export hygiene

@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { DEFAULT_ROOT } from './build-catalog.mjs';
 
 const rootFiles = new Set(['package.json', 'README.md', 'AGENTS.md', '.gitignore', 'catalog.json']);
-const directories = new Set(['templates', 'social', 'tools', 'contract', 'studio', 'reviews', 'published', '.github']);
+const directories = new Set(['templates', 'social', 'tools', 'contract', 'studio', 'reviews', 'published', 'previews', '.github']);
 const textExtensions = new Set(['.html', '.css', '.js', '.mjs', '.json', '.md', '.txt', '.yml', '.yaml', '.csv', '.svg']);
 const patterns = [
   ['private-key', /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/],
@@ -35,6 +35,7 @@ export async function auditExport(root = DEFAULT_ROOT) {
       if (!relative && !(entry.isDirectory() ? directories.has(entry.name) : rootFiles.has(entry.name))) report(file, 'outside-export-allowlist', 'error');
       if (entry.isDirectory()) { await walk(file); continue; }
       if (!entry.isFile()) { report(file, 'non-regular-file', 'error'); continue; }
+      if (relative === 'previews' && !['manifest.json', 'supplemental.json'].includes(entry.name) && !/^[a-f0-9]{64}\.png$/.test(entry.name)) report(file, 'unexpected-preview-file', 'error');
       const size = (await lstat(path.join(root, file))).size;
       totalBytes += size;
       files.push(file);

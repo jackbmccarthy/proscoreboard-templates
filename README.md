@@ -197,3 +197,30 @@ are heuristic, not a guarantee of clearance; the publishing owner performs the f
 
 No license grant, ownership clearance or public redistribution permission is inferred
 for template artwork, source images, logos or other third-party material.
+# Sample Scoreboard Images
+
+Every active scoreboard has a synthetic sport-specific PNG preview in `previews/`.
+These are screenshots of the published HTML with fictional names/scores and fixed
+clocks or inning counts, not original reference artwork or private account designs.
+Templates keep their neutral stored values and exact original source bytes.
+
+`catalog.json` includes each preview's content-addressed path, image and design
+hashes, dimensions, sport, fixture version and renderer version. Clients can use
+`https://raw.githubusercontent.com/jackbmccarthy/proscoreboard-templates/main/`
+plus the preview path. The PNGs support ordinary web images and native mobile
+image views without HTML execution, a database session or access to a live match.
+Use contain sizing and a neutral gray backing to reveal transparent overlays.
+
+Run `npm run previews` to generate missing or stale images, then `npm run catalog`.
+Rendering uses optional already-installed Playwright tooling via
+`PLAYWRIGHT_MODULE_PATH`; no application/server dependencies are copied or added.
+Run `npm run previews:check` without a browser to validate every source/image/recipe
+identity and nonblank pixels. `npm run validate` includes this check. A changed
+fixture or renderer recipe requires regeneration. Review representative captures
+before publication; generated previews are not certification of every layout.
+
+The stock bundled application default has an additional image described in
+`previews/supplemental.json`. Regenerate that through the server repository's
+`scripts/render-default-scoreboard-preview.mjs` command. Publish image assets
+before the application metadata referencing their hashes. The image guard omits
+a stale stock preview instead of silently showing another document's screenshot.
