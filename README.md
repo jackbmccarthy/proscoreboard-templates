@@ -212,6 +212,11 @@ image views without HTML execution, a database session or access to a live match
 Use contain sizing and a neutral gray backing to reveal transparent overlays.
 
 Run `npm run previews` to generate missing or stale images, then `npm run catalog`.
+After changing authored HTML, first run
+`node tools/build-catalog.mjs --invalidate-stale-previews`. This explicit editing
+step creates new source blobs and omits only mismatched thumbnail metadata; it
+does not delete historical images/documents. Regenerate previews, then rebuild
+the catalog normally. The default and `--check` modes still reject stale images.
 Rendering uses optional already-installed Playwright tooling via
 `PLAYWRIGHT_MODULE_PATH`; no application/server dependencies are copied or added.
 Run `npm run previews:check` without a browser to validate every source/image/recipe
@@ -224,3 +229,9 @@ The stock bundled application default has an additional image described in
 `scripts/render-default-scoreboard-preview.mjs` command. Publish image assets
 before the application metadata referencing their hashes. The image guard omits
 a stale stock preview instead of silently showing another document's screenshot.
+
+The local visual cleanup review is recorded in `reviews/visual-trim/20261006.json`.
+It covers every active preview plus the bundled default, distinguishes static
+clutter from runtime components and intentional artwork, and preserves binding
+and image-slot fingerprints. Source edits do not automatically update existing
+user-owned copies. Publication remains an explicit owner action.

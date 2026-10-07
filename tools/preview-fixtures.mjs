@@ -56,6 +56,7 @@ export function getSportFixture(sport) {
 // This function is serializable for page.evaluate; it deliberately has no imports.
 export function applySportFixture(fixture) {
   const changes = [];
+  const fields = new Set(Object.keys(fixture.fieldTypes));
   for (const [field, value] of Object.entries(fixture.fields)) {
     const type = fixture.fieldTypes[field];
     const selector = `[data-osb-field="${field}"], [data-field="${field}"], .${field}`;
@@ -72,6 +73,16 @@ export function applySportFixture(fixture) {
         if (value && element.tagName === 'IMG') element.setAttribute('src', value);
       } else if (!element.children.length && element.tagName !== 'IMG') {
         element.textContent = String(value);
+      } else if (['text', 'number'].includes(type) && !element.textContent.trim()) {
+        const descendants = [...element.querySelectorAll('*')];
+        if (descendants.some(child => child.hasAttribute('data-osb-field') || child.hasAttribute('data-field')
+          || [...child.classList].some(name => fields.has(name)))) continue;
+        // Keep authored BR/formatting nodes; never overwrite a binding-bearing ancestor.
+        const target = [...descendants].reverse().find(child => ['SPAN', 'B', 'STRONG', 'EM', 'I', 'U', 'S', 'SMALL'].includes(child.tagName)
+          && [...child.children].every(node => ['BR', 'WBR'].includes(node.tagName)))
+          || ([...element.children].every(child => ['BR', 'WBR'].includes(child.tagName)) ? element : null);
+        if (!target) continue;
+        target.insertBefore(document.createTextNode(String(value)), target.firstChild);
       } else continue;
       changes.push(field);
     }

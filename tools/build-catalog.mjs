@@ -121,7 +121,8 @@ async function ensurePublishedDirectory(root, check) {
   return directory;
 }
 
-export async function buildCatalog({ root = DEFAULT_ROOT, check = false } = {}) {
+export async function buildCatalog({ root = DEFAULT_ROOT, check = false, invalidateStalePreviews = false } = {}) {
+  if (check && invalidateStalePreviews) throw new Error('Cannot invalidate previews in read-only check mode.');
   root = path.resolve(root);
   const manifest = JSON.parse(await readBounded(root, 'templates/html-replications/manifest.json', MAX_JSON_BYTES));
   if (!Array.isArray(manifest) || !manifest.length || manifest.length > 10_000) throw new Error('Manifest must be a nonempty array with at most 10000 entries.');
@@ -143,8 +144,11 @@ export async function buildCatalog({ root = DEFAULT_ROOT, check = false } = {}) 
     const hash = contentHash(document);
     const documentPath = `published/${hash}.json`;
     blobs.set(documentPath, `${JSON.stringify(document)}\n`);
-    const preview = previews[fileName];
-    if (preview && (preview.contentHash !== hash || (entry.sport && entry.sport !== preview.sport))) throw new Error(`Stale preview: ${fileName}. Regenerate screenshots before publishing.`);
+    let preview = previews[fileName];
+    if (preview && (preview.contentHash !== hash || (entry.sport && entry.sport !== preview.sport))) {
+      if (!invalidateStalePreviews) throw new Error(`Stale preview: ${fileName}. Regenerate screenshots before publishing.`);
+      preview = undefined;
+    }
     templates.push({ ...canonical(entry), fileName, contentHash: hash, documentPath,
       ...(preview && !entry.retired && entry.published !== false ? { preview } : {}) });
   }
@@ -188,8 +192,8 @@ export async function buildCatalog({ root = DEFAULT_ROOT, check = false } = {}) 
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    if (process.argv.slice(2).some((argument) => argument !== '--check')) throw new Error('Usage: node tools/build-catalog.mjs [--check]');
-    const { total, active, retired, blobs, warningCount } = await buildCatalog({ check: process.argv.includes('--check') });
+    if (process.argv.slice(2).some((argument) => !['--check', '--invalidate-stale-previews'].includes(argument))) throw new Error('Usage: node tools/build-catalog.mjs [--check | --invalidate-stale-previews]');
+    const { total, active, retired, blobs, warningCount } = await buildCatalog({ check: process.argv.includes('--check'), invalidateStalePreviews: process.argv.includes('--invalidate-stale-previews') });
     console.log(`Catalog ${process.argv.includes('--check') ? 'verified' : 'built'}: ${total} entries, ${active} active, ${retired} retired, ${blobs} current blobs; ${warningCount} inspection warnings.`);
   } catch (error) {
     console.error(error.message);

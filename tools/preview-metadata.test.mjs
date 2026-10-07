@@ -59,3 +59,16 @@ test('inactive designs retain source and history but never acquire active galler
   await writeFile(path.join(f.root, 'templates/html-replications/manifest.json'), JSON.stringify([{ output: 'html-replications/example-board.html', sport: 'basketball', retired: true, published: false }]));
   assert.equal((await buildCatalog({ root: f.root })).catalog.templates[0].preview, undefined);
 });
+
+test('explicit editing workflow invalidates only stale preview metadata and preserves historical assets', async t => {
+  const f = await fixture(t);
+  const first = await buildCatalog({ root: f.root });
+  await writeFile(path.join(f.root, 'templates/html-replications/example-board.html'), f.html.replace('</main>', '<b>New static title</b></main>'));
+  await assert.rejects(buildCatalog({ root: f.root }), /Stale preview/);
+  const changed = await buildCatalog({ root: f.root, invalidateStalePreviews: true });
+  assert.equal(changed.catalog.templates[0].preview, undefined);
+  assert.notEqual(changed.catalog.templates[0].contentHash, first.catalog.templates[0].contentHash);
+  assert.equal(JSON.parse(await readFile(path.join(f.root, first.catalog.templates[0].documentPath))).html, f.html);
+  assert.ok((await readFile(path.join(f.root, f.preview.path))).length > 0);
+  await assert.rejects(buildCatalog({ root: f.root, check: true, invalidateStalePreviews: true }), /read-only/);
+});
