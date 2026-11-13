@@ -1,0 +1,5083 @@
+{
+  "schemaVersion": 1,
+  "sport": "basketball",
+  "generated": "2026-11-13",
+  "method": "Every published preview PNG was reviewed on contact sheets for layout; field conventions were checked structurally from class / data-osb-field / runtime data-sport-stat aliases. Required fields come from OpenScoreboard Server docs/scoreboard/template-requirements.json (live board for corner/lower-third, summary for full-screen). Report only: nothing was retired or edited.",
+  "spec": "reviews/sport-conventions/basketball.md",
+  "catalogRevision": "acdbdc794ba3d990e2c0abebb9347925682bc13b37a292ecf925d7848ae5eb4d",
+  "counts": {
+    "existing": {
+      "sport-native": 0,
+      "acceptable": 1,
+      "table-tennis derivative": 128
+    },
+    "newInThisChange": {
+      "sport-native": 10,
+      "acceptable": 0,
+      "table-tennis derivative": 0
+    }
+  },
+  "worstOffenders": [
+    {
+      "fileName": "pewter-columnhead-basketball-1.html",
+      "missingConventions": 8,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "brace-register-basketball-1.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "brace-register-basketball-2.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "burgundy-sand-basketball-1.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "burgundy-sand-basketball-2.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "carbon-copy-ticket-basketball-1.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "carbon-copy-ticket-basketball-2.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "charcoal-ivory-open-score-basketball-1.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "charcoal-ivory-open-score-basketball-2.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    },
+    {
+      "fileName": "charcoal-outline-sidecar-basketball-1.html",
+      "missingConventions": 5,
+      "missingRequiredFields": 13
+    }
+  ],
+  "templates": [
+    {
+      "fileName": "atlantic-open-flank-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Atlantic Open Flank — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "atlantic-open-flank",
+      "preview": "previews/38da5fc3e8b58d62928ae7ea75274b5add7078f7af6442e7c41a2b43dec873e5.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"atlantic-open-flank\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "atlantic-open-flank-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Atlantic Open Flank — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "atlantic-open-flank",
+      "preview": "previews/d47509a9c5e9a972cb38e1db4c3631dfe0d2ad863340e9343842ee066cb43599.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"atlantic-open-flank\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "aubergine-cloud-scorebank-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Aubergine Cloud Scorebank — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "aubergine-cloud-scorebank",
+      "preview": "previews/771a23c0c293de9c041390239f60f8f33ddae852c8264dc0bfa0f83bf79a122d.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"aubergine-cloud-scorebank\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "aubergine-cloud-scorebank-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Aubergine Cloud Scorebank — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "aubergine-cloud-scorebank",
+      "preview": "previews/950625b6a92216760330a8fea008a88b27b49fd5fa77462284fb1e47410652a0.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"aubergine-cloud-scorebank\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "basalt-bone-scorefoot-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Basalt Bone Scorefoot — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "basalt-bone-scorefoot",
+      "preview": "previews/4d1124c2720493c3f2747d5e0155782630aee026bfb425b40ebf14f5cb7ab005.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"basalt-bone-scorefoot\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "basalt-bone-scorefoot-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Basalt Bone Scorefoot — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "basalt-bone-scorefoot",
+      "preview": "previews/c711e337bfed2831463944dd6fa1344539a4aa86c213d5b0d5548499946172ae.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"basalt-bone-scorefoot\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "basalt-copper-dual-track-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Basalt Copper Dual Track — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "basalt-copper-dual-track",
+      "preview": "previews/afd01bf0681f3bbd3198594bd62b87ca91ce0db2b0a5348d691e1efd9ae04f56.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"basalt-copper-dual-track\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "basalt-copper-dual-track-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Basalt Copper Dual Track — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "basalt-copper-dual-track",
+      "preview": "previews/70e5dc1ef206766a10dc162d5a3474d0b5e3b47eae7d142a3023121d07fae6af.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"basalt-copper-dual-track\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "brace-register-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Brace Register — BASKETBALL Aligned rows",
+      "placement": "lower-third",
+      "styleID": "brace-register",
+      "preview": "previews/1f7d10af56690d5ec72e73c08e0173ac9b797eadc8642a67c59a37fced0cf4c6.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"brace-register\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "brace-register-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Brace Register — BASKETBALL Paired columns",
+      "placement": "lower-third",
+      "styleID": "brace-register",
+      "preview": "previews/36174e102f6e7de5adfc858f0e465fc4e8cc17c5981fe6f702ec687f0a1ce17b.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"brace-register\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "burgundy-sand-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Burgundy Sand Broadcast — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "burgundy-sand",
+      "preview": "previews/218c54569179ed5ed5c0cdeb5b0c26057a978bc00715d471cd3a1b77277a22b2.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"burgundy-sand\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "burgundy-sand-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Burgundy Sand Broadcast — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "burgundy-sand",
+      "preview": "previews/a997acc29d4612d7ab625bc789e2637156c7671c0fc0441f29ad11f6df917c8d.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"burgundy-sand\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "carbon-copy-ticket-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Carbon Copy Ticket — BASKETBALL Stacked",
+      "placement": "lower-third",
+      "styleID": "carbon-copy-ticket",
+      "preview": "previews/0a52249c6e57bf4d4d5f648781da104eb93878dd9f9207ecce0ce1f9f2c685f5.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"carbon-copy-ticket\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "carbon-copy-ticket-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Carbon Copy Ticket — BASKETBALL Duplex",
+      "placement": "lower-third",
+      "styleID": "carbon-copy-ticket",
+      "preview": "previews/6393456b5cca6ecb08139e1919535a2fc4987da2ad5ca30b1ec745ca7070e068.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"carbon-copy-ticket\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cedar-ivory-namefoot-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Cedar Ivory Namefoot — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cedar-ivory-namefoot",
+      "preview": "previews/53467cca7dad4160410bc5d161547c45e74d10cc790cfaae248d22889659e6e7.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cedar-ivory-namefoot\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cedar-ivory-namefoot-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Cedar Ivory Namefoot — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cedar-ivory-namefoot",
+      "preview": "previews/820d38b7f63458b0c45d84182890c5fe8286ba2d9510c3e5e8d212a045669535.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cedar-ivory-namefoot\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "champagne-graphite-columnrail-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Champagne Graphite Columnrail — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "champagne-graphite-columnrail",
+      "preview": "previews/ec48b77207a8aa15bc668101b435faf394d58261106a8f8d64bcfbec18d5b74a.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"champagne-graphite-columnrail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "champagne-graphite-columnrail-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Champagne Graphite Columnrail — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "champagne-graphite-columnrail",
+      "preview": "previews/20706b02ae01c91aa8b3d4cfd332eccb591e38055cb73ca752209e13415032c5.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"champagne-graphite-columnrail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "charcoal-ivory-open-score-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Charcoal Ivory Open Score — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "charcoal-ivory-open-score",
+      "preview": "previews/42748ed8c82f5bc8b6ef7dbc974630a0bb3bcba761f945a41f71dc80fea8570d.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"charcoal-ivory-open-score\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "charcoal-ivory-open-score-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Charcoal Ivory Open Score — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "charcoal-ivory-open-score",
+      "preview": "previews/42abad882ab27d52782c1dd1a9e62fb382a6736b106efccdb4ac492ae32912bd.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"charcoal-ivory-open-score\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "charcoal-outline-sidecar-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Charcoal Outline Sidecar — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "charcoal-outline-sidecar",
+      "preview": "previews/a1fd802fb4e4785e935745aebf306367e9314a857758764afb4dedf88219b2fc.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"charcoal-outline-sidecar\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "charcoal-outline-sidecar-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Charcoal Outline Sidecar — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "charcoal-outline-sidecar",
+      "preview": "previews/e016125d716f39ec164530bc0027c9cd8ab62e83d1a61fa9a178d79cfd938bbd.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"charcoal-outline-sidecar\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cloud-graphite-combined-bay-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Cloud Graphite Combined Bay — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cloud-graphite-combined-bay",
+      "preview": "previews/cde7a9aefc6414f63d23df76dadeadace0a048c2674a68d3421bfd3601715844.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cloud-graphite-combined-bay\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cloud-graphite-combined-bay-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Cloud Graphite Combined Bay — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cloud-graphite-combined-bay",
+      "preview": "previews/2e5eae0a7f816b72be52521696987feb4a822135ab8d120cb9994d6490175493.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cloud-graphite-combined-bay\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cobalt-fog-leadchip-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Cobalt Fog Leadchip — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cobalt-fog-leadchip",
+      "preview": "previews/e8a5126bf5b8233d3ebd52e1adc7f89b6e7d3777b8678dfefedccbbc186f6cf7.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cobalt-fog-leadchip\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cobalt-fog-leadchip-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Cobalt Fog Leadchip — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cobalt-fog-leadchip",
+      "preview": "previews/36c965117c92ff80f9ab2659084ce2ed0d93fdcc0d9b2a8a8bfe85d890596d4d.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cobalt-fog-leadchip\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "copper-cream-keyline-stat-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Copper Cream Keyline Stat — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "copper-cream-keyline-stat",
+      "preview": "previews/2f8b5ef42684a2182cd092582d3357df9af1b44ae06784ec62ca0a6ee44a1045.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"copper-cream-keyline-stat\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "copper-cream-keyline-stat-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Copper Cream Keyline Stat — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "copper-cream-keyline-stat",
+      "preview": "previews/2ebadba6cedebf264e792b1ff0c3b2bf31f42f8889fcd07323d04ac140997084.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"copper-cream-keyline-stat\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "copper-slate-score-rail-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Copper Slate Score Rail — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "copper-slate-score-rail",
+      "preview": "previews/bc4401be6525d56f5da3c1ae4c7c847d08c5a7bc56792e21c6916f42afa6521b.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"copper-slate-score-rail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "copper-slate-score-rail-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Copper Slate Score Rail — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "copper-slate-score-rail",
+      "preview": "previews/576bac7d1ffe2986fd22349ce276b06dda5844cadcd1f777a604912a272d9574.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"copper-slate-score-rail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "coral-slate-header-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Coral Slate Header — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "coral-slate-header",
+      "preview": "previews/6b0bcd4b0d88b7c35a44e3abc574f6023a58d51bd2924fdde8dc37e85d752256.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"coral-slate-header\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "coral-slate-header-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Coral Slate Header — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "coral-slate-header",
+      "preview": "previews/e25441de6f05df91f431702bde5f92fe500ebe84ac85307cb874a030b3e983c6.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"coral-slate-header\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cyan-blue-broadcast-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Cyan Blue Broadcast — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cyan-blue-broadcast",
+      "preview": "previews/78179a55e7be7ab7cad86dfde8a50270dac047eb3f21e4259cd9c41a0c7cbd2b.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cyan-blue-broadcast\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "cyan-blue-broadcast-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Cyan Blue Broadcast — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cyan-blue-broadcast",
+      "preview": "previews/12cae8a50d4cb24ee9e262833918d23b455621da623edfbcf71a2628d4c0fbf4.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"cyan-blue-broadcast\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "dot-matrix-sentence-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Dot Matrix Sentence — BASKETBALL Shared sentence",
+      "placement": "lower-third",
+      "styleID": "dot-matrix-sentence",
+      "preview": "previews/a645719ef406b95f8e888139be698f694b07de441031615df9c19d99970ffefb.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"dot-matrix-sentence\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "dot-matrix-sentence-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Dot Matrix Sentence — BASKETBALL Aligned rows",
+      "placement": "lower-third",
+      "styleID": "dot-matrix-sentence",
+      "preview": "previews/e68190e25cb8ea8dfaaf063fe68ff36718a5e9628b5373e8b6b3413eb298d1cf.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"dot-matrix-sentence\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "editorial-quotient-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Editorial Quotient — BASKETBALL Rows",
+      "placement": "lower-third",
+      "styleID": "editorial-quotient",
+      "preview": "previews/3e940218e453275c778040f356f0f05e6a2cd20bab842b27fba0ca5825c9166e.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"editorial-quotient\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "editorial-quotient-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Editorial Quotient — BASKETBALL Duel",
+      "placement": "lower-third",
+      "styleID": "editorial-quotient",
+      "preview": "previews/92759c6420f16921251f9da84bf3ce579eb8ec49d1c0ce845c06187c1b336d46.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"editorial-quotient\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "evergreen-sand-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Evergreen Sand — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "evergreen-sand",
+      "preview": "previews/96aede27b3d2b99ca42a4408db634d54bdb19f5a364569c3610503c3335b4126.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"evergreen-sand\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "evergreen-sand-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Evergreen Sand — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "evergreen-sand",
+      "preview": "previews/e787ce669b7d6aad4ef59797674005bc3b4a66c325a654de0118985ae2f15d55.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"evergreen-sand\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "forest-linen-headrail-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Forest Linen Headrail — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "forest-linen-headrail",
+      "preview": "previews/c56b77cebcea3a8515682256ecb2b193d5a555e3f87d218f1d0d933fd8ee2dcd.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"forest-linen-headrail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "forest-linen-headrail-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Forest Linen Headrail — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "forest-linen-headrail",
+      "preview": "previews/faddcb4fb9dd99a0e07081c0f50c39d870f02209c5c939f7bd45097b60eb1732.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"forest-linen-headrail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "glacier-ink-footline-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Glacier Ink Footline — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "glacier-ink-footline",
+      "preview": "previews/78eb69dec37a151cd42a106e90b003a1b9bf93d577dcef940b768bec21d627b5.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"glacier-ink-footline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "glacier-ink-footline-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Glacier Ink Footline — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "glacier-ink-footline",
+      "preview": "previews/6452f2a494e3f3febe28e615cd9ba0d7b7ec6ba98fea839ae8445f64012147f9.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"glacier-ink-footline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "graphite-amber-band-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Graphite Amber Band — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "graphite-amber-band",
+      "preview": "previews/09360627ffb78fdfd088be5223139061c7203f327b57a93da41f40a461f6950a.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"graphite-amber-band\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "graphite-amber-band-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Graphite Amber Band — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "graphite-amber-band",
+      "preview": "previews/5be27049e584de9af70659343c52be7c4d4aa7a2eb81e19a5bc9704b2031d08d.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"graphite-amber-band\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "harbor-silver-leadstat-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Harbor Silver Leadstat — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "harbor-silver-leadstat",
+      "preview": "previews/5b3eed484778aed699bebaf6b44d75d06cd3b60b08b86f7bd4a2e2c40dd7a861.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"harbor-silver-leadstat\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "harbor-silver-leadstat-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Harbor Silver Leadstat — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "harbor-silver-leadstat",
+      "preview": "previews/99e822df936ee606bdd0c6c670676788fd2013a6c32f750acf589a1b64d7f553.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"harbor-silver-leadstat\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "hinge-rail-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Hinge Rail — BASKETBALL Rows",
+      "placement": "lower-third",
+      "styleID": "hinge-rail",
+      "preview": "previews/3bed6f81fa115b83247a7bc566fdef125e3478a55c0490b9d7dde45419c984ee.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"hinge-rail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores.",
+        "Preview shows CLOCK 00:00 / zero period: the static stat nodes contain child markup so the preview fixture cannot fill them (cosmetic preview defect)."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "hinge-rail-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Hinge Rail — BASKETBALL Duel",
+      "placement": "lower-third",
+      "styleID": "hinge-rail",
+      "preview": "previews/01ad8431b5af222d2d08eb72c04d506296de1ee0e59719e786357be6aedf8409.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"hinge-rail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores.",
+        "Preview shows CLOCK 00:00 / zero period: the static stat nodes contain child markup so the preview fixture cannot fill them (cosmetic preview defect)."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "indigo-open-data-lane-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Indigo Open Data Lane — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "indigo-open-data-lane",
+      "preview": "previews/8c265483c758e021f4d5269732f064c4fa5adaf2f0ffe7b0dc111a193679b444.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"indigo-open-data-lane\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "indigo-open-data-lane-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Indigo Open Data Lane — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "indigo-open-data-lane",
+      "preview": "previews/35a6d80aad34ccb5a4e128787b62da2f804f633fca66edce52fd8508209ca6ac.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"indigo-open-data-lane\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "indigo-pearl-namebed-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Indigo Pearl Namebed — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "indigo-pearl-namebed",
+      "preview": "previews/5d233ef8f91db7ed754a89918e009e3f7e5be57de91d4b96fafaa6dca40d433d.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"indigo-pearl-namebed\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "indigo-pearl-namebed-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Indigo Pearl Namebed — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "indigo-pearl-namebed",
+      "preview": "previews/83f725d9cad93965821495d992b2be43be4fe448e586b5d368b680117deec42b.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"indigo-pearl-namebed\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "inverted-splitline-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Inverted Splitline — BASKETBALL Independent panels",
+      "placement": "lower-third",
+      "styleID": "inverted-splitline",
+      "preview": "previews/4b8071b110226440a85ab3243de5715ad577043be6de85d1f2180cdbb9b4bda0.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"inverted-splitline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "inverted-splitline-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Inverted Splitline — BASKETBALL Shared panel",
+      "placement": "lower-third",
+      "styleID": "inverted-splitline",
+      "preview": "previews/15bfac04d37e1509fd922c922c12791dc2cb91a8d6d37b7fd488ab8b9fc1e114.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"inverted-splitline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "ivory-cobalt-line-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Ivory Cobalt Line — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "ivory-cobalt-line",
+      "preview": "previews/25620d8ffd3997d11bc08edb3f125b38e01ef1b11a796b7b94a4d657b749dad5.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"ivory-cobalt-line\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "ivory-cobalt-line-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Ivory Cobalt Line — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "ivory-cobalt-line",
+      "preview": "previews/1eb60450a95d4c11d91bf429a9bd49fcfd3da25847205838650444af62806f95.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"ivory-cobalt-line\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "ivory-moss-scorefront-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Ivory Moss Scorefront — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "ivory-moss-scorefront",
+      "preview": "previews/52dc12491e6f9b8528804ec9f43d67fa991a3850c5268e442d7981ebc39a72ed.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"ivory-moss-scorefront\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "ivory-moss-scorefront-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Ivory Moss Scorefront — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "ivory-moss-scorefront",
+      "preview": "previews/c3cefc04e9833eeb921088afa5fae6564625e190bfcebba1f08b1b2ab785fe21.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"ivory-moss-scorefront\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "limestone-inset-subscore-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Limestone Inset Subscore — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "limestone-inset-subscore",
+      "preview": "previews/7a954fa8e01a1dbee4163229a5bba90a976d9de25523394a38dad84d35ed6a64.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"limestone-inset-subscore\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "limestone-inset-subscore-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Limestone Inset Subscore — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "limestone-inset-subscore",
+      "preview": "previews/5a4c07a5e4828f3cfe392de574802fec985487d4470e5c8010a178f4f798f6a6.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"limestone-inset-subscore\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "linen-navy-sideconsole-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Linen Navy Sideconsole — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "linen-navy-sideconsole",
+      "preview": "previews/90255db097d90738711a591b4414fe6c7bdc2af8f72c3c3276e0ab521ead561c.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"linen-navy-sideconsole\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "linen-navy-sideconsole-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Linen Navy Sideconsole — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "linen-navy-sideconsole",
+      "preview": "previews/caba47f5a703b7a6c46025e0f41e4e729ea35182df055f2c3334c44dad8bbeac.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"linen-navy-sideconsole\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "marine-parchment-terminal-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Marine Parchment Terminal — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "marine-parchment-terminal",
+      "preview": "previews/7e8cf5dd78e8091719637a7bd6d2691bf56179f485b51224487c3898c2440765.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"marine-parchment-terminal\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "marine-parchment-terminal-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Marine Parchment Terminal — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "marine-parchment-terminal",
+      "preview": "previews/5516046d624fc5d914e9b66f60276c9a185f01673795cffec3a553595bff5d4c.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"marine-parchment-terminal\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "marine-pearl-centerbank-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Marine Pearl Centerbank — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "marine-pearl-centerbank",
+      "preview": "previews/411849340a4a9fc0dc8342936ba3e348b9ac9cd4faa12c16bf460f185b696850.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"marine-pearl-centerbank\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "marine-pearl-centerbank-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Marine Pearl Centerbank — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "marine-pearl-centerbank",
+      "preview": "previews/6d4ab130be4376f60cf2a24b0869636927c07a6065e14e7a91c86e052737ee19.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"marine-pearl-centerbank\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "maroon-frost-matchline-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Maroon Frost Matchline — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "maroon-frost-matchline",
+      "preview": "previews/91055001fc8c5d390cbffe35c7e7ca17bfa39ad4fd8d635b1451b2ffeb16623e.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"maroon-frost-matchline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "maroon-frost-matchline-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Maroon Frost Matchline — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "maroon-frost-matchline",
+      "preview": "previews/ec6e32a117d0569ae43bb83f4d92ca05240f33f6dfc75bbae02d57ae6b935e79.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"maroon-frost-matchline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "midnight-teal-capsule-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Midnight Teal Capsule — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "midnight-teal-capsule",
+      "preview": "previews/f63fd2a3d46b2cd16feac02adce6422441454ca9113f6a9084acb2a4c6973e02.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"midnight-teal-capsule\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "midnight-teal-capsule-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Midnight Teal Capsule — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "midnight-teal-capsule",
+      "preview": "previews/95ae5356d03dd288c31c3cff8dd1433f710fe6e4a7dc259668ce811d45cff021.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"midnight-teal-capsule\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "native-basketball-arena-led.html",
+      "newInThisChange": true,
+      "title": "Arena LED — Basketball lower third",
+      "placement": "lower-third",
+      "styleID": "sport-native-basketball-arena-led",
+      "preview": "previews/dc832dfad34b354d9555a9f5bb1ba647798dee0577be50449d5db826af98a588.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-arena-stack.html",
+      "newInThisChange": true,
+      "title": "Arena Stack — Basketball corner scorebug",
+      "placement": "corner",
+      "styleID": "sport-native-basketball-arena-stack",
+      "preview": "previews/8be0e44a237186dabd7f5abfc36d888087210a661873947a75378880f9ce6bf1.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-box-score.html",
+      "newInThisChange": true,
+      "title": "Box Score — Basketball full-screen",
+      "placement": "full-screen",
+      "styleID": "sport-native-basketball-box-score",
+      "preview": "previews/a1dfe174c0bf554403484824f1afa8ba13a1cdc1348033cbe8381ff8cda665f5.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "summary",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-broadcast-bar.html",
+      "newInThisChange": true,
+      "title": "Broadcast Bar — Basketball lower third",
+      "placement": "lower-third",
+      "styleID": "sport-native-basketball-broadcast-bar",
+      "preview": "previews/85acad88ccbab8a2c4412b40d01e95f3c7d7ca4b367f03cb44af24c0bbd6559b.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-glass-line.html",
+      "newInThisChange": true,
+      "title": "Glass Line — Basketball lower third",
+      "placement": "lower-third",
+      "styleID": "sport-native-basketball-glass-line",
+      "preview": "previews/3624269809ff676559bbb9009dcf2166e6ef5016300c3be36332117930b498b4.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-hardwood-tab.html",
+      "newInThisChange": true,
+      "title": "Hardwood Tab — Basketball corner scorebug",
+      "placement": "corner",
+      "styleID": "sport-native-basketball-hardwood-tab",
+      "preview": "previews/5dadcec500f0e2abc90402a5d288e2ebbd656db2732d185bdc11f0ce34370c12.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-neon-dial.html",
+      "newInThisChange": true,
+      "title": "Neon Dial — Basketball corner scorebug",
+      "placement": "corner",
+      "styleID": "sport-native-basketball-neon-dial",
+      "preview": "previews/a928c4187aeaa9f277adff68725d0d7fd9cf9e0bceecd0e763a40268c5426eb3.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-possession-rail.html",
+      "newInThisChange": true,
+      "title": "Possession Rail — Basketball lower third",
+      "placement": "lower-third",
+      "styleID": "sport-native-basketball-possession-rail",
+      "preview": "previews/fda7d0e7ef2a8a14ad80971e3d57f2c6593e763a74d63aefa96eee1cd8874090.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-split-court.html",
+      "newInThisChange": true,
+      "title": "Split Court — Basketball full-screen",
+      "placement": "full-screen",
+      "styleID": "sport-native-basketball-split-court",
+      "preview": "previews/4dd618de53a60be438d5ca2b2f1f73d06da39953629f57a6d17f024a102ab14b.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "summary",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "native-basketball-varsity-card.html",
+      "newInThisChange": true,
+      "title": "Varsity Card — Basketball corner scorebug",
+      "placement": "corner",
+      "styleID": "sport-native-basketball-varsity-card",
+      "preview": "previews/b8ecb5caeb68629def362fbbd2632a5c48fe13ef9278b00215bb28cf36aa124b.png",
+      "verdict": "sport-native",
+      "layout": [
+        "New sport-native design (this change): sport-specific layout; reviewed rendered preview and simulated live states."
+      ],
+      "missingConventions": [],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": []
+      }
+    },
+    {
+      "fileName": "night-mist-trailing-stat-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Night Mist Trailing Stat — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "night-mist-trailing-stat",
+      "preview": "previews/0eea369a38c27ff70bcf0c359dd42348f340273d2ea54fc00bd261d58b469475.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"night-mist-trailing-stat\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "night-mist-trailing-stat-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Night Mist Trailing Stat — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "night-mist-trailing-stat",
+      "preview": "previews/00a9161236287e50d4e7e298d8b399d83e69df9e960cab11bb39f37bd5b9c429.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"night-mist-trailing-stat\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "oat-graphite-eyebrow-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Oat Graphite Eyebrow — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oat-graphite-eyebrow",
+      "preview": "previews/2ba2788257a6bb82fb063b10427eaa6a736f07f8c368acad1f66931de0270162.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"oat-graphite-eyebrow\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "oat-graphite-eyebrow-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Oat Graphite Eyebrow — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oat-graphite-eyebrow",
+      "preview": "previews/514a6460b1e6bfd94221a02e3c14cdea111f460c51601efadd0160343fea51bb.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"oat-graphite-eyebrow\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "open-corner-grid-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Open Corner Grid — BASKETBALL Lanes",
+      "placement": "lower-third",
+      "styleID": "open-corner-grid",
+      "preview": "previews/bfa996c62bc46fd784c5c6d3329d9ed7728583cda2df03e472e0a107b5fa2f9b.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"open-corner-grid\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "open-corner-grid-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Open Corner Grid — BASKETBALL Duel",
+      "placement": "lower-third",
+      "styleID": "open-corner-grid",
+      "preview": "previews/27e6aadd46ba69e19d6e4f18a4950646d0ffd23ce9f8e5925d2e5d54425055f2.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"open-corner-grid\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "oxblood-ivory-inrow-rail-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Oxblood Ivory In-Row Rail — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oxblood-ivory-inrow-rail",
+      "preview": "previews/c1989a75174e46b4279d6dbdacf5d442fb09abe476d8dfca92b0bae8454f143a.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"oxblood-ivory-inrow-rail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "oxblood-ivory-inrow-rail-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Oxblood Ivory In-Row Rail — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oxblood-ivory-inrow-rail",
+      "preview": "previews/877cb315a3854aabfb8c6a00ccdbd48ce05c384dfeb436ad5a872260aa1fd0ab.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"oxblood-ivory-inrow-rail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "oyster-slate-underbar-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Oyster Slate Underbar — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oyster-slate-underbar",
+      "preview": "previews/d35844213930331986879890cc5fcd33c5f4cbb88e42fed2ed683dfd84a34651.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"oyster-slate-underbar\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "oyster-slate-underbar-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Oyster Slate Underbar — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oyster-slate-underbar",
+      "preview": "previews/d5ae0dd84722e1df36ea84fc42041b93e0450c6f5ce5865042b62ae6059727bc.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"oyster-slate-underbar\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pearl-graphite-rightdock-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Pearl Graphite Rightdock — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-graphite-rightdock",
+      "preview": "previews/8de9318f1402acd88cc4e8dd411b8f4fa977715a098e5819eda2523c941c7da3.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pearl-graphite-rightdock\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pearl-graphite-rightdock-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Pearl Graphite Rightdock — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-graphite-rightdock",
+      "preview": "previews/1e3d122f074331c7e9654c202a021509dc422d6389e15ea896ee8fbc7c9039f2.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pearl-graphite-rightdock\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pearl-ledger-side-index-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Pearl Ledger Side Index — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-ledger-side-index",
+      "preview": "previews/0cf3e50a4780d0772ddfee9befad3cc9e4ce55e871b756f1c52caaea77c19499.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pearl-ledger-side-index\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pearl-ledger-side-index-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Pearl Ledger Side Index — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-ledger-side-index",
+      "preview": "previews/921271e460d8fa4bacb879de8ebf06368e105ffc9be8d36a8198159732cbffd9.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pearl-ledger-side-index\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pearl-slate-stat-lead-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Pearl Slate Stat Lead — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-slate-stat-lead",
+      "preview": "previews/e918bb71d1bdbf6a6373f2705fc406772d04924fc8115c9863bf51f83ea388a0.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pearl-slate-stat-lead\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pearl-slate-stat-lead-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Pearl Slate Stat Lead — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-slate-stat-lead",
+      "preview": "previews/7077a912167daa39c97f2534ed7fa6991603992359fc802c98f996ef2ae7c4ba.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pearl-slate-stat-lead\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "petrol-chalk-leadscore-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Petrol Chalk Leadscore — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "petrol-chalk-leadscore",
+      "preview": "previews/6140b0583fea346a9f3d97014e6de975f8b85a362eabbf99745ee0e9ee8c3315.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"petrol-chalk-leadscore\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "petrol-chalk-leadscore-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Petrol Chalk Leadscore — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "petrol-chalk-leadscore",
+      "preview": "previews/9ce11de5e93bd570be28f767842435c1a5fce76eb0ada5ee7c0d9e55e9027797.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"petrol-chalk-leadscore\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "petrol-ivory-keyline-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Petrol Ivory Keyline — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "petrol-ivory-keyline",
+      "preview": "previews/2bd2e57c102ea80c09353aabbc0c52a928d155b74ff10265ab4f020b0c2470e7.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"petrol-ivory-keyline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "petrol-ivory-keyline-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Petrol Ivory Keyline — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "petrol-ivory-keyline",
+      "preview": "previews/36e8dd6d40743d00e2f9599759e8bba90283fece2bdb58996e0406f42003d671.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"petrol-ivory-keyline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pewter-columnhead-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Pewter Columnhead — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pewter-columnhead",
+      "preview": "previews/477ead00a784249f29e22f812b1859cd3dbc64874572beee797a73501b7c2aa7.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pewter-columnhead\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-CLOCK: Live game clock as a dominant element",
+        "BK-PERIOD: Period indicator (Q1-Q4/OT via periodLabel or currentPeriod)",
+        "BK-SHOT: Shot clock",
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "pewter-columnhead-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Pewter Columnhead — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pewter-columnhead",
+      "preview": "previews/c2545e1d14c1ad9b87f6a78ab98edd19f02d6b9aa90510016fe2d2e7e94e42bd.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"pewter-columnhead\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "plum-mist-open-namebed-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Plum Mist Open Namebed — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "plum-mist-open-namebed",
+      "preview": "previews/f95d34fd072940dffe61e7467c7a76588daa62135010dca2d4b8b56b06fd3e42.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"plum-mist-open-namebed\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "plum-mist-open-namebed-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Plum Mist Open Namebed — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "plum-mist-open-namebed",
+      "preview": "previews/8dd186e55e5998200e46aa975a3d381d1c267d165a49b2465b2b6404147c4911.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"plum-mist-open-namebed\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "plum-pearl-outboard-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Plum Pearl Outboard — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "plum-pearl-outboard",
+      "preview": "previews/1db0a4566aabd6862905fbb76fa7af09aff368bd22e71481dc161f6b1960f1ff.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"plum-pearl-outboard\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "plum-pearl-outboard-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Plum Pearl Outboard — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "plum-pearl-outboard",
+      "preview": "previews/82df63b921f3e1bedff45bd9d71ce3cfedde9677f61c50f8f8fa105a5bb9b79e.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"plum-pearl-outboard\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "porcelain-inkline-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Porcelain Inkline — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "porcelain-inkline",
+      "preview": "previews/42637181df5555e0ec03678aa0890bc4de22810bd9762383e6e310452b6732e7.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"porcelain-inkline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "porcelain-inkline-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Porcelain Inkline — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "porcelain-inkline",
+      "preview": "previews/ec9b42c09a423a00aa8264f97ba112224d77f80c0816027237e392bcb5968ce8.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"porcelain-inkline\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "porcelain-umber-leadbed-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Porcelain Umber Leadbed — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "porcelain-umber-leadbed",
+      "preview": "previews/ea2b36abc0b541d5b4ce5b5ccf16e5324a89314616abd6c1d724081ebca3c997.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"porcelain-umber-leadbed\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "porcelain-umber-leadbed-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Porcelain Umber Leadbed — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "porcelain-umber-leadbed",
+      "preview": "previews/c3a38cd9b781d249c61030406366cd571754e8fa495943b494b57e27009fdf23.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"porcelain-umber-leadbed\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "sage-slate-data-console-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Sage Slate Data Console — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "sage-slate-data-console",
+      "preview": "previews/0b2140cc19fc9e4141c7a2f7593e990ce7077de9792892263fa77ba9d10b84bb.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"sage-slate-data-console\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "sage-slate-data-console-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Sage Slate Data Console — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "sage-slate-data-console",
+      "preview": "previews/8f6baadbd7ba19572969f939b584a71c8f37be8e3c91d9d7f9240753195908e9.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"sage-slate-data-console\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "score-halo-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Score Halo — BASKETBALL Lanes",
+      "placement": "lower-third",
+      "styleID": "score-halo",
+      "preview": "previews/b8c7d8c2e37b01edc89424d9b13433b05b19486afab89b7e0fba80281a4b07ea.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"score-halo\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "score-halo-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Score Halo — BASKETBALL Duel",
+      "placement": "lower-third",
+      "styleID": "score-halo",
+      "preview": "previews/68f9fe3f8a47002dbcf468810d7ec6f64aaa5f2cfe9999b955cfab24f48d4f64.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"score-halo\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "silver-ink-counterrail-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Silver Ink Counterrail — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "silver-ink-counterrail",
+      "preview": "previews/9d466e0fe1f0e38cf36049bf9d92511bacc64ca01205241050fd35dd6e470365.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"silver-ink-counterrail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "silver-ink-counterrail-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Silver Ink Counterrail — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "silver-ink-counterrail",
+      "preview": "previews/0814cd643ba3f10e507c5dda232b708f95d28efc683d65203fec9ddec7579566.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"silver-ink-counterrail\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "silver-plum-ledger-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Silver Plum Ledger — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "silver-plum-ledger",
+      "preview": "previews/a01cef21fece0d4c7e8a35cff333b47de2652e48e91db6a84204865203ccdc07.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"silver-plum-ledger\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "silver-plum-ledger-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Silver Plum Ledger — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "silver-plum-ledger",
+      "preview": "previews/7df58e18a80480ce592724067ae77badd49cb66534231a2e81e4cade24582563.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"silver-plum-ledger\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "slate-lime-desk-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Slate Lime Desk — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "slate-lime-desk",
+      "preview": "previews/87c645a2cc330c555cd7432ff5857791c291fee2540eb51c9179b8e1567c04d8.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"slate-lime-desk\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "slate-lime-desk-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Slate Lime Desk — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "slate-lime-desk",
+      "preview": "previews/baae027761ed5e2c4f7395aa3690196a9c65cd1adfbba2501db2d0af700b8fa8.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"slate-lime-desk\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "sport-basketball-clock.html",
+      "newInThisChange": false,
+      "title": "Basketball Clock",
+      "placement": "lower-third",
+      "styleID": null,
+      "preview": "previews/de737933bf7553d1a91cc96da62ddf569fd2bc6c2dee7c8b384ab41d4203ca61.png",
+      "verdict": "acceptable",
+      "layout": [
+        "Clock-centred ribbon: names and scores flank a large game clock with period, shot clock and per-side fouls below; reads as a basketball bug."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "spruce-pearl-leadnote-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Spruce Pearl Leadnote — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "spruce-pearl-leadnote",
+      "preview": "previews/c208dadd0e1cb33f75dbb1ad682cbee55f022251a2a5eb6eb1d33cd7737feae9.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"spruce-pearl-leadnote\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "spruce-pearl-leadnote-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Spruce Pearl Leadnote — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "spruce-pearl-leadnote",
+      "preview": "previews/041f5964b39ebd1029874c953e315d527d65af262713993994acc4b13f0bfa35.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"spruce-pearl-leadnote\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "staircase-stencil-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Staircase Stencil — BASKETBALL Diagonal groups",
+      "placement": "lower-third",
+      "styleID": "staircase-stencil",
+      "preview": "previews/9eb5268fa72e2ab133ac4666daf080964879d796aeafe61f6e0b2530cc92608c.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"staircase-stencil\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "staircase-stencil-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Staircase Stencil — BASKETBALL Mirrored rows",
+      "placement": "lower-third",
+      "styleID": "staircase-stencil",
+      "preview": "previews/26a8b41a2ef8bc982e88733979f572819be35c4f96c5a71273ab1b13b16f51cb.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"staircase-stencil\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "stone-gold-broadcast-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Stone Gold Broadcast — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "stone-gold-broadcast",
+      "preview": "previews/59a3c9c83b2a64924493cc331440865d71bae2882bbcf6aa9ce7df720c848e3e.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"stone-gold-broadcast\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "stone-gold-broadcast-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Stone Gold Broadcast — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "stone-gold-broadcast",
+      "preview": "previews/6b3b7039458f17ea10eee11ff7cb6f733089b532ccc2abf56f168f453676488f.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"stone-gold-broadcast\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "stone-ink-lead-bay-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Stone Ink Lead Bay — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "stone-ink-lead-bay",
+      "preview": "previews/b1f2a3fffdc845cc89c9185575e862c8df6332c5cb33627b25e26259834ca053.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"stone-ink-lead-bay\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "stone-ink-lead-bay-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Stone Ink Lead Bay — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "stone-ink-lead-bay",
+      "preview": "previews/bf9c74aa346936c93be2ba6d5e674c6a1ae0730b0bdde246ecb75f6c17c31da2.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"stone-ink-lead-bay\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "vertical-name-spine-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Vertical Name Spine — BASKETBALL Stacked panes",
+      "placement": "lower-third",
+      "styleID": "vertical-name-spine",
+      "preview": "previews/c3baf57347897b7c458f5984d901034968834c952fbf3cca836d6fede478b737.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"vertical-name-spine\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "vertical-name-spine-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Vertical Name Spine — BASKETBALL Outer spines",
+      "placement": "lower-third",
+      "styleID": "vertical-name-spine",
+      "preview": "previews/6a01dbce7438bfaee336179d151e47356116c1765a504cd38381d4b994760c88.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"vertical-name-spine\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "violet-ash-open-register-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Violet Ash Open Register — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "violet-ash-open-register",
+      "preview": "previews/5d7cbefd32af24426b437e5902cf25d7a79d6e49eecfc8da875208fa0c8b9af6.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"violet-ash-open-register\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "violet-ash-open-register-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Violet Ash Open Register — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "violet-ash-open-register",
+      "preview": "previews/7b855dd582afe52db1a16b81152771febffa37d8ed67bb63c79581ac98c558cd.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"violet-ash-open-register\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "warm-paper-rightnote-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Warm Paper Rightnote — BASKETBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "warm-paper-rightnote",
+      "preview": "previews/634174cbb6680efd0496ae45f78d4185261382549472526b673d74049ad83fb2.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"warm-paper-rightnote\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "warm-paper-rightnote-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Warm Paper Rightnote — BASKETBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "warm-paper-rightnote",
+      "preview": "previews/d3287f15275cc704f16233eb7d5c457f2cd3ecce33b11fe29832170cfabadb79.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"warm-paper-rightnote\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "wire-numeral-basketball-1.html",
+      "newInThisChange": false,
+      "title": "Wire Numeral — BASKETBALL Score-left",
+      "placement": "lower-third",
+      "styleID": "wire-numeral",
+      "preview": "previews/404018c29eb126881650f9b873f17e42598fda6ed6cbd0295867e6c60780ad8b.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"wire-numeral\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    },
+    {
+      "fileName": "wire-numeral-basketball-2.html",
+      "newInThisChange": false,
+      "title": "Wire Numeral — BASKETBALL Score-above",
+      "placement": "lower-third",
+      "styleID": "wire-numeral",
+      "preview": "previews/87cbe5d620c343bff25ab92f7cb3f4c4cf58cec72023102c139b6f9d9c0f5490.png",
+      "verdict": "table-tennis derivative",
+      "layout": [
+        "Built from the shared table-tennis motif \"wire-numeral\": stacked/paired name rows, fouls in the games-won side slot, sport facts as a \"BASKETBALL\" caption + CLOCK/PERIOD text strip.",
+        "BK-CLOCK-HERO: clock is a footer/caption fact, not a hero element beside the scores."
+      ],
+      "missingConventions": [
+        "BK-FOULS: Team fouls per side",
+        "BK-BONUS: Bonus indicator per side",
+        "BK-TIMEOUTS: Timeouts remaining per side",
+        "BK-POSS: Possession indicator",
+        "BK-TO-ACTIVE: Active timeout state"
+      ],
+      "missingRequiredFields": {
+        "board": "live",
+        "fields": [
+          "eventName",
+          "matchRound",
+          "isGame{N}Started",
+          "isInBetweenGames",
+          "isATimeOutActive",
+          "bonusA",
+          "clockMinutes",
+          "clockSeconds",
+          "periodLabel",
+          "possessionSide",
+          "shotClockStatus",
+          "teamFoulsA",
+          "timeoutsRemainingA"
+        ]
+      }
+    }
+  ]
+}
