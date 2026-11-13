@@ -72,6 +72,11 @@
     .ev-sep { display: none; }
     .ev:has(.eventName:not(:empty)):has(.matchRound:not(:empty)) .ev-sep { display: inline; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.pips.final-dim>i,.fl,.teamFoulsA,.ot.isGame5Started,.shot.isShotClockActive,.teamFoulsB,.ev-n.eventName,.ev-r.matchRound,.bonus.bonusA,.bonus.bonusB{font-size:16px!important}
+.q,.isGame1Started,.isGame2Started,.isGame3Started,.isGame4Started{width:12px!important;height:12px!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
   </style>
 </head>
 <body>

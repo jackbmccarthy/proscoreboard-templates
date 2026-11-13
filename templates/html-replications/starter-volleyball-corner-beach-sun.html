@@ -43,6 +43,11 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;text-rendering:geometri
 .board:has(.isInBetweenGames[style*="opacity: 1"]) .hist>.hc,.board:has(.isComplete[style*="opacity: 1"]) .hist>.hc{background:#0b3d47e6!important}
 .pslot{position:absolute;left:100%;top:3.5rem;margin-left:.6rem}.pt{height:3rem;padding:0 1.2rem;border-radius:1.5rem;font-size:1.5rem;font-weight:800;letter-spacing:.08em;background:#fff;color:#0b4f5c}.pt.mp{background:#ff4f6d;color:#fff}
 .board:has(.isATimeOutActive[style*="opacity: 1"]) .pslot,.board:has(.isBTimeOutActive[style*="opacity: 1"]) .pslot{top:auto;bottom:100%;margin-bottom:-2.6rem}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.st.sset,.num.currentGame,.st.sdec.isDecidingSet,.st.sbrk.isInBetweenGames,.st.sfin.isComplete,.eventName,.sep,.matchRound,.tob.isATimeOutActive>em,.tob.isBTimeOutActive>em,.hl,.hd,.pt.mp.isMatchPoint,.pt.gp.isGamePoint{font-size:1.25vw!important}
+.pip,.lit.isATimeoutLeft1,.lit.isATimeoutLeft2,.lit.isBTimeoutLeft1,.lit.isBTimeoutLeft2{width:0.938vw!important;height:0.938vw!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
 </style>
 </head>
 <body>

@@ -11,13 +11,13 @@ html,body{margin:0;background:transparent}
 .board{font-size:calc(100vw / 80);font-family:var(--font);color:var(--ink);display:flex;flex-direction:column;align-items:center;-webkit-font-smoothing:antialiased}
 .top{display:flex;align-items:center;justify-content:center;height:1.9em;padding:0 1.4em;font-size:.95em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;max-width:44em}
 .bar{display:flex;align-items:stretch;height:3.6em}
-.side{display:flex;align-items:center;gap:.6em;width:26em;min-width:0;padding:0 .7em 0 0}
+.side{display:flex;align-items:center;gap:.6em;width:28em;min-width:0;padding:0 .7em 0 0}
 .side.sB{flex-direction:row-reverse;padding:0 0 0 .7em}
 .sB .who{text-align:right;align-items:flex-end}
 .chip{flex:0 0 .5em;align-self:stretch;background:var(--chip-default,#8a96a3)}
 .flag{flex:0 0 auto;width:2.2em;height:1.47em;object-fit:cover;border-radius:.12em;box-shadow:0 0 0 1px rgba(0,0,0,.35)}
 .who{display:flex;flex-direction:column;justify-content:center;flex:1 1 auto;min-width:0}
-.name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:1.45em;line-height:1.05;font-weight:800;text-transform:uppercase;overflow-wrap:break-word}
+.name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:1.35em;line-height:1.02;font-weight:800;text-transform:uppercase;overflow-wrap:break-word;text-wrap:balance}
 .team{display:flex;align-items:center;gap:.4em;min-width:0;font-size:.9em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
 .sB .team{flex-direction:row-reverse}
 .tlogo{width:1.3em;height:1.3em;object-fit:contain}
@@ -77,6 +77,11 @@ html,body{margin:0;background:transparent}
 .t-h2h .st-gp{background:#ff8a1c;color:#111}
 .t-h2h .st-mp{background:#e3262f;color:#fff}
 .t-h2h .st-final{background:#f4f1ea;color:#121418}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.eventName.ev,.sep.s1,.matchRound.rd,.sep.s2,.matchFormatLabel.bestOf.bo,.isATimeOutActive.to-on,.isBTimeOutActive.to-on,.isMatchStarted.gtag,.currentGame.cg,.isComplete.st.st-final,.isMatchPoint.st.st-mp,.isATimeOutUsed.to-used,.isBTimeOutUsed.to-used,.isGamePoint.st.st-gp,.isWarmUpStarted.st.st-warm,.isInBetweenGames.st.st-break{font-size:1.25vw!important}
+/* end stream-size floor */
+
 </style>
 </head>
 <body>

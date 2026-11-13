@@ -40,6 +40,10 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;text-rendering:geometri
 .hist>.hc[style*="opacity: 1"]:not(:has(~.hc[style*="opacity: 1"])){color:#e2231a}
 .board:has(.isInBetweenGames[style*="opacity: 1"]) .hist>.hc,.board:has(.isComplete[style*="opacity: 1"]) .hist>.hc{color:#111!important}
 .pslot{position:absolute;left:0;top:100%;margin-top:.5rem}.pt{height:3rem;padding:.35rem 1.2rem 0;font-size:1.9rem;letter-spacing:.08em;background:#111;color:#fff;border-left:.5rem solid #e2231a}.pt.mp{background:#e2231a;border-left-color:#111}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.pip,.lit.isATimeoutLeft1,.lit.isATimeoutLeft2,.lit.isBTimeoutLeft1,.lit.isBTimeoutLeft2{width:1.016vw!important;height:1.406vw!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
 </style>
 </head>
 <body>

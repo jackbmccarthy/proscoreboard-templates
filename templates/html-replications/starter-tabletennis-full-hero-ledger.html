@@ -48,7 +48,7 @@ html,body{margin:0;background:transparent}
 .hs .flag{width:3.3em;height:2.2em}
 .nm{display:flex;flex-direction:column;gap:.2em;min-width:0}
 .hB .nm{align-items:flex-end}
-.hs .name{font-size:2.4em}
+.hs .name{font-size:2.1em;-webkit-line-clamp:3;text-wrap:balance;line-height:1}
 .hs .team{font-size:1.05em}
 .hB .team{flex-direction:row-reverse}
 .nm:has(.name:empty) .team{font-size:1.7em;opacity:1}
@@ -82,6 +82,11 @@ html,body{margin:0;background:transparent}
 .t-hero .st-gp{background:#ff8a1c;color:#111}
 .t-hero .st-mp{background:#d7263d;color:#fff}
 .t-hero .st-final{background:#0e1b33;color:#fff}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.lab{font-size:1.25vw!important}
+/* end stream-size floor */
+
 </style>
 </head>
 <body>

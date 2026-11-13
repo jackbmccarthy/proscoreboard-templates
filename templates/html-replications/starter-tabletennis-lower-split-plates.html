@@ -76,6 +76,11 @@ html,body{margin:0;background:transparent}
 .t-plates .st-gp{background:#ff8a1c;color:#111}
 .t-plates .st-mp{background:#e4002b;color:#fff}
 .t-plates .st-final{background:#fff;color:#101828}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.eventName.ev,.sep.s1,.matchRound.rd,.sep.s2,.matchFormatLabel.bestOf.bo,.isMatchStarted.gtag,.currentGame.cg,.isComplete.st.st-final,.isMatchPoint.st.st-mp,.isATimeOutActive.to-on,.isBTimeOutActive.to-on,.isGamePoint.st.st-gp,.isATimeOutUsed.to-used,.isBTimeOutUsed.to-used,.isWarmUpStarted.st.st-warm,.isInBetweenGames.st.st-break{font-size:1.25vw!important}
+/* end stream-size floor */
+
 </style>
 </head>
 <body>

@@ -29,8 +29,8 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
 .st{position:relative;display:inline-grid;align-items:center;justify-items:end}
 .st>*{grid-area:1/1}
 .st-pre{opacity:0}.st:has(>.isMatchStarted[style*="opacity: 0"])>.st-pre{opacity:1}
-.st-live-in{display:inline-flex;align-items:center;gap:.3em}.st-live-in>i{width:.5em;height:.5em;border-radius:50%;background:currentColor;animation:osb-pulse 1.6s ease-in-out infinite}
-@keyframes osb-pulse{50%{transform:scale(.55)}}
+.st-live-in{display:inline-flex;align-items:center;gap:.3em}.st-live-in>i{width:max(.5em,12px);height:max(.5em,12px);border-radius:50%;background:currentColor;animation:osb-pulse 1.6s ease-in-out infinite}
+@keyframes osb-pulse{50%{opacity:.35}}
 .board:has(.isComplete[style*="opacity: 1"]) .st-live-in{visibility:hidden}
 .ls{display:flex}
 .ls-extra{display:none!important}.ls-extra:has(>.ls-gate[style*="opacity: 1"]){display:flex!important}
@@ -89,6 +89,14 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
 .cover.fin{font:700 1.8399999999999999rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.1em;color:#e4f23a}
 .cover{flex-direction:row;gap:.8rem}
 .fin-s{display:none;font:700 1.5rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.16em;color:#9fbaa8}.board:has(.isComplete[style*="opacity: 1"]) .fin-s{display:flex}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.outs-l,.cover.isInBetweenGames>b,.leg>span{font-size:1.25vw!important}
+.hm.a.isAHome,.hm.b.isBHome,.hm{width:1.016vw!important;height:0.938vw!important;min-width:0!important;flex-shrink:0!important}
+.bat.a.isABatting,.bat.b.isBBatting,.bat{width:0.938vw!important;height:0.938vw!important;min-width:0!important;flex-shrink:0!important}
+.dot,.lit.isBall1,.lit.isBall2,.lit.isBall3,.lit.isStrike1,.lit.isStrike2{width:1.016vw!important;height:1.016vw!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
 </style></head><body><main class="board" aria-label="Softball full-screen scoreboard">
 <section class="sum columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="softball line score">
 <div class="topr"><div class="ttl"><span class="kick">softball · line score</span><span class="ev"><span class="ev-e eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-r matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span></div><div class="badge"><span class="st"><span class="st-pre">PREGAME</span><span class="st-live isMatchStarted" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity: 0"><span class="st-live-in"><i></i>LIVE</span></span></span><span class="isComplete" data-osb-component="field" data-osb-field="isComplete" style="opacity: 0">FINAL</span></div></div>

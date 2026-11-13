@@ -11,7 +11,7 @@ html,body{margin:0;background:transparent}
 .board{font-size:calc(100vw / 80);font-family:var(--font);color:var(--ink);-webkit-font-smoothing:antialiased}
 .flag{flex:0 0 auto;object-fit:cover;border-radius:.12em;box-shadow:0 0 0 1px rgba(0,0,0,.35)}
 .chip{background:var(--chip-default,#8a96a3)}
-.name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-weight:800;text-transform:uppercase;overflow-wrap:break-word;line-height:1.04}
+.name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-weight:800;text-transform:uppercase;overflow-wrap:break-word;line-height:1;text-wrap:balance}
 .team{display:flex;align-items:center;gap:.4em;min-width:0;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
 .tlogo{width:1.3em;height:1.3em;object-fit:contain}
 .tname{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -54,7 +54,7 @@ html,body{margin:0;background:transparent}
 .who .chip{flex:0 0 .6em;align-self:stretch}
 .who .flag{width:3em;height:2em}
 .nm{display:flex;flex-direction:column;justify-content:center;gap:.2em;min-width:0}
-.who .name{font-size:2.3em}
+.who .name{font-size:2em}
 .who .team{font-size:1.05em}
 .nm:has(.name:empty) .team{font-size:1.6em;opacity:1}
 .cols{display:flex;flex:0 0 auto}
@@ -81,6 +81,12 @@ html,body{margin:0;background:transparent}
 .t-ls .st-gp{background:#ff8a1c;color:#111}
 .t-ls .st-mp{background:#e3262f;color:#fff}
 .t-ls .st-final{background:#fff;color:#0b1626}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.lab{font-size:1.25vw!important}
+.dot{width:1.016vw!important;height:1.016vw!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
 </style>
 </head>
 <body>

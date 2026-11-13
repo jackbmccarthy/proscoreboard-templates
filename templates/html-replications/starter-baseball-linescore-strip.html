@@ -29,8 +29,8 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
 .st{position:relative;display:inline-grid;align-items:center;justify-items:end}
 .st>*{grid-area:1/1}
 .st-pre{opacity:0}.st:has(>.isMatchStarted[style*="opacity: 0"])>.st-pre{opacity:1}
-.st-live-in{display:inline-flex;align-items:center;gap:.3em}.st-live-in>i{width:.5em;height:.5em;border-radius:50%;background:currentColor;animation:osb-pulse 1.6s ease-in-out infinite}
-@keyframes osb-pulse{50%{transform:scale(.55)}}
+.st-live-in{display:inline-flex;align-items:center;gap:.3em}.st-live-in>i{width:max(.5em,12px);height:max(.5em,12px);border-radius:50%;background:currentColor;animation:osb-pulse 1.6s ease-in-out infinite}
+@keyframes osb-pulse{50%{opacity:.35}}
 .board:has(.isComplete[style*="opacity: 1"]) .st-live-in{visibility:hidden}
 .ls{display:flex}
 .ls-extra{display:none!important}.ls-extra:has(>.ls-gate[style*="opacity: 1"]){display:flex!important}
@@ -82,6 +82,14 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
 .cover b{font:700 .78rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.16em;color:#9ba8bd}
 .cover .periodLabel{font:700 1.45rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.04em}
 .cover.fin{font:700 1.6674999999999998rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.1em;color:#ff9f1c}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.ev-e.eventName,.ev-r.matchRound::before,.ev-r.matchRound,.ls-h,.cover.isInBetweenGames>b,.st-live-in,.st-pre{font-size:1.25vw!important}
+.home.isAHome,.home.isBHome{width:0.938vw!important;height:1.016vw!important;min-width:0!important;flex-shrink:0!important}
+.bat.isABatting,.bat.isBBatting,.dot,.lit.isBall1,.lit.isBall2,.lit.isBall3,.lit.isStrike1,.lit.isStrike2,.lit.isOut1,.lit.isOut2{width:1.016vw!important;height:1.016vw!important;min-width:0!important;flex-shrink:0!important}
+.st-live-in>i{width:0.938vw!important;height:0.938vw!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
 </style></head><body><main class="board" aria-label="Baseball lower-third scoreboard">
 <div class="strip rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container" aria-label="baseball line score">
 <div class="teams"><div class="th"><span class="ev"><span class="ev-e eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-r matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span></div><div class="row"><span class="chip jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"><span class="home isAHome" data-osb-component="field" data-osb-field="isAHome" style="opacity: 0"></span></span><span class="nmw"><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></span><span class="batw"><span class="bat isABatting" data-osb-component="field" data-osb-field="isABatting" style="opacity: 0"></span></span></div><div class="row"><span class="chip jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"><span class="home isBHome" data-osb-component="field" data-osb-field="isBHome" style="opacity: 0"></span></span><span class="nmw"><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></span><span class="batw"><span class="bat isBBatting" data-osb-component="field" data-osb-field="isBBatting" style="opacity: 0"></span></span></div></div>

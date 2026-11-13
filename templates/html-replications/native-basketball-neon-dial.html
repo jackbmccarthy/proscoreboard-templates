@@ -68,6 +68,12 @@
     .ev-sep { display: none; }
     .ev:has(.eventName:not(:empty)):has(.matchRound:not(:empty)) .ev-sep { display: inline; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.ev-n.eventName,.ev-r.matchRound,.dial.isShotClockActive>i,.ot.isGame5Started,.to-l,.bonus.bonusA,.bonus.bonusB{font-size:16px!important}
+.arrow.isAPossession,.arrow.isBPossession{width:12px!important;height:14px!important;min-width:0!important;flex-shrink:0!important}
+.pip.isATimeoutLeft1,.pip.isATimeoutLeft2,.pip.isATimeoutLeft3,.pip.isATimeoutLeft4,.pip.isATimeoutLeft5,.pip.isBTimeoutLeft1,.pip.isBTimeoutLeft2,.pip.isBTimeoutLeft3,.pip.isBTimeoutLeft4,.pip.isBTimeoutLeft5{width:12px!important;height:12px!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
   </style>
 </head>
 <body>

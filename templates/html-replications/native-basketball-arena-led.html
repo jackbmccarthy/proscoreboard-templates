@@ -14,6 +14,9 @@
     .kit { align-self: stretch; background-color: #59616e; border-radius: 3px 0 0 0; }
     .nm { padding: 0 14px; font-size: 25px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .body { position: relative; display: grid; grid-template-columns: 30px 132px minmax(0, 1fr); align-items: center; padding: 0 12px 0 6px; }
+    .side.B .hd { grid-template-columns: minmax(0, 1fr) 10px; }
+    .side.B .hd .kit { order: 2; }
+    .side.B .hd .nm { text-align: right; }
     .side.B .body { grid-template-columns: minmax(0, 1fr) 132px 30px; padding: 0 6px 0 12px; }
     .side.B .lamp { order: 3; } .side.B .digits { order: 2; } .side.B .stats { order: 1; align-items: flex-start; }
     .lamp { display: flex; justify-content: center; }
@@ -74,6 +77,11 @@
     .ev-sep { display: none; }
     .ev:has(.eventName:not(:empty)):has(.matchRound:not(:empty)) .ev-sep { display: inline; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.st>i,.phd,.ot.isGame5Started,.shot.isShotClockActive>i,.ev-n.eventName,.ev-r.matchRound,.bonus.bonusA,.bonus.bonusB{font-size:16px!important}
+.pip.isATimeoutLeft1,.pip.isATimeoutLeft2,.pip.isATimeoutLeft3,.pip.isATimeoutLeft4,.pip.isATimeoutLeft5,.q,.isGame1Started,.isGame2Started,.isGame3Started,.isGame4Started,.run-shot.isShotClockRunning,.runbar.isGameClockRunning,.pip.isBTimeoutLeft1,.pip.isBTimeoutLeft2,.pip.isBTimeoutLeft3,.pip.isBTimeoutLeft4,.pip.isBTimeoutLeft5{width:12px!important;height:12px!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
   </style>
 </head>
 <body>

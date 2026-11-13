@@ -29,8 +29,8 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
 .st{position:relative;display:inline-grid;align-items:center;justify-items:end}
 .st>*{grid-area:1/1}
 .st-pre{opacity:0}.st:has(>.isMatchStarted[style*="opacity: 0"])>.st-pre{opacity:1}
-.st-live-in{display:inline-flex;align-items:center;gap:.3em}.st-live-in>i{width:.5em;height:.5em;border-radius:50%;background:currentColor;animation:osb-pulse 1.6s ease-in-out infinite}
-@keyframes osb-pulse{50%{transform:scale(.55)}}
+.st-live-in{display:inline-flex;align-items:center;gap:.3em}.st-live-in>i{width:max(.5em,12px);height:max(.5em,12px);border-radius:50%;background:currentColor;animation:osb-pulse 1.6s ease-in-out infinite}
+@keyframes osb-pulse{50%{opacity:.35}}
 .board:has(.isComplete[style*="opacity: 1"]) .st-live-in{visibility:hidden}
 .ls{display:flex}
 .ls-extra{display:none!important}.ls-extra:has(>.ls-gate[style*="opacity: 1"]){display:flex!important}
@@ -68,6 +68,13 @@ body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
 .isComplete{font:700 1.75rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.08em;color:#ffd23f}
 .foot{grid-column:1/3;display:flex;align-items:center;justify-content:space-between;height:1.2rem;padding:0 .7rem;background:#c8102e;border-radius:0 0 .35rem .35rem;color:#fff;font:700 .7rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.14em}
 .ticks{display:flex;gap:.22rem}.tick{width:.85rem;height:.3rem;border-radius:.15rem;background:rgba(255,255,255,.22);--tick-on:#fff}
+body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.ev-e.eventName,.ev-r.matchRound::before,.ev-r.matchRound,.colh,.outs-l,.cover.isInBetweenGames>b,.foot>span,.st-live-in,.st-pre{font-size:1.25vw!important}
+.home.isAHome,.bat.isABatting,.home.isBHome,.bat.isBBatting,.dot,.lit.isOut1,.lit.isOut2,.lit.isBall1,.lit.isBall2,.lit.isBall3,.lit.isStrike1,.lit.isStrike2{width:1.016vw!important;height:1.016vw!important;min-width:0!important;flex-shrink:0!important}
+.st-live-in>i{width:0.938vw!important;height:0.938vw!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
 </style></head><body><main class="board" aria-label="Baseball corner scoreboard">
 <article class="bug columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="baseball score bug">
 <div class="hdr"><span class="ev"><span class="ev-e eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-r matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span><span class="colh">R</span><span class="colh">H</span><span class="colh">E</span><span class="st"><span class="st-pre">PREGAME</span><span class="st-live isMatchStarted" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity: 0"><span class="st-live-in"><i></i>LIVE</span></span></span></div>

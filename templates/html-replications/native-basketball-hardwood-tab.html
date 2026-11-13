@@ -48,7 +48,7 @@
     .st-b { font-size: 40px; font-weight: 700; margin-top: 2px; }
     .brk .half-t { font-size: 34px; }
     .fin { z-index: 2; background: #fff; color: #13294b; }
-    .fin-ot { font-size: 16px; font-weight: 700; letter-spacing: 2px; margin-top: 3px; }
+    .fin-ot { font-size: 20px; font-weight: 800; letter-spacing: 2px; margin-top: 3px; }
     .half-t { display: none; }
     .osb:has(.isGame2Started[style*="opacity: 1"]):not(:has(.isGame3Started[style*="opacity: 1"])) .brk .end-t { display: none; }
     .osb:has(.isGame2Started[style*="opacity: 1"]):not(:has(.isGame3Started[style*="opacity: 1"])) .brk .half-t { display: block; }
@@ -67,6 +67,12 @@
     .ev-sep { display: none; }
     .ev:has(.eventName:not(:empty)):has(.matchRound:not(:empty)) .ev-sep { display: inline; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
+.ev-n.eventName,.ev-r.matchRound,.fl,.teamFoulsA,.to-l,.teamFoulsB,.shot.isShotClockActive,.ot.isGame5Started,.bonus.bonusA,.bonus.bonusB{font-size:16px!important}
+.arrow.isAPossession,.arrow.isBPossession{width:12px!important;height:14px!important;min-width:0!important;flex-shrink:0!important}
+.pip.isATimeoutLeft1,.pip.isATimeoutLeft2,.pip.isATimeoutLeft3,.pip.isATimeoutLeft4,.pip.isATimeoutLeft5,.pip.isBTimeoutLeft1,.pip.isBTimeoutLeft2,.pip.isBTimeoutLeft3,.pip.isBTimeoutLeft4,.pip.isBTimeoutLeft5{width:12px!important;height:12px!important;min-width:0!important;flex-shrink:0!important}
+/* end stream-size floor */
+
   </style>
 </head>
 <body>
