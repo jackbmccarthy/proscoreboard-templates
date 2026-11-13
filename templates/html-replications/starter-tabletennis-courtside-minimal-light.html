@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Table Tennis Courtside — Minimal Light</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#000;overflow:hidden}
+.stage{position:fixed;inset:0;container-type:size;display:grid;place-items:center}
+.board{--u:calc(min(100cqw,177.7778cqh)/1920);position:relative;overflow:hidden;width:min(100cqw,177.7778cqh);height:min(56.25cqw,100cqh);font-family:"Helvetica Neue",Arial,sans-serif;font-variant-numeric:lining-nums tabular-nums}
+.name,.team{display:flex;align-items:safe center;justify-content:center;text-align:center;overflow:hidden;overflow-wrap:anywhere;line-height:1.05}
+.game,.games,.teamScore{white-space:nowrap;line-height:1;text-align:center}
+img:not([src]),img[src=""]{display:none}
+.isGamePoint,.isMatchPoint,.isInBetweenGames,.isSwitched,.isCourtSideScoreboardFlipped,.courtSideIsACurrentlyServing,.courtSideIsBCurrentlyServing,.isAYellowCarded,.isBYellowCarded,.isARedCarded,.isBRedCarded,.isATimeOutActive,.isBTimeOutActive{opacity:0}
+.pointSlot{position:absolute}
+.ban{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;white-space:nowrap;font-weight:900}
+.pointSlot:has(.isMatchPoint[style*="opacity: 1"]) .isGamePoint,.pointSlot:has(.isInBetweenGames[style*="opacity: 1"]) :is(.isGamePoint,.isMatchPoint){opacity:0!important}
+.chip{position:absolute;display:flex;align-items:center;justify-content:center;white-space:nowrap;font-weight:800}
+.serve{position:absolute}
+
+.board{background:#f7f8f6;color:#111}
+.board::after{content:"";position:absolute;left:calc(959*var(--u));top:calc(130*var(--u));bottom:calc(90*var(--u));width:calc(2*var(--u));background:#111}
+.hdr{position:absolute;left:calc(660*var(--u));width:calc(600*var(--u));top:calc(28*var(--u));height:calc(80*var(--u));display:flex;align-items:center;justify-content:center;gap:calc(26*var(--u));font-size:calc(40*var(--u));letter-spacing:.12em;text-transform:uppercase;color:#666}
+.hdr .matchRound{color:#111;font-weight:800}
+.panel{position:absolute;top:0;bottom:0;width:calc(960*var(--u))}.pA{left:0}.pB{left:calc(960*var(--u))}
+.name{position:absolute;left:calc(60*var(--u));right:calc(180*var(--u));top:calc(124*var(--u));height:calc(192*var(--u));font-size:calc(88*var(--u));font-weight:700;justify-content:flex-start;text-align:left}
+.serve{left:calc(60*var(--u));top:calc(326*var(--u));width:calc(240*var(--u));height:calc(18*var(--u));background:#d6283b}
+.game{position:absolute;left:0;right:0;top:calc(340*var(--u));height:calc(540*var(--u));font-size:calc(600*var(--u));line-height:calc(540*var(--u));font-weight:800;letter-spacing:-.02em}
+.panel::after{content:"";position:absolute;left:calc(60*var(--u));right:calc(60*var(--u));bottom:calc(180*var(--u));height:calc(3*var(--u));background:#111}
+.lbl{position:absolute;bottom:calc(92*var(--u));font-size:calc(44*var(--u));font-weight:700;letter-spacing:.1em;color:#666}
+.pA .lbl{left:calc(60*var(--u))}.pB .lbl{right:calc(60*var(--u))}
+.games{position:absolute;bottom:calc(58*var(--u));width:calc(140*var(--u));height:calc(130*var(--u));font-size:calc(130*var(--u));line-height:calc(130*var(--u));font-weight:800}
+.pA .games{left:calc(270*var(--u))}.pB .games{right:calc(270*var(--u))}
+.card{position:absolute;width:calc(40*var(--u));height:calc(58*var(--u));border-radius:calc(5*var(--u))}.yc{background:#e5c94e}.rc{background:#c94747}
+.card{top:calc(150*var(--u))}.yc{right:calc(116*var(--u))}.rc{right:calc(60*var(--u))}
+.to{position:absolute;top:calc(40*var(--u));width:calc(280*var(--u));height:calc(62*var(--u));display:flex;align-items:center;justify-content:center;border:calc(4*var(--u)) solid #d6283b;border-radius:calc(31*var(--u));color:#d6283b;font-size:calc(34*var(--u));font-weight:800;letter-spacing:.06em}
+.pA .to{left:calc(60*var(--u))}.pB .to{right:calc(60*var(--u))}
+.pointSlot{left:calc(660*var(--u));width:calc(600*var(--u));top:calc(940*var(--u));height:calc(110*var(--u))}
+.ban{font-size:calc(64*var(--u));border-radius:calc(6*var(--u));letter-spacing:.04em}
+.gp{background:#d6283b;color:#fff}.mp{background:#111;color:#fff}.bt{border:calc(4*var(--u)) solid #111;color:#111;font-size:calc(50*var(--u))}
+.chip{top:calc(44*var(--u));height:calc(42*var(--u));padding:0 calc(18*var(--u));border:calc(3*var(--u)) solid #999;border-radius:calc(21*var(--u));color:#666;font-size:calc(22*var(--u));letter-spacing:.08em}
+.chipS{left:calc(390*var(--u))}.chipF{right:calc(390*var(--u))}
+
+.osb-core-fields{display:none!important}
+</style>
+</head>
+<body>
+<div class="stage"><div class="board">
+  <div class="hdr"><span class="eventName"></span><span class="matchRound"></span></div>
+  <section class="courtSideAView panel pA ">
+    <div class="courtSideCombinedAName name"></div>
+    <div class="courtSideIsACurrentlyServing serve"></div>
+    <div class="isAYellowCarded card yc"></div>
+    <div class="isARedCarded card rc"></div>
+    <div class="isATimeOutActive to">TIME-OUT</div>
+    <div class="courtSideAGameScore game">0</div>
+    <div class="lbl">GAMES</div>
+    <div class="courtSideAMatchScore games">0</div>
+  </section>
+  <section class="courtSideBView panel pB ">
+    <div class="courtSideCombinedBName name"></div>
+    <div class="courtSideIsBCurrentlyServing serve"></div>
+    <div class="isBYellowCarded card yc"></div>
+    <div class="isBRedCarded card rc"></div>
+    <div class="isBTimeOutActive to">TIME-OUT</div>
+    <div class="courtSideBGameScore game">0</div>
+    <div class="lbl">GAMES</div>
+    <div class="courtSideBMatchScore games">0</div>
+  </section>
+  <div class="pointSlot ">
+    <div class="isInBetweenGames ban bt">BETWEEN GAMES</div>
+    <div class="isMatchPoint ban mp" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">MATCH POINT</div>
+    <div class="isGamePoint ban gp" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">GAME POINT</div>
+  </div>
+  <div class="isSwitched chip chipS">ENDS SWITCHED</div>
+  <div class="isCourtSideScoreboardFlipped chip chipF">BOARD FLIPPED</div>
+</div></div>
+<div class="osb-core-fields" aria-hidden="true"><span class="combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+</body>
+</html>

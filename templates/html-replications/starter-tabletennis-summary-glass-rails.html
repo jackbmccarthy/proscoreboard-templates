@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Table Tennis Match Summary — Glass Rails</title>
+<style>.board{--bg:#041018;--hd:rgba(255,255,255,.04);--ink:#eef9ff;--a:#0cbff2;--b:#f47b26;--ra:linear-gradient(90deg,rgba(12,191,242,.28),rgba(12,191,242,.04));--rb:linear-gradient(90deg,rgba(244,123,38,.28),rgba(244,123,38,.04));--trim:#d6a537;--ga:rgba(12,191,242,.1);--gb:rgba(244,123,38,.1);--gat:#47d6ff;--gbt:#ffa056;--font:Arial,sans-serif;--disp:Impact,"Arial Narrow",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:transparent}
+.stage{container-type:inline-size;width:100%}
+.board{--u:1cqw;width:100%;aspect-ratio:16/9;position:relative;overflow:hidden;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:calc(var(--u)*2);font-variant-numeric:tabular-nums;line-height:1.1;isolation:isolate}
+img.flag:not([src]),img.flag[src=""]{display:none}
+.flag{flex:none;width:calc(var(--u)*7);height:calc(var(--u)*4.7);object-fit:cover;border-radius:calc(var(--u)*.4);box-shadow:0 0 0 calc(var(--u)*.15) rgba(255,255,255,.45)}
+.jersey{flex:none;color:transparent;font-size:0;overflow:hidden}
+.hd{flex:0 0 calc(var(--u)*9);display:flex;align-items:center;justify-content:center;gap:calc(var(--u)*2.4);padding:0 calc(var(--u)*4);min-width:0;background:var(--hd);border-bottom:calc(var(--u)*.2) solid var(--trim);position:relative;z-index:2}
+.eventName{font-family:var(--disp);font-size:calc(var(--u)*3.2);text-transform:uppercase;letter-spacing:calc(var(--u)*.12);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;max-width:calc(var(--u)*70)}
+.matchRound{flex:none;font-weight:800;font-size:calc(var(--u)*1.9);text-transform:uppercase;letter-spacing:calc(var(--u)*.14);color:var(--trim);border:calc(var(--u)*.15) solid var(--trim);padding:calc(var(--u)*.55) calc(var(--u)*1.6);white-space:nowrap;max-width:calc(var(--u)*26);overflow:hidden;text-overflow:ellipsis}
+.matchRound:empty,.eventName:empty{display:none}
+.lbl{font-size:calc(var(--u)*1.5);font-weight:800;letter-spacing:calc(var(--u)*.3);color:var(--trim);text-transform:uppercase;text-align:center}
+.name{min-width:0;overflow-wrap:anywhere;hyphens:manual;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-family:var(--disp);line-height:1.05}
+.gc{flex:1 1 0;min-width:0;display:flex;flex-direction:column}
+.gl{flex:none;height:calc(var(--u)*2.6);display:flex;align-items:center;justify-content:center;font-size:calc(var(--u)*1.3);font-weight:800;letter-spacing:calc(var(--u)*.15);color:var(--trim)}
+.ga,.gb{flex:1 1 0;min-height:0;display:flex;align-items:center;justify-content:center;font-weight:800}
+.ga{background:var(--ga);color:var(--gat)}.gb{background:var(--gb);color:var(--gbt)}
+.ma,.mb{font-family:var(--disp);font-weight:900;text-align:center;line-height:1}
+/* S1: split panels */
+.s1 .mn{flex:1 1 0;min-height:0;display:flex;position:relative}
+.s1 .pl{flex:0 0 calc(var(--u)*31);min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:calc(var(--u)*2.4);padding:calc(var(--u)*2) calc(var(--u)*2.4);position:relative;background:linear-gradient(165deg,var(--side),var(--bg) 82%)}
+.s1 .pa{--side:var(--a)}.s1 .pb{--side:var(--b)}
+.s1 .nb{width:100%;min-height:calc(var(--u)*9.6);display:flex;align-items:stretch;background:rgba(2,6,14,.62);border-top:calc(var(--u)*.2) solid var(--side);border-bottom:calc(var(--u)*.2) solid var(--side)}
+.s1 .jersey{width:calc(var(--u)*1);align-self:stretch}
+.s1 .pb .jersey{order:2}
+.s1 .name{flex:1 1 0;margin:calc(var(--u)*1) calc(var(--u)*1.2);font-size:calc(var(--u)*3.2);text-align:center;align-self:center}
+.s1 .ct{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:calc(var(--u)*1.4);background:var(--ctbg)}
+.s1 .sc{display:flex;align-items:center;justify-content:center;gap:calc(var(--u)*1.2)}
+.s1 .ma,.s1 .mb{font-size:calc(var(--u)*19);min-width:1.05ch}
+.s1 .ma{color:var(--a)}.s1 .mb{color:var(--b)}
+.s1 .dash{font-size:calc(var(--u)*7);color:var(--trim);font-weight:900;line-height:1}
+.s1 .hist{flex:0 0 calc(var(--u)*17);display:flex;flex-direction:column;gap:calc(var(--u)*.6);padding:calc(var(--u)*1) calc(var(--u)*4) calc(var(--u)*1.6);background:var(--hh);border-top:calc(var(--u)*.2) solid var(--trim)}
+.s1 .games{flex:1 1 0;min-height:0;display:flex;justify-content:center;gap:calc(var(--u)*.8)}
+.s1 .gc{max-width:calc(var(--u)*10)}
+.s1 .ga,.s1 .gb{font-size:calc(var(--u)*3.4)}
+/* S2: line score table */
+.s2 .tb{flex:1 1 0;min-height:0;display:flex;align-items:center;justify-content:center;padding:calc(var(--u)*2.4) calc(var(--u)*4) calc(var(--u)*3);gap:calc(var(--u)*.8)}
+.s2 .col{flex:none;display:flex;flex-direction:column;gap:calc(var(--u)*.8)}
+.s2 .nm{width:calc(var(--u)*32)}.s2 .mt{width:calc(var(--u)*13)}
+.s2 .row{height:calc(var(--u)*17);display:flex;align-items:center;gap:calc(var(--u)*1.2);padding:0 calc(var(--u)*1.2);min-width:0;background:var(--side);position:relative}
+.s2 .ra{--side:var(--ra);--sc:var(--a)}.s2 .rb{--side:var(--rb);--sc:var(--b)}
+.s2 .jersey{width:calc(var(--u)*1);align-self:stretch;margin:0 calc(var(--u)*-.2) 0 calc(var(--u)*-.8)}
+.s2 .name{flex:1 1 0;font-size:calc(var(--u)*3.4);margin:calc(var(--u)*.4) 0}
+.s2 .games{flex:1 1 0;min-width:0;display:flex;justify-content:center;gap:calc(var(--u)*.8);align-self:center}
+.s2 .gc{max-width:calc(var(--u)*9)}.s2 .games{gap:calc(var(--u)*.5)}
+.s2 .gl{height:calc(var(--u)*3)}
+.s2 .ga,.s2 .gb{font-size:calc(var(--u)*3.3);height:calc(var(--u)*17);flex:none}
+.s2 .ga{margin-bottom:calc(var(--u)*.8)}
+.s2 .mt .ma,.s2 .mt .mb{height:calc(var(--u)*17);display:flex;align-items:center;justify-content:center;font-size:calc(var(--u)*10)}
+.s2 .mt .ma{background:var(--a);color:var(--gat)}.s2 .mt .mb{background:var(--b);color:var(--gbt)}
+.s2 .nm .gl{height:calc(var(--u)*3)}
+.board{background:radial-gradient(circle at 20% 0,#0a2a3a,#041018 60%)}.s2 .row{border-left:calc(var(--u)*1.2) solid var(--sc);border-top:calc(var(--u)*.1) solid rgba(255,255,255,.14);border-bottom:calc(var(--u)*.1) solid rgba(255,255,255,.14)}.s2 .ga{border-top:calc(var(--u)*.12) solid var(--a)}.s2 .gb{border-bottom:calc(var(--u)*.12) solid var(--b)}.s2 .mt .ma{color:#031017}.s2 .mt .mb{color:#1a0b01}
+.osb-point-slot{position:absolute;right:calc(var(--u)*4);top:50%;transform:translateY(-50%);display:grid}.osb-point-slot>span{grid-area:1/1;font-weight:900;font-size:calc(var(--u)*1.7);letter-spacing:calc(var(--u)*.14);padding:calc(var(--u)*.5) calc(var(--u)*1.4);background:var(--trim);color:#0b0b10;white-space:nowrap;text-align:center}.osb-point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint{opacity:0!important}.osb-core-fields{display:none!important}
+</style>
+</head>
+<body>
+<div class="stage"><div class="board s2 glass-rails" data-osb-component="layout" aria-label="Glass rails match summary">
+  <header class="hd"><div class="eventName" data-osb-component="field" data-osb-field="eventName"></div><div class="matchRound" data-osb-component="field" data-osb-field="matchRound"></div><div class="osb-point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">MATCH POINT</span></div></header>
+  <main class="tb">
+    <div class="col nm"><div class="gl"></div>
+      <div class="row ra"><div class="jerseyColorA jersey" data-osb-component="field" data-osb-field="jerseyColorA"></div><img class="countryA flag" data-osb-component="field" data-osb-field="countryA" alt=""><div class="combinedAName name" data-osb-component="field" data-osb-field="combinedAName"></div></div>
+      <div class="row rb"><div class="jerseyColorB jersey" data-osb-component="field" data-osb-field="jerseyColorB"></div><img class="countryB flag" data-osb-component="field" data-osb-field="countryB" alt=""><div class="combinedBName name" data-osb-component="field" data-osb-field="combinedBName"></div></div></div>
+    <div class="games">
+      <div class="isGame1Started gc" data-osb-component="field" data-osb-field="isGame1Started"><div class="gl">G1</div><div class="game1AScore ga" data-osb-component="field" data-osb-field="game1AScore">0</div><div class="game1BScore gb" data-osb-component="field" data-osb-field="game1BScore">0</div></div>
+      <div class="isGame2Started gc" data-osb-component="field" data-osb-field="isGame2Started"><div class="gl">G2</div><div class="game2AScore ga" data-osb-component="field" data-osb-field="game2AScore">0</div><div class="game2BScore gb" data-osb-component="field" data-osb-field="game2BScore">0</div></div>
+      <div class="isGame3Started gc" data-osb-component="field" data-osb-field="isGame3Started"><div class="gl">G3</div><div class="game3AScore ga" data-osb-component="field" data-osb-field="game3AScore">0</div><div class="game3BScore gb" data-osb-component="field" data-osb-field="game3BScore">0</div></div>
+      <div class="isGame4Started gc" data-osb-component="field" data-osb-field="isGame4Started"><div class="gl">G4</div><div class="game4AScore ga" data-osb-component="field" data-osb-field="game4AScore">0</div><div class="game4BScore gb" data-osb-component="field" data-osb-field="game4BScore">0</div></div>
+      <div class="isGame5Started gc" data-osb-component="field" data-osb-field="isGame5Started"><div class="gl">G5</div><div class="game5AScore ga" data-osb-component="field" data-osb-field="game5AScore">0</div><div class="game5BScore gb" data-osb-component="field" data-osb-field="game5BScore">0</div></div>
+      <div class="isGame6Started gc" data-osb-component="field" data-osb-field="isGame6Started"><div class="gl">G6</div><div class="game6AScore ga" data-osb-component="field" data-osb-field="game6AScore">0</div><div class="game6BScore gb" data-osb-component="field" data-osb-field="game6BScore">0</div></div>
+      <div class="isGame7Started gc" data-osb-component="field" data-osb-field="isGame7Started"><div class="gl">G7</div><div class="game7AScore ga" data-osb-component="field" data-osb-field="game7AScore">0</div><div class="game7BScore gb" data-osb-component="field" data-osb-field="game7BScore">0</div></div>
+      <div class="isGame8Started gc" data-osb-component="field" data-osb-field="isGame8Started"><div class="gl">G8</div><div class="game8AScore ga" data-osb-component="field" data-osb-field="game8AScore">0</div><div class="game8BScore gb" data-osb-component="field" data-osb-field="game8BScore">0</div></div>
+      <div class="isGame9Started gc" data-osb-component="field" data-osb-field="isGame9Started"><div class="gl">G9</div><div class="game9AScore ga" data-osb-component="field" data-osb-field="game9AScore">0</div><div class="game9BScore gb" data-osb-component="field" data-osb-field="game9BScore">0</div></div>
+    </div>
+    <div class="col mt"><div class="gl">MATCH</div><div class="currentAMatchScore ma" data-osb-component="field" data-osb-field="currentAMatchScore">0</div><div class="currentBMatchScore mb" data-osb-component="field" data-osb-field="currentBMatchScore">0</div></div>
+  </main>
+</div></div>
+<div class="osb-core-fields" aria-hidden="true"><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+</body>
+</html>
