@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2cabce943b753e35edfdaa883cbe40056f17ad157805aed22afc03ac3f6f85ac",
+  "revision": "e4962c5b23e9bf2999068f2e36a3f3abf475166ad0c5fa2c649680b18991baee",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44548,18 +44548,20 @@
     },
     {
       "aliases": [],
-      "description": "Ivory ballpark card in slab serif: R-H-E header over two team rows, with a footer bay that keeps inning arrows, diamond, count and outs together. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Ivory ballpark card in slab serif: R-H-E header over two team rows, with a footer bay that keeps inning arrows, diamond, count and outs together.",
+      "description": "Ivory ballpark card with slab-serif team names: navy R-H-E header, team rows with runs slabs, and a situation bay with inning arrow, lit-base diamond, B-S count and labelled B/S/O lamp rows; pregame/live state and inning ticks in the footer. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Ivory ballpark card with slab-serif team names: navy R-H-E header, team rows with runs slabs, and a situation bay with inning arrow, lit-base diamond, B-S count and labelled B/S/O lamp rows; pregame/live state and inning ticks in the footer.",
       "output": "html-replications/starter-baseball-ballpark-card.html",
       "palette": [
-        "#f4ecd8",
+        "#f6f0e1",
         "#1d2a44",
         "#b3202e"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44573,16 +44575,16 @@
         "corner",
         "teams"
       ],
-      "title": "Baseball — Ballpark Ballpark Card",
+      "title": "Baseball — Ballpark Card",
       "fileName": "starter-baseball-ballpark-card.html",
-      "contentHash": "cb93b8bc462a5b5b9d97b41c0167f3ddf098aee071fa847b5b02e5502642596d",
-      "documentPath": "published/cb93b8bc462a5b5b9d97b41c0167f3ddf098aee071fa847b5b02e5502642596d.json",
+      "contentHash": "26e367f049ccc8bb505c4cc7d193c1ca4d07537d4e97895a6c8b551dcd8c7415",
+      "documentPath": "published/26e367f049ccc8bb505c4cc7d193c1ca4d07537d4e97895a6c8b551dcd8c7415.json",
       "preview": {
-        "path": "previews/2968730d2815a7109b5f70859baa595de4296e6e7c945d9f96899f7c650ede48.png",
-        "imageHash": "2968730d2815a7109b5f70859baa595de4296e6e7c945d9f96899f7c650ede48",
-        "contentHash": "cb93b8bc462a5b5b9d97b41c0167f3ddf098aee071fa847b5b02e5502642596d",
-        "width": 332,
-        "height": 204,
+        "path": "previews/3393319a66a108c7a3e84de76c9936df92e8bfddf591eeeecbb91c56a1242273.png",
+        "imageHash": "3393319a66a108c7a3e84de76c9936df92e8bfddf591eeeecbb91c56a1242273",
+        "contentHash": "26e367f049ccc8bb505c4cc7d193c1ca4d07537d4e97895a6c8b551dcd8c7415",
+        "width": 453,
+        "height": 265,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44590,18 +44592,20 @@
     },
     {
       "aliases": [],
-      "description": "Single-line network bar: team slabs in jersey colour with runs, then inning arrows, diamond, ball-strike count and outs in one situation run, with an inning tracker underneath. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Single-line network bar: team slabs in jersey colour with runs, then inning arrows, diamond, ball-strike count and outs in one situation run, with an inning tracker underneath.",
+      "description": "Single broadcast bar: event tab with live state and inning ticks, two team blocks (jersey bar, home mark, at-bat light, runs, H/E), and a situation block with inning arrow, lit-base diamond, B-S count with pips and out lights. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Single broadcast bar: event tab with live state and inning ticks, two team blocks (jersey bar, home mark, at-bat light, runs, H/E), and a situation block with inning arrow, lit-base diamond, B-S count with pips and out lights.",
       "output": "html-replications/starter-baseball-broadcast-bar.html",
       "palette": [
-        "#111317",
+        "#101826",
         "#e4002b",
-        "#ffffff"
+        "#ffcc33"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44615,16 +44619,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Baseball — Network Broadcast Bar",
+      "title": "Baseball — Broadcast Bar",
       "fileName": "starter-baseball-broadcast-bar.html",
-      "contentHash": "6cdfaf6a3b1d8d9635063a6c2063399a658200b63370ebc2326d3c5c05e97b6c",
-      "documentPath": "published/6cdfaf6a3b1d8d9635063a6c2063399a658200b63370ebc2326d3c5c05e97b6c.json",
+      "contentHash": "b345251849e0efadf6567a1d3bb674486be34d944efe0a037a4d09c8565ef7e9",
+      "documentPath": "published/b345251849e0efadf6567a1d3bb674486be34d944efe0a037a4d09c8565ef7e9.json",
       "preview": {
-        "path": "previews/280c192f207bfd065b7327583c82793c98d7deff9eaf1bb025cb309413d8a61e.png",
-        "imageHash": "280c192f207bfd065b7327583c82793c98d7deff9eaf1bb025cb309413d8a61e",
-        "contentHash": "6cdfaf6a3b1d8d9635063a6c2063399a658200b63370ebc2326d3c5c05e97b6c",
-        "width": 812,
-        "height": 114,
+        "path": "previews/82416e0fc5a7d2b73adf00a2e8302bc17950a2e89f86f4476cf4c647319263d9.png",
+        "imageHash": "82416e0fc5a7d2b73adf00a2e8302bc17950a2e89f86f4476cf4c647319263d9",
+        "contentHash": "b345251849e0efadf6567a1d3bb674486be34d944efe0a037a4d09c8565ef7e9",
+        "width": 1016,
+        "height": 130,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44632,18 +44636,20 @@
     },
     {
       "aliases": [],
-      "description": "Compact two-row corner bug: team slabs with prominent runs and small H/E, beside a darker situation box that groups the inning arrows, a base diamond, the ball-strike count and outs. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Compact two-row corner bug: team slabs with prominent runs and small H/E, beside a darker situation box that groups the inning arrows, a base diamond, the ball-strike count and outs.",
+      "description": "Network box bug: header with event, R-H-E column labels and PREGAME/LIVE state; team rows with jersey bar, home-plate mark, at-bat ball and dominant runs; a situation box with a lit-base diamond, out dots, the inning arrow and a B-S count with ball and strike pips; inning progress ticks in the footer. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Network box bug: header with event, R-H-E column labels and PREGAME/LIVE state; team rows with jersey bar, home-plate mark, at-bat ball and dominant runs; a situation box with a lit-base diamond, out dots, the inning arrow and a B-S count with ball and strike pips; inning progress ticks in the footer.",
       "output": "html-replications/starter-baseball-diamond-box-bug.html",
       "palette": [
-        "#0d1b2e",
-        "#16294a",
-        "#d7263d"
+        "#0f1f38",
+        "#c8102e",
+        "#c8102e"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44659,14 +44665,14 @@
       ],
       "title": "Baseball — Navy Diamond Box",
       "fileName": "starter-baseball-diamond-box-bug.html",
-      "contentHash": "5e1b17eeb662de7aa1f421e79b1dc329e2c106662212a222781cc24e739baf7d",
-      "documentPath": "published/5e1b17eeb662de7aa1f421e79b1dc329e2c106662212a222781cc24e739baf7d.json",
+      "contentHash": "99edfb189fd8f9d09de8c578d2b4ff17b7defa642f7992d47e513b0af9344ee2",
+      "documentPath": "published/99edfb189fd8f9d09de8c578d2b4ff17b7defa642f7992d47e513b0af9344ee2.json",
       "preview": {
-        "path": "previews/9c203e2fff16636f1b44271a1e4778a1a0ef5076c33c81947a7fdcb52630419c.png",
-        "imageHash": "9c203e2fff16636f1b44271a1e4778a1a0ef5076c33c81947a7fdcb52630419c",
-        "contentHash": "5e1b17eeb662de7aa1f421e79b1dc329e2c106662212a222781cc24e739baf7d",
-        "width": 404,
-        "height": 149,
+        "path": "previews/6941a159093f5fdf1becf1147c98bb082d3343270ea8afbee10a3eeb659bc02c.png",
+        "imageHash": "6941a159093f5fdf1becf1147c98bb082d3343270ea8afbee10a3eeb659bc02c",
+        "contentHash": "99edfb189fd8f9d09de8c578d2b4ff17b7defa642f7992d47e513b0af9344ee2",
+        "width": 551,
+        "height": 182,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44674,17 +44680,20 @@
     },
     {
       "aliases": [],
-      "description": "Angled ribbon: skewed jersey-colour team slabs flank a centre medallion holding the diamond and inning arrows; the count and outs ride a chip below. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Angled ribbon: skewed jersey-colour team slabs flank a centre medallion holding the diamond and inning arrows; the count and outs ride a chip below.",
+      "description": "Away left, home right, with a central situation medallion (live state tab, inning arrow, lit-base diamond, count with pips, out lights) between the two runs boxes; H/E and at-bat under each name. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Away left, home right, with a central situation medallion (live state tab, inning arrow, lit-base diamond, count with pips, out lights) between the two runs boxes; H/E and at-bat under each name.",
       "output": "html-replications/starter-baseball-diamond-ribbon.html",
       "palette": [
-        "#14161c",
-        "#f0c43a"
+        "#0e3b2e",
+        "#f2b632",
+        "#f2b632"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44698,16 +44707,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Baseball — Crimson Diamond Ribbon",
+      "title": "Baseball — Diamond Ribbon",
       "fileName": "starter-baseball-diamond-ribbon.html",
-      "contentHash": "7e81d965bcb14709629406a1ea2a6e2fc04da08c80c15aeef6efa927c203fcdb",
-      "documentPath": "published/7e81d965bcb14709629406a1ea2a6e2fc04da08c80c15aeef6efa927c203fcdb.json",
+      "contentHash": "18a707d4bea964771bdcec3e51a5c308850e37575904db7607f4258b74862e48",
+      "documentPath": "published/18a707d4bea964771bdcec3e51a5c308850e37575904db7607f4258b74862e48.json",
       "preview": {
-        "path": "previews/256bc30768b8117c37b5a20a7455961bb4cc4dd667cd520a75de18e9729dddb3.png",
-        "imageHash": "256bc30768b8117c37b5a20a7455961bb4cc4dd667cd520a75de18e9729dddb3",
-        "contentHash": "7e81d965bcb14709629406a1ea2a6e2fc04da08c80c15aeef6efa927c203fcdb",
-        "width": 584,
-        "height": 165,
+        "path": "previews/93d876143cbe96828c638880f5db532c3b130e93b04f73855a1152d38030578d.png",
+        "imageHash": "93d876143cbe96828c638880f5db532c3b130e93b04f73855a1152d38030578d",
+        "contentHash": "18a707d4bea964771bdcec3e51a5c308850e37575904db7607f4258b74862e48",
+        "width": 992,
+        "height": 170,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44715,18 +44724,19 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen box score: event header, a classic 9-inning line score with extra-inning columns that appear when played, and bold R with H and E. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Full-screen box score: event header, a classic 9-inning line score with extra-inning columns that appear when played, and bold R with H and E.",
+      "description": "Full-screen line score: event title with PREGAME/LIVE/FINAL badge, per-inning runs with extra-inning columns, R-H-E, at-bat and home marks, and a situation strip that turns to END OF / GAME OVER. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Full-screen line score: event title with PREGAME/LIVE/FINAL badge, per-inning runs with extra-inning columns, R-H-E, at-bat and home marks, and a situation strip that turns to END OF / GAME OVER.",
       "output": "html-replications/starter-baseball-final-line-score.html",
       "palette": [
-        "#0f1d2f",
-        "#162a45",
-        "#c8102e"
+        "#ffc83d",
+        "#ffc83d"
       ],
       "placement": "full-screen",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44740,16 +44750,16 @@
         "full-screen",
         "teams"
       ],
-      "title": "Baseball — Classic Final Line Score",
+      "title": "Baseball — Final Line Score",
       "fileName": "starter-baseball-final-line-score.html",
-      "contentHash": "2459c459891f69035126d0a1582264df4feaddcf89404a49c0eecd162bd1f321",
-      "documentPath": "published/2459c459891f69035126d0a1582264df4feaddcf89404a49c0eecd162bd1f321.json",
+      "contentHash": "6a1daabf5731049636aaae534bd63c2e16c864e23abaaa6bf753419646bef57b",
+      "documentPath": "published/6a1daabf5731049636aaae534bd63c2e16c864e23abaaa6bf753419646bef57b.json",
       "preview": {
-        "path": "previews/7741d2d77072e013e38c6bfb8a4a8e5176f079221148daa550de96cafd1dbc85.png",
-        "imageHash": "7741d2d77072e013e38c6bfb8a4a8e5176f079221148daa550de96cafd1dbc85",
-        "contentHash": "2459c459891f69035126d0a1582264df4feaddcf89404a49c0eecd162bd1f321",
-        "width": 944,
-        "height": 410,
+        "path": "previews/e57f536b943032ca4defe7c4d720b5bea80c828c58bf8ff2cdaf9804dfa96438.png",
+        "imageHash": "e57f536b943032ca4defe7c4d720b5bea80c828c58bf8ff2cdaf9804dfa96438",
+        "contentHash": "6a1daabf5731049636aaae534bd63c2e16c864e23abaaa6bf753419646bef57b",
+        "width": 1296,
+        "height": 736,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44757,18 +44767,20 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen between-innings card: two large team panels with runs and H/E, an inning medallion with arrows, a compact line score and the last situation diamond. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Full-screen between-innings card: two large team panels with runs and H/E, an inning medallion with arrows, a compact line score and the last situation diamond.",
+      "description": "Full-screen inning break card: END OF headline over the half-inning label (FINAL at the end), two team panels with big runs, H/E and at-bat, an away/home line score, and a situation box. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Full-screen inning break card: END OF headline over the half-inning label (FINAL at the end), two team panels with big runs, H/E and at-bat, an away/home line score, and a situation box.",
       "output": "html-replications/starter-baseball-inning-break-card.html",
       "palette": [
-        "#0c1310",
-        "#15211b",
-        "#e9b949"
+        "#2a0d13",
+        "#ff5a4e",
+        "#ff5a4e"
       ],
       "placement": "full-screen",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44782,16 +44794,16 @@
         "full-screen",
         "teams"
       ],
-      "title": "Baseball — Dugout Inning Break",
+      "title": "Baseball — Inning Break Card",
       "fileName": "starter-baseball-inning-break-card.html",
-      "contentHash": "f9deb00458309a34cc790679321317ae668c7d0acef3abf87582e0c534a4b91a",
-      "documentPath": "published/f9deb00458309a34cc790679321317ae668c7d0acef3abf87582e0c534a4b91a.json",
+      "contentHash": "11eb76c262654adf1cf94e63e2804f543e9e8e59adf4cb329e4acef9e2b4c7c7",
+      "documentPath": "published/11eb76c262654adf1cf94e63e2804f543e9e8e59adf4cb329e4acef9e2b4c7c7.json",
       "preview": {
-        "path": "previews/7131be030ce4cad458f8647e576fd6672ad440e719ce2e2eff01d87b2b93f657.png",
-        "imageHash": "7131be030ce4cad458f8647e576fd6672ad440e719ce2e2eff01d87b2b93f657",
-        "contentHash": "f9deb00458309a34cc790679321317ae668c7d0acef3abf87582e0c534a4b91a",
-        "width": 1028,
-        "height": 466,
+        "path": "previews/55739d0eb8ae138334c9a0e8c887d9441a907cbcfde4feae888792cbed7a0a06.png",
+        "imageHash": "55739d0eb8ae138334c9a0e8c887d9441a907cbcfde4feae888792cbed7a0a06",
+        "contentHash": "11eb76c262654adf1cf94e63e2804f543e9e8e59adf4cb329e4acef9e2b4c7c7",
+        "width": 1296,
+        "height": 736,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44799,18 +44811,20 @@
     },
     {
       "aliases": [],
-      "description": "Broadcast line-score strip: inning-by-inning runs with bold R and supporting H/E, closed by a situation block with inning arrows, diamond, count and outs. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Broadcast line-score strip: inning-by-inning runs with bold R and supporting H/E, closed by a situation block with inning arrows, diamond, count and outs.",
+      "description": "Live line score strip: team names, per-inning runs (extra innings appear when played), R-H-E, and a situation box with inning arrow, lit-base diamond, count with pips and out lights. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Live line score strip: team names, per-inning runs (extra innings appear when played), R-H-E, and a situation box with inning arrow, lit-base diamond, count with pips and out lights.",
       "output": "html-replications/starter-baseball-linescore-strip.html",
       "palette": [
-        "#1b1e24",
-        "#e7b13b",
-        "#e7b13b"
+        "#121a2b",
+        "#25324d",
+        "#ff9f1c"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44824,16 +44838,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Baseball — Graphite Line Score Strip",
+      "title": "Baseball — Line Score Strip",
       "fileName": "starter-baseball-linescore-strip.html",
-      "contentHash": "f70c317bb3c89bbeb3040d6d644ce9add5d51502b3b0c2ce3abe31bbd3fd4798",
-      "documentPath": "published/f70c317bb3c89bbeb3040d6d644ce9add5d51502b3b0c2ce3abe31bbd3fd4798.json",
+      "contentHash": "9f8fe2a9f94f4b6c24b7583c9bcd2a06ce68ef0396d1ebeb16270afd61b4b845",
+      "documentPath": "published/9f8fe2a9f94f4b6c24b7583c9bcd2a06ce68ef0396d1ebeb16270afd61b4b845.json",
       "preview": {
-        "path": "previews/60d3c8a44dd6c721ada6702380c354235eb5a3907e6b27c75f30694994ea83b4.png",
-        "imageHash": "60d3c8a44dd6c721ada6702380c354235eb5a3907e6b27c75f30694994ea83b4",
-        "contentHash": "f70c317bb3c89bbeb3040d6d644ce9add5d51502b3b0c2ce3abe31bbd3fd4798",
-        "width": 726,
-        "height": 147,
+        "path": "previews/8b19d0449359a57a5397639adc165923a09e648a7c433d213bf031f45df0df90.png",
+        "imageHash": "8b19d0449359a57a5397639adc165923a09e648a7c433d213bf031f45df0df90",
+        "contentHash": "9f8fe2a9f94f4b6c24b7583c9bcd2a06ce68ef0396d1ebeb16270afd61b4b845",
+        "width": 906,
+        "height": 169,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44841,18 +44855,20 @@
     },
     {
       "aliases": [],
-      "description": "Light two-tier panel: R-H-E team table on the left and an enlarged situation block on the right with a big diamond, inning arrows, labelled count and outs. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Light two-tier panel: R-H-E team table on the left and an enlarged situation block on the right with a big diamond, inning arrows, labelled count and outs.",
+      "description": "Light matchup panel: large team rows with runs, H and E under an R-H-E header, beside a dark situation panel with a big lit-base diamond, inning arrow, count and labelled B/S/O lamps. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Light matchup panel: large team rows with runs, H and E under an R-H-E header, beside a dark situation panel with a big lit-base diamond, inning arrow, count and labelled B/S/O lamps.",
       "output": "html-replications/starter-baseball-matchup-panel.html",
       "palette": [
         "#ffffff",
-        "#0f2340",
-        "#0a5cc2"
+        "#16202e",
+        "#ff7a1a"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44866,16 +44882,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Baseball — Daylight Matchup Panel",
+      "title": "Baseball — Matchup Panel",
       "fileName": "starter-baseball-matchup-panel.html",
-      "contentHash": "0892a92c2b518de604d35e95dce832e7ed2b1c3a6efb11af561708109f59175e",
-      "documentPath": "published/0892a92c2b518de604d35e95dce832e7ed2b1c3a6efb11af561708109f59175e.json",
+      "contentHash": "fec85b4ffc211b792810289d074b43487acaba18c086b839f4cefa16c63d75d5",
+      "documentPath": "published/fec85b4ffc211b792810289d074b43487acaba18c086b839f4cefa16c63d75d5.json",
       "preview": {
-        "path": "previews/afa2b2d5d74f0b6951bd83d91c0c6bdc08f01b291879a51ae80f1e4bb2df34b3.png",
-        "imageHash": "afa2b2d5d74f0b6951bd83d91c0c6bdc08f01b291879a51ae80f1e4bb2df34b3",
-        "contentHash": "0892a92c2b518de604d35e95dce832e7ed2b1c3a6efb11af561708109f59175e",
-        "width": 614,
-        "height": 176,
+        "path": "previews/9278e565815d5b9a5ad38dfc1f1935ade4f72a714c1792f14023d875d3e4cb58.png",
+        "imageHash": "9278e565815d5b9a5ad38dfc1f1935ade4f72a714c1792f14023d875d3e4cb58",
+        "contentHash": "fec85b4ffc211b792810289d074b43487acaba18c086b839f4cefa16c63d75d5",
+        "width": 798,
+        "height": 206,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44883,18 +44899,18 @@
     },
     {
       "aliases": [],
-      "description": "Dark glass module: oversized runs on the left, a right-hand situation tower with a large lit-base diamond above a big ball-strike count and out tally. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Dark glass module: oversized runs on the left, a right-hand situation tower with a large lit-base diamond above a big ball-strike count and out tally.",
+      "description": "Dark glass tower: event header with live state, R-H-E team rows with jersey tabs, home-plate mark and at-bat light, then one situation strip (inning arrow, lit-base diamond, B-S count with pips, out lights) and inning progress. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Dark glass tower: event header with live state, R-H-E team rows with jersey tabs, home-plate mark and at-bat light, then one situation strip (inning arrow, lit-base diamond, B-S count with pips, out lights) and inning progress.",
       "output": "html-replications/starter-baseball-night-glass-bug.html",
       "palette": [
-        "#07090d",
-        "#9cff57",
-        "#f5f7fa"
+        "#3fd0ff"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44910,14 +44926,14 @@
       ],
       "title": "Baseball — Midnight Night Glass",
       "fileName": "starter-baseball-night-glass-bug.html",
-      "contentHash": "81916796ea84608ca90f3f300443804274404a95929f7594960c82435303fbf5",
-      "documentPath": "published/81916796ea84608ca90f3f300443804274404a95929f7594960c82435303fbf5.json",
+      "contentHash": "58abf6b427a67808c1c39d268184875dfb709a2bc0ec5405cb3f9c01191b44de",
+      "documentPath": "published/58abf6b427a67808c1c39d268184875dfb709a2bc0ec5405cb3f9c01191b44de.json",
       "preview": {
-        "path": "previews/81b5c44c30632e7cd2d43995077af3b548f6ce0c77d67a68816151cdf798630f.png",
-        "imageHash": "81b5c44c30632e7cd2d43995077af3b548f6ce0c77d67a68816151cdf798630f",
-        "contentHash": "81916796ea84608ca90f3f300443804274404a95929f7594960c82435303fbf5",
-        "width": 403,
-        "height": 202,
+        "path": "previews/1d40e3ac32a0c07399361a4a75627d35f0fc9f7d4fc4e08b93c8085ec83b1b7a.png",
+        "imageHash": "1d40e3ac32a0c07399361a4a75627d35f0fc9f7d4fc4e08b93c8085ec83b1b7a",
+        "contentHash": "58abf6b427a67808c1c39d268184875dfb709a2bc0ec5405cb3f9c01191b44de",
+        "width": 426,
+        "height": 283,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -44925,18 +44941,19 @@
     },
     {
       "aliases": [],
-      "description": "Hand-operated outfield wall: painted green panel with black number tiles for runs, a B-S-O tile bay and an inning tile beside a chalk diamond. 9-inning baseball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Hand-operated outfield wall: painted green panel with black number tiles for runs, a B-S-O tile bay and an inning tile beside a chalk diamond.",
+      "description": "Hand-operated outfield wall board: stencil team names, R-H-E number cells, and a lamp row with inning arrow, BALL/STRIKE/OUT lamps and a lit-base diamond. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Hand-operated outfield wall board: stencil team names, R-H-E number cells, and a lamp row with inning arrow, BALL/STRIKE/OUT lamps and a lit-base diamond.",
       "output": "html-replications/starter-baseball-outfield-wall.html",
       "palette": [
-        "#1f4b35",
-        "#121512",
-        "#eef0e3"
+        "#1f4d33",
+        "#ffc93c"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -44950,16 +44967,16 @@
         "corner",
         "teams"
       ],
-      "title": "Baseball — Fenway Outfield Wall",
+      "title": "Baseball — Outfield Wall",
       "fileName": "starter-baseball-outfield-wall.html",
-      "contentHash": "8a4fd929c33a36a6b5b13eba466af22721b76b85811d39d3c160c129cff9f391",
-      "documentPath": "published/8a4fd929c33a36a6b5b13eba466af22721b76b85811d39d3c160c129cff9f391.json",
+      "contentHash": "9892c8d2749fe4b404b63e6bd08b04174d38d89a8253a197b1032b30361477ef",
+      "documentPath": "published/9892c8d2749fe4b404b63e6bd08b04174d38d89a8253a197b1032b30361477ef.json",
       "preview": {
-        "path": "previews/44c90f2515aed219cc76bf5642ac2e4a3127f998ca8a77f39bf236d08267ed4d.png",
-        "imageHash": "44c90f2515aed219cc76bf5642ac2e4a3127f998ca8a77f39bf236d08267ed4d",
-        "contentHash": "8a4fd929c33a36a6b5b13eba466af22721b76b85811d39d3c160c129cff9f391",
-        "width": 419,
-        "height": 172,
+        "path": "previews/3ed1709ba47233d8cabeeb794d5d93ad8d1cb76741a9b3eff2cfd7a3b728357f.png",
+        "imageHash": "3ed1709ba47233d8cabeeb794d5d93ad8d1cb76741a9b3eff2cfd7a3b728357f",
+        "contentHash": "9892c8d2749fe4b404b63e6bd08b04174d38d89a8253a197b1032b30361477ef",
+        "width": 456,
+        "height": 290,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "baseball"
@@ -45417,18 +45434,20 @@
     },
     {
       "aliases": [],
-      "description": "Ivory ballpark card in slab serif: R-H-E header over two team rows, with a footer bay that keeps inning arrows, diamond, count and outs together. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Ivory ballpark card in slab serif: R-H-E header over two team rows, with a footer bay that keeps inning arrows, diamond, count and outs together.",
+      "description": "Ivory ballpark card with slab-serif team names: navy R-H-E header, team rows with runs slabs, and a situation bay with inning arrow, lit-base diamond, B-S count and labelled B/S/O lamp rows; pregame/live state and inning ticks in the footer. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Ivory ballpark card with slab-serif team names: navy R-H-E header, team rows with runs slabs, and a situation bay with inning arrow, lit-base diamond, B-S count and labelled B/S/O lamp rows; pregame/live state and inning ticks in the footer.",
       "output": "html-replications/starter-softball-ballpark-card.html",
       "palette": [
-        "#fff6ec",
-        "#3b1f4a",
-        "#e8553e"
+        "#fbfaf3",
+        "#0f6a73",
+        "#e8590c"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45442,16 +45461,16 @@
         "corner",
         "teams"
       ],
-      "title": "Softball — Sunset Ballpark Card",
+      "title": "Softball — Ballpark Card",
       "fileName": "starter-softball-ballpark-card.html",
-      "contentHash": "de4e6dba5d0e56a3552736f6a2d231568ed61c3c060c9ca9ec1e588c04d84303",
-      "documentPath": "published/de4e6dba5d0e56a3552736f6a2d231568ed61c3c060c9ca9ec1e588c04d84303.json",
+      "contentHash": "fee2cc0bc6689900a1001dd63fcd66a1f16611c274e1b558edf269e93e242b1f",
+      "documentPath": "published/fee2cc0bc6689900a1001dd63fcd66a1f16611c274e1b558edf269e93e242b1f.json",
       "preview": {
-        "path": "previews/6e39df4033fdbe4993a2eea4642a4a15036f4f6c6c2238197cb202fc71d94bcb.png",
-        "imageHash": "6e39df4033fdbe4993a2eea4642a4a15036f4f6c6c2238197cb202fc71d94bcb",
-        "contentHash": "de4e6dba5d0e56a3552736f6a2d231568ed61c3c060c9ca9ec1e588c04d84303",
-        "width": 332,
-        "height": 204,
+        "path": "previews/5eb2e24264f24487c5b9edeef4e301b823385a0217584639f99294f2adc807cb.png",
+        "imageHash": "5eb2e24264f24487c5b9edeef4e301b823385a0217584639f99294f2adc807cb",
+        "contentHash": "fee2cc0bc6689900a1001dd63fcd66a1f16611c274e1b558edf269e93e242b1f",
+        "width": 453,
+        "height": 265,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45459,18 +45478,20 @@
     },
     {
       "aliases": [],
-      "description": "Single-line network bar: team slabs in jersey colour with runs, then inning arrows, diamond, ball-strike count and outs in one situation run, with an inning tracker underneath. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Single-line network bar: team slabs in jersey colour with runs, then inning arrows, diamond, ball-strike count and outs in one situation run, with an inning tracker underneath.",
+      "description": "Single broadcast bar: event tab with live state and inning ticks, two team blocks (jersey bar, home mark, at-bat light, runs, H/E), and a situation block with inning arrow, lit-base diamond, B-S count with pips and out lights. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Single broadcast bar: event tab with live state and inning ticks, two team blocks (jersey bar, home mark, at-bat light, runs, H/E), and a situation block with inning arrow, lit-base diamond, B-S count with pips and out lights.",
       "output": "html-replications/starter-softball-broadcast-bar.html",
       "palette": [
-        "#1a1033",
-        "#f5a623",
-        "#ffffff"
+        "#17122a",
+        "#6a2ccf",
+        "#d9f23b"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45484,16 +45505,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Softball — Collegiate Broadcast Bar",
+      "title": "Softball — Broadcast Bar",
       "fileName": "starter-softball-broadcast-bar.html",
-      "contentHash": "68443b5cbf2ff71bf1b8a4025641f5e08a71b7ebbe862fc7f6a4949ca78d9c07",
-      "documentPath": "published/68443b5cbf2ff71bf1b8a4025641f5e08a71b7ebbe862fc7f6a4949ca78d9c07.json",
+      "contentHash": "02de384bc16532dc183888afc63131699f7206e053767f8eb8480139903dcda9",
+      "documentPath": "published/02de384bc16532dc183888afc63131699f7206e053767f8eb8480139903dcda9.json",
       "preview": {
-        "path": "previews/21e8deae8559fbb68c2e31d0d6f4fc57ebb027345a6188a39041da257e9e57bd.png",
-        "imageHash": "21e8deae8559fbb68c2e31d0d6f4fc57ebb027345a6188a39041da257e9e57bd",
-        "contentHash": "68443b5cbf2ff71bf1b8a4025641f5e08a71b7ebbe862fc7f6a4949ca78d9c07",
-        "width": 812,
-        "height": 114,
+        "path": "previews/fe01b71764db2a13315ef03a1e88c2bf79fc33e41ec918bd2182d6e4d1a8abab.png",
+        "imageHash": "fe01b71764db2a13315ef03a1e88c2bf79fc33e41ec918bd2182d6e4d1a8abab",
+        "contentHash": "02de384bc16532dc183888afc63131699f7206e053767f8eb8480139903dcda9",
+        "width": 1016,
+        "height": 130,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45501,18 +45522,20 @@
     },
     {
       "aliases": [],
-      "description": "Compact two-row corner bug: team slabs with prominent runs and small H/E, beside a darker situation box that groups the inning arrows, a base diamond, the ball-strike count and outs. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Compact two-row corner bug: team slabs with prominent runs and small H/E, beside a darker situation box that groups the inning arrows, a base diamond, the ball-strike count and outs.",
+      "description": "Network box bug: header with event, R-H-E column labels and PREGAME/LIVE state; team rows with jersey bar, home-plate mark, at-bat ball and dominant runs; a situation box with a lit-base diamond, out dots, the inning arrow and a B-S count with ball and strike pips; inning progress ticks in the footer. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Network box bug: header with event, R-H-E column labels and PREGAME/LIVE state; team rows with jersey bar, home-plate mark, at-bat ball and dominant runs; a situation box with a lit-base diamond, out dots, the inning arrow and a B-S count with ball and strike pips; inning progress ticks in the footer.",
       "output": "html-replications/starter-softball-diamond-box-bug.html",
       "palette": [
-        "#10232b",
-        "#173540",
-        "#e8f13a"
+        "#13241b",
+        "#e0ef2a",
+        "#e0ef2a"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45528,14 +45551,14 @@
       ],
       "title": "Softball — Optic Diamond Box",
       "fileName": "starter-softball-diamond-box-bug.html",
-      "contentHash": "240ed3908953295385795794367fb882effcab16c20556154d565144c4676d02",
-      "documentPath": "published/240ed3908953295385795794367fb882effcab16c20556154d565144c4676d02.json",
+      "contentHash": "3d1f707bb1475fa1fd3f86407e0c8be10f51320bf6209cf037f3c448cff51ffe",
+      "documentPath": "published/3d1f707bb1475fa1fd3f86407e0c8be10f51320bf6209cf037f3c448cff51ffe.json",
       "preview": {
-        "path": "previews/e62ad6381da47ffbc8872dcf481f5204709cd7fd6c36a9724289da288ace5983.png",
-        "imageHash": "e62ad6381da47ffbc8872dcf481f5204709cd7fd6c36a9724289da288ace5983",
-        "contentHash": "240ed3908953295385795794367fb882effcab16c20556154d565144c4676d02",
-        "width": 404,
-        "height": 149,
+        "path": "previews/f9cc99267b82446e8b1e3f11c0c95778887f5358a018a2c1541072b3cdf441c8.png",
+        "imageHash": "f9cc99267b82446e8b1e3f11c0c95778887f5358a018a2c1541072b3cdf441c8",
+        "contentHash": "3d1f707bb1475fa1fd3f86407e0c8be10f51320bf6209cf037f3c448cff51ffe",
+        "width": 551,
+        "height": 182,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45543,17 +45566,20 @@
     },
     {
       "aliases": [],
-      "description": "Angled ribbon: skewed jersey-colour team slabs flank a centre medallion holding the diamond and inning arrows; the count and outs ride a chip below. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Angled ribbon: skewed jersey-colour team slabs flank a centre medallion holding the diamond and inning arrows; the count and outs ride a chip below.",
+      "description": "Away left, home right, with a central situation medallion (live state tab, inning arrow, lit-base diamond, count with pips, out lights) between the two runs boxes; H/E and at-bat under each name. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Away left, home right, with a central situation medallion (live state tab, inning arrow, lit-base diamond, count with pips, out lights) between the two runs boxes; H/E and at-bat under each name.",
       "output": "html-replications/starter-softball-diamond-ribbon.html",
       "palette": [
-        "#121a22",
-        "#e8f13a"
+        "#5b1a2e",
+        "#ffb547",
+        "#ffb547"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45567,16 +45593,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Softball — Optic Ribbon Diamond Ribbon",
+      "title": "Softball — Diamond Ribbon",
       "fileName": "starter-softball-diamond-ribbon.html",
-      "contentHash": "a87073ac0af253f4687f8ca2bac3b6bc7ceb528c8b951a487a6da73959491970",
-      "documentPath": "published/a87073ac0af253f4687f8ca2bac3b6bc7ceb528c8b951a487a6da73959491970.json",
+      "contentHash": "86f587f552c34315efe188c834fd33a513006bde70f192fa0e75f9ed9c18de9e",
+      "documentPath": "published/86f587f552c34315efe188c834fd33a513006bde70f192fa0e75f9ed9c18de9e.json",
       "preview": {
-        "path": "previews/88e8894d6b0036037fdba28616f7cbfd44615fabe58d589b689c89783d79583b.png",
-        "imageHash": "88e8894d6b0036037fdba28616f7cbfd44615fabe58d589b689c89783d79583b",
-        "contentHash": "a87073ac0af253f4687f8ca2bac3b6bc7ceb528c8b951a487a6da73959491970",
-        "width": 584,
-        "height": 165,
+        "path": "previews/a0b8d847ca15c0ddcf7749575eebaba5ac76c0e289e52a09f7eb6dfc47f5ddd2.png",
+        "imageHash": "a0b8d847ca15c0ddcf7749575eebaba5ac76c0e289e52a09f7eb6dfc47f5ddd2",
+        "contentHash": "86f587f552c34315efe188c834fd33a513006bde70f192fa0e75f9ed9c18de9e",
+        "width": 992,
+        "height": 170,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45584,18 +45610,19 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen box score: event header, a classic 7-inning line score with extra-inning columns that appear when played, and bold R with H and E. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Full-screen box score: event header, a classic 7-inning line score with extra-inning columns that appear when played, and bold R with H and E.",
+      "description": "Full-screen line score: event title with PREGAME/LIVE/FINAL badge, per-inning runs with extra-inning columns, R-H-E, at-bat and home marks, and a situation strip that turns to END OF / GAME OVER. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Full-screen line score: event title with PREGAME/LIVE/FINAL badge, per-inning runs with extra-inning columns, R-H-E, at-bat and home marks, and a situation strip that turns to END OF / GAME OVER.",
       "output": "html-replications/starter-softball-final-line-score.html",
       "palette": [
-        "#1d1226",
-        "#2a1838",
-        "#e8f13a"
+        "#e4f23a",
+        "#e4f23a"
       ],
       "placement": "full-screen",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45609,16 +45636,16 @@
         "full-screen",
         "teams"
       ],
-      "title": "Softball — Plum Final Line Score",
+      "title": "Softball — Final Line Score",
       "fileName": "starter-softball-final-line-score.html",
-      "contentHash": "038ab626d65b82a80158636de1f2ccf67d21f722bb68a2220e8b2ebe77798c2c",
-      "documentPath": "published/038ab626d65b82a80158636de1f2ccf67d21f722bb68a2220e8b2ebe77798c2c.json",
+      "contentHash": "86fa120f4344419d65d41138f02166dbd491894a8d876952c66c72e1a787a5f0",
+      "documentPath": "published/86fa120f4344419d65d41138f02166dbd491894a8d876952c66c72e1a787a5f0.json",
       "preview": {
-        "path": "previews/dd4bc0bcfd32d486bbea615538170bdf582b040b1d8bc82689a5914347f114c5.png",
-        "imageHash": "dd4bc0bcfd32d486bbea615538170bdf582b040b1d8bc82689a5914347f114c5",
-        "contentHash": "038ab626d65b82a80158636de1f2ccf67d21f722bb68a2220e8b2ebe77798c2c",
-        "width": 944,
-        "height": 410,
+        "path": "previews/973dfad0d7d7048212b63cbe8e45cccebd010a99314b8e17a427da59a58c1ef5.png",
+        "imageHash": "973dfad0d7d7048212b63cbe8e45cccebd010a99314b8e17a427da59a58c1ef5",
+        "contentHash": "86fa120f4344419d65d41138f02166dbd491894a8d876952c66c72e1a787a5f0",
+        "width": 1296,
+        "height": 736,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45626,18 +45653,20 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen between-innings card: two large team panels with runs and H/E, an inning medallion with arrows, a compact line score and the last situation diamond. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Full-screen between-innings card: two large team panels with runs and H/E, an inning medallion with arrows, a compact line score and the last situation diamond.",
+      "description": "Full-screen inning break card: END OF headline over the half-inning label (FINAL at the end), two team panels with big runs, H/E and at-bat, an away/home line score, and a situation box. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Full-screen inning break card: END OF headline over the half-inning label (FINAL at the end), two team panels with big runs, H/E and at-bat, an away/home line score, and a situation box.",
       "output": "html-replications/starter-softball-inning-break-card.html",
       "palette": [
-        "#0b1626",
-        "#11223a",
-        "#4fc3f7"
+        "#0b2343",
+        "#ffd23f",
+        "#ffd23f"
       ],
       "placement": "full-screen",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45651,16 +45680,16 @@
         "full-screen",
         "teams"
       ],
-      "title": "Softball — Lakeside Inning Break",
+      "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
-      "contentHash": "8847972c86c6f1841b2f2511be2c0841bbde50b1d2b12f2db211a6b41922a0f4",
-      "documentPath": "published/8847972c86c6f1841b2f2511be2c0841bbde50b1d2b12f2db211a6b41922a0f4.json",
+      "contentHash": "fd671497c3a573e8c9cb0c1ee3b830c8974ae21b3b89f26d093da261cee604ae",
+      "documentPath": "published/fd671497c3a573e8c9cb0c1ee3b830c8974ae21b3b89f26d093da261cee604ae.json",
       "preview": {
-        "path": "previews/aceba3abdf2a90c63e58bc5ea19da3b57dc3446ef1abadc16d32421d9eb93b5a.png",
-        "imageHash": "aceba3abdf2a90c63e58bc5ea19da3b57dc3446ef1abadc16d32421d9eb93b5a",
-        "contentHash": "8847972c86c6f1841b2f2511be2c0841bbde50b1d2b12f2db211a6b41922a0f4",
-        "width": 1028,
-        "height": 466,
+        "path": "previews/be371210fbd7ee2837d220dfe69eb82fa31fbdc3cf9e77ee6aae07f30c5a4a0d.png",
+        "imageHash": "be371210fbd7ee2837d220dfe69eb82fa31fbdc3cf9e77ee6aae07f30c5a4a0d",
+        "contentHash": "fd671497c3a573e8c9cb0c1ee3b830c8974ae21b3b89f26d093da261cee604ae",
+        "width": 1296,
+        "height": 736,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45668,18 +45697,20 @@
     },
     {
       "aliases": [],
-      "description": "Broadcast line-score strip: inning-by-inning runs with bold R and supporting H/E, closed by a situation block with inning arrows, diamond, count and outs. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Broadcast line-score strip: inning-by-inning runs with bold R and supporting H/E, closed by a situation block with inning arrows, diamond, count and outs.",
+      "description": "Live line score strip: team names, per-inning runs (extra innings appear when played), R-H-E, and a situation box with inning arrow, lit-base diamond, count with pips and out lights. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Live line score strip: team names, per-inning runs (extra innings appear when played), R-H-E, and a situation box with inning arrow, lit-base diamond, count with pips and out lights.",
       "output": "html-replications/starter-softball-linescore-strip.html",
       "palette": [
-        "#0f2427",
-        "#2ec4b6",
-        "#2ec4b6"
+        "#0f2a2e",
+        "#1b4a50",
+        "#f6e33a"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45693,16 +45724,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Softball — Teal Line Line Score Strip",
+      "title": "Softball — Line Score Strip",
       "fileName": "starter-softball-linescore-strip.html",
-      "contentHash": "137f09aa2e6c425abcd88753f231197fdef2cec874ba1765ff52d7f0ba53471e",
-      "documentPath": "published/137f09aa2e6c425abcd88753f231197fdef2cec874ba1765ff52d7f0ba53471e.json",
+      "contentHash": "b75b7651ddaf7f5a350666eac12d63346f8e3ba6e03162726154fdd1a41dc64b",
+      "documentPath": "published/b75b7651ddaf7f5a350666eac12d63346f8e3ba6e03162726154fdd1a41dc64b.json",
       "preview": {
-        "path": "previews/824322e3ceb96a14afb3a50f3eb4f96ec5d737abeb2d0b94a1e2f08dedfc0a13.png",
-        "imageHash": "824322e3ceb96a14afb3a50f3eb4f96ec5d737abeb2d0b94a1e2f08dedfc0a13",
-        "contentHash": "137f09aa2e6c425abcd88753f231197fdef2cec874ba1765ff52d7f0ba53471e",
-        "width": 672,
-        "height": 147,
+        "path": "previews/3ee9079bd6223934c93e56bcd6b81b94f2cc52531206b5e9b64db7fcca9b6008.png",
+        "imageHash": "3ee9079bd6223934c93e56bcd6b81b94f2cc52531206b5e9b64db7fcca9b6008",
+        "contentHash": "b75b7651ddaf7f5a350666eac12d63346f8e3ba6e03162726154fdd1a41dc64b",
+        "width": 842,
+        "height": 169,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45710,18 +45741,20 @@
     },
     {
       "aliases": [],
-      "description": "Light two-tier panel: R-H-E team table on the left and an enlarged situation block on the right with a big diamond, inning arrows, labelled count and outs. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Light two-tier panel: R-H-E team table on the left and an enlarged situation block on the right with a big diamond, inning arrows, labelled count and outs.",
+      "description": "Light matchup panel: large team rows with runs, H and E under an R-H-E header, beside a dark situation panel with a big lit-base diamond, inning arrow, count and labelled B/S/O lamps. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Light matchup panel: large team rows with runs, H and E under an R-H-E header, beside a dark situation panel with a big lit-base diamond, inning arrow, count and labelled B/S/O lamps.",
       "output": "html-replications/starter-softball-matchup-panel.html",
       "palette": [
-        "#fffdf8",
-        "#3a2316",
-        "#c4552b"
+        "#fdfcff",
+        "#2a1640",
+        "#e8590c"
       ],
       "placement": "lower-third",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45735,16 +45768,16 @@
         "lower-third",
         "teams"
       ],
-      "title": "Softball — Clay Matchup Panel",
+      "title": "Softball — Matchup Panel",
       "fileName": "starter-softball-matchup-panel.html",
-      "contentHash": "dc539e7fb06cc3ca2758e26b0b02ef8c97204c0cb7f4c55b569a5a0e6c470a5e",
-      "documentPath": "published/dc539e7fb06cc3ca2758e26b0b02ef8c97204c0cb7f4c55b569a5a0e6c470a5e.json",
+      "contentHash": "f4d6f94d5baf7f3b6006851c3e5d1b1b3dbf1579b04f699a7ae88a87918a9025",
+      "documentPath": "published/f4d6f94d5baf7f3b6006851c3e5d1b1b3dbf1579b04f699a7ae88a87918a9025.json",
       "preview": {
-        "path": "previews/4aa8db7fc693713fc2a27b267b49a5f72cb6e4508822d53b97ef9a7b5d3e1309.png",
-        "imageHash": "4aa8db7fc693713fc2a27b267b49a5f72cb6e4508822d53b97ef9a7b5d3e1309",
-        "contentHash": "dc539e7fb06cc3ca2758e26b0b02ef8c97204c0cb7f4c55b569a5a0e6c470a5e",
-        "width": 614,
-        "height": 176,
+        "path": "previews/c4472aeb337062a7ebc83fa92e5be3dbe79812b694be809376d02b5d786c0f12.png",
+        "imageHash": "c4472aeb337062a7ebc83fa92e5be3dbe79812b694be809376d02b5d786c0f12",
+        "contentHash": "f4d6f94d5baf7f3b6006851c3e5d1b1b3dbf1579b04f699a7ae88a87918a9025",
+        "width": 798,
+        "height": 206,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45752,18 +45785,18 @@
     },
     {
       "aliases": [],
-      "description": "Dark glass module: oversized runs on the left, a right-hand situation tower with a large lit-base diamond above a big ball-strike count and out tally. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Dark glass module: oversized runs on the left, a right-hand situation tower with a large lit-base diamond above a big ball-strike count and out tally.",
+      "description": "Dark glass tower: event header with live state, R-H-E team rows with jersey tabs, home-plate mark and at-bat light, then one situation strip (inning arrow, lit-base diamond, B-S count with pips, out lights) and inning progress. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Dark glass tower: event header with live state, R-H-E team rows with jersey tabs, home-plate mark and at-bat light, then one situation strip (inning arrow, lit-base diamond, B-S count with pips, out lights) and inning progress.",
       "output": "html-replications/starter-softball-night-glass-bug.html",
       "palette": [
-        "#0b0715",
-        "#ff5fa2",
-        "#fbf6ff"
+        "#ff4fa3"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45777,16 +45810,16 @@
         "corner",
         "teams"
       ],
-      "title": "Softball — Neon Night Glass",
+      "title": "Softball — Berry Night Glass",
       "fileName": "starter-softball-night-glass-bug.html",
-      "contentHash": "eba7fff26166aa2a6677b8b995ca3b4849fcdc9b3d5736ee9c4ef0a331d51759",
-      "documentPath": "published/eba7fff26166aa2a6677b8b995ca3b4849fcdc9b3d5736ee9c4ef0a331d51759.json",
+      "contentHash": "43166e51254cdc0b56e8fc131ed457ef958e2ad31907a69fe148d44a73c3c013",
+      "documentPath": "published/43166e51254cdc0b56e8fc131ed457ef958e2ad31907a69fe148d44a73c3c013.json",
       "preview": {
-        "path": "previews/7395419f9ba34df2193c0fa34a1b6034d4b5d452bfa134eebd4c3159d9b0e57a.png",
-        "imageHash": "7395419f9ba34df2193c0fa34a1b6034d4b5d452bfa134eebd4c3159d9b0e57a",
-        "contentHash": "eba7fff26166aa2a6677b8b995ca3b4849fcdc9b3d5736ee9c4ef0a331d51759",
-        "width": 403,
-        "height": 202,
+        "path": "previews/bee3eb64577522926ee8f124f7fe194d22ebe6a210e9de4d203d5be42060e805.png",
+        "imageHash": "bee3eb64577522926ee8f124f7fe194d22ebe6a210e9de4d203d5be42060e805",
+        "contentHash": "43166e51254cdc0b56e8fc131ed457ef958e2ad31907a69fe148d44a73c3c013",
+        "width": 426,
+        "height": 283,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
@@ -45794,18 +45827,19 @@
     },
     {
       "aliases": [],
-      "description": "Hand-operated outfield wall: painted green panel with black number tiles for runs, a B-S-O tile bay and an inning tile beside a chalk diamond. 7-inning softball layout. Live-bound sport fields: runs, hits/errors, inning, inning half (lit arrow), balls, strikes and outs follow native diamond records; base markers are static decorations with the live occupied-base list shown beside them until the runtime exposes per-base state. Stored names are blank and numbers are 0; Team A/B labels are CSS fallbacks.",
-      "motif": "Hand-operated outfield wall: painted green panel with black number tiles for runs, a B-S-O tile bay and an inning tile beside a chalk diamond.",
+      "description": "Hand-operated outfield wall board: stencil team names, R-H-E number cells, and a lamp row with inning arrow, BALL/STRIKE/OUT lamps and a lit-base diamond. 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames) and FINAL (isComplete). Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Hand-operated outfield wall board: stencil team names, R-H-E number cells, and a lamp row with inning arrow, BALL/STRIKE/OUT lamps and a lit-base diamond.",
       "output": "html-replications/starter-softball-outfield-wall.html",
       "palette": [
-        "#23415e",
-        "#0f1318",
-        "#eef3f7"
+        "#24386b",
+        "#e4f03a"
       ],
       "placement": "corner",
       "published": true,
       "runtimeSupport": {
-        "baseOccupancy": "text-list",
+        "baseOccupancy": "live",
+        "countDots": "live",
+        "finalState": "live",
         "scores": "native-runs",
         "sportCounters": "live-bound",
         "sportRules": true
@@ -45819,16 +45853,16 @@
         "corner",
         "teams"
       ],
-      "title": "Softball — Rec Field Outfield Wall",
+      "title": "Softball — Outfield Wall",
       "fileName": "starter-softball-outfield-wall.html",
-      "contentHash": "fdd7138275d0890c522d3c28020bb15295716229ea4c3276752679251c2fb968",
-      "documentPath": "published/fdd7138275d0890c522d3c28020bb15295716229ea4c3276752679251c2fb968.json",
+      "contentHash": "4c6b6b995bbf243cbdefcab6d42009aa8287c4a290f884e5b5e883d7e1a413bf",
+      "documentPath": "published/4c6b6b995bbf243cbdefcab6d42009aa8287c4a290f884e5b5e883d7e1a413bf.json",
       "preview": {
-        "path": "previews/867c466182052dfe133a6b1b5c9e943323c9cab9b87be948eb33146bb0483a65.png",
-        "imageHash": "867c466182052dfe133a6b1b5c9e943323c9cab9b87be948eb33146bb0483a65",
-        "contentHash": "fdd7138275d0890c522d3c28020bb15295716229ea4c3276752679251c2fb968",
-        "width": 419,
-        "height": 172,
+        "path": "previews/b2d91bc135b5b86e72307f3953fb9ecb4a12f409469e8918b7a17b4efe8e16c1.png",
+        "imageHash": "b2d91bc135b5b86e72307f3953fb9ecb4a12f409469e8918b7a17b4efe8e16c1",
+        "contentHash": "4c6b6b995bbf243cbdefcab6d42009aa8287c4a290f884e5b5e883d7e1a413bf",
+        "width": 456,
+        "height": 290,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "softball"
