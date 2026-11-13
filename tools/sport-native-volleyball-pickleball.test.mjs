@@ -28,33 +28,43 @@ for (const sport of ['volleyball', 'pickleball']) {
   });
 }
 
-test('volleyball starters bind serve, sets won, set number, set history, timeouts and the deciding set', async () => {
-  for (const entry of starters('volleyball')) {
+test('volleyball starters bind serve, sets won, set number, set history, timeouts, deciding set and final', async () => {
+  // Redesign 2026-11-13: timeouts left are lit pips (isATimeoutLeftN), the set number is currentGame, FINAL is isComplete.
+  for (const entry of starters('volleyball').filter(e => !e.retired)) {
     const t = await load(entry);
+    const full = entry.placement === 'full-screen';
     assert.deepEqual(inspectTemplate(t.html).errors, [], entry.output);
     assert.equal(neutralizeScoreboardTemplateHTML(t.html), t.html, entry.output);
-    assert.ok(t.serveA && t.serveB, `${entry.output}: serve indicator`);
-    for (const field of ['setsWonA', 'setsWonB', 'isATimeOutUsed', 'isBTimeOutUsed', 'isATimeOutActive', 'isBTimeOutActive', 'timeoutsRemainingA', 'timeoutsRemainingB', 'isGame5Started']) assert.ok(t.has(field), `${entry.output}: ${field}`);
+    const fields = ['setsWonA', 'setsWonB', 'currentGame', 'isComplete', 'isInBetweenGames', 'isDecidingSet', 'eventName', 'matchRound'];
+    if (!full) {
+      assert.ok(t.serveA && t.serveB, `${entry.output}: serve indicator`);
+      fields.push('isATimeOutActive', 'isBTimeOutActive', 'timeoutsRemainingA', 'timeoutsRemainingB', 'isATimeoutLeft1', 'isATimeoutLeft2', 'isBTimeoutLeft1', 'isBTimeoutLeft2');
+    }
+    for (const field of fields) assert.ok(t.has(field), `${entry.output}: ${field}`);
     for (let game = 1; game <= 5; game++) for (const field of [`game${game}AScore`, `game${game}BScore`, `isGame${game}Started`]) assert.ok(t.has(field), `${entry.output}: ${field}`);
-    assert.ok(t.tags.some(tag => tag.attributes['data-sport-stat'] === 'set' && tag.attributes['data-osb-static'] === 'true'), `${entry.output}: live set number`);
     assert.doesNotMatch(t.html.replace(/<style[\s\S]*?<\/style>|<title>[\s\S]*?<\/title>/g, ''), /\b(?:VOLLEYBALL|GAMES)\b/, `${entry.output}: generic sport header`);
   }
 });
 
-test('pickleball starters bind server number, score call, game history, cards and timeouts', async () => {
-  for (const entry of starters('pickleball')) {
+test('pickleball starters bind server number, score call, game history, cards, timeouts and the team tie', async () => {
+  for (const entry of starters('pickleball').filter(e => !e.retired)) {
     const t = await load(entry);
+    const full = entry.placement === 'full-screen';
     assert.deepEqual(inspectTemplate(t.html).errors, [], entry.output);
     assert.equal(neutralizeScoreboardTemplateHTML(t.html), t.html, entry.output);
-    assert.ok(t.serveA && t.serveB, `${entry.output}: serve indicator`);
-    const second = t.tags.filter(tag => (tag.attributes.class || '').split(/\s+/).includes('isSecondServer'));
-    assert.ok(second.some(tag => Object.hasOwn(tag.attributes, 'isa')) && second.some(tag => !Object.hasOwn(tag.attributes, 'isa')), `${entry.output}: A and B server number`);
-    assert.ok(second.every(tag => /opacity:\s*0/.test(tag.attributes.style || '')), `${entry.output}: server 2 starts hidden`);
-    assert.ok(t.count('currentAGameScore') >= 2 && t.count('currentBGameScore') >= 2, `${entry.output}: score call`);
     assert.ok(t.has('playerA2'), `${entry.output}: doubles probe`);
-    for (const field of ['isAYellowCarded', 'isARedCarded', 'isBYellowCarded', 'isBRedCarded', 'isATimeOutUsed', 'isBTimeOutUsed', 'isATimeOutActive', 'isBTimeOutActive',
-      'eventName', 'matchRound', 'isMatchStarted', 'teamAName', 'teamBName', 'teamAScore', 'teamBScore', 'teamLogoURLA', 'teamLogoURLB', 'teamJerseyColorA', 'teamJerseyColorB']) assert.ok(t.has(field), `${entry.output}: ${field}`);
-    for (let game = 1; game <= 5; game++) assert.ok(t.has(`isGame${game}Started`), `${entry.output}: isGame${game}Started`);
+    const fields = ['eventName', 'matchRound', 'isMatchStarted', 'isInBetweenGames', 'currentGame', 'teamAName', 'teamBName', 'teamAScore', 'teamBScore', 'teamLogoURLA', 'teamLogoURLB', 'teamJerseyColorA', 'teamJerseyColorB'];
+    if (full) for (let game = 1; game <= 9; game++) fields.push(`game${game}AScore`, `game${game}BScore`, `isGame${game}Started`);
+    else {
+      assert.ok(t.serveA && t.serveB, `${entry.output}: serve indicator`);
+      const second = t.tags.filter(tag => (tag.attributes.class || '').split(/\s+/).includes('isSecondServer'));
+      assert.ok(second.some(tag => Object.hasOwn(tag.attributes, 'isa')) && second.some(tag => !Object.hasOwn(tag.attributes, 'isa')), `${entry.output}: A and B server number`);
+      assert.ok(second.every(tag => /opacity:\s*0/.test(tag.attributes.style || '')), `${entry.output}: server 2 starts hidden`);
+      assert.ok(t.count('currentAGameScore') >= 2 && t.count('currentBGameScore') >= 2, `${entry.output}: score call`);
+      fields.push('isDoubles', 'isAYellowCarded', 'isARedCarded', 'isBYellowCarded', 'isBRedCarded', 'isATimeOutUsed', 'isBTimeOutUsed', 'isATimeOutActive', 'isBTimeOutActive', 'isWarmUpStarted');
+      for (let game = 1; game <= 5; game++) fields.push(`isGame${game}Started`);
+    }
+    for (const field of fields) assert.ok(t.has(field), `${entry.output}: ${field}`);
     assert.doesNotMatch(t.html.replace(/<style[\s\S]*?<\/style>|<title>[\s\S]*?<\/title>/g, ''), /\bPICKLEBALL\b/, `${entry.output}: generic sport header`);
   }
 });
