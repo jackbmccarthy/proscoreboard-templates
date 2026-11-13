@@ -4,7 +4,8 @@ import { readFile } from 'node:fs/promises';
 import { inspectTemplate, neutralizeScoreboardTemplateHTML, readTemplateHTMLTags } from '../contract/index.mjs';
 import manifest from '../templates/html-replications/manifest.json' with { type:'json' };
 
-const entries=manifest.filter(entry=>entry.published===true&&entry.tags?.includes('conditional-states'));
+// Every hourly racket family stays a valid document even after curation retires most of them from the gallery.
+const entries=manifest.filter(entry=>entry.tags?.includes('conditional-states'));
 const states=['isATimeOutActive','isBTimeOutActive','isATimeOutUsed','isBTimeOutUsed',
   'isAYellowCarded','isBYellowCarded','isARedCarded','isBRedCarded'];
 const paired=['isACurrentlyServing','isBCurrentlyServing','isGamePoint','isMatchPoint'];
