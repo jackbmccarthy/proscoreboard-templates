@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volleyball Beach Sun</title>
+<style>
+*{box-sizing:border-box}html{font-size:calc(100vw / 128)}html,body{margin:0;background:transparent}
+body{min-height:100vh;font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.rowContainer{display:flex;flex-direction:row}.columnContainer{display:flex;flex-direction:column}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+img.logo:not([src]),img.logo[src=""]{display:none}
+.pt-slot{position:relative;display:block}.pt-slot>.pt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.pt-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint,.pt-slot:has(> .isMatchPoint[style*="opacity:1"]) > .isGamePoint{opacity:0!important}
+.pt-slot .isMatchPoint{animation:osbPulse 1.8s ease-in-out infinite}
+@keyframes osbPulse{50%{filter:brightness(1.3)}}
+@media (prefers-reduced-motion: reduce) {
+.pt-slot .isGamePoint,.pt-slot .isMatchPoint{animation:none!important;transition:none!important}
+}
+.pips{display:inline-flex;gap:.35rem;align-items:center}.pip{position:relative;display:block;width:.7rem;height:.7rem;border-radius:50%;background:currentColor}
+.pip-used{position:absolute;inset:-1px;border-radius:50%;background:var(--pip-off,#0009)}
+.to-left:empty{display:none}
+.isACurrentlyServing,.isBCurrentlyServing{transition:opacity .2s}
+.dbl-probe{display:none}
+.vball{display:block;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff9 0 18%,transparent 40%),conic-gradient(from 20deg,#ffd23f 0 120deg,#1d4fbf 0 240deg,#f4f6fb 0);box-shadow:inset 0 0 0 .12rem #0005}
+.pball{display:block;border-radius:50%;background:radial-gradient(circle at 30% 32%,#0003 0 9%,transparent 10%),radial-gradient(circle at 66% 30%,#0003 0 9%,transparent 10%),radial-gradient(circle at 50% 62%,#0003 0 9%,transparent 10%),radial-gradient(circle at 24% 70%,#0002 0 7%,transparent 8%),radial-gradient(circle at 78% 70%,#0002 0 7%,transparent 8%),radial-gradient(circle at 38% 30%,#fbffb0,#d4f02b 60%,#a9c414)}
+.sn{position:relative;display:inline-grid}.sn>i,.cn>i{grid-area:1/1;font-style:normal}
+.sn:has(> .isSecondServer[style*="opacity: 1"]) > .one,.sn:has(> .isSecondServer[style*="opacity:1"]) > .one{opacity:0}
+.cn{position:relative;display:inline-grid}.cn:has(> .isSecondServer[style*="opacity: 1"]) > .one,.cn:has(> .isSecondServer[style*="opacity:1"]) > .one{opacity:0}
+.call{display:inline-flex;align-items:baseline}.call>i{font-style:normal}.call .ca{order:1}.call .cd1{order:2}.call .cb{order:3}.call .cd2{order:4}.call .cn{order:5}
+.board:has(.isBCurrentlyServing[style*="opacity: 1"]) .call .ca,.board:has(.isBCurrentlyServing[style*="opacity:1"]) .call .ca{order:3}
+.board:has(.isBCurrentlyServing[style*="opacity: 1"]) .call .cb,.board:has(.isBCurrentlyServing[style*="opacity:1"]) .call .cb{order:1}
+.board:has(.playerA2:empty) .sn,.board:has(.playerA2:empty) .cn,.board:has(.playerA2:empty) .cd2{display:none}
+.gstack{display:inline-grid}.gstack>.gs{grid-area:1/1;white-space:nowrap}.gstack>.gs:has(~ .gs[style*="opacity: 1"]),.gstack>.gs:has(~ .gs[style*="opacity:1"]){visibility:hidden}
+.tie{display:none}
+.cards{display:inline-flex;gap:.25rem}.card{display:block;width:.8rem;height:1.1rem;border-radius:.15rem;box-shadow:0 0 0 1px #0003}.yc{background:#ffd200}.rc{background:#e3262f}
+.live{display:inline-flex;align-items:center;gap:.35rem}.live::before{content:"";width:.6rem;height:.6rem;border-radius:50%;background:#ff3b30}
+.stage{position:fixed;left:3rem;top:3rem}
+.ctx{display:flex;gap:.4rem;align-items:center;min-width:0;white-space:nowrap;overflow:hidden;font-size:.95rem;letter-spacing:.06em;opacity:.85}.ctx>i{font-style:normal}.ctx:has(.eventName:empty):has(.matchRound:empty){display:none}
+.board{position:relative;width:36rem;padding:1rem;gap:.6rem;border-radius:1.6rem;background:linear-gradient(160deg,#138594,#0b5560);color:#fffaf0;font-family:"Avenir Next","Trebuchet MS",Arial,sans-serif;font-weight:700;box-shadow:0 .5rem 1.2rem #0006}
+.head{align-items:center;gap:.6rem;font-size:1.1rem;letter-spacing:.12em;color:#bfe6e9}
+.badge{display:flex;gap:.4rem;padding:.25rem .8rem;border-radius:1rem;background:#ff7a3d;color:#fff}
+.head .pt-slot{flex:1;height:1.6rem}.head .pt{justify-content:flex-end!important;color:#ffd166}
+.row{height:4.6rem;align-items:center;gap:.6rem;padding:0 .5rem 0 1.2rem;border-radius:2.3rem;background:#f2d7a1;color:#3b2a14}
+.chip{width:1.2rem;height:1.2rem;border-radius:50%;background:#0f6e7a;box-shadow:0 0 0 .2rem #fffaf0}
+.nm{flex:1;min-width:0;font-size:2rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.srv{width:2rem}.vball{width:1.8rem;height:1.8rem}
+.pips{color:#0f6e7a;--pip-off:#f2d7a1d0}
+.won{width:3rem;height:3rem;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#0f6e7a;color:#fffaf0;font-size:1.7rem}
+.pts{width:5.4rem;height:3.8rem;display:flex;align-items:center;justify-content:center;border-radius:1.9rem;background:#fffaf0;color:#d9541e;font-size:3rem}
+.sand{gap:.5rem;align-items:center;padding:0 .6rem;font-size:1.05rem;color:#d6f0f2}
+.hcol{display:flex;gap:.2rem;padding:.2rem .6rem;border-radius:.8rem;background:#ffffff1c}.hh{display:none}.ha::after{content:"-";margin-left:.2rem}
+.hcol:is([style*="opacity: 1"],[style*="opacity:1"]):has(+ :not([style*="opacity: 1"]):not([style*="opacity:1"])),.hcol.hlast:is([style*="opacity: 1"],[style*="opacity:1"]){background:#ff7a3d;color:#fff}.hcol:is([style*="opacity: 1"],[style*="opacity:1"]):has(+ :not([style*="opacity: 1"]):not([style*="opacity:1"])) .hh,.hcol.hlast:is([style*="opacity: 1"],[style*="opacity:1"]) .hh{color:inherit;opacity:.7}
+.dec{margin-left:auto;color:#ffd166;letter-spacing:.1em}
+.to-left{font-size:.85rem;color:#7a5a2a}
+.tolive{position:absolute;left:1rem;top:100%;margin-top:.5rem;display:flex;gap:.4rem}.to-live{gap:.4rem;padding:.3rem .8rem;border-radius:1rem;background:#ff7a3d;color:#fff;font-size:1.1rem}
+</style>
+</head>
+<body>
+<main class="stage"><section class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+<header class="head rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="badge">SET <span class="setno num" data-osb-static="true" data-sport-stat="set">0</span></span><span class="ctx"><span class="ev eventName" data-osb-component="field" data-osb-field="eventName"></span><i>&middot;</i><span class="rd matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span><span class="pt-slot"><span class="pt isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">SET POINT</span><span class="pt isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">MATCH POINT</span></span></header>
+<div class="row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><i class="chip jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></i><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="srv isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" isA="true" style="opacity:0"><i class="vball"></i></span><span class="pips"><i class="pip"></i><i class="pip"><span class="pip-used isATimeOutUsed" data-osb-component="field" data-osb-field="isATimeOutUsed" style="display:none;opacity:0"></span></i></span><span class="to-left num timeoutsRemainingA" data-osb-component="field" data-osb-field="timeoutsRemainingA"></span><span class="won num currentAMatchScore setsWonA" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="pts num currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div>
+<div class="row rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><i class="chip jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></i><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="srv isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity:0"><i class="vball"></i></span><span class="pips"><i class="pip"></i><i class="pip"><span class="pip-used isBTimeOutUsed" data-osb-component="field" data-osb-field="isBTimeOutUsed" style="display:none;opacity:0"></span></i></span><span class="to-left num timeoutsRemainingB" data-osb-component="field" data-osb-field="timeoutsRemainingB"></span><span class="won num currentBMatchScore setsWonB" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="pts num currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+<footer class="sand rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="hcol isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="display:none;opacity:0"><b class="hh">S1</b><span class="ha num game1AScore" data-osb-component="field" data-osb-field="game1AScore">0</span><span class="hb num game1BScore" data-osb-component="field" data-osb-field="game1BScore">0</span></span><span class="hcol isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="display:none;opacity:0"><b class="hh">S2</b><span class="ha num game2AScore" data-osb-component="field" data-osb-field="game2AScore">0</span><span class="hb num game2BScore" data-osb-component="field" data-osb-field="game2BScore">0</span></span><span class="hcol isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="display:none;opacity:0"><b class="hh">S3</b><span class="ha num game3AScore" data-osb-component="field" data-osb-field="game3AScore">0</span><span class="hb num game3BScore" data-osb-component="field" data-osb-field="game3BScore">0</span></span><span class="hcol isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="display:none;opacity:0"><b class="hh">S4</b><span class="ha num game4AScore" data-osb-component="field" data-osb-field="game4AScore">0</span><span class="hb num game4BScore" data-osb-component="field" data-osb-field="game4BScore">0</span></span><span class="hcol hlast isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="display:none;opacity:0"><b class="hh">S5</b><span class="ha num game5AScore" data-osb-component="field" data-osb-field="game5AScore">0</span><span class="hb num game5BScore" data-osb-component="field" data-osb-field="game5BScore">0</span></span><span class="dec isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="display:none;opacity:0">DECIDING SET</span></footer>
+<div class="tolive"><span class="to-live isATimeOutActive" data-osb-component="field" data-osb-field="isATimeOutActive" style="display:none;opacity:0">TIMEOUT <span class="to-clock num timeOutTimerA" data-osb-component="field" data-osb-field="timeOutTimerA">0</span></span><span class="to-live isBTimeOutActive" data-osb-component="field" data-osb-field="isBTimeOutActive" style="display:none;opacity:0">TIMEOUT <span class="to-clock num timeOutTimerB" data-osb-component="field" data-osb-field="timeOutTimerB">0</span></span></div></section></main>
+</body>
+</html>

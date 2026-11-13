@@ -36,7 +36,7 @@ test('visual cleanup preserves every existing runtime binding, optional image sl
 
 test('templates added after the visual-trim baseline are new starter documents with clean neutral sources', async () => {
   for (const entry of added) {
-    assert.match(entry.output, /^html-replications\/starter-[a-z0-9-]+\.html$/, entry.output);
+    assert.match(entry.output, /^html-replications\/(?:starter|native)-[a-z0-9-]+\.html$/, entry.output);
     const html = await sourceFor(entry);
     assert.deepEqual(inspectTemplate(html).errors, [], entry.output);
     assert.equal(neutralizeScoreboardTemplateHTML(html), html, `${entry.output}: saved sample data`);

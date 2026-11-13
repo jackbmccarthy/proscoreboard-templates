@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pickleball Kitchen Line</title>
+<style>
+*{box-sizing:border-box}html{font-size:calc(100vw / 128)}html,body{margin:0;background:transparent}
+body{min-height:100vh;font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.rowContainer{display:flex;flex-direction:row}.columnContainer{display:flex;flex-direction:column}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+img.logo:not([src]),img.logo[src=""]{display:none}
+.pt-slot{position:relative;display:block}.pt-slot>.pt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.pt-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint,.pt-slot:has(> .isMatchPoint[style*="opacity:1"]) > .isGamePoint{opacity:0!important}
+.pt-slot .isMatchPoint{animation:osbPulse 1.8s ease-in-out infinite}
+@keyframes osbPulse{50%{filter:brightness(1.3)}}
+@media (prefers-reduced-motion: reduce) {
+.pt-slot .isGamePoint,.pt-slot .isMatchPoint{animation:none!important;transition:none!important}
+}
+.pips{display:inline-flex;gap:.35rem;align-items:center}.pip{position:relative;display:block;width:.7rem;height:.7rem;border-radius:50%;background:currentColor}
+.pip-used{position:absolute;inset:-1px;border-radius:50%;background:var(--pip-off,#0009)}
+.to-left:empty{display:none}
+.isACurrentlyServing,.isBCurrentlyServing{transition:opacity .2s}
+.dbl-probe{display:none}
+.vball{display:block;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff9 0 18%,transparent 40%),conic-gradient(from 20deg,#ffd23f 0 120deg,#1d4fbf 0 240deg,#f4f6fb 0);box-shadow:inset 0 0 0 .12rem #0005}
+.pball{display:block;border-radius:50%;background:radial-gradient(circle at 30% 32%,#0003 0 9%,transparent 10%),radial-gradient(circle at 66% 30%,#0003 0 9%,transparent 10%),radial-gradient(circle at 50% 62%,#0003 0 9%,transparent 10%),radial-gradient(circle at 24% 70%,#0002 0 7%,transparent 8%),radial-gradient(circle at 78% 70%,#0002 0 7%,transparent 8%),radial-gradient(circle at 38% 30%,#fbffb0,#d4f02b 60%,#a9c414)}
+.sn{position:relative;display:inline-grid}.sn>i,.cn>i{grid-area:1/1;font-style:normal}
+.sn:has(> .isSecondServer[style*="opacity: 1"]) > .one,.sn:has(> .isSecondServer[style*="opacity:1"]) > .one{opacity:0}
+.cn{position:relative;display:inline-grid}.cn:has(> .isSecondServer[style*="opacity: 1"]) > .one,.cn:has(> .isSecondServer[style*="opacity:1"]) > .one{opacity:0}
+.call{display:inline-flex;align-items:baseline}.call>i{font-style:normal}.call .ca{order:1}.call .cd1{order:2}.call .cb{order:3}.call .cd2{order:4}.call .cn{order:5}
+.board:has(.isBCurrentlyServing[style*="opacity: 1"]) .call .ca,.board:has(.isBCurrentlyServing[style*="opacity:1"]) .call .ca{order:3}
+.board:has(.isBCurrentlyServing[style*="opacity: 1"]) .call .cb,.board:has(.isBCurrentlyServing[style*="opacity:1"]) .call .cb{order:1}
+.board:has(.playerA2:empty) .sn,.board:has(.playerA2:empty) .cn,.board:has(.playerA2:empty) .cd2{display:none}
+.gstack{display:inline-grid}.gstack>.gs{grid-area:1/1;white-space:nowrap}.gstack>.gs:has(~ .gs[style*="opacity: 1"]),.gstack>.gs:has(~ .gs[style*="opacity:1"]){visibility:hidden}
+.tie{display:none}
+.cards{display:inline-flex;gap:.25rem}.card{display:block;width:.8rem;height:1.1rem;border-radius:.15rem;box-shadow:0 0 0 1px #0003}.yc{background:#ffd200}.rc{background:#e3262f}
+.live{display:inline-flex;align-items:center;gap:.35rem}.live::before{content:"";width:.6rem;height:.6rem;border-radius:50%;background:#ff3b30}
+.stage{position:fixed;left:3rem;top:3rem}
+.ctx{display:flex;gap:.4rem;align-items:center;min-width:0;white-space:nowrap;overflow:hidden;font-size:.95rem;letter-spacing:.06em;opacity:.85}.ctx>i{font-style:normal}.ctx:has(.eventName:empty):has(.matchRound:empty){display:none}
+.ptab{align-self:flex-start;gap:.5rem;align-items:center;margin-top:.4rem;padding:.25rem .8rem;border-radius:.3rem;background:#000000b3;color:#fff;font-family:"Avenir Next",Arial,sans-serif;font-weight:700}
+.board{position:relative;width:36rem;padding:.5rem;color:#fff;font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;font-weight:700;background:#2f6fb8;border-radius:.3rem;box-shadow:0 .5rem 1.2rem #0007}
+.lines{border:.22rem solid #fff;border-radius:.1rem}
+.row{height:4.2rem;align-items:center;gap:.7rem;padding:0 0 0 .9rem}
+.net{height:.5rem;background:linear-gradient(90deg,#fff 0 100%) center/100% .2rem no-repeat,repeating-linear-gradient(90deg,#ffffff70 0 .15rem,transparent 0 .5rem)}
+.chip{width:.9rem;height:2.6rem;border-radius:.15rem;background:#ffcf3a;box-shadow:0 0 0 .15rem #fff}.row.b .chip{background:#ff6b5a}
+.nm{flex:1;min-width:0;font-size:1.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.srv{display:flex;align-items:center;gap:.3rem}.pball{width:1.5rem;height:1.5rem}
+.sn{min-width:1.5rem;height:1.5rem;place-items:center;border-radius:50%;border:.15rem solid #fff;font-size:.95rem}
+.st{display:flex;align-items:center;gap:.3rem}.to-used{font-size:.8rem;color:#cfe3ff}
+.won{width:2.8rem;height:2.8rem;display:flex;align-items:center;justify-content:center;border:.15rem solid #ffffffaa;border-radius:.2rem;font-size:1.6rem}
+.pts{width:5rem;text-align:center;font-size:3.2rem}
+.nvz{height:2.8rem;margin-top:.5rem;align-items:center;justify-content:space-between;padding:0 .9rem;background:#2fa36b;border:.22rem solid #fff;font-size:1rem;letter-spacing:.14em}
+.call{font-size:1.9rem;gap:.15rem}.call>i{opacity:.75;padding:0 .1rem}
+.nvz .pt-slot{width:10rem;height:100%}.nvz .pt{color:#ffcf3a}
+.tolive{position:absolute;left:0;top:100%;margin-top:.5rem;display:flex;gap:.4rem}.to-live,.to-any{gap:.4rem;padding:.3rem .8rem;background:#ffcf3a;color:#123;font-size:1.1rem}.to-any{display:none!important}
+</style>
+</head>
+<body>
+<main class="stage"><section class="board columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container">
+<div class="lines columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container"><div class="row a rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><i class="chip jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></i><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="st"><span class="to-used isATimeOutUsed" data-osb-component="field" data-osb-field="isATimeOutUsed" style="display:none;opacity:0">T/O USED</span><span class="cards"><span class="card yc isAYellowCarded" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity:0"></span><span class="card rc isARedCarded" data-osb-component="field" data-osb-field="isARedCarded" style="opacity:0"></span></span></span><span class="srv isACurrentlyServing" data-osb-component="field" data-osb-field="isACurrentlyServing" isA="true" style="opacity:0"><i class="pball"></i><b class="sn"><i class="one">1</i><i class="two isSecondServer" isA="true" data-osb-component="field" style="opacity:0">2</i></b></span><span class="won num currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="pts num currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div><div class="net"></div><div class="row b rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><i class="chip jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></i><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="st"><span class="to-used isBTimeOutUsed" data-osb-component="field" data-osb-field="isBTimeOutUsed" style="display:none;opacity:0">T/O USED</span><span class="cards"><span class="card yc isBYellowCarded" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity:0"></span><span class="card rc isBRedCarded" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity:0"></span></span></span><span class="srv isBCurrentlyServing" data-osb-component="field" data-osb-field="isBCurrentlyServing" style="opacity:0"><i class="pball"></i><b class="sn"><i class="one">1</i><i class="two isSecondServer" data-osb-component="field" style="opacity:0">2</i></b></span><span class="won num currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="pts num currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div></div>
+<footer class="nvz rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="gstack"><span class="gs isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="display:none;opacity:0">GAME 1</span><span class="gs isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="display:none;opacity:0">GAME 2</span><span class="gs isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="display:none;opacity:0">GAME 3</span><span class="gs isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="display:none;opacity:0">GAME 4</span><span class="gs isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="display:none;opacity:0">GAME 5</span></span><span class="pt-slot"><span class="pt isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">GAME POINT</span><span class="pt isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">MATCH POINT</span></span><span class="call"><span class="ca num currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><i class="cd1">-</i><span class="cb num currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><i class="cd2">-</i><b class="cn"><i class="one">1</i><i class="two isSecondServer" isA="true" data-osb-component="field" style="opacity:0">2</i><i class="two isSecondServer" data-osb-component="field" style="opacity:0">2</i></b></span></footer>
+<div class="ptab rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="live isMatchStarted" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity:0">LIVE</span><span class="ctx"><span class="ev eventName" data-osb-component="field" data-osb-field="eventName"></span><i>&middot;</i><span class="rd matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span></div>
+<div class="tolive"><span class="to-live isATimeOutActive" data-osb-component="field" data-osb-field="isATimeOutActive" style="display:none;opacity:0">TIMEOUT <span class="to-clock num timeOutTimerA" data-osb-component="field" data-osb-field="timeOutTimerA">0</span></span><span class="to-any isTimeOutActive" data-osb-component="field" data-osb-field="isTimeOutActive" style="display:none;opacity:0">TIMEOUT</span><span class="to-live isBTimeOutActive" data-osb-component="field" data-osb-field="isBTimeOutActive" style="display:none;opacity:0">TIMEOUT <span class="to-clock num timeOutTimerB" data-osb-component="field" data-osb-field="timeOutTimerB">0</span></span></div><span class="dbl-probe playerA2" data-osb-component="field" data-osb-field="playerA2"></span><span class="tie"><img class="logo teamLogoURLA" data-osb-component="field" data-osb-field="teamLogoURLA" alt=""><i class="tchip teamJerseyColorA" data-osb-component="field" data-osb-field="teamJerseyColorA"></i><span class="tn teamAName" data-osb-component="field" data-osb-field="teamAName"></span><span class="ts num teamAScore" data-osb-component="field" data-osb-field="teamAScore">0</span><i class="tdash">-</i><span class="ts num teamBScore" data-osb-component="field" data-osb-field="teamBScore">0</span><span class="tn teamBName" data-osb-component="field" data-osb-field="teamBName"></span><i class="tchip teamJerseyColorB" data-osb-component="field" data-osb-field="teamJerseyColorB"></i><img class="logo teamLogoURLB" data-osb-component="field" data-osb-field="teamLogoURLB" alt=""></span></section></main>
+</body>
+</html>
