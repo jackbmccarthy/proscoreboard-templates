@@ -1,0 +1,4359 @@
+{
+  "schemaVersion": 1,
+  "sport": "pickleball",
+  "auditedOn": "2026-11-13",
+  "spec": "reviews/sport-conventions/pickleball.md",
+  "method": "Structural binding inspection of every active template plus manual review of the rendered preview PNGs (contact sheets). Verdicts only; nothing is retired or deleted.",
+  "conventions": {
+    "P1": "Games won beside points",
+    "P2": "Serving team indicator",
+    "P3": "Doubles server number",
+    "P4": "Score call (server-receiver-server#)",
+    "P5": "Game number / game history",
+    "P6": "Game point / match point",
+    "P7": "Timeouts",
+    "P8": "Penalty cards",
+    "P9": "Identity colours",
+    "P10": "Event / round context"
+  },
+  "verdictRule": "sport-native: P1, P2, P3, P6 and one of P4/P5; acceptable: P1, P2, P6 and one of P3/P5; otherwise table-tennis derivative.",
+  "summary": {
+    "existing": {
+      "total": 128,
+      "table-tennis derivative": 128
+    },
+    "newStarters": {
+      "total": 10,
+      "sport-native": 10
+    },
+    "tableTennisTwins": 128
+  },
+  "templates": [
+    {
+      "file": "starter-pickleball-corner-kitchen.html",
+      "title": "Pickleball Kitchen Line",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/cff647ca84e88f85368eab806aea8eaa1613ae9b9b6dd43e40885da8c15b6be5.png"
+    },
+    {
+      "file": "starter-pickleball-corner-paddle.html",
+      "title": "Pickleball Paddle",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/2313e95873f9abf4f75ae69d04b82bd8c63ef1259956d20aad11097725a8e4e9.png"
+    },
+    {
+      "file": "starter-pickleball-corner-score-call.html",
+      "title": "Pickleball Score Call",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/5307779ee5e81c30dd557c5353d723d347ae30d07ff24c96bd3ceb66cdcef2c2.png"
+    },
+    {
+      "file": "starter-pickleball-corner-side-out.html",
+      "title": "Pickleball Side Out",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/ab17c0272922eb254a0b78fc046a6b18cf74569b67a57f28fb5a07320274d74a.png"
+    },
+    {
+      "file": "starter-pickleball-full-between-games.html",
+      "title": "Pickleball Between Games",
+      "placement": "full-screen",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/bf4a2c8724ec267f8748df51cd12c5340ac8f5f7b730b72b93f3ae81b9ec1fec.png"
+    },
+    {
+      "file": "starter-pickleball-full-match-summary.html",
+      "title": "Pickleball Match Summary",
+      "placement": "full-screen",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/65e1f220e889d32167644f853d5d40ace3ee1f175d3e1cedaf81d8e2ede2c91c.png"
+    },
+    {
+      "file": "starter-pickleball-lower-court-diagram.html",
+      "title": "Pickleball Court Diagram",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/daaab6398323edeecd430d114cbb3653532cc8fe7948510a69029aedd426b88e.png"
+    },
+    {
+      "file": "starter-pickleball-lower-dink-strip.html",
+      "title": "Pickleball Dink Strip",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/1d583cb6ecaaca9c3fc5625f3ca7964198b32234e8639b7ca2f49719e2d6522f.png"
+    },
+    {
+      "file": "starter-pickleball-lower-game-ledger.html",
+      "title": "Pickleball Game Ledger",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/b51e7950366e791da0570d170c0d67240fd80fbecb26f807050d0dfbfaf36757.png"
+    },
+    {
+      "file": "starter-pickleball-lower-tour-band.html",
+      "title": "Pickleball Tour Band",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": true,
+        "P4": true,
+        "P5": true,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/86005f9c14adccb99ddf88b7ba01817b54d9e804c83264efa0e0151efa774953.png"
+    },
+    {
+      "file": "atlantic-open-flank-pickleball-1.html",
+      "title": "Atlantic Open Flank — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "atlantic-open-flank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/0b7970d5d4cea07db9d2fa66c952dab983b25a620a091ca9babab5d4fd33bc5b.png"
+    },
+    {
+      "file": "atlantic-open-flank-pickleball-2.html",
+      "title": "Atlantic Open Flank — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "atlantic-open-flank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/693c8dddddb14ccd899ee475d704a43d565f15e83cd671af5dc0fcdc0515d4af.png"
+    },
+    {
+      "file": "aubergine-cloud-scorebank-pickleball-1.html",
+      "title": "Aubergine Cloud Scorebank — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "aubergine-cloud-scorebank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/3e413761ff85603c50c9673dfc6b6fc91949ed4907eaf7b3422a36a2d1b8edc4.png"
+    },
+    {
+      "file": "aubergine-cloud-scorebank-pickleball-2.html",
+      "title": "Aubergine Cloud Scorebank — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "aubergine-cloud-scorebank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/49c1e17a9a91c0b81574a7177a150773d0ba06301c60ae6b58449adaa135ed7e.png"
+    },
+    {
+      "file": "basalt-bone-scorefoot-pickleball-1.html",
+      "title": "Basalt Bone Scorefoot — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "basalt-bone-scorefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/f5d54facf7ba968db96c9f0b336daad3b45be7ab945e07dbff2106d7935f9590.png"
+    },
+    {
+      "file": "basalt-bone-scorefoot-pickleball-2.html",
+      "title": "Basalt Bone Scorefoot — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "basalt-bone-scorefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a6642baf8da91a34853c5de712c0a26b802ae93774476de49cb45ccd44189630.png"
+    },
+    {
+      "file": "basalt-copper-dual-track-pickleball-1.html",
+      "title": "Basalt Copper Dual Track — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "basalt-copper-dual-track",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/d397986911861a3c5bc4957281934b7002df144b16d4a7b3f57d45353963d8f1.png"
+    },
+    {
+      "file": "basalt-copper-dual-track-pickleball-2.html",
+      "title": "Basalt Copper Dual Track — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "basalt-copper-dual-track",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/5323d35839b3d5a5adf6aff0e5a52b359d2cd238ef4c106a798c2fd109260c8d.png"
+    },
+    {
+      "file": "brace-register-pickleball-1.html",
+      "title": "Brace Register — PICKLEBALL Aligned rows",
+      "placement": "lower-third",
+      "styleID": "brace-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/e99612045bfebd5938fa1118566d99ad31264b2a2748841d0cd2ec4b3a25e785.png"
+    },
+    {
+      "file": "brace-register-pickleball-2.html",
+      "title": "Brace Register — PICKLEBALL Paired columns",
+      "placement": "lower-third",
+      "styleID": "brace-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/bef97fbc47a7f96a3c49bde03b75ec3183086dd665e26753a0e83527b36e8982.png"
+    },
+    {
+      "file": "burgundy-sand-pickleball-1.html",
+      "title": "Burgundy Sand Broadcast — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "burgundy-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/31947802dbb1cdd32e8d1a63acaa61d3e6d9b28e3a2ff32bcb16bdae9c6af6bf.png"
+    },
+    {
+      "file": "burgundy-sand-pickleball-2.html",
+      "title": "Burgundy Sand Broadcast — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "burgundy-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/423220fc9dc279485bfda436a4d3ff0659033d955f528e79c013932060e0e552.png"
+    },
+    {
+      "file": "carbon-copy-ticket-pickleball-1.html",
+      "title": "Carbon Copy Ticket — PICKLEBALL Stacked",
+      "placement": "lower-third",
+      "styleID": "carbon-copy-ticket",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/609106be5c0aa87cf8e7b2990a0b896617a561c0b6f75b87f8997e03430da8b2.png"
+    },
+    {
+      "file": "carbon-copy-ticket-pickleball-2.html",
+      "title": "Carbon Copy Ticket — PICKLEBALL Duplex",
+      "placement": "lower-third",
+      "styleID": "carbon-copy-ticket",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/25a7b2709f7f1e5f3668cbf90c4ebdcd3afb7da0a6b4ee4fa8400baa55b3b831.png"
+    },
+    {
+      "file": "cedar-ivory-namefoot-pickleball-1.html",
+      "title": "Cedar Ivory Namefoot — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cedar-ivory-namefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ade8d20e8e8da65862f5dd5a3f10c0d099e892efbe642e478471ff8a40be3638.png"
+    },
+    {
+      "file": "cedar-ivory-namefoot-pickleball-2.html",
+      "title": "Cedar Ivory Namefoot — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cedar-ivory-namefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/81a26ee4ad3013302c073b279faf5bf83d176213fe98d7f5ce8bce226caaf47f.png"
+    },
+    {
+      "file": "champagne-graphite-columnrail-pickleball-1.html",
+      "title": "Champagne Graphite Columnrail — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "champagne-graphite-columnrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/58728943516282105882d04c0e8c2ef639ce22ba9dd74f67a83c890e47e13546.png"
+    },
+    {
+      "file": "champagne-graphite-columnrail-pickleball-2.html",
+      "title": "Champagne Graphite Columnrail — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "champagne-graphite-columnrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/8d63fae8023019972f2179cac44aa308bf955371382dfd6b25e3e66a55ef91d4.png"
+    },
+    {
+      "file": "charcoal-ivory-open-score-pickleball-1.html",
+      "title": "Charcoal Ivory Open Score — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "charcoal-ivory-open-score",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/c85f4104ebf190945078e11b68747a18848df8a0364024ec7cd12ab63ed37298.png"
+    },
+    {
+      "file": "charcoal-ivory-open-score-pickleball-2.html",
+      "title": "Charcoal Ivory Open Score — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "charcoal-ivory-open-score",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/855bcec48a203704456abe818e3e40dfa33f1c9767be17e9662a4aa72fe4257b.png"
+    },
+    {
+      "file": "charcoal-outline-sidecar-pickleball-1.html",
+      "title": "Charcoal Outline Sidecar — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "charcoal-outline-sidecar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/e9b60f0df657a6a9f957bf266ac6d9a3c9558d31583cc469a8162e7a8903f0ec.png"
+    },
+    {
+      "file": "charcoal-outline-sidecar-pickleball-2.html",
+      "title": "Charcoal Outline Sidecar — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "charcoal-outline-sidecar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/28c954f1670017cb74ac871bb9004cbc592fbb42c18a3b17cd7b27ab48d94c52.png"
+    },
+    {
+      "file": "cloud-graphite-combined-bay-pickleball-1.html",
+      "title": "Cloud Graphite Combined Bay — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cloud-graphite-combined-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/31ca7c96f04128edfc1b3c02c1c369f12788962b9a34e435060f730711c59198.png"
+    },
+    {
+      "file": "cloud-graphite-combined-bay-pickleball-2.html",
+      "title": "Cloud Graphite Combined Bay — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cloud-graphite-combined-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/751149609168aefa1372d516436eaa5949362e348d6af50da7387f545de492ec.png"
+    },
+    {
+      "file": "cobalt-fog-leadchip-pickleball-1.html",
+      "title": "Cobalt Fog Leadchip — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cobalt-fog-leadchip",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a2236cd72c4f90d9966b1f9b9225c894e95568c12cc41bfc90ebca60696ca6fb.png"
+    },
+    {
+      "file": "cobalt-fog-leadchip-pickleball-2.html",
+      "title": "Cobalt Fog Leadchip — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cobalt-fog-leadchip",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a532ed6e1d5d0bf7e3ebd97ca2a43c493083989230001d92d7654c5c97f9a615.png"
+    },
+    {
+      "file": "copper-cream-keyline-stat-pickleball-1.html",
+      "title": "Copper Cream Keyline Stat — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "copper-cream-keyline-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a7c25e28002ceecb46066c5e97f1f7bf0f6f8b0316010268463af3a6878d6c08.png"
+    },
+    {
+      "file": "copper-cream-keyline-stat-pickleball-2.html",
+      "title": "Copper Cream Keyline Stat — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "copper-cream-keyline-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/6d7fce04b9513e4ae73b329dfcb236dc61dfac68d00747056acd99731f8c7fd8.png"
+    },
+    {
+      "file": "copper-slate-score-rail-pickleball-1.html",
+      "title": "Copper Slate Score Rail — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "copper-slate-score-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9e951b1f5ebc5b1412460b729ce9ca4e728d0da87a3046138c6d77ae2179d4fc.png"
+    },
+    {
+      "file": "copper-slate-score-rail-pickleball-2.html",
+      "title": "Copper Slate Score Rail — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "copper-slate-score-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/01ebe54798c50192b8550aecc1b8a92e9f829e9a813c146ff7affe7a9aad8bac.png"
+    },
+    {
+      "file": "coral-slate-header-pickleball-1.html",
+      "title": "Coral Slate Header — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "coral-slate-header",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/93a2b1203faca8390abdaeeed83f6748dec2159978984ef591d6992dac956e61.png"
+    },
+    {
+      "file": "coral-slate-header-pickleball-2.html",
+      "title": "Coral Slate Header — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "coral-slate-header",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/5d081e1ca0ae075208b66d543b562fa379003571c228ee902d3d4906af9b97ee.png"
+    },
+    {
+      "file": "cyan-blue-broadcast-pickleball-1.html",
+      "title": "Cyan Blue Broadcast — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cyan-blue-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/4e71737daa6479d697ea43522ad9f28f4f7ea165610abb411610c1ffceaf240f.png"
+    },
+    {
+      "file": "cyan-blue-broadcast-pickleball-2.html",
+      "title": "Cyan Blue Broadcast — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cyan-blue-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/da4a8d53dd72db7bcb4302afaf59bae4a65f85003d08662300b382f6ad02d09f.png"
+    },
+    {
+      "file": "dot-matrix-sentence-pickleball-1.html",
+      "title": "Dot Matrix Sentence — PICKLEBALL Shared sentence",
+      "placement": "lower-third",
+      "styleID": "dot-matrix-sentence",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/d00300439385c69d356b649a4acbe9c60514351e4837c945de30652a69464627.png"
+    },
+    {
+      "file": "dot-matrix-sentence-pickleball-2.html",
+      "title": "Dot Matrix Sentence — PICKLEBALL Aligned rows",
+      "placement": "lower-third",
+      "styleID": "dot-matrix-sentence",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/5491397bb30158db216edf4e4f2203ec5f23506dc0d9f0314907808aeacd8dd6.png"
+    },
+    {
+      "file": "editorial-quotient-pickleball-1.html",
+      "title": "Editorial Quotient — PICKLEBALL Rows",
+      "placement": "lower-third",
+      "styleID": "editorial-quotient",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/e80957a242c2dbb762b6a51f1e244b67932faf20d2d53bf5e21eb9460cefd912.png"
+    },
+    {
+      "file": "editorial-quotient-pickleball-2.html",
+      "title": "Editorial Quotient — PICKLEBALL Duel",
+      "placement": "lower-third",
+      "styleID": "editorial-quotient",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/eabaf1346e5f8233ace952393729437ab5711b4b7629946cf51b4746c1cd97d1.png"
+    },
+    {
+      "file": "evergreen-sand-pickleball-1.html",
+      "title": "Evergreen Sand — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "evergreen-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/238df881c45e594fe013e72d12090b231a019a624e4d13529e87b47a794ed58f.png"
+    },
+    {
+      "file": "evergreen-sand-pickleball-2.html",
+      "title": "Evergreen Sand — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "evergreen-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/7d86c2d4f42393524420915635393c3afec2d5178e8a12ae47e9b56d9c21d58b.png"
+    },
+    {
+      "file": "forest-linen-headrail-pickleball-1.html",
+      "title": "Forest Linen Headrail — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "forest-linen-headrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/60f1786622d2f31b9d766811fd7aa45db09b48f73ef04d019618ff07ecbbcead.png"
+    },
+    {
+      "file": "forest-linen-headrail-pickleball-2.html",
+      "title": "Forest Linen Headrail — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "forest-linen-headrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/1679d224c1ce3baac096b1e59e097fcc4137565c8313c1218d0fac0c82ba6572.png"
+    },
+    {
+      "file": "glacier-ink-footline-pickleball-1.html",
+      "title": "Glacier Ink Footline — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "glacier-ink-footline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/b2cbcabe53b474db1215a9eacf64f5d295c1f60a11c937d737da765523df7b70.png"
+    },
+    {
+      "file": "glacier-ink-footline-pickleball-2.html",
+      "title": "Glacier Ink Footline — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "glacier-ink-footline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/e8efef5e864c6b81873966364fbef6aedc8338c554ebd056bb1853ee6cf053e1.png"
+    },
+    {
+      "file": "graphite-amber-band-pickleball-1.html",
+      "title": "Graphite Amber Band — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "graphite-amber-band",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/18426114a13aa715fd079b3d4fce4a0f4da458c2e5554176801e865e84250703.png"
+    },
+    {
+      "file": "graphite-amber-band-pickleball-2.html",
+      "title": "Graphite Amber Band — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "graphite-amber-band",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/1b2c05ae162d97ff69f5cabfecbd1ba978b35804e19b9dbeac72e0cc994c43e3.png"
+    },
+    {
+      "file": "harbor-silver-leadstat-pickleball-1.html",
+      "title": "Harbor Silver Leadstat — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "harbor-silver-leadstat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/82a18c29ae2a7fe2dcd082356dc0efd1493ab9d24aef82e38034886d8035c7f0.png"
+    },
+    {
+      "file": "harbor-silver-leadstat-pickleball-2.html",
+      "title": "Harbor Silver Leadstat — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "harbor-silver-leadstat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9596beb66abcfa31a4c193304828abcea0d65a31a960570e3a167e2e86d0baad.png"
+    },
+    {
+      "file": "hinge-rail-pickleball-1.html",
+      "title": "Hinge Rail — PICKLEBALL Rows",
+      "placement": "lower-third",
+      "styleID": "hinge-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/caee0cfa13af929d11dc36f3ecb62466bc7b9e7bab7092fcb03fd932b248c6c4.png"
+    },
+    {
+      "file": "hinge-rail-pickleball-2.html",
+      "title": "Hinge Rail — PICKLEBALL Duel",
+      "placement": "lower-third",
+      "styleID": "hinge-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/f524123bf4e7cd1e9f17a7113a28da47bdeef4e147c4b3b6085c58634b16c853.png"
+    },
+    {
+      "file": "indigo-open-data-lane-pickleball-1.html",
+      "title": "Indigo Open Data Lane — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "indigo-open-data-lane",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/0c82e407ff6e3b5fd3760b65719eecec236e3c86da5a5ee0e2a3508815127ff6.png"
+    },
+    {
+      "file": "indigo-open-data-lane-pickleball-2.html",
+      "title": "Indigo Open Data Lane — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "indigo-open-data-lane",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/33d79216e61cf543de9d3943f56806eea19881d62e35fb406c94df588078ddd6.png"
+    },
+    {
+      "file": "indigo-pearl-namebed-pickleball-1.html",
+      "title": "Indigo Pearl Namebed — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "indigo-pearl-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/0a8888fb03d743e1b7cb97246fc8b011bf8ceaffd3e1b5bedc4908486dc8c8be.png"
+    },
+    {
+      "file": "indigo-pearl-namebed-pickleball-2.html",
+      "title": "Indigo Pearl Namebed — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "indigo-pearl-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/7fea36c857013cb7131e428da4ba7eafbb9b81e5c608a903f751e7bd5f35937a.png"
+    },
+    {
+      "file": "inverted-splitline-pickleball-1.html",
+      "title": "Inverted Splitline — PICKLEBALL Independent panels",
+      "placement": "lower-third",
+      "styleID": "inverted-splitline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/7b7294d6f18c96196585c14a5739c54549a297c7e6ff43551b8bee188a98c36b.png"
+    },
+    {
+      "file": "inverted-splitline-pickleball-2.html",
+      "title": "Inverted Splitline — PICKLEBALL Shared panel",
+      "placement": "lower-third",
+      "styleID": "inverted-splitline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/1632e41eb5e60d73d6c6a7414b39b3373ca5fa38ae7114e9025ed6a6c9690457.png"
+    },
+    {
+      "file": "ivory-cobalt-line-pickleball-1.html",
+      "title": "Ivory Cobalt Line — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "ivory-cobalt-line",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/e20b71ed6e45810a276a5ceb75620b6e098580bec542f6e48b3bb8dbe5f097a9.png"
+    },
+    {
+      "file": "ivory-cobalt-line-pickleball-2.html",
+      "title": "Ivory Cobalt Line — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "ivory-cobalt-line",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/43a938bfa916d295c089ff8ffda0e972486d8aaba59a00352961831c3665409f.png"
+    },
+    {
+      "file": "ivory-moss-scorefront-pickleball-1.html",
+      "title": "Ivory Moss Scorefront — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "ivory-moss-scorefront",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/abdf66cc6691c55ddf23d55abea9fd785e0caa5d8089b7254ce7bd6d688acb66.png"
+    },
+    {
+      "file": "ivory-moss-scorefront-pickleball-2.html",
+      "title": "Ivory Moss Scorefront — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "ivory-moss-scorefront",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ce0044492886931add37645d664d34cee099c7d2eb55590601b65de5d2d819e6.png"
+    },
+    {
+      "file": "limestone-inset-subscore-pickleball-1.html",
+      "title": "Limestone Inset Subscore — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "limestone-inset-subscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/f86701871d750ff323c5a1b0bb14285772173c3198778b058e48b3e1d8ed616d.png"
+    },
+    {
+      "file": "limestone-inset-subscore-pickleball-2.html",
+      "title": "Limestone Inset Subscore — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "limestone-inset-subscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/0d6d331ac7e10fe56e3cc23683259b99258c3ec1ecdace02051f5a8ba80f4303.png"
+    },
+    {
+      "file": "linen-navy-sideconsole-pickleball-1.html",
+      "title": "Linen Navy Sideconsole — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "linen-navy-sideconsole",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a9ba4d76e44fec5151da8e06fec6e94ebe66628548075442f98d254d7c80df38.png"
+    },
+    {
+      "file": "linen-navy-sideconsole-pickleball-2.html",
+      "title": "Linen Navy Sideconsole — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "linen-navy-sideconsole",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/c893eefd8e96254e02ed7255420d16a0c745f510f7fbf38b09f195a57d1347bf.png"
+    },
+    {
+      "file": "marine-parchment-terminal-pickleball-1.html",
+      "title": "Marine Parchment Terminal — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "marine-parchment-terminal",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/98455a38f5007882d03eb34833d5c028ed6c763e269262ed29454da602a9fabc.png"
+    },
+    {
+      "file": "marine-parchment-terminal-pickleball-2.html",
+      "title": "Marine Parchment Terminal — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "marine-parchment-terminal",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/d989d60da6a756e76c389d3db33bd6f442c89cb92bcfa8d37223a3e53ed98f81.png"
+    },
+    {
+      "file": "marine-pearl-centerbank-pickleball-1.html",
+      "title": "Marine Pearl Centerbank — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "marine-pearl-centerbank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/bef3eec9ec6844b2712b575552f1732858a73ff1c464c9b2591eacd67f07dde4.png"
+    },
+    {
+      "file": "marine-pearl-centerbank-pickleball-2.html",
+      "title": "Marine Pearl Centerbank — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "marine-pearl-centerbank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/5d1e173437149a8fb8de48bccc9cde92392df9284328b83b956fc6937a9d5484.png"
+    },
+    {
+      "file": "maroon-frost-matchline-pickleball-1.html",
+      "title": "Maroon Frost Matchline — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "maroon-frost-matchline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ea8aa93354f398de775391b75465b8420dfc484c101a48d023825be8c4457b34.png"
+    },
+    {
+      "file": "maroon-frost-matchline-pickleball-2.html",
+      "title": "Maroon Frost Matchline — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "maroon-frost-matchline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/13c53c5dda57787eb763bacfb642f11184d890e3f2ea21f8f0935ffabaa99192.png"
+    },
+    {
+      "file": "midnight-teal-capsule-pickleball-1.html",
+      "title": "Midnight Teal Capsule — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "midnight-teal-capsule",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9fcbc1f5f289c96561d1272e66e1ecb8250eaf604286e8fb8c1f91a2680779af.png"
+    },
+    {
+      "file": "midnight-teal-capsule-pickleball-2.html",
+      "title": "Midnight Teal Capsule — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "midnight-teal-capsule",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/6a3cfffb173510be52298519fb8a521781cdc6645a3ba5d97e11562cf2fdfe92.png"
+    },
+    {
+      "file": "night-mist-trailing-stat-pickleball-1.html",
+      "title": "Night Mist Trailing Stat — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "night-mist-trailing-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/dfea6377d77ee8815108df0cfa7a59b9b6f0a1d44d6f7ee62ef926ccdecde510.png"
+    },
+    {
+      "file": "night-mist-trailing-stat-pickleball-2.html",
+      "title": "Night Mist Trailing Stat — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "night-mist-trailing-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/2c354c46af099886d4fef4d43bfa8fb3114e74879522c30bca14fa7e851cc091.png"
+    },
+    {
+      "file": "oat-graphite-eyebrow-pickleball-1.html",
+      "title": "Oat Graphite Eyebrow — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oat-graphite-eyebrow",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/b36d24d05a880bd94548a0f752344f1f23d00e19cb9861167f326aa2bc847752.png"
+    },
+    {
+      "file": "oat-graphite-eyebrow-pickleball-2.html",
+      "title": "Oat Graphite Eyebrow — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oat-graphite-eyebrow",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/7930ee487b8c24ba0be3d16879fe718a5835b31e7eb5f8ee98e3ff6a57e9b4d8.png"
+    },
+    {
+      "file": "open-corner-grid-pickleball-1.html",
+      "title": "Open Corner Grid — PICKLEBALL Lanes",
+      "placement": "lower-third",
+      "styleID": "open-corner-grid",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/1a98177ef333d0b664a452cdcd476db09d4b204e9ff16dd8cd33aec50b1bc65f.png"
+    },
+    {
+      "file": "open-corner-grid-pickleball-2.html",
+      "title": "Open Corner Grid — PICKLEBALL Duel",
+      "placement": "lower-third",
+      "styleID": "open-corner-grid",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9a271906da7ee565ac56c71c7870e7621f241019661f8c5e9135a634606a3383.png"
+    },
+    {
+      "file": "oxblood-ivory-inrow-rail-pickleball-1.html",
+      "title": "Oxblood Ivory In-Row Rail — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oxblood-ivory-inrow-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/017bf4b3aa4f0ea0ebf6aa677922273a8b75c5777dd6100628420a27ad83afce.png"
+    },
+    {
+      "file": "oxblood-ivory-inrow-rail-pickleball-2.html",
+      "title": "Oxblood Ivory In-Row Rail — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oxblood-ivory-inrow-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/28373977d75aa2bdd66a37b6ab629e9b9a31f16ca90debbe2d7c0a70a381d85e.png"
+    },
+    {
+      "file": "oyster-slate-underbar-pickleball-1.html",
+      "title": "Oyster Slate Underbar — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oyster-slate-underbar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/f4876c98f14cbb615e0814e1a4c3ef1c038ee8f6fc44bb6f569b7fe5633f7a35.png"
+    },
+    {
+      "file": "oyster-slate-underbar-pickleball-2.html",
+      "title": "Oyster Slate Underbar — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oyster-slate-underbar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/010a82b439b77f4e9e77bf3775d8d2bd78bd280945d9c4b2ba62e4e0503389ca.png"
+    },
+    {
+      "file": "pearl-graphite-rightdock-pickleball-1.html",
+      "title": "Pearl Graphite Rightdock — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-graphite-rightdock",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/d5edd736f04a3c2f72b088c59ad0f6ad33ad7686386beff5a234e661cc473668.png"
+    },
+    {
+      "file": "pearl-graphite-rightdock-pickleball-2.html",
+      "title": "Pearl Graphite Rightdock — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-graphite-rightdock",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/035882cab0d6152e41622303b9cc384b57784d1c1454ac04982359f870969df2.png"
+    },
+    {
+      "file": "pearl-ledger-side-index-pickleball-1.html",
+      "title": "Pearl Ledger Side Index — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-ledger-side-index",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/33b1e950680f86a47241903c5a080285a8cc03d5fec76f6e40c902577f93ebb8.png"
+    },
+    {
+      "file": "pearl-ledger-side-index-pickleball-2.html",
+      "title": "Pearl Ledger Side Index — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-ledger-side-index",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/719262d4124c0295e28baf94cd43f05eb383a65211cda6338a820c86f555f7ee.png"
+    },
+    {
+      "file": "pearl-slate-stat-lead-pickleball-1.html",
+      "title": "Pearl Slate Stat Lead — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-slate-stat-lead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/bacce383f1aecb029f5377bd5067d7d409a6dd2813a2ed64c0826e8f1b9b2acf.png"
+    },
+    {
+      "file": "pearl-slate-stat-lead-pickleball-2.html",
+      "title": "Pearl Slate Stat Lead — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-slate-stat-lead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/5fd70d6e47745d2729e6f11fcfd5dc4fb4eddb3bf0142f2c94ec53d015d65a75.png"
+    },
+    {
+      "file": "petrol-chalk-leadscore-pickleball-1.html",
+      "title": "Petrol Chalk Leadscore — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "petrol-chalk-leadscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/c535fdc1c01244851823b69d212cb8f8e01d3de9ba6b9521a99be96d58f28076.png"
+    },
+    {
+      "file": "petrol-chalk-leadscore-pickleball-2.html",
+      "title": "Petrol Chalk Leadscore — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "petrol-chalk-leadscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/64ce433658b6d96687cd2bf4025a1da1d48363e3cf72921f89c5d8c965aa917a.png"
+    },
+    {
+      "file": "petrol-ivory-keyline-pickleball-1.html",
+      "title": "Petrol Ivory Keyline — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "petrol-ivory-keyline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/38614e6c7947a499ae3fb5563d98fed30d101c3d701c177c0a1db8bf163fde95.png"
+    },
+    {
+      "file": "petrol-ivory-keyline-pickleball-2.html",
+      "title": "Petrol Ivory Keyline — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "petrol-ivory-keyline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/417695bdbc0bf5600e2fc25718a09bd63d0a215319e8e006b23c322fd7c9a861.png"
+    },
+    {
+      "file": "pewter-columnhead-pickleball-1.html",
+      "title": "Pewter Columnhead — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pewter-columnhead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/c5a4c4525433084248a444e66453cd9d1d4fb3bf6850275862aab6ab739cd297.png"
+    },
+    {
+      "file": "pewter-columnhead-pickleball-2.html",
+      "title": "Pewter Columnhead — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pewter-columnhead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9110ada594dc38586652a07543da75e751f7ef463a3400b4b128748420c433a5.png"
+    },
+    {
+      "file": "plum-mist-open-namebed-pickleball-1.html",
+      "title": "Plum Mist Open Namebed — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "plum-mist-open-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/549c9d449b8be503de41cee998fa079427bb7a15ccdc5ce366c3025f224c3ab4.png"
+    },
+    {
+      "file": "plum-mist-open-namebed-pickleball-2.html",
+      "title": "Plum Mist Open Namebed — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "plum-mist-open-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/034fe4422f0ec9b3fb5d00b81f1208581f562ef39be2da4193bd6846e40daca3.png"
+    },
+    {
+      "file": "plum-pearl-outboard-pickleball-1.html",
+      "title": "Plum Pearl Outboard — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "plum-pearl-outboard",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ad9dc9f3e1bdd8d8a698a46fbcdf6ca4574675a510b69142687e67867ca0166b.png"
+    },
+    {
+      "file": "plum-pearl-outboard-pickleball-2.html",
+      "title": "Plum Pearl Outboard — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "plum-pearl-outboard",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/4a970aa234182f4b14914d2e74dab3b2b7cca54ae1c2193ae4db4b0429506bcf.png"
+    },
+    {
+      "file": "porcelain-inkline-pickleball-1.html",
+      "title": "Porcelain Inkline — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "porcelain-inkline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a88b784de8873d1a4997c1a15f54f5fcc3a36de0c986cf9f7da39a284e007e8e.png"
+    },
+    {
+      "file": "porcelain-inkline-pickleball-2.html",
+      "title": "Porcelain Inkline — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "porcelain-inkline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/803f0268a8025ca53268e53c4d73e1c4bda65acbdc26c20c16becf58cf2dd113.png"
+    },
+    {
+      "file": "porcelain-umber-leadbed-pickleball-1.html",
+      "title": "Porcelain Umber Leadbed — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "porcelain-umber-leadbed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/265712959d91cca3107739b7dc9ad5da6d005b4f9ccdf1805f3d0d32b18ba6aa.png"
+    },
+    {
+      "file": "porcelain-umber-leadbed-pickleball-2.html",
+      "title": "Porcelain Umber Leadbed — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "porcelain-umber-leadbed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/1796f9b319640c318d556f3fb857228a17edbc8491d4526837cb9362f0777017.png"
+    },
+    {
+      "file": "sage-slate-data-console-pickleball-1.html",
+      "title": "Sage Slate Data Console — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "sage-slate-data-console",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ed94cb019ba566eab56939adb0b1b54092f40b3ebecf5f9a49a1e905aac02139.png"
+    },
+    {
+      "file": "sage-slate-data-console-pickleball-2.html",
+      "title": "Sage Slate Data Console — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "sage-slate-data-console",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ebfeb322f8029f2009a53dbc09a13843b314ff016eb468ed9e9a1fcdd44a78d6.png"
+    },
+    {
+      "file": "score-halo-pickleball-1.html",
+      "title": "Score Halo — PICKLEBALL Lanes",
+      "placement": "lower-third",
+      "styleID": "score-halo",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9986dd783bba5e28c2d301234dbd827cbb9a3fba9545af18e5b0c1faebbc3423.png"
+    },
+    {
+      "file": "score-halo-pickleball-2.html",
+      "title": "Score Halo — PICKLEBALL Duel",
+      "placement": "lower-third",
+      "styleID": "score-halo",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/bb97b342ae779fe92205a4bc4daae0fd1583f771a612fcb1c86fe6b398ff3051.png"
+    },
+    {
+      "file": "silver-ink-counterrail-pickleball-1.html",
+      "title": "Silver Ink Counterrail — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "silver-ink-counterrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/f40ff7406b582ed31aa0f1a84ef52074c6635158d88e9e7d01f1243689e0ca2f.png"
+    },
+    {
+      "file": "silver-ink-counterrail-pickleball-2.html",
+      "title": "Silver Ink Counterrail — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "silver-ink-counterrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/106ff42a9cd4916e22fb697043689638fda8ac7195063871ba34daab88f35e84.png"
+    },
+    {
+      "file": "silver-plum-ledger-pickleball-1.html",
+      "title": "Silver Plum Ledger — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "silver-plum-ledger",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/9da479bd0bb5cebc540cecf846e943ab3658adbc26b8b4c404ce7c6992b37d2e.png"
+    },
+    {
+      "file": "silver-plum-ledger-pickleball-2.html",
+      "title": "Silver Plum Ledger — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "silver-plum-ledger",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/4a3d18e794863fb15c43ca5e680a9a392e49ff60cfd2f7df26a4f7b9d010ac61.png"
+    },
+    {
+      "file": "slate-lime-desk-pickleball-1.html",
+      "title": "Slate Lime Desk — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "slate-lime-desk",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/042c740e4755cd5593ff6285ee592f79acffbc4642c079982108514857cfc05f.png"
+    },
+    {
+      "file": "slate-lime-desk-pickleball-2.html",
+      "title": "Slate Lime Desk — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "slate-lime-desk",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/2d69a5cb797adc02ee05b3e6a4e4762af5e327b91e1c19f9ab8f51b69b187a4e.png"
+    },
+    {
+      "file": "spruce-pearl-leadnote-pickleball-1.html",
+      "title": "Spruce Pearl Leadnote — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "spruce-pearl-leadnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/6b4bd37662b22ff61dffa2d93bbc1ff8e9e9761b64b1bbc4940de74240a7a6fa.png"
+    },
+    {
+      "file": "spruce-pearl-leadnote-pickleball-2.html",
+      "title": "Spruce Pearl Leadnote — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "spruce-pearl-leadnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/6a2a1603bb56682d4d83d1387483d66e4078811e2fbb41282bcaa09c2593fd31.png"
+    },
+    {
+      "file": "staircase-stencil-pickleball-1.html",
+      "title": "Staircase Stencil — PICKLEBALL Diagonal groups",
+      "placement": "lower-third",
+      "styleID": "staircase-stencil",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/aacbad03b2f13fca607ae6a9e091179a395695723dfc7dbdbf8e65951a9e770c.png"
+    },
+    {
+      "file": "staircase-stencil-pickleball-2.html",
+      "title": "Staircase Stencil — PICKLEBALL Mirrored rows",
+      "placement": "lower-third",
+      "styleID": "staircase-stencil",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ae2edc0290228703b2f369de4e17785d646a779465ad910707204635c7e6e4d2.png"
+    },
+    {
+      "file": "stone-gold-broadcast-pickleball-1.html",
+      "title": "Stone Gold Broadcast — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "stone-gold-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/b7bdb8beec2f8e870b43b71882fb23b801381f973a3cd56eab7cf826241f801a.png"
+    },
+    {
+      "file": "stone-gold-broadcast-pickleball-2.html",
+      "title": "Stone Gold Broadcast — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "stone-gold-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/1d7afbda4b95b55bebc9431f5f8cedf39558c8fe3b89d3e8177aada210c24784.png"
+    },
+    {
+      "file": "stone-ink-lead-bay-pickleball-1.html",
+      "title": "Stone Ink Lead Bay — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "stone-ink-lead-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/6e02fd000fb83417302ff57ef2e80417d7805e9e8339766f17ea885056c1f1f2.png"
+    },
+    {
+      "file": "stone-ink-lead-bay-pickleball-2.html",
+      "title": "Stone Ink Lead Bay — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "stone-ink-lead-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/55385ed756aac577c2a7b108f0bcaa355cb5e2125f9d9410bca6818c60cae045.png"
+    },
+    {
+      "file": "vertical-name-spine-pickleball-1.html",
+      "title": "Vertical Name Spine — PICKLEBALL Stacked panes",
+      "placement": "lower-third",
+      "styleID": "vertical-name-spine",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/224d72271fe2b3c3a62b2012f1ead2e58f47b40890fb24de49e3dd55ac42b7d4.png"
+    },
+    {
+      "file": "vertical-name-spine-pickleball-2.html",
+      "title": "Vertical Name Spine — PICKLEBALL Outer spines",
+      "placement": "lower-third",
+      "styleID": "vertical-name-spine",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/54bbbe3eebeb511fa357dddcf20131287feafee6c0538c04585010a95e0a9931.png"
+    },
+    {
+      "file": "violet-ash-open-register-pickleball-1.html",
+      "title": "Violet Ash Open Register — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "violet-ash-open-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/8450f33824a2b7ac26472a5f50c26ea37de1e18039f574fb94546c053c1e3a15.png"
+    },
+    {
+      "file": "violet-ash-open-register-pickleball-2.html",
+      "title": "Violet Ash Open Register — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "violet-ash-open-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/73144ffd6a788465938ff2c3ba35286b945914dc9f12c90d9fbbbe9a5563899c.png"
+    },
+    {
+      "file": "warm-paper-rightnote-pickleball-1.html",
+      "title": "Warm Paper Rightnote — PICKLEBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "warm-paper-rightnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/b85e0f8003dc82fb89b4332ffb16b0205b1ed2e82175b307c8a235e0c8ccfe23.png"
+    },
+    {
+      "file": "warm-paper-rightnote-pickleball-2.html",
+      "title": "Warm Paper Rightnote — PICKLEBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "warm-paper-rightnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/a19cebdc78084d4b48cfc4a601030f0cbd80368902260e56f8efc0ccb2db6e4a.png"
+    },
+    {
+      "file": "wire-numeral-pickleball-1.html",
+      "title": "Wire Numeral — PICKLEBALL Score-left",
+      "placement": "lower-third",
+      "styleID": "wire-numeral",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/ce8d5fc85b6cc76a9484cccc165e64193ec04014728b7f1f5809a2a02810cf8e.png"
+    },
+    {
+      "file": "wire-numeral-pickleball-2.html",
+      "title": "Wire Numeral — PICKLEBALL Score-above",
+      "placement": "lower-third",
+      "styleID": "wire-numeral",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true,
+        "P7": true,
+        "P8": true,
+        "P9": true,
+        "P10": false
+      },
+      "missing": [
+        "P3 Doubles server number",
+        "P4 Score call (server-receiver-server#)",
+        "P5 Game number / game history",
+        "P10 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no server number: cannot show the 8-6-2 score call"
+      ],
+      "preview": "previews/08a921707ba99bc7aa017f5563fa72a8ee8d8e49602c8c10660ce840f74f6620.png"
+    }
+  ]
+}

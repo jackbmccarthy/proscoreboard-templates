@@ -1,0 +1,4387 @@
+{
+  "schemaVersion": 1,
+  "sport": "volleyball",
+  "auditedOn": "2026-11-13",
+  "spec": "reviews/sport-conventions/volleyball.md",
+  "method": "Structural binding inspection of every active template plus manual review of the rendered preview PNGs (contact sheets). Verdicts only; nothing is retired or deleted.",
+  "conventions": {
+    "V1": "Sets won beside current-set points",
+    "V2": "Serve indicator (A isA + B)",
+    "V3": "Live current set number",
+    "V4": "Set-by-set history",
+    "V5": "Timeouts (used/active/remaining)",
+    "V6": "Set point / match point",
+    "V7": "Deciding-set marker",
+    "V8": "Team colour identity",
+    "V9": "Event / round context"
+  },
+  "verdictRule": "sport-native: V1-V6 all present; acceptable: V1, V2, V3, V6 and one of V4/V5; otherwise table-tennis derivative.",
+  "summary": {
+    "existing": {
+      "total": 129,
+      "table-tennis derivative": 129
+    },
+    "newStarters": {
+      "total": 10,
+      "sport-native": 10
+    },
+    "tableTennisTwins": 128
+  },
+  "templates": [
+    {
+      "file": "starter-volleyball-corner-attack-line.html",
+      "title": "Volleyball Attack Line",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/4fa3bcbce4104ebd760bed623601b1bfbc1f38cdf83398eab58617f41066d1e3.png"
+    },
+    {
+      "file": "starter-volleyball-corner-beach-sun.html",
+      "title": "Volleyball Beach Sun",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/bcafa22c3b6305d2733720ef8c361a7005d4a77aabd7c132b82a26fe48b0cb64.png"
+    },
+    {
+      "file": "starter-volleyball-corner-net-tape.html",
+      "title": "Volleyball Net Tape",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/5c91c2c2552ca3dca036596de12224c99e965370720e8e64f691df8462ad16c7.png"
+    },
+    {
+      "file": "starter-volleyball-corner-rally-bar.html",
+      "title": "Volleyball Rally Bar",
+      "placement": "corner",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/edbdc0f4ce014115024e101a3b3d8e2b08fc408acce1ff172515a28375ee3b2f.png"
+    },
+    {
+      "file": "starter-volleyball-full-match-summary.html",
+      "title": "Volleyball Match Summary",
+      "placement": "full-screen",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/06fd435bd648479dd0ef9e2685e778c6dfc9380431af7a53ccbb626956047439.png"
+    },
+    {
+      "file": "starter-volleyball-full-set-break.html",
+      "title": "Volleyball Set Break",
+      "placement": "full-screen",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/0c14b414f4dbee9a26962b4c58eec0906de73b2a733d1d86e2102c34375ad866.png"
+    },
+    {
+      "file": "starter-volleyball-lower-antenna.html",
+      "title": "Volleyball Antenna Frame",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/eef230216ac6484dbe3d7e98964fae7e17f1322bfdd19bfcdb5885902c7ca9f0.png"
+    },
+    {
+      "file": "starter-volleyball-lower-box-score.html",
+      "title": "Volleyball Box Score",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/0865e69f4241234f700beb9ed68ecfd3977f95c14042a7242403799f2547a67f.png"
+    },
+    {
+      "file": "starter-volleyball-lower-center-court.html",
+      "title": "Volleyball Center Court",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true
+      },
+      "missing": [],
+      "notes": [],
+      "preview": "previews/0e3fa9e48c106e527f5941005aaf331f006711677a9630b5d0c75c5c8fbe6bc7.png"
+    },
+    {
+      "file": "starter-volleyball-lower-spike-slash.html",
+      "title": "Volleyball Spike Slash",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": true,
+      "verdict": "sport-native",
+      "present": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V9 Event / round context"
+      ],
+      "notes": [],
+      "preview": "previews/646c233eefbc787cc3b8c3d2747ac3501dd16a1d4535a4d1ff88f8d32b474190.png"
+    },
+    {
+      "file": "atlantic-open-flank-volleyball-1.html",
+      "title": "Atlantic Open Flank — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "atlantic-open-flank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/87bbfeec2386320bb5d7d48e24d62269f2e8820fca6591abdd6556709be65981.png"
+    },
+    {
+      "file": "atlantic-open-flank-volleyball-2.html",
+      "title": "Atlantic Open Flank — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "atlantic-open-flank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c1470d6bd092a0ec38cda4d7e6fd01f993458f6d973772797e613c5161fe8c0c.png"
+    },
+    {
+      "file": "aubergine-cloud-scorebank-volleyball-1.html",
+      "title": "Aubergine Cloud Scorebank — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "aubergine-cloud-scorebank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/7740b55a01663cf584e13b1131a8fc7827b65e7a352f2ec163417b7bac6fa481.png"
+    },
+    {
+      "file": "aubergine-cloud-scorebank-volleyball-2.html",
+      "title": "Aubergine Cloud Scorebank — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "aubergine-cloud-scorebank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/8e2a1a223b8b13773300f98ec2e011cdae531a13e80e33b10c024574b4a75f38.png"
+    },
+    {
+      "file": "basalt-bone-scorefoot-volleyball-1.html",
+      "title": "Basalt Bone Scorefoot — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "basalt-bone-scorefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/0964411f13640ebe98e86bc764a5fad42e15d9bf8d7fd4ef557b1c1df357f851.png"
+    },
+    {
+      "file": "basalt-bone-scorefoot-volleyball-2.html",
+      "title": "Basalt Bone Scorefoot — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "basalt-bone-scorefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/4fd57a2285d72ebdb879b6fc9b412baf4c60285df9945a75b0d98d10dc0f9cfc.png"
+    },
+    {
+      "file": "basalt-copper-dual-track-volleyball-1.html",
+      "title": "Basalt Copper Dual Track — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "basalt-copper-dual-track",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/9e32fadd0bb6d562fd9df94e6be6bd57d363a9086875e0de8590de22412dc31f.png"
+    },
+    {
+      "file": "basalt-copper-dual-track-volleyball-2.html",
+      "title": "Basalt Copper Dual Track — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "basalt-copper-dual-track",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/d8ddc619f6fb3066cebf11f8c704a0d09e656c48ab3e0cbe86771189783f144c.png"
+    },
+    {
+      "file": "brace-register-volleyball-1.html",
+      "title": "Brace Register — VOLLEYBALL Aligned rows",
+      "placement": "lower-third",
+      "styleID": "brace-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/1b389e8d33f6fc9c5fecb8a0ea96278cc4ea26296fb64b1cf11df954b873f98c.png"
+    },
+    {
+      "file": "brace-register-volleyball-2.html",
+      "title": "Brace Register — VOLLEYBALL Paired columns",
+      "placement": "lower-third",
+      "styleID": "brace-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/0bcc08af6db4f30c681ae63f3813321030d8862202d8cbd0e098fa2c60845eb6.png"
+    },
+    {
+      "file": "burgundy-sand-volleyball-1.html",
+      "title": "Burgundy Sand Broadcast — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "burgundy-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c38df822c87b51eefadd6e8813052323ee0ce58c195fbc64c8f1e8d678802636.png"
+    },
+    {
+      "file": "burgundy-sand-volleyball-2.html",
+      "title": "Burgundy Sand Broadcast — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "burgundy-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/fd41b028e4e0f564502f781b6047a1e196989fe757ff7e0eaed3fd3777775e98.png"
+    },
+    {
+      "file": "carbon-copy-ticket-volleyball-1.html",
+      "title": "Carbon Copy Ticket — VOLLEYBALL Stacked",
+      "placement": "lower-third",
+      "styleID": "carbon-copy-ticket",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/b53ba9998470aa7271e7c2f2d41c8bc14090f0b756b2eea9bb7d948a24c041ce.png"
+    },
+    {
+      "file": "carbon-copy-ticket-volleyball-2.html",
+      "title": "Carbon Copy Ticket — VOLLEYBALL Duplex",
+      "placement": "lower-third",
+      "styleID": "carbon-copy-ticket",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/d1f0b9b89a2400ed40a4b7634e19d773825ad91d1967ddac1783070e362a1a66.png"
+    },
+    {
+      "file": "cedar-ivory-namefoot-volleyball-1.html",
+      "title": "Cedar Ivory Namefoot — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cedar-ivory-namefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/933b1d1009d9eeec172448d206c40071bf989417f65399041fabab42f359d2c6.png"
+    },
+    {
+      "file": "cedar-ivory-namefoot-volleyball-2.html",
+      "title": "Cedar Ivory Namefoot — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cedar-ivory-namefoot",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/ce7ee3216b2b98f5ab2127602f320dcea5586999612df567641eb38e6c230df8.png"
+    },
+    {
+      "file": "champagne-graphite-columnrail-volleyball-1.html",
+      "title": "Champagne Graphite Columnrail — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "champagne-graphite-columnrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/5643fbd68ea73b47309b0b3ed0141d3caf1708ab1334390110f99b774ed636e6.png"
+    },
+    {
+      "file": "champagne-graphite-columnrail-volleyball-2.html",
+      "title": "Champagne Graphite Columnrail — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "champagne-graphite-columnrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/5b4d05014dd2c4eede9ccec6dd6d12649d31fc4ad25c5257336e25fb8e5d1a3c.png"
+    },
+    {
+      "file": "charcoal-ivory-open-score-volleyball-1.html",
+      "title": "Charcoal Ivory Open Score — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "charcoal-ivory-open-score",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/bd6eb389ca61631d7864eb7ef89d11a02f427cfa8fc99e01268a3d5c74483ec0.png"
+    },
+    {
+      "file": "charcoal-ivory-open-score-volleyball-2.html",
+      "title": "Charcoal Ivory Open Score — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "charcoal-ivory-open-score",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/afb06c54ea04fa9495f2a41ceee5d67fe035af523abefb566cb600d2e7107596.png"
+    },
+    {
+      "file": "charcoal-outline-sidecar-volleyball-1.html",
+      "title": "Charcoal Outline Sidecar — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "charcoal-outline-sidecar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/76bc262051017564638e3864653c19a1f50887d9817f1d2508a576670256bfc5.png"
+    },
+    {
+      "file": "charcoal-outline-sidecar-volleyball-2.html",
+      "title": "Charcoal Outline Sidecar — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "charcoal-outline-sidecar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/4aa6aa06fbe466256be50390b834f494242ac46b18b1364c1b4057c6ee6b1475.png"
+    },
+    {
+      "file": "cloud-graphite-combined-bay-volleyball-1.html",
+      "title": "Cloud Graphite Combined Bay — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cloud-graphite-combined-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/14a2607fd96517b12a3ae162284bc0af157e2b07d63bdbc15a0235689dd6b71e.png"
+    },
+    {
+      "file": "cloud-graphite-combined-bay-volleyball-2.html",
+      "title": "Cloud Graphite Combined Bay — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cloud-graphite-combined-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c5989e449b9fa95b448d37670bccac7e15665a63e1db5b750ca5ef369bb49180.png"
+    },
+    {
+      "file": "cobalt-fog-leadchip-volleyball-1.html",
+      "title": "Cobalt Fog Leadchip — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cobalt-fog-leadchip",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6af980aadcc4da05b60add3cee5a90a07e80eafff5d817081ff94afc3c2a7d26.png"
+    },
+    {
+      "file": "cobalt-fog-leadchip-volleyball-2.html",
+      "title": "Cobalt Fog Leadchip — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cobalt-fog-leadchip",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/451d6a36791e6cc286bf57de74fe1239b461df5875b7c31e7b871119f3e86bef.png"
+    },
+    {
+      "file": "copper-cream-keyline-stat-volleyball-1.html",
+      "title": "Copper Cream Keyline Stat — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "copper-cream-keyline-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/92c75b5b93ba572a779c0f16b507d22d26537eb9c2b70be39aead4d86c3ac2ae.png"
+    },
+    {
+      "file": "copper-cream-keyline-stat-volleyball-2.html",
+      "title": "Copper Cream Keyline Stat — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "copper-cream-keyline-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/fca2b10557e7e7f0869f335ccc5d9799a112590a7bb30476a458007847b99396.png"
+    },
+    {
+      "file": "copper-slate-score-rail-volleyball-1.html",
+      "title": "Copper Slate Score Rail — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "copper-slate-score-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/f2c598f4758d9e90f541493efae793808be82d6e636783235236563409e545cb.png"
+    },
+    {
+      "file": "copper-slate-score-rail-volleyball-2.html",
+      "title": "Copper Slate Score Rail — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "copper-slate-score-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/e36e7f4b248bf1fc548c33b72c2929ff96c638410891b1368f6d466131a1b688.png"
+    },
+    {
+      "file": "coral-slate-header-volleyball-1.html",
+      "title": "Coral Slate Header — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "coral-slate-header",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/30a4a46dd0976ef95c67b0b3623d185372dc87d971e498cc44a1c84678c45571.png"
+    },
+    {
+      "file": "coral-slate-header-volleyball-2.html",
+      "title": "Coral Slate Header — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "coral-slate-header",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/16c37935f14d624bb6d44524c0839cbebdb730eda1a21c8630bc612145ca9eac.png"
+    },
+    {
+      "file": "cyan-blue-broadcast-volleyball-1.html",
+      "title": "Cyan Blue Broadcast — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "cyan-blue-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6b232d9dee7844b82ae285dffda5e68a49c7a97f260a3690c0c3e7dfb0afd69a.png"
+    },
+    {
+      "file": "cyan-blue-broadcast-volleyball-2.html",
+      "title": "Cyan Blue Broadcast — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "cyan-blue-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/1db5178728df8808224b5d687c9ba1ea9a2129df81f49a2df5ac164c8902b6fc.png"
+    },
+    {
+      "file": "dot-matrix-sentence-volleyball-1.html",
+      "title": "Dot Matrix Sentence — VOLLEYBALL Shared sentence",
+      "placement": "lower-third",
+      "styleID": "dot-matrix-sentence",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/2181eda830bb77dd21b45d89fa2f0551c55d7eef97fa917858778e69852abbf3.png"
+    },
+    {
+      "file": "dot-matrix-sentence-volleyball-2.html",
+      "title": "Dot Matrix Sentence — VOLLEYBALL Aligned rows",
+      "placement": "lower-third",
+      "styleID": "dot-matrix-sentence",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/34492f72211f25dee2ae90118a5985855bb6ed8307b80299ff3e2eff100dec7f.png"
+    },
+    {
+      "file": "editorial-quotient-volleyball-1.html",
+      "title": "Editorial Quotient — VOLLEYBALL Rows",
+      "placement": "lower-third",
+      "styleID": "editorial-quotient",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/b863e358a73210123d1ff28cc966d0d74da92e19623ac6b5ce4995a4160e99e8.png"
+    },
+    {
+      "file": "editorial-quotient-volleyball-2.html",
+      "title": "Editorial Quotient — VOLLEYBALL Duel",
+      "placement": "lower-third",
+      "styleID": "editorial-quotient",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/3e55c1edef06981e533439b657ad837e3a2d349db64715055fa9147ce29e6d75.png"
+    },
+    {
+      "file": "evergreen-sand-volleyball-1.html",
+      "title": "Evergreen Sand — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "evergreen-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/d70074f88683f1bb6c6ed62992e0c646f942b54f62b16a59b4b88bd90d9d3685.png"
+    },
+    {
+      "file": "evergreen-sand-volleyball-2.html",
+      "title": "Evergreen Sand — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "evergreen-sand",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c521c7e09ddda7cad619b2ce21c67739364b5fcbe74cc527a822ba12a4ac2a7a.png"
+    },
+    {
+      "file": "forest-linen-headrail-volleyball-1.html",
+      "title": "Forest Linen Headrail — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "forest-linen-headrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/08c75ef207a1bcab3b2a88a14b2c3b040e4cd21e780741c997478d29dc0df3b3.png"
+    },
+    {
+      "file": "forest-linen-headrail-volleyball-2.html",
+      "title": "Forest Linen Headrail — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "forest-linen-headrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/28e5bbdf9cf05eb4967f54448fc2bbc571d45dd7340bd51d0908d1234b570210.png"
+    },
+    {
+      "file": "glacier-ink-footline-volleyball-1.html",
+      "title": "Glacier Ink Footline — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "glacier-ink-footline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": false,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V3 Live current set number",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6e141d192c5606e242705dca12afd745c6eb7c63039cb4948b76e40b91823e43.png"
+    },
+    {
+      "file": "glacier-ink-footline-volleyball-2.html",
+      "title": "Glacier Ink Footline — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "glacier-ink-footline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": false,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V3 Live current set number",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/e40d06e1412ad489e7a77768274601e87986f07532253e8552884e2669a8aa1b.png"
+    },
+    {
+      "file": "graphite-amber-band-volleyball-1.html",
+      "title": "Graphite Amber Band — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "graphite-amber-band",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/ba9ebee9e209f41f4d29404e7b11a06f90b630fe9a8faa9423bf6dfaa7b57ce8.png"
+    },
+    {
+      "file": "graphite-amber-band-volleyball-2.html",
+      "title": "Graphite Amber Band — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "graphite-amber-band",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/16a8bbb92792ba0c252ed99cc74078ba10a4e6b312cc2e22ba134bf1128da340.png"
+    },
+    {
+      "file": "harbor-silver-leadstat-volleyball-1.html",
+      "title": "Harbor Silver Leadstat — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "harbor-silver-leadstat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/fb1fd6e71c8994a658638f443711a67cc090d8e2fc57d54c32f004d9390b2a64.png"
+    },
+    {
+      "file": "harbor-silver-leadstat-volleyball-2.html",
+      "title": "Harbor Silver Leadstat — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "harbor-silver-leadstat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/3e39eb97d1f0c81abb36e553d3a48d50fdeacc088e6ae0cddb57dbb2ffe5540c.png"
+    },
+    {
+      "file": "hinge-rail-volleyball-1.html",
+      "title": "Hinge Rail — VOLLEYBALL Rows",
+      "placement": "lower-third",
+      "styleID": "hinge-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6602f4cc43224b8ae3b52538c5cf9d88faf98e4f8971616144c3d1ef90294bbc.png"
+    },
+    {
+      "file": "hinge-rail-volleyball-2.html",
+      "title": "Hinge Rail — VOLLEYBALL Duel",
+      "placement": "lower-third",
+      "styleID": "hinge-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/f718ce3ca0f2171263e4a8b1db4620a3b352b8a62a33ab99ec6f2794ad9936ed.png"
+    },
+    {
+      "file": "indigo-open-data-lane-volleyball-1.html",
+      "title": "Indigo Open Data Lane — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "indigo-open-data-lane",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/997a52a4dbf007825f0d6e0778c53f76ecb23fae8ddaaf56bb876e7bf380f459.png"
+    },
+    {
+      "file": "indigo-open-data-lane-volleyball-2.html",
+      "title": "Indigo Open Data Lane — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "indigo-open-data-lane",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/f93960727dd2ba7df3aa42bc5a06f78324dd1a1ddf7d61de62b7c891d9f7e4b2.png"
+    },
+    {
+      "file": "indigo-pearl-namebed-volleyball-1.html",
+      "title": "Indigo Pearl Namebed — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "indigo-pearl-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/9b9bba57603667086dc1f2dfe9bd788fe6c576f84c8298327f1860a77a9fae86.png"
+    },
+    {
+      "file": "indigo-pearl-namebed-volleyball-2.html",
+      "title": "Indigo Pearl Namebed — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "indigo-pearl-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/3b60a5ebd90f9ec50188f15921eec407b05abc61d6686a0d8319285d87d61177.png"
+    },
+    {
+      "file": "inverted-splitline-volleyball-1.html",
+      "title": "Inverted Splitline — VOLLEYBALL Independent panels",
+      "placement": "lower-third",
+      "styleID": "inverted-splitline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/53d32cafd42e2e37fde873d571670979e39b3b69d106a8998491d3e6da11ee38.png"
+    },
+    {
+      "file": "inverted-splitline-volleyball-2.html",
+      "title": "Inverted Splitline — VOLLEYBALL Shared panel",
+      "placement": "lower-third",
+      "styleID": "inverted-splitline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/eca972e06c052c17f429588bd17b2a2369214320ac401b05264a91356f83f3f5.png"
+    },
+    {
+      "file": "ivory-cobalt-line-volleyball-1.html",
+      "title": "Ivory Cobalt Line — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "ivory-cobalt-line",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/818a71710d5a1ec34b1127673ab095d5a0c9b72043402b1eefe31cf740052620.png"
+    },
+    {
+      "file": "ivory-cobalt-line-volleyball-2.html",
+      "title": "Ivory Cobalt Line — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "ivory-cobalt-line",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/b771967e215b015d238fc395f6eb9c69b1e76fc784dbd12d9a1d39bedb68f3bc.png"
+    },
+    {
+      "file": "ivory-moss-scorefront-volleyball-1.html",
+      "title": "Ivory Moss Scorefront — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "ivory-moss-scorefront",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6a38774ddebe0408bfb3717a51d1da1417dbb1aa8b2f17714bc4acf9f71cabab.png"
+    },
+    {
+      "file": "ivory-moss-scorefront-volleyball-2.html",
+      "title": "Ivory Moss Scorefront — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "ivory-moss-scorefront",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/7fdbc6a785a6e02b10c639803db755939cc3e53d0897c4e68bce868894c40c2d.png"
+    },
+    {
+      "file": "limestone-inset-subscore-volleyball-1.html",
+      "title": "Limestone Inset Subscore — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "limestone-inset-subscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/d6d90efcebb6a9fe5486c28bbb6fdca421446f040b7c92f764f45d1ce112e06f.png"
+    },
+    {
+      "file": "limestone-inset-subscore-volleyball-2.html",
+      "title": "Limestone Inset Subscore — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "limestone-inset-subscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/46d0a32f1ef8b4d95dadadd9dfe0bb8bee5ba8fd18e28a162466d8d112ce88cd.png"
+    },
+    {
+      "file": "linen-navy-sideconsole-volleyball-1.html",
+      "title": "Linen Navy Sideconsole — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "linen-navy-sideconsole",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/f5b43c9dc142b1a85eaec41d956a298ca27fa486368aac5143dd5132d0c76b63.png"
+    },
+    {
+      "file": "linen-navy-sideconsole-volleyball-2.html",
+      "title": "Linen Navy Sideconsole — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "linen-navy-sideconsole",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/1c183e34d0dc652bac79b2efabbb959ecd4bd104a2191a9e9ff62fc46b5f52dc.png"
+    },
+    {
+      "file": "marine-parchment-terminal-volleyball-1.html",
+      "title": "Marine Parchment Terminal — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "marine-parchment-terminal",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": false,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V3 Live current set number",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/26f830580f15c667b8ceb11a25b3bd0d87aa9e0341830002c364e9d54fa5e1c2.png"
+    },
+    {
+      "file": "marine-parchment-terminal-volleyball-2.html",
+      "title": "Marine Parchment Terminal — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "marine-parchment-terminal",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": false,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V3 Live current set number",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/47886c06186d7967c7acb0bf0439446611766b0e9ef4dc4ce968f234db4edc28.png"
+    },
+    {
+      "file": "marine-pearl-centerbank-volleyball-1.html",
+      "title": "Marine Pearl Centerbank — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "marine-pearl-centerbank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/72913a46d99ba1f372dffede0ab5d397503387c3282e88b28542c8b2e38e3845.png"
+    },
+    {
+      "file": "marine-pearl-centerbank-volleyball-2.html",
+      "title": "Marine Pearl Centerbank — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "marine-pearl-centerbank",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/51139dc57e30bdd72960fdc883f628de6681736b5e78e6e28fdd6f2ce3904965.png"
+    },
+    {
+      "file": "maroon-frost-matchline-volleyball-1.html",
+      "title": "Maroon Frost Matchline — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "maroon-frost-matchline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/2d8b41d998bdd51b2ebdc0468a8d4f762276a20305cf450d615ab26650ea3620.png"
+    },
+    {
+      "file": "maroon-frost-matchline-volleyball-2.html",
+      "title": "Maroon Frost Matchline — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "maroon-frost-matchline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/a3fa83676ff86e67ba2622ea2ed0eb1fc145e7bcd32684916ee79500c42545c4.png"
+    },
+    {
+      "file": "midnight-teal-capsule-volleyball-1.html",
+      "title": "Midnight Teal Capsule — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "midnight-teal-capsule",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/9c47f82fcb18ed6f85918b921ab8a6f62bb1c3fe755d774b0494517bd932204b.png"
+    },
+    {
+      "file": "midnight-teal-capsule-volleyball-2.html",
+      "title": "Midnight Teal Capsule — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "midnight-teal-capsule",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/43fc41a93cd095fb889b1e5a82adef4af964849eea5b82f43450a6efe180a27b.png"
+    },
+    {
+      "file": "night-mist-trailing-stat-volleyball-1.html",
+      "title": "Night Mist Trailing Stat — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "night-mist-trailing-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/ba674f78bb20b977c8bd218d722c6252ea83b1272e08a4d37487ee38be5c24c5.png"
+    },
+    {
+      "file": "night-mist-trailing-stat-volleyball-2.html",
+      "title": "Night Mist Trailing Stat — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "night-mist-trailing-stat",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/219e76a925086be6d88146bfcd9c1c7f7ec73f390253e5b13c1d7ab848c7a771.png"
+    },
+    {
+      "file": "oat-graphite-eyebrow-volleyball-1.html",
+      "title": "Oat Graphite Eyebrow — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oat-graphite-eyebrow",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/162d1c23397a9bbffb716e22d518ff0db179f40a36aa7529e117216e0a272ff4.png"
+    },
+    {
+      "file": "oat-graphite-eyebrow-volleyball-2.html",
+      "title": "Oat Graphite Eyebrow — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oat-graphite-eyebrow",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6e1e28746961ab6fb400c578bba57f1fef984aacc0fcf1717b28a9782d2680f9.png"
+    },
+    {
+      "file": "open-corner-grid-volleyball-1.html",
+      "title": "Open Corner Grid — VOLLEYBALL Lanes",
+      "placement": "lower-third",
+      "styleID": "open-corner-grid",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/b55e4701e6eed19848d667689ea3f0481a98f95bec759e4f5006e52e42e2064a.png"
+    },
+    {
+      "file": "open-corner-grid-volleyball-2.html",
+      "title": "Open Corner Grid — VOLLEYBALL Duel",
+      "placement": "lower-third",
+      "styleID": "open-corner-grid",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/e8d92d4a29ea8dedae789fa101fcde4b39d3f4dea74e20c7070dcf404f02e5a2.png"
+    },
+    {
+      "file": "oxblood-ivory-inrow-rail-volleyball-1.html",
+      "title": "Oxblood Ivory In-Row Rail — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oxblood-ivory-inrow-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/3a6289d3341ce6eb22c23d835564d436bc36b22966348d3b46013cf060179df9.png"
+    },
+    {
+      "file": "oxblood-ivory-inrow-rail-volleyball-2.html",
+      "title": "Oxblood Ivory In-Row Rail — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oxblood-ivory-inrow-rail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/2aac37cb59619e2c7c5e3da123aca63ece8db5efe4716bb7635757a1b839cc71.png"
+    },
+    {
+      "file": "oyster-slate-underbar-volleyball-1.html",
+      "title": "Oyster Slate Underbar — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "oyster-slate-underbar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/75060b69357915d7caa4ed09b9cc2c26d15594a20727196f3d8d85cbab52d750.png"
+    },
+    {
+      "file": "oyster-slate-underbar-volleyball-2.html",
+      "title": "Oyster Slate Underbar — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "oyster-slate-underbar",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/686d789f59dac05d932177e3a9a8cbfc085752b47fb23c5edb1cf62c595e08da.png"
+    },
+    {
+      "file": "pearl-graphite-rightdock-volleyball-1.html",
+      "title": "Pearl Graphite Rightdock — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-graphite-rightdock",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/678cca965300e4cb69328fa64daf3d4c8e77445e953101417e3f892a25b5f1e3.png"
+    },
+    {
+      "file": "pearl-graphite-rightdock-volleyball-2.html",
+      "title": "Pearl Graphite Rightdock — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-graphite-rightdock",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/b982d6ee4ba9c527e0560da60a08f1aeed60b57d194b98f69361134f378df1a6.png"
+    },
+    {
+      "file": "pearl-ledger-side-index-volleyball-1.html",
+      "title": "Pearl Ledger Side Index — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-ledger-side-index",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/17a6c1f4b590a3c5295cfa6f9e95d1225c2416262cbe230d1dfd21ee55badcae.png"
+    },
+    {
+      "file": "pearl-ledger-side-index-volleyball-2.html",
+      "title": "Pearl Ledger Side Index — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-ledger-side-index",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/1c81420c34a6d997b85b482c09d00c35a89818d991f10b422640ff493e45d052.png"
+    },
+    {
+      "file": "pearl-slate-stat-lead-volleyball-1.html",
+      "title": "Pearl Slate Stat Lead — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pearl-slate-stat-lead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/855d1149bf451f28deaf9a0602a3e59ed3c48774b3906991cb113706f35f9faa.png"
+    },
+    {
+      "file": "pearl-slate-stat-lead-volleyball-2.html",
+      "title": "Pearl Slate Stat Lead — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pearl-slate-stat-lead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/790c930b62d6b99ad81df67a8170deaea5ddc039b9a94cdca7df3e0779f0c97d.png"
+    },
+    {
+      "file": "petrol-chalk-leadscore-volleyball-1.html",
+      "title": "Petrol Chalk Leadscore — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "petrol-chalk-leadscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/2822a8f812298e8bf377dcdb085a5a85948e324f5bbc6d5cc17bcc79ddbc153d.png"
+    },
+    {
+      "file": "petrol-chalk-leadscore-volleyball-2.html",
+      "title": "Petrol Chalk Leadscore — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "petrol-chalk-leadscore",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/3f109a2d0c2da1b8f734ff5946dc510005bb054bc595630157974e401d7418a8.png"
+    },
+    {
+      "file": "petrol-ivory-keyline-volleyball-1.html",
+      "title": "Petrol Ivory Keyline — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "petrol-ivory-keyline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/52a88c0306ff667ddb4a24008eabb2c2673346a39963ed8de8c64c5595ac62ee.png"
+    },
+    {
+      "file": "petrol-ivory-keyline-volleyball-2.html",
+      "title": "Petrol Ivory Keyline — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "petrol-ivory-keyline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/1d852f4af9c2d5706c65ead448b6cec239990659eeeba31976bb57ef790ad7eb.png"
+    },
+    {
+      "file": "pewter-columnhead-volleyball-1.html",
+      "title": "Pewter Columnhead — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "pewter-columnhead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": false,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V3 Live current set number",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/959021e65795307e8cbe468b093a688a303772a4404a005798cc00b0e400473c.png"
+    },
+    {
+      "file": "pewter-columnhead-volleyball-2.html",
+      "title": "Pewter Columnhead — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "pewter-columnhead",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": false,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V3 Live current set number",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/2acb42263974276dbd7319095f41b31dbcc59e28f06bc787d54c90fd02eb6f91.png"
+    },
+    {
+      "file": "plum-mist-open-namebed-volleyball-1.html",
+      "title": "Plum Mist Open Namebed — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "plum-mist-open-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/405234ccf35870a5f8ae16e3c4185da05c0e5ad44cb2eec2b1510d8a5f8722e7.png"
+    },
+    {
+      "file": "plum-mist-open-namebed-volleyball-2.html",
+      "title": "Plum Mist Open Namebed — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "plum-mist-open-namebed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/b2384739b755f0ba6b3de1a741766458695e6da2a75929630ae8d3a239a18bad.png"
+    },
+    {
+      "file": "plum-pearl-outboard-volleyball-1.html",
+      "title": "Plum Pearl Outboard — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "plum-pearl-outboard",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/5e43293b336479843a35082380193087687f82c40cfbb653d465dac3b61a85ed.png"
+    },
+    {
+      "file": "plum-pearl-outboard-volleyball-2.html",
+      "title": "Plum Pearl Outboard — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "plum-pearl-outboard",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/dd6989678c5f3091302a81b11edf3af4b76c64320bae4fdeac46327847f896d6.png"
+    },
+    {
+      "file": "porcelain-inkline-volleyball-1.html",
+      "title": "Porcelain Inkline — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "porcelain-inkline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/8cbac8b8c17bf1a945b7d083673ebfc4a626e2a419895b59eec2bc40979ebb34.png"
+    },
+    {
+      "file": "porcelain-inkline-volleyball-2.html",
+      "title": "Porcelain Inkline — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "porcelain-inkline",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/213bf959f70bd2b7ed7e31e1e7a4dd42d4838a51f4fe2f9189819c5ea76dcaeb.png"
+    },
+    {
+      "file": "porcelain-umber-leadbed-volleyball-1.html",
+      "title": "Porcelain Umber Leadbed — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "porcelain-umber-leadbed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/616f184b8ff3a404bf86852e3850efa28bce7f2300ae0cddc5b27abfd3cfea01.png"
+    },
+    {
+      "file": "porcelain-umber-leadbed-volleyball-2.html",
+      "title": "Porcelain Umber Leadbed — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "porcelain-umber-leadbed",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/7ca499cf4e4f155acd89620c275daca7b10ae9b284a7db78c2c6df4028b9cbac.png"
+    },
+    {
+      "file": "sage-slate-data-console-volleyball-1.html",
+      "title": "Sage Slate Data Console — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "sage-slate-data-console",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/80a1ee8e07e74e5d86b34f6e714438dafed41d0ea4775420c57aa7fc01bb61f8.png"
+    },
+    {
+      "file": "sage-slate-data-console-volleyball-2.html",
+      "title": "Sage Slate Data Console — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "sage-slate-data-console",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/7c1edb5c2d5c936401abf1152e8e26c0ab77f492cfdc16251d991a5a77409825.png"
+    },
+    {
+      "file": "score-halo-volleyball-1.html",
+      "title": "Score Halo — VOLLEYBALL Lanes",
+      "placement": "lower-third",
+      "styleID": "score-halo",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/1ca82bbd8eff71d55d18637f3e46a95700c84b586f7fcc5b822854085cd968a0.png"
+    },
+    {
+      "file": "score-halo-volleyball-2.html",
+      "title": "Score Halo — VOLLEYBALL Duel",
+      "placement": "lower-third",
+      "styleID": "score-halo",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/2c1c5e51098b900fbe17aafc5a383f2611362174cac6efc1342243c8a1611212.png"
+    },
+    {
+      "file": "silver-ink-counterrail-volleyball-1.html",
+      "title": "Silver Ink Counterrail — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "silver-ink-counterrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/bde3e6a5996b6f7fd45f938d27f5e324e19d39c3c6ddc6e678ae04bfda7dac8e.png"
+    },
+    {
+      "file": "silver-ink-counterrail-volleyball-2.html",
+      "title": "Silver Ink Counterrail — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "silver-ink-counterrail",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/62e4fe3f96d013aa29c391882c1aaa83dbbeffd54f1e7121275cd8cb9c7f432a.png"
+    },
+    {
+      "file": "silver-plum-ledger-volleyball-1.html",
+      "title": "Silver Plum Ledger — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "silver-plum-ledger",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/940984220f9005860888c6ba90c467575fc61bd7b01895ed7853a3b97ed1ef4c.png"
+    },
+    {
+      "file": "silver-plum-ledger-volleyball-2.html",
+      "title": "Silver Plum Ledger — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "silver-plum-ledger",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6e7165d3f5002bdc0efda89f4e0bed0a05d2c6de3beb4e6b43a5698271846494.png"
+    },
+    {
+      "file": "slate-lime-desk-volleyball-1.html",
+      "title": "Slate Lime Desk — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "slate-lime-desk",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/21ebc6887a10cd3800535b612ae21aa34cd4612b68fca9b3eb1ddd21741ca0e4.png"
+    },
+    {
+      "file": "slate-lime-desk-volleyball-2.html",
+      "title": "Slate Lime Desk — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "slate-lime-desk",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/d40a82bb34f380785e4912d60bc605e0c7ada99d197692bbcf62dc65533c3677.png"
+    },
+    {
+      "file": "sport-volleyball-sets.html",
+      "title": "Volleyball Sets",
+      "placement": "lower-third",
+      "styleID": null,
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/9cc568982a130aec4b8c62edac55edf9f367d7643e244dc8862d0c085614314c.png"
+    },
+    {
+      "file": "spruce-pearl-leadnote-volleyball-1.html",
+      "title": "Spruce Pearl Leadnote — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "spruce-pearl-leadnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/eb7797c86f2efd36765cf71ce7b388e02afd56af9e6c2b19ea0113b72dd80b6e.png"
+    },
+    {
+      "file": "spruce-pearl-leadnote-volleyball-2.html",
+      "title": "Spruce Pearl Leadnote — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "spruce-pearl-leadnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c5d28eee09f44a818c3bb65b4dc920be30dbf35612695c589bc0a7714e5408b8.png"
+    },
+    {
+      "file": "staircase-stencil-volleyball-1.html",
+      "title": "Staircase Stencil — VOLLEYBALL Diagonal groups",
+      "placement": "lower-third",
+      "styleID": "staircase-stencil",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/23af4c086ab6a9ec93b442f2ae9309c07bb2349066eb75cd6d2f25eab6cdb26f.png"
+    },
+    {
+      "file": "staircase-stencil-volleyball-2.html",
+      "title": "Staircase Stencil — VOLLEYBALL Mirrored rows",
+      "placement": "lower-third",
+      "styleID": "staircase-stencil",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/0edbccfab7b88413de345c0b19690f38e8d173b8f26d420b4dec2377afa1e07a.png"
+    },
+    {
+      "file": "stone-gold-broadcast-volleyball-1.html",
+      "title": "Stone Gold Broadcast — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "stone-gold-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/42ee5dddd4b1fd7647019c6dd438caafe601e3bf1b840072e22d83c70084b7fe.png"
+    },
+    {
+      "file": "stone-gold-broadcast-volleyball-2.html",
+      "title": "Stone Gold Broadcast — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "stone-gold-broadcast",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/32d94be3916726074da2c55f585a4afe45f53fe508abc403c3ea6f840f6c0a87.png"
+    },
+    {
+      "file": "stone-ink-lead-bay-volleyball-1.html",
+      "title": "Stone Ink Lead Bay — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "stone-ink-lead-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c62a22d9cd32ae1e2c6ca575f82de38b06bd3180fefc9a654e5761470a79b2dc.png"
+    },
+    {
+      "file": "stone-ink-lead-bay-volleyball-2.html",
+      "title": "Stone Ink Lead Bay — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "stone-ink-lead-bay",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/fe430b69919dc6c4c3fe1ce331ced2bae3b86c6f13536fb964ace9cc1b563777.png"
+    },
+    {
+      "file": "vertical-name-spine-volleyball-1.html",
+      "title": "Vertical Name Spine — VOLLEYBALL Stacked panes",
+      "placement": "lower-third",
+      "styleID": "vertical-name-spine",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/6443b4b501ec678bf93223f96dc2572dba0385ff62d83c32cf99abffdbdf87eb.png"
+    },
+    {
+      "file": "vertical-name-spine-volleyball-2.html",
+      "title": "Vertical Name Spine — VOLLEYBALL Outer spines",
+      "placement": "lower-third",
+      "styleID": "vertical-name-spine",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/c9cf199bd7b529615cabfe2f6452d3e3e12c438c7c274c2d7dcb0860f2ab5479.png"
+    },
+    {
+      "file": "violet-ash-open-register-volleyball-1.html",
+      "title": "Violet Ash Open Register — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "violet-ash-open-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/cabcdf40f1e8b6715940dc7dff93d824a7f39e1dd5664a8c531856b9533735c9.png"
+    },
+    {
+      "file": "violet-ash-open-register-volleyball-2.html",
+      "title": "Violet Ash Open Register — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "violet-ash-open-register",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/ef3420593b4cf87260209b03147edaec78801562eb206f0ed778649475cf0ad8.png"
+    },
+    {
+      "file": "warm-paper-rightnote-volleyball-1.html",
+      "title": "Warm Paper Rightnote — VOLLEYBALL Compact scorebug",
+      "placement": "corner",
+      "styleID": "warm-paper-rightnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/e349de34caf8e3116ff52a54a80af44d649e562e47767f103271efc1b5ce58d3.png"
+    },
+    {
+      "file": "warm-paper-rightnote-volleyball-2.html",
+      "title": "Warm Paper Rightnote — VOLLEYBALL Horizontal lower-third",
+      "placement": "lower-third",
+      "styleID": "warm-paper-rightnote",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/7a6f2978b5cdaab1a79ea1dbd105bb762efd73ab1752d11f3befe0d79867d952.png"
+    },
+    {
+      "file": "wire-numeral-volleyball-1.html",
+      "title": "Wire Numeral — VOLLEYBALL Score-left",
+      "placement": "lower-third",
+      "styleID": "wire-numeral",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/cb111cb8e1c2921e0b5b8d7321ef65f890e80a082d275738105cece6291a41f4.png"
+    },
+    {
+      "file": "wire-numeral-volleyball-2.html",
+      "title": "Wire Numeral — VOLLEYBALL Score-above",
+      "placement": "lower-third",
+      "styleID": "wire-numeral",
+      "new": false,
+      "verdict": "table-tennis derivative",
+      "present": {
+        "V1": true,
+        "V2": false,
+        "V3": true,
+        "V4": false,
+        "V5": false,
+        "V6": true,
+        "V7": false,
+        "V8": true,
+        "V9": false
+      },
+      "missing": [
+        "V2 Serve indicator (A isA + B)",
+        "V4 Set-by-set history",
+        "V5 Timeouts (used/active/remaining)",
+        "V7 Deciding-set marker",
+        "V9 Event / round context"
+      ],
+      "notes": [
+        "same styleID/layout as a table-tennis template",
+        "sport name used as a header label",
+        "no serve indicator"
+      ],
+      "preview": "previews/e0da6008204d43626e388eca2ebdcd28c53d52f11cf86e75d2395197242d67c4.png"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "4dec966f4744d491f73c66c4526baf4839bbd554607ea5751dc1cffbede6dda3",
+  "revision": "ac9c477b3f704a96972a28e7d9a2fd3560e4acde0fa30a57b46b9513d1f985f4",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -52139,6 +52139,896 @@
         "contentHash": "ac62e8ce6d969b41407dae8bae4d8ec8f5487fd0f030f121d88d775bfdfcf836",
         "width": 730,
         "height": 678,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Court-surface scorebug in hard-court blue with white boundary lines; the net divides the two teams and a green non-volley-zone stripe carries the game number and score call. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Court-surface scorebug in hard-court blue with white boundary lines; the net divides the two teams and a green non-volley-zone stripe carries the game number and score call.",
+      "output": "html-replications/starter-pickleball-corner-kitchen.html",
+      "palette": [
+        "#2f6fb8",
+        "#2fa36b",
+        "#ffffff",
+        "#ffcf3a"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Kitchen Line",
+      "fileName": "starter-pickleball-corner-kitchen.html",
+      "contentHash": "92896e8bee72b288882977fd27e6e3c978d6bc2eac9207da8c2c273b64b9f978",
+      "documentPath": "published/92896e8bee72b288882977fd27e6e3c978d6bc2eac9207da8c2c273b64b9f978.json",
+      "preview": {
+        "path": "previews/cff647ca84e88f85368eab806aea8eaa1613ae9b9b6dd43e40885da8c15b6be5.png",
+        "imageHash": "cff647ca84e88f85368eab806aea8eaa1613ae9b9b6dd43e40885da8c15b6be5",
+        "contentHash": "92896e8bee72b288882977fd27e6e3c978d6bc2eac9207da8c2c273b64b9f978",
+        "width": 412,
+        "height": 211,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Charcoal and neon-lime scorebug whose serve marker is a paddle carrying the server number, with a game ledger strip (G1 11-7, G2 8-11) under the rows. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Charcoal and neon-lime scorebug whose serve marker is a paddle carrying the server number, with a game ledger strip (G1 11-7, G2 8-11) under the rows.",
+      "output": "html-replications/starter-pickleball-corner-paddle.html",
+      "palette": [
+        "#1c1f24",
+        "#c6f432",
+        "#f4f4ef",
+        "#3a3f48"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Paddle",
+      "fileName": "starter-pickleball-corner-paddle.html",
+      "contentHash": "e9d56649f87259c47148bfb38e436ea95e4a9ef3f6e9b8e81785ce1d500ae7d9",
+      "documentPath": "published/e9d56649f87259c47148bfb38e436ea95e4a9ef3f6e9b8e81785ce1d500ae7d9.json",
+      "preview": {
+        "path": "previews/2313e95873f9abf4f75ae69d04b82bd8c63ef1259956d20aad11097725a8e4e9.png",
+        "imageHash": "2313e95873f9abf4f75ae69d04b82bd8c63ef1259956d20aad11097725a8e4e9",
+        "contentHash": "e9d56649f87259c47148bfb38e436ea95e4a9ef3f6e9b8e81785ce1d500ae7d9",
+        "width": 406,
+        "height": 205,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Tour scorebug led by the spoken score call: game tag, team rows with ball and doubles server number, games won and points, and a kitchen-green call band reading server-receiver-server number. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Tour scorebug led by the spoken score call: game tag, team rows with ball and doubles server number, games won and points, and a kitchen-green call band reading server-receiver-server number.",
+      "output": "html-replications/starter-pickleball-corner-score-call.html",
+      "palette": [
+        "#10243e",
+        "#2fa36b",
+        "#d4f02b",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Score Call",
+      "fileName": "starter-pickleball-corner-score-call.html",
+      "contentHash": "56be84d535ae5045d791e6a46aed96a91f32644a0ff5f7b5b3401cdf7efb09c9",
+      "documentPath": "published/56be84d535ae5045d791e6a46aed96a91f32644a0ff5f7b5b3401cdf7efb09c9.json",
+      "preview": {
+        "path": "previews/5307779ee5e81c30dd557c5353d723d347ae30d07ff24c96bd3ceb66cdcef2c2.png",
+        "imageHash": "5307779ee5e81c30dd557c5353d723d347ae30d07ff24c96bd3ceb66cdcef2c2",
+        "contentHash": "56be84d535ae5045d791e6a46aed96a91f32644a0ff5f7b5b3401cdf7efb09c9",
+        "width": 432,
+        "height": 194,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Compact face-off pill: both teams side by side, serving team marked by a ball with its server number, the score call beneath and games won as corner tabs. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Compact face-off pill: both teams side by side, serving team marked by a ball with its server number, the score call beneath and games won as corner tabs.",
+      "output": "html-replications/starter-pickleball-corner-side-out.html",
+      "palette": [
+        "#2b1446",
+        "#ff8a3d",
+        "#ffffff",
+        "#5b3a86"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Side Out",
+      "fileName": "starter-pickleball-corner-side-out.html",
+      "contentHash": "cc54c49eb84ba0901bec45476d8878b60ffb9c05c835a5d60a7f747a6914d40f",
+      "documentPath": "published/cc54c49eb84ba0901bec45476d8878b60ffb9c05c835a5d60a7f747a6914d40f.json",
+      "preview": {
+        "path": "previews/ab17c0272922eb254a0b78fc046a6b18cf74569b67a57f28fb5a07320274d74a.png",
+        "imageHash": "ab17c0272922eb254a0b78fc046a6b18cf74569b67a57f28fb5a07320274d74a",
+        "contentHash": "cc54c49eb84ba0901bec45476d8878b60ffb9c05c835a5d60a7f747a6914d40f",
+        "width": 472,
+        "height": 138,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Between-games full screen on a court-green field: event header, games-won face-off, a large game ledger with the live game highlighted, score call, serve status and the team-event tie row. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Between-games full screen on a court-green field: event header, games-won face-off, a large game ledger with the live game highlighted, score call, serve status and the team-event tie row.",
+      "output": "html-replications/starter-pickleball-full-between-games.html",
+      "palette": [
+        "#0f2a1f",
+        "#d4f02b",
+        "#2fa36b",
+        "#ffffff"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Between Games",
+      "fileName": "starter-pickleball-full-between-games.html",
+      "contentHash": "82122d3741eabf2263204d80cf3f9a2e460b0a9bbc344ac8125f85b9a2b19fee",
+      "documentPath": "published/82122d3741eabf2263204d80cf3f9a2e460b0a9bbc344ac8125f85b9a2b19fee.json",
+      "preview": {
+        "path": "previews/bf4a2c8724ec267f8748df51cd12c5340ac8f5f7b730b72b93f3ae81b9ec1fec.png",
+        "imageHash": "bf4a2c8724ec267f8748df51cd12c5340ac8f5f7b730b72b93f3ae81b9ec1fec",
+        "contentHash": "82122d3741eabf2263204d80cf3f9a2e460b0a9bbc344ac8125f85b9a2b19fee",
+        "width": 1226,
+        "height": 726,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Clean match summary card: event and round masthead, team rows with game-by-game cells, the games-won total, serve and server number, cards, and the team-event tie line. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Clean match summary card: event and round masthead, team rows with game-by-game cells, the games-won total, serve and server number, cards, and the team-event tie line.",
+      "output": "html-replications/starter-pickleball-full-match-summary.html",
+      "palette": [
+        "#fbfaf6",
+        "#1d1d1b",
+        "#2fa36b",
+        "#e94f37"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Match Summary",
+      "fileName": "starter-pickleball-full-match-summary.html",
+      "contentHash": "f1e0ecb1dcdf0831bed0eb31948c78a1d9a95d17139aa06278c5ced7c39a3c0c",
+      "documentPath": "published/f1e0ecb1dcdf0831bed0eb31948c78a1d9a95d17139aa06278c5ced7c39a3c0c.json",
+      "preview": {
+        "path": "previews/65e1f220e889d32167644f853d5d40ace3ee1f175d3e1cedaf81d8e2ede2c91c.png",
+        "imageHash": "65e1f220e889d32167644f853d5d40ace3ee1f175d3e1cedaf81d8e2ede2c91c",
+        "contentHash": "f1e0ecb1dcdf0831bed0eb31948c78a1d9a95d17139aa06278c5ced7c39a3c0c",
+        "width": 1186,
+        "height": 574,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Lower third built around a top-down court drawing: kitchen lines, net and the live score call sit in the centre court, team names and points flank it like the two ends. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Lower third built around a top-down court drawing: kitchen lines, net and the live score call sit in the centre court, team names and points flank it like the two ends.",
+      "output": "html-replications/starter-pickleball-lower-court-diagram.html",
+      "palette": [
+        "#123a5c",
+        "#2fa36b",
+        "#d4f02b",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Court Diagram",
+      "fileName": "starter-pickleball-lower-court-diagram.html",
+      "contentHash": "55de58080d95cffbc2748ce57ebdceb79295cc32f7707f39cbb076de5d8fd26c",
+      "documentPath": "published/55de58080d95cffbc2748ce57ebdceb79295cc32f7707f39cbb076de5d8fd26c.json",
+      "preview": {
+        "path": "previews/daaab6398323edeecd430d114cbb3653532cc8fe7948510a69029aedd426b88e.png",
+        "imageHash": "daaab6398323edeecd430d114cbb3653532cc8fe7948510a69029aedd426b88e",
+        "contentHash": "55de58080d95cffbc2748ce57ebdceb79295cc32f7707f39cbb076de5d8fd26c",
+        "width": 1006,
+        "height": 176,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Slim editorial ticker for streams: one light line reading team, points, score call, points, team, with game number, games won and status flags tucked into the strip. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Slim editorial ticker for streams: one light line reading team, points, score call, points, team, with game number, games won and status flags tucked into the strip.",
+      "output": "html-replications/starter-pickleball-lower-dink-strip.html",
+      "palette": [
+        "#f7f5ef",
+        "#1d1d1b",
+        "#e94f37",
+        "#9bc53d"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Dink Strip",
+      "fileName": "starter-pickleball-lower-dink-strip.html",
+      "contentHash": "f4e76883ac078e22a2dd49824b108689b6f6999c1e277ec3288d9c2eb38a6072",
+      "documentPath": "published/f4e76883ac078e22a2dd49824b108689b6f6999c1e277ec3288d9c2eb38a6072.json",
+      "preview": {
+        "path": "previews/1d583cb6ecaaca9c3fc5625f3ca7964198b32234e8639b7ca2f49719e2d6522f.png",
+        "imageHash": "1d583cb6ecaaca9c3fc5625f3ca7964198b32234e8639b7ca2f49719e2d6522f",
+        "contentHash": "f4e76883ac078e22a2dd49824b108689b6f6999c1e277ec3288d9c2eb38a6072",
+        "width": 926,
+        "height": 91,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Tournament ledger lower third: per-game columns G1-G5, games won and live points, a serve column with ball and server number, cards and timeouts, plus the score call in the header. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Tournament ledger lower third: per-game columns G1-G5, games won and live points, a serve column with ball and server number, cards and timeouts, plus the score call in the header.",
+      "output": "html-replications/starter-pickleball-lower-game-ledger.html",
+      "palette": [
+        "#ffffff",
+        "#16302b",
+        "#2fa36b",
+        "#d4f02b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Game Ledger",
+      "fileName": "starter-pickleball-lower-game-ledger.html",
+      "contentHash": "c99e585cf490b4ce9d4df5f39db1921198dc08ff7f170e1e4a772f938b7160f6",
+      "documentPath": "published/c99e585cf490b4ce9d4df5f39db1921198dc08ff7f170e1e4a772f938b7160f6.json",
+      "preview": {
+        "path": "previews/b51e7950366e791da0570d170c0d67240fd80fbecb26f807050d0dfbfaf36757.png",
+        "imageHash": "b51e7950366e791da0570d170c0d67240fd80fbecb26f807050d0dfbfaf36757",
+        "contentHash": "c99e585cf490b4ce9d4df5f39db1921198dc08ff7f170e1e4a772f938b7160f6",
+        "width": 912,
+        "height": 216,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Bold tour band: yellow event tab with live marker, angled teal team plates, giant points, a central score-call capsule with the game number, and a status rail for timeouts and cards. Sport-native pickleball design bound to live points, games won, serving team, doubles server number (hidden in singles), score call that reorders for the serving team, game/match point, game number and history, timeouts, penalty cards, event and round. Team-event tie fields are present but hidden by default. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Bold tour band: yellow event tab with live marker, angled teal team plates, giant points, a central score-call capsule with the game number, and a status rail for timeouts and cards.",
+      "output": "html-replications/starter-pickleball-lower-tour-band.html",
+      "palette": [
+        "#062f3a",
+        "#ffd400",
+        "#00b3a4",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "pickleball",
+      "tags": [
+        "pickleball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "score-call",
+        "server-number",
+        "game-history",
+        "penalty-cards"
+      ],
+      "title": "Pickleball Tour Band",
+      "fileName": "starter-pickleball-lower-tour-band.html",
+      "contentHash": "23dcf7d1b13b4547bde3b094005e02aa80473c18af0e305e21589a73741e6b6f",
+      "documentPath": "published/23dcf7d1b13b4547bde3b094005e02aa80473c18af0e305e21589a73741e6b6f.json",
+      "preview": {
+        "path": "previews/86005f9c14adccb99ddf88b7ba01817b54d9e804c83264efa0e0151efa774953.png",
+        "imageHash": "86005f9c14adccb99ddf88b7ba01817b54d9e804c83264efa0e0151efa774953",
+        "contentHash": "23dcf7d1b13b4547bde3b094005e02aa80473c18af0e305e21589a73741e6b6f",
+        "width": 986,
+        "height": 160,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Face-off scorebug: both teams side by side across a centre net line, serve arrows point at the serving side, sets won under each score. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Face-off scorebug: both teams side by side across a centre net line, serve arrows point at the serving side, sets won under each score.",
+      "output": "html-replications/starter-volleyball-corner-attack-line.html",
+      "palette": [
+        "#151821",
+        "#f5f5f0",
+        "#ff4f00",
+        "#2f3646"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Attack Line",
+      "fileName": "starter-volleyball-corner-attack-line.html",
+      "contentHash": "f056bae2a0e43c9a51b254c395a0822ff78d79dcbb8977faed863230ce12611b",
+      "documentPath": "published/f056bae2a0e43c9a51b254c395a0822ff78d79dcbb8977faed863230ce12611b.json",
+      "preview": {
+        "path": "previews/4fa3bcbce4104ebd760bed623601b1bfbc1f38cdf83398eab58617f41066d1e3.png",
+        "imageHash": "4fa3bcbce4104ebd760bed623601b1bfbc1f38cdf83398eab58617f41066d1e3",
+        "contentHash": "f056bae2a0e43c9a51b254c395a0822ff78d79dcbb8977faed863230ce12611b",
+        "width": 392,
+        "height": 219,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Beach tour bug: sand pill rows on an ocean-teal card, sunset set badge, round sets-won medallions, serve ball and timeout pips. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Beach tour bug: sand pill rows on an ocean-teal card, sunset set badge, round sets-won medallions, serve ball and timeout pips.",
+      "output": "html-replications/starter-volleyball-corner-beach-sun.html",
+      "palette": [
+        "#0f6e7a",
+        "#f2d7a1",
+        "#ff7a3d",
+        "#fffaf0"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Beach Sun",
+      "fileName": "starter-volleyball-corner-beach-sun.html",
+      "contentHash": "cc4392c00d0cb63e47ca79b72e5f12c764842270cee03814b25738833e4e6202",
+      "documentPath": "published/cc4392c00d0cb63e47ca79b72e5f12c764842270cee03814b25738833e4e6202.json",
+      "preview": {
+        "path": "previews/bcafa22c3b6305d2733720ef8c361a7005d4a77aabd7c132b82a26fe48b0cb64.png",
+        "imageHash": "bcafa22c3b6305d2733720ef8c361a7005d4a77aabd7c132b82a26fe48b0cb64",
+        "contentHash": "cc4392c00d0cb63e47ca79b72e5f12c764842270cee03814b25738833e4e6202",
+        "width": 412,
+        "height": 221,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "White scorebug hung from a black net-tape band with mesh, red/white antenna edge, ball serve marker and sets/points pair per team. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "White scorebug hung from a black net-tape band with mesh, red/white antenna edge, ball serve marker and sets/points pair per team.",
+      "output": "html-replications/starter-volleyball-corner-net-tape.html",
+      "palette": [
+        "#ffffff",
+        "#111111",
+        "#e2231a",
+        "#f2f2f2"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Net Tape",
+      "fileName": "starter-volleyball-corner-net-tape.html",
+      "contentHash": "f2f7da3620ab336e7ad0acb8b3d51dc9dbc82ba550707aa4f68eb03673a81485",
+      "documentPath": "published/f2f7da3620ab336e7ad0acb8b3d51dc9dbc82ba550707aa4f68eb03673a81485.json",
+      "preview": {
+        "path": "previews/5c91c2c2552ca3dca036596de12224c99e965370720e8e64f691df8462ad16c7.png",
+        "imageHash": "5c91c2c2552ca3dca036596de12224c99e965370720e8e64f691df8462ad16c7",
+        "contentHash": "f2f7da3620ab336e7ad0acb8b3d51dc9dbc82ba550707aa4f68eb03673a81485",
+        "width": 420,
+        "height": 193,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Indoor league scorebug: yellow set tab, serve ball beside the serving team, blue sets box, white points block and a set-by-set strip. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Indoor league scorebug: yellow set tab, serve ball beside the serving team, blue sets box, white points block and a set-by-set strip.",
+      "output": "html-replications/starter-volleyball-corner-rally-bar.html",
+      "palette": [
+        "#0b1d3a",
+        "#ffd23f",
+        "#1d4fbf",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Rally Bar",
+      "fileName": "starter-volleyball-corner-rally-bar.html",
+      "contentHash": "13dd40ebf52fb00533167c01d89f7b3700212f2f295b4f5b9e77366840714233",
+      "documentPath": "published/13dd40ebf52fb00533167c01d89f7b3700212f2f295b4f5b9e77366840714233.json",
+      "preview": {
+        "path": "previews/edbdc0f4ce014115024e101a3b3d8e2b08fc408acce1ff172515a28375ee3b2f.png",
+        "imageHash": "edbdc0f4ce014115024e101a3b3d8e2b08fc408acce1ff172515a28375ee3b2f",
+        "contentHash": "13dd40ebf52fb00533167c01d89f7b3700212f2f295b4f5b9e77366840714233",
+        "width": 446,
+        "height": 188,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Editorial match summary: paper card with event masthead, two team rows carrying set-by-set cells and a dark sets-won total, current-set points and serve marker. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Editorial match summary: paper card with event masthead, two team rows carrying set-by-set cells and a dark sets-won total, current-set points and serve marker.",
+      "output": "html-replications/starter-volleyball-full-match-summary.html",
+      "palette": [
+        "#f6f3ec",
+        "#1b1f2a",
+        "#c8102e",
+        "#1f5fbf"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Match Summary",
+      "fileName": "starter-volleyball-full-match-summary.html",
+      "contentHash": "f85f64616ffcc5d1ac9896ce5ccbb6993a8152cb5aaa343acebf50277f6e24ac",
+      "documentPath": "published/f85f64616ffcc5d1ac9896ce5ccbb6993a8152cb5aaa343acebf50277f6e24ac.json",
+      "preview": {
+        "path": "previews/06fd435bd648479dd0ef9e2685e778c6dfc9380431af7a53ccbb626956047439.png",
+        "imageHash": "06fd435bd648479dd0ef9e2685e778c6dfc9380431af7a53ccbb626956047439",
+        "contentHash": "f85f64616ffcc5d1ac9896ce5ccbb6993a8152cb5aaa343acebf50277f6e24ac",
+        "width": 1186,
+        "height": 574,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Between-sets full screen: event header, giant sets-won face-off, set-by-set table with the current set highlighted, timeouts and serve status. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Between-sets full screen: event header, giant sets-won face-off, set-by-set table with the current set highlighted, timeouts and serve status.",
+      "output": "html-replications/starter-volleyball-full-set-break.html",
+      "palette": [
+        "#08142e",
+        "#ffd23f",
+        "#1d4fbf",
+        "#ffffff"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Set Break",
+      "fileName": "starter-volleyball-full-set-break.html",
+      "contentHash": "434e5ca634deadf052ecaff3b2202d18bbe1e6459779240d96d4335fcd7ecff7",
+      "documentPath": "published/434e5ca634deadf052ecaff3b2202d18bbe1e6459779240d96d4335fcd7ecff7.json",
+      "preview": {
+        "path": "previews/0c14b414f4dbee9a26962b4c58eec0906de73b2a733d1d86e2102c34375ad866.png",
+        "imageHash": "0c14b414f4dbee9a26962b4c58eec0906de73b2a733d1d86e2102c34375ad866",
+        "contentHash": "434e5ca634deadf052ecaff3b2202d18bbe1e6459779240d96d4335fcd7ecff7",
+        "width": 1226,
+        "height": 726,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Lower third framed by striped net antennas and a mesh net band: teams and points hang under the tape, set badge in the middle of the net. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Lower third framed by striped net antennas and a mesh net band: teams and points hang under the tape, set badge in the middle of the net.",
+      "output": "html-replications/starter-volleyball-lower-antenna.html",
+      "palette": [
+        "#062a2f",
+        "#e2231a",
+        "#ffffff",
+        "#5fd3c4"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Antenna Frame",
+      "fileName": "starter-volleyball-lower-antenna.html",
+      "contentHash": "34636648c0d68889e5638b5721722679f9221618216ff8a994d0d6cdc1e65f8e",
+      "documentPath": "published/34636648c0d68889e5638b5721722679f9221618216ff8a994d0d6cdc1e65f8e.json",
+      "preview": {
+        "path": "previews/eef230216ac6484dbe3d7e98964fae7e17f1322bfdd19bfcdb5885902c7ca9f0.png",
+        "imageHash": "eef230216ac6484dbe3d7e98964fae7e17f1322bfdd19bfcdb5885902c7ca9f0",
+        "contentHash": "34636648c0d68889e5638b5721722679f9221618216ff8a994d0d6cdc1e65f8e",
+        "width": 888,
+        "height": 170,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Collegiate box-score lower third: a set-by-set table (S1-S5) beside the sets-won total and the live current-set points, with serve and timeout columns. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Collegiate box-score lower third: a set-by-set table (S1-S5) beside the sets-won total and the live current-set points, with serve and timeout columns.",
+      "output": "html-replications/starter-volleyball-lower-box-score.html",
+      "palette": [
+        "#ffffff",
+        "#20232a",
+        "#c8102e",
+        "#eef0f4"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Box Score",
+      "fileName": "starter-volleyball-lower-box-score.html",
+      "contentHash": "c6d2a47171b4615762a92d766defdcac286a59dab26dcb55a5aa6a72d1f9dd97",
+      "documentPath": "published/c6d2a47171b4615762a92d766defdcac286a59dab26dcb55a5aa6a72d1f9dd97.json",
+      "preview": {
+        "path": "previews/0865e69f4241234f700beb9ed68ecfd3977f95c14042a7242403799f2547a67f.png",
+        "imageHash": "0865e69f4241234f700beb9ed68ecfd3977f95c14042a7242403799f2547a67f",
+        "contentHash": "c6d2a47171b4615762a92d766defdcac286a59dab26dcb55a5aa6a72d1f9dd97",
+        "width": 892,
+        "height": 212,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Symmetric lower third in indoor-court blue and orange: team, sets and points mirror around a centre set badge, with a set history rail and event/round tab. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Symmetric lower third in indoor-court blue and orange: team, sets and points mirror around a centre set badge, with a set history rail and event/round tab.",
+      "output": "html-replications/starter-volleyball-lower-center-court.html",
+      "palette": [
+        "#1a3d8f",
+        "#e8742c",
+        "#ffffff",
+        "#0e2152"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Center Court",
+      "fileName": "starter-volleyball-lower-center-court.html",
+      "contentHash": "62b8f257ad23f31b0737c7ab81ae038852fb2e49b17dad8bccc09b800d5a7ed7",
+      "documentPath": "published/62b8f257ad23f31b0737c7ab81ae038852fb2e49b17dad8bccc09b800d5a7ed7.json",
+      "preview": {
+        "path": "previews/0e3fa9e48c106e527f5941005aaf331f006711677a9630b5d0c75c5c8fbe6bc7.png",
+        "imageHash": "0e3fa9e48c106e527f5941005aaf331f006711677a9630b5d0c75c5c8fbe6bc7",
+        "contentHash": "62b8f257ad23f31b0737c7ab81ae038852fb2e49b17dad8bccc09b800d5a7ed7",
+        "width": 966,
+        "height": 156,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Pro-league lower third with spiking diagonal slashes: angled team blades, sets won as a diamond badge, current points in a slanted white block and set strip below. Sport-native volleyball design bound to live set points, sets won, serving team, set/match point, set-by-set history (revealed per started set), timeouts used/active with countdown, remaining timeouts, current set and a deciding-set marker (5th set started). Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Pro-league lower third with spiking diagonal slashes: angled team blades, sets won as a diamond badge, current points in a slanted white block and set strip below.",
+      "output": "html-replications/starter-volleyball-lower-spike-slash.html",
+      "palette": [
+        "#0d0d12",
+        "#ff2e88",
+        "#ffffff",
+        "#3b3b4f"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "game-match",
+        "sportCounters": "native",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "volleyball",
+      "tags": [
+        "volleyball",
+        "sport-native",
+        "native-scoring",
+        "live-states",
+        "set-history",
+        "serve-indicator",
+        "timeout-pips"
+      ],
+      "title": "Volleyball Spike Slash",
+      "fileName": "starter-volleyball-lower-spike-slash.html",
+      "contentHash": "71364ce1a154cab796dff8ee1904804e1303171798bf6379eca23b153276080d",
+      "documentPath": "published/71364ce1a154cab796dff8ee1904804e1303171798bf6379eca23b153276080d.json",
+      "preview": {
+        "path": "previews/646c233eefbc787cc3b8c3d2747ac3501dd16a1d4535a4d1ff88f8d32b474190.png",
+        "imageHash": "646c233eefbc787cc3b8c3d2747ac3501dd16a1d4535a4d1ff88f8d32b474190",
+        "contentHash": "71364ce1a154cab796dff8ee1904804e1303171798bf6379eca23b153276080d",
+        "width": 866,
+        "height": 124,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "volleyball"
