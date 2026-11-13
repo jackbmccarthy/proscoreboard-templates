@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Box Score</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: transparent; }
+    body { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; }
+    .screen { position: relative; display: flex; flex-direction: column; justify-content: center; gap: 28px; width: 100vw; height: 100vh; padding: 5vh 7vw; background: radial-gradient(ellipse at top, #1b2c4a, #0b1424 70%); color: #e8edf5; }
+    .head { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 3px solid #f08a24; padding-bottom: 12px; }
+    .ev { display: flex; flex-direction: column; gap: 4px; }
+    .ev-name { font-size: 40px; font-weight: 700; letter-spacing: .5px; }
+    .ev-round { font-size: 18px; font-weight: 600; letter-spacing: 3px; color: #f08a24; text-transform: uppercase; }
+    .flags { display: flex; gap: 10px; }
+    .flag { padding: 6px 16px; background: #f08a24; color: #0b1424; font-size: 18px; font-weight: 700; letter-spacing: 3px; border-radius: 3px; }
+    .table { display: grid; grid-template-columns: minmax(0, 1fr) auto 150px; background: #15233b; border-radius: 8px; overflow: hidden; box-shadow: 0 20px 40px #0007; }
+    .names { display: grid; grid-template-rows: 46px 90px 90px; }
+    .hcell { display: flex; align-items: center; padding: 0 24px; background: #0b1424; font-size: 14px; font-weight: 700; letter-spacing: 3px; color: #8a9ab5; }
+    .team { display: flex; align-items: center; gap: 18px; padding-right: 20px; border-top: 1px solid #22344f; }
+    .kit { align-self: stretch; width: 14px; background-color: #3a4a66; }
+    .nm { font-size: 40px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .periods { display: flex; }
+    .col { display: grid; grid-template-rows: 46px 90px 90px; width: 92px; text-align: center; }
+    .col > * { display: flex; align-items: center; justify-content: center; }
+    .col > .ga, .col > .gb { border-top: 1px solid #22344f; border-left: 1px solid #22344f; font-size: 32px; font-weight: 600; font-variant-numeric: tabular-nums; color: #c3cee0; }
+    .col > .ph { background: #0b1424; border-left: 1px solid #22344f; font-size: 14px; font-weight: 700; letter-spacing: 2px; color: #8a9ab5; }
+    .tot { display: grid; grid-template-rows: 46px 90px 90px; background: #f08a24; color: #0b1424; text-align: center; }
+    .tot > * { display: flex; align-items: center; justify-content: center; }
+    .tot > .ph { background: #c96f17; font-size: 14px; font-weight: 700; letter-spacing: 3px; }
+    .pts { border-top: 1px solid #0b142433; font-size: 56px; font-weight: 800; font-variant-numeric: tabular-nums; }
+    .foot { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px; font-size: 18px; font-weight: 600; letter-spacing: 2px; color: #8a9ab5; }
+    .foot .s { display: flex; gap: 22px; }
+    .foot .s.b { justify-content: flex-end; }
+    .fl, .tol-v { color: #e8edf5; margin-left: 8px; }
+    .tol::before { content: "TIMEOUTS"; }
+    .tol:has(.tol-v:empty) { display: none; }
+    .bonus { color: #f08a24; }
+    .bonus:empty { display: none; }
+    .now { display: flex; align-items: center; gap: 14px; padding: 8px 22px; background: #15233b; border-radius: 30px; color: #e8edf5; }
+    .per { font-size: 30px; font-weight: 800; color: #f08a24; }
+    .per:empty { display: none; }
+    .gc { font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .osb-aux, .point-slot { display: none; }
+    .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
+    .combinedAName:empty::before { content: "Team A"; }
+    .combinedBName:empty::before { content: "Team B"; }
+    .eventName:empty, .matchRound:empty { display: none; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+<main class="screen" aria-label="Basketball box score">
+  <header class="head"><span class="ev"><span class="ev-name eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-round matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span><span class="flags"><span class="flag isInBetweenGames" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity: 0;">BREAK</span><span class="flag isComplete" data-osb-component="field" data-osb-field="isComplete" style="opacity: 0;">FINAL</span></span></header>
+  <section class="table">
+    <div class="names"><span class="hcell">TEAM</span><span class="team"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></span><span class="team"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></span></div>
+    <div class="periods">
+      <div class="col"><span class="ph">Q1</span><span class="g ga game1AScore" data-osb-component="field" data-osb-field="game1AScore">0</span><span class="g gb game1BScore" data-osb-component="field" data-osb-field="game1BScore">0</span></div>
+      <div class="col"><span class="ph">Q2</span><span class="g ga game2AScore" data-osb-component="field" data-osb-field="game2AScore">0</span><span class="g gb game2BScore" data-osb-component="field" data-osb-field="game2BScore">0</span></div>
+      <div class="col"><span class="ph">Q3</span><span class="g ga game3AScore" data-osb-component="field" data-osb-field="game3AScore">0</span><span class="g gb game3BScore" data-osb-component="field" data-osb-field="game3BScore">0</span></div>
+      <div class="col"><span class="ph">Q4</span><span class="g ga game4AScore" data-osb-component="field" data-osb-field="game4AScore">0</span><span class="g gb game4BScore" data-osb-component="field" data-osb-field="game4BScore">0</span></div>
+      <div class="otwrap isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="display: none; opacity: 0;"><div class="col"><span class="ph">OT1</span><span class="g ga game5AScore" data-osb-component="field" data-osb-field="game5AScore">0</span><span class="g gb game5BScore" data-osb-component="field" data-osb-field="game5BScore">0</span></div></div>
+      <div class="otwrap isGame6Started" data-osb-component="field" data-osb-field="isGame6Started" style="display: none; opacity: 0;"><div class="col"><span class="ph">OT2</span><span class="g ga game6AScore" data-osb-component="field" data-osb-field="game6AScore">0</span><span class="g gb game6BScore" data-osb-component="field" data-osb-field="game6BScore">0</span></div></div>
+    </div>
+    <div class="tot"><span class="ph">T</span><span class="pts currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="pts currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+  </section>
+  <footer class="foot">
+    <span class="s"><span>FOULS<span class="fl teamFoulsA" data-osb-component="field" data-osb-field="teamFoulsA" data-osb-static="true" data-sport-stat="foulsA">0</span></span><span class="tol"><span class="tol-v timeoutsRemainingA" data-osb-component="field" data-osb-field="timeoutsRemainingA"></span></span><span class="bonus bonusA" data-osb-component="field" data-osb-field="bonusA"></span></span>
+    <span class="now"><span class="per periodLabel" data-osb-component="field" data-osb-field="periodLabel" data-osb-static="true" data-sport-stat="period"></span><span class="gc"><span class="cm clockMinutes" data-osb-component="field" data-osb-field="clockMinutes" data-osb-static="true" data-sport-stat="clockMinutes">00</span><b class="colon">:</b><span class="cs clockSeconds" data-osb-component="field" data-osb-field="clockSeconds" data-osb-static="true" data-sport-stat="clockSeconds">00</span></span></span>
+    <span class="s b"><span class="bonus bonusB" data-osb-component="field" data-osb-field="bonusB"></span><span class="tol"><span class="tol-v timeoutsRemainingB" data-osb-component="field" data-osb-field="timeoutsRemainingB"></span></span><span>FOULS<span class="fl teamFoulsB" data-osb-component="field" data-osb-field="teamFoulsB" data-osb-static="true" data-sport-stat="foulsB">0</span></span></span>
+  </footer>
+  <div class="osb-aux"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="shotClockStatus" data-osb-component="field" data-osb-field="shotClockStatus"></span><span class="possession" data-osb-component="field" data-osb-field="possession"></span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div>
+</main>
+</body>
+</html>

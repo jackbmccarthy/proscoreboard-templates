@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "dadd955b9f36bab1110c64f57360f198c17e1125757f508e1b0d266b0e1197fa",
+  "revision": "b2e66a06630313b2669b0b82e4f31dc7a6b117191009e93af67a96e5f556c584",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -29285,6 +29285,886 @@
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "volleyball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Recreates the centre-hung arena scoreboard: a black LED-dot panel with glowing red score digits, an amber game clock and period, a shot-clock window and bonus lamps that light when a team is in the bonus. Team fouls and timeouts left read like the physical board; timeout and break messages light across the panel. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Physical arena scoreboard: LED-dot panel with HOME/GUEST style digits, bonus lamps and shot clock.",
+      "output": "html-replications/native-basketball-arena-led.html",
+      "palette": [
+        "#050505",
+        "#ff4a1c",
+        "#ffc23d",
+        "#2b2b2b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-arena-led",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Arena LED — Basketball lower third",
+      "fileName": "native-basketball-arena-led.html",
+      "contentHash": "06580e47d0adbda08a8327fcc5538c5d8bec9771c737096b907cde00ff3ef360",
+      "documentPath": "published/06580e47d0adbda08a8327fcc5538c5d8bec9771c737096b907cde00ff3ef360.json",
+      "preview": {
+        "path": "previews/dc832dfad34b354d9555a9f5bb1ba647798dee0577be50449d5db826af98a588.png",
+        "imageHash": "dc832dfad34b354d9555a9f5bb1ba647798dee0577be50449d5db826af98a588",
+        "contentHash": "06580e47d0adbda08a8327fcc5538c5d8bec9771c737096b907cde00ff3ef360",
+        "width": 1208,
+        "height": 229,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Corner scorebug in the arena-broadcast tradition: kit-coloured team rows with large scores sit beside a dedicated clock tower holding the game clock, period and an amber shot clock. A footer carries live team fouls, quarter progress pips, possession and per-team bonus and timeouts-left tags; a timeout banner covers the calling team row while it is active. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Two stacked team rows beside a dedicated black clock tower with period and amber shot clock.",
+      "output": "html-replications/native-basketball-arena-stack.html",
+      "palette": [
+        "#111419",
+        "#1b2028",
+        "#ffb020",
+        "#f4f5f7"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-arena-stack",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Arena Stack — Basketball corner scorebug",
+      "fileName": "native-basketball-arena-stack.html",
+      "contentHash": "b28b013e5fd73f69aae6c0c01dc485aa0c7e811a4f6eb6817990fb50b3accd5d",
+      "documentPath": "published/b28b013e5fd73f69aae6c0c01dc485aa0c7e811a4f6eb6817990fb50b3accd5d.json",
+      "preview": {
+        "path": "previews/8be0e44a237186dabd7f5abfc36d888087210a661873947a75378880f9ce6bf1.png",
+        "imageHash": "8be0e44a237186dabd7f5abfc36d888087210a661873947a75378880f9ce6bf1",
+        "contentHash": "b28b013e5fd73f69aae6c0c01dc485aa0c7e811a4f6eb6817990fb50b3accd5d",
+        "width": 518,
+        "height": 197,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Full-screen between-periods or final graphic: event and round header, then a broadcast line score with Q1 to Q4 columns, overtime columns that appear only once overtime starts, and bold totals for each team with its kit colour. A footer shows the current period and clock, team fouls and timeouts left, with live BREAK and FINAL flags. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Full-screen quarter-by-quarter line score with overtime columns, totals, fouls and timeouts.",
+      "output": "html-replications/native-basketball-box-score.html",
+      "palette": [
+        "#0b1424",
+        "#15233b",
+        "#f08a24",
+        "#e8edf5"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-box-score",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "full-screen",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Box Score — Basketball full-screen",
+      "fileName": "native-basketball-box-score.html",
+      "contentHash": "da2a18e46ed7c897fc7e6b7f1a2c35f0ed5690ab57306708e4430cfe0d19104a",
+      "documentPath": "published/da2a18e46ed7c897fc7e6b7f1a2c35f0ed5690ab57306708e4430cfe0d19104a.json",
+      "preview": {
+        "path": "previews/a1dfe174c0bf554403484824f1afa8ba13a1cdc1348033cbe8381ff8cda665f5.png",
+        "imageHash": "a1dfe174c0bf554403484824f1afa8ba13a1cdc1348033cbe8381ff8cda665f5",
+        "contentHash": "da2a18e46ed7c897fc7e6b7f1a2c35f0ed5690ab57306708e4430cfe0d19104a",
+        "width": 1296,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Network lower third: home and away plates mirror around a central module showing period, game clock and shot clock. Under each plate a rail shows live team fouls, bonus and timeouts left; quarter pips and possession sit under the clock. Timeout banners cover the calling team; event and round ride in a tab above the clock. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Full-width team plates flanking a central period/clock/shot module with per-team foul rails.",
+      "output": "html-replications/native-basketball-broadcast-bar.html",
+      "palette": [
+        "#0c0e12",
+        "#1f242c",
+        "#e43d30",
+        "#ffffff"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-broadcast-bar",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Broadcast Bar — Basketball lower third",
+      "fileName": "native-basketball-broadcast-bar.html",
+      "contentHash": "7b5c1b0360b0150eacf0e91509caacf7b4022a36aa6a7ca9762aae902d35c68f",
+      "documentPath": "published/7b5c1b0360b0150eacf0e91509caacf7b4022a36aa6a7ca9762aae902d35c68f.json",
+      "preview": {
+        "path": "previews/85acad88ccbab8a2c4412b40d01e95f3c7d7ca4b367f03cb44af24c0bbd6559b.png",
+        "imageHash": "85acad88ccbab8a2c4412b40d01e95f3c7d7ca4b367f03cb44af24c0bbd6559b",
+        "contentHash": "7b5c1b0360b0150eacf0e91509caacf7b4022a36aa6a7ca9762aae902d35c68f",
+        "width": 1244,
+        "height": 170,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Minimal streaming lower third: a slim frosted bar with team names, kit-filled score tiles and a right-hand cluster of period, game clock and a superscript shot clock. Fouls, bonus and timeouts left tuck under each name in small caps; timeout and break states are live. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Slim frosted-glass line with kit-filled score tiles and a compact clock/shot cluster.",
+      "output": "html-replications/native-basketball-glass-line.html",
+      "palette": [
+        "#f6f8fb",
+        "#0f1724",
+        "#3b82f6",
+        "#64748b"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-glass-line",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Glass Line — Basketball lower third",
+      "fileName": "native-basketball-glass-line.html",
+      "contentHash": "d09568e4e761a1d9ea317b6af24cea711639b2bbef5bfaae355c7d6964d99f7a",
+      "documentPath": "published/d09568e4e761a1d9ea317b6af24cea711639b2bbef5bfaae355c7d6964d99f7a.json",
+      "preview": {
+        "path": "previews/3624269809ff676559bbb9009dcf2166e6ef5016300c3be36332117930b498b4.png",
+        "imageHash": "3624269809ff676559bbb9009dcf2166e6ef5016300c3be36332117930b498b4",
+        "contentHash": "d09568e4e761a1d9ea317b6af24cea711639b2bbef5bfaae355c7d6964d99f7a",
+        "width": 1146,
+        "height": 170,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Horizontal network-style corner bug. Each team tab shows a kit stripe, name and big score on navy, trimmed with a maple hardwood rail; a dark clock block on the right holds the period, game clock and shot clock. A sub-rail under each team carries live team fouls, bonus and timeouts left, with possession and a timeout banner as live states. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Single-line network bug: maple-trimmed team tabs with a navy clock block and foul/bonus sub-rail.",
+      "output": "html-replications/native-basketball-hardwood-tab.html",
+      "palette": [
+        "#13294b",
+        "#d9a55b",
+        "#0b1730",
+        "#ffffff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-hardwood-tab",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Hardwood Tab — Basketball corner scorebug",
+      "fileName": "native-basketball-hardwood-tab.html",
+      "contentHash": "525cd0aa1bd52a220f7d34952987e07020cb7f8780efb800c7d1c593f9385ac2",
+      "documentPath": "published/525cd0aa1bd52a220f7d34952987e07020cb7f8780efb800c7d1c593f9385ac2.json",
+      "preview": {
+        "path": "previews/5dadcec500f0e2abc90402a5d288e2ebbd656db2732d185bdc11f0ce34370c12.png",
+        "imageHash": "5dadcec500f0e2abc90402a5d288e2ebbd656db2732d185bdc11f0ce34370c12",
+        "contentHash": "525cd0aa1bd52a220f7d34952987e07020cb7f8780efb800c7d1c593f9385ac2",
+        "width": 779,
+        "height": 157,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Streetball/esports-flavoured corner bug: rounded team capsules with kit-glow score pills, and a circular neon shot-clock dial beside the game clock and period. Team fouls, bonus, timeouts left and quarter pips sit in a slim lower rail; timeout and break states are live. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Rounded neon team capsules orbiting a circular shot-clock dial and game clock.",
+      "output": "html-replications/native-basketball-neon-dial.html",
+      "palette": [
+        "#170c2e",
+        "#27e1ff",
+        "#ff3d9a",
+        "#f5f3ff"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-neon-dial",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Neon Dial — Basketball corner scorebug",
+      "fileName": "native-basketball-neon-dial.html",
+      "contentHash": "7f4cb776c8f5987bde537422fea142cadabbc22e89410ac9cd3b85d8d4347519",
+      "documentPath": "published/7f4cb776c8f5987bde537422fea142cadabbc22e89410ac9cd3b85d8d4347519.json",
+      "preview": {
+        "path": "previews/a928c4187aeaa9f277adff68725d0d7fd9cf9e0bceecd0e763a40268c5426eb3.png",
+        "imageHash": "a928c4187aeaa9f277adff68725d0d7fd9cf9e0bceecd0e763a40268c5426eb3",
+        "contentHash": "7f4cb776c8f5987bde537422fea142cadabbc22e89410ac9cd3b85d8d4347519",
+        "width": 558,
+        "height": 234,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Bold sports-network lower third: angled team plates filled with the live kit colour carry big white scores and names, meeting a dark hexagonal hub with period, game clock and shot clock. A rail below shows team fouls, bonus, timeouts left, quarter pips and possession; timeout banners and a break message are live states. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Angled kit-coloured team plates meeting a dark hexagonal clock hub with a possession rail.",
+      "output": "html-replications/native-basketball-possession-rail.html",
+      "palette": [
+        "#101214",
+        "#ffffff",
+        "#f2c230",
+        "#2d3238"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-possession-rail",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Possession Rail — Basketball lower third",
+      "fileName": "native-basketball-possession-rail.html",
+      "contentHash": "72222668b3941d2236a90efcc01c68dd3902e82f41c08973cdb2b8d8bdd0faaf",
+      "documentPath": "published/72222668b3941d2236a90efcc01c68dd3902e82f41c08973cdb2b8d8bdd0faaf.json",
+      "preview": {
+        "path": "previews/fda7d0e7ef2a8a14ad80971e3d57f2c6593e763a74d63aefa96eee1cd8874090.png",
+        "imageHash": "fda7d0e7ef2a8a14ad80971e3d57f2c6593e763a74d63aefa96eee1cd8874090",
+        "contentHash": "72222668b3941d2236a90efcc01c68dd3902e82f41c08973cdb2b8d8bdd0faaf",
+        "width": 1114,
+        "height": 188,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Full-screen halftime or final card split into two kit-coloured halves with huge score numerals and team names, joined by a centre-circle badge holding the period and clock with live BREAK and FINAL states. A lower strip lists each quarter as a chip, plus team fouls and timeouts left. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Full-screen split in team kit colours with giant scores, centre-circle period badge and quarter chips.",
+      "output": "html-replications/native-basketball-split-court.html",
+      "palette": [
+        "#0d0f13",
+        "#f7f4ec",
+        "#e0592a",
+        "#2a2e36"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-split-court",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "full-screen",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Split Court — Basketball full-screen",
+      "fileName": "native-basketball-split-court.html",
+      "contentHash": "088090dca7abf9f9ac7604638b4b19369d2f2d7579c28432a9c77773a23e3097",
+      "documentPath": "published/088090dca7abf9f9ac7604638b4b19369d2f2d7579c28432a9c77773a23e3097.json",
+      "preview": {
+        "path": "previews/4dd618de53a60be438d5ca2b2f1f73d06da39953629f57a6d17f024a102ab14b.png",
+        "imageHash": "4dd618de53a60be438d5ca2b2f1f73d06da39953629f57a6d17f024a102ab14b",
+        "contentHash": "088090dca7abf9f9ac7604638b4b19369d2f2d7579c28432a9c77773a23e3097",
+        "width": 1296,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "High-school and college gym style: a cream scorecard with slab-serif team names and numerals, kit-colour pennant notches, a red clock band with the period and shot clock, and a foul ledger per team with bonus and timeouts-left markers. Timeout and break states are live. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Cream varsity scorecard with slab-serif numerals and a red clock band.",
+      "output": "html-replications/native-basketball-varsity-card.html",
+      "palette": [
+        "#fbf7ee",
+        "#b3202a",
+        "#1a2340",
+        "#e9e0cc"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "basketball",
+      "styleID": "sport-native-basketball-varsity-card",
+      "tags": [
+        "basketball",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Varsity Card — Basketball corner scorebug",
+      "fileName": "native-basketball-varsity-card.html",
+      "contentHash": "ff24275f14edd25234efb9fcd920c4297d490e27d1fec3efc338c304b0bf62b0",
+      "documentPath": "published/ff24275f14edd25234efb9fcd920c4297d490e27d1fec3efc338c304b0bf62b0.json",
+      "preview": {
+        "path": "previews/b8ecb5caeb68629def362fbbd2632a5c48fe13ef9278b00215bb28cf36aa124b.png",
+        "imageHash": "b8ecb5caeb68629def362fbbd2632a5c48fe13ef9278b00215bb28cf36aa124b",
+        "contentHash": "ff24275f14edd25234efb9fcd920c4297d490e27d1fec3efc338c304b0bf62b0",
+        "width": 482,
+        "height": 271,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "A pitch-themed corner bug: mown grass stripes, a chalk halfway line and a centre circle that frames the score. Team names with kit spots and card markers sit in each half, the running clock, added time and half label sit beneath the circle, and HT replaces the clock at the break. A shootout line is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Mown-pitch panel with chalk halfway line and the score inside a centre circle.",
+      "output": "html-replications/native-soccer-centre-circle.html",
+      "palette": [
+        "#1f6b34",
+        "#2a7d3f",
+        "#ffffff",
+        "#0f3d1d"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-centre-circle",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Centre Circle — Soccer corner scorebug",
+      "fileName": "native-soccer-centre-circle.html",
+      "contentHash": "eaf65b6cc7739bb5cc76ee339504aa95d2ac39d9d8f12a5c5519042ba04caccc",
+      "documentPath": "published/eaf65b6cc7739bb5cc76ee339504aa95d2ac39d9d8f12a5c5519042ba04caccc.json",
+      "preview": {
+        "path": "previews/cbe6d525f23adf05eb6951446e5e3b877e5a2f69271b07e34611342c079f4264.png",
+        "imageHash": "cbe6d525f23adf05eb6951446e5e3b877e5a2f69271b07e34611342c079f4264",
+        "contentHash": "eaf65b6cc7739bb5cc76ee339504aa95d2ac39d9d8f12a5c5519042ba04caccc",
+        "width": 546,
+        "height": 190,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Cup-competition lower third in burgundy and gold: kit ribbons and team names lead into a gold-rimmed score capsule, with the round and event on a gold header, the running clock, added time and half on the right and card markers per team. A penalty shootout tray under the capsule is included hidden for shootout use; HT is a live state. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Cup-final burgundy and gold: laurel-capped score capsule, kit ribbons, clock and penalties tray.",
+      "output": "html-replications/native-soccer-cup-tie.html",
+      "palette": [
+        "#3d0a14",
+        "#7a1426",
+        "#e8c36a",
+        "#fff6e0"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-cup-tie",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Cup Tie — Soccer lower third",
+      "fileName": "native-soccer-cup-tie.html",
+      "contentHash": "ae4f4bfc1473786c02bbc8f9f50ca3fe8f6ba42258c28e62e6dc43653fc88648",
+      "documentPath": "published/ae4f4bfc1473786c02bbc8f9f50ca3fe8f6ba42258c28e62e6dc43653fc88648.json",
+      "preview": {
+        "path": "previews/86bdd7f3968c72f1a0b45390925ed3ff8033da3b2540b0e009ea4f45dcbab9ef.png",
+        "imageHash": "86bdd7f3968c72f1a0b45390925ed3ff8033da3b2540b0e009ea4f45dcbab9ef",
+        "contentHash": "ae4f4bfc1473786c02bbc8f9f50ca3fe8f6ba42258c28e62e6dc43653fc88648",
+        "width": 1038,
+        "height": 157,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Full-screen editorial poster for the final whistle or the break: two kit-colour columns frame an oversized score with team names in poster type, a \"HT 1-0\" reference built from the first-half score, a period ledger with extra-time rows that appear only when played, card markers and a penalties line included hidden. Event, round, clock and live HALF-TIME / FULL TIME flags complete it. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Editorial full-time poster: oversized score, kit colour columns, half-time score and period ledger.",
+      "output": "html-replications/native-soccer-full-time-poster.html",
+      "palette": [
+        "#101010",
+        "#f4efe6",
+        "#d94a2b",
+        "#2b2b2b"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-full-time-poster",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "full-screen",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Full-time Poster — Soccer full-screen",
+      "fileName": "native-soccer-full-time-poster.html",
+      "contentHash": "d3758e61b6a3c5f05eabf9028413de16d84463d6a28bfcde0289d2b7d7868788",
+      "documentPath": "published/d3758e61b6a3c5f05eabf9028413de16d84463d6a28bfcde0289d2b7d7868788.json",
+      "preview": {
+        "path": "previews/b1bc070eb6688a105bd982ae3571afbf1cce515b8589d8e662aa3e5c400aa12d.png",
+        "imageHash": "b1bc070eb6688a105bd982ae3571afbf1cce515b8589d8e662aa3e5c400aa12d",
+        "contentHash": "d3758e61b6a3c5f05eabf9028413de16d84463d6a28bfcde0289d2b7d7868788",
+        "width": 1296,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Lower-level football ground LED board: black matrix panel with white team lettering, big amber score digits either side of a dash, a minute counter with added-time window and half, and red/yellow card lamps per team. HT lights across the panel at the break; a penalties window is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Stadium end-stand LED board: HOME/AWAY lettering, amber matrix digits, minute counter and card lamps.",
+      "output": "html-replications/native-soccer-ground-led.html",
+      "palette": [
+        "#050505",
+        "#ffb000",
+        "#e8e8e8",
+        "#262626"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-ground-led",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Ground LED — Soccer lower third",
+      "fileName": "native-soccer-ground-led.html",
+      "contentHash": "344a58a67d12a2c0ba2f36179fd2426ca3403d668f9a1b9e99fe3db27606c4ed",
+      "documentPath": "published/344a58a67d12a2c0ba2f36179fd2426ca3403d668f9a1b9e99fe3db27606c4ed.json",
+      "preview": {
+        "path": "previews/bc28d82aea76c7aae0774212b8d797f9f0adf314933ae3e6105d3c8363533f1a.png",
+        "imageHash": "bc28d82aea76c7aae0774212b8d797f9f0adf314933ae3e6105d3c8363533f1a",
+        "contentHash": "344a58a67d12a2c0ba2f36179fd2426ca3403d668f9a1b9e99fe3db27606c4ed",
+        "width": 1182,
+        "height": 178,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Full-screen half-time or full-time report on a deep pitch-green field: event and round header, a live HALF-TIME flag, the central score with kit bars and team names, then a half-by-half breakdown (extra-time rows appear only once extra time starts) and a discipline table of yellow cards, red cards and fouls per team. Clock, half and a hidden penalties row are included. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Full-screen pitch-green report: central score, half-by-half breakdown, cards and fouls per team.",
+      "output": "html-replications/native-soccer-half-time-report.html",
+      "palette": [
+        "#0c2a17",
+        "#14532d",
+        "#ffffff",
+        "#facc15"
+      ],
+      "placement": "full-screen",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-half-time-report",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "full-screen",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Half-time Report — Soccer full-screen",
+      "fileName": "native-soccer-half-time-report.html",
+      "contentHash": "1c76c225ac798b621df4a6598ed1ca5a2679bc5e0cfe89972b9921cc292d90b8",
+      "documentPath": "published/1c76c225ac798b621df4a6598ed1ca5a2679bc5e0cfe89972b9921cc292d90b8.json",
+      "preview": {
+        "path": "previews/769724a1a075e478977edc2def1a8ce838d1bd256bc058a90a8516b43346efa7.png",
+        "imageHash": "769724a1a075e478977edc2def1a8ce838d1bd256bc058a90a8516b43346efa7",
+        "contentHash": "1c76c225ac798b621df4a6598ed1ca5a2679bc5e0cfe89972b9921cc292d90b8",
+        "width": 1296,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Lower third split into two halves filled with each team's live kit colour, meeting at a diagonal seam under a floating white \"2 - 1\" capsule. A dark clock tab below the capsule shows running time, added time and half, cards sit next to each team name and HT replaces the clock at the break. A penalties line is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Two kit-filled halves with diagonal seam and a floating white score capsule with clock tab.",
+      "output": "html-replications/native-soccer-kit-split.html",
+      "palette": [
+        "#14161a",
+        "#ffffff",
+        "#f2f2f2",
+        "#3a3f47"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-kit-split",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Kit Split — Soccer lower third",
+      "fileName": "native-soccer-kit-split.html",
+      "contentHash": "23caea295e7d0d4ea9e543388fe13e92af247eaf7e78fa84ab6d27e216d92cc2",
+      "documentPath": "published/23caea295e7d0d4ea9e543388fe13e92af247eaf7e78fa84ab6d27e216d92cc2.json",
+      "preview": {
+        "path": "previews/fe98803c191595cb8982d50fe7ac36b815f3447713ca22774450da6df4f94727.png",
+        "imageHash": "fe98803c191595cb8982d50fe7ac36b815f3447713ca22774450da6df4f94727",
+        "contentHash": "23caea295e7d0d4ea9e543388fe13e92af247eaf7e78fa84ab6d27e216d92cc2",
+        "width": 1070,
+        "height": 155,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Broadcast match lower third: a crisp white strip with kit-colour shields and team names either side of a black central \"2 - 1\" block, a green clock module with added time and half, card markers on each team, event and round above, and a HT state. A penalties line sits under the score, hidden until an operator reveals it. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Wide white strip: kit shields, team names and a black central score block with clock and added time.",
+      "output": "html-replications/native-soccer-match-strip.html",
+      "palette": [
+        "#ffffff",
+        "#111111",
+        "#00a86b",
+        "#e9ecef"
+      ],
+      "placement": "lower-third",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-match-strip",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "lower-third",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Match Strip — Soccer lower third",
+      "fileName": "native-soccer-match-strip.html",
+      "contentHash": "9049efc2ea001d1dc1ffde897b1b8ed60e3b49c0cc1c956a81403d80a3882f91",
+      "documentPath": "published/9049efc2ea001d1dc1ffde897b1b8ed60e3b49c0cc1c956a81403d80a3882f91.json",
+      "preview": {
+        "path": "previews/095a49e5581c0917728ca0bc51a69c116492f22c74bc91c860fa608d8414091c.png",
+        "imageHash": "095a49e5581c0917728ca0bc51a69c116492f22c74bc91c860fa608d8414091c",
+        "contentHash": "9049efc2ea001d1dc1ffde897b1b8ed60e3b49c0cc1c956a81403d80a3882f91",
+        "width": 1082,
+        "height": 155,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "European-night styling: slanted midnight-blue segments with silver type run clock, kit flash, team, the score pair and the opponent in one line. Added time drops below the clock as a gold tab, cards sit on the team segments and HT replaces the clock at the break. Half label and a hidden shootout line are included. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Slanted midnight segments: clock, kit flash, team, score pair, team, kit flash.",
+      "output": "html-replications/native-soccer-night-slant.html",
+      "palette": [
+        "#0a1030",
+        "#1b2a6b",
+        "#c9d3ff",
+        "#ffd166"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-night-slant",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Night Slant — Soccer corner scorebug",
+      "fileName": "native-soccer-night-slant.html",
+      "contentHash": "2364a5a3a93c7f6938f168829d5ef6e8a34479b78adf7955f9a081694cd5c364",
+      "documentPath": "published/2364a5a3a93c7f6938f168829d5ef6e8a34479b78adf7955f9a081694cd5c364.json",
+      "preview": {
+        "path": "previews/4814dce2c446a63555ad4bb5fcd7777406bc8aeaa7c29b22e79fa3abfdf17d6f.png",
+        "imageHash": "4814dce2c446a63555ad4bb5fcd7777406bc8aeaa7c29b22e79fa3abfdf17d6f",
+        "contentHash": "2364a5a3a93c7f6938f168829d5ef6e8a34479b78adf7955f9a081694cd5c364",
+        "width": 608,
+        "height": 97,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "Stacked corner bug used across cup football: a header tab holds the running clock, half and added time, with a HT state; two team rows below each carry a kit stripe, name, red and yellow card markers and a bold score box. Event and round run in a footer; a shootout line is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Two-row stacked bug with a clock header tab, kit stripes, card markers and an added-time flag.",
+      "output": "html-replications/native-soccer-stand-stack.html",
+      "palette": [
+        "#0b1d3a",
+        "#ffffff",
+        "#d7263d",
+        "#132a52"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-stand-stack",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Stand Stack — Soccer corner scorebug",
+      "fileName": "native-soccer-stand-stack.html",
+      "contentHash": "8b6e8a5025b79bc479a7298988597b4473cf29c80a26c92feef33a3fb45263b6",
+      "documentPath": "published/8b6e8a5025b79bc479a7298988597b4473cf29c80a26c92feef33a3fb45263b6.json",
+      "preview": {
+        "path": "previews/e2b680e124db29d4b48fd2769f66bf212e18846667f504ce5ec2cd219a3812d2.png",
+        "imageHash": "e2b680e124db29d4b48fd2769f66bf212e18846667f504ce5ec2cd219a3812d2",
+        "contentHash": "8b6e8a5025b79bc479a7298988597b4473cf29c80a26c92feef33a3fb45263b6",
+        "width": 392,
+        "height": 198,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
+      }
+    },
+    {
+      "aliases": [],
+      "description": "The classic one-line football scorebug: a running match clock block with an added-time tab and live dot, then \"TEAM 2-1 TEAM\" with kit-colour chips and the score in the middle. Red and yellow card markers sit beside each team, the half shows under the clock and a HT flag replaces it at the break. A penalty shootout line is included hidden for operators to reveal. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "One-line league bug: clock block, then kit chips with team names either side of a central 2-1 score.",
+      "output": "html-replications/native-soccer-touchline-bug.html",
+      "palette": [
+        "#062b2f",
+        "#c8f560",
+        "#ffffff",
+        "#0b3d42"
+      ],
+      "placement": "corner",
+      "published": true,
+      "runtimeSupport": {
+        "scores": "multi-sport",
+        "sportCounters": "live-bound",
+        "sportRules": true
+      },
+      "scoringMode": "native",
+      "sport": "soccer",
+      "styleID": "sport-native-soccer-touchline-bug",
+      "tags": [
+        "soccer",
+        "sport-native",
+        "broadcast",
+        "corner",
+        "teams",
+        "native-scoring"
+      ],
+      "title": "Touchline Bug — Soccer corner scorebug",
+      "fileName": "native-soccer-touchline-bug.html",
+      "contentHash": "7ab59541af7297d287afb6ffcf1ba9078f26f7792ea845207282eb73b2229029",
+      "documentPath": "published/7ab59541af7297d287afb6ffcf1ba9078f26f7792ea845207282eb73b2229029.json",
+      "preview": {
+        "path": "previews/e36de224522eac738a1b61ef4ce6adcad8762ccb8b2d4d67b57d9190f2c602b7.png",
+        "imageHash": "e36de224522eac738a1b61ef4ce6adcad8762ccb8b2d4d67b57d9190f2c602b7",
+        "contentHash": "7ab59541af7297d287afb6ffcf1ba9078f26f7792ea845207282eb73b2229029",
+        "width": 536,
+        "height": 99,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "soccer"
       }
     },
     {
