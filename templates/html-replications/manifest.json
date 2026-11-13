@@ -44493,7 +44493,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Corner scorebug in the arena-broadcast tradition: kit-coloured team rows with large scores sit beside a dedicated clock tower holding the game clock, period and an amber shot clock. A footer carries live team fouls, quarter progress pips, possession and per-team bonus and timeouts-left tags; a timeout banner covers the calling team row while it is active. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Corner scorebug in the arena-broadcast tradition: kit-coloured team rows with large scores sit beside a dedicated clock tower holding the game clock, period and an amber shot clock. A footer carries live team fouls, quarter progress pips, possession and per-team bonus and timeouts-left tags; a timeout banner covers the calling team row while it is active. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44524,7 +44524,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Horizontal network-style corner bug. Each team tab shows a kit stripe, name and big score on navy, trimmed with a maple hardwood rail; a dark clock block on the right holds the period, game clock and shot clock. A sub-rail under each team carries live team fouls, bonus and timeouts left, with possession and a timeout banner as live states. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Horizontal network-style corner bug. Each team tab shows a kit stripe, name and big score on navy, trimmed with a maple hardwood rail; a dark clock block on the right holds the period, game clock and shot clock. A sub-rail under each team carries live team fouls, bonus and timeouts left, with possession and a timeout banner as live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44555,7 +44555,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Streetball/esports-flavoured corner bug: rounded team capsules with kit-glow score pills, and a circular neon shot-clock dial beside the game clock and period. Team fouls, bonus, timeouts left and quarter pips sit in a slim lower rail; timeout and break states are live. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Streetball/esports-flavoured corner bug: rounded team capsules with kit-glow score pills, and a circular neon shot-clock dial beside the game clock and period. Team fouls, bonus, timeouts left and quarter pips sit in a slim lower rail; timeout and break states are live. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44586,7 +44586,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "High-school and college gym style: a cream scorecard with slab-serif team names and numerals, kit-colour pennant notches, a red clock band with the period and shot clock, and a foul ledger per team with bonus and timeouts-left markers. Timeout and break states are live. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "High-school and college gym style: a cream scorecard with slab-serif team names and numerals, kit-colour pennant notches, a red clock band with the period and shot clock, and a foul ledger per team with bonus and timeouts-left markers. Timeout and break states are live. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44617,7 +44617,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Network lower third: home and away plates mirror around a central module showing period, game clock and shot clock. Under each plate a rail shows live team fouls, bonus and timeouts left; quarter pips and possession sit under the clock. Timeout banners cover the calling team; event and round ride in a tab above the clock. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Network lower third: home and away plates mirror around a central module showing period, game clock and shot clock. Under each plate a rail shows live team fouls, bonus and timeouts left; quarter pips and possession sit under the clock. Timeout banners cover the calling team; event and round ride in a tab above the clock. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44648,7 +44648,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Recreates the centre-hung arena scoreboard: a black LED-dot panel with glowing red score digits, an amber game clock and period, a shot-clock window and bonus lamps that light when a team is in the bonus. Team fouls and timeouts left read like the physical board; timeout and break messages light across the panel. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Recreates the centre-hung arena scoreboard: a black LED-dot panel with glowing red score digits, an amber game clock and period, a shot-clock window and bonus lamps that light when a team is in the bonus. Team fouls and timeouts left read like the physical board; timeout and break messages light across the panel. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44679,7 +44679,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Minimal streaming lower third: a slim frosted bar with team names, kit-filled score tiles and a right-hand cluster of period, game clock and a superscript shot clock. Fouls, bonus and timeouts left tuck under each name in small caps; timeout and break states are live. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Minimal streaming lower third: a slim frosted bar with team names, kit-filled score tiles and a right-hand cluster of period, game clock and a superscript shot clock. Fouls, bonus and timeouts left tuck under each name in small caps; timeout and break states are live. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44710,7 +44710,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Bold sports-network lower third: angled team plates filled with the live kit colour carry big white scores and names, meeting a dark hexagonal hub with period, game clock and shot clock. A rail below shows team fouls, bonus, timeouts left, quarter pips and possession; timeout banners and a break message are live states. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Bold sports-network lower third: angled team plates filled with the live kit colour carry big white scores and names, meeting a dark hexagonal hub with period, game clock and shot clock. A rail below shows team fouls, bonus, timeouts left, quarter pips and possession; timeout banners and a break message are live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44741,7 +44741,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Full-screen between-periods or final graphic: event and round header, then a broadcast line score with Q1 to Q4 columns, overtime columns that appear only once overtime starts, and bold totals for each team with its kit colour. A footer shows the current period and clock, team fouls and timeouts left, with live BREAK and FINAL flags. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Full-screen between-periods or final graphic: event and round header, then a broadcast line score with Q1 to Q4 columns, overtime columns that appear only once overtime starts, and bold totals for each team with its kit colour. A footer shows the current period and clock, team fouls and timeouts left, with live BREAK and FINAL flags. Summary bindings: quarter and overtime line score (game1-6A/BScore with dashes for unplayed periods). Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44772,7 +44772,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Full-screen halftime or final card split into two kit-coloured halves with huge score numerals and team names, joined by a centre-circle badge holding the period and clock with live BREAK and FINAL states. A lower strip lists each quarter as a chip, plus team fouls and timeouts left. Live bindings: names, kit colours, scores, game clock (clockMinutes/clockSeconds), periodLabel, shot clock (runtime sport-stat alias), team fouls, bonus, timeouts remaining, possession side, active-timeout and between-periods states, period-started flags. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Full-screen halftime or final card split into two kit-coloured halves with huge score numerals and team names, joined by a centre-circle badge holding the period and clock with live BREAK and FINAL states. A lower strip lists each quarter as a chip, plus team fouls and timeouts left. Summary bindings: quarter and overtime line score (game1-6A/BScore with dashes for unplayed periods). Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "basketball",
     "scoringMode": "native",
@@ -44803,7 +44803,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "The classic one-line football scorebug: a running match clock block with an added-time tab and live dot, then \"TEAM 2-1 TEAM\" with kit-colour chips and the score in the middle. Red and yellow card markers sit beside each team, the half shows under the clock and a HT flag replaces it at the break. A penalty shootout line is included hidden for operators to reveal. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "The classic one-line football scorebug: a running match clock block with an added-time tab and live dot, then \"TEAM 2-1 TEAM\" with kit-colour chips and the score in the middle. Red and yellow card markers sit beside each team, the half shows under the clock and a HT flag replaces it at the break. A penalty shootout line is included hidden for operators to reveal. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -44834,7 +44834,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Stacked corner bug used across cup football: a header tab holds the running clock, half and added time, with a HT state; two team rows below each carry a kit stripe, name, red and yellow card markers and a bold score box. Event and round run in a footer; a shootout line is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Stacked corner bug used across cup football: a header tab holds the running clock, half and added time, with a HT state; two team rows below each carry a kit stripe, name, red and yellow card markers and a bold score box. Event and round run in a footer; a shootout line is included hidden. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -44865,7 +44865,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "A pitch-themed corner bug: mown grass stripes, a chalk halfway line and a centre circle that frames the score. Team names with kit spots and card markers sit in each half, the running clock, added time and half label sit beneath the circle, and HT replaces the clock at the break. A shootout line is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "A pitch-themed corner bug: mown grass stripes, a chalk halfway line and a centre circle that frames the score. Team names with kit spots and card markers sit in each half, the running clock, added time and half label sit beneath the circle, and HT replaces the clock at the break. A shootout line is included hidden. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -44896,7 +44896,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "European-night styling: slanted midnight-blue segments with silver type run clock, kit flash, team, the score pair and the opponent in one line. Added time drops below the clock as a gold tab, cards sit on the team segments and HT replaces the clock at the break. Half label and a hidden shootout line are included. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "European-night styling: slanted midnight-blue segments with silver type run clock, kit flash, team, the score pair and the opponent in one line. Added time drops below the clock as a gold tab, cards sit on the team segments and HT replaces the clock at the break. Half label and a hidden shootout line are included. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -44927,7 +44927,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Broadcast match lower third: a crisp white strip with kit-colour shields and team names either side of a black central \"2 - 1\" block, a green clock module with added time and half, card markers on each team, event and round above, and a HT state. A penalties line sits under the score, hidden until an operator reveals it. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Broadcast match lower third: a crisp white strip with kit-colour shields and team names either side of a black central \"2 - 1\" block, a green clock module with added time and half, card markers on each team, event and round above, and a HT state. A penalties line sits under the score, hidden until an operator reveals it. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -44958,7 +44958,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Cup-competition lower third in burgundy and gold: kit ribbons and team names lead into a gold-rimmed score capsule, with the round and event on a gold header, the running clock, added time and half on the right and card markers per team. A penalty shootout tray under the capsule is included hidden for shootout use; HT is a live state. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Cup-competition lower third in burgundy and gold: kit ribbons and team names lead into a gold-rimmed score capsule, with the round and event on a gold header, the running clock, added time and half on the right and card markers per team. A penalty shootout tray under the capsule is included hidden for shootout use; HT is a live state. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -44989,7 +44989,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Lower-level football ground LED board: black matrix panel with white team lettering, big amber score digits either side of a dash, a minute counter with added-time window and half, and red/yellow card lamps per team. HT lights across the panel at the break; a penalties window is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Lower-level football ground LED board: black matrix panel with white team lettering, big amber score digits either side of a dash, a minute counter with added-time window and half, and red/yellow card lamps per team. HT lights across the panel at the break; a penalties window is included hidden. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -45020,7 +45020,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Lower third split into two halves filled with each team's live kit colour, meeting at a diagonal seam under a floating white \"2 - 1\" capsule. A dark clock tab below the capsule shows running time, added time and half, cards sit next to each team name and HT replaces the clock at the break. A penalties line is included hidden. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Lower third split into two halves filled with each team's live kit colour, meeting at a diagonal seam under a floating white \"2 - 1\" capsule. A dark clock tab below the capsule shows running time, added time and half, cards sit next to each team name and HT replaces the clock at the break. A penalties line is included hidden. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -45051,7 +45051,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Full-screen half-time or full-time report on a deep pitch-green field: event and round header, a live HALF-TIME flag, the central score with kit bars and team names, then a half-by-half breakdown (extra-time rows appear only once extra time starts) and a discipline table of yellow cards, red cards and fouls per team. Clock, half and a hidden penalties row are included. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Full-screen half-time or full-time report on a deep pitch-green field: event and round header, a live HALF-TIME flag, the central score with kit bars and team names, then a half-by-half breakdown (extra-time rows appear only once extra time starts) and a discipline table of yellow cards, red cards and fouls per team. Clock, half and a hidden penalties row are included. Summary bindings: half-by-half and extra-time goals (game1-4A/BScore), discipline and fouls. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",
@@ -45082,7 +45082,7 @@
       "teams",
       "native-scoring"
     ],
-    "description": "Full-screen editorial poster for the final whistle or the break: two kit-colour columns frame an oversized score with team names in poster type, a \"HT 1-0\" reference built from the first-half score, a period ledger with extra-time rows that appear only when played, card markers and a penalties line included hidden. Event, round, clock and live HALF-TIME / FULL TIME flags complete it. Live bindings: names, kit colours, scores, match clock (clockMinutes/clockSeconds), added time, periodLabel, red/yellow card states and counts, match-started and break states, shootout scores (hidden by default; no runtime shootout-active flag). Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+    "description": "Full-screen editorial poster for the final whistle or the break: two kit-colour columns frame an oversized score with team names in poster type, a \"HT 1-0\" reference built from the first-half score, a period ledger with extra-time rows that appear only when played, card markers and a penalties line included hidden. Event, round, clock and live HALF-TIME / FULL TIME flags complete it. Summary bindings: half-by-half and extra-time goals (game1-4A/BScore), discipline and fouls. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
     "aliases": [],
     "sport": "soccer",
     "scoringMode": "native",

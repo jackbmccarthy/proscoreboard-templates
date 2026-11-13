@@ -7,49 +7,81 @@
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; background: transparent; }
-    body { padding: 24px 36px 44px; font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; }
-    .bug { position: relative; display: inline-flex; align-items: stretch; height: 44px; color: #eef1ff; filter: drop-shadow(0 4px 12px #000b); }
-    .seg { position: relative; display: flex; align-items: center; gap: 8px; padding: 0 18px; margin-left: -6px; background: linear-gradient(180deg, #1b2a6b, #0a1030); clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
-    .seg.clock { background: linear-gradient(180deg, #c9d3ff, #8d9be0); color: #0a1030; margin-left: 0; }
-    .gc { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
-    .live { width: 7px; height: 7px; border-radius: 50%; background: #0a1030; animation: blink 1.6s ease-in-out infinite; }
-    @keyframes blink { 50% { opacity: .25; } }
-    .ht { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #ffd166; color: #0a1030; font-size: 20px; font-weight: 600; letter-spacing: 3px; }
-    .flash { width: 30px; padding: 0; }
-    .flash .kit { position: absolute; inset: 0; background-color: #2a3a80; }
-    .nm { max-width: 130px; font-size: 21px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .card { display: inline-flex; align-items: center; justify-content: center; width: 11px; height: 16px; border-radius: 2px; font-size: 9px; font-weight: 700; }
-    .card.red { background: #e5262b; }
-    .card.yellow { background: #f7d117; color: #0a1030; }
-    .seg.score { gap: 10px; font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; background: #eef1ff; color: #0a1030; font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
-    .seg.score .dash { width: 2px; height: 22px; background: #8d9be0; }
-    .tabs { position: absolute; left: 8px; top: 44px; display: flex; gap: 4px; }
-    .added { padding: 2px 10px; background: #ffd166; color: #0a1030; font-size: 14px; font-weight: 700; clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 6px 100%); }
-    .added:has(.at:empty) { display: none; }
-    .half { padding: 2px 12px; background: #1b2a6b; color: #c9d3ff; font-size: 13px; font-weight: 600; letter-spacing: 1px; clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 6px 100%); }
-    .half:empty { display: none; }
-    .ev { position: absolute; right: 6px; top: 48px; display: flex; gap: 8px; font-size: 11px; font-weight: 600; letter-spacing: 2px; color: #c9d3ff; text-transform: uppercase; text-shadow: 0 1px 3px #000; }
-    .pens { display: none; }
-    .osb-aux, .point-slot { display: none; }
+    body { padding: 24px 32px 28px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; }
+    .osb { position: relative; width: 720px; color: #fff; filter: drop-shadow(0 6px 14px #000a); }
+    .ev { display: flex; gap: 12px; margin: 0 0 4px 18px; font-size: 15px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #e6ecf5; text-shadow: 0 1px 3px #000; }
+    .ev .matchRound { color: #39d5ff; }
+    .bar { display: grid; grid-template-columns: minmax(0, 1fr) 124px minmax(0, 1fr) 128px; height: 62px; }
+    .tm { display: grid; grid-template-columns: 10px minmax(0, 1fr); align-items: center; background: linear-gradient(#17233b, #0c1426); clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%); padding-left: 10px; min-width: 0; }
+    .tm.B { grid-template-columns: minmax(0, 1fr) 10px; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); padding: 0 10px 0 0; }
+    .tm.B > .kit { order: 2; }
+    .kit { height: 34px; transform: skewX(-12deg); background-color: #59616e; }
+    .nmw { display: flex; align-items: center; gap: 8px; padding: 0 12px; min-width: 0; }
+    .tm.B .nmw { flex-direction: row-reverse; text-align: right; }
+    .nm { min-width: 0; font-size: 23px; font-weight: 700; line-height: 1.02; letter-spacing: .5px; text-transform: uppercase; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; overflow-wrap: anywhere; }
+    .sc { display: flex; align-items: center; justify-content: center; gap: 8px; background: #39d5ff; color: #07101f; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 38px; font-weight: 700; font-variant-numeric: tabular-nums; clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
+    .sc b { font-size: 24px; opacity: .55; }
+    .clk { position: relative; display: grid; margin-left: 4px; background: #07101f; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); }
+    .clk > * { grid-area: 1 / 1; }
+    .live { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; }
+    .gc { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .sub { display: flex; align-items: center; gap: 7px; margin-top: 3px; }
+    .per { font-size: 15px; font-weight: 700; letter-spacing: 1px; color: #9fb0ca; }
+    .add { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 16px; font-weight: 700; color: #07101f; background: #39d5ff; padding: 1px 4px; border-radius: 2px; }
+    .dot { width: 7px; height: 7px; color: #ff4d5e; }
+    .runbar { position: absolute; left: 30px; right: 30px; bottom: 3px; height: 2px; background: #39d5ff; }
+    .mp { display: flex; gap: 2px; }
+    .h { position: relative; width: 12px; height: 2px; background: #2a3a58; }
+    .h > span { position: absolute; inset: 0; background: #39d5ff; }
+    .et { width: 6px; height: 2px; background: #ff9f1c; }
+    .state { z-index: 1; display: flex; align-items: center; justify-content: center; gap: 8px; line-height: 1; background: #fff; color: #07101f; }
+    .st-b { font-size: 30px; font-weight: 700; letter-spacing: 1px; }
+    .pens { z-index: 2; background: #ff9f1c; }
+    .st-s { font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+    .st-v { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 28px; font-weight: 700; }
+    .st-v b { padding: 0 2px; }
+    .fin { z-index: 3; background: #39d5ff; }
+    .cards { display: flex; gap: 4px; flex: 0 0 auto; }
+    .yc, .rc { display: flex; align-items: center; justify-content: center; width: 14px; height: 19px; border-radius: 2px; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 12px; font-weight: 700; line-height: 1; box-shadow: 0 1px 2px #0006; }
+    .yc { background: #ffd21f; color: #2a2300; }
+    .rc { background: #e3262e; color: #fff; }
+    .yc[style*="opacity: 0"], .rc[style*="opacity: 0"] { width: 0; margin-left: -4px; }
+    .brk .b-ft, .brk .b-eh, .brk .b-aet { display: none; }
+    .osb:has(.isGame2Started[style*="opacity: 1"]) .brk .b-ht { display: none; }
+    .osb:has(.isGame2Started[style*="opacity: 1"]):not(:has(.isGame3Started[style*="opacity: 1"])) .brk .b-ft { display: inline; }
+    .osb:has(.isGame3Started[style*="opacity: 1"]):not(:has(.isGame4Started[style*="opacity: 1"])) .brk .b-eh { display: inline; }
+    .osb:has(.isGame4Started[style*="opacity: 1"]) .brk .b-aet { display: inline; }
+    .osb:has(.isGame3Started[style*="opacity: 1"]) .brk .b-ft { display: none; }
+    .add-v:empty::before { content: "+0"; }
+    .dot i { display: block; width: 100%; height: 100%; border-radius: 50%; background: currentColor; animation: osb-pulse 1.6s ease-in-out infinite; }
+    @keyframes osb-pulse { 50% { transform: scale(.55); } }
+    .osb:has(.isComplete[style*="opacity: 1"]) .dot i { animation: none; }
+    .osb-aux { display: none; }
     .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
     .combinedAName:empty::before { content: "Team A"; }
     .combinedBName:empty::before { content: "Team B"; }
     .eventName:empty, .matchRound:empty { display: none; }
+    .ev:not(:has(.eventName:not(:empty))):not(:has(.matchRound:not(:empty))) { display: none; }
+    .ev-sep { display: none; }
+    .ev:has(.eventName:not(:empty)):has(.matchRound:not(:empty)) .ev-sep { display: inline; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
   </style>
 </head>
 <body>
-<article class="bug" aria-label="Soccer scorebug">
-  <span class="seg clock"><span class="live isMatchStarted" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity: 0;"></span><span class="gc"><span class="cm clockMinutes" data-osb-component="field" data-osb-field="clockMinutes" data-osb-static="true" data-sport-stat="clockMinutes">00</span><b class="colon">:</b><span class="cs clockSeconds" data-osb-component="field" data-osb-field="clockSeconds" data-osb-static="true" data-sport-stat="clockSeconds">00</span></span><span class="ht isInBetweenGames" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity: 0;">HT</span></span>
-  <span class="seg flash"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span></span>
-  <span class="seg"><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="card yellow isAYellowCarded" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity: 0;"><span class="cn yellowCardsA" data-osb-component="field" data-osb-field="yellowCardsA"></span></span><span class="card red isARedCarded" data-osb-component="field" data-osb-field="isARedCarded" style="opacity: 0;"><span class="cn redCardsA" data-osb-component="field" data-osb-field="redCardsA"></span></span></span>
-  <span class="seg score"><span class="sa currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><b class="dash"></b><span class="sb currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></span>
-  <span class="seg"><span class="card yellow isBYellowCarded" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity: 0;"><span class="cn yellowCardsB" data-osb-component="field" data-osb-field="yellowCardsB"></span></span><span class="card red isBRedCarded" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity: 0;"><span class="cn redCardsB" data-osb-component="field" data-osb-field="redCardsB"></span></span><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></span>
-  <span class="seg flash"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span>
-  <div class="tabs"><span class="added addedTimeVisible"><span class="at addedTime" data-osb-component="field" data-osb-field="addedTime"></span></span><span class="half periodLabel" data-osb-component="field" data-osb-field="periodLabel" data-osb-static="true" data-sport-stat="half"></span></div>
-  <span class="ev"><span class="ev-name eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-round matchRound" data-osb-component="field" data-osb-field="matchRound"></span></span>
-  <span class="pens shootoutAttempts"><b class="pens-l">PENS</b><span class="pen-a shootoutAScore" data-osb-component="field" data-osb-field="shootoutAScore"></span><b class="pens-d">-</b><span class="pen-b shootoutBScore" data-osb-component="field" data-osb-field="shootoutBScore"></span></span>
-  <div class="osb-aux"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div>
+<article class="osb" aria-label="Soccer scorebug">
+  <div class="ev"><span class="ev-n eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-r matchRound" data-osb-component="field" data-osb-field="matchRound"></span></div>
+  <div class="bar">
+    <div class="tm A"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="nmw"><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="cards"><span class="yc isAYellowCarded" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity: 0;"><span class="cn yellowCardsA" data-osb-component="field" data-osb-field="yellowCardsA"></span></span><span class="rc isARedCarded" data-osb-component="field" data-osb-field="isARedCarded" style="opacity: 0;"><span class="cn redCardsA" data-osb-component="field" data-osb-field="redCardsA"></span></span></span></span></div>
+    <div class="sc"><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><b>-</b><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+    <div class="tm B"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="nmw"><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="cards"><span class="yc isBYellowCarded" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity: 0;"><span class="cn yellowCardsB" data-osb-component="field" data-osb-field="yellowCardsB"></span></span><span class="rc isBRedCarded" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity: 0;"><span class="cn redCardsB" data-osb-component="field" data-osb-field="redCardsB"></span></span></span></span></div>
+    <div class="clk">
+      <div class="live"><span class="gc"><span class="clockMinutes" data-osb-component="field" data-osb-field="clockMinutes" data-osb-static="true" data-sport-stat="clockMinutes">00</span><b>:</b><span class="clockSeconds" data-osb-component="field" data-osb-field="clockSeconds" data-osb-static="true" data-sport-stat="clockSeconds">00</span></span><span class="sub"><span class="dot isMatchStarted" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity: 0;"><i></i></span><span class="per periodLabel" data-osb-component="field" data-osb-field="periodLabel" data-osb-static="true" data-sport-stat="half"></span><span class="mp"><span class="h"><span class="isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="display: none; opacity: 0;"></span></span><span class="h"><span class="isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="display: none; opacity: 0;"></span></span><span class="et isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="display: none; opacity: 0;"></span><span class="et isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="display: none; opacity: 0;"></span></span><span class="add addedTimeVisible" data-osb-component="field" data-osb-field="addedTimeVisible" style="opacity: 0;"><span class="add-v addedTime" data-osb-component="field" data-osb-field="addedTime"></span></span></span><span class="runbar isGameClockRunning" data-osb-component="field" data-osb-field="isGameClockRunning" style="opacity: 0;"></span></div>
+      <div class="state brk isInBetweenGames" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity: 0;"><span class="st-b b-ht">HT</span><span class="st-b b-ft">FT</span><span class="st-b b-eh">ET HT</span><span class="st-b b-aet">AET</span></div>
+      <div class="state pens isShootoutActive" data-osb-component="field" data-osb-field="isShootoutActive" style="opacity: 0;"><span class="st-s">PENS</span><span class="st-v"><span class="shootoutAScore" data-osb-component="field" data-osb-field="shootoutAScore">0</span><b>-</b><span class="shootoutBScore" data-osb-component="field" data-osb-field="shootoutBScore">0</span></span></div>
+      <div class="state fin isComplete" data-osb-component="field" data-osb-field="isComplete" style="opacity: 0;"><span class="st-b">FT</span></div>
+    </div>
+  </div>
+  <div class="osb-aux"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="homeSide" data-osb-component="field" data-osb-field="homeSide"></span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div>
 </article>
 </body>
 </html>
