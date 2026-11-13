@@ -17,7 +17,12 @@ test('export audit reports hidden files, secrets, absolute paths and symlinks wi
   await writeFile(path.join(root, 'sources/example.txt'), `${token}\n${privatePath}`);
   await writeFile(path.join(root, 'reviews/test.json'), '{}');
   await symlink(path.join(root, 'sources/example.txt'), path.join(root, 'sources/link.txt'));
+  await mkdir(path.join(root, '.claude/skills/example'), { recursive: true });
+  await writeFile(path.join(root, '.claude/skills/example/SKILL.md'), '# shared skill');
+  await writeFile(path.join(root, '.claude/settings.local.json'), '{}');
   const report = await auditExport(root);
+  assert.ok(!report.findings.some((finding) => finding.file.startsWith('.claude/skills')), 'project skills are exportable');
+  assert.ok(report.findings.some((finding) => finding.file === '.claude/settings.local.json' && finding.category === 'excluded-local-agent-state'));
   for (const category of ['excluded-os-metadata', 'excluded-hidden-file', 'github-token', 'local-absolute-path', 'symlink']) assert.ok(report.findings.some((finding) => finding.category === category), category);
   assert.ok(!report.findings.some((finding) => finding.file === 'reviews'));
   assert.equal(await readFile(path.join(root, 'sources/.DS_Store'), 'utf8'), 'preserved');

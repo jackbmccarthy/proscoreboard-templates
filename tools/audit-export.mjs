@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { DEFAULT_ROOT } from './build-catalog.mjs';
 
 const rootFiles = new Set(['package.json', 'README.md', 'AGENTS.md', '.gitignore', 'catalog.json']);
-const directories = new Set(['templates', 'social', 'tools', 'contract', 'studio', 'reviews', 'published', 'previews', '.github']);
+const directories = new Set(['templates', 'social', 'tools', 'contract', 'studio', 'reviews', 'published', 'previews', '.github', '.claude']);
 const textExtensions = new Set(['.html', '.css', '.js', '.mjs', '.json', '.md', '.txt', '.yml', '.yaml', '.csv', '.svg']);
 const patterns = [
   ['private-key', /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/],
@@ -28,7 +28,9 @@ export async function auditExport(root = DEFAULT_ROOT) {
       if (entry.isSymbolicLink()) { report(file, 'symlink', 'error'); continue; }
       if (entry.name === '.DS_Store' || entry.name.startsWith('._')) { report(file, 'excluded-os-metadata', 'info'); continue; }
       if (file === 'templates/references' || file === 'sources' || /\.(?:zip|tar|gz|7z)$/i.test(entry.name)) report(file, 'excluded-original-assets', 'error');
-      if (entry.name.startsWith('.') && file !== '.gitignore' && file !== '.github') {
+      // Project skills (.claude/skills) are shared authoring instructions; any other agent state stays local.
+      if (relative === '.claude' && entry.name !== 'skills') { report(file, 'excluded-local-agent-state', 'error'); continue; }
+      if (entry.name.startsWith('.') && file !== '.gitignore' && file !== '.github' && file !== '.claude') {
         report(file, 'excluded-hidden-file', 'error');
         continue;
       }

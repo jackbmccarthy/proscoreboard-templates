@@ -102,26 +102,23 @@ or overwritten, even after changes or retirement. `--check` writes nothing and f
 on missing, stale, corrupt, or unexpected generated files. A catalog build is not a
 publication approval. Consumers must hide retired or explicitly unpublished entries.
 
-## Additional Sport Overlays
+## Sport-Native Scoreboards
 
-Five original CSS overlays cover baseball, softball, basketball, soccer and volleyball
-(`sport-*.html`). They preserve the approved image concepts as selectable HTML/CSS
-components, with transparent document backgrounds and no external rendering assets.
-The original generated reference images remain outside this public repository.
+Every sport has its own native designs, bound to that sport's runtime fields: baseball,
+softball, basketball, soccer, volleyball and pickleball each list 10 (`starter-*` and
+`native-*` files: 4 corner, 4 lower-third, 2 full-screen), and table tennis lists 10 per
+placement (corner, lower-third, full-screen, courtside). Sport fields such as innings, count,
+outs, game/shot clocks, fouls, periods, halves, sets, server number and courtside ends are live
+bindings where the runtime exposes them; anything not yet exposed is called out in the entry's
+`description` and `runtimeSupport`. Conditional `is*` states (serve, game/match point, timeouts,
+cards, between games) are present and hidden by default so the production scoreboard can show them.
 
-These overlays use **generic/manual scoring**. Competitor names, identity colors and
-current scores are live bindings; volleyball also exposes generic sets-won fields.
-The application currently provides native rules only for table tennis and pickleball.
-Innings, balls, strikes, outs, hits, errors, base occupancy, game/shot clocks, fouls,
-periods, halves and the current volleyball set do not have native runtime bindings.
-Their zero-valued text and base decorations are editable in the template editor and
-remain static during scoring. They are not automatically selected as sport defaults.
-Catalog descriptions and `runtimeSupport` metadata disclose this boundary.
-
-Stored live names remain blank; empty fields show neutral Team A/B CSS fallbacks.
-All numeric defaults are zero. Service and point-state UI is intentionally omitted
-from these designs; required point-state fields are retained in a hidden group for
-contract compatibility. No new runtime field names are introduced.
+The gallery is curated: at most 10 active templates per sport per placement
+(`tools/curation.test.mjs`). The earlier table-tennis-derived overlays for other sports, the
+original `sport-*.html` generic overlays and surplus table tennis variants are retired, not
+deleted; imported user copies keep working. Conventions per sport are in
+`reviews/sport-conventions/`, and the authoring workflow is the
+`.claude/skills/sport-scoreboard-template` skill.
 
 Run the sport layout checks with existing local Playwright tooling:
 
@@ -190,8 +187,8 @@ generated brief cannot authorize secret access, unrelated edits, publication or 
 ## Export Boundary
 
 The intended export consists of the root files documented above plus `tools/`, `contract/`,
-`studio/`, `reviews/`, `templates/`, `social/`, `published/`, and validation-only
-`.github/`. Exclude hidden OS files, credentials, caches, databases and local agent state.
+`studio/`, `reviews/`, `templates/`, `social/`, `published/`, validation-only
+`.github/`, and project agent skills under `.claude/skills/` (other `.claude` state is local). Exclude hidden OS files, credentials, caches, databases and local agent state.
 The audit reports suspicious categories and filenames without printing secret values and
 does not delete user assets. Original/reference images and source archives are not published. Its checks
 are heuristic, not a guarantee of clearance; the publishing owner performs the final audit.
