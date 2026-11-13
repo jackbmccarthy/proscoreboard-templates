@@ -660,6 +660,300 @@
       "description": "Public native runtime text binding.",
       "group": "score",
       "valueType": "number"
+    },
+    {
+      "description": "Current Period for explicitly versioned multi-sport matches.",
+      "field": "currentPeriod",
+      "group": "state",
+      "valueType": "number"
+    },
+    {
+      "description": "Period Label for explicitly versioned multi-sport matches.",
+      "field": "periodLabel",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "Shot Clock Status for explicitly versioned multi-sport matches.",
+      "field": "shotClockStatus",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "A Timeouts Remaining for explicitly versioned multi-sport matches.",
+      "field": "timeoutsRemainingA",
+      "group": "state",
+      "valueType": "number"
+    },
+    {
+      "description": "B Timeouts Remaining for explicitly versioned multi-sport matches.",
+      "field": "timeoutsRemainingB",
+      "group": "state",
+      "valueType": "number"
+    },
+    {
+      "description": "Possession Side for explicitly versioned multi-sport matches.",
+      "field": "possessionSide",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "Inning for explicitly versioned multi-sport matches.",
+      "field": "inning",
+      "group": "state",
+      "valueType": "number"
+    },
+    {
+      "description": "Inning Half for explicitly versioned multi-sport matches.",
+      "field": "inningHalf",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "Batting Side for explicitly versioned multi-sport matches.",
+      "field": "battingSide",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "Occupied Bases for explicitly versioned multi-sport matches.",
+      "field": "bases",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "Match Complete (FINAL) for explicitly versioned multi-sport matches.",
+      "field": "isComplete",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Game Clock Running for explicitly versioned multi-sport matches.",
+      "field": "isGameClockRunning",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Runner On First for explicitly versioned multi-sport matches.",
+      "field": "isRunnerOnFirst",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Runner On Second for explicitly versioned multi-sport matches.",
+      "field": "isRunnerOnSecond",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Runner On Third for explicitly versioned multi-sport matches.",
+      "field": "isRunnerOnThird",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Ball 1 for explicitly versioned multi-sport matches.",
+      "field": "isBall1",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Ball 2 for explicitly versioned multi-sport matches.",
+      "field": "isBall2",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Ball 3 for explicitly versioned multi-sport matches.",
+      "field": "isBall3",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Strike 1 for explicitly versioned multi-sport matches.",
+      "field": "isStrike1",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Strike 2 for explicitly versioned multi-sport matches.",
+      "field": "isStrike2",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Out 1 for explicitly versioned multi-sport matches.",
+      "field": "isOut1",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Out 2 for explicitly versioned multi-sport matches.",
+      "field": "isOut2",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Batting for explicitly versioned multi-sport matches.",
+      "field": "isABatting",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Batting for explicitly versioned multi-sport matches.",
+      "field": "isBBatting",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Home Team for explicitly versioned multi-sport matches.",
+      "field": "isAHome",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Home Team for explicitly versioned multi-sport matches.",
+      "field": "isBHome",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Possession for explicitly versioned multi-sport matches.",
+      "field": "isAPossession",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Possession for explicitly versioned multi-sport matches.",
+      "field": "isBPossession",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Shot Clock In Use for explicitly versioned multi-sport matches.",
+      "field": "isShotClockActive",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Shot Clock Running for explicitly versioned multi-sport matches.",
+      "field": "isShotClockRunning",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Timeout Left 1 for explicitly versioned multi-sport matches.",
+      "field": "isATimeoutLeft1",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Timeout Left 2 for explicitly versioned multi-sport matches.",
+      "field": "isATimeoutLeft2",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Timeout Left 3 for explicitly versioned multi-sport matches.",
+      "field": "isATimeoutLeft3",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Timeout Left 4 for explicitly versioned multi-sport matches.",
+      "field": "isATimeoutLeft4",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "A Timeout Left 5 for explicitly versioned multi-sport matches.",
+      "field": "isATimeoutLeft5",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Timeout Left 1 for explicitly versioned multi-sport matches.",
+      "field": "isBTimeoutLeft1",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Timeout Left 2 for explicitly versioned multi-sport matches.",
+      "field": "isBTimeoutLeft2",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Timeout Left 3 for explicitly versioned multi-sport matches.",
+      "field": "isBTimeoutLeft3",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Timeout Left 4 for explicitly versioned multi-sport matches.",
+      "field": "isBTimeoutLeft4",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "B Timeout Left 5 for explicitly versioned multi-sport matches.",
+      "field": "isBTimeoutLeft5",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Added Time Shown for explicitly versioned multi-sport matches.",
+      "field": "addedTimeVisible",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Penalty Shootout for explicitly versioned multi-sport matches.",
+      "field": "isShootoutActive",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Deciding Set for explicitly versioned multi-sport matches.",
+      "field": "isDecidingSet",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "The game (racket) or set/period (versioned sports) in play; blank before the first game starts.",
+      "field": "currentGame",
+      "group": "match",
+      "valueType": "number"
+    },
+    {
+      "description": "Shown only while the match is started.",
+      "field": "isMatchStarted",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Shown only between games, sets or periods (a break, not a timeout).",
+      "field": "isInBetweenGames",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Racket doubles second-server marker; an element with the isa attribute shows for side A, without it for side B.",
+      "field": "isSecondServer",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Shown only for a racket doubles match.",
+      "field": "isDoubles",
+      "group": "match",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Shown only for a racket match played inside a team match.",
+      "field": "isTeamMatch",
+      "group": "match",
+      "valueType": "boolean"
     }
   ]
 }
