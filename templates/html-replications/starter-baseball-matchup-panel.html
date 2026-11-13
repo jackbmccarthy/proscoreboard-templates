@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Baseball — Daylight Matchup Panel</title><style>
+*{box-sizing:border-box}html,body{margin:0;background:transparent}
+html{font-size:1.25vw}
+body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
+.bb-retained{display:none}
+.bb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.point-slot{display:none}.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+.diamond{position:relative;display:block;flex:none;width:var(--d,3rem);height:calc(var(--d,3rem)*.8)}
+.diamond>.base{position:absolute;width:30%;height:37.5%;transform:rotate(45deg);background:var(--base-off,transparent);border:var(--base-line,.12rem) solid var(--base-edge,currentColor);border-radius:var(--base-r,.06rem)}
+.diamond>.base.second{left:35%;top:10%}.diamond>.base.third{left:8%;top:44%}.diamond>.base.first{left:62%;top:44%}
+.diamond::before{content:"";position:absolute;left:calc(var(--d,3rem)*.309);top:calc(var(--d,3rem)*.311);width:calc(var(--d,3rem)*.382);height:calc(var(--d,3rem)*.382);transform:rotate(45deg);border:1px solid var(--base-edge,currentColor);opacity:.28}
+.bb-plate{display:none}
+.bb-bases{position:absolute;left:0;right:0;bottom:-.1rem;text-align:center;font:700 .42rem/1 var(--mono-ui,Menlo,Consolas,monospace);letter-spacing:.04em;color:var(--base-text,currentColor);opacity:.85}
+.bb-half{position:relative;display:inline-block;flex:none;vertical-align:middle}
+.bb-half-dim{position:absolute;inset:0}
+.bb-half-dim::before,.bb-half-dim::after,.inningHalf::before,.inningHalf::after{content:"";background:var(--half-off,rgba(255,255,255,.28))}
+.bb-half-dim::before,.bb-half-dim::after{position:absolute;left:0;width:100%;height:100%}
+.bb-half-dim::before,.inningHalf::after{clip-path:polygon(50% 4%,96% 40%,4% 40%)}
+.bb-half-dim::after,.inningHalf::before{clip-path:polygon(4% 60%,96% 60%,50% 96%)}
+.bb-half-win{position:relative;display:block;width:3ch;height:var(--half-h,1.2rem);overflow:hidden;font-family:Menlo,Consolas,"DejaVu Sans Mono","Liberation Mono",monospace;font-size:var(--half-size,.62rem);font-weight:400;line-height:var(--half-h,1.2rem);letter-spacing:0;text-transform:none}
+.inningHalf{display:flex;width:max-content;height:100%;margin-left:-6ch;color:transparent;white-space:pre}
+.inningHalf::before,.inningHalf::after{flex:none;width:3ch;height:100%;background:var(--half-on,#fff)}
+.inningHalf::before{order:1}.inningHalf::after{order:2}
+.bb-ls-col>.bb-gate{display:flex;flex-direction:column;align-items:stretch}
+.bb-tick{position:relative}.bb-tick>.bb-gate{display:block;position:absolute;inset:0;border-radius:inherit;background:var(--tick-on,#fff)}
+.bb-ls-extra{display:none!important}.bb-ls-extra:has(>.bb-gate[style*="opacity: 1"]),.bb-ls-extra:has(>.bb-gate[style*="opacity:1"]){display:flex!important}
+.bb-live,.bb-break,.bb-final{transition:opacity .25s ease}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.bb-stage{position:fixed;left:3rem;bottom:2.4rem;font-family:"Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;color:#0f2340}
+.mp{display:flex;flex-direction:column;width:34rem;border-radius:.4rem;overflow:hidden;background:#ffffff;box-shadow:0 .4rem 1.1rem rgba(0,0,0,.3)}
+.mp-head{display:flex;align-items:center;gap:.6rem;height:1.45rem;padding:0 .8rem;background:#0f2340;color:#ffffff;font:700 .62rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.mp-head .bb-event{flex:none}.mp-head .bb-round{flex:1;color:#8fb8ef}
+.mp-sport{padding:.2rem .45rem;border-radius:.15rem;background:#0a5cc2;color:#fff}
+.mp-main{display:flex}
+.mp-table{flex:1;display:grid;grid-template-columns:.35rem 1fr 2.6rem 1.9rem 1.9rem;align-items:center;padding:.35rem 0 .45rem}
+.mp-th{font:700 .5rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;letter-spacing:.12em;color:#6b7787;text-align:center;padding-bottom:.25rem}
+.mp-table .bb-jersey{height:1.75rem;background:#0a5cc2;border-radius:0 .15rem .15rem 0}
+.mp-table .bb-name{padding:0 .6rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:1.15rem;font-weight:700}
+.mp-table .bb-runs{text-align:center;font:800 1.55rem/1.75rem "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;font-variant-numeric:tabular-nums}
+.mp-table .bb-h,.mp-table .bb-e{text-align:center;font:600 .95rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;color:#6b7787;font-variant-numeric:tabular-nums}
+.mp-sit{position:relative;display:grid;grid-template-columns:auto auto;align-items:center;column-gap:.8rem;row-gap:.3rem;padding:.5rem .9rem;background:#eef2f7;border-left:1px solid #dde3eb}
+.mp-sit .diamond{grid-row:1/3;--d:4.2rem;--base-edge:#0f2340;--base-off:#fff;--base-line:.12rem;--base-text:#0f2340}
+.bb-inning{display:flex;align-items:center;gap:.3rem;font:800 1.5rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;--half-on:#0a5cc2;--half-off:#c7d0dc;--half-h:1.4rem;--half-size:.6rem}
+.mp-cnt{display:flex;align-items:baseline;gap:.5rem}
+.bb-count{font:800 1.1rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;font-variant-numeric:tabular-nums}
+.bb-outs{display:flex;align-items:baseline;gap:.15rem;font:800 1.1rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif}.bb-outs-label{font-size:.5rem;letter-spacing:.12em;color:#6b7787}
+.mp-sit .bb-track{grid-column:1/3;display:flex;gap:.15rem;justify-content:center}
+.bb-tick{width:.5rem;height:.5rem;border-radius:50%;background:#c7d0dc;--tick-on:#0a5cc2}
+.bb-live{display:inline-flex;align-items:center;gap:.25rem;color:#d7263d}.bb-live::before{content:"";width:.35rem;height:.35rem;border-radius:50%;background:currentColor}
+.bb-break{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0f2340;color:#ffffff;font:800 .8rem/1 "Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;letter-spacing:.16em}
+</style></head><body><main class="bb-stage" aria-label="Baseball lower-third scoreboard">
+<article class="mp columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Baseball matchup panel">
+<div class="mp-head"><span class="mp-sport">BASEBALL</span><span class="bb-event eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="bb-round matchRound" data-osb-component="field" data-osb-field="matchRound"></span><span class="bb-live isMatchStarted" data-osb-component="field" style="opacity: 0">LIVE</span></div>
+<div class="mp-main rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><div class="mp-table"><span></span><span></span><span class="mp-th">R</span><span class="mp-th">H</span><span class="mp-th">E</span>
+<span class="bb-jersey jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="bb-name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="bb-runs currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="bb-h hitsA" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsA">0</span><span class="bb-e errorsA" data-osb-component="text" data-osb-static="true" data-sport-stat="errorsA">0</span>
+<span class="bb-jersey jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="bb-name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="bb-runs currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="bb-h hitsB" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsB">0</span><span class="bb-e errorsB" data-osb-component="text" data-osb-static="true" data-sport-stat="errorsB">0</span></div>
+<div class="mp-sit"><span class="diamond" aria-label="Bases"><span class="base second"></span><span class="base third"></span><span class="base first"></span><span class="bb-plate" aria-hidden="true"></span><span class="bb-bases bases" data-osb-component="field"></span></span><span class="bb-inning"><span class="bb-half"><span class="bb-half-dim" aria-hidden="true"></span><span class="bb-half-win"><span class="inningHalf" data-osb-component="field"></span></span></span><span class="bb-inning-no inning" data-osb-component="text" data-osb-static="true" data-sport-stat="inning">0</span></span><span class="mp-cnt"><span class="bb-count"><span class="bb-b balls" data-osb-component="text" data-osb-static="true" data-sport-stat="balls">0</span><span class="bb-dash" aria-hidden="true">-</span><span class="bb-s strikes" data-osb-component="text" data-osb-static="true" data-sport-stat="strikes">0</span></span><span class="bb-outs"><span class="bb-o outs" data-osb-component="text" data-osb-static="true" data-sport-stat="outs">0</span><span class="bb-outs-label">OUT</span></span></span><span class="bb-track" aria-label="Innings"><span class="bb-tick"><span class="bb-gate isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame6Started" data-osb-component="field" data-osb-field="isGame6Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame7Started" data-osb-component="field" data-osb-field="isGame7Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame8Started" data-osb-component="field" data-osb-field="isGame8Started" style="opacity: 0"></span></span><span class="bb-tick"><span class="bb-gate isGame9Started" data-osb-component="field" data-osb-field="isGame9Started" style="opacity: 0"></span></span></span><span class="bb-break isInBetweenGames" data-osb-component="field" style="opacity: 0">INNING BREAK</span></div></div>
+</article>
+<span class="bb-sr battingSide" data-osb-component="field"></span><span class="bb-retained currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="bb-retained currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</main></body></html>

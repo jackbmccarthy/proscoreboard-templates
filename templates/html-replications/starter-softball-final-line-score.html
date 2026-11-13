@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Softball — Plum Final Line Score</title><style>
+*{box-sizing:border-box}html,body{margin:0;background:transparent}
+html{font-size:1.25vw}
+body{min-height:100vh;-webkit-font-smoothing:antialiased;font-synthesis:none}
+.bb-retained{display:none}
+.bb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.point-slot{display:none}.point-slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint,.point-slot:has(>.isMatchPoint[style*="opacity:1"])>.isGamePoint{opacity:0!important}
+.combinedAName:empty::before{content:"Team A"}.combinedBName:empty::before{content:"Team B"}
+.diamond{position:relative;display:block;flex:none;width:var(--d,3rem);height:calc(var(--d,3rem)*.8)}
+.diamond>.base{position:absolute;width:30%;height:37.5%;transform:rotate(45deg);background:var(--base-off,transparent);border:var(--base-line,.12rem) solid var(--base-edge,currentColor);border-radius:var(--base-r,.06rem)}
+.diamond>.base.second{left:35%;top:10%}.diamond>.base.third{left:8%;top:44%}.diamond>.base.first{left:62%;top:44%}
+.diamond::before{content:"";position:absolute;left:calc(var(--d,3rem)*.309);top:calc(var(--d,3rem)*.311);width:calc(var(--d,3rem)*.382);height:calc(var(--d,3rem)*.382);transform:rotate(45deg);border:1px solid var(--base-edge,currentColor);opacity:.28}
+.bb-plate{display:none}
+.bb-bases{position:absolute;left:0;right:0;bottom:-.1rem;text-align:center;font:700 .42rem/1 var(--mono-ui,Menlo,Consolas,monospace);letter-spacing:.04em;color:var(--base-text,currentColor);opacity:.85}
+.bb-half{position:relative;display:inline-block;flex:none;vertical-align:middle}
+.bb-half-dim{position:absolute;inset:0}
+.bb-half-dim::before,.bb-half-dim::after,.inningHalf::before,.inningHalf::after{content:"";background:var(--half-off,rgba(255,255,255,.28))}
+.bb-half-dim::before,.bb-half-dim::after{position:absolute;left:0;width:100%;height:100%}
+.bb-half-dim::before,.inningHalf::after{clip-path:polygon(50% 4%,96% 40%,4% 40%)}
+.bb-half-dim::after,.inningHalf::before{clip-path:polygon(4% 60%,96% 60%,50% 96%)}
+.bb-half-win{position:relative;display:block;width:3ch;height:var(--half-h,1.2rem);overflow:hidden;font-family:Menlo,Consolas,"DejaVu Sans Mono","Liberation Mono",monospace;font-size:var(--half-size,.62rem);font-weight:400;line-height:var(--half-h,1.2rem);letter-spacing:0;text-transform:none}
+.inningHalf{display:flex;width:max-content;height:100%;margin-left:-6ch;color:transparent;white-space:pre}
+.inningHalf::before,.inningHalf::after{flex:none;width:3ch;height:100%;background:var(--half-on,#fff)}
+.inningHalf::before{order:1}.inningHalf::after{order:2}
+.bb-ls-col>.bb-gate{display:flex;flex-direction:column;align-items:stretch}
+.bb-tick{position:relative}.bb-tick>.bb-gate{display:block;position:absolute;inset:0;border-radius:inherit;background:var(--tick-on,#fff)}
+.bb-ls-extra{display:none!important}.bb-ls-extra:has(>.bb-gate[style*="opacity: 1"]),.bb-ls-extra:has(>.bb-gate[style*="opacity:1"]){display:flex!important}
+.bb-live,.bb-break,.bb-final{transition:opacity .25s ease}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.bb-stage{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-family:"DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;color:#f6f0fa}
+.ff{width:52rem;border-radius:.5rem;overflow:hidden;background:#1d1226;box-shadow:0 .6rem 2rem rgba(0,0,0,.5)}
+.ff-head{position:relative;display:flex;align-items:flex-end;justify-content:space-between;padding:1.2rem 1.6rem 1rem;background:linear-gradient(120deg,#3a1f4d,#c2185b);color:#ffffff}
+.ff-titles{display:flex;flex-direction:column;gap:.35rem}
+.ff-head .bb-event{font:800 1.9rem/1 "Avenir Next Condensed","Bahnschrift Condensed","Roboto Condensed","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.03em}
+.ff-head .bb-round{font:700 .8rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;letter-spacing:.2em;text-transform:uppercase;opacity:.85}
+.ff-kicker{font:700 .7rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;letter-spacing:.3em;opacity:.8}
+.ff-badges{display:flex;flex-direction:column;align-items:flex-end;gap:.35rem}
+.bb-final{padding:.35rem .8rem;border-radius:.2rem;background:#e8f13a;color:#1d1226;font:800 1rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;letter-spacing:.2em}
+.ff-sport{font:700 .65rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;letter-spacing:.3em;opacity:.75}
+.ff-body{padding:1rem 1.6rem 1.3rem}
+.bb-ls{display:flex;align-items:stretch;border:1px solid rgba(255,255,255,.09);border-radius:.3rem;overflow:hidden}
+.bb-ls-teams,.bb-ls-col{display:flex;flex-direction:column}
+.bb-ls-h{display:flex;align-items:center;justify-content:center;height:1.6rem;background:#2a1838;color:#b39cc4;font:700 .75rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;letter-spacing:.08em}
+.bb-ls-teams{flex:1;min-width:0}.bb-ls-teams .bb-ls-h{justify-content:flex-start;padding-left:1rem}
+.bb-ls-team{display:flex;align-items:center;gap:.8rem;height:3.4rem;padding-right:.6rem}
+.bb-ls-team+.bb-ls-team{border-top:1px solid rgba(255,255,255,.09)}
+.bb-ls-chip{align-self:stretch;width:.55rem;background:#e8f13a}
+.bb-ls-name{flex:1;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font:700 1.7rem/1 "Avenir Next Condensed","Bahnschrift Condensed","Roboto Condensed","Arial Narrow",sans-serif;text-transform:uppercase}
+.bb-ls-innings{display:flex;border-left:1px solid rgba(255,255,255,.09)}
+.bb-ls-col{width:2.4rem}.bb-ls-col>.bb-gate{flex:1}
+.bb-ls-v{display:flex;align-items:center;justify-content:center;height:3.4rem;font:600 1.35rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;font-variant-numeric:tabular-nums}
+.bb-ls-v+.bb-ls-v{border-top:1px solid rgba(255,255,255,.09)}
+.bb-ls-innings .bb-ls-col:nth-child(even){background:rgba(255,255,255,.025)}
+.bb-ls-r{width:3.6rem;background:#e8f13a;color:#1d1226}.bb-ls-r .bb-ls-h{background:#cfd820;color:#1d1226}
+.bb-ls-r .bb-ls-v{font-size:2rem;font-weight:800}
+.bb-ls-he{width:2.8rem;background:#2a1838}.bb-ls-he .bb-ls-v{font-size:1.45rem}
+.ff-foot{display:flex;align-items:center;justify-content:space-between;margin-top:.8rem;color:#b39cc4;font:700 .65rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed","Arial",sans-serif;letter-spacing:.18em}
+.ff-foot .bb-live{color:#e8f13a}
+</style></head><body><main class="bb-stage" aria-label="Softball full-screen scoreboard">
+<article class="ff columnContainer" data-osb-component="layout" data-osb-component-type="osb-column-container" aria-label="Softball final line score">
+<header class="ff-head"><div class="ff-titles"><span class="ff-kicker">LINE SCORE</span><span class="bb-event eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="bb-round matchRound" data-osb-component="field" data-osb-field="matchRound"></span></div><div class="ff-badges"><span class="bb-final isComplete" data-osb-component="field" style="opacity: 0">FINAL</span><span class="ff-sport">SOFTBALL · 7 INNINGS</span></div></header>
+<div class="ff-body"><div class="bb-ls rowContainer" data-osb-component="layout" data-osb-component-type="osb-row-container"><span class="bb-ls-teams"><span class="bb-ls-h">TEAM</span><span class="bb-ls-team"><span class="bb-ls-chip jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="bb-ls-name combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></span><span class="bb-ls-team"><span class="bb-ls-chip jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="bb-ls-name combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></span></span><span class="bb-ls-innings"><span class="bb-ls-col"><span class="bb-ls-h">1</span><span class="bb-gate isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="opacity: 0"><span class="bb-ls-v game1AScore" data-osb-component="field" data-osb-field="game1AScore">0</span><span class="bb-ls-v game1BScore" data-osb-component="field" data-osb-field="game1BScore">0</span></span></span><span class="bb-ls-col"><span class="bb-ls-h">2</span><span class="bb-gate isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="opacity: 0"><span class="bb-ls-v game2AScore" data-osb-component="field" data-osb-field="game2AScore">0</span><span class="bb-ls-v game2BScore" data-osb-component="field" data-osb-field="game2BScore">0</span></span></span><span class="bb-ls-col"><span class="bb-ls-h">3</span><span class="bb-gate isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="opacity: 0"><span class="bb-ls-v game3AScore" data-osb-component="field" data-osb-field="game3AScore">0</span><span class="bb-ls-v game3BScore" data-osb-component="field" data-osb-field="game3BScore">0</span></span></span><span class="bb-ls-col"><span class="bb-ls-h">4</span><span class="bb-gate isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="opacity: 0"><span class="bb-ls-v game4AScore" data-osb-component="field" data-osb-field="game4AScore">0</span><span class="bb-ls-v game4BScore" data-osb-component="field" data-osb-field="game4BScore">0</span></span></span><span class="bb-ls-col"><span class="bb-ls-h">5</span><span class="bb-gate isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="opacity: 0"><span class="bb-ls-v game5AScore" data-osb-component="field" data-osb-field="game5AScore">0</span><span class="bb-ls-v game5BScore" data-osb-component="field" data-osb-field="game5BScore">0</span></span></span><span class="bb-ls-col"><span class="bb-ls-h">6</span><span class="bb-gate isGame6Started" data-osb-component="field" data-osb-field="isGame6Started" style="opacity: 0"><span class="bb-ls-v game6AScore" data-osb-component="field" data-osb-field="game6AScore">0</span><span class="bb-ls-v game6BScore" data-osb-component="field" data-osb-field="game6BScore">0</span></span></span><span class="bb-ls-col"><span class="bb-ls-h">7</span><span class="bb-gate isGame7Started" data-osb-component="field" data-osb-field="isGame7Started" style="opacity: 0"><span class="bb-ls-v game7AScore" data-osb-component="field" data-osb-field="game7AScore">0</span><span class="bb-ls-v game7BScore" data-osb-component="field" data-osb-field="game7BScore">0</span></span></span><span class="bb-ls-col bb-ls-extra"><span class="bb-ls-h">8</span><span class="bb-gate isGame8Started" data-osb-component="field" data-osb-field="isGame8Started" style="opacity: 0"><span class="bb-ls-v game8AScore" data-osb-component="field" data-osb-field="game8AScore">0</span><span class="bb-ls-v game8BScore" data-osb-component="field" data-osb-field="game8BScore">0</span></span></span><span class="bb-ls-col bb-ls-extra"><span class="bb-ls-h">9</span><span class="bb-gate isGame9Started" data-osb-component="field" data-osb-field="isGame9Started" style="opacity: 0"><span class="bb-ls-v game9AScore" data-osb-component="field" data-osb-field="game9AScore">0</span><span class="bb-ls-v game9BScore" data-osb-component="field" data-osb-field="game9BScore">0</span></span></span><span class="bb-ls-col bb-ls-extra"><span class="bb-ls-h">10</span><span class="bb-gate isGame10Started" data-osb-component="field" style="opacity: 0"><span class="bb-ls-v game10AScore" data-osb-component="field">0</span><span class="bb-ls-v game10BScore" data-osb-component="field">0</span></span></span></span><span class="bb-ls-col bb-ls-r"><span class="bb-ls-h">R</span><span class="bb-ls-v bb-ls-runs currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="bb-ls-v bb-ls-runs currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></span><span class="bb-ls-col bb-ls-he"><span class="bb-ls-h">H</span><span class="bb-ls-v hitsA" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsA">0</span><span class="bb-ls-v hitsB" data-osb-component="text" data-osb-static="true" data-sport-stat="hitsB">0</span></span><span class="bb-ls-col bb-ls-he"><span class="bb-ls-h">E</span><span class="bb-ls-v errorsA" data-osb-component="text" data-osb-static="true" data-sport-stat="errorsA">0</span><span class="bb-ls-v errorsB" data-osb-component="text" data-osb-static="true" data-sport-stat="errorsB">0</span></span></div>
+<div class="ff-foot"><span>R RUNS · H HITS · E ERRORS</span><span class="bb-live isMatchStarted" data-osb-component="field" style="opacity: 0">IN PROGRESS</span></div></div>
+</article>
+<span class="bb-sr battingSide" data-osb-component="field"></span><span class="bb-retained currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="bb-retained currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0">MATCH POINT</span></div>
+</main></body></html>
