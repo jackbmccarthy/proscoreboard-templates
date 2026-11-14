@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "f6f20003e6d80fec662948daf82d94dea8ac7ff7431109238540d62a09e92348",
+  "revision": "3105b5bbd839a711b09893d04eb334ddb91d61b94fa86979df30cadd1d9ab4df",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44466,8 +44466,8 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
-      "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final).",
+      "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score naming the teams (teamA/BName) and R-H-E, and a situation bar in even thirds (inning, bases, count and outs); FIRST PITCH before play, the runs scored in the inning between halves, AFTER n INNINGS on the final. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score naming the teams (teamA/BName) and R-H-E, and a situation bar in even thirds (inning, bases, count and outs); FIRST PITCH before play, the runs scored in the inning between halves, AFTER n INNINGS on the final.",
       "output": "html-replications/starter-baseball-inning-break-card.html",
       "palette": [
         "#ffd166"
@@ -44493,8 +44493,8 @@
       ],
       "title": "Baseball — Inning Break Card",
       "fileName": "starter-baseball-inning-break-card.html",
-      "contentHash": "fed770ab1b1d3b2da1315daa0e1cbe79f3934a7ea5d81b0a34404b87eb60b976",
-      "documentPath": "published/fed770ab1b1d3b2da1315daa0e1cbe79f3934a7ea5d81b0a34404b87eb60b976.json"
+      "contentHash": "9077dc9a3d16a803d7d942b27aae27783d15f4983368848ac0dee47a2268af67",
+      "documentPath": "published/9077dc9a3d16a803d7d942b27aae27783d15f4983368848ac0dee47a2268af67.json"
     },
     {
       "aliases": [],
@@ -44541,8 +44541,8 @@
     },
     {
       "aliases": [],
-      "description": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
-      "motif": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip.",
+      "description": "Bottom-left matchup panel: header with PREGAME/LIVE/FINAL beside the event and R-H-E labels, white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, and a full-height dark situation panel (inning arrow, a large lit-base diamond, then the B-S count with its B/S lamps and the OUT lamps in one cluster); full-width inning-progress footer under the team rows with an extra-inning chip. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Bottom-left matchup panel: header with PREGAME/LIVE/FINAL beside the event and R-H-E labels, white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, and a full-height dark situation panel (inning arrow, a large lit-base diamond, then the B-S count with its B/S lamps and the OUT lamps in one cluster); full-width inning-progress footer under the team rows with an extra-inning chip.",
       "output": "html-replications/starter-baseball-matchup-panel.html",
       "palette": [
         "#ffffff",
@@ -44570,8 +44570,8 @@
       ],
       "title": "Baseball — Matchup Panel",
       "fileName": "starter-baseball-matchup-panel.html",
-      "contentHash": "00185979284565310737bbeb94ecfcf216abb5d949ba1f4ff70ce42574cf0685",
-      "documentPath": "published/00185979284565310737bbeb94ecfcf216abb5d949ba1f4ff70ce42574cf0685.json"
+      "contentHash": "55e054303a3476373645a557cb1b87ee87be472f44a91ba7c7762498f69d51db",
+      "documentPath": "published/55e054303a3476373645a557cb1b87ee87be472f44a91ba7c7762498f69d51db.json"
     },
     {
       "aliases": [],
@@ -44690,8 +44690,8 @@
       ],
       "title": "Pickleball Kitchen Line",
       "fileName": "starter-pickleball-corner-kitchen.html",
-      "contentHash": "495a8347c9e5e800f4e979894ef504280d4824fad11b36b6d39a108fe04d277c",
-      "documentPath": "published/495a8347c9e5e800f4e979894ef504280d4824fad11b36b6d39a108fe04d277c.json"
+      "contentHash": "df1ca0e4eeca64c9ccc44c4f87a849df72d4920540412cc8b3dfb85a206599d7",
+      "documentPath": "published/df1ca0e4eeca64c9ccc44c4f87a849df72d4920540412cc8b3dfb85a206599d7.json"
     },
     {
       "aliases": [],
@@ -44833,8 +44833,8 @@
       ],
       "title": "Pickleball Between Games",
       "fileName": "starter-pickleball-full-between-games.html",
-      "contentHash": "18983b4015f39ff5917aaab98aeb374b6c3e5f3e8c87bde8190560dfde3a560f",
-      "documentPath": "published/18983b4015f39ff5917aaab98aeb374b6c3e5f3e8c87bde8190560dfde3a560f.json"
+      "contentHash": "ec96438301b3b5bfe614440656c55b8a8890695511d14623df571301dbba536b",
+      "documentPath": "published/ec96438301b3b5bfe614440656c55b8a8890695511d14623df571301dbba536b.json"
     },
     {
       "aliases": [],
@@ -45036,7 +45036,7 @@
         "#0f6a73"
       ],
       "placement": "corner",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45056,8 +45056,18 @@
       ],
       "title": "Softball — Ballpark Card",
       "fileName": "starter-softball-ballpark-card.html",
-      "contentHash": "d8ee3c543626e8b971feb8948d902b7e56f69b88c2093ee02c0867a19bace47d",
-      "documentPath": "published/d8ee3c543626e8b971feb8948d902b7e56f69b88c2093ee02c0867a19bace47d.json"
+      "contentHash": "26327389f02925346e560baa51429e0ff014a1c21c0030fb18b37fc3158607ab",
+      "documentPath": "published/26327389f02925346e560baa51429e0ff014a1c21c0030fb18b37fc3158607ab.json",
+      "preview": {
+        "path": "previews/f7d8e7f8eeb431909813ea731071ea02c4dee95a30fbd9e617bc7203073097b3.png",
+        "imageHash": "f7d8e7f8eeb431909813ea731071ea02c4dee95a30fbd9e617bc7203073097b3",
+        "contentHash": "26327389f02925346e560baa51429e0ff014a1c21c0030fb18b37fc3158607ab",
+        "width": 520,
+        "height": 324,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "softball"
+      }
     },
     {
       "aliases": [],
@@ -45217,8 +45227,8 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
-      "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final).",
+      "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score naming the teams (teamA/BName) and R-H-E, and a situation bar in even thirds (inning, bases, count and outs); FIRST PITCH before play, the runs scored in the inning between halves, AFTER n INNINGS on the final. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score naming the teams (teamA/BName) and R-H-E, and a situation bar in even thirds (inning, bases, count and outs); FIRST PITCH before play, the runs scored in the inning between halves, AFTER n INNINGS on the final.",
       "output": "html-replications/starter-softball-inning-break-card.html",
       "palette": [
         "#e6f03c"
@@ -45244,20 +45254,20 @@
       ],
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
-      "contentHash": "a8e075e3e2b1812e66c6cff10e20aa0bd94686facb6b3dd4134339fbcdc992ec",
-      "documentPath": "published/a8e075e3e2b1812e66c6cff10e20aa0bd94686facb6b3dd4134339fbcdc992ec.json"
+      "contentHash": "893f1a5bb8e73982c8b906eece740ab253004d10c414d8ffe0d83c336ed81e76",
+      "documentPath": "published/893f1a5bb8e73982c8b906eece740ab253004d10c414d8ffe0d83c336ed81e76.json"
     },
     {
       "aliases": [],
-      "description": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
-      "motif": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs).",
+      "description": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra-inning columns appear when played), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs). 7-inning softball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra-inning columns appear when played), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs).",
       "output": "html-replications/starter-softball-linescore-strip.html",
       "palette": [
         "#0f2a2e",
         "#f6e33a"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45277,13 +45287,23 @@
       ],
       "title": "Softball — Line Score Strip",
       "fileName": "starter-softball-linescore-strip.html",
-      "contentHash": "4c6b545e9e0a70872f04882b327a2ca1a658cffda0931b5cd9c3b234e403a387",
-      "documentPath": "published/4c6b545e9e0a70872f04882b327a2ca1a658cffda0931b5cd9c3b234e403a387.json"
+      "contentHash": "1d50ac95530be74503c83412a127346a686c1cddfaa5a1a3b1aede79773d0c14",
+      "documentPath": "published/1d50ac95530be74503c83412a127346a686c1cddfaa5a1a3b1aede79773d0c14.json",
+      "preview": {
+        "path": "previews/67c91060fb7c89bbf070e819706cda7eedae4eaab392e54d759dd8b15a1f1d9c.png",
+        "imageHash": "67c91060fb7c89bbf070e819706cda7eedae4eaab392e54d759dd8b15a1f1d9c",
+        "contentHash": "1d50ac95530be74503c83412a127346a686c1cddfaa5a1a3b1aede79773d0c14",
+        "width": 1200,
+        "height": 218,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "softball"
+      }
     },
     {
       "aliases": [],
-      "description": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
-      "motif": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip.",
+      "description": "Bottom-left matchup panel: header with PREGAME/LIVE/FINAL beside the event and R-H-E labels, white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, and a full-height dark situation panel (inning arrow, a large lit-base diamond, then the B-S count with its B/S lamps and the OUT lamps in one cluster); full-width inning-progress footer under the team rows with an extra-inning chip. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+      "motif": "Bottom-left matchup panel: header with PREGAME/LIVE/FINAL beside the event and R-H-E labels, white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, and a full-height dark situation panel (inning arrow, a large lit-base diamond, then the B-S count with its B/S lamps and the OUT lamps in one cluster); full-width inning-progress footer under the team rows with an extra-inning chip.",
       "output": "html-replications/starter-softball-matchup-panel.html",
       "palette": [
         "#fdfcff",
@@ -45311,8 +45331,8 @@
       ],
       "title": "Softball — Matchup Panel",
       "fileName": "starter-softball-matchup-panel.html",
-      "contentHash": "779ce73f9d5d2299fcfec6b4c5feb1c39d249000cd336bb0f1ff6c07fbc74788",
-      "documentPath": "published/779ce73f9d5d2299fcfec6b4c5feb1c39d249000cd336bb0f1ff6c07fbc74788.json"
+      "contentHash": "f725897c97d8e1e7f6cdd12599d82a59dfd1650006760431d1162a272d2ecc2a",
+      "documentPath": "published/f725897c97d8e1e7f6cdd12599d82a59dfd1650006760431d1162a272d2ecc2a.json"
     },
     {
       "aliases": [],
@@ -46935,7 +46955,7 @@
         "#ffd65a"
       ],
       "placement": "corner",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46954,8 +46974,18 @@
       ],
       "title": "Volleyball Beach Sun",
       "fileName": "starter-volleyball-corner-beach-sun.html",
-      "contentHash": "892b8cc39d30e86ce4528ce2c8c7a5e728a1f8085db5dca0fcbd268b6d8d160c",
-      "documentPath": "published/892b8cc39d30e86ce4528ce2c8c7a5e728a1f8085db5dca0fcbd268b6d8d160c.json"
+      "contentHash": "3a5ea9943ed8497db2fb5eba2ee28186fac6d2f6575ba925834ef3e6627a2cc0",
+      "documentPath": "published/3a5ea9943ed8497db2fb5eba2ee28186fac6d2f6575ba925834ef3e6627a2cc0.json",
+      "preview": {
+        "path": "previews/495186aafcbf687521cc9babd0125453680d8675a604cfd438609c83a0418f2c.png",
+        "imageHash": "495186aafcbf687521cc9babd0125453680d8675a604cfd438609c83a0418f2c",
+        "contentHash": "3a5ea9943ed8497db2fb5eba2ee28186fac6d2f6575ba925834ef3e6627a2cc0",
+        "width": 518,
+        "height": 269,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
     },
     {
       "aliases": [],
@@ -47102,8 +47132,8 @@
       ],
       "title": "Volleyball Set Break",
       "fileName": "starter-volleyball-full-set-break.html",
-      "contentHash": "3fc30497c2416cca44a6a4ff5fc15d2e69b77344351ee0654f9f72778b07ccc8",
-      "documentPath": "published/3fc30497c2416cca44a6a4ff5fc15d2e69b77344351ee0654f9f72778b07ccc8.json"
+      "contentHash": "2aa5e69358d44595d312b9120b2915c7b18450b2d608b38bbe4e764699731355",
+      "documentPath": "published/2aa5e69358d44595d312b9120b2915c7b18450b2d608b38bbe4e764699731355.json"
     },
     {
       "aliases": [],
@@ -47196,7 +47226,7 @@
         "#ffffff"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -47215,8 +47245,18 @@
       ],
       "title": "Volleyball Center Court",
       "fileName": "starter-volleyball-lower-center-court.html",
-      "contentHash": "7dc0b4397118075c8d91c39d153a62969c0543af58d05fb13ae2b0850217213c",
-      "documentPath": "published/7dc0b4397118075c8d91c39d153a62969c0543af58d05fb13ae2b0850217213c.json"
+      "contentHash": "8642d3065fc94ec3930a9612ac46c1808bcb3fb86971c7741d2e536711cc6648",
+      "documentPath": "published/8642d3065fc94ec3930a9612ac46c1808bcb3fb86971c7741d2e536711cc6648.json",
+      "preview": {
+        "path": "previews/014247ab2a976b808b032e08efe357f51efef826521685160dc86d31a336e2df.png",
+        "imageHash": "014247ab2a976b808b032e08efe357f51efef826521685160dc86d31a336e2df",
+        "contentHash": "8642d3065fc94ec3930a9612ac46c1808bcb3fb86971c7741d2e536711cc6648",
+        "width": 1022,
+        "height": 202,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
     },
     {
       "aliases": [],
