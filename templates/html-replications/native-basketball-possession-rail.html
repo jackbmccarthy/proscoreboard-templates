@@ -9,37 +9,39 @@
     html, body { margin: 0; background: transparent; }
     body { padding: 24px 50px 28px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; }
     .osb { position: relative; display: grid; grid-template-columns: 1fr 300px 1fr; width: 1180px; height: 104px; color: #fff; background: #08090b; border-top: 4px solid #e8ff3a; filter: drop-shadow(0 8px 18px #000a); }
-    .team { display: grid; grid-template-columns: 124px minmax(0, 1fr); min-width: 0; }
-    .team.B { grid-template-columns: minmax(0, 1fr) 124px; }
-    .team.B > .kitw { order: 2; } .team.B .who { text-align: right; align-items: flex-end; }
+    .team { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1fr) 132px; min-width: 0; }
+    .team.B { grid-template-columns: 132px minmax(0, 1fr); }
+    .team.A > .kitw { order: 2; } .team.A .who { text-align: right; align-items: flex-end; }
     .kitw { position: relative; display: flex; background: #3e4a5a; }
     .team.B .kitw { background: #6e7888; }
     .kit { flex: 1; display: flex; align-items: center; justify-content: center; background-color: transparent; }
-    .pts { min-width: 96px; padding: 4px 0 0; text-align: center; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 54px; font-weight: 700; line-height: 1; color: #fff; background: #000c; border-radius: 4px; font-variant-numeric: tabular-nums; }
-    .who { position: relative; display: flex; flex-direction: column; justify-content: center; gap: 8px; min-width: 0; padding: 0 50px 0 22px; }
-    .team.B .who { padding: 0 22px 0 50px; }
+    .pts { min-width: 108px; padding: 5px 0 0; text-align: center; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 64px; font-weight: 700; line-height: 1; color: #fff; background: #000c; border-radius: 4px; font-variant-numeric: tabular-nums; }
+    .who { position: static; display: flex; flex-direction: column; justify-content: center; gap: 8px; min-width: 0; padding: 0 22px 0 26px; }
+    .team.B .who { padding: 0 26px 0 22px; }
     .nm { font-size: 30px; font-weight: 700; line-height: 1; letter-spacing: .5px; text-transform: uppercase; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; overflow-wrap: normal; word-break: normal; hyphens: none; text-wrap: balance; max-width: 100%; }
-    .meta { display: flex; align-items: center; gap: 16px; font-size: 16px; font-weight: 600; letter-spacing: 1.5px; color: #9aa1ab; }
-    .team.B .meta { flex-direction: row-reverse; }
+    .meta { display: flex; align-items: center; gap: 16px; font-size: 16px; font-weight: 700; letter-spacing: 1.5px; color: #c9ced6; }
+    .team.A .meta { justify-content: flex-end; }
     .tor { display: flex; align-items: center; gap: 7px; }
-    .team.B .tor { flex-direction: row-reverse; }
-    .cap { font-size: 16px; font-weight: 600; letter-spacing: 1.5px; color: #9aa1ab; }
+        .cap { font-size: 16px; font-weight: 700; letter-spacing: 1.5px; color: #c9ced6; }
     .pips { display: flex; gap: 5px; }
-    .pip { width: 16px; height: 6px; background: #e8ff3a; }
+    .pip { width: 16px; height: 12px; background: #e8ff3a; border-radius: 2px; }
     .fl b { color: #fff; margin-left: 4px; }
-    .bonus { font-size: 14px; font-weight: 700; letter-spacing: 1.5px; color: #08090b; background: #e8ff3a; padding: 2px 7px 1px; }
+    .bonus { font-size: 14px; font-weight: 800; letter-spacing: 1.5px; color: #fff; background: #ff6a1f; padding: 2px 8px 1px; border-radius: 2px; }
     .bonus:empty { display: none; }
-    .to { position: absolute; left: 16px; right: 16px; bottom: 10px; height: 30px; align-items: center; justify-content: center; gap: 14px; background: #e8ff3a; color: #08090b; }
+    .to { position: absolute; left: 16px; right: 148px; bottom: 12px; height: 32px; align-items: center; justify-content: space-between; gap: 14px; padding: 0 4px 0 14px; background: #fff; color: #08090b; }
+    .team.B .to { left: 148px; right: 16px; }
     .to-l { font-size: 18px; font-weight: 700; letter-spacing: 4px; }
-    .to-c { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 21px; font-weight: 700; }
+    .to-c { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; background: #08090b; color: #fff; padding: 3px 8px 1px; font-variant-numeric: tabular-nums; }
     .mid { display: grid; background: #15171b; border-left: 1px solid #2c3036; border-right: 1px solid #2c3036; }
     .mid > * { grid-area: 1 / 1; }
     .live { position: relative; display: flex; align-items: center; justify-content: center; }
-    .pa { position: absolute; top: 0; bottom: 0; right: 14px; display: flex; align-items: center; justify-content: center; width: 24px; }
-    .team.B .pa { right: auto; left: 14px; }
+    .pa { position: absolute; top: 0; bottom: 0; right: -38px; display: flex; align-items: center; justify-content: center; width: 24px; }
+    .team.B .pa { right: auto; left: -38px; }
     .arrow { width: 0; height: 0; border-top: 16px solid transparent; border-bottom: 16px solid transparent; }
     .pa.A .arrow { border-right: 22px solid #e8ff3a; }
     .pa.B .arrow { border-left: 22px solid #e8ff3a; }
+    .osb:has(.isInBetweenGames[style*="opacity: 1"]) .pa.A .arrow { border-right-color: #08090b; }
+    .osb:has(.isInBetweenGames[style*="opacity: 1"]) .pa.B .arrow { border-left-color: #08090b; }
     .pa::before { content: ""; position: absolute; width: 0; height: 0; border-top: 16px solid transparent; border-bottom: 16px solid transparent; }
     .core { display: flex; flex-direction: column; align-items: center; gap: 4px; }
     .top { display: flex; align-items: center; gap: 14px; }
@@ -54,12 +56,13 @@
     .prog { display: flex; gap: 3px; align-items: center; }
     .q { position: relative; width: 14px; height: 4px; background: #393d44; }
     .q > span { position: absolute; inset: 0; background: #e8ff3a; }
-    .ot { margin-left: 3px; font-size: 9px; font-weight: 700; padding: 1px 3px 0; line-height: 1; background: #e8ff3a; color: #08090b; }
-    .state { z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; background: #e8ff3a; color: #08090b; }
+    .ot { width: 20px; height: 4px; margin-left: 2px; padding: 0; overflow: hidden; font-size: 16px; line-height: 4px; border-radius: 1px; background: #ff6a1f; color: transparent; }
+    .state { z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; background: #f2f3f5; color: #08090b; }
     .st-s { font-size: 17px; font-weight: 700; letter-spacing: 3px; }
     .st-b { font-size: 46px; font-weight: 700; margin-top: 2px; }
     .brk .half-t { font-size: 44px; }
-    .fin { z-index: 2; background: #fff; }
+    .fin { z-index: 2; background: #08090b; color: #fff; box-shadow: inset 0 -6px 0 #e8ff3a; }
+    .fin-ot { color: #e8ff3a; }
     .fin-ot { font-size: 17px; font-weight: 700; letter-spacing: 3px; margin-top: 3px; }
     .ev { position: absolute; left: 50%; bottom: 100%; transform: translateX(-50%); display: flex; gap: 12px; padding: 6px 16px 4px; background: #e8ff3a; color: #08090b; font-size: 15px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; }
     .wrap { padding-top: 30px; }
@@ -69,10 +72,13 @@
     .fin-ot { display: none; }
     .osb:has(.isGame5Started[style*="opacity: 1"]) .fin-ot { display: block; }
     .osb:has(.isComplete[style*="opacity: 1"]) .final-dim { opacity: .5; }
-    .osb:has(.isComplete[style*="opacity: 1"]) .pip { background: #6b717b; }
+    .osb:has(.isComplete[style*="opacity: 1"]) .meta { visibility: hidden; }
+    .tor:not(:has(.pip[style*="opacity: 1"])) { visibility: hidden; }
     .win { position: absolute; left: 0; right: 0; bottom: 0; height: 8px; background: #e8ff3a; }
     .kitw:has(> .win[style*="opacity: 1"]) .pts { background: #e8ff3a; color: #08090b; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B :is(.who, .pts), .osb:has(.isBWinner[style*="opacity: 1"]) .team.A :is(.who, .pts) { opacity: .45; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .nm, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .nm { color: #9aa1ab; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .pts, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .pts { color: #b4bac3; background: #000e; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .kitw, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .kitw { filter: saturate(.45) brightness(.7); }
     .pips { gap: 0 !important; }
     .pips > [class*="TimeoutLeft"] { margin-right: 4px; }
     .pips > [style*="opacity: 0"] { width: 0 !important; margin: 0 !important; }
