@@ -8,34 +8,34 @@
     * { box-sizing: border-box; }
     html, body { margin: 0; background: transparent; }
     body { padding: 24px 32px 28px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; }
-    .osb { position: relative; width: 720px; color: #fff; filter: drop-shadow(0 6px 14px #000a); }
+    .osb { position: relative; width: 808px; color: #fff; filter: drop-shadow(0 6px 14px #000a); }
     .ev { display: flex; gap: 12px; width: fit-content; max-width: 100%; margin: 0 0 0 12px; padding: 5px 18px 4px 16px; background: #07101f; clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%); font-size: 15px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #e6ecf5; white-space: nowrap; }
     .ev .eventName { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
     .ev .matchRound { color: #39d5ff; }
-    .bar { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 124px minmax(0, 1fr) 128px; height: 62px; }
-    .tm { display: grid; grid-template-columns: 10px minmax(0, 1fr); align-items: center; background: linear-gradient(#17233b, #0c1426); clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%); padding-left: 10px; min-width: 0; }
-    .tm.B { grid-template-columns: minmax(0, 1fr) 10px; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); padding: 0 10px 0 0; }
-        .kitw { display: flex; height: 34px; transform: skewX(-12deg); background: #c3ccda; }
+    .bar { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 124px minmax(0, 1fr) 160px; height: 62px; }
+    .tm { display: grid; grid-template-columns: 18px minmax(0, 1fr); align-items: center; background: linear-gradient(#17233b, #0c1426); clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%); padding-left: 10px; min-width: 0; }
+    .tm.B { grid-template-columns: minmax(0, 1fr) 18px; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); padding: 0 10px 0 0; }
+        .kitw { position: relative; z-index: 1; display: flex; height: 44px; transform: skewX(-12deg); background: #c3ccda; box-shadow: 0 0 10px #0006; }
     .tm.B > .kitw { order: 2; background: #64738c; }
     .kit { flex: 1; background-color: transparent; }
-    .nmw { display: flex; align-items: center; gap: 8px; padding: 0 12px; min-width: 0; }
+    .nmw { position: relative; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 0 12px; min-width: 0; }
     .tm.B .nmw { flex-direction: row-reverse; text-align: right; }
-    .nm { min-width: 0; font-size: 20px; font-weight: 700; line-height: 1; letter-spacing: .3px; text-transform: uppercase; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; text-wrap: balance; overflow: hidden; overflow-wrap: normal; word-break: normal; hyphens: none; }
+    .nm { flex: 0 1 auto; min-width: 0; font-size: 20px; font-weight: 700; line-height: 1; letter-spacing: .3px; text-transform: uppercase; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; text-wrap: balance; overflow: hidden; overflow-wrap: normal; word-break: normal; hyphens: none; }
     .sc { display: flex; align-items: center; justify-content: center; gap: 8px; background: #39d5ff; color: #07101f; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 38px; font-weight: 700; font-variant-numeric: tabular-nums; clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
     .sc b { font-size: 24px; opacity: .55; }
     .clk { position: relative; display: grid; margin-left: 4px; background: #07101f; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); }
     .clk > * { grid-area: 1 / 1; }
-    .live { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; }
+    .live { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 26px; line-height: 1; }
     .gc { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
     .sub { display: flex; align-items: center; gap: 7px; margin-top: 3px; }
     .per { font-size: 15px; font-weight: 700; letter-spacing: 1px; color: #9fb0ca; }
-    .add { position: absolute; top: 100%; right: 22px; display: flex; align-items: center; height: 26px; padding: 0 10px; background: #39d5ff; color: #07101f; border-radius: 0 0 5px 5px; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 20px; font-weight: 700; box-shadow: 0 4px 8px #0006; }
-    .dot { width: 13px; height: 13px; color: #ff2d48; filter: drop-shadow(0 0 4px #ff2d48); }
+    .add { position: absolute; top: 9px; right: 18px; z-index: 4; display: flex; align-items: center; height: 26px; padding: 1px 7px 0; background: #39d5ff; color: #07101f; border-radius: 3px; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 20px; font-weight: 700; box-shadow: 0 4px 8px #0006; }
+    .dot { width: 14px; height: 14px; color: #ff3346; border-radius: 50%; box-shadow: 0 0 0 2px #ffffff40, 0 0 9px #ff3346; }
     .runbar { position: absolute; left: 30px; right: 30px; bottom: 3px; height: 2px; background: #39d5ff; }
-    .mp { display: flex; gap: 2px; }
-    .h { position: relative; width: 14px; height: 4px; background: #2a3a58; }
+    .mp { position: absolute; left: 16px; right: 2px; top: 0; display: flex; gap: 2px; height: 4px; }
+    .h { position: relative; flex: 2; height: 4px; background: #22324e; }
     .h > span { position: absolute; inset: 0; background: #39d5ff; }
-    .et { width: 8px; height: 4px; background: #ff9f1c; }
+    .et { flex: 1; height: 4px; background: #ff9f1c; }
     .state { z-index: 1; display: flex; align-items: center; justify-content: center; gap: 8px; line-height: 1; background: #fff; color: #07101f; }
     .st-b { font-size: 30px; font-weight: 700; letter-spacing: 1px; }
     .pens { z-index: 2; background: #ff9f1c; }
@@ -58,10 +58,11 @@
     .dot i { display: block; width: 100%; height: 100%; border-radius: 50%; background: currentColor; animation: osb-pulse 1.6s ease-in-out infinite; }
     @keyframes osb-pulse { 50% { opacity: .35; } }
     .osb:has(.isComplete[style*="opacity: 1"]) .dot i { animation: none; }
-    .win { position: absolute; top: 12px; bottom: 12px; width: 5px; background: #39d5ff; }
+    .win { position: absolute; inset: 0; background: linear-gradient(#1f4d7c, #102c52); box-shadow: inset 0 -4px 0 #39d5ff; }
     .tm { position: relative; }
-    .tm.A .win { right: 6px; } .tm.B .win { left: 6px; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .tm.B .nmw, .osb:has(.isBWinner[style*="opacity: 1"]) .tm.A .nmw { opacity: .5; }
+    
+    .osb:has(.isAWinner[style*="opacity: 1"]) .tm.B .nm, .osb:has(.isBWinner[style*="opacity: 1"]) .tm.A .nm { color: #9aa8bd; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .tm.B .kitw, .osb:has(.isBWinner[style*="opacity: 1"]) .tm.A .kitw { opacity: .5; }
     .osb-aux { display: none; }
     .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
     .combinedAName:empty::before { content: "Team A"; }
@@ -92,11 +93,10 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
     <div class="tm B"><span class="win isBWinner" data-osb-component="field" data-osb-field="isBWinner" style="opacity: 0;"></span><span class="kitw"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span><span class="nmw"><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="cards"><span class="yc isBYellowCarded" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity: 0;"><span class="cn yellowCardsB" data-osb-component="field" data-osb-field="yellowCardsB"></span></span><span class="rc isBRedCarded" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity: 0;"><span class="cn redCardsB" data-osb-component="field" data-osb-field="redCardsB"></span></span></span></span></div>
     <div class="clk">
       <div class="live"><span class="gc"><span class="clockMinutes" data-osb-component="field" data-osb-field="clockMinutes" data-osb-static="true" data-sport-stat="clockMinutes">00</span><b>:</b><span class="clockSeconds" data-osb-component="field" data-osb-field="clockSeconds" data-osb-static="true" data-sport-stat="clockSeconds">00</span></span><span class="sub"><span class="dot isMatchStarted" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity: 0;"><i></i></span><span class="per periodLabel" data-osb-component="field" data-osb-field="periodLabel" data-osb-static="true" data-sport-stat="half"></span><span class="mp"><span class="h"><span class="isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="display: none; opacity: 0;"></span></span><span class="h"><span class="isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="display: none; opacity: 0;"></span></span><span class="et isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="display: none; opacity: 0;"></span><span class="et isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="display: none; opacity: 0;"></span></span></span><span class="runbar isGameClockRunning" data-osb-component="field" data-osb-field="isGameClockRunning" style="opacity: 0;"></span></div>
-      <div class="state brk isInBetweenGames" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity: 0;"><span class="st-b b-ht">HT</span><span class="st-b b-ft">FT</span><span class="st-b b-eh">ET HT</span><span class="st-b b-aet">AET</span></div>
+      <span class="add addedTimeVisible" data-osb-component="field" data-osb-field="addedTimeVisible" style="opacity: 0;"><span class="add-v addedTime" data-osb-component="field" data-osb-field="addedTime"></span></span><div class="state brk isInBetweenGames" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity: 0;"><span class="st-b b-ht">HT</span><span class="st-b b-ft">FT</span><span class="st-b b-eh">ET HT</span><span class="st-b b-aet">AET</span></div>
       <div class="state pens isShootoutActive" data-osb-component="field" data-osb-field="isShootoutActive" style="opacity: 0;"><span class="st-s">PENS</span><span class="st-v"><span class="shootoutAScore" data-osb-component="field" data-osb-field="shootoutAScore">0</span><b>-</b><span class="shootoutBScore" data-osb-component="field" data-osb-field="shootoutBScore">0</span></span></div>
       <div class="state fin isComplete" data-osb-component="field" data-osb-field="isComplete" style="opacity: 0;"><span class="st-b">FT<span class="isDecidedOnPenalties fpens" data-osb-component="field" data-osb-field="isDecidedOnPenalties" style="opacity:0"> (<span class="shootoutAScore" data-osb-component="field" data-osb-field="shootoutAScore">0</span>-<span class="shootoutBScore" data-osb-component="field" data-osb-field="shootoutBScore">0</span> PENS)</span></span></div>
     </div>
-    <span class="add addedTimeVisible" data-osb-component="field" data-osb-field="addedTimeVisible" style="opacity: 0;"><span class="add-v addedTime" data-osb-component="field" data-osb-field="addedTime"></span></span>
   </div>
   <div class="osb-aux"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="homeSide" data-osb-component="field" data-osb-field="homeSide"></span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div>
 </article>
