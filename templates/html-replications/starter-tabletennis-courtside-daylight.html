@@ -15,161 +15,123 @@ html,body{margin:0;background:transparent}
 .slot:has(>.isComplete[style*="opacity: 1"])>.isGamePoint,.slot:has(>.isComplete[style*="opacity: 1"])>.isMatchPoint{opacity:0!important}
 .slot:has(>.isATimeOutActive[style*="opacity: 1"])>.isATimeOutUsed,.slot:has(>.isBTimeOutActive[style*="opacity: 1"])>.isBTimeOutUsed{opacity:0!important}
 body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
-.meta{display:flex;align-items:center;min-width:0;white-space:nowrap;overflow:hidden}
-.meta>*{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
-.meta .sep{flex:0 0 auto;font-style:normal;padding:0 .45em;opacity:.55}
-.meta .rd,.meta .bo{flex-shrink:0}
-.meta .ev:empty+.s1,.meta .rd:empty+.s2,.meta .s1:has(+.rd:empty),.meta .s2:has(+.bo:empty){display:none}
-.meta .ev:empty+.s1+.rd:empty+.s2{display:none}
 .won{position:absolute;z-index:0}
 .gs{position:relative;z-index:1}
 .gtag .nx{display:none}
 .board:has(.isInBetweenGames[style*="opacity: 1"]) .gtag .now{display:none}
 .board:has(.isInBetweenGames[style*="opacity: 1"]) .gtag .nx{display:inline}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-
 html,body{height:100%;overflow:hidden}
 .osb-core-fields{display:none!important}
-.board{position:fixed;inset:0;display:flex;flex-direction:column;gap:2vh;padding:3vh 2vw 2vh;font-family:"Avenir Next Condensed","DIN Condensed","Roboto Condensed","Arial Narrow",Arial,sans-serif;color:#17202e;background:#e9e5da;-webkit-font-smoothing:antialiased;overflow:hidden}
-.row{display:flex;flex:1 1 auto;min-height:0;gap:0}
-.end{position:relative;display:grid;grid-template-rows:auto 1fr auto;flex:1 1 0;min-width:0;padding:3.6vh 2.4vw 2.6vh;border-radius:1.6vh;background:#fff;box-shadow:0 .6vh 2.4vh rgba(40,30,10,.18)}
-.kit{position:absolute;left:0;right:0;top:0;height:1.6vh;border-radius:1.6vh 1.6vh 0 0;background:#8a93a3}
-.who{display:grid;grid-template-columns:auto minmax(0,1fr) 7vh;align-items:center;gap:1.4vw;min-width:0}
-.flag{width:7vh;height:4.7vh;object-fit:cover;border-radius:.4vh;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
-.flag:not([src]){display:block;width:0;margin-right:-1.4vw;box-shadow:none}
-.nm{display:flex;flex-direction:column;gap:.6vh;min-width:0}
-.name{font-size:4.4vh;line-height:1.02;font-weight:800;text-transform:uppercase;overflow-wrap:normal;hyphens:none}
-.team{display:flex;align-items:center;gap:1vw;font-size:3.2vh;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#5b6577}
-.tlogo{width:5vh;height:5vh;object-fit:contain}
-.tie{display:inline-flex;align-items:center;gap:.6vw;padding:0 1vw;height:5vh;border-radius:.6vh;background:#17202e;color:#fff;flex:0 0 auto}
-.tie i{font-style:normal;color:#b9c2d3}
-.team:not(:has(.tname:not(:empty))){display:none}
-.nm:has(.name:empty) .team{flex-wrap:wrap;font-size:4.2vh;color:#17202e}
-.nm:has(.name:empty) .tname{line-height:1.05}
-.ss{width:7vh;height:7vh}
-.ball{border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 16%,#ff8a1c 46%,#d65f00 100%);box-shadow:0 0 0 .5vh rgba(0,0,0,.12),0 .6vh 1.6vh rgba(214,95,0,.45)}
-.win{border-radius:50%;background:#1aa260}
-.win::after{content:"";width:2vh;height:3.8vh;margin-top:-.8vh;border:solid #fff;border-width:0 1vh 1vh 0;transform:rotate(45deg)}
-.pts{display:flex;align-items:center;justify-content:center;min-height:0}
-.big{font-size:44vh;line-height:.8;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.03em;color:#17202e}
-.foot{display:flex;align-items:center;justify-content:space-between;gap:1.4vw;min-height:7vh}
-.hist{position:relative;display:flex;gap:.7vw}
-.hg{display:flex;align-items:center;gap:.6vw;height:6.4vh;padding:0 1.1vw;border-radius:.8vh;font-weight:800;font-variant-numeric:tabular-nums}
-.hl{font-style:normal;font-size:2.8vh;letter-spacing:.08em;opacity:.75}
-.gs{font-size:4.2vh}
-
+.end[data-osb-resolved-court-side="A"] .isBWinner,.end[data-osb-resolved-court-side="B"] .isAWinner,.end:not([data-osb-resolved-court-side]) :is(.isAWinner,.isBWinner){display:none!important}
 .hg:not(:has(.won[style*="opacity: 1"])){position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;padding:0!important;margin:0!important;border:0!important}
 .hg .won{display:none}
-.hg{background:#eeeae0;color:#7d8696}
-.end[data-osb-resolved-court-side="A"] .hg:has(.wA[style*="opacity: 1"]),.end[data-osb-resolved-court-side="B"] .hg:has(.wB[style*="opacity: 1"]){background:#17202e;color:#fff}
-.end[data-osb-resolved-court-side="A"] .isBWinner,.end[data-osb-resolved-court-side="B"] .isAWinner,.end:not([data-osb-resolved-court-side]) :is(.isAWinner,.isBWinner){display:none!important}
-
-.marks{display:flex;align-items:center;gap:1vw;margin-left:auto}
-.to-slot{width:17vh;height:6vh}
-.to-on,.to-used{border-radius:.6vh;font-size:3vh;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
-.to-on{background:#ffcc00;color:#111}
-.to-used{box-shadow:inset 0 0 0 .4vh #c4c9d3;color:#5b6577}
-.cs{width:4.2vh;height:6vh}
-.card{border-radius:.6vh;box-shadow:0 0 0 .2vh rgba(0,0,0,.25)}
-.yc{background:#ffd400}.rc{background:#e3262f}
-/* the games tiles sit in the centre spine, beside each other under its GAMES label */
-.gw{position:absolute;top:50%;display:flex;align-items:center;justify-content:center;width:8.8vw;height:8.8vw;margin-top:-4.4vw;border-radius:1.2vh;background:#17202e;color:#fff;box-shadow:0 .6vh 1.6vh rgba(0,0,0,.2)}
-.eA .gw{left:calc(100% + .9vw)}
-.eB .gw{right:calc(100% + .9vw)}
-.gn{font-size:6.8vw;font-weight:900;font-variant-numeric:tabular-nums;line-height:1}
-.spine{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-between;flex:0 0 20vw;padding:2vh 0}
-.tagslot{width:16vw;height:13vh}
-.tagslot>*{flex-direction:column;gap:.4vh;border-radius:1.2vh;font-weight:900;text-transform:uppercase;line-height:1}
-.tagslot i{font-style:normal;font-size:3vh;letter-spacing:.16em}
-.now,.nx,.fin{display:flex;flex-direction:column;align-items:center;gap:.4vh}
-.board:has(.isInBetweenGames[style*="opacity: 1"]) .gtag .nx{display:flex}
-.cg,.ng,.tagslot b{font-size:7vh;letter-spacing:.02em}
-.gtag{background:#17202e;color:#fff}
-.gtag i{color:#b9c2d3}
-.fin{background:#1aa260;color:#fff}
-.pre{font-size:7vh;color:#a8a293;letter-spacing:.06em}
-.tagslot:has(>.gtag[style*="opacity: 1"]) .pre,.tagslot:has(>.fin[style*="opacity: 1"]) .pre{opacity:0}
-.glabel{position:absolute;top:50%;margin-top:calc(-4.4vw - 5.4vh);font-size:3.4vh;font-weight:900;letter-spacing:.2em;text-transform:uppercase;color:#5b6577}
-.banner{width:16vw;height:9vh}
-.bn{border-radius:1.2vh;font-size:3.8vh;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
-.bn-warm,.bn-break{background:#fff;color:#17202e;box-shadow:inset 0 0 0 .4vh #17202e}
-.bn-gp{background:#ff8a1c;color:#111}
-.bn-mp{background:#e3262f;color:#fff}
-.bar{display:flex;align-items:center;justify-content:space-between;gap:2vw;flex:0 0 7vh;padding:0 1vw}
-.info{display:flex;align-items:center;min-width:0;font-size:3.6vh;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden}
-.info>*{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
-.info .sep{flex:0 0 auto;font-style:normal;padding:0 .6em;color:#8a93a3}
-.info .ev:empty+.sep,.info .rd:empty+.s2,.info .sep:has(+.rd:empty),.info .s2:has(+.bo:empty){display:none}
-.chips{display:flex;gap:1vw}
-.teamlbl{display:none}
-.info:not(:has(.ev:not(:empty))):not(:has(.rd:not(:empty))) .teamlbl{display:inline}
-.board:not(:has(.tname:not(:empty))) .teamlbl{display:none!important}
-.chip{width:24vh;height:5.6vh}
-.fl{border-radius:.6vh;font-size:3vh;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#17202e;color:#fff}
+.name{overflow-wrap:normal;word-break:normal;hyphens:none}
+/* status chips flow: an empty chip takes no room, so both ends keep the same packed order */
+.to-slot:not(:has(>[style*="opacity: 1"])),.card:not([style*="opacity: 1"]){display:none}
 .board:has(.isComplete[style*="opacity: 1"]) .big{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important}
-.board:has(.isComplete[style*="opacity: 1"]) .glabel{display:none}
-.board:has(.isComplete[style*="opacity: 1"]) .gw{left:50%!important;right:auto!important;top:47%;transform:translate(-50%,-50%);margin:0;width:auto;height:auto;flex-direction:column;gap:1vh;background:none;box-shadow:none;color:#17202e}
-.board:has(.isComplete[style*="opacity: 1"]) .gn{font-size:38vh;line-height:.8}
-.board:has(.isComplete[style*="opacity: 1"]) .gw::after{content:"Games won";font-size:3.6vh;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:#5b6577}
-.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"]{box-shadow:0 0 0 .8vh #1aa260,0 .6vh 2.4vh rgba(40,30,10,.18)}
-.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]{background:#f4f2ec}
-:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]) :is(.big,.name,.flag){opacity:.4}
-:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"]) .gn{color:#1aa260}
-:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]) .gn{color:#b3b0a6}
 
-/* round 3: games won live on each player's card (labelled), bigger names, team band, labelled cards */
-.end{grid-template-rows:auto auto 1fr auto;grid-template-areas:"band" "who" "pts" "foot"}
-.tband{grid-area:band}.who{grid-area:who}.pts{grid-area:pts}.foot{grid-area:foot}
-.who{grid-template-columns:auto minmax(0,1fr) 7vh;grid-template-rows:auto auto;row-gap:1.4vh}
-.name{font-size:5.2vh}
-.gw{position:static;grid-column:1 / -1;grid-row:2;justify-self:start;display:flex;align-items:center;gap:1.2vw;width:auto;height:7vh;margin:0;padding:0 1.4vw 0 1.6vw;border-radius:1vh}
-.gw::before{content:"Games";font-size:3vh;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:#c9d0dc}
-.gn{font-size:5.6vh}
-.big{font-size:40vh}
-.spine{flex-basis:15vw;justify-content:space-between}
-.tagslot{width:13vw}
-.banner{width:14vw;height:12vh}
-.bn{font-size:3.6vh;white-space:normal!important;text-align:center;line-height:1.05;padding:0 1vw}
-.foot{flex-wrap:wrap;row-gap:1vh}
-.info .rd,.info .bo{flex-shrink:0}
-.tband{display:none;align-items:center;gap:1.2vw;margin-bottom:1.6vh;padding:0 1.2vw;min-height:7vh;border-radius:.8vh;background:#17202e;color:#fff;font-size:3.4vh;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.board{position:fixed;inset:0;display:flex;flex-direction:column;gap:1.6vh;padding:3vh 2vw 1.6vh;font-family:"Avenir Next Condensed","DIN Condensed","Roboto Condensed","Arial Narrow",Arial,sans-serif;color:#17202e;background:#e9e5da;-webkit-font-smoothing:antialiased;overflow:hidden}
+.row{display:flex;flex:1 1 auto;min-height:0}
+.end{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto 9vh minmax(0,1fr) 6.4vh 6.4vh;grid-template-areas:"band band" "who who" "pts pts" "gw hist" "gw marks";column-gap:1.2vw;row-gap:1vh;flex:1 1 0;min-width:0;padding:3.4vh 2.2vw 2.4vh;border-radius:1.6vh;background:#fff;box-shadow:0 .6vh 2.4vh rgba(40,30,10,.18)}
+.kit{position:absolute;left:0;right:0;top:0;height:1.6vh;border-radius:1.6vh 1.6vh 0 0;background:#8a93a3}
+.tband{grid-area:band;display:none;align-items:center;gap:1.2vw;margin-bottom:1.4vh;padding:0 1.2vw;min-height:7vh;border-radius:.8vh;background:#17202e;color:#fff;font-size:3.4vh;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
 .board:has(.tname:not(:empty)) .tband{display:flex}
 .tband .tlogo{width:5vh;height:5vh;object-fit:contain;flex:0 0 auto}
 .tband .tname{flex:1 1 auto;min-width:0;line-height:1.05;overflow-wrap:normal;hyphens:none}
 .tband .tie{display:inline-flex;align-items:center;gap:1vw;flex:0 0 auto;height:5.2vh;padding:0 1.2vw;border-radius:.6vh;background:#ffcc00;color:#17202e}
-.tband .tie i{font-style:normal;font-size:2.8vh;letter-spacing:.14em;color:#17202e}
+.tband .tie i{font-style:normal;font-size:2.8vh;letter-spacing:.14em}
 .tband .tscore{font-size:4.2vh;font-variant-numeric:tabular-nums}
-.board:has(.tname:not(:empty)) .big{font-size:33vh}
-.board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) :is(.who,.pts,.foot,.spine,.bar){display:none}
+.who{grid-area:who;display:grid;grid-template-columns:auto minmax(0,1fr) 8vh;align-items:center;gap:1.4vw;min-width:0}
+.flag{width:7vh;height:4.7vh;object-fit:cover;border-radius:.4vh;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
+.flag:not([src]){display:block;width:0;margin-right:-1.4vw;box-shadow:none}
+.nm{min-width:0}
+.name{display:block;font-size:5.2vh;line-height:1.02;font-weight:800;text-transform:uppercase}
+.ss{width:8vh;height:8vh}
+.ball{border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 16%,#ff8a1c 46%,#d65f00 100%);box-shadow:0 0 0 .5vh rgba(0,0,0,.12),0 .6vh 1.6vh rgba(214,95,0,.45)}
+.win{border-radius:50%;background:#1aa260;font-size:0}
+.win::after{content:"";width:2vh;height:3.8vh;margin-top:-.8vh;border:solid #fff;border-width:0 1vh 1vh 0;transform:rotate(45deg)}
+.pts{grid-area:pts;display:flex;align-items:center;justify-content:center;min-height:0}
+.big{font-size:56vh;line-height:.76;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.03em;color:#17202e}
+.gw{grid-area:gw;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6vh;width:15vh;border-radius:1.2vh;background:#17202e;color:#fff;font-weight:900;text-transform:uppercase}
+.gw i{font-style:normal;font-size:2.4vh;letter-spacing:.2em;line-height:1;color:#c9d0dc}
+.gn{font-size:8.4vh;line-height:.9;font-variant-numeric:tabular-nums}
+.hist{grid-area:hist;position:relative;display:flex;align-items:center;gap:.6vw;min-width:0}
+.hg{display:flex;align-items:center;gap:.5vw;height:6.4vh;padding:0 .9vw;border-radius:.8vh;font-weight:800;font-variant-numeric:tabular-nums;background:#eeeae0;color:#4e586a}
+.hl{font-style:normal;font-size:2.6vh;letter-spacing:.08em}
+.gs{font-size:4.2vh}
+.hist:has(>.hg:nth-child(5):has(.won[style*="opacity: 1"])) .hl{display:none}
+.hist:has(>.hg:nth-child(5):has(.won[style*="opacity: 1"])) .hg{padding:0 .7vw}
+.hist:has(>.hg:nth-child(5):has(.won[style*="opacity: 1"])) .gs{font-size:3.8vh}
+.end[data-osb-resolved-court-side="A"] .hg:has(.wA[style*="opacity: 1"]),.end[data-osb-resolved-court-side="B"] .hg:has(.wB[style*="opacity: 1"]){background:#17202e;color:#fff}
+.marks{grid-area:marks;display:flex;align-items:center;gap:.7vw;min-width:0}
+.to-slot{width:14vh;height:6vh}
+.to-on,.to-used{border-radius:.6vh;font-size:2.6vh;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+.to-on{background:#ffcc00;color:#111}
+.to-used{background:#e3dfd3;color:#3b4456}
+.card{display:inline-flex;align-items:center;gap:.7vw;height:6vh;padding:0 1.3vw 0 .9vw;border-radius:.6vh;font-size:2.6vh;font-weight:900;letter-spacing:.06em;text-transform:uppercase;background:#eeeae0;color:#17202e;white-space:nowrap}
+.card b{flex:0 0 auto;width:2.9vh;height:4vh;border-radius:.4vh;box-shadow:0 0 0 .2vh rgba(0,0,0,.25)}
+.yc b{background:#ffd400}.rc b{background:#e3262f}
+/* the spine: a net line between the cards, the game tile on top, the state banner mid-height, the format at its foot */
+.spine{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-between;flex:0 0 14vw;padding:0 0 0}
+.spine::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:.5vw;margin-left:-.25vw;background:repeating-linear-gradient(0deg,#17202e 0 .5vh,#bdb6a5 .5vh 1vh);opacity:.55}
+.spine>*{position:relative}
+.tagslot{width:12vw;height:15vh}
+.tagslot>*{flex-direction:column;gap:.6vh;border-radius:1.2vh;font-weight:900;text-transform:uppercase;line-height:1}
+.tagslot i{font-style:normal;font-size:3vh;letter-spacing:.16em}
+.now,.nx{display:flex;flex-direction:column;align-items:center;gap:.6vh}
+.board:has(.isInBetweenGames[style*="opacity: 1"]) .gtag .nx{display:flex}
+.cg,.ng,.tagslot b{font-size:7.4vh;letter-spacing:.02em}
+.gtag{background:#17202e;color:#fff}
+.gtag i{color:#b9c2d3}
+.fin{background:#1aa260;color:#fff}
+.pre{background:#e9e5da;font-size:6vh;color:#8a8475;letter-spacing:.06em}
+.tagslot:has(>.gtag[style*="opacity: 1"]) .pre,.tagslot:has(>.fin[style*="opacity: 1"]) .pre{opacity:0}
+.banner{width:13vw;height:13vh}
+.bn{border-radius:1.2vh;font-size:3.6vh;font-weight:900;letter-spacing:.1em;text-transform:uppercase;white-space:normal!important;text-align:center;line-height:1.05;padding:0 1vw}
+.bn-warm,.bn-break{background:#fff;color:#17202e;box-shadow:inset 0 0 0 .4vh #17202e}
+.bn-gp{background:#ff8a1c;color:#111}
+.bn-mp{background:#e3262f;color:#fff}
+.fmt{display:flex;align-items:center;justify-content:center;width:12vw;min-height:9vh;padding:1vh .8vw;border-radius:1.2vh;background:#e9e5da;box-shadow:inset 0 0 0 .4vh #c9c2b1;font-size:3.2vh;font-weight:900;letter-spacing:.1em;line-height:1.1;text-align:center;text-transform:uppercase;color:#3b4456}
+.fmt:has(.bo:empty){visibility:hidden}
+.bar{position:relative;display:flex;align-items:center;justify-content:center;flex:0 0 7vh;padding:0 26vh}
+.info{display:flex;align-items:center;min-width:0;font-size:3.8vh;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden}
+.info>*{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.info .rd{flex-shrink:0}
+.info .sep{flex:0 0 auto;font-style:normal;padding:0 .6em;color:#8a93a3}
+.info .ev:empty+.sep,.info .sep:has(+.rd:empty){display:none}
+.teamlbl{display:none}
+.info:not(:has(.ev:not(:empty))):not(:has(.rd:not(:empty))) .teamlbl{display:inline}
+.board:not(:has(.tname:not(:empty))) .teamlbl{display:none!important}
+.chips{position:absolute;right:0;top:50%;transform:translateY(-50%)}
+.chip{width:24vh;height:5.6vh}
+.fl{border-radius:.6vh;font-size:3vh;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#17202e;color:#fff}
+/* team tie */
+.board:has(.tname:not(:empty)) .big{font-size:44vh}
+.board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) :is(.who,.pts,.gw,.hist,.marks,.spine,.bar){display:none}
 .board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .row{gap:2vw}
-.board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband{grid-row:1 / -1;flex-direction:column;justify-content:center;gap:5vh;margin:0;background:none;color:#17202e;font-size:7vh;text-align:center}
+.board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband{grid-row:1 / -1;grid-column:1 / -1;flex-direction:column;justify-content:center;gap:5vh;margin:0;background:none;color:#17202e;font-size:7vh;text-align:center}
 .board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband .tlogo{width:14vh;height:14vh}
 .board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband .tname{flex:0 0 auto}
 .board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband .tie{height:auto;padding:2vh 4vw;border-radius:1.6vh}
 .board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband .tscore{font-size:22vh;line-height:.9}
 .board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband .tie i{font-size:4vh}
-.cs{width:16.5vh;height:6vh}
-.to-slot{width:14vh}
-.to-on,.to-used{font-size:2.6vh}
-.marks{gap:.8vw}
-.card{display:flex;align-items:center;justify-content:flex-start;gap:.8vw;padding:0 .9vw;border-radius:.6vh;font-size:2.6vh;font-weight:900;letter-spacing:.06em;text-transform:uppercase;background:#eeeae0;color:#17202e;box-shadow:none}
-.card b{flex:0 0 auto;width:2.9vh;height:4vh;border-radius:.4vh;box-shadow:0 0 0 .2vh rgba(0,0,0,.25)}
-.yc,.rc{background:#eeeae0}
-.yc b{background:#ffd400}.rc b{background:#e3262f}
-.to-used{box-shadow:none;background:#e3dfd3;color:#3b4456}
-.hg{background:#eeeae0;color:#4e586a}
-.hl{opacity:1}
-.info{font-size:3.8vh}
-.chip{height:5.6vh}
-/* final: the loser card steps back, still readable */
-:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]) :is(.big,.name){opacity:1;color:#5b6577}
+/* final: games won takes the points' place, MATCH .board:has(.isComplete[style*="opacity: 1"]) fills the top of the spine */
+.board:has(.isComplete[style*="opacity: 1"]) .end{grid-template-areas:"band band" "who who" "pts pts" "hist hist" "marks marks"}
+.board:has(.isComplete[style*="opacity: 1"]) .gw{grid-area:pts;align-self:center;justify-self:center;width:auto;flex-direction:column-reverse;gap:2vh;background:none;color:#17202e}
+.board:has(.isComplete[style*="opacity: 1"]) .gn{font-size:44vh;line-height:.78}
+.board:has(.isComplete[style*="opacity: 1"]) .gw i{font-size:3.8vh;letter-spacing:.2em;color:#5b6577}
+.board:has(.isComplete[style*="opacity: 1"]) .tagslot{height:26vh}
+.board:has(.isComplete[style*="opacity: 1"]) .fin b{font-size:7.4vh}
+.board:has(.isComplete[style*="opacity: 1"]) .fin i{font-size:3.6vh}
+:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"]){box-shadow:0 0 0 .8vh #1aa260,0 .6vh 2.4vh rgba(40,30,10,.18)}
+:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"]) .gn{color:#1aa260}
+:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]){background:#f4f2ec}
+:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]) :is(.name,.gn){color:#5b6577}
 :is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]) .flag{opacity:.55}
-:is(.board:has(.isAWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="B"],.board:has(.isBWinner[style*="opacity: 1"]) .end[data-osb-resolved-court-side="A"]) .gn{color:#6f7788}
-.board:has(.isComplete[style*="opacity: 1"]) .gw{position:absolute;grid-column:auto;grid-row:auto;padding:0}
-.board:has(.isComplete[style*="opacity: 1"]) .gw::before{content:none}
 </style>
 </head>
 <body>
-<main class="board t-day" data-osb-component="layout"><div class="row" data-osb-component="layout"><div class="courtSideAView end eA" data-osb-component="layout"><span class="jerseyColorA kit" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="tband" data-osb-component="layout"><img class="teamLogoURLA tlogo" data-osb-component="field" data-osb-field="teamLogoURLA" alt=""><span class="teamAName tname" data-osb-component="field" data-osb-field="teamAName"></span><span class="tie"><i>Tie</i><span class="teamAScore tscore" data-osb-component="field" data-osb-field="teamAScore">0</span></span></div><div class="who" data-osb-component="layout"><img class="countryA flag" data-osb-component="field" data-osb-field="countryA" alt=""><span class="nm"><span class="courtSideCombinedAName name" data-osb-component="field" data-osb-field="courtSideCombinedAName"></span></span><span class="slot ss"><span class="courtSideIsACurrentlyServing ball" data-osb-component="field" data-osb-field="courtSideIsACurrentlyServing" style="opacity:0"></span><span class="isAWinner win" data-osb-component="field" data-osb-field="isAWinner" style="opacity:0"></span><span class="isBWinner win" data-osb-component="field" data-osb-field="isBWinner" style="opacity:0"></span></span><span class="gw"><span class="courtSideAMatchScore gn" data-osb-component="field" data-osb-field="courtSideAMatchScore">0</span></span></div><div class="pts" data-osb-component="layout"><span class="courtSideAGameScore big" data-osb-component="field" data-osb-field="courtSideAGameScore">0</span></div><div class="foot" data-osb-component="layout"><span class="hist"><span class="hg isGame1Started" data-osb-component="layout" data-osb-field="isGame1Started" style="display:none"><i class="hl">G1</i><span class="isGame1AWon won wA" data-osb-component="field" data-osb-field="isGame1AWon" style="opacity:0"></span><span class="isGame1BWon won wB" data-osb-component="field" data-osb-field="isGame1BWon" style="opacity:0"></span><span class="game1AScore gs" data-osb-component="field" data-osb-field="game1AScore">0</span></span><span class="hg isGame2Started" data-osb-component="layout" data-osb-field="isGame2Started" style="display:none"><i class="hl">G2</i><span class="isGame2AWon won wA" data-osb-component="field" data-osb-field="isGame2AWon" style="opacity:0"></span><span class="isGame2BWon won wB" data-osb-component="field" data-osb-field="isGame2BWon" style="opacity:0"></span><span class="game2AScore gs" data-osb-component="field" data-osb-field="game2AScore">0</span></span><span class="hg isGame3Started" data-osb-component="layout" data-osb-field="isGame3Started" style="display:none"><i class="hl">G3</i><span class="isGame3AWon won wA" data-osb-component="field" data-osb-field="isGame3AWon" style="opacity:0"></span><span class="isGame3BWon won wB" data-osb-component="field" data-osb-field="isGame3BWon" style="opacity:0"></span><span class="game3AScore gs" data-osb-component="field" data-osb-field="game3AScore">0</span></span><span class="hg isGame4Started" data-osb-component="layout" data-osb-field="isGame4Started" style="display:none"><i class="hl">G4</i><span class="isGame4AWon won wA" data-osb-component="field" data-osb-field="isGame4AWon" style="opacity:0"></span><span class="isGame4BWon won wB" data-osb-component="field" data-osb-field="isGame4BWon" style="opacity:0"></span><span class="game4AScore gs" data-osb-component="field" data-osb-field="game4AScore">0</span></span><span class="hg isGame5Started" data-osb-component="layout" data-osb-field="isGame5Started" style="display:none"><i class="hl">G5</i><span class="isGame5AWon won wA" data-osb-component="field" data-osb-field="isGame5AWon" style="opacity:0"></span><span class="isGame5BWon won wB" data-osb-component="field" data-osb-field="isGame5BWon" style="opacity:0"></span><span class="game5AScore gs" data-osb-component="field" data-osb-field="game5AScore">0</span></span><span class="hg isGame6Started" data-osb-component="layout" data-osb-field="isGame6Started" style="display:none"><i class="hl">G6</i><span class="isGame6AWon won wA" data-osb-component="field" data-osb-field="isGame6AWon" style="opacity:0"></span><span class="isGame6BWon won wB" data-osb-component="field" data-osb-field="isGame6BWon" style="opacity:0"></span><span class="game6AScore gs" data-osb-component="field" data-osb-field="game6AScore">0</span></span><span class="hg isGame7Started" data-osb-component="layout" data-osb-field="isGame7Started" style="display:none"><i class="hl">G7</i><span class="isGame7AWon won wA" data-osb-component="field" data-osb-field="isGame7AWon" style="opacity:0"></span><span class="isGame7BWon won wB" data-osb-component="field" data-osb-field="isGame7BWon" style="opacity:0"></span><span class="game7AScore gs" data-osb-component="field" data-osb-field="game7AScore">0</span></span></span><span class="marks"><span class="slot to-slot"><span class="isATimeOutActive to-on" data-osb-component="field" data-osb-field="isATimeOutActive" style="opacity:0">Time-out</span><span class="isATimeOutUsed to-used" data-osb-component="field" data-osb-field="isATimeOutUsed" style="opacity:0">T/O used</span></span><span class="slot cs"><span class="isAYellowCarded card yc" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity:0"><b></b>Yellow</span></span><span class="slot cs"><span class="isARedCarded card rc" data-osb-component="field" data-osb-field="isARedCarded" style="opacity:0"><b></b>Red</span></span></span></div></div><div class="spine" data-osb-component="layout"><span class="slot tagslot"><span class="isMatchStarted gtag" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity:0"><span class="now"><i>Game</i><span class="currentGame cg" data-osb-component="field" data-osb-field="currentGame"></span></span><span class="nx"><i>Next game</i><span class="nextGame ng" data-osb-component="field" data-osb-field="nextGame"></span></span></span><span class="isComplete fin" data-osb-component="field" data-osb-field="isComplete" style="opacity:0"><i>Match</i><b>Final</b></span><span class="pre">VS</span></span><span class="gslot"></span><span class="slot banner"><span class="isWarmUpStarted bn bn-warm" data-osb-component="field" data-osb-field="isWarmUpStarted" style="opacity:0">Warm-up</span><span class="isInBetweenGames bn bn-break" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity:0">Change ends</span><span class="isGamePoint bn bn-gp" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">Game point</span><span class="isMatchPoint bn bn-mp" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">Match point</span></span></div><div class="courtSideBView end eB" data-osb-component="layout"><span class="jerseyColorB kit" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="tband" data-osb-component="layout"><img class="teamLogoURLB tlogo" data-osb-component="field" data-osb-field="teamLogoURLB" alt=""><span class="teamBName tname" data-osb-component="field" data-osb-field="teamBName"></span><span class="tie"><i>Tie</i><span class="teamBScore tscore" data-osb-component="field" data-osb-field="teamBScore">0</span></span></div><div class="who" data-osb-component="layout"><img class="countryB flag" data-osb-component="field" data-osb-field="countryB" alt=""><span class="nm"><span class="courtSideCombinedBName name" data-osb-component="field" data-osb-field="courtSideCombinedBName"></span></span><span class="slot ss"><span class="courtSideIsBCurrentlyServing ball" data-osb-component="field" data-osb-field="courtSideIsBCurrentlyServing" style="opacity:0"></span><span class="isAWinner win" data-osb-component="field" data-osb-field="isAWinner" style="opacity:0"></span><span class="isBWinner win" data-osb-component="field" data-osb-field="isBWinner" style="opacity:0"></span></span><span class="gw"><span class="courtSideBMatchScore gn" data-osb-component="field" data-osb-field="courtSideBMatchScore">0</span></span></div><div class="pts" data-osb-component="layout"><span class="courtSideBGameScore big" data-osb-component="field" data-osb-field="courtSideBGameScore">0</span></div><div class="foot" data-osb-component="layout"><span class="hist"><span class="hg isGame1Started" data-osb-component="layout" data-osb-field="isGame1Started" style="display:none"><i class="hl">G1</i><span class="isGame1AWon won wA" data-osb-component="field" data-osb-field="isGame1AWon" style="opacity:0"></span><span class="isGame1BWon won wB" data-osb-component="field" data-osb-field="isGame1BWon" style="opacity:0"></span><span class="game1BScore gs" data-osb-component="field" data-osb-field="game1BScore">0</span></span><span class="hg isGame2Started" data-osb-component="layout" data-osb-field="isGame2Started" style="display:none"><i class="hl">G2</i><span class="isGame2AWon won wA" data-osb-component="field" data-osb-field="isGame2AWon" style="opacity:0"></span><span class="isGame2BWon won wB" data-osb-component="field" data-osb-field="isGame2BWon" style="opacity:0"></span><span class="game2BScore gs" data-osb-component="field" data-osb-field="game2BScore">0</span></span><span class="hg isGame3Started" data-osb-component="layout" data-osb-field="isGame3Started" style="display:none"><i class="hl">G3</i><span class="isGame3AWon won wA" data-osb-component="field" data-osb-field="isGame3AWon" style="opacity:0"></span><span class="isGame3BWon won wB" data-osb-component="field" data-osb-field="isGame3BWon" style="opacity:0"></span><span class="game3BScore gs" data-osb-component="field" data-osb-field="game3BScore">0</span></span><span class="hg isGame4Started" data-osb-component="layout" data-osb-field="isGame4Started" style="display:none"><i class="hl">G4</i><span class="isGame4AWon won wA" data-osb-component="field" data-osb-field="isGame4AWon" style="opacity:0"></span><span class="isGame4BWon won wB" data-osb-component="field" data-osb-field="isGame4BWon" style="opacity:0"></span><span class="game4BScore gs" data-osb-component="field" data-osb-field="game4BScore">0</span></span><span class="hg isGame5Started" data-osb-component="layout" data-osb-field="isGame5Started" style="display:none"><i class="hl">G5</i><span class="isGame5AWon won wA" data-osb-component="field" data-osb-field="isGame5AWon" style="opacity:0"></span><span class="isGame5BWon won wB" data-osb-component="field" data-osb-field="isGame5BWon" style="opacity:0"></span><span class="game5BScore gs" data-osb-component="field" data-osb-field="game5BScore">0</span></span><span class="hg isGame6Started" data-osb-component="layout" data-osb-field="isGame6Started" style="display:none"><i class="hl">G6</i><span class="isGame6AWon won wA" data-osb-component="field" data-osb-field="isGame6AWon" style="opacity:0"></span><span class="isGame6BWon won wB" data-osb-component="field" data-osb-field="isGame6BWon" style="opacity:0"></span><span class="game6BScore gs" data-osb-component="field" data-osb-field="game6BScore">0</span></span><span class="hg isGame7Started" data-osb-component="layout" data-osb-field="isGame7Started" style="display:none"><i class="hl">G7</i><span class="isGame7AWon won wA" data-osb-component="field" data-osb-field="isGame7AWon" style="opacity:0"></span><span class="isGame7BWon won wB" data-osb-component="field" data-osb-field="isGame7BWon" style="opacity:0"></span><span class="game7BScore gs" data-osb-component="field" data-osb-field="game7BScore">0</span></span></span><span class="marks"><span class="slot to-slot"><span class="isBTimeOutActive to-on" data-osb-component="field" data-osb-field="isBTimeOutActive" style="opacity:0">Time-out</span><span class="isBTimeOutUsed to-used" data-osb-component="field" data-osb-field="isBTimeOutUsed" style="opacity:0">T/O used</span></span><span class="slot cs"><span class="isBYellowCarded card yc" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity:0"><b></b>Yellow</span></span><span class="slot cs"><span class="isBRedCarded card rc" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity:0"><b></b>Red</span></span></span></div></div></div><div class="bar" data-osb-component="layout"><span class="info"><span class="eventName ev" data-osb-component="field" data-osb-field="eventName"></span><i class="sep">·</i><span class="matchRound rd" data-osb-component="field" data-osb-field="matchRound"></span><i class="sep s2">·</i><span class="matchFormatLabel bestOf bo" data-osb-component="field" data-osb-field="matchFormatLabel"></span></span><span class="chips"><span class="slot chip"><span class="isCourtSideScoreboardFlipped fl" data-osb-component="field" data-osb-field="isCourtSideScoreboardFlipped" style="opacity:0">View flipped</span></span></span></div><div class="osb-core-fields" aria-hidden="true"><span class="combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></main>
+<main class="board t-day" data-osb-component="layout"><div class="row" data-osb-component="layout"><div class="courtSideAView end eA" data-osb-component="layout"><span class="jerseyColorA kit" data-osb-component="field" data-osb-field="jerseyColorA"></span><div class="tband" data-osb-component="layout"><img class="teamLogoURLA tlogo" data-osb-component="field" data-osb-field="teamLogoURLA" alt=""><span class="teamAName tname" data-osb-component="field" data-osb-field="teamAName"></span><span class="tie"><i>Tie</i><span class="teamAScore tscore" data-osb-component="field" data-osb-field="teamAScore">0</span></span></div><div class="who" data-osb-component="layout"><img class="countryA flag" data-osb-component="field" data-osb-field="countryA" alt=""><span class="nm"><span class="courtSideCombinedAName name" data-osb-component="field" data-osb-field="courtSideCombinedAName"></span></span><span class="slot ss"><span class="courtSideIsACurrentlyServing ball" data-osb-component="field" data-osb-field="courtSideIsACurrentlyServing" style="opacity:0"></span><span class="isAWinner win" data-osb-component="field" data-osb-field="isAWinner" style="opacity:0"></span><span class="isBWinner win" data-osb-component="field" data-osb-field="isBWinner" style="opacity:0"></span></span></div><div class="pts" data-osb-component="layout"><span class="courtSideAGameScore big" data-osb-component="field" data-osb-field="courtSideAGameScore">0</span></div><span class="gw"><i>Games</i><span class="courtSideAMatchScore gn" data-osb-component="field" data-osb-field="courtSideAMatchScore">0</span></span><div class="hist" data-osb-component="layout"><span class="hg isGame1Started" data-osb-component="layout" data-osb-field="isGame1Started" style="display:none"><i class="hl">G1</i><span class="isGame1AWon won wA" data-osb-component="field" data-osb-field="isGame1AWon" style="opacity:0"></span><span class="isGame1BWon won wB" data-osb-component="field" data-osb-field="isGame1BWon" style="opacity:0"></span><span class="game1AScore gs" data-osb-component="field" data-osb-field="game1AScore">0</span></span><span class="hg isGame2Started" data-osb-component="layout" data-osb-field="isGame2Started" style="display:none"><i class="hl">G2</i><span class="isGame2AWon won wA" data-osb-component="field" data-osb-field="isGame2AWon" style="opacity:0"></span><span class="isGame2BWon won wB" data-osb-component="field" data-osb-field="isGame2BWon" style="opacity:0"></span><span class="game2AScore gs" data-osb-component="field" data-osb-field="game2AScore">0</span></span><span class="hg isGame3Started" data-osb-component="layout" data-osb-field="isGame3Started" style="display:none"><i class="hl">G3</i><span class="isGame3AWon won wA" data-osb-component="field" data-osb-field="isGame3AWon" style="opacity:0"></span><span class="isGame3BWon won wB" data-osb-component="field" data-osb-field="isGame3BWon" style="opacity:0"></span><span class="game3AScore gs" data-osb-component="field" data-osb-field="game3AScore">0</span></span><span class="hg isGame4Started" data-osb-component="layout" data-osb-field="isGame4Started" style="display:none"><i class="hl">G4</i><span class="isGame4AWon won wA" data-osb-component="field" data-osb-field="isGame4AWon" style="opacity:0"></span><span class="isGame4BWon won wB" data-osb-component="field" data-osb-field="isGame4BWon" style="opacity:0"></span><span class="game4AScore gs" data-osb-component="field" data-osb-field="game4AScore">0</span></span><span class="hg isGame5Started" data-osb-component="layout" data-osb-field="isGame5Started" style="display:none"><i class="hl">G5</i><span class="isGame5AWon won wA" data-osb-component="field" data-osb-field="isGame5AWon" style="opacity:0"></span><span class="isGame5BWon won wB" data-osb-component="field" data-osb-field="isGame5BWon" style="opacity:0"></span><span class="game5AScore gs" data-osb-component="field" data-osb-field="game5AScore">0</span></span><span class="hg isGame6Started" data-osb-component="layout" data-osb-field="isGame6Started" style="display:none"><i class="hl">G6</i><span class="isGame6AWon won wA" data-osb-component="field" data-osb-field="isGame6AWon" style="opacity:0"></span><span class="isGame6BWon won wB" data-osb-component="field" data-osb-field="isGame6BWon" style="opacity:0"></span><span class="game6AScore gs" data-osb-component="field" data-osb-field="game6AScore">0</span></span><span class="hg isGame7Started" data-osb-component="layout" data-osb-field="isGame7Started" style="display:none"><i class="hl">G7</i><span class="isGame7AWon won wA" data-osb-component="field" data-osb-field="isGame7AWon" style="opacity:0"></span><span class="isGame7BWon won wB" data-osb-component="field" data-osb-field="isGame7BWon" style="opacity:0"></span><span class="game7AScore gs" data-osb-component="field" data-osb-field="game7AScore">0</span></span></div><span class="marks" data-osb-component="layout"><span class="slot to-slot"><span class="isATimeOutActive to-on" data-osb-component="field" data-osb-field="isATimeOutActive" style="opacity:0">Time-out</span><span class="isATimeOutUsed to-used" data-osb-component="field" data-osb-field="isATimeOutUsed" style="opacity:0">T/O used</span></span><span class="isAYellowCarded card yc" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity:0"><b></b>Yellow</span><span class="isARedCarded card rc" data-osb-component="field" data-osb-field="isARedCarded" style="opacity:0"><b></b>Red</span></span></div><div class="spine" data-osb-component="layout"><span class="slot tagslot"><span class="isMatchStarted gtag" data-osb-component="field" data-osb-field="isMatchStarted" style="opacity:0"><span class="now"><i>Game</i><span class="currentGame cg" data-osb-component="field" data-osb-field="currentGame"></span></span><span class="nx"><i>Next game</i><span class="nextGame ng" data-osb-component="field" data-osb-field="nextGame"></span></span></span><span class="isComplete fin" data-osb-component="field" data-osb-field="isComplete" style="opacity:0"><i>Match</i><b>Final</b></span><span class="pre">VS</span></span><span class="slot banner"><span class="isWarmUpStarted bn bn-warm" data-osb-component="field" data-osb-field="isWarmUpStarted" style="opacity:0">Warm-up</span><span class="isInBetweenGames bn bn-break" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity:0">Change ends</span><span class="isGamePoint bn bn-gp" data-osb-component="field" data-osb-field="isGamePoint" style="opacity:0">Game point</span><span class="isMatchPoint bn bn-mp" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity:0">Match point</span></span><span class="fmt"><span class="matchFormatLabel bestOf bo" data-osb-component="field" data-osb-field="matchFormatLabel"></span></span></div><div class="courtSideBView end eB" data-osb-component="layout"><span class="jerseyColorB kit" data-osb-component="field" data-osb-field="jerseyColorB"></span><div class="tband" data-osb-component="layout"><img class="teamLogoURLB tlogo" data-osb-component="field" data-osb-field="teamLogoURLB" alt=""><span class="teamBName tname" data-osb-component="field" data-osb-field="teamBName"></span><span class="tie"><i>Tie</i><span class="teamBScore tscore" data-osb-component="field" data-osb-field="teamBScore">0</span></span></div><div class="who" data-osb-component="layout"><img class="countryB flag" data-osb-component="field" data-osb-field="countryB" alt=""><span class="nm"><span class="courtSideCombinedBName name" data-osb-component="field" data-osb-field="courtSideCombinedBName"></span></span><span class="slot ss"><span class="courtSideIsBCurrentlyServing ball" data-osb-component="field" data-osb-field="courtSideIsBCurrentlyServing" style="opacity:0"></span><span class="isAWinner win" data-osb-component="field" data-osb-field="isAWinner" style="opacity:0"></span><span class="isBWinner win" data-osb-component="field" data-osb-field="isBWinner" style="opacity:0"></span></span></div><div class="pts" data-osb-component="layout"><span class="courtSideBGameScore big" data-osb-component="field" data-osb-field="courtSideBGameScore">0</span></div><span class="gw"><i>Games</i><span class="courtSideBMatchScore gn" data-osb-component="field" data-osb-field="courtSideBMatchScore">0</span></span><div class="hist" data-osb-component="layout"><span class="hg isGame1Started" data-osb-component="layout" data-osb-field="isGame1Started" style="display:none"><i class="hl">G1</i><span class="isGame1AWon won wA" data-osb-component="field" data-osb-field="isGame1AWon" style="opacity:0"></span><span class="isGame1BWon won wB" data-osb-component="field" data-osb-field="isGame1BWon" style="opacity:0"></span><span class="game1BScore gs" data-osb-component="field" data-osb-field="game1BScore">0</span></span><span class="hg isGame2Started" data-osb-component="layout" data-osb-field="isGame2Started" style="display:none"><i class="hl">G2</i><span class="isGame2AWon won wA" data-osb-component="field" data-osb-field="isGame2AWon" style="opacity:0"></span><span class="isGame2BWon won wB" data-osb-component="field" data-osb-field="isGame2BWon" style="opacity:0"></span><span class="game2BScore gs" data-osb-component="field" data-osb-field="game2BScore">0</span></span><span class="hg isGame3Started" data-osb-component="layout" data-osb-field="isGame3Started" style="display:none"><i class="hl">G3</i><span class="isGame3AWon won wA" data-osb-component="field" data-osb-field="isGame3AWon" style="opacity:0"></span><span class="isGame3BWon won wB" data-osb-component="field" data-osb-field="isGame3BWon" style="opacity:0"></span><span class="game3BScore gs" data-osb-component="field" data-osb-field="game3BScore">0</span></span><span class="hg isGame4Started" data-osb-component="layout" data-osb-field="isGame4Started" style="display:none"><i class="hl">G4</i><span class="isGame4AWon won wA" data-osb-component="field" data-osb-field="isGame4AWon" style="opacity:0"></span><span class="isGame4BWon won wB" data-osb-component="field" data-osb-field="isGame4BWon" style="opacity:0"></span><span class="game4BScore gs" data-osb-component="field" data-osb-field="game4BScore">0</span></span><span class="hg isGame5Started" data-osb-component="layout" data-osb-field="isGame5Started" style="display:none"><i class="hl">G5</i><span class="isGame5AWon won wA" data-osb-component="field" data-osb-field="isGame5AWon" style="opacity:0"></span><span class="isGame5BWon won wB" data-osb-component="field" data-osb-field="isGame5BWon" style="opacity:0"></span><span class="game5BScore gs" data-osb-component="field" data-osb-field="game5BScore">0</span></span><span class="hg isGame6Started" data-osb-component="layout" data-osb-field="isGame6Started" style="display:none"><i class="hl">G6</i><span class="isGame6AWon won wA" data-osb-component="field" data-osb-field="isGame6AWon" style="opacity:0"></span><span class="isGame6BWon won wB" data-osb-component="field" data-osb-field="isGame6BWon" style="opacity:0"></span><span class="game6BScore gs" data-osb-component="field" data-osb-field="game6BScore">0</span></span><span class="hg isGame7Started" data-osb-component="layout" data-osb-field="isGame7Started" style="display:none"><i class="hl">G7</i><span class="isGame7AWon won wA" data-osb-component="field" data-osb-field="isGame7AWon" style="opacity:0"></span><span class="isGame7BWon won wB" data-osb-component="field" data-osb-field="isGame7BWon" style="opacity:0"></span><span class="game7BScore gs" data-osb-component="field" data-osb-field="game7BScore">0</span></span></div><span class="marks" data-osb-component="layout"><span class="slot to-slot"><span class="isBTimeOutActive to-on" data-osb-component="field" data-osb-field="isBTimeOutActive" style="opacity:0">Time-out</span><span class="isBTimeOutUsed to-used" data-osb-component="field" data-osb-field="isBTimeOutUsed" style="opacity:0">T/O used</span></span><span class="isBYellowCarded card yc" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity:0"><b></b>Yellow</span><span class="isBRedCarded card rc" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity:0"><b></b>Red</span></span></div></div><div class="bar" data-osb-component="layout"><span class="info"><span class="eventName ev" data-osb-component="field" data-osb-field="eventName"></span><i class="sep">·</i><span class="matchRound rd" data-osb-component="field" data-osb-field="matchRound"></span><span class="teamlbl">Team match</span></span><span class="chips"><span class="slot chip"><span class="isCourtSideScoreboardFlipped fl" data-osb-component="field" data-osb-field="isCourtSideScoreboardFlipped" style="opacity:0">View flipped</span></span></span></div><div class="osb-core-fields" aria-hidden="true"><span class="combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span></div></main>
 </body>
 </html>
