@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "e2334e78b8c145b78e6f602d22257f14bef69dcbbe18e919b4d24e9b2e967a54",
+  "revision": "7209296cd63eeacd8bb56cd1d2596752a11d2447bdbc6d8fcb54d2cf35344e65",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44485,7 +44485,7 @@
         "#ffd166"
       ],
       "placement": "full-screen",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -44506,7 +44506,17 @@
       "title": "Baseball — Inning Break Card",
       "fileName": "starter-baseball-inning-break-card.html",
       "contentHash": "c770d5b73620a503bc67dca4441667d915aa9480e6a9d639623f863c63e83089",
-      "documentPath": "published/c770d5b73620a503bc67dca4441667d915aa9480e6a9d639623f863c63e83089.json"
+      "documentPath": "published/c770d5b73620a503bc67dca4441667d915aa9480e6a9d639623f863c63e83089.json",
+      "preview": {
+        "path": "previews/6bfff3624bf2b0772234da4d4b9af86f647b19a280694af87a6a2e707287e2aa.png",
+        "imageHash": "6bfff3624bf2b0772234da4d4b9af86f647b19a280694af87a6a2e707287e2aa",
+        "contentHash": "c770d5b73620a503bc67dca4441667d915aa9480e6a9d639623f863c63e83089",
+        "width": 1296,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "baseball"
+      }
     },
     {
       "aliases": [],
@@ -45276,7 +45286,7 @@
         "#e6f03c"
       ],
       "placement": "full-screen",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45297,7 +45307,17 @@
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
       "contentHash": "aa536ba3b8cc991973b09f32a7b5c3198c6631eb47b2e0471c094c5a868cfb29",
-      "documentPath": "published/aa536ba3b8cc991973b09f32a7b5c3198c6631eb47b2e0471c094c5a868cfb29.json"
+      "documentPath": "published/aa536ba3b8cc991973b09f32a7b5c3198c6631eb47b2e0471c094c5a868cfb29.json",
+      "preview": {
+        "path": "previews/d9df5416c48aa66c4863d7726d011f66975b7cbb932407ba5547186e084a82a1.png",
+        "imageHash": "d9df5416c48aa66c4863d7726d011f66975b7cbb932407ba5547186e084a82a1",
+        "contentHash": "aa536ba3b8cc991973b09f32a7b5c3198c6631eb47b2e0471c094c5a868cfb29",
+        "width": 1296,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "softball"
+      }
     },
     {
       "aliases": [],
