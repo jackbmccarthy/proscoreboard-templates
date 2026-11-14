@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "7b2f4af399288708a794709022a40b1be5bef403fbdc225d08086e26cda7df3d",
+  "revision": "a56d7c7cbd92274659b34de0b215e49c2b18c1bae39042c0651a979841b38820",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -45694,8 +45694,8 @@
     },
     {
       "aliases": [],
-      "description": "Courtside arena split: two full-height court-end panels (resolved per end) with the player's name and flag, very large points, finished-game chips, a labelled GAMES tile, T/O trace, labelled yellow/red card chips and the serve ball; in a team tie each end carries its team band with the tie score, and the tie page without a player match shows each team and its tie score large. Bottom bar: event and round, GAME n / GAME n NEXT / FINAL tag, CHANGE ENDS / game point / match point banner and the view-flipped chip. Winner panel framed in gold, loser stepped back but readable.",
-      "motif": "Two navy court ends with giant points, labelled games tiles and finished-game chips over a status bar with the game number",
+      "description": "Courtside arena split: two full-height court-end panels (resolved per end), each built as one centred column: flag, name and serve ball as a group, very large points, finished-game chips, then a rail with the labelled GAMES tile dead centre, the T/O trace to its left and labelled yellow/red card chips to its right (empty chips take no room, so both panels mirror). Team ties add a team band with the tie score per end; the tie page without a player match shows each team and its tie score large. Bottom bar: event and round on the left, PRE-MATCH / GAME n / GAME n NEXT / FINAL dead centre, and on the right the match format, replaced by WARM-UP / CHANGE ENDS / game point / match point, plus the view-flipped chip. At the end games won becomes the big number, WINNER takes the tile's place on the winner's rail, the winner panel is framed gold and the loser stays readable.",
+      "motif": "Two navy court ends, each one symmetric column: name, giant points, finished games and a rail with the GAMES tile dead centre (time-out left, cards right), over a three-part status bar",
       "output": "html-replications/starter-tabletennis-courtside-arena-split.html",
       "palette": [
         "#0d1a2e",
@@ -45722,12 +45722,12 @@
       ],
       "title": "Table Tennis Courtside — Arena Split",
       "fileName": "starter-tabletennis-courtside-arena-split.html",
-      "contentHash": "63355f43552f191b539720fdf993dc8894b21d644e5c4746e22092e2d546871f",
-      "documentPath": "published/63355f43552f191b539720fdf993dc8894b21d644e5c4746e22092e2d546871f.json",
+      "contentHash": "ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736",
+      "documentPath": "published/ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736.json",
       "preview": {
-        "path": "previews/d607330a6d824a6b12f6bc0fe17d4b21504a314373cde1812b89b58ce32457aa.png",
-        "imageHash": "d607330a6d824a6b12f6bc0fe17d4b21504a314373cde1812b89b58ce32457aa",
-        "contentHash": "63355f43552f191b539720fdf993dc8894b21d644e5c4746e22092e2d546871f",
+        "path": "previews/287475b29bd8e84cd3c50a92a8e5087db75b5e3126429171ca040a5a14611e09.png",
+        "imageHash": "287475b29bd8e84cd3c50a92a8e5087db75b5e3126429171ca040a5a14611e09",
+        "contentHash": "ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736",
         "width": 1297,
         "height": 736,
         "fixtureVersion": "sport-samples-v1",
@@ -45803,8 +45803,8 @@
     },
     {
       "aliases": [],
-      "description": "Courtside daylight: two white player cards on a warm background, each with flag, name, serve ball and its own labelled GAMES pill, very large points, finished-game chips, T/O trace and labelled card chips; a centre spine shows VS, GAME n / NEXT GAME n / MATCH FINAL and the CHANGE ENDS / game point / match point banner. Team ties add a team band with the tie score per card; the tie page shows each team large. At the end the winner card is framed green with a check and the loser card steps back but stays readable.",
-      "motif": "Light hall courtside: white end cards and a centre spine with the game number, both games tiles under a GAMES label and the state",
+      "description": "Courtside daylight: two white player cards on a warm background. Each card: flag, name and serve ball (a green check for the winner), very large points on a fixed baseline, and one identical footer: a labelled GAMES tile spanning two lines, finished-game chips on the top line and the player's T/O trace and labelled card chips on the bottom line. A net spine between the cards shows VS / GAME n / NEXT GAME n / MATCH FINAL on top, the WARM-UP / CHANGE ENDS / game point / match point banner mid-height and the match format at its foot; the event and round run centred along the bottom. Team ties add a team band with the tie score per card; the tie page shows each team large. At the end games won becomes the big number, the winner card is framed green with a check and the loser card steps back but stays readable.",
+      "motif": "Light hall courtside: white end cards with very large points on a fixed baseline and one identical footer each, and a net spine with the game number, state banner and match format",
       "output": "html-replications/starter-tabletennis-courtside-daylight.html",
       "palette": [
         "#e9e5da",
@@ -45831,12 +45831,12 @@
       ],
       "title": "Table Tennis Courtside — Daylight",
       "fileName": "starter-tabletennis-courtside-daylight.html",
-      "contentHash": "bf80ff9fa702a8de91efbb8703162fc81cbfa5ee007d0baba4585fd59e0a2b6d",
-      "documentPath": "published/bf80ff9fa702a8de91efbb8703162fc81cbfa5ee007d0baba4585fd59e0a2b6d.json",
+      "contentHash": "a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165",
+      "documentPath": "published/a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165.json",
       "preview": {
-        "path": "previews/e219d747989f0b6b964a34d9c981285b5b9f346c633bc29f1e07e9b767f6e051.png",
-        "imageHash": "e219d747989f0b6b964a34d9c981285b5b9f346c633bc29f1e07e9b767f6e051",
-        "contentHash": "bf80ff9fa702a8de91efbb8703162fc81cbfa5ee007d0baba4585fd59e0a2b6d",
+        "path": "previews/6fdd6831c2909a7294fd179191cebf38fe997a7c7404daddb9f1f5fb57c475bf.png",
+        "imageHash": "6fdd6831c2909a7294fd179191cebf38fe997a7c7404daddb9f1f5fb57c475bf",
+        "contentHash": "a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165",
         "width": 1298,
         "height": 737,
         "fixtureVersion": "sport-samples-v1",
@@ -46045,8 +46045,8 @@
     },
     {
       "aliases": [],
-      "description": "Courtside table-green: the two ends drawn as halves of a table with a net, each with a boxed GAMES count, the player's name, flag and serve ball together, very large points, finished-game chips, T/O trace and labelled card chips; team ties add a team band with the tie score per end and the tie page shows each team large. Top bar: event and round, GAME n / NEXT / FINAL tag, CHANGE ENDS / game point / match point banner and view-flipped chip. At the end the winner keeps a gold frame and WINNER tag, the loser stays readable.",
-      "motif": "Table-top courtside: green court ends with white edge lines and a net between them, header bar with game number and state",
+      "description": "Courtside table-green: the two ends drawn as mirrored halves of a table with a net. Each end has a boxed GAMES count in its outer corner, flag and name with the player's own status line under it (WINNER / T/O trace / labelled yellow and red card chips, empty chips take no room), very large points with the serve ball beside them at the net, and finished-game chips along the outer baseline in game order. Team ties add a team band with the tie score per end and the tie page shows each team large. Header: event and round, PRE-MATCH / GAME n / GAME n NEXT / FINAL tag dead centre, and on the right the match format, replaced by WARM-UP / CHANGE ENDS / game point / match point, plus the view-flipped chip. At the end games won becomes the big number, the winner end is framed gold with a WINNER chip and the loser stays readable.",
+      "motif": "Table-top courtside: mirrored green court ends with white edge lines and a net, GAMES boxes in the outer corners, serve ball beside the points at the net, header bar with game number and state",
       "output": "html-replications/starter-tabletennis-courtside-table-green.html",
       "palette": [
         "#13623f",
@@ -46073,13 +46073,13 @@
       ],
       "title": "Table Tennis Courtside — Table Green",
       "fileName": "starter-tabletennis-courtside-table-green.html",
-      "contentHash": "915376a0abd0704c3ff955473599ca616e241a3cd4c544c24e3ec5e2e88bec74",
-      "documentPath": "published/915376a0abd0704c3ff955473599ca616e241a3cd4c544c24e3ec5e2e88bec74.json",
+      "contentHash": "93eb1d765fd695adbb9c94cf815d211e8e220c751b4276be9299905729c3b9e4",
+      "documentPath": "published/93eb1d765fd695adbb9c94cf815d211e8e220c751b4276be9299905729c3b9e4.json",
       "preview": {
-        "path": "previews/0aba8918feef5d2ceac769c4f0da59ec07bd665331245de0d62c246e7d8713ec.png",
-        "imageHash": "0aba8918feef5d2ceac769c4f0da59ec07bd665331245de0d62c246e7d8713ec",
-        "contentHash": "915376a0abd0704c3ff955473599ca616e241a3cd4c544c24e3ec5e2e88bec74",
-        "width": 1303,
+        "path": "previews/9da66d6cc9ca85e8e8715eb6176818b8a6cf2bdd82cb65ebd3db1135c030fd9d.png",
+        "imageHash": "9da66d6cc9ca85e8e8715eb6176818b8a6cf2bdd82cb65ebd3db1135c030fd9d",
+        "contentHash": "93eb1d765fd695adbb9c94cf815d211e8e220c751b4276be9299905729c3b9e4",
+        "width": 1301,
         "height": 755,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",

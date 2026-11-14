@@ -46585,7 +46585,7 @@
       "#ffd23f",
       "#ff8a1c"
     ],
-    "motif": "Table-top courtside: green court ends with white edge lines and a net between them, header bar with game number and state",
+    "motif": "Table-top courtside: mirrored green court ends with white edge lines and a net, GAMES boxes in the outer corners, serve ball beside the points at the net, header bar with game number and state",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46594,7 +46594,7 @@
       "courtside",
       "flippable"
     ],
-    "description": "Courtside table-green: the two ends drawn as halves of a table with a net, each with a boxed GAMES count, the player's name, flag and serve ball together, very large points, finished-game chips, T/O trace and labelled card chips; team ties add a team band with the tie score per end and the tie page shows each team large. Top bar: event and round, GAME n / NEXT / FINAL tag, CHANGE ENDS / game point / match point banner and view-flipped chip. At the end the winner keeps a gold frame and WINNER tag, the loser stays readable.",
+    "description": "Courtside table-green: the two ends drawn as mirrored halves of a table with a net. Each end has a boxed GAMES count in its outer corner, flag and name with the player's own status line under it (WINNER / T/O trace / labelled yellow and red card chips, empty chips take no room), very large points with the serve ball beside them at the net, and finished-game chips along the outer baseline in game order. Team ties add a team band with the tie score per end and the tie page shows each team large. Header: event and round, PRE-MATCH / GAME n / GAME n NEXT / FINAL tag dead centre, and on the right the match format, replaced by WARM-UP / CHANGE ENDS / game point / match point, plus the view-flipped chip. At the end games won becomes the big number, the winner end is framed gold with a WINNER chip and the loser stays readable.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46881,7 +46881,7 @@
       "#ffd23f",
       "#ff8a1c"
     ],
-    "motif": "Two navy court ends with giant points, labelled games tiles and finished-game chips over a status bar with the game number",
+    "motif": "Two navy court ends, each one symmetric column: name, giant points, finished games and a rail with the GAMES tile dead centre (time-out left, cards right), over a three-part status bar",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46890,7 +46890,7 @@
       "courtside",
       "flippable"
     ],
-    "description": "Courtside arena split: two full-height court-end panels (resolved per end) with the player's name and flag, very large points, finished-game chips, a labelled GAMES tile, T/O trace, labelled yellow/red card chips and the serve ball; in a team tie each end carries its team band with the tie score, and the tie page without a player match shows each team and its tie score large. Bottom bar: event and round, GAME n / GAME n NEXT / FINAL tag, CHANGE ENDS / game point / match point banner and the view-flipped chip. Winner panel framed in gold, loser stepped back but readable.",
+    "description": "Courtside arena split: two full-height court-end panels (resolved per end), each built as one centred column: flag, name and serve ball as a group, very large points, finished-game chips, then a rail with the labelled GAMES tile dead centre, the T/O trace to its left and labelled yellow/red card chips to its right (empty chips take no room, so both panels mirror). Team ties add a team band with the tie score per end; the tie page without a player match shows each team and its tie score large. Bottom bar: event and round on the left, PRE-MATCH / GAME n / GAME n NEXT / FINAL dead centre, and on the right the match format, replaced by WARM-UP / CHANGE ENDS / game point / match point, plus the view-flipped chip. At the end games won becomes the big number, WINNER takes the tile's place on the winner's rail, the winner panel is framed gold and the loser stays readable.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -47092,7 +47092,7 @@
       "#17202e",
       "#1aa260"
     ],
-    "motif": "Light hall courtside: white end cards and a centre spine with the game number, both games tiles under a GAMES label and the state",
+    "motif": "Light hall courtside: white end cards with very large points on a fixed baseline and one identical footer each, and a net spine with the game number, state banner and match format",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -47101,7 +47101,7 @@
       "courtside",
       "flippable"
     ],
-    "description": "Courtside daylight: two white player cards on a warm background, each with flag, name, serve ball and its own labelled GAMES pill, very large points, finished-game chips, T/O trace and labelled card chips; a centre spine shows VS, GAME n / NEXT GAME n / MATCH FINAL and the CHANGE ENDS / game point / match point banner. Team ties add a team band with the tie score per card; the tie page shows each team large. At the end the winner card is framed green with a check and the loser card steps back but stays readable.",
+    "description": "Courtside daylight: two white player cards on a warm background. Each card: flag, name and serve ball (a green check for the winner), very large points on a fixed baseline, and one identical footer: a labelled GAMES tile spanning two lines, finished-game chips on the top line and the player's T/O trace and labelled card chips on the bottom line. A net spine between the cards shows VS / GAME n / NEXT GAME n / MATCH FINAL on top, the WARM-UP / CHANGE ENDS / game point / match point banner mid-height and the match format at its foot; the event and round run centred along the bottom. Team ties add a team band with the tie score per card; the tie page shows each team large. At the end games won becomes the big number, the winner card is framed green with a check and the loser card steps back but stays readable.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
