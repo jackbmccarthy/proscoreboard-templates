@@ -707,7 +707,7 @@
       "description": "Baseball/softball: the half inning in play, \"top\" or \"bottom\"; blank before the first pitch (2026-11-18), so a top/bottom arrow drawn from this text is off before play. Kept between halves (the half about to be played) and at FINAL.",
       "field": "inningHalf",
       "group": "state",
-      "valueType": "string"
+      "valueType": "text"
     },
     {
       "description": "Batting Side for explicitly versioned multi-sport matches.",
@@ -1391,7 +1391,7 @@
       "description": "Baseball/softball: alias of inningHalf (same value); blank before the first pitch.",
       "field": "halfInning",
       "group": "state",
-      "valueType": "string"
+      "valueType": "text"
     }
   ]
 }
