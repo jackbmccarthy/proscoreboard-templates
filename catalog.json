@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "33a4ab1ab6615e758d8c1195f3101ed8f90785f499eaed3e9e44d3472efb4892",
+  "revision": "c2559708c5298e6bcdd43f7c38d29fa55d35d42d88adc0a21a1e25b4f2246864",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -45700,7 +45700,8 @@
         "#ff8a1c"
       ],
       "placement": "corner",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45718,28 +45719,18 @@
       "title": "Table Tennis Corner — Glass Plates",
       "fileName": "starter-tabletennis-corner-glass-plates.html",
       "contentHash": "69d46db26dfcf8c456e0384b8a0f2027176f3f5273de23186e3d5df1eeeebfc2",
-      "documentPath": "published/69d46db26dfcf8c456e0384b8a0f2027176f3f5273de23186e3d5df1eeeebfc2.json",
-      "preview": {
-        "path": "previews/bf4262e76679c1c4cded9517677868c18b03719d52c0c95a06e084b3f9366af0.png",
-        "imageHash": "bf4262e76679c1c4cded9517677868c18b03719d52c0c95a06e084b3f9366af0",
-        "contentHash": "69d46db26dfcf8c456e0384b8a0f2027176f3f5273de23186e3d5df1eeeebfc2",
-        "width": 628,
-        "height": 202,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/69d46db26dfcf8c456e0384b8a0f2027176f3f5273de23186e3d5df1eeeebfc2.json"
     },
     {
       "aliases": [],
-      "description": "Light top-left card: two player rows (jersey chip, flag, combined name, team line in team matches, time-out and card slots, orange serve ball), per-game columns that appear as games start, games won and red current points, an event/round/best-of strip under the rows, then the GAME n tag and the shared warm-up / between-games / game-point / match-point / final tab. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Light paper card with ink type, red points column, event strip underneath",
+      "description": "Top-left horizontal versus strip on cream paper: navy event title bar, a label band (GAMES | GAME n | GAMES), side A name | games | points : points | games | side B name (flags, jersey chips, serve ball and winner check beside the scores). Time-out traces, cards and the labelled TIE score hang under each name; finished games hang under the centre as G1 11-8 tabs with the winner lit; the match state tab sits below. At the end games won take the centre under FINAL and the loser half steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Cream versus strip: names outward, games and points meeting in a navy centre, tabs hanging below",
       "output": "html-replications/starter-tabletennis-corner-paper-card.html",
       "palette": [
-        "#f7f5f0",
-        "#14213d",
-        "#d62839",
-        "#ff8a1c"
+        "#fbf7ee",
+        "#15233f",
+        "#c8102e",
+        "#ff9a3c"
       ],
       "placement": "corner",
       "published": true,
@@ -45759,14 +45750,14 @@
       ],
       "title": "Table Tennis Corner — Paper Card",
       "fileName": "starter-tabletennis-corner-paper-card.html",
-      "contentHash": "470065e6759f1cc508a3c9155385ccf45bc62c15c38c47d60ba89251ae45f4e4",
-      "documentPath": "published/470065e6759f1cc508a3c9155385ccf45bc62c15c38c47d60ba89251ae45f4e4.json",
+      "contentHash": "51b900bcacfb286286ea8055aace2f29f62d0d73a18c5350a7025f3cfda73949",
+      "documentPath": "published/51b900bcacfb286286ea8055aace2f29f62d0d73a18c5350a7025f3cfda73949.json",
       "preview": {
-        "path": "previews/e7f7f06c9c80899798c60be40d6f2bd95438211fcf78bf13ecbacd89d56e0d99.png",
-        "imageHash": "e7f7f06c9c80899798c60be40d6f2bd95438211fcf78bf13ecbacd89d56e0d99",
-        "contentHash": "470065e6759f1cc508a3c9155385ccf45bc62c15c38c47d60ba89251ae45f4e4",
-        "width": 647,
-        "height": 158,
+        "path": "previews/89bcea6da04e5c4afde12c512873d9da356206031dd7a9cbe1c7b31af4d711e5.png",
+        "imageHash": "89bcea6da04e5c4afde12c512873d9da356206031dd7a9cbe1c7b31af4d711e5",
+        "contentHash": "51b900bcacfb286286ea8055aace2f29f62d0d73a18c5350a7025f3cfda73949",
+        "width": 739,
+        "height": 204,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -45784,7 +45775,8 @@
         "#ff8a1c"
       ],
       "placement": "corner",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45802,28 +45794,18 @@
       "title": "Table Tennis Corner — Score First",
       "fileName": "starter-tabletennis-corner-score-first.html",
       "contentHash": "70478a38b349c04e76917b2bb47f0977d3a186678968ff179d0094f3af284aff",
-      "documentPath": "published/70478a38b349c04e76917b2bb47f0977d3a186678968ff179d0094f3af284aff.json",
-      "preview": {
-        "path": "previews/03155fc80d3e3937df2f558d5d37a6a9d58c0ef58d662d5a0d474ed2299ab0d3.png",
-        "imageHash": "03155fc80d3e3937df2f558d5d37a6a9d58c0ef58d662d5a0d474ed2299ab0d3",
-        "contentHash": "70478a38b349c04e76917b2bb47f0977d3a186678968ff179d0094f3af284aff",
-        "width": 647,
-        "height": 159,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/70478a38b349c04e76917b2bb47f0977d3a186678968ff179d0094f3af284aff.json"
     },
     {
       "aliases": [],
-      "description": "Top-left tour scorebug: event/round/best-of strip, two player rows (jersey chip, flag, combined name, team line in team matches, time-out and card slots, orange serve ball), per-game columns that appear as games start (the game in play drawn quieter), games won and coral current points; a GAME n tag and the shared warm-up / between-games / game-point / match-point / final tab hang below. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Charcoal tour scorebug, coral points column, tabs hanging below",
+      "description": "Top-left tour scorebug built as a labelled linescore: the header row carries event/round/best-of and the column labels (G1.., GAMES, GAME n / FINAL). Rows: jersey chip, flag, combined name (team name, logo and labelled TIE score in team matches), time-out trace (T/O active, T used), yellow/red cards, orange serve ball, winner check. Finished games only appear in the history (winner cell lit); the game in play is the coral points column, labelled GAME n (GAME n+1 between games). The warm-up / between-games / game-point / match-point tab hangs under the board. At the end games won become the coral FINAL column and the loser steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Charcoal tour scorebug with a labelled column header (event | G1.. | GAMES | GAME n) and a coral live-points column",
       "output": "html-replications/starter-tabletennis-corner-tour-bug.html",
       "palette": [
-        "#14161c",
+        "#1b1e26",
         "#ffffff",
         "#ff3d6e",
-        "#ff8a1c"
+        "#ff9a3c"
       ],
       "placement": "corner",
       "published": true,
@@ -45843,14 +45825,14 @@
       ],
       "title": "Table Tennis Corner — Tour Bug",
       "fileName": "starter-tabletennis-corner-tour-bug.html",
-      "contentHash": "bb848840cf5c73d7f1c47dcd87278d869df764c8b4c1cbb805420a401217f8de",
-      "documentPath": "published/bb848840cf5c73d7f1c47dcd87278d869df764c8b4c1cbb805420a401217f8de.json",
+      "contentHash": "4e2cb31b66725ee1d64a31e32a442af5c2d1196c9225c9952d6375d7c7afb584",
+      "documentPath": "published/4e2cb31b66725ee1d64a31e32a442af5c2d1196c9225c9952d6375d7c7afb584.json",
       "preview": {
-        "path": "previews/6cad0270ec772555beb1782a6121f00937a1753e6af58e1ce96c58a0a6c1ca30.png",
-        "imageHash": "6cad0270ec772555beb1782a6121f00937a1753e6af58e1ce96c58a0a6c1ca30",
-        "contentHash": "bb848840cf5c73d7f1c47dcd87278d869df764c8b4c1cbb805420a401217f8de",
-        "width": 647,
-        "height": 159,
+        "path": "previews/d7af3a78621031c0b406f076ac68bb00d8b6a2f3a3acdf2e74412a3a69e4d67f.png",
+        "imageHash": "d7af3a78621031c0b406f076ac68bb00d8b6a2f3a3acdf2e74412a3a69e4d67f",
+        "contentHash": "4e2cb31b66725ee1d64a31e32a442af5c2d1196c9225c9952d6375d7c7afb584",
+        "width": 550,
+        "height": 213,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -45891,11 +45873,11 @@
     },
     {
       "aliases": [],
-      "description": "Courtside board for the players: each half is one court end and the runtime fills it with the player standing there (court-side flip and end switches swap the content, not the panels). Per end: jersey stripe, flag, combined name (team name in team matches), giant current points, games won, yellow and red card and time-out slots and a large serve ball. Top strip: event, round and best-of label with ends-switched and view-flipped chips; a centred banner shows between games, game point or match point without clipping. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Two full-height court ends on navy, giant white points, games tiles",
+      "description": "Courtside board for the players: two full-height court-end panels (court side A / B views, flip with ends switched or a flipped board) with jersey bar, flag, name (team line and labelled TIE score), giant points, this end's finished games (wins lit), a labelled GAMES tile, TIME-OUT / T/O USED trace, cards and serve ball; the status bar carries event/round/best-of, the GAME n tag (GAME n NEXT, FINAL), the match state and ENDS SWITCHED / VIEW FLIPPED. At the end games won replace the points and the winner's end gets a WINNER badge and gold outline. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Two navy court ends with giant points, labelled games tiles and finished-game chips over a status bar with the game number",
       "output": "html-replications/starter-tabletennis-courtside-arena-split.html",
       "palette": [
-        "#0a1220",
+        "#0d1a2e",
         "#ffffff",
         "#ffd23f",
         "#ff8a1c"
@@ -45919,12 +45901,12 @@
       ],
       "title": "Table Tennis Courtside — Arena Split",
       "fileName": "starter-tabletennis-courtside-arena-split.html",
-      "contentHash": "a832f3bd7aef0682042e53f331c883a00262f91cf19bec3f1d3c7b905da458fb",
-      "documentPath": "published/a832f3bd7aef0682042e53f331c883a00262f91cf19bec3f1d3c7b905da458fb.json",
+      "contentHash": "df210ea1e2d451309ffa1e9b9315c87873651cccd37e7ea332f8610d2d1cb614",
+      "documentPath": "published/df210ea1e2d451309ffa1e9b9315c87873651cccd37e7ea332f8610d2d1cb614.json",
       "preview": {
-        "path": "previews/6e7f0aa1a5698330d8be57c747b51e6bee37e8c74ec96c8d229a42ecfdbad6d2.png",
-        "imageHash": "6e7f0aa1a5698330d8be57c747b51e6bee37e8c74ec96c8d229a42ecfdbad6d2",
-        "contentHash": "a832f3bd7aef0682042e53f331c883a00262f91cf19bec3f1d3c7b905da458fb",
+        "path": "previews/eef56e298eb88e5fd7d2cf497bd7e510a4cdb22330cd63d2143efbc74cf3cff6.png",
+        "imageHash": "eef56e298eb88e5fd7d2cf497bd7e510a4cdb22330cd63d2143efbc74cf3cff6",
+        "contentHash": "df210ea1e2d451309ffa1e9b9315c87873651cccd37e7ea332f8610d2d1cb614",
         "width": 1297,
         "height": 736,
         "fixtureVersion": "sport-samples-v1",
@@ -46000,14 +45982,14 @@
     },
     {
       "aliases": [],
-      "description": "Light, high-contrast courtside board for bright venues: each court end shows giant black points on white with the player name plate (flag, combined name, team name in team matches) along the bottom beside a games-won tile, card, time-out and serve-ball slots across the top; the runtime fills each end with the player standing there (flip and end switches swap the content). A bottom strip holds the event line, ends-switched and view-flipped chips and a centred between-games / game-point / match-point banner. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "High-contrast light board for bright halls: black points on white, name plates at the foot",
+      "description": "Courtside board for bright halls: two white court-end cards (court side views, flip with ends switched or a flipped board) with jersey bar, flag, name column (team line and labelled TIE score), serve ball / winner check in a fixed slot, giant points, this end's finished games (wins lit), time-out trace and cards; the centre spine shows VS / GAME n / NEXT GAME n / MATCH FINAL, both games-won tiles under a GAMES label and the match state; the event line runs along the foot with ENDS SWITCHED / VIEW FLIPPED. At the end games won replace the points. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Light hall courtside: white end cards and a centre spine with the game number, both games tiles under a GAMES label and the state",
       "output": "html-replications/starter-tabletennis-courtside-daylight.html",
       "palette": [
+        "#e9e5da",
         "#ffffff",
-        "#0b0b0f",
-        "#1652d8",
-        "#ff8a1c"
+        "#17202e",
+        "#1aa260"
       ],
       "placement": "courtside",
       "published": true,
@@ -46028,14 +46010,14 @@
       ],
       "title": "Table Tennis Courtside — Daylight",
       "fileName": "starter-tabletennis-courtside-daylight.html",
-      "contentHash": "31dfff2f5d0ccc79f68f13e76529073851794e3b30da4c21c6698af92e1a29c1",
-      "documentPath": "published/31dfff2f5d0ccc79f68f13e76529073851794e3b30da4c21c6698af92e1a29c1.json",
+      "contentHash": "a3685cc64691227ca88bc4bed6690239c1cc00001ad10037f8c1e6a992e9ad61",
+      "documentPath": "published/a3685cc64691227ca88bc4bed6690239c1cc00001ad10037f8c1e6a992e9ad61.json",
       "preview": {
-        "path": "previews/6c4e1d9d74d0e7ef09d0ad9f725475e95485ac70adc93c8246e8123733189b2a.png",
-        "imageHash": "6c4e1d9d74d0e7ef09d0ad9f725475e95485ac70adc93c8246e8123733189b2a",
-        "contentHash": "31dfff2f5d0ccc79f68f13e76529073851794e3b30da4c21c6698af92e1a29c1",
-        "width": 1297,
-        "height": 736,
+        "path": "previews/62a01afdc2e3a49496a5da9d704adcd97e955fef230dbb095af726753a851caa.png",
+        "imageHash": "62a01afdc2e3a49496a5da9d704adcd97e955fef230dbb095af726753a851caa",
+        "contentHash": "a3685cc64691227ca88bc4bed6690239c1cc00001ad10037f8c1e6a992e9ad61",
+        "width": 1298,
+        "height": 737,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -46119,7 +46101,8 @@
         "#ff8a1c"
       ],
       "placement": "courtside",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46138,17 +46121,7 @@
       "title": "Table Tennis Courtside — LED Mirror",
       "fileName": "starter-tabletennis-courtside-led-mirror.html",
       "contentHash": "55cef0c2eab465fbfd58f50c813aa34d22890cdd59bfe7b376cfac3c68bbf5a4",
-      "documentPath": "published/55cef0c2eab465fbfd58f50c813aa34d22890cdd59bfe7b376cfac3c68bbf5a4.json",
-      "preview": {
-        "path": "previews/1f43afa104d249787de1c0c4cf15f30f93c989c16ea4e476e402dfbcb55fb40a.png",
-        "imageHash": "1f43afa104d249787de1c0c4cf15f30f93c989c16ea4e476e402dfbcb55fb40a",
-        "contentHash": "55cef0c2eab465fbfd58f50c813aa34d22890cdd59bfe7b376cfac3c68bbf5a4",
-        "width": 1296,
-        "height": 736,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/55cef0c2eab465fbfd58f50c813aa34d22890cdd59bfe7b376cfac3c68bbf5a4.json"
     },
     {
       "aliases": [],
@@ -46251,12 +46224,12 @@
     },
     {
       "aliases": [],
-      "description": "Courtside board styled like the table itself: two green court ends with white edge lines and a white centre line, each filled by the runtime with the player at that end (flip and end switches swap the content). Per end: flag and combined name (team name in team matches), giant white points, that player’s game-by-game scores as chips that appear as games start, games won, card, time-out and serve-ball slots. A bottom strip holds the event line, ends-switched and view-flipped chips and a centred between-games / game-point / match-point banner. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Table-top green ends split by a white centre line, game-by-game chips under the points",
+      "description": "Courtside board drawn as a table top: a header bar with event/round/best-of, the GAME n tag (GAME n NEXT, FINAL), the match state and ENDS SWITCHED / VIEW FLIPPED; two green court ends (court side views, flip with ends switched or a flipped board) separated by the net, each with a white-lined GAMES box in the outer corner, flag and name (team line and labelled TIE score), giant points, this end's finished games (wins lit), time-out trace, cards and serve ball. At the end games won replace the points and the winner's end gets a WINNER badge. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Table-top courtside: green court ends with white edge lines and a net between them, header bar with game number and state",
       "output": "html-replications/starter-tabletennis-courtside-table-green.html",
       "palette": [
-        "#0f4a3c",
-        "#ffffff",
+        "#13623f",
+        "#f4f4ef",
         "#ffd23f",
         "#ff8a1c"
       ],
@@ -46279,14 +46252,14 @@
       ],
       "title": "Table Tennis Courtside — Table Green",
       "fileName": "starter-tabletennis-courtside-table-green.html",
-      "contentHash": "42b66c4950f7a890f4faf8250145f486cfea832d7104d1d4e32d67f84075ea29",
-      "documentPath": "published/42b66c4950f7a890f4faf8250145f486cfea832d7104d1d4e32d67f84075ea29.json",
+      "contentHash": "5ad855dd0b3ce5f4a2b784fabf303e2cca0754baf4c3b76c6fea21ea9d2dee41",
+      "documentPath": "published/5ad855dd0b3ce5f4a2b784fabf303e2cca0754baf4c3b76c6fea21ea9d2dee41.json",
       "preview": {
-        "path": "previews/e5abc656036afcc6ce0a6825e01427ca8616d84bb55196afa821c98dae6eafb0.png",
-        "imageHash": "e5abc656036afcc6ce0a6825e01427ca8616d84bb55196afa821c98dae6eafb0",
-        "contentHash": "42b66c4950f7a890f4faf8250145f486cfea832d7104d1d4e32d67f84075ea29",
-        "width": 1296,
-        "height": 736,
+        "path": "previews/5d56afca4f5b3ffbe79ab86f55947dfd1edae5676fdf6918cd41b932443ca360.png",
+        "imageHash": "5d56afca4f5b3ffbe79ab86f55947dfd1edae5676fdf6918cd41b932443ca360",
+        "contentHash": "5ad855dd0b3ce5f4a2b784fabf303e2cca0754baf4c3b76c6fea21ea9d2dee41",
+        "width": 1303,
+        "height": 755,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -46327,14 +46300,14 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen face-off summary: event title with round and best-of label, side A and side B panels (jersey stripe, flag, combined name, team line in team matches, giant games won) facing each other, and a game-by-game list between them that grows as each game starts (the game in play drawn quieter); a footer with the GAME n tag and the shared warm-up / between-games / game-point / match-point / final slot. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Two player panels facing each other with giant games-won numbers and a game-by-game list between them",
+      "description": "Full-screen face-off: event title, two player panels (jersey bar, flag, combined name, team line with labelled TIE score) with the current points as the hero number, a labelled GAMES tile, time-out trace, cards and serve ball along the foot; the centre spine shows VS before play, the GAME n tag (GAME n NEXT between games, FINAL), the finished-game ledger with winners lit and the match state. At the end games won become the hero, the winner panel is outlined in gold with a WINNER ribbon and the loser steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Two player panels with the current points as the hero, labelled gold games tiles and a centre spine (game tag, ledger, state)",
       "output": "html-replications/starter-tabletennis-full-face-off.html",
       "palette": [
-        "#1a0f14",
+        "#151a22",
         "#ffffff",
-        "#ff4f5e",
-        "#ffb648"
+        "#ffc93c",
+        "#ff9a3c"
       ],
       "placement": "full-screen",
       "published": true,
@@ -46354,14 +46327,14 @@
       ],
       "title": "Table Tennis Full Screen — Face Off",
       "fileName": "starter-tabletennis-full-face-off.html",
-      "contentHash": "af6ff092be9512225875c7d41a2e9584835b52bb65a9974c770ec56d05080cf7",
-      "documentPath": "published/af6ff092be9512225875c7d41a2e9584835b52bb65a9974c770ec56d05080cf7.json",
+      "contentHash": "2ded9e645f26e891175279b628900b03b91ca37e481c985d4c26f77fee6c336d",
+      "documentPath": "published/2ded9e645f26e891175279b628900b03b91ca37e481c985d4c26f77fee6c336d.json",
       "preview": {
-        "path": "previews/79d243f25957add854e7c6a7994c6e301acaf756a58f44b886245b1c8316bfe6.png",
-        "imageHash": "79d243f25957add854e7c6a7994c6e301acaf756a58f44b886245b1c8316bfe6",
-        "contentHash": "af6ff092be9512225875c7d41a2e9584835b52bb65a9974c770ec56d05080cf7",
-        "width": 1280,
-        "height": 554,
+        "path": "previews/3f46db9fec0641b4ccde41341da91196a4258e99d891bb3efd0609ccd0cf0763.png",
+        "imageHash": "3f46db9fec0641b4ccde41341da91196a4258e99d891bb3efd0609ccd0cf0763",
+        "contentHash": "2ded9e645f26e891175279b628900b03b91ca37e481c985d4c26f77fee6c336d",
+        "width": 1450,
+        "height": 803,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -46379,7 +46352,8 @@
         "#ff8a1c"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46397,28 +46371,18 @@
       "title": "Table Tennis Full Screen — Hero Ledger",
       "fileName": "starter-tabletennis-full-hero-ledger.html",
       "contentHash": "c378d4903d0ab0bd0b91678353d0f9e56468d2b7bce4b45f99a6f80ef9b055fd",
-      "documentPath": "published/c378d4903d0ab0bd0b91678353d0f9e56468d2b7bce4b45f99a6f80ef9b055fd.json",
-      "preview": {
-        "path": "previews/df58a312c468c690d487e56e05b7e99e31f260b7deaa5a3726a039440a1507f4.png",
-        "imageHash": "df58a312c468c690d487e56e05b7e99e31f260b7deaa5a3726a039440a1507f4",
-        "contentHash": "c378d4903d0ab0bd0b91678353d0f9e56468d2b7bce4b45f99a6f80ef9b055fd",
-        "width": 1216,
-        "height": 465,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/c378d4903d0ab0bd0b91678353d0f9e56468d2b7bce4b45f99a6f80ef9b055fd.json"
     },
     {
       "aliases": [],
-      "description": "Full-screen match summary: event title with round and best-of label, a linescore table with jersey chip, flag and combined name (team line in team matches) per side, one numbered column per game that appears as the game starts (the game in play drawn quieter), games won in a bright column, and a footer with the GAME n tag and the shared warm-up / between-games / game-point / match-point / final slot. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Centred navy results card: event title, game-by-game linescore, games won",
+      "description": "Full-screen result and live table: event title with round/best-of, a header showing GAME n IN PLAY / GAME n NEXT / FINAL RESULT, rows with jersey chip, flag, combined name (team line and labelled TIE score in team matches), time-out trace, cards, serve ball and winner check; G1..G9 columns appear as games start, the game in play is the lit yellow LIVE column (its numbers are the current points), finished games light the winner, games won close each row. The warm-up / between-games / game-point / match-point banner sits below. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Navy full-screen linescore: the game in play is a lit yellow LIVE column, finished games with winners lit, games won at the end",
       "output": "html-replications/starter-tabletennis-full-linescore.html",
       "palette": [
-        "#0b1626",
+        "#0a1222",
         "#ffffff",
-        "#3d8bff",
-        "#ff8a1c"
+        "#ffd23f",
+        "#ff9a3c"
       ],
       "placement": "full-screen",
       "published": true,
@@ -46438,14 +46402,14 @@
       ],
       "title": "Table Tennis Full Screen — Linescore",
       "fileName": "starter-tabletennis-full-linescore.html",
-      "contentHash": "e810ec9e1793cd0556e21c158a382df423f529c57d623f7206e66115b07c10c9",
-      "documentPath": "published/e810ec9e1793cd0556e21c158a382df423f529c57d623f7206e66115b07c10c9.json",
+      "contentHash": "93bbc9e7bedcf885e95770c7c688fe6f78e2b687f750463b7d6e79d175ad79f8",
+      "documentPath": "published/93bbc9e7bedcf885e95770c7c688fe6f78e2b687f750463b7d6e79d175ad79f8.json",
       "preview": {
-        "path": "previews/6fa6c03a618a395d768c2ce3ebc5a0da51a9df30fe882fad345ff3a5bb964220.png",
-        "imageHash": "6fa6c03a618a395d768c2ce3ebc5a0da51a9df30fe882fad345ff3a5bb964220",
-        "contentHash": "e810ec9e1793cd0556e21c158a382df423f529c57d623f7206e66115b07c10c9",
-        "width": 1152,
-        "height": 463,
+        "path": "previews/dc0b22ace6a4aa39049eb39aa26cd287c267830800202b8365dbc2d72fd60ea3.png",
+        "imageHash": "dc0b22ace6a4aa39049eb39aa26cd287c267830800202b8365dbc2d72fd60ea3",
+        "contentHash": "93bbc9e7bedcf885e95770c7c688fe6f78e2b687f750463b7d6e79d175ad79f8",
+        "width": 1490,
+        "height": 736,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -46783,14 +46747,14 @@
     },
     {
       "aliases": [],
-      "description": "Centred head-to-head lower third: side A on the left and side B mirrored on the right (jersey chip, flag, combined name, team line in team matches, time-out and card slots, serve ball, games won), current points meeting in the centre, an event/round/best-of tab above and a footer with the GAME n tag, game-by-game chips that appear as games start and the shared warm-up / between-games / game-point / match-point / final slot. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Mirrored head-to-head bar, points meeting in the centre, game chips underneath",
+      "description": "Bottom-centre head-to-head lower third: lime event tab, two facing teal name plates (jersey chip, flag, combined name, team line with labelled TIE score, serve ball / winner check), a white points box A : B in the middle, a sub-row with time-out traces, cards and labelled GAMES chips, the GAME n tag (GAME n+1 NEXT between games, FINAL at the end) under the points, the match-state tab on the top edge and finished games (winner lit) underneath. At the end games won take the points box. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "Bottom-centre teal head-to-head bar: white points box with a colon, labelled games chips, finished games below",
       "output": "html-replications/starter-tabletennis-lower-head-to-head.html",
       "palette": [
-        "#121418",
-        "#f4f1ea",
-        "#00a6a6",
-        "#ff8a1c"
+        "#062a33",
+        "#ffffff",
+        "#d7ff3a",
+        "#ff9a3c"
       ],
       "placement": "lower-third",
       "published": true,
@@ -46810,14 +46774,14 @@
       ],
       "title": "Table Tennis Lower Third — Head to Head",
       "fileName": "starter-tabletennis-lower-head-to-head.html",
-      "contentHash": "db9e42f702d7d5a015753d36d1d8e57343b30d73f33c03b2da07f71c2a0354f7",
-      "documentPath": "published/db9e42f702d7d5a015753d36d1d8e57343b30d73f33c03b2da07f71c2a0354f7.json",
+      "contentHash": "28c33c31931404bd827687a8273c32d36839021193dfad72cc38554299c408d0",
+      "documentPath": "published/28c33c31931404bd827687a8273c32d36839021193dfad72cc38554299c408d0.json",
       "preview": {
-        "path": "previews/6779b91e924a1ac16775f572e58b87b0d7397ff9f0f7f3bc94397f67bda74c28.png",
-        "imageHash": "6779b91e924a1ac16775f572e58b87b0d7397ff9f0f7f3bc94397f67bda74c28",
-        "contentHash": "db9e42f702d7d5a015753d36d1d8e57343b30d73f33c03b2da07f71c2a0354f7",
-        "width": 1088,
-        "height": 143,
+        "path": "previews/a3910b6956403e98f0f2a9dbca3ce4a4df7298ee8d218391d0a59adaac6a39d9.png",
+        "imageHash": "a3910b6956403e98f0f2a9dbca3ce4a4df7298ee8d218391d0a59adaac6a39d9",
+        "contentHash": "28c33c31931404bd827687a8273c32d36839021193dfad72cc38554299c408d0",
+        "width": 840,
+        "height": 195,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"
@@ -46835,7 +46799,8 @@
         "#ff8a1c"
       ],
       "placement": "lower-third",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46853,17 +46818,7 @@
       "title": "Table Tennis Lower Third — Slant Rail",
       "fileName": "starter-tabletennis-lower-slant-rail.html",
       "contentHash": "9a3fa6cb225f2eba800d0e15b2218c6c8bda116ca53abc6ddd3ad30098765c8c",
-      "documentPath": "published/9a3fa6cb225f2eba800d0e15b2218c6c8bda116ca53abc6ddd3ad30098765c8c.json",
-      "preview": {
-        "path": "previews/f943eb1678695a80f2d1965f5164c0dab4b4e0cf2d11da1ce041d79feb0df741.png",
-        "imageHash": "f943eb1678695a80f2d1965f5164c0dab4b4e0cf2d11da1ce041d79feb0df741",
-        "contentHash": "9a3fa6cb225f2eba800d0e15b2218c6c8bda116ca53abc6ddd3ad30098765c8c",
-        "width": 708,
-        "height": 199,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/9a3fa6cb225f2eba800d0e15b2218c6c8bda116ca53abc6ddd3ad30098765c8c.json"
     },
     {
       "aliases": [],
@@ -46877,7 +46832,8 @@
         "#ff8a1c"
       ],
       "placement": "lower-third",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46895,28 +46851,18 @@
       "title": "Table Tennis Lower Third — Split Plates",
       "fileName": "starter-tabletennis-lower-split-plates.html",
       "contentHash": "c86c5f5e021fdd4d810e48a31c626ae7d13872e783a71a2b9aded081d9092eba",
-      "documentPath": "published/c86c5f5e021fdd4d810e48a31c626ae7d13872e783a71a2b9aded081d9092eba.json",
-      "preview": {
-        "path": "previews/73aa1d4118b4f81a4d85fdcb6106b394f67f2cd8906c60c1a9e1d6626ed30da4.png",
-        "imageHash": "73aa1d4118b4f81a4d85fdcb6106b394f67f2cd8906c60c1a9e1d6626ed30da4",
-        "contentHash": "c86c5f5e021fdd4d810e48a31c626ae7d13872e783a71a2b9aded081d9092eba",
-        "width": 662,
-        "height": 202,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/c86c5f5e021fdd4d810e48a31c626ae7d13872e783a71a2b9aded081d9092eba.json"
     },
     {
       "aliases": [],
-      "description": "World-tour style two-row lower third: header strip with event, round and best-of label plus a GAME n tag and one shared state slot (warm-up, between games, game point, match point, final); each row has a jersey chip, flag, combined name (two lines for long or doubles names), team line in team matches, time-out and card slots and an orange serve ball; per-game columns appear as games start, then games won and current points. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
-      "motif": "Midnight navy rows, white points tile, orange ball serve marker",
+      "description": "Bottom-left lower third: a royal-blue block shows VS before play, GAME n in play, NEXT n between games and MATCH FINAL at the end; white player rows (jersey chip, flag, combined name, team line with labelled TIE score, TIME-OUT / T/O trace, cards, serve ball, winner check) with a labelled header (event/round/best-of, G1.., GAMES, POINTS). Finished games only in the history (winner lit); blue points column; the warm-up / between-games / game-point / match-point flag rides on the top edge. At the end games won become the result column. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "motif": "White linescore lower third with a royal-blue game block (GAME n / NEXT / MATCH FINAL) and a state flag on the top edge",
       "output": "html-replications/starter-tabletennis-lower-world-tour.html",
       "palette": [
-        "#0d1b2e",
         "#ffffff",
-        "#ff8a1c",
-        "#e3262f"
+        "#0b3d91",
+        "#c8102e",
+        "#ff9a3c"
       ],
       "placement": "lower-third",
       "published": true,
@@ -46936,14 +46882,14 @@
       ],
       "title": "Table Tennis Lower Third — World Tour",
       "fileName": "starter-tabletennis-lower-world-tour.html",
-      "contentHash": "3ee998b632af8e4f331b5ca63daa79e091ede267a9f38f72cea6616537149430",
-      "documentPath": "published/3ee998b632af8e4f331b5ca63daa79e091ede267a9f38f72cea6616537149430.json",
+      "contentHash": "d793c6d3dd354674dffa44a951ca76a07ec30a0c411cab003038940e9a0c9c74",
+      "documentPath": "published/d793c6d3dd354674dffa44a951ca76a07ec30a0c411cab003038940e9a0c9c74.json",
       "preview": {
-        "path": "previews/c1cb369e2fa673f7d171b0dd53d8b9eb41757442c412f91cc1a1b13650145705.png",
-        "imageHash": "c1cb369e2fa673f7d171b0dd53d8b9eb41757442c412f91cc1a1b13650145705",
-        "contentHash": "3ee998b632af8e4f331b5ca63daa79e091ede267a9f38f72cea6616537149430",
-        "width": 690,
-        "height": 218,
+        "path": "previews/04788591676f015f20fe3f49f23f162ac554a58890929d5c46dea9c660e998e8.png",
+        "imageHash": "04788591676f015f20fe3f49f23f162ac554a58890929d5c46dea9c660e998e8",
+        "contentHash": "d793c6d3dd354674dffa44a951ca76a07ec30a0c411cab003038940e9a0c9c74",
+        "width": 789,
+        "height": 245,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "tableTennis"

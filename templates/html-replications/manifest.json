@@ -46564,12 +46564,12 @@
     "published": true,
     "placement": "courtside",
     "palette": [
-      "#0f4a3c",
-      "#ffffff",
+      "#13623f",
+      "#f4f4ef",
       "#ffd23f",
       "#ff8a1c"
     ],
-    "motif": "Table-top green ends split by a white centre line, game-by-game chips under the points",
+    "motif": "Table-top courtside: green court ends with white edge lines and a net between them, header bar with game number and state",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46578,7 +46578,7 @@
       "courtside",
       "flippable"
     ],
-    "description": "Courtside board styled like the table itself: two green court ends with white edge lines and a white centre line, each filled by the runtime with the player at that end (flip and end switches swap the content). Per end: flag and combined name (team name in team matches), giant white points, that player’s game-by-game scores as chips that appear as games start, games won, card, time-out and serve-ball slots. A bottom strip holds the event line, ends-switched and view-flipped chips and a centred between-games / game-point / match-point banner. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Courtside board drawn as a table top: a header bar with event/round/best-of, the GAME n tag (GAME n NEXT, FINAL), the match state and ENDS SWITCHED / VIEW FLIPPED; two green court ends (court side views, flip with ends switched or a flipped board) separated by the net, each with a white-lined GAMES box in the outer corner, flag and name (team line and labelled TIE score), giant points, this end's finished games (wins lit), time-out trace, cards and serve ball. At the end games won replace the points and the winner's end gets a WINNER badge. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46684,12 +46684,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#0d1b2e",
       "#ffffff",
-      "#ff8a1c",
-      "#e3262f"
+      "#0b3d91",
+      "#c8102e",
+      "#ff9a3c"
     ],
-    "motif": "Midnight navy rows, white points tile, orange ball serve marker",
+    "motif": "White linescore lower third with a royal-blue game block (GAME n / NEXT / MATCH FINAL) and a state flag on the top edge",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46697,7 +46697,7 @@
       "live-states",
       "game-history"
     ],
-    "description": "World-tour style two-row lower third: header strip with event, round and best-of label plus a GAME n tag and one shared state slot (warm-up, between games, game point, match point, final); each row has a jersey chip, flag, combined name (two lines for long or doubles names), team line in team matches, time-out and card slots and an orange serve ball; per-game columns appear as games start, then games won and current points. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Bottom-left lower third: a royal-blue block shows VS before play, GAME n in play, NEXT n between games and MATCH FINAL at the end; white player rows (jersey chip, flag, combined name, team line with labelled TIE score, TIME-OUT / T/O trace, cards, serve ball, winner check) with a labelled header (event/round/best-of, G1.., GAMES, POINTS). Finished games only in the history (winner lit); blue points column; the warm-up / between-games / game-point / match-point flag rides on the top edge. At the end games won become the result column. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46713,12 +46713,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#121418",
-      "#f4f1ea",
-      "#00a6a6",
-      "#ff8a1c"
+      "#062a33",
+      "#ffffff",
+      "#d7ff3a",
+      "#ff9a3c"
     ],
-    "motif": "Mirrored head-to-head bar, points meeting in the centre, game chips underneath",
+    "motif": "Bottom-centre teal head-to-head bar: white points box with a colon, labelled games chips, finished games below",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46726,7 +46726,7 @@
       "live-states",
       "game-history"
     ],
-    "description": "Centred head-to-head lower third: side A on the left and side B mirrored on the right (jersey chip, flag, combined name, team line in team matches, time-out and card slots, serve ball, games won), current points meeting in the centre, an event/round/best-of tab above and a footer with the GAME n tag, game-by-game chips that appear as games start and the shared warm-up / between-games / game-point / match-point / final slot. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Bottom-centre head-to-head lower third: lime event tab, two facing teal name plates (jersey chip, flag, combined name, team line with labelled TIE score, serve ball / winner check), a white points box A : B in the middle, a sub-row with time-out traces, cards and labelled GAMES chips, the GAME n tag (GAME n+1 NEXT between games, FINAL at the end) under the points, the match-state tab on the top edge and finished games (winner lit) underneath. At the end games won take the points box. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46742,12 +46742,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#14161c",
+      "#1b1e26",
       "#ffffff",
       "#ff3d6e",
-      "#ff8a1c"
+      "#ff9a3c"
     ],
-    "motif": "Charcoal tour scorebug, coral points column, tabs hanging below",
+    "motif": "Charcoal tour scorebug with a labelled column header (event | G1.. | GAMES | GAME n) and a coral live-points column",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46755,7 +46755,7 @@
       "live-states",
       "game-history"
     ],
-    "description": "Top-left tour scorebug: event/round/best-of strip, two player rows (jersey chip, flag, combined name, team line in team matches, time-out and card slots, orange serve ball), per-game columns that appear as games start (the game in play drawn quieter), games won and coral current points; a GAME n tag and the shared warm-up / between-games / game-point / match-point / final tab hang below. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Top-left tour scorebug built as a labelled linescore: the header row carries event/round/best-of and the column labels (G1.., GAMES, GAME n / FINAL). Rows: jersey chip, flag, combined name (team name, logo and labelled TIE score in team matches), time-out trace (T/O active, T used), yellow/red cards, orange serve ball, winner check. Finished games only appear in the history (winner cell lit); the game in play is the coral points column, labelled GAME n (GAME n+1 between games). The warm-up / between-games / game-point / match-point tab hangs under the board. At the end games won become the coral FINAL column and the loser steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46771,12 +46771,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#f7f5f0",
-      "#14213d",
-      "#d62839",
-      "#ff8a1c"
+      "#fbf7ee",
+      "#15233f",
+      "#c8102e",
+      "#ff9a3c"
     ],
-    "motif": "Light paper card with ink type, red points column, event strip underneath",
+    "motif": "Cream versus strip: names outward, games and points meeting in a navy centre, tabs hanging below",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46784,7 +46784,7 @@
       "live-states",
       "game-history"
     ],
-    "description": "Light top-left card: two player rows (jersey chip, flag, combined name, team line in team matches, time-out and card slots, orange serve ball), per-game columns that appear as games start, games won and red current points, an event/round/best-of strip under the rows, then the GAME n tag and the shared warm-up / between-games / game-point / match-point / final tab. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Top-left horizontal versus strip on cream paper: navy event title bar, a label band (GAMES | GAME n | GAMES), side A name | games | points : points | games | side B name (flags, jersey chips, serve ball and winner check beside the scores). Time-out traces, cards and the labelled TIE score hang under each name; finished games hang under the centre as G1 11-8 tabs with the winner lit; the match state tab sits below. At the end games won take the centre under FINAL and the loser half steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46797,7 +46797,7 @@
   {
     "output": "html-replications/starter-tabletennis-corner-score-first.html",
     "title": "Table Tennis Corner — Score First",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#0e1a14",
@@ -46821,7 +46821,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-full-linescore.html",
@@ -46829,12 +46830,12 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#0b1626",
+      "#0a1222",
       "#ffffff",
-      "#3d8bff",
-      "#ff8a1c"
+      "#ffd23f",
+      "#ff9a3c"
     ],
-    "motif": "Centred navy results card: event title, game-by-game linescore, games won",
+    "motif": "Navy full-screen linescore: the game in play is a lit yellow LIVE column, finished games with winners lit, games won at the end",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46842,7 +46843,7 @@
       "live-states",
       "game-history"
     ],
-    "description": "Full-screen match summary: event title with round and best-of label, a linescore table with jersey chip, flag and combined name (team line in team matches) per side, one numbered column per game that appears as the game starts (the game in play drawn quieter), games won in a bright column, and a footer with the GAME n tag and the shared warm-up / between-games / game-point / match-point / final slot. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Full-screen result and live table: event title with round/best-of, a header showing GAME n IN PLAY / GAME n NEXT / FINAL RESULT, rows with jersey chip, flag, combined name (team line and labelled TIE score in team matches), time-out trace, cards, serve ball and winner check; G1..G9 columns appear as games start, the game in play is the lit yellow LIVE column (its numbers are the current points), finished games light the winner, games won close each row. The warm-up / between-games / game-point / match-point banner sits below. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46858,12 +46859,12 @@
     "published": true,
     "placement": "courtside",
     "palette": [
-      "#0a1220",
+      "#0d1a2e",
       "#ffffff",
       "#ffd23f",
       "#ff8a1c"
     ],
-    "motif": "Two full-height court ends on navy, giant white points, games tiles",
+    "motif": "Two navy court ends with giant points, labelled games tiles and finished-game chips over a status bar with the game number",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46872,7 +46873,7 @@
       "courtside",
       "flippable"
     ],
-    "description": "Courtside board for the players: each half is one court end and the runtime fills it with the player standing there (court-side flip and end switches swap the content, not the panels). Per end: jersey stripe, flag, combined name (team name in team matches), giant current points, games won, yellow and red card and time-out slots and a large serve ball. Top strip: event, round and best-of label with ends-switched and view-flipped chips; a centred banner shows between games, game point or match point without clipping. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Courtside board for the players: two full-height court-end panels (court side A / B views, flip with ends switched or a flipped board) with jersey bar, flag, name (team line and labelled TIE score), giant points, this end's finished games (wins lit), a labelled GAMES tile, TIME-OUT / T/O USED trace, cards and serve ball; the status bar carries event/round/best-of, the GAME n tag (GAME n NEXT, FINAL), the match state and ENDS SWITCHED / VIEW FLIPPED. At the end games won replace the points and the winner's end gets a WINNER badge and gold outline. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -46885,7 +46886,7 @@
   {
     "output": "html-replications/starter-tabletennis-lower-split-plates.html",
     "title": "Table Tennis Lower Third — Split Plates",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#ffffff",
@@ -46909,12 +46910,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-lower-slant-rail.html",
     "title": "Table Tennis Lower Third — Slant Rail",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#0b0b0d",
@@ -46938,12 +46940,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-corner-glass-plates.html",
     "title": "Table Tennis Corner — Glass Plates",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#0c1118",
@@ -46967,7 +46970,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-full-face-off.html",
@@ -46975,12 +46979,12 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#1a0f14",
+      "#151a22",
       "#ffffff",
-      "#ff4f5e",
-      "#ffb648"
+      "#ffc93c",
+      "#ff9a3c"
     ],
-    "motif": "Two player panels facing each other with giant games-won numbers and a game-by-game list between them",
+    "motif": "Two player panels with the current points as the hero, labelled gold games tiles and a centre spine (game tag, ledger, state)",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -46988,7 +46992,7 @@
       "live-states",
       "game-history"
     ],
-    "description": "Full-screen face-off summary: event title with round and best-of label, side A and side B panels (jersey stripe, flag, combined name, team line in team matches, giant games won) facing each other, and a game-by-game list between them that grows as each game starts (the game in play drawn quieter); a footer with the GAME n tag and the shared warm-up / between-games / game-point / match-point / final slot. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Full-screen face-off: event title, two player panels (jersey bar, flag, combined name, team line with labelled TIE score) with the current points as the hero number, a labelled GAMES tile, time-out trace, cards and serve ball along the foot; the centre spine shows VS before play, the GAME n tag (GAME n NEXT between games, FINAL), the finished-game ledger with winners lit and the match state. At the end games won become the hero, the winner panel is outlined in gold with a WINNER ribbon and the loser steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -47001,7 +47005,7 @@
   {
     "output": "html-replications/starter-tabletennis-full-hero-ledger.html",
     "title": "Table Tennis Full Screen — Hero Ledger",
-    "published": true,
+    "published": false,
     "placement": "full-screen",
     "palette": [
       "#ffffff",
@@ -47025,12 +47029,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-courtside-led-mirror.html",
     "title": "Table Tennis Courtside — LED Mirror",
-    "published": true,
+    "published": false,
     "placement": "courtside",
     "palette": [
       "#050505",
@@ -47055,7 +47060,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-courtside-daylight.html",
@@ -47063,12 +47069,12 @@
     "published": true,
     "placement": "courtside",
     "palette": [
+      "#e9e5da",
       "#ffffff",
-      "#0b0b0f",
-      "#1652d8",
-      "#ff8a1c"
+      "#17202e",
+      "#1aa260"
     ],
-    "motif": "High-contrast light board for bright halls: black points on white, name plates at the foot",
+    "motif": "Light hall courtside: white end cards and a centre spine with the game number, both games tiles under a GAMES label and the state",
     "tags": [
       "table-tennis",
       "sport-native",
@@ -47077,7 +47083,7 @@
       "courtside",
       "flippable"
     ],
-    "description": "Light, high-contrast courtside board for bright venues: each court end shows giant black points on white with the player name plate (flag, combined name, team name in team matches) along the bottom beside a games-won tile, card, time-out and serve-ball slots across the top; the runtime fills each end with the player standing there (flip and end switches swap the content). A bottom strip holds the event line, ends-switched and view-flipped chips and a centred between-games / game-point / match-point banner. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+    "description": "Courtside board for bright halls: two white court-end cards (court side views, flip with ends switched or a flipped board) with jersey bar, flag, name column (team line and labelled TIE score), serve ball / winner check in a fixed slot, giant points, this end's finished games (wins lit), time-out trace and cards; the centre spine shows VS / GAME n / NEXT GAME n / MATCH FINAL, both games-won tiles under a GAMES label and the match state; the event line runs along the foot with ENDS SWITCHED / VIEW FLIPPED. At the end games won replace the points. Stored names are blank and scores 0; preview values come from fixtures.",
     "sport": "tableTennis",
     "scoringMode": "native",
     "runtimeSupport": {
