@@ -704,7 +704,7 @@
       "valueType": "number"
     },
     {
-      "description": "Inning Half for explicitly versioned multi-sport matches.",
+      "description": "Baseball/softball: the half inning in play, \"top\" or \"bottom\"; blank before the first pitch (2026-11-18), so a top/bottom arrow drawn from this text is off before play. Kept between halves (the half about to be played) and at FINAL.",
       "field": "inningHalf",
       "group": "state",
       "valueType": "text"
@@ -1362,6 +1362,36 @@
       "field": "isGame9Current",
       "group": "state",
       "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball: side A has game point (the side split of isGamePoint: A leads the game in play and one point wins it; off at match point, like isGamePoint). Volleyball: side A has set point (also at match point, like isGamePoint; at a point cap both sides can). Off between games or sets and once the match is complete. Follows switched ends and a flipped court-side board like the other A/B flags.",
+      "field": "isAGamePoint",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: side A has match point (the side split of isMatchPoint: one more point wins the game or set and with it the match). Off between games or sets and once the match is complete. Follows switched ends and a flipped court-side board like the other A/B flags.",
+      "field": "isAMatchPoint",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball: side B has game point (the side split of isGamePoint: B leads the game in play and one point wins it; off at match point, like isGamePoint). Volleyball: side B has set point (also at match point, like isGamePoint; at a point cap both sides can). Off between games or sets and once the match is complete. Follows switched ends and a flipped court-side board like the other B/A flags.",
+      "field": "isBGamePoint",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: side B has match point (the side split of isMatchPoint: one more point wins the game or set and with it the match). Off between games or sets and once the match is complete. Follows switched ends and a flipped court-side board like the other B/A flags.",
+      "field": "isBMatchPoint",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball: alias of inningHalf (same value); blank before the first pitch.",
+      "field": "halfInning",
+      "group": "state",
+      "valueType": "text"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "b89a2765a20d0a529378d1e3755fd7bfbde8d4df1b075866890f6b4fec8a9fd6",
+  "revision": "e2334e78b8c145b78e6f602d22257f14bef69dcbbe18e919b4d24e9b2e967a54",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -25044,7 +25044,7 @@
         "#2d3238"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25063,8 +25063,18 @@
       ],
       "title": "Possession Rail — Basketball lower third",
       "fileName": "native-basketball-possession-rail.html",
-      "contentHash": "6798fe20ac21c1a43d8513a131094f384b5b91c409abcc7d559e7bda708d549e",
-      "documentPath": "published/6798fe20ac21c1a43d8513a131094f384b5b91c409abcc7d559e7bda708d549e.json"
+      "contentHash": "9f011a9df2082b8549e9b9ded0b324d08095f5ff7c5d072ba41beacb2ec6c871",
+      "documentPath": "published/9f011a9df2082b8549e9b9ded0b324d08095f5ff7c5d072ba41beacb2ec6c871.json",
+      "preview": {
+        "path": "previews/3bab31465f525c75006f7094b71f4f406fbfcfcabd7919df229e331076e525fa.png",
+        "imageHash": "3bab31465f525c75006f7094b71f4f406fbfcfcabd7919df229e331076e525fa",
+        "contentHash": "9f011a9df2082b8549e9b9ded0b324d08095f5ff7c5d072ba41beacb2ec6c871",
+        "width": 1250,
+        "height": 195,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "basketball"
+      }
     },
     {
       "aliases": [],
@@ -25079,6 +25089,7 @@
       ],
       "placement": "full-screen",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25097,8 +25108,8 @@
       ],
       "title": "Split Court — Basketball full-screen",
       "fileName": "native-basketball-split-court.html",
-      "contentHash": "f57b2d4837dafe4f0130084e45a4eec11c7898ec9b82ae4c2d8a220711d83241",
-      "documentPath": "published/f57b2d4837dafe4f0130084e45a4eec11c7898ec9b82ae4c2d8a220711d83241.json"
+      "contentHash": "0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07",
+      "documentPath": "published/0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07.json"
     },
     {
       "aliases": [],
@@ -25508,6 +25519,7 @@
       ],
       "placement": "corner",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25526,8 +25538,8 @@
       ],
       "title": "Touchline Bug — Soccer corner scorebug",
       "fileName": "native-soccer-touchline-bug.html",
-      "contentHash": "58808d5a2437ca614f97a53e1e9930f9654d0e49f8c79b14a77dd1314918c9d9",
-      "documentPath": "published/58808d5a2437ca614f97a53e1e9930f9654d0e49f8c79b14a77dd1314918c9d9.json"
+      "contentHash": "59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707",
+      "documentPath": "published/59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707.json"
     },
     {
       "aliases": [],
@@ -44493,8 +44505,8 @@
       ],
       "title": "Baseball — Inning Break Card",
       "fileName": "starter-baseball-inning-break-card.html",
-      "contentHash": "9077dc9a3d16a803d7d942b27aae27783d15f4983368848ac0dee47a2268af67",
-      "documentPath": "published/9077dc9a3d16a803d7d942b27aae27783d15f4983368848ac0dee47a2268af67.json"
+      "contentHash": "c770d5b73620a503bc67dca4441667d915aa9480e6a9d639623f863c63e83089",
+      "documentPath": "published/c770d5b73620a503bc67dca4441667d915aa9480e6a9d639623f863c63e83089.json"
     },
     {
       "aliases": [],
@@ -44550,7 +44562,7 @@
         "#16202e"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -44570,8 +44582,18 @@
       ],
       "title": "Baseball — Matchup Panel",
       "fileName": "starter-baseball-matchup-panel.html",
-      "contentHash": "55e054303a3476373645a557cb1b87ee87be472f44a91ba7c7762498f69d51db",
-      "documentPath": "published/55e054303a3476373645a557cb1b87ee87be472f44a91ba7c7762498f69d51db.json"
+      "contentHash": "abe14f99dc6edfb23caaaefcddad939eec56c27bec43d33de5a087fb397d92d1",
+      "documentPath": "published/abe14f99dc6edfb23caaaefcddad939eec56c27bec43d33de5a087fb397d92d1.json",
+      "preview": {
+        "path": "previews/049d416248acd0fa75bdab9b15a7dcdc18f331f9e32947249bb36635b2ce1bb1.png",
+        "imageHash": "049d416248acd0fa75bdab9b15a7dcdc18f331f9e32947249bb36635b2ce1bb1",
+        "contentHash": "abe14f99dc6edfb23caaaefcddad939eec56c27bec43d33de5a087fb397d92d1",
+        "width": 1099,
+        "height": 251,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "baseball"
+      }
     },
     {
       "aliases": [],
@@ -44670,7 +44692,7 @@
         "#f5d547"
       ],
       "placement": "corner",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44690,8 +44712,18 @@
       ],
       "title": "Pickleball Kitchen Line",
       "fileName": "starter-pickleball-corner-kitchen.html",
-      "contentHash": "df1ca0e4eeca64c9ccc44c4f87a849df72d4920540412cc8b3dfb85a206599d7",
-      "documentPath": "published/df1ca0e4eeca64c9ccc44c4f87a849df72d4920540412cc8b3dfb85a206599d7.json"
+      "contentHash": "3c28a31593c69ede1a6de75a0127962f01cb8d974bf4b61114ba36e61b84f4ac",
+      "documentPath": "published/3c28a31593c69ede1a6de75a0127962f01cb8d974bf4b61114ba36e61b84f4ac.json",
+      "preview": {
+        "path": "previews/3e6de228abbe012bf6a9bd3447a2d440fda117d8d82adc55982e538a21122d0b.png",
+        "imageHash": "3e6de228abbe012bf6a9bd3447a2d440fda117d8d82adc55982e538a21122d0b",
+        "contentHash": "3c28a31593c69ede1a6de75a0127962f01cb8d974bf4b61114ba36e61b84f4ac",
+        "width": 605,
+        "height": 316,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
     },
     {
       "aliases": [],
@@ -44813,7 +44845,7 @@
         "#ffffff"
       ],
       "placement": "full-screen",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44833,8 +44865,18 @@
       ],
       "title": "Pickleball Between Games",
       "fileName": "starter-pickleball-full-between-games.html",
-      "contentHash": "ec96438301b3b5bfe614440656c55b8a8890695511d14623df571301dbba536b",
-      "documentPath": "published/ec96438301b3b5bfe614440656c55b8a8890695511d14623df571301dbba536b.json"
+      "contentHash": "1d78d730b40ed9c2406aba135c36a8f6d26cccc5b7c122e2ee71587f84e29211",
+      "documentPath": "published/1d78d730b40ed9c2406aba135c36a8f6d26cccc5b7c122e2ee71587f84e29211.json",
+      "preview": {
+        "path": "previews/4636c24505e035124021d189bd89498342bf959f41454545dcd1c98528a3bf3e.png",
+        "imageHash": "4636c24505e035124021d189bd89498342bf959f41454545dcd1c98528a3bf3e",
+        "contentHash": "1d78d730b40ed9c2406aba135c36a8f6d26cccc5b7c122e2ee71587f84e29211",
+        "width": 1236,
+        "height": 748,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
     },
     {
       "aliases": [],
@@ -45254,8 +45296,8 @@
       ],
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
-      "contentHash": "893f1a5bb8e73982c8b906eece740ab253004d10c414d8ffe0d83c336ed81e76",
-      "documentPath": "published/893f1a5bb8e73982c8b906eece740ab253004d10c414d8ffe0d83c336ed81e76.json"
+      "contentHash": "aa536ba3b8cc991973b09f32a7b5c3198c6631eb47b2e0471c094c5a868cfb29",
+      "documentPath": "published/aa536ba3b8cc991973b09f32a7b5c3198c6631eb47b2e0471c094c5a868cfb29.json"
     },
     {
       "aliases": [],
@@ -45311,7 +45353,7 @@
         "#2a1640"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45331,8 +45373,18 @@
       ],
       "title": "Softball — Matchup Panel",
       "fileName": "starter-softball-matchup-panel.html",
-      "contentHash": "f725897c97d8e1e7f6cdd12599d82a59dfd1650006760431d1162a272d2ecc2a",
-      "documentPath": "published/f725897c97d8e1e7f6cdd12599d82a59dfd1650006760431d1162a272d2ecc2a.json"
+      "contentHash": "4e1880a44606effee2fe21a75a478a8054870b1b2276b091a033e69804e758b5",
+      "documentPath": "published/4e1880a44606effee2fe21a75a478a8054870b1b2276b091a033e69804e758b5.json",
+      "preview": {
+        "path": "previews/ced91d8560558c1c36dd4ac2d5b7f9ffcf49a2891a8e8b7ec3737d1a6280b573.png",
+        "imageHash": "ced91d8560558c1c36dd4ac2d5b7f9ffcf49a2891a8e8b7ec3737d1a6280b573",
+        "contentHash": "4e1880a44606effee2fe21a75a478a8054870b1b2276b091a033e69804e758b5",
+        "width": 1099,
+        "height": 251,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "softball"
+      }
     },
     {
       "aliases": [],
@@ -47143,7 +47195,7 @@
         "#ffffff"
       ],
       "placement": "full-screen",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -47162,8 +47214,18 @@
       ],
       "title": "Volleyball Set Break",
       "fileName": "starter-volleyball-full-set-break.html",
-      "contentHash": "2aa5e69358d44595d312b9120b2915c7b18450b2d608b38bbe4e764699731355",
-      "documentPath": "published/2aa5e69358d44595d312b9120b2915c7b18450b2d608b38bbe4e764699731355.json"
+      "contentHash": "d9044231d256f378521d45840033400c08a1904fd44831935a55c0115a391a4e",
+      "documentPath": "published/d9044231d256f378521d45840033400c08a1904fd44831935a55c0115a391a4e.json",
+      "preview": {
+        "path": "previews/731cef1ae71b18f6807a79e8bb10b53408952276439cb0055d791bdf5990846e.png",
+        "imageHash": "731cef1ae71b18f6807a79e8bb10b53408952276439cb0055d791bdf5990846e",
+        "contentHash": "d9044231d256f378521d45840033400c08a1904fd44831935a55c0115a391a4e",
+        "width": 1236,
+        "height": 676,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
     },
     {
       "aliases": [],

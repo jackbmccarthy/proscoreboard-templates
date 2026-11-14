@@ -8,23 +8,23 @@
     * { box-sizing: border-box; }
     html, body { margin: 0; background: transparent; }
     body { padding: 24px 28px 40px; font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; }
-    .osb { position: relative; display: grid; grid-template-columns: 150px 272px 62px 62px 272px; grid-template-rows: auto 60px; width: max-content; color: #10151d; filter: drop-shadow(0 6px 14px #0008); }
-    .ev { grid-column: 2 / -1; justify-self: start; display: flex; gap: 12px; max-width: 100%; padding: 5px 14px 4px; background: #fff; border-radius: 5px 5px 0 0; border-bottom: 1px solid #e3e7ec; font-size: 16px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #4c5666; white-space: nowrap; }
+    .osb { position: relative; display: grid; grid-template-columns: 150px 272px 70px 70px 272px; grid-template-rows: auto 60px; width: max-content; color: #10151d; filter: drop-shadow(0 6px 14px #0008); }
+    .ev { grid-column: 2 / -1; justify-self: start; display: flex; gap: 12px; max-width: 100%; padding: 5px 14px 4px; background: #fff; border-radius: 5px 5px 0 0; border-bottom: 1px solid #e3e7ec; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #4c5666; white-space: nowrap; }
     .ev .eventName { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
     .ev .matchRound { flex: none; color: #d1102a; }
     .clk { position: relative; grid-row: 2; display: grid; background: #10151d; color: #fff; border-radius: 6px 0 0 6px; }
     .clk > .live, .clk > .state { grid-area: 1 / 1; }
-    .live { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; }
+    .live { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1px 0 3px; line-height: 1; }
     .gc { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 34px; font-weight: 700; font-variant-numeric: tabular-nums; }
     .sub { display: flex; align-items: center; gap: 7px; margin-top: 3px; }
     .per { font-size: 16px; font-weight: 800; letter-spacing: 1px; color: #c4ccd8; }
     .dot { width: 14px; height: 14px; color: #ff2d42; border-radius: 50%; box-shadow: 0 0 0 2px #ffffffb3, 0 0 10px #ff2d42; }
-    .runbar { position: absolute; left: 22px; right: 22px; bottom: 4px; height: 2px; background: #ff2d42; }
-    .mp { position: absolute; left: 6px; right: 0; top: 0; display: flex; gap: 2px; height: 4px; }
+    .runbar { position: absolute; left: 0; right: 0; top: 0; height: 3px; border-radius: 6px 0 0 0; background: #ff2d42; }
+    .mp { position: absolute; left: 0; right: 0; bottom: 0; display: flex; gap: 2px; height: 4px; overflow: hidden; border-radius: 0 0 0 6px; }
     .h { position: relative; flex: 2; height: 4px; background: #2e3541; }
     .h > span { position: absolute; inset: 0; background: #fff; }
     .et { flex: 1; height: 4px; background: #ffd21f; }
-    .add { position: absolute; top: 100%; right: 10px; display: flex; align-items: center; height: 28px; padding: 1px 10px 0; background: #d1102a; color: #fff; border-radius: 0 0 5px 5px; box-shadow: 0 3px 6px #0006; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 20px; font-weight: 700; }
+    .add { position: absolute; bottom: 100%; right: 0; display: flex; align-items: center; height: 30px; padding: 1px 12px 0; background: #d1102a; color: #fff; border-radius: 5px 5px 0 0; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 20px; font-weight: 700; }
     .add-v:empty::before { content: "+0"; }
     .state { z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 10px; line-height: 1; background: #10151d; color: #fff; border-radius: inherit; }
     .st-b { font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 30px; font-weight: 700; letter-spacing: 1px; }
@@ -39,13 +39,19 @@
     .tm.A .kitw { order: 0; } .tm.A .nm { order: 1; margin-left: auto; } .tm.A .cards { order: 2; justify-content: flex-end; }
     .tm.B .cards { order: 1; } .tm.B .nm { order: 2; margin-right: auto; } .tm.B .kitw { order: 3; }
     .tm.B { border-radius: 0 6px 6px 0; }
+    .tm.A .nm { margin-left: auto; }
     .kitw { flex: none; display: flex; width: 7px; height: 38px; border-radius: 2px; background: #b9c2cf; }
     .tm.B .kitw { background: #59647a; }
     .kit { flex: 1; border-radius: 2px; background-color: transparent; }
     .nm { max-width: 210px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 21px; font-weight: 700; line-height: 1.02; text-transform: uppercase; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; overflow-wrap: normal; word-break: normal; hyphens: none; text-wrap: balance; }
     .tm.A .nm { text-align: right; }
-    .scA, .scB { display: flex; align-items: center; justify-content: center; background: #d1102a; color: #fff; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 36px; font-weight: 700; font-variant-numeric: tabular-nums; }
-    .scB { border-left: 2px solid #fff; }
+    .scA, .scB { position: relative; display: flex; align-items: center; justify-content: center; background: #10151d; color: #fff; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 36px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .scB { border-left: 2px solid #3a4352; }
+    .scA .kitw, .scB .kitw { position: absolute; top: 0; bottom: 0; width: 9px; height: auto; border-radius: 0; background: #b9c2cf; }
+    .scA .kitw { left: 0; } .scB .kitw { right: 0; background: #59647a; }
+    .scA .kit, .scB .kit { border-radius: 0; }
+    .scA > span:not(.kitw), .scB > span:not(.kitw) { position: relative; }
+    .scA { padding-left: 9px; } .scB { padding-right: 9px; }
     .cards { display: flex; gap: 4px; flex: none; }
     .cards:not(:has([style*="opacity: 1"])) { display: none; }
     .yc, .rc { display: flex; align-items: center; justify-content: center; width: 18px; height: 25px; border-radius: 2px; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 16px; font-weight: 700; line-height: 1; box-shadow: 0 1px 2px #0005; }
@@ -55,8 +61,9 @@
     .win { position: absolute !important; z-index: 0 !important; left: 0; right: 0; bottom: 0; height: 5px; background: #d1102a; }
     .tm.B .win { border-radius: 0 0 6px 0; }
     .osb:has(.isAWinner[style*="opacity: 1"]) .tm.B .nm, .osb:has(.isBWinner[style*="opacity: 1"]) .tm.A .nm { color: #5f6878; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .tm.B .kitw, .osb:has(.isBWinner[style*="opacity: 1"]) .tm.A .kitw { opacity: .45; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .scB, .osb:has(.isBWinner[style*="opacity: 1"]) .scA { background: #8e1a29; color: #f1c9cf; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .scB .kitw, .osb:has(.isBWinner[style*="opacity: 1"]) .scA .kitw { opacity: .5; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .scB, .osb:has(.isBWinner[style*="opacity: 1"]) .scA { color: #9aa3b2; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .scA, .osb:has(.isBWinner[style*="opacity: 1"]) .scB { background: #d1102a; }
     .brk .b-ft, .brk .b-eh, .brk .b-aet { display: none; }
     .osb:has(.isGame2Started[style*="opacity: 1"]) .brk .b-ht { display: none; }
     .osb:has(.isGame2Started[style*="opacity: 1"]):not(:has(.isGame3Started[style*="opacity: 1"])) .brk .b-ft { display: inline; }
@@ -89,10 +96,10 @@
     <div class="state fin isComplete" data-osb-component="field" data-osb-field="isComplete" style="opacity: 0;"><span class="st-b">FT<span class="isDecidedOnPenalties fpens" data-osb-component="field" data-osb-field="isDecidedOnPenalties" style="opacity:0"><span class="shootoutAScore" data-osb-component="field" data-osb-field="shootoutAScore">0</span>-<span class="shootoutBScore" data-osb-component="field" data-osb-field="shootoutBScore">0</span> PENS</span></span></div>
     <span class="add addedTimeVisible" data-osb-component="field" data-osb-field="addedTimeVisible" style="opacity: 0;"><span class="add-v addedTime" data-osb-component="field" data-osb-field="addedTime"></span></span>
   </div>
-  <div class="tm A"><span class="kitw"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span></span><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="cards"><span class="yc isAYellowCarded" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity: 0;"><span class="cn yellowCardsA" data-osb-component="field" data-osb-field="yellowCardsA"></span></span><span class="rc isARedCarded" data-osb-component="field" data-osb-field="isARedCarded" style="opacity: 0;"><span class="cn redCardsA" data-osb-component="field" data-osb-field="redCardsA"></span></span></span><span class="win isAWinner" data-osb-component="field" data-osb-field="isAWinner" style="opacity: 0;"></span></div>
-  <div class="scA"><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div>
-  <div class="scB"><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
-  <div class="tm B"><span class="cards"><span class="yc isBYellowCarded" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity: 0;"><span class="cn yellowCardsB" data-osb-component="field" data-osb-field="yellowCardsB"></span></span><span class="rc isBRedCarded" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity: 0;"><span class="cn redCardsB" data-osb-component="field" data-osb-field="redCardsB"></span></span></span><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="kitw"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span><span class="win isBWinner" data-osb-component="field" data-osb-field="isBWinner" style="opacity: 0;"></span></div>
+  <div class="tm A"><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span><span class="cards"><span class="yc isAYellowCarded" data-osb-component="field" data-osb-field="isAYellowCarded" style="opacity: 0;"><span class="cn yellowCardsA" data-osb-component="field" data-osb-field="yellowCardsA"></span></span><span class="rc isARedCarded" data-osb-component="field" data-osb-field="isARedCarded" style="opacity: 0;"><span class="cn redCardsA" data-osb-component="field" data-osb-field="redCardsA"></span></span></span><span class="win isAWinner" data-osb-component="field" data-osb-field="isAWinner" style="opacity: 0;"></span></div>
+  <div class="scA"><span class="kitw"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span></span><span class="currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></div>
+  <div class="scB"><span class="kitw"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span><span class="currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></div>
+  <div class="tm B"><span class="cards"><span class="yc isBYellowCarded" data-osb-component="field" data-osb-field="isBYellowCarded" style="opacity: 0;"><span class="cn yellowCardsB" data-osb-component="field" data-osb-field="yellowCardsB"></span></span><span class="rc isBRedCarded" data-osb-component="field" data-osb-field="isBRedCarded" style="opacity: 0;"><span class="cn redCardsB" data-osb-component="field" data-osb-field="redCardsB"></span></span></span><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span><span class="win isBWinner" data-osb-component="field" data-osb-field="isBWinner" style="opacity: 0;"></span></div>
   <div class="osb-aux"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="homeSide" data-osb-component="field" data-osb-field="homeSide"></span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div>
 </article>
 </body>
