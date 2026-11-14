@@ -15,10 +15,11 @@ const REQUIRED = ['currentAGameScore', 'currentBGameScore', 'jerseyColorA', 'jer
 const entries = manifest.filter(entry => /^html-replications\/starter-(?:baseball|softball)-/.test(entry.output));
 const classes = tag => (tag.attributes.class || '').split(/\s+/).filter(Boolean);
 
-test('sport-native diamond starters cover four corners, four lower thirds and two full screens per sport', () => {
+test('sport-native diamond starters keep three corners, three lower thirds and two full screens per sport active', () => {
+  // 2026-11-14 round 2: the box bug and the ribbon (blind review <= 6.5) are retired, not deleted.
   for (const sport of ['baseball', 'softball']) {
-    const placements = entries.filter(entry => entry.sport === sport).map(entry => entry.placement).sort();
-    assert.deepEqual(placements, [...Array(4).fill('corner'), 'full-screen', 'full-screen', ...Array(4).fill('lower-third')], sport);
+    const placements = entries.filter(entry => entry.sport === sport && !entry.retired).map(entry => entry.placement).sort();
+    assert.deepEqual(placements, [...Array(3).fill('corner'), 'full-screen', 'full-screen', ...Array(3).fill('lower-third')], sport);
   }
 });
 
@@ -29,7 +30,8 @@ test('diamond starters bind the sport fields, group the count and keep stored va
     assert.ok(entry.output.split('/')[1].startsWith(`starter-${entry.sport}-`), label);
     const inspection = inspectTemplate(html);
     assert.deepEqual(inspection.errors, [], label);
-    assert.deepEqual(inspection.warnings, ['This template has no service indicators.'], label);
+    // Deliberate repeats (a winner line that restates the winner's name and score, a team-coloured runs box) are allowed.
+    assert.deepEqual(inspection.warnings.filter(w => !/ is repeated \d+ times; all instances receive runtime updates\.$/.test(w)), ['This template has no service indicators.'], label);
     assert.equal(neutralizeScoreboardTemplateHTML(html), html, label);
     const tags = readTemplateHTMLTags(html).filter(tag => !tag.closing);
     const present = new Set(tags.flatMap(tag => [...classes(tag), tag.attributes['data-osb-field']].filter(Boolean)));
