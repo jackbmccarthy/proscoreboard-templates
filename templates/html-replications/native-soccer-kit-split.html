@@ -7,20 +7,22 @@
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; background: transparent; }
-    body { padding: 24px 50px 28px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; }
+    body { padding: 44px 50px 28px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; }
     .osb { position: relative; width: 1060px; margin: 0 auto; color: #fff; filter: drop-shadow(0 8px 18px #000a); }
     .top { position: relative; display: flex; justify-content: center; }
-    .tab { display: grid; width: 300px; height: 46px; background: #fff; color: #0b0d12; border-radius: 8px 8px 0 0; overflow: hidden; }
+    .tab { display: grid; width: 340px; height: 56px; background: #fff; color: #0b0d12; border-radius: 8px 8px 0 0; overflow: hidden; }
     .tab > * { grid-area: 1 / 1; }
     .live { position: relative; display: flex; align-items: center; justify-content: center; gap: 12px; }
-    .dot { width: 14px; height: 14px; color: #ff2238; border-radius: 50%; box-shadow: 0 0 0 2px #ff223833, 0 0 8px #ff2238aa; }
-    .per { font-size: 18px; font-weight: 700; letter-spacing: 1px; color: #3d4452; }
-    .gc { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 32px; font-weight: 700; font-variant-numeric: tabular-nums; }
-    .add { position: absolute; left: calc(50% + 150px); bottom: 0; display: flex; align-items: center; height: 34px; padding: 0 12px; background: #0b0d12; color: #fff; border-radius: 0 7px 0 0; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; }
-    .runbar { position: absolute; left: 40px; right: 40px; bottom: 0; height: 3px; background: #0b0d12; }
-    .mp { position: absolute; left: 0; right: 0; top: 0; display: flex; gap: 2px; height: 4px; }
+    .dot { width: 14px; height: 14px; color: #ff2238; border-radius: 50%; box-shadow: 0 0 0 2px #ff223855, 0 0 8px #ff2238; }
+    .per { font-size: 20px; font-weight: 700; letter-spacing: 1px; color: #3d4452; }
+    .gc { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 42px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .add { position: absolute; left: calc(50% + 170px); bottom: 0; display: flex; align-items: center; height: 56px; padding: 0 14px; background: #ffd21f; color: #0b0d12; border-radius: 0 8px 0 0; box-shadow: inset 2px 0 0 #0b0d12; font-size: 30px !important; font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; }
+    .top:has(.add[style*="opacity: 1"]) .tab { border-radius: 8px 0 0 0; }
+    .runbar { position: absolute; left: 0; top: 0; bottom: 4px; width: 5px; background: #e3262e; }
+    .mp { position: absolute; left: 0; right: 0; bottom: 0; display: flex; gap: 0; height: 4px; background: #d2d6dd; }
     .h { position: relative; flex: 2; height: 4px; background: #d2d6dd; }
     .h > span { position: absolute; inset: 0; background: #0b0d12; }
+    .h + .h { box-shadow: inset 2px 0 0 #fff; }
     .et { flex: 1; height: 4px; background: #e3262e; }
     .state { z-index: 1; display: flex; align-items: center; justify-content: center; gap: 10px; line-height: 1; background: #0b0d12; color: #fff; }
     .st-b { font-size: 28px; font-weight: 700; letter-spacing: 2px; }
@@ -60,10 +62,10 @@
     .osb:has(.isGame3Started[style*="opacity: 1"]) .brk .b-ft { display: none; }
     .add-v:empty::before { content: "+0"; }
     .dot i { display: block; width: 100%; height: 100%; border-radius: 50%; background: currentColor; animation: osb-pulse 1.6s ease-in-out infinite; }
-    @keyframes osb-pulse { 50% { opacity: .35; } }
+    @keyframes osb-pulse { 50% { opacity: .7; } }
     .osb:has(.isComplete[style*="opacity: 1"]) .dot i { animation: none; }
     .win { position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 4px #fff, inset 0 0 22px #ffffff59; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .pl.B .wash, .osb:has(.isBWinner[style*="opacity: 1"]) .pl.A .wash { filter: grayscale(.85) brightness(.45); }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .pl.B .wash, .osb:has(.isBWinner[style*="opacity: 1"]) .pl.A .wash { filter: saturate(.55) brightness(.55); }
     .osb:has(.isAWinner[style*="opacity: 1"]) .pl.B .nm, .osb:has(.isBWinner[style*="opacity: 1"]) .pl.A .nm { color: #c7ccd4; }
     .osb-aux { display: none; }
     .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
