@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "33a4ab1ab6615e758d8c1195f3101ed8f90785f499eaed3e9e44d3472efb4892",
+  "revision": "a861ff74234608bb6e54c31c77a9b4bd779591a7a654f5ca6bbf46b96a38bd71",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -24753,14 +24753,14 @@
     },
     {
       "aliases": [],
-      "description": "Recreates the centre-hung arena scoreboard: a black LED-dot panel with glowing red score digits, an amber game clock and period, a shot-clock window and bonus lamps that light when a team is in the bonus. Team fouls and timeouts left read like the physical board; timeout and break messages light across the panel. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
-      "motif": "Physical arena scoreboard: LED-dot panel with HOME/GUEST style digits, bonus lamps and shot clock.",
+      "description": "An arena-board layout restyled as a broadcast graphic: navy team panels with a kit-colour edge on the name bar, a big white score with the fouls count (BONUS chip beside it) and labelled timeout pips (TO) beside the score, mirrored around a centre module with the period chip and quarter progress above a hero game clock and a contrasting red shot-clock box. Live bindings: names (single line, sized for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5), possession arrows (isA/BPossession), timeout banner over the calling side, period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete; the winner score is boxed in gold. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Arena-board composition for TV: each team panel carries its name bar, a big score and a fouls/timeouts stack beside it, mirrored around a centre clock with a boxed red shot clock.",
       "output": "html-replications/native-basketball-arena-led.html",
       "palette": [
-        "#050505",
-        "#ff4a1c",
-        "#ffc23d",
-        "#2b2b2b"
+        "#0c1220",
+        "#1f2c45",
+        "#ffc233",
+        "#d7262e"
       ],
       "placement": "lower-third",
       "published": true,
@@ -24780,15 +24780,15 @@
         "teams",
         "native-scoring"
       ],
-      "title": "Arena LED — Basketball lower third",
+      "title": "Arena Board — Basketball lower third",
       "fileName": "native-basketball-arena-led.html",
-      "contentHash": "cedf0d6fcb72cd6715f15bedb228e639159110e678817380935ad25a2b834f7c",
-      "documentPath": "published/cedf0d6fcb72cd6715f15bedb228e639159110e678817380935ad25a2b834f7c.json",
+      "contentHash": "c0cc0cb6e1eb4e3ae8c22f133e411e7989c88fed9636e4c5d3d03c403ad0ada2",
+      "documentPath": "published/c0cc0cb6e1eb4e3ae8c22f133e411e7989c88fed9636e4c5d3d03c403ad0ada2.json",
       "preview": {
-        "path": "previews/34d1c3daca445a4aee75bcf044f7d4567693fed7a14ec5b6d5fdcfb2d14bded7.png",
-        "imageHash": "34d1c3daca445a4aee75bcf044f7d4567693fed7a14ec5b6d5fdcfb2d14bded7",
-        "contentHash": "cedf0d6fcb72cd6715f15bedb228e639159110e678817380935ad25a2b834f7c",
-        "width": 1268,
+        "path": "previews/cf746267953a47c69bd42d54474ddd848ba93c039844cdfe3fbe376fd730b1d4.png",
+        "imageHash": "cf746267953a47c69bd42d54474ddd848ba93c039844cdfe3fbe376fd730b1d4",
+        "contentHash": "c0cc0cb6e1eb4e3ae8c22f133e411e7989c88fed9636e4c5d3d03c403ad0ada2",
+        "width": 1094,
         "height": 270,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
@@ -24797,7 +24797,7 @@
     },
     {
       "aliases": [],
-      "description": "Corner scorebug in the arena-broadcast tradition: kit-coloured team rows with large scores sit beside a dedicated clock tower holding the game clock, period and an amber shot clock. A footer carries live team fouls, quarter progress pips, possession and per-team bonus and timeouts-left tags; a timeout banner covers the calling team row while it is active. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Corner scorebug in the arena-broadcast tradition: kit-coloured team rows with large scores sit beside a dedicated clock tower holding the game clock, period and an amber shot clock. A footer carries live team fouls, quarter progress pips, possession and per-team bonus and timeouts-left tags; a timeout banner covers the calling team row while it is active. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Two stacked team rows beside a dedicated black clock tower with period and amber shot clock.",
       "output": "html-replications/native-basketball-arena-stack.html",
       "palette": [
@@ -24826,13 +24826,13 @@
       ],
       "title": "Arena Stack — Basketball corner scorebug",
       "fileName": "native-basketball-arena-stack.html",
-      "contentHash": "cd93e49d0edb2279e45bcbdf93a0094b4e16d109a6b041b6d7437ddd2c01e6c4",
-      "documentPath": "published/cd93e49d0edb2279e45bcbdf93a0094b4e16d109a6b041b6d7437ddd2c01e6c4.json",
+      "contentHash": "cdc1803bd8fef0d2fbc0fe341fbb74d2ad1d195c1fb3b6f8fb64a2de4a0acd7a",
+      "documentPath": "published/cdc1803bd8fef0d2fbc0fe341fbb74d2ad1d195c1fb3b6f8fb64a2de4a0acd7a.json",
       "preview": {
-        "path": "previews/83fe594e66dd890532e91c9cdc74349edd52b37124df584fb94494898b081f97.png",
-        "imageHash": "83fe594e66dd890532e91c9cdc74349edd52b37124df584fb94494898b081f97",
-        "contentHash": "cd93e49d0edb2279e45bcbdf93a0094b4e16d109a6b041b6d7437ddd2c01e6c4",
-        "width": 644,
+        "path": "previews/66ecbbd866f2ce386f9bcf5f434eb8958a8b07b29d999ddebb90aa8c39a7f039.png",
+        "imageHash": "66ecbbd866f2ce386f9bcf5f434eb8958a8b07b29d999ddebb90aa8c39a7f039",
+        "contentHash": "cdc1803bd8fef0d2fbc0fe341fbb74d2ad1d195c1fb3b6f8fb64a2de4a0acd7a",
+        "width": 684,
         "height": 215,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
@@ -24841,7 +24841,7 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen between-periods or final graphic: event and round header, then a broadcast line score with Q1 to Q4 columns, overtime columns that appear only once overtime starts, and bold totals for each team with its kit colour. A footer shows the current period and clock, team fouls and timeouts left, with live BREAK and FINAL flags. Summary bindings: quarter and overtime line score (game1-6A/BScore with dashes for unplayed periods). Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Full-screen between-periods or final graphic: event and round header, then a broadcast line score with Q1 to Q4 columns, overtime columns that appear only once overtime starts, and bold totals for each team with its kit colour. A footer shows the current period and clock, team fouls and timeouts left, with live BREAK and FINAL flags. Summary bindings: quarter and overtime line score (game1-6A/BScore with dashes for unplayed periods). Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Full-screen quarter-by-quarter line score with overtime columns, totals, fouls and timeouts.",
       "output": "html-replications/native-basketball-box-score.html",
       "palette": [
@@ -24870,14 +24870,14 @@
       ],
       "title": "Box Score — Basketball full-screen",
       "fileName": "native-basketball-box-score.html",
-      "contentHash": "bc7bae5776ef4080426ea4f7471dbd47e8cc1ac8e910b4e7e2dc75904edad025",
-      "documentPath": "published/bc7bae5776ef4080426ea4f7471dbd47e8cc1ac8e910b4e7e2dc75904edad025.json",
+      "contentHash": "926f676e8fa4fbfd06b2d8c26947799dd517e2bfa3a0fe7bd5e2909b808e0984",
+      "documentPath": "published/926f676e8fa4fbfd06b2d8c26947799dd517e2bfa3a0fe7bd5e2909b808e0984.json",
       "preview": {
-        "path": "previews/9065ad48f3a45ce476022cfdd56d95f96e703584986bc2d199857aa60ed9dd3f.png",
-        "imageHash": "9065ad48f3a45ce476022cfdd56d95f96e703584986bc2d199857aa60ed9dd3f",
-        "contentHash": "bc7bae5776ef4080426ea4f7471dbd47e8cc1ac8e910b4e7e2dc75904edad025",
-        "width": 1286,
-        "height": 616,
+        "path": "previews/861db870629cc28bc0cb210291621e565a4868bd1e7766ad6751734006c16edd.png",
+        "imageHash": "861db870629cc28bc0cb210291621e565a4868bd1e7766ad6751734006c16edd",
+        "contentHash": "926f676e8fa4fbfd06b2d8c26947799dd517e2bfa3a0fe7bd5e2909b808e0984",
+        "width": 1246,
+        "height": 588,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "basketball"
@@ -24895,7 +24895,8 @@
         "#ffffff"
       ],
       "placement": "lower-third",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -24915,17 +24916,7 @@
       "title": "Broadcast Bar — Basketball lower third",
       "fileName": "native-basketball-broadcast-bar.html",
       "contentHash": "a1dabdd1363ac434f8fa80117f169129c2145f4c4ebe7b5b588827fa32e96a1b",
-      "documentPath": "published/a1dabdd1363ac434f8fa80117f169129c2145f4c4ebe7b5b588827fa32e96a1b.json",
-      "preview": {
-        "path": "previews/c2ca1c92d6b9d44a57a8fa8c466f779d0ebbea0a7d81bc93d8e665aeac9f9f0a.png",
-        "imageHash": "c2ca1c92d6b9d44a57a8fa8c466f779d0ebbea0a7d81bc93d8e665aeac9f9f0a",
-        "contentHash": "a1dabdd1363ac434f8fa80117f169129c2145f4c4ebe7b5b588827fa32e96a1b",
-        "width": 1244,
-        "height": 198,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "basketball"
-      }
+      "documentPath": "published/a1dabdd1363ac434f8fa80117f169129c2145f4c4ebe7b5b588827fa32e96a1b.json"
     },
     {
       "aliases": [],
@@ -24939,7 +24930,8 @@
         "#64748b"
       ],
       "placement": "lower-third",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -24959,21 +24951,11 @@
       "title": "Glass Line — Basketball lower third",
       "fileName": "native-basketball-glass-line.html",
       "contentHash": "3c7ef1d6764a0da21d2341c087720529b69ae2b669c9fd896d416471551e7ec6",
-      "documentPath": "published/3c7ef1d6764a0da21d2341c087720529b69ae2b669c9fd896d416471551e7ec6.json",
-      "preview": {
-        "path": "previews/29329f164560084fe46235ffb1c4423eb55e8b1443aa5492ec267c4784f018ae.png",
-        "imageHash": "29329f164560084fe46235ffb1c4423eb55e8b1443aa5492ec267c4784f018ae",
-        "contentHash": "3c7ef1d6764a0da21d2341c087720529b69ae2b669c9fd896d416471551e7ec6",
-        "width": 1286,
-        "height": 226,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "basketball"
-      }
+      "documentPath": "published/3c7ef1d6764a0da21d2341c087720529b69ae2b669c9fd896d416471551e7ec6.json"
     },
     {
       "aliases": [],
-      "description": "Horizontal network-style corner bug. Each team tab shows a kit stripe, name and big score on navy, trimmed with a maple hardwood rail; a dark clock block on the right holds the period, game clock and shot clock. A sub-rail under each team carries live team fouls, bonus and timeouts left, with possession and a timeout banner as live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Horizontal network-style corner bug. Each team tab shows a kit stripe, name and big score on navy, trimmed with a maple hardwood rail; a dark clock block on the right holds the period, game clock and shot clock. A sub-rail under each team carries live team fouls, bonus and timeouts left, with possession and a timeout banner as live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Single-line network bug: maple-trimmed team tabs with a navy clock block and foul/bonus sub-rail.",
       "output": "html-replications/native-basketball-hardwood-tab.html",
       "palette": [
@@ -25002,13 +24984,13 @@
       ],
       "title": "Hardwood Tab — Basketball corner scorebug",
       "fileName": "native-basketball-hardwood-tab.html",
-      "contentHash": "d78171b815f4ecdb753097b0d4cb00125dc5ce52d37f25b56e7f5f9a24d3ec38",
-      "documentPath": "published/d78171b815f4ecdb753097b0d4cb00125dc5ce52d37f25b56e7f5f9a24d3ec38.json",
+      "contentHash": "c084f06d88c8b8d27788f8a78f1d4ae203550fe9ac904bf69037d99723ad912a",
+      "documentPath": "published/c084f06d88c8b8d27788f8a78f1d4ae203550fe9ac904bf69037d99723ad912a.json",
       "preview": {
-        "path": "previews/22bdfc02f22c96f18e8607dda0ae900c7ce2e54854400ca9432842499614b621.png",
-        "imageHash": "22bdfc02f22c96f18e8607dda0ae900c7ce2e54854400ca9432842499614b621",
-        "contentHash": "d78171b815f4ecdb753097b0d4cb00125dc5ce52d37f25b56e7f5f9a24d3ec38",
-        "width": 838,
+        "path": "previews/fa9adf958aca92654b74c20eb6084ceb3922a913f5a8fb636ebfb29b3d020215.png",
+        "imageHash": "fa9adf958aca92654b74c20eb6084ceb3922a913f5a8fb636ebfb29b3d020215",
+        "contentHash": "c084f06d88c8b8d27788f8a78f1d4ae203550fe9ac904bf69037d99723ad912a",
+        "width": 858,
         "height": 179,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
@@ -25027,7 +25009,8 @@
         "#f5f3ff"
       ],
       "placement": "corner",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25047,21 +25030,11 @@
       "title": "Neon Dial — Basketball corner scorebug",
       "fileName": "native-basketball-neon-dial.html",
       "contentHash": "069ca95054800513bc90765573b3c3b41d289812f900c98971353884a85a0eb3",
-      "documentPath": "published/069ca95054800513bc90765573b3c3b41d289812f900c98971353884a85a0eb3.json",
-      "preview": {
-        "path": "previews/7f0450301e62cc77d86cfc0a3a9875170bcc61423e7f197c742e9f0af5a9280e.png",
-        "imageHash": "7f0450301e62cc77d86cfc0a3a9875170bcc61423e7f197c742e9f0af5a9280e",
-        "contentHash": "069ca95054800513bc90765573b3c3b41d289812f900c98971353884a85a0eb3",
-        "width": 588,
-        "height": 351,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "basketball"
-      }
+      "documentPath": "published/069ca95054800513bc90765573b3c3b41d289812f900c98971353884a85a0eb3.json"
     },
     {
       "aliases": [],
-      "description": "Bold sports-network lower third: angled team plates filled with the live kit colour carry big white scores and names, meeting a dark hexagonal hub with period, game clock and shot clock. A rail below shows team fouls, bonus, timeouts left, quarter pips and possession; timeout banners and a break message are live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Bold sports-network lower third: angled team plates filled with the live kit colour carry big white scores and names, meeting a dark hexagonal hub with period, game clock and shot clock. A rail below shows team fouls, bonus, timeouts left, quarter pips and possession; timeout banners and a break message are live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Angled kit-coloured team plates meeting a dark hexagonal clock hub with a possession rail.",
       "output": "html-replications/native-basketball-possession-rail.html",
       "palette": [
@@ -25090,14 +25063,14 @@
       ],
       "title": "Possession Rail — Basketball lower third",
       "fileName": "native-basketball-possession-rail.html",
-      "contentHash": "e8f63d9c05da46fba4bb12e31a9ebbb32141c0066861139fbf30017e7f83f82b",
-      "documentPath": "published/e8f63d9c05da46fba4bb12e31a9ebbb32141c0066861139fbf30017e7f83f82b.json",
+      "contentHash": "5bc51fe0fc6a865daf475537dc81e52f3a49d5d0b7f8efb36a600165defbf169",
+      "documentPath": "published/5bc51fe0fc6a865daf475537dc81e52f3a49d5d0b7f8efb36a600165defbf169.json",
       "preview": {
-        "path": "previews/7a0e50292cfa7737bd25ff9fdd7ac75e97b158a2f4c95a602f83060fd01fa772.png",
-        "imageHash": "7a0e50292cfa7737bd25ff9fdd7ac75e97b158a2f4c95a602f83060fd01fa772",
-        "contentHash": "e8f63d9c05da46fba4bb12e31a9ebbb32141c0066861139fbf30017e7f83f82b",
+        "path": "previews/8582c7954df594fe4208d50910eb92f97337945d5056950cecd78b32711c4a87.png",
+        "imageHash": "8582c7954df594fe4208d50910eb92f97337945d5056950cecd78b32711c4a87",
+        "contentHash": "5bc51fe0fc6a865daf475537dc81e52f3a49d5d0b7f8efb36a600165defbf169",
         "width": 1250,
-        "height": 175,
+        "height": 183,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "basketball"
@@ -25105,7 +25078,7 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen halftime or final card split into two kit-coloured halves with huge score numerals and team names, joined by a centre-circle badge holding the period and clock with live BREAK and FINAL states. A lower strip lists each quarter as a chip, plus team fouls and timeouts left. Summary bindings: quarter and overtime line score (game1-6A/BScore with dashes for unplayed periods). Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Full-screen halftime or final card split into two kit-coloured halves with huge score numerals and team names, joined by a centre-circle badge holding the period and clock with live BREAK and FINAL states. A lower strip lists each quarter as a chip, plus team fouls and timeouts left. Summary bindings: quarter and overtime line score (game1-6A/BScore with dashes for unplayed periods). Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Full-screen split in team kit colours with giant scores, centre-circle period badge and quarter chips.",
       "output": "html-replications/native-basketball-split-court.html",
       "palette": [
@@ -25134,14 +25107,14 @@
       ],
       "title": "Split Court — Basketball full-screen",
       "fileName": "native-basketball-split-court.html",
-      "contentHash": "d33a975d7b348b1bf1101c1246cc95b0030a831ccb53b40125336028a34669a4",
-      "documentPath": "published/d33a975d7b348b1bf1101c1246cc95b0030a831ccb53b40125336028a34669a4.json",
+      "contentHash": "9fb66da8a8a36ac0dd9d19e9ba211d5d4cc2250a453a790d534bef220fd82f17",
+      "documentPath": "published/9fb66da8a8a36ac0dd9d19e9ba211d5d4cc2250a453a790d534bef220fd82f17.json",
       "preview": {
-        "path": "previews/b5d4ba06853a3d7bf6a727a66e14191ee2afb0512b273736e841deb581788f75.png",
-        "imageHash": "b5d4ba06853a3d7bf6a727a66e14191ee2afb0512b273736e841deb581788f75",
-        "contentHash": "d33a975d7b348b1bf1101c1246cc95b0030a831ccb53b40125336028a34669a4",
+        "path": "previews/3552e195365ee438f8a9575539020de27acf31115f93d90ceeba4c1f80ae4599.png",
+        "imageHash": "3552e195365ee438f8a9575539020de27acf31115f93d90ceeba4c1f80ae4599",
+        "contentHash": "9fb66da8a8a36ac0dd9d19e9ba211d5d4cc2250a453a790d534bef220fd82f17",
         "width": 1326,
-        "height": 716,
+        "height": 742,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "basketball"
@@ -25149,7 +25122,7 @@
     },
     {
       "aliases": [],
-      "description": "High-school and college gym style: a cream scorecard with slab-serif team names and numerals, kit-colour pennant notches, a red clock band with the period and shot clock, and a foul ledger per team with bonus and timeouts-left markers. Timeout and break states are live. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "High-school and college gym style: a cream scorecard with slab-serif team names and numerals, kit-colour pennant notches, a red clock band with the period and shot clock, and a foul ledger per team with bonus and timeouts-left markers. Timeout and break states are live. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Cream varsity scorecard with slab-serif numerals and a red clock band.",
       "output": "html-replications/native-basketball-varsity-card.html",
       "palette": [
@@ -25178,14 +25151,14 @@
       ],
       "title": "Varsity Card — Basketball corner scorebug",
       "fileName": "native-basketball-varsity-card.html",
-      "contentHash": "6d47db95593e82c055e77d55cdd19bb2abcadee7c6ad4b44d0ed2be825da798b",
-      "documentPath": "published/6d47db95593e82c055e77d55cdd19bb2abcadee7c6ad4b44d0ed2be825da798b.json",
+      "contentHash": "e77c0a0778691fe59951762390ddfbe2cca6cecb4c69e8a28fc44339b4aaf369",
+      "documentPath": "published/e77c0a0778691fe59951762390ddfbe2cca6cecb4c69e8a28fc44339b4aaf369.json",
       "preview": {
-        "path": "previews/dbe568ca7f0803fbc1e06ef4de203e53aa97f8f927c0247d4f8a8abadc7c3030.png",
-        "imageHash": "dbe568ca7f0803fbc1e06ef4de203e53aa97f8f927c0247d4f8a8abadc7c3030",
-        "contentHash": "6d47db95593e82c055e77d55cdd19bb2abcadee7c6ad4b44d0ed2be825da798b",
-        "width": 552,
-        "height": 285,
+        "path": "previews/64bcd0c263dd252a3694bcadc71237bd664ae0d4e7fe25faedd73cb59c3bbfd2.png",
+        "imageHash": "64bcd0c263dd252a3694bcadc71237bd664ae0d4e7fe25faedd73cb59c3bbfd2",
+        "contentHash": "e77c0a0778691fe59951762390ddfbe2cca6cecb4c69e8a28fc44339b4aaf369",
+        "width": 612,
+        "height": 297,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "basketball"
@@ -25203,7 +25176,8 @@
         "#0f3d1d"
       ],
       "placement": "corner",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25223,21 +25197,11 @@
       "title": "Centre Circle — Soccer corner scorebug",
       "fileName": "native-soccer-centre-circle.html",
       "contentHash": "b4261f8848ada0ddd2dc6327c4d1fb86e90b207b55fda86d9231fcb5714f8230",
-      "documentPath": "published/b4261f8848ada0ddd2dc6327c4d1fb86e90b207b55fda86d9231fcb5714f8230.json",
-      "preview": {
-        "path": "previews/edf87851e7dcbd22bb3a6664ec4a4cc3176ab79c47bcce0555d5166eac785769.png",
-        "imageHash": "edf87851e7dcbd22bb3a6664ec4a4cc3176ab79c47bcce0555d5166eac785769",
-        "contentHash": "b4261f8848ada0ddd2dc6327c4d1fb86e90b207b55fda86d9231fcb5714f8230",
-        "width": 758,
-        "height": 152,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "soccer"
-      }
+      "documentPath": "published/b4261f8848ada0ddd2dc6327c4d1fb86e90b207b55fda86d9231fcb5714f8230.json"
     },
     {
       "aliases": [],
-      "description": "Cup-competition lower third in burgundy and gold: kit ribbons and team names lead into a gold-rimmed score capsule, with the round and event on a gold header, the running clock, added time and half on the right and card markers per team. A penalty shootout tray under the capsule is included hidden for shootout use; HT is a live state. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Cup-competition lower third in burgundy and gold: kit ribbons and team names lead into a gold-rimmed score capsule, with the round and event on a gold header, the running clock, added time and half on the right and card markers per team. A penalty shootout tray under the capsule is included hidden for shootout use; HT is a live state. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Cup-final burgundy and gold: laurel-capped score capsule, kit ribbons, clock and penalties tray.",
       "output": "html-replications/native-soccer-cup-tie.html",
       "palette": [
@@ -25266,14 +25230,14 @@
       ],
       "title": "Cup Tie — Soccer lower third",
       "fileName": "native-soccer-cup-tie.html",
-      "contentHash": "7ccfc3e507a57effde6ca7f52ab167f6b2be7d42526616722a32018c64c69201",
-      "documentPath": "published/7ccfc3e507a57effde6ca7f52ab167f6b2be7d42526616722a32018c64c69201.json",
+      "contentHash": "bcf239c67b80b7f8ad4544530a95e188ac587fc6629d55bd9cea2612065be353",
+      "documentPath": "published/bcf239c67b80b7f8ad4544530a95e188ac587fc6629d55bd9cea2612065be353.json",
       "preview": {
-        "path": "previews/46c74dffe0a483f84cb72bf8213fdf24ce9e960de2d9e139f1a3af3a233a40ef.png",
-        "imageHash": "46c74dffe0a483f84cb72bf8213fdf24ce9e960de2d9e139f1a3af3a233a40ef",
-        "contentHash": "7ccfc3e507a57effde6ca7f52ab167f6b2be7d42526616722a32018c64c69201",
-        "width": 1250,
-        "height": 223,
+        "path": "previews/e7072dc3655daaf1d1250d7e07a7340477c284767523000c7df67ac2a531a305.png",
+        "imageHash": "e7072dc3655daaf1d1250d7e07a7340477c284767523000c7df67ac2a531a305",
+        "contentHash": "bcf239c67b80b7f8ad4544530a95e188ac587fc6629d55bd9cea2612065be353",
+        "width": 1070,
+        "height": 229,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "soccer"
@@ -25281,14 +25245,14 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen editorial poster for the final whistle or the break: two kit-colour columns frame an oversized score with team names in poster type, a \"HT 1-0\" reference built from the first-half score, a period ledger with extra-time rows that appear only when played, card markers and a penalties line included hidden. Event, round, clock and live HALF-TIME / FULL TIME flags complete it. Summary bindings: half-by-half and extra-time goals (game1-4A/BScore), discipline and fouls. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
-      "motif": "Editorial full-time poster: oversized score, kit colour columns, half-time score and period ledger.",
+      "description": "A full-screen result card: a header with the competition, round and a status pill (live dot, half, clock, added-time tab; HALF TIME, PENALTIES with the shootout score, FULL TIME with the penalties result), a band of two kit-colour panels with the team names in large condensed type around the central score, a discipline row with yellow/red cards per team on a common baseline, and a goals-by-period ledger with extra-time columns that appear only when played. Summary bindings: half-by-half and extra-time goals (game1-4A/BScore), cards, isComplete, isDecidedOnPenalties with the shootout score. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Broadcast result card: header with competition and a status pill, a kit-colour band with the big score in the middle, a discipline row and a goals-by-period ledger.",
       "output": "html-replications/native-soccer-full-time-poster.html",
       "palette": [
-        "#101010",
-        "#f4efe6",
-        "#d94a2b",
-        "#2b2b2b"
+        "#0d1a13",
+        "#08110c",
+        "#8fe0ab",
+        "#ffd21f"
       ],
       "placement": "full-screen",
       "published": true,
@@ -25310,14 +25274,14 @@
       ],
       "title": "Full-time Poster — Soccer full-screen",
       "fileName": "native-soccer-full-time-poster.html",
-      "contentHash": "139aa1945b606c56eae5055737a6adcaa4dc1166a7097c9cc4be6884c4fc87d9",
-      "documentPath": "published/139aa1945b606c56eae5055737a6adcaa4dc1166a7097c9cc4be6884c4fc87d9.json",
+      "contentHash": "05e52f2007c408d7cf3679f5adfae251e317bafec7dccb1617fd07216a90e50a",
+      "documentPath": "published/05e52f2007c408d7cf3679f5adfae251e317bafec7dccb1617fd07216a90e50a.json",
       "preview": {
-        "path": "previews/5207286d71fe1f820fce608b7767265ecd095ae6da6876b861ab2031eb933901.png",
-        "imageHash": "5207286d71fe1f820fce608b7767265ecd095ae6da6876b861ab2031eb933901",
-        "contentHash": "139aa1945b606c56eae5055737a6adcaa4dc1166a7097c9cc4be6884c4fc87d9",
+        "path": "previews/c9524787a9396ed0e22ae5900c0aa8581afc4f4240eac657239067e8486bfb10.png",
+        "imageHash": "c9524787a9396ed0e22ae5900c0aa8581afc4f4240eac657239067e8486bfb10",
+        "contentHash": "05e52f2007c408d7cf3679f5adfae251e317bafec7dccb1617fd07216a90e50a",
         "width": 1286,
-        "height": 700,
+        "height": 684,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "soccer"
@@ -25335,7 +25299,8 @@
         "#262626"
       ],
       "placement": "lower-third",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25355,17 +25320,7 @@
       "title": "Ground LED — Soccer lower third",
       "fileName": "native-soccer-ground-led.html",
       "contentHash": "1fbc98066611682d82e8a55d1c3a8339458089c9d7dc78d91367e8313a156c4d",
-      "documentPath": "published/1fbc98066611682d82e8a55d1c3a8339458089c9d7dc78d91367e8313a156c4d.json",
-      "preview": {
-        "path": "previews/cfd6edfbddcfaaeb547d9df170b12f0201dcd9adc201419dc8dac880789fc3ad.png",
-        "imageHash": "cfd6edfbddcfaaeb547d9df170b12f0201dcd9adc201419dc8dac880789fc3ad",
-        "contentHash": "1fbc98066611682d82e8a55d1c3a8339458089c9d7dc78d91367e8313a156c4d",
-        "width": 1268,
-        "height": 268,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "soccer"
-      }
+      "documentPath": "published/1fbc98066611682d82e8a55d1c3a8339458089c9d7dc78d91367e8313a156c4d.json"
     },
     {
       "aliases": [],
@@ -25379,7 +25334,8 @@
         "#facc15"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25399,21 +25355,11 @@
       "title": "Half-time Report — Soccer full-screen",
       "fileName": "native-soccer-half-time-report.html",
       "contentHash": "74f4ed9404121dd3e91f720d01f527a38cfbfbf36b44b59574a7c781f60854f5",
-      "documentPath": "published/74f4ed9404121dd3e91f720d01f527a38cfbfbf36b44b59574a7c781f60854f5.json",
-      "preview": {
-        "path": "previews/73242f763cfa5c10578eb9a4ddc31064e379a38008c71f260dab3387c091753d.png",
-        "imageHash": "73242f763cfa5c10578eb9a4ddc31064e379a38008c71f260dab3387c091753d",
-        "contentHash": "74f4ed9404121dd3e91f720d01f527a38cfbfbf36b44b59574a7c781f60854f5",
-        "width": 1266,
-        "height": 680,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "soccer"
-      }
+      "documentPath": "published/74f4ed9404121dd3e91f720d01f527a38cfbfbf36b44b59574a7c781f60854f5.json"
     },
     {
       "aliases": [],
-      "description": "Lower third split into two halves filled with each team's live kit colour, meeting at a diagonal seam under a floating white \"2 - 1\" capsule. A dark clock tab below the capsule shows running time, added time and half, cards sit next to each team name and HT replaces the clock at the break. A penalties line is included hidden. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "Lower third split into two halves filled with each team's live kit colour, meeting at a diagonal seam under a floating white \"2 - 1\" capsule. A dark clock tab below the capsule shows running time, added time and half, cards sit next to each team name and HT replaces the clock at the break. A penalties line is included hidden. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Two kit-filled halves with diagonal seam and a floating white score capsule with clock tab.",
       "output": "html-replications/native-soccer-kit-split.html",
       "palette": [
@@ -25442,14 +25388,14 @@
       ],
       "title": "Kit Split — Soccer lower third",
       "fileName": "native-soccer-kit-split.html",
-      "contentHash": "3463277067dd0e351e72b6c24f019ab1eb83405c722772c68950773b575876fb",
-      "documentPath": "published/3463277067dd0e351e72b6c24f019ab1eb83405c722772c68950773b575876fb.json",
+      "contentHash": "1b823eba989f8cbfd8d71b8997322a6f71fbbc84aef818680c96cbc255ca8016",
+      "documentPath": "published/1b823eba989f8cbfd8d71b8997322a6f71fbbc84aef818680c96cbc255ca8016.json",
       "preview": {
-        "path": "previews/2ec2369cbcd89f3aef50849e31b7bc36de7f74518b166618b04a3c56bcbab1a1.png",
-        "imageHash": "2ec2369cbcd89f3aef50849e31b7bc36de7f74518b166618b04a3c56bcbab1a1",
-        "contentHash": "3463277067dd0e351e72b6c24f019ab1eb83405c722772c68950773b575876fb",
+        "path": "previews/154f63350b63d9a465a7b6e821c84c6bc5216d71d82eb28fa62817ce097ec28b.png",
+        "imageHash": "154f63350b63d9a465a7b6e821c84c6bc5216d71d82eb28fa62817ce097ec28b",
+        "contentHash": "1b823eba989f8cbfd8d71b8997322a6f71fbbc84aef818680c96cbc255ca8016",
         "width": 1250,
-        "height": 224,
+        "height": 229,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "soccer"
@@ -25467,7 +25413,8 @@
         "#e9ecef"
       ],
       "placement": "lower-third",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25487,21 +25434,11 @@
       "title": "Match Strip — Soccer lower third",
       "fileName": "native-soccer-match-strip.html",
       "contentHash": "b09d35edb5b05054a290dbecd1df55c2d84981b1a16b900fe2a2fffa9e103832",
-      "documentPath": "published/b09d35edb5b05054a290dbecd1df55c2d84981b1a16b900fe2a2fffa9e103832.json",
-      "preview": {
-        "path": "previews/4e89897ea08a88e209ac958e046c3ecc90ac611ce3f1ab4c3839dd1b7cc3ffe3.png",
-        "imageHash": "4e89897ea08a88e209ac958e046c3ecc90ac611ce3f1ab4c3839dd1b7cc3ffe3",
-        "contentHash": "b09d35edb5b05054a290dbecd1df55c2d84981b1a16b900fe2a2fffa9e103832",
-        "width": 1256,
-        "height": 140,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "soccer"
-      }
+      "documentPath": "published/b09d35edb5b05054a290dbecd1df55c2d84981b1a16b900fe2a2fffa9e103832.json"
     },
     {
       "aliases": [],
-      "description": "European-night styling: slanted midnight-blue segments with silver type run clock, kit flash, team, the score pair and the opponent in one line. Added time drops below the clock as a gold tab, cards sit on the team segments and HT replaces the clock at the break. Half label and a hidden shootout line are included. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "description": "European-night styling: slanted midnight-blue segments with silver type run clock, kit flash, team, the score pair and the opponent in one line. Added time drops below the clock as a gold tab, cards sit on the team segments and HT replaces the clock at the break. Half label and a hidden shootout line are included. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Slanted midnight segments: clock, kit flash, team, score pair, team, kit flash.",
       "output": "html-replications/native-soccer-night-slant.html",
       "palette": [
@@ -25530,14 +25467,14 @@
       ],
       "title": "Night Slant — Soccer corner scorebug",
       "fileName": "native-soccer-night-slant.html",
-      "contentHash": "b6e9f06db08ffac7eca84b4e5a4211e61633caffd3378c0fd716647321beb603",
-      "documentPath": "published/b6e9f06db08ffac7eca84b4e5a4211e61633caffd3378c0fd716647321beb603.json",
+      "contentHash": "850fc40af0553664e9fbf25d40fc56994ca1ef9ff61aa710d5e669f51665a7f6",
+      "documentPath": "published/850fc40af0553664e9fbf25d40fc56994ca1ef9ff61aa710d5e669f51665a7f6.json",
       "preview": {
-        "path": "previews/142af532f162c23e5fe17336ce79b346f769803e6c039b19c19a04c7e41638fb.png",
-        "imageHash": "142af532f162c23e5fe17336ce79b346f769803e6c039b19c19a04c7e41638fb",
-        "contentHash": "b6e9f06db08ffac7eca84b4e5a4211e61633caffd3378c0fd716647321beb603",
+        "path": "previews/a9af05b9526dedb210e2deecc012541ce84f87a7f907c23e4128154b4487d49d.png",
+        "imageHash": "a9af05b9526dedb210e2deecc012541ce84f87a7f907c23e4128154b4487d49d",
+        "contentHash": "850fc40af0553664e9fbf25d40fc56994ca1ef9ff61aa710d5e669f51665a7f6",
         "width": 778,
-        "height": 146,
+        "height": 151,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "soccer"
@@ -25555,7 +25492,8 @@
         "#132a52"
       ],
       "placement": "corner",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25575,28 +25513,18 @@
       "title": "Stand Stack — Soccer corner scorebug",
       "fileName": "native-soccer-stand-stack.html",
       "contentHash": "3ff42fb2edf0bfb74131d98ce87750c62ecd8c4c305e9dc6747895d4f9f1ced0",
-      "documentPath": "published/3ff42fb2edf0bfb74131d98ce87750c62ecd8c4c305e9dc6747895d4f9f1ced0.json",
-      "preview": {
-        "path": "previews/782d272f3f5dcfaaf93af491f7dc810be343b1c3c8b096bbc75a49e9554d86da.png",
-        "imageHash": "782d272f3f5dcfaaf93af491f7dc810be343b1c3c8b096bbc75a49e9554d86da",
-        "contentHash": "3ff42fb2edf0bfb74131d98ce87750c62ecd8c4c305e9dc6747895d4f9f1ced0",
-        "width": 476,
-        "height": 259,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "soccer"
-      }
+      "documentPath": "published/3ff42fb2edf0bfb74131d98ce87750c62ecd8c4c305e9dc6747895d4f9f1ced0.json"
     },
     {
       "aliases": [],
-      "description": "The classic one-line football scorebug: a running match clock block with an added-time tab and live dot, then \"TEAM 2-1 TEAM\" with kit-colour chips and the score in the middle. Red and yellow card markers sit beside each team, the half shows under the clock and a HT flag replaces it at the break. A penalty shootout line is included hidden for operators to reveal. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
-      "motif": "One-line league bug: clock block, then kit chips with team names either side of a central 2-1 score.",
+      "description": "A clock-first one-line football bug: a dark clock block (bright live dot, half and half progress) with the added time hanging below it as a red tab, then the home kit bar and name, the two scores together in red boxes, and the away name and kit bar; red and yellow cards sit right next to each team name. HT replaces the clock at the break, PENS with the shootout score during a shootout, and FT with the penalties result once the match is complete. Live bindings: names (two-line wrap at word boundaries, the bug sizes to the names), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS on isShootoutActive, FT on isComplete with isDecidedOnPenalties. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
+      "motif": "Clock-first league bug: a dark clock block with the added-time tab hanging below it, then kit bar, name and cards either side of two red score boxes set together.",
       "output": "html-replications/native-soccer-touchline-bug.html",
       "palette": [
-        "#062b2f",
-        "#c8f560",
         "#ffffff",
-        "#0b3d42"
+        "#10151d",
+        "#d1102a",
+        "#ffd21f"
       ],
       "placement": "corner",
       "published": true,
@@ -25618,14 +25546,14 @@
       ],
       "title": "Touchline Bug — Soccer corner scorebug",
       "fileName": "native-soccer-touchline-bug.html",
-      "contentHash": "0d90faa76bac58371f94d1e6fed9a89ba7d54882bc3dfb14d6f1dc5f02755ba1",
-      "documentPath": "published/0d90faa76bac58371f94d1e6fed9a89ba7d54882bc3dfb14d6f1dc5f02755ba1.json",
+      "contentHash": "37be0064f060e430dbed86789c1e18c4f723b1acbf88fa9f2abd6a42deab9df3",
+      "documentPath": "published/37be0064f060e430dbed86789c1e18c4f723b1acbf88fa9f2abd6a42deab9df3.json",
       "preview": {
-        "path": "previews/2235f100e4c360aaedda1a06321acb5e45d6f6464356ccd8b112c155598f5cef.png",
-        "imageHash": "2235f100e4c360aaedda1a06321acb5e45d6f6464356ccd8b112c155598f5cef",
-        "contentHash": "0d90faa76bac58371f94d1e6fed9a89ba7d54882bc3dfb14d6f1dc5f02755ba1",
-        "width": 750,
-        "height": 160,
+        "path": "previews/1292497eb9e8be5e064af25999968678b54510c41941ce3052f96beb4b1eb722.png",
+        "imageHash": "1292497eb9e8be5e064af25999968678b54510c41941ce3052f96beb4b1eb722",
+        "contentHash": "37be0064f060e430dbed86789c1e18c4f723b1acbf88fa9f2abd6a42deab9df3",
+        "width": 528,
+        "height": 150,
         "fixtureVersion": "sport-samples-v1",
         "rendererVersion": "1",
         "sport": "soccer"

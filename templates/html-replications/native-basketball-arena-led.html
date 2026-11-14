@@ -3,71 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Arena LED</title>
+  <title>Arena Board</title>
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; background: transparent; }
     body { padding: 24px 50px 28px; font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; }
-    .osb { position: relative; display: grid; grid-template-columns: 1fr 280px 1fr; gap: 6px; width: 1180px; padding: 8px; background: #121315; border: 3px solid #2b2d31; border-radius: 6px; color: #fff; box-shadow: 0 10px 24px #000b, inset 0 0 0 1px #000; }
-    .side { display: grid; grid-template-rows: 38px 92px; min-width: 0; background: #050506; border-radius: 3px; }
-    .hd { display: grid; grid-template-columns: 10px minmax(0, 1fr); align-items: center; background: #1d1f23; border-radius: 3px 3px 0 0; }
-    .kit { align-self: stretch; background-color: #59616e; border-radius: 3px 0 0 0; }
-    .nm { padding: 0 14px; font-size: 25px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .body { position: relative; display: grid; grid-template-columns: 30px 132px minmax(0, 1fr); align-items: center; padding: 0 12px 0 6px; }
-    .side.B .hd { grid-template-columns: minmax(0, 1fr) 10px; }
-    .side.B .hd .kit { order: 2; }
+    .osb { position: relative; display: grid; grid-template-columns: 1fr 268px 1fr; width: 1000px; color: #fff; background: #0c1220; border-radius: 6px; overflow: hidden; box-shadow: 0 10px 26px #000b; }
+    .side { display: grid; grid-template-rows: 44px 96px; min-width: 0; background: linear-gradient(180deg, #172238, #0f1729); }
+    .hd { position: relative; display: grid; grid-template-columns: 14px minmax(0, 1fr); align-items: center; background: #1f2c45; border-bottom: 1px solid #2c3b59; }
+    .kitw { align-self: stretch; display: flex; background: #b9c2d0; }
+    .side.B .kitw { background: #5d6a80; }
+    .kit { flex: 1; background-color: transparent; }
+    .nm { padding: 0 16px; font-size: 24px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .body { position: relative; display: grid; grid-template-columns: 34px 122px minmax(0, 1fr); align-items: center; padding: 0 16px 0 8px; }
+    .side.B .hd { grid-template-columns: minmax(0, 1fr) 14px; }
+    .side.B .hd .kitw { order: 2; }
     .side.B .hd .nm { text-align: right; }
-    .side.B .body { grid-template-columns: minmax(0, 1fr) 132px 30px; padding: 0 6px 0 12px; }
-    .side.B .lamp { order: 3; } .side.B .digits { order: 2; } .side.B .stats { order: 1; align-items: flex-start; }
+    .side.B .body { grid-template-columns: minmax(0, 1fr) 122px 34px; padding: 0 8px 0 16px; }
+    .side.B .lamp { order: 3; } .side.B .digits { order: 2; } .side.B .stats { order: 1; align-items: flex-end; }
     .lamp { display: flex; justify-content: center; }
-    .arrow { font-size: 24px; line-height: 1; color: #ff3b2f; text-shadow: 0 0 8px #ff3b2f; }
-    .digits { display: flex; justify-content: center; }
-    .pts { font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 86px; line-height: .8; padding-top: 12px; color: #ff3b2f; text-shadow: 0 0 10px #ff3b2fbb; font-variant-numeric: tabular-nums; letter-spacing: 2px; }
-    .stats { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+    .arrow { font-size: 26px; line-height: 1; color: #ffc233; }
+    .digits { position: relative; align-self: stretch; display: flex; align-items: center; justify-content: center; }
+    .pts { position: relative; z-index: 1; font-family: "DIN Alternate", "DIN Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 76px; font-weight: 700; line-height: 1; color: #fff; font-variant-numeric: tabular-nums; }
+    .stats { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 0 6px; }
     .st { display: flex; align-items: center; gap: 8px; }
-    .st i { font-style: normal; font-size: 14px; font-weight: 700; letter-spacing: 1.5px; color: #c9ccd2; }
-    .led-s { font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 30px; line-height: .8; padding-top: 5px; color: #ffb21e; text-shadow: 0 0 8px #ffb21eaa; }
+    .st i { font-style: normal; font-size: 16px; font-weight: 600; letter-spacing: 1.5px; color: #a9b4c7; }
+    .led-s { font-family: "DIN Alternate", "DIN Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 24px; font-weight: 700; line-height: 1; color: #fff; }
     .pips { display: flex; gap: 4px; }
-    .pip { width: 10px; height: 10px; border-radius: 50%; background: #ffb21e; box-shadow: 0 0 6px #ffb21e; }
-    .bonus { font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #3cff6a; text-shadow: 0 0 8px #3cff6a; }
+    .pip { width: 12px; height: 12px; border-radius: 2px; background: #ffc233; }
+    .bonus { font-size: 16px; font-weight: 700; letter-spacing: 1.5px; color: #0c1220; background: #ffc233; padding: 2px 7px 1px; border-radius: 2px; }
     .bonus:empty { display: none; }
-    .to { position: absolute; top: 12px; bottom: 12px; left: 176px; right: 10px; align-items: center; justify-content: center; gap: 16px; background: #050506; border: 2px solid #ffb21e; border-radius: 3px; color: #ffb21e; text-shadow: 0 0 8px #ffb21eaa; }
-    .side.B .to { left: 10px; right: 176px; }
+    .to { position: absolute; top: 14px; bottom: 14px; left: 170px; right: 12px; align-items: center; justify-content: center; gap: 14px; background: #ffc233; border-radius: 3px; color: #0c1220; }
+    .side.B .to { left: 12px; right: 170px; }
+    .side.B .bonus { order: -1; }
     .to-l { font-size: 20px; font-weight: 700; letter-spacing: 3px; }
-    .to-c { font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 36px; line-height: .8; padding-top: 6px; }
-    .mid { display: grid; grid-template-rows: 38px 92px; background: #050506; border-radius: 3px; overflow: hidden; }
+    .to-c { font-family: "DIN Alternate", "DIN Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 32px; font-weight: 700; line-height: 1; }
+    .mid { display: grid; grid-template-rows: 44px 96px; background: #060a14; border-left: 1px solid #2c3b59; border-right: 1px solid #2c3b59; }
     .mid > .brk, .mid > .fin { grid-area: 1 / 1 / 3 / 2; }
     .mid > .phd { grid-area: 1 / 1; } .mid > .live { grid-area: 2 / 1; }
-    .phd { display: flex; align-items: center; justify-content: center; gap: 12px; background: #1d1f23; font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #c9ccd2; }
-    .per { font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 26px; line-height: .8; padding-top: 5px; color: #ffb21e; text-shadow: 0 0 8px #ffb21eaa; }
-    .prog { display: flex; gap: 3px; align-items: center; }
-    .q { position: relative; width: 8px; height: 8px; border-radius: 50%; background: #2b2d31; }
-    .q > span { position: absolute; inset: 0; border-radius: 50%; background: #ffb21e; box-shadow: 0 0 5px #ffb21e; }
-    .ot { font-size: 11px; font-weight: 700; color: #ffb21e; text-shadow: 0 0 6px #ffb21e; }
-    .live { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .gc { margin-right: 34px; font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 66px; line-height: .8; padding-top: 10px; color: #ffb21e; text-shadow: 0 0 10px #ffb21ebb; font-variant-numeric: tabular-nums; letter-spacing: 1px; }
-    .shot { position: absolute; right: 10px; top: 8px; display: flex; flex-direction: column; align-items: center; }
-    .shot i { font-style: normal; font-size: 12px; font-weight: 700; letter-spacing: 1px; color: #c9ccd2; }
-    .shot-v { font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 40px; line-height: .8; padding-top: 4px; color: #ff3b2f; text-shadow: 0 0 8px #ff3b2faa; }
-    .run-shot { width: 6px; height: 6px; margin-top: 3px; border-radius: 50%; background: #3cff6a; box-shadow: 0 0 6px #3cff6a; }
-    .runbar { position: absolute; left: 10px; top: 10px; width: 9px; height: 9px; border-radius: 50%; background: #3cff6a; box-shadow: 0 0 8px #3cff6a; }
-    .state { z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; background: #050506; color: #ffb21e; text-shadow: 0 0 10px #ffb21ebb; border: 2px solid #ffb21e; border-radius: 3px; }
+    .phd { display: flex; align-items: center; justify-content: center; gap: 10px; background: #1f2c45; border-bottom: 1px solid #2c3b59; }
+    .per { font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; letter-spacing: 1px; color: #0c1220; background: #fff; padding: 2px 10px 1px; border-radius: 2px; }
+    .per:empty { display: none; }
+    .prog { display: flex; gap: 4px; align-items: center; }
+    .q { position: relative; width: 14px; height: 5px; background: #33415e; border-radius: 1px; }
+    .q > span { position: absolute; inset: 0; background: #ffc233; border-radius: 1px; }
+    .ot { font-size: 16px; font-weight: 700; line-height: 1; padding: 1px 4px 0; background: #ffc233; color: #0c1220; border-radius: 1px; }
+    .live { position: relative; display: flex; align-items: center; justify-content: center; gap: 14px; }
+    .gc { font-family: "DIN Alternate", "DIN Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 64px; font-weight: 700; line-height: 1; color: #fff; font-variant-numeric: tabular-nums; }
+    .gc b { color: #ffc233; padding: 0 1px; }
+    .shot { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 52px; height: 58px; background: #d7262e; border-radius: 4px; }
+    .shot i { font-style: normal; font-size: 16px; font-weight: 700; letter-spacing: 1px; line-height: 1; color: #fff; }
+    .shot-v { font-family: "DIN Alternate", "DIN Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 30px; font-weight: 700; line-height: 1; color: #fff; }
+    .run-shot { position: absolute; left: 6px; right: 6px; bottom: -6px; height: 3px; background: #d7262e; border-radius: 1px; }
+    .runbar { position: absolute; left: 24px; right: 24px; bottom: 0; height: 3px; background: #ffc233; }
+    .state { z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; background: #ffc233; color: #0c1220; }
     .st-s { font-size: 20px; font-weight: 700; letter-spacing: 4px; }
-    .st-b { font-family: "DIN Condensed", "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 60px; line-height: .8; padding-top: 8px; }
+    .st-b { font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 58px; font-weight: 700; line-height: 1; margin-top: 4px; }
     .brk .half-t { font-size: 50px; }
-    .fin { z-index: 2; color: #3cff6a; text-shadow: 0 0 10px #3cff6abb; border-color: #3cff6a; }
+    .fin { z-index: 2; background: #fff; color: #0c1220; }
     .fin-ot { font-size: 20px; font-weight: 700; letter-spacing: 4px; margin-top: 4px; }
-    .ev { grid-column: 1 / -1; display: flex; justify-content: center; gap: 14px; padding: 2px 0 0; font-size: 15px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #8d9098; order: 9; }
-    .ev .matchRound { color: #ffb21e; }
+    .ev { grid-column: 1 / -1; display: flex; justify-content: center; gap: 14px; padding: 7px 16px 6px; background: #060a14; border-top: 1px solid #2c3b59; font-size: 16px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: #a9b4c7; white-space: nowrap; order: 9; }
+    .ev .matchRound { color: #ffc233; }
     .half-t { display: none; }
     .osb:has(.isGame2Started[style*="opacity: 1"]):not(:has(.isGame3Started[style*="opacity: 1"])) .brk .end-t { display: none; }
     .osb:has(.isGame2Started[style*="opacity: 1"]):not(:has(.isGame3Started[style*="opacity: 1"])) .brk .half-t { display: block; }
     .fin-ot { display: none; }
     .osb:has(.isGame5Started[style*="opacity: 1"]) .fin-ot { display: block; }
-    .osb:has(.isComplete[style*="opacity: 1"]) .final-dim { opacity: .3; filter: grayscale(1); }
+    .osb:has(.isComplete[style*="opacity: 1"]) .final-dim { opacity: .5; }
+    .osb:has(.isComplete[style*="opacity: 1"]) .pip { background: #6f7c92; }
+    .win { position: absolute; left: 8px; right: 8px; top: 12px; bottom: 12px; background: #ffc233; border-radius: 4px; }
+    .digits:has(> .win[style*="opacity: 1"]) .pts { color: #0c1220; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .side.B :is(.nm, .pts, .stats), .osb:has(.isBWinner[style*="opacity: 1"]) .side.A :is(.nm, .pts, .stats) { opacity: .45; }
     .pips { gap: 0 !important; }
     .pips > [class*="TimeoutLeft"] { margin-right: 4px; }
     .pips > [style*="opacity: 0"] { width: 0 !important; margin: 0 !important; }
+    .pips > .pip[style*="opacity: 0"] { display: none !important; }
     .osb-aux { display: none; }
     .point-slot:has(> .isMatchPoint[style*="opacity: 1"]) > .isGamePoint { opacity: 0 !important; }
     .combinedAName:empty::before { content: "Team A"; }
@@ -77,23 +87,18 @@
     .ev-sep { display: none; }
     .ev:has(.eventName:not(:empty)):has(.matchRound:not(:empty)) .ev-sep { display: inline; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
-/* stream-size floor: text >= 16px, indicators >= 12px at 1280x720 */
-.st>i,.phd,.ot.isGame5Started,.shot.isShotClockActive>i,.ev-n.eventName,.ev-r.matchRound,.bonus.bonusA,.bonus.bonusB{font-size:16px!important}
-.pip.isATimeoutLeft1,.pip.isATimeoutLeft2,.pip.isATimeoutLeft3,.pip.isATimeoutLeft4,.pip.isATimeoutLeft5,.q,.isGame1Started,.isGame2Started,.isGame3Started,.isGame4Started,.run-shot.isShotClockRunning,.runbar.isGameClockRunning,.pip.isBTimeoutLeft1,.pip.isBTimeoutLeft2,.pip.isBTimeoutLeft3,.pip.isBTimeoutLeft4,.pip.isBTimeoutLeft5{width:12px!important;height:12px!important;min-width:0!important;flex-shrink:0!important}
-/* end stream-size floor */
-
   </style>
 </head>
 <body>
 <article class="osb" aria-label="Basketball arena scoreboard">
-  <div class="side A"><div class="hd"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></div><div class="body"><span class="lamp final-dim"><span class="arrow isAPossession" data-osb-component="field" data-osb-field="isAPossession" style="opacity: 0;">&#9664;</span></span><span class="digits"><span class="pts currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></span><div class="stats"><span class="st"><i>FOULS</i><b class="led-s teamFoulsA" data-osb-component="field" data-osb-field="teamFoulsA" data-osb-static="true" data-sport-stat="foulsA">0</b></span><span class="st"><i>T.O.L.</i><span class="pips final-dim"><span class="pip isATimeoutLeft1" data-osb-component="field" data-osb-field="isATimeoutLeft1" style="opacity: 0;"></span><span class="pip isATimeoutLeft2" data-osb-component="field" data-osb-field="isATimeoutLeft2" style="opacity: 0;"></span><span class="pip isATimeoutLeft3" data-osb-component="field" data-osb-field="isATimeoutLeft3" style="opacity: 0;"></span><span class="pip isATimeoutLeft4" data-osb-component="field" data-osb-field="isATimeoutLeft4" style="opacity: 0;"></span><span class="pip isATimeoutLeft5" data-osb-component="field" data-osb-field="isATimeoutLeft5" style="opacity: 0;"></span></span></span><span class="bonus bonusA" data-osb-component="field" data-osb-field="bonusA"></span></div><span class="to isATimeOutActive" data-osb-component="field" data-osb-field="isATimeOutActive" style="display: none; opacity: 0;"><span class="to-l">TIME OUT</span><span class="to-c timeoutClock" data-osb-component="field" data-osb-field="timeoutClock"></span></span></div></div>
+  <div class="side A"><div class="hd"><span class="kitw"><span class="kit jerseyColorA" data-osb-component="field" data-osb-field="jerseyColorA"></span></span><span class="nm combinedAName" data-osb-component="field" data-osb-field="combinedAName"></span></div><div class="body"><span class="lamp final-dim"><span class="arrow isAPossession" data-osb-component="field" data-osb-field="isAPossession" style="opacity: 0;">&#9664;</span></span><span class="digits"><span class="win isAWinner" data-osb-component="field" data-osb-field="isAWinner" style="opacity: 0;"></span><span class="pts currentAGameScore" data-osb-component="field" data-osb-field="currentAGameScore">0</span></span><div class="stats"><span class="st"><i>FOULS</i><b class="led-s teamFoulsA" data-osb-component="field" data-osb-field="teamFoulsA" data-osb-static="true" data-sport-stat="foulsA">0</b><span class="bonus bonusA" data-osb-component="field" data-osb-field="bonusA"></span></span><span class="st"><i>TO</i><span class="pips final-dim"><span class="pip isATimeoutLeft1" data-osb-component="field" data-osb-field="isATimeoutLeft1" style="opacity: 0;"></span><span class="pip isATimeoutLeft2" data-osb-component="field" data-osb-field="isATimeoutLeft2" style="opacity: 0;"></span><span class="pip isATimeoutLeft3" data-osb-component="field" data-osb-field="isATimeoutLeft3" style="opacity: 0;"></span><span class="pip isATimeoutLeft4" data-osb-component="field" data-osb-field="isATimeoutLeft4" style="opacity: 0;"></span><span class="pip isATimeoutLeft5" data-osb-component="field" data-osb-field="isATimeoutLeft5" style="opacity: 0;"></span></span></span></div><span class="to isATimeOutActive" data-osb-component="field" data-osb-field="isATimeOutActive" style="display: none; opacity: 0;"><span class="to-l">TIME OUT</span><span class="to-c timeoutClock" data-osb-component="field" data-osb-field="timeoutClock"></span></span></div></div>
   <div class="mid">
     <div class="phd">PERIOD <span class="per periodLabel" data-osb-component="field" data-osb-field="periodLabel" data-osb-static="true" data-sport-stat="period"></span><span class="prog"><span class="q"><span class="isGame1Started" data-osb-component="field" data-osb-field="isGame1Started" style="display: none; opacity: 0;"></span></span><span class="q"><span class="isGame2Started" data-osb-component="field" data-osb-field="isGame2Started" style="display: none; opacity: 0;"></span></span><span class="q"><span class="isGame3Started" data-osb-component="field" data-osb-field="isGame3Started" style="display: none; opacity: 0;"></span></span><span class="q"><span class="isGame4Started" data-osb-component="field" data-osb-field="isGame4Started" style="display: none; opacity: 0;"></span></span><span class="ot isGame5Started" data-osb-component="field" data-osb-field="isGame5Started" style="display: none; opacity: 0;">OT</span></span></div>
     <div class="live"><span class="gc"><span class="clockMinutes" data-osb-component="field" data-osb-field="clockMinutes" data-osb-static="true" data-sport-stat="clockMinutes">00</span><b>:</b><span class="clockSeconds" data-osb-component="field" data-osb-field="clockSeconds" data-osb-static="true" data-sport-stat="clockSeconds">00</span></span><span class="shot isShotClockActive" data-osb-component="field" data-osb-field="isShotClockActive" style="opacity: 0;"><i>SHOT</i><span class="shot-v" data-osb-static="true" data-sport-stat="shotClock"></span><span class="run-shot isShotClockRunning" data-osb-component="field" data-osb-field="isShotClockRunning" style="opacity: 0;"></span></span><span class="runbar isGameClockRunning" data-osb-component="field" data-osb-field="isGameClockRunning" style="opacity: 0;"></span></div>
     <div class="state brk isInBetweenGames" data-osb-component="field" data-osb-field="isInBetweenGames" style="opacity: 0;"><span class="end-t st-s">END OF</span><span class="end-t st-b"><span class="periodLabel" data-osb-component="field" data-osb-field="periodLabel" data-osb-static="true" data-sport-stat="period"></span></span><span class="half-t st-b">HALFTIME</span></div>
     <div class="state fin isComplete" data-osb-component="field" data-osb-field="isComplete" style="opacity: 0;"><span class="st-b">FINAL</span><span class="fin-ot">OVERTIME</span></div>
   </div>
-  <div class="side B"><div class="hd"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></div><div class="body"><span class="lamp final-dim"><span class="arrow isBPossession" data-osb-component="field" data-osb-field="isBPossession" style="opacity: 0;">&#9654;</span></span><span class="digits"><span class="pts currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></span><div class="stats"><span class="st"><i>FOULS</i><b class="led-s teamFoulsB" data-osb-component="field" data-osb-field="teamFoulsB" data-osb-static="true" data-sport-stat="foulsB">0</b></span><span class="st"><i>T.O.L.</i><span class="pips final-dim"><span class="pip isBTimeoutLeft1" data-osb-component="field" data-osb-field="isBTimeoutLeft1" style="opacity: 0;"></span><span class="pip isBTimeoutLeft2" data-osb-component="field" data-osb-field="isBTimeoutLeft2" style="opacity: 0;"></span><span class="pip isBTimeoutLeft3" data-osb-component="field" data-osb-field="isBTimeoutLeft3" style="opacity: 0;"></span><span class="pip isBTimeoutLeft4" data-osb-component="field" data-osb-field="isBTimeoutLeft4" style="opacity: 0;"></span><span class="pip isBTimeoutLeft5" data-osb-component="field" data-osb-field="isBTimeoutLeft5" style="opacity: 0;"></span></span></span><span class="bonus bonusB" data-osb-component="field" data-osb-field="bonusB"></span></div><span class="to isBTimeOutActive" data-osb-component="field" data-osb-field="isBTimeOutActive" style="display: none; opacity: 0;"><span class="to-l">TIME OUT</span><span class="to-c timeoutClock" data-osb-component="field" data-osb-field="timeoutClock"></span></span></div></div>
+  <div class="side B"><div class="hd"><span class="kitw"><span class="kit jerseyColorB" data-osb-component="field" data-osb-field="jerseyColorB"></span></span><span class="nm combinedBName" data-osb-component="field" data-osb-field="combinedBName"></span></div><div class="body"><span class="lamp final-dim"><span class="arrow isBPossession" data-osb-component="field" data-osb-field="isBPossession" style="opacity: 0;">&#9654;</span></span><span class="digits"><span class="win isBWinner" data-osb-component="field" data-osb-field="isBWinner" style="opacity: 0;"></span><span class="pts currentBGameScore" data-osb-component="field" data-osb-field="currentBGameScore">0</span></span><div class="stats"><span class="st"><i>FOULS</i><b class="led-s teamFoulsB" data-osb-component="field" data-osb-field="teamFoulsB" data-osb-static="true" data-sport-stat="foulsB">0</b><span class="bonus bonusB" data-osb-component="field" data-osb-field="bonusB"></span></span><span class="st"><i>TO</i><span class="pips final-dim"><span class="pip isBTimeoutLeft1" data-osb-component="field" data-osb-field="isBTimeoutLeft1" style="opacity: 0;"></span><span class="pip isBTimeoutLeft2" data-osb-component="field" data-osb-field="isBTimeoutLeft2" style="opacity: 0;"></span><span class="pip isBTimeoutLeft3" data-osb-component="field" data-osb-field="isBTimeoutLeft3" style="opacity: 0;"></span><span class="pip isBTimeoutLeft4" data-osb-component="field" data-osb-field="isBTimeoutLeft4" style="opacity: 0;"></span><span class="pip isBTimeoutLeft5" data-osb-component="field" data-osb-field="isBTimeoutLeft5" style="opacity: 0;"></span></span></span></div><span class="to isBTimeOutActive" data-osb-component="field" data-osb-field="isBTimeOutActive" style="display: none; opacity: 0;"><span class="to-l">TIME OUT</span><span class="to-c timeoutClock" data-osb-component="field" data-osb-field="timeoutClock"></span></span></div></div>
   <div class="ev"><span class="ev-n eventName" data-osb-component="field" data-osb-field="eventName"></span><span class="ev-r matchRound" data-osb-component="field" data-osb-field="matchRound"></span></div>
   <div class="osb-aux"><span class="currentAMatchScore" data-osb-component="field" data-osb-field="currentAMatchScore">0</span><span class="currentBMatchScore" data-osb-component="field" data-osb-field="currentBMatchScore">0</span><span class="timeoutsRemainingA" data-osb-component="field" data-osb-field="timeoutsRemainingA"></span><span class="timeoutsRemainingB" data-osb-component="field" data-osb-field="timeoutsRemainingB"></span><span class="possessionSide" data-osb-component="field" data-osb-field="possessionSide"></span><span class="shotClockStatus" data-osb-component="field" data-osb-field="shotClockStatus"></span><div class="point-slot"><span class="isGamePoint" data-osb-component="field" data-osb-field="isGamePoint" style="opacity: 0;">GAME POINT</span><span class="isMatchPoint" data-osb-component="field" data-osb-field="isMatchPoint" style="opacity: 0;">MATCH POINT</span></div></div>
 </article>
