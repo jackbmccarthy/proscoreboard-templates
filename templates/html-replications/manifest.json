@@ -43958,7 +43958,7 @@
       "#c41f2f",
       "#1d2a44"
     ],
-    "motif": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, lit-base diamond, B-S count, labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE and inning progress.",
+    "motif": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, then the diamond beside a count panel holding the B-S count and labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip).",
     "tags": [
       "baseball",
       "sport-native",
@@ -43966,7 +43966,7 @@
       "corner",
       "teams"
     ],
-    "description": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, lit-base diamond, B-S count, labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE and inning progress. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, then the diamond beside a count panel holding the B-S count and labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -43987,7 +43987,7 @@
     "palette": [
       "#3fd0ff"
     ],
-    "motif": "Dark glass tower: event header that wraps at word boundaries, R-H-E team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, lit-base diamond, B-S count over ball/strike pips, out lights), a footer with PREGAME/LIVE and inning progress.",
+    "motif": "Dark glass tower: event and R-H-E labels share the header row (event wraps whole words, no stray separator), team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, then diamond, B-S count over labelled B/S pips and the outs as one cluster), and a footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip, all ticks lit on the final).",
     "tags": [
       "baseball",
       "sport-native",
@@ -43995,7 +43995,7 @@
       "corner",
       "teams"
     ],
-    "description": "Dark glass tower: event header that wraps at word boundaries, R-H-E team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, lit-base diamond, B-S count over ball/strike pips, out lights), a footer with PREGAME/LIVE and inning progress. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Dark glass tower: event and R-H-E labels share the header row (event wraps whole words, no stray separator), team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, then diamond, B-S count over labelled B/S pips and the outs as one cluster), and a footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip, all ticks lit on the final). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -44017,7 +44017,7 @@
       "#1f4d33",
       "#ffc93c"
     ],
-    "motif": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, BALL/STRIKE/OUT lamps, lit-base diamond) and inning progress.",
+    "motif": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, then diamond, numeric B-S count and BALL/STRIKE/OUT lamps in one row) and inning progress with an extra-inning chip.",
     "tags": [
       "baseball",
       "sport-native",
@@ -44025,7 +44025,7 @@
       "corner",
       "teams"
     ],
-    "description": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, BALL/STRIKE/OUT lamps, lit-base diamond) and inning progress. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, then diamond, numeric B-S count and BALL/STRIKE/OUT lamps in one row) and inning progress with an extra-inning chip. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -44047,7 +44047,7 @@
       "#121a2b",
       "#ff9f1c"
     ],
-    "motif": "Live line score strip under an event tab: team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings appear when played), R-H-E, and a situation box (inning arrow, lit-base diamond, B-S count with pips, outs).",
+    "motif": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs).",
     "tags": [
       "baseball",
       "sport-native",
@@ -44055,7 +44055,7 @@
       "lower-third",
       "teams"
     ],
-    "description": "Live line score strip under an event tab: team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings appear when played), R-H-E, and a situation box (inning arrow, lit-base diamond, B-S count with pips, outs). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -44078,7 +44078,7 @@
       "#ffc933",
       "#d50f2f"
     ],
-    "motif": "Single network bar under an event tab with PREGAME/LIVE: each team as jersey slab, uppercase name, at-bat light and boxed runs, then a situation box (inning arrow, lit-base diamond, B-S count with pips, outs) with an inning-progress rail; hits and errors stay bound off screen.",
+    "motif": "Segmented network bar under an event tab with PREGAME/LIVE/FINAL: each team its own segment with jersey slab, uppercase name, at-bat light, boxed runs and compact H/E, then a situation segment (inning arrow, diamond, B-S count over labelled pips, outs) with an inning-progress rail.",
     "tags": [
       "baseball",
       "sport-native",
@@ -44086,7 +44086,7 @@
       "lower-third",
       "teams"
     ],
-    "description": "Single network bar under an event tab with PREGAME/LIVE: each team as jersey slab, uppercase name, at-bat light and boxed runs, then a situation box (inning arrow, lit-base diamond, B-S count with pips, outs) with an inning-progress rail; hits and errors stay bound off screen. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Segmented network bar under an event tab with PREGAME/LIVE/FINAL: each team its own segment with jersey slab, uppercase name, at-bat light, boxed runs and compact H/E, then a situation segment (inning arrow, diamond, B-S count over labelled pips, outs) with an inning-progress rail. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -44109,7 +44109,7 @@
       "#ff7a1a",
       "#16202e"
     ],
-    "motif": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over the B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE; inning-progress rail.",
+    "motif": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip.",
     "tags": [
       "baseball",
       "sport-native",
@@ -44117,7 +44117,7 @@
       "lower-third",
       "teams"
     ],
-    "description": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over the B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE; inning-progress rail. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -44199,7 +44199,7 @@
     "palette": [
       "#ffd166"
     ],
-    "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag on the final, a named line score with R-H-E and a situation bar.",
+    "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final).",
     "tags": [
       "baseball",
       "sport-native",
@@ -44207,7 +44207,7 @@
       "full-screen",
       "teams"
     ],
-    "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag on the final, a named line score with R-H-E and a situation bar. 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "baseball",
     "scoringMode": "native",
@@ -44262,7 +44262,7 @@
       "#e8590c",
       "#0f6a73"
     ],
-    "motif": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, lit-base diamond, B-S count, labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE and inning progress.",
+    "motif": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, then the diamond beside a count panel holding the B-S count and labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip).",
     "tags": [
       "softball",
       "sport-native",
@@ -44270,7 +44270,7 @@
       "corner",
       "teams"
     ],
-    "description": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, lit-base diamond, B-S count, labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE and inning progress. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Cream ballpark card: navy header with event and R-H-E labels, slab-serif team rows with jersey slabs and navy runs blocks, a situation bay (inning arrow, then the diamond beside a count panel holding the B-S count and labelled B/S/OUT lamps) and a navy footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
@@ -44291,7 +44291,7 @@
     "palette": [
       "#ff4fa3"
     ],
-    "motif": "Dark glass tower: event header that wraps at word boundaries, R-H-E team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, lit-base diamond, B-S count over ball/strike pips, out lights), a footer with PREGAME/LIVE and inning progress.",
+    "motif": "Dark glass tower: event and R-H-E labels share the header row (event wraps whole words, no stray separator), team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, then diamond, B-S count over labelled B/S pips and the outs as one cluster), and a footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip, all ticks lit on the final).",
     "tags": [
       "softball",
       "sport-native",
@@ -44299,7 +44299,7 @@
       "corner",
       "teams"
     ],
-    "description": "Dark glass tower: event header that wraps at word boundaries, R-H-E team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, lit-base diamond, B-S count over ball/strike pips, out lights), a footer with PREGAME/LIVE and inning progress. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Dark glass tower: event and R-H-E labels share the header row (event wraps whole words, no stray separator), team rows with full-height jersey slabs (home plate inside the home slab), at-bat light and runs on a contrasting block, one situation strip (inning arrow, then diamond, B-S count over labelled B/S pips and the outs as one cluster), and a footer with PREGAME/LIVE/FINAL and inning progress (extra-inning chip, all ticks lit on the final). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
@@ -44321,7 +44321,7 @@
       "#24386b",
       "#e4f03a"
     ],
-    "motif": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, BALL/STRIKE/OUT lamps, lit-base diamond) and inning progress.",
+    "motif": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, then diamond, numeric B-S count and BALL/STRIKE/OUT lamps in one row) and inning progress with an extra-inning chip.",
     "tags": [
       "softball",
       "sport-native",
@@ -44329,7 +44329,7 @@
       "corner",
       "teams"
     ],
-    "description": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, BALL/STRIKE/OUT lamps, lit-base diamond) and inning progress. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Green outfield-wall board: boxed R-H-E cells with the runs box dominant, condensed team names on jersey slabs separated by a rail, a lamp panel (inning arrow, then diamond, numeric B-S count and BALL/STRIKE/OUT lamps in one row) and inning progress with an extra-inning chip. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
@@ -44351,7 +44351,7 @@
       "#0f2a2e",
       "#f6e33a"
     ],
-    "motif": "Live line score strip under an event tab: team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings appear when played), R-H-E, and a situation box (inning arrow, lit-base diamond, B-S count with pips, outs).",
+    "motif": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs).",
     "tags": [
       "softball",
       "sport-native",
@@ -44359,7 +44359,7 @@
       "lower-third",
       "teams"
     ],
-    "description": "Live line score strip under an event tab: team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings appear when played), R-H-E, and a situation box (inning arrow, lit-base diamond, B-S count with pips, outs). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
@@ -44382,7 +44382,7 @@
       "#d9f23b",
       "#6a2ccf"
     ],
-    "motif": "Single network bar under an event tab with PREGAME/LIVE: each team as jersey slab, uppercase name, at-bat light and boxed runs, then a situation box (inning arrow, lit-base diamond, B-S count with pips, outs) with an inning-progress rail; hits and errors stay bound off screen.",
+    "motif": "Segmented network bar under an event tab with PREGAME/LIVE/FINAL: each team its own segment with jersey slab, uppercase name, at-bat light, boxed runs and compact H/E, then a situation segment (inning arrow, diamond, B-S count over labelled pips, outs) with an inning-progress rail.",
     "tags": [
       "softball",
       "sport-native",
@@ -44390,7 +44390,7 @@
       "lower-third",
       "teams"
     ],
-    "description": "Single network bar under an event tab with PREGAME/LIVE: each team as jersey slab, uppercase name, at-bat light and boxed runs, then a situation box (inning arrow, lit-base diamond, B-S count with pips, outs) with an inning-progress rail; hits and errors stay bound off screen. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Segmented network bar under an event tab with PREGAME/LIVE/FINAL: each team its own segment with jersey slab, uppercase name, at-bat light, boxed runs and compact H/E, then a situation segment (inning arrow, diamond, B-S count over labelled pips, outs) with an inning-progress rail. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
@@ -44413,7 +44413,7 @@
       "#e8590c",
       "#2a1640"
     ],
-    "motif": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over the B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE; inning-progress rail.",
+    "motif": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip.",
     "tags": [
       "softball",
       "sport-native",
@@ -44421,7 +44421,7 @@
       "lower-third",
       "teams"
     ],
-    "description": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over the B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE; inning-progress rail. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Bottom-left matchup panel: white team rows with jersey slabs, at-bat light, dark runs blocks and H/E, beside a dark situation panel (inning arrow over a large B-S count, a large lit-base diamond, labelled BALL/STRIKE/OUT lamps); header with event, R-H-E labels and PREGAME/LIVE/FINAL; labelled inning-progress footer with an extra-inning chip. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
@@ -44501,9 +44501,9 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#ffd23f"
+      "#e6f03c"
     ],
-    "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag on the final, a named line score with R-H-E and a situation bar.",
+    "motif": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final).",
     "tags": [
       "softball",
       "sport-native",
@@ -44511,7 +44511,7 @@
       "full-screen",
       "teams"
     ],
-    "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag on the final, a named line score with R-H-E and a situation bar. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser dimmed (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
+    "description": "Full-screen inning break card: event, an END OF tag and the half-inning headline (FINAL on completion), two team panels with team-coloured runs boxes, H/E and at-bat, a WINNER tag and outline on the final, a line score with team names and R-H-E, and a situation bar (a key between halves, AFTER n INNINGS on the final). 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
     "aliases": [],
     "sport": "softball",
     "scoringMode": "native",
