@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "0588607a87bf5c5c7736221a1c63f5e70310010a76f39120a7662cf2a49d8fba",
+  "revision": "8cd3fa1ad45aa131f3e17d6354214c9ac34398c0ec1f615e997a3639f3669901",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44590,7 +44590,7 @@
     },
     {
       "aliases": [],
-      "description": "White stacked rows under a kitchen-green header with labelled GAMES/PTS columns; score call and finished games in the foot. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
+      "description": "White stacked rows under a kitchen-green band, team tie strip on top in team events. Labelled games beside the points, serve ball with doubles server number, labelled TO bars and cards under each name, GAME n LIVE tag, score call and finished games in the footer; at a break and at FINAL the points column shows games won.",
       "motif": "White stacked rows under a kitchen-green header with labelled GAMES/PTS columns; score call and finished games in the foot.",
       "output": "html-replications/starter-pickleball-corner-kitchen.html",
       "palette": [
@@ -44620,8 +44620,8 @@
       ],
       "title": "Pickleball Kitchen Line",
       "fileName": "starter-pickleball-corner-kitchen.html",
-      "contentHash": "18bc9c4305e2e1c7b047d7f3579450078bbe1430fae8a5ce43693a176741b67c",
-      "documentPath": "published/18bc9c4305e2e1c7b047d7f3579450078bbe1430fae8a5ce43693a176741b67c.json"
+      "contentHash": "495a8347c9e5e800f4e979894ef504280d4824fad11b36b6d39a108fe04d277c",
+      "documentPath": "published/495a8347c9e5e800f4e979894ef504280d4824fad11b36b6d39a108fe04d277c.json"
     },
     {
       "aliases": [],
@@ -44636,6 +44636,7 @@
       ],
       "placement": "corner",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44671,6 +44672,7 @@
       ],
       "placement": "corner",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44706,6 +44708,7 @@
       ],
       "placement": "corner",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44730,7 +44733,7 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen game-by-game table under a big state title, serving team and server number on the row, team tie on top. Bound to games won, the game-by-game ledger (games 1-9) with each finished game's winner boxed, the game in play as its own column (NEXT game during a break), game state, game/match point, serving team and server number, the match winner (isAWinner/isBWinner) and the team-match tie. Stored names are blank and scores 0.",
+      "description": "Full-screen game-by-game table under a big state title, team tie on top: equal boxed game columns, current game column while live, games won, serve with server number, TO bars, cards, timeout and WINNER tags beside each name.",
       "motif": "Full-screen game-by-game table under a big state title, serving team and server number on the row, team tie on top.",
       "output": "html-replications/starter-pickleball-full-between-games.html",
       "palette": [
@@ -44760,8 +44763,8 @@
       ],
       "title": "Pickleball Between Games",
       "fileName": "starter-pickleball-full-between-games.html",
-      "contentHash": "44ffcccaea7d25d41e42c35b5c02d510d52cbb9e24a955d7d36ea1a5f2feca0f",
-      "documentPath": "published/44ffcccaea7d25d41e42c35b5c02d510d52cbb9e24a955d7d36ea1a5f2feca0f.json"
+      "contentHash": "18983b4015f39ff5917aaab98aeb374b6c3e5f3e8c87bde8190560dfde3a560f",
+      "documentPath": "published/18983b4015f39ff5917aaab98aeb374b6c3e5f3e8c87bde8190560dfde3a560f.json"
     },
     {
       "aliases": [],
@@ -44776,6 +44779,7 @@
       ],
       "placement": "full-screen",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44811,6 +44815,7 @@
       ],
       "placement": "lower-third",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44846,6 +44851,7 @@
       ],
       "placement": "lower-third",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44870,7 +44876,7 @@
     },
     {
       "aliases": [],
-      "description": "Lower-third line score: finished games in columns with the winner boxed, GAMES, and the game in play as the big GAME n column; call chip in the header. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
+      "description": "Lower-third line score: finished games boxed in columns, games won, the game in play as the big GAME n column, score-call chip in the header, TO bars and cards under each name, team tie strip on top in team events.",
       "motif": "Lower-third line score: finished games in columns with the winner boxed, GAMES, and the game in play as the big GAME n column; call chip in the header.",
       "output": "html-replications/starter-pickleball-lower-game-ledger.html",
       "palette": [
@@ -44880,7 +44886,7 @@
         "#ffffff"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -44900,8 +44906,18 @@
       ],
       "title": "Pickleball Game Ledger",
       "fileName": "starter-pickleball-lower-game-ledger.html",
-      "contentHash": "1770e2a300623fac037daab26b474d9150b03a41705bbec182e8278b982f840b",
-      "documentPath": "published/1770e2a300623fac037daab26b474d9150b03a41705bbec182e8278b982f840b.json"
+      "contentHash": "b2bf1b0de8adbcc30dca935f9a018aaccbad148e5d7cb23ecf7b203fb7f22475",
+      "documentPath": "published/b2bf1b0de8adbcc30dca935f9a018aaccbad148e5d7cb23ecf7b203fb7f22475.json",
+      "preview": {
+        "path": "previews/4364df5094a2a25d1b7d7bca95913a7e7b05b26867071df4671639f1dbff1330.png",
+        "imageHash": "4364df5094a2a25d1b7d7bca95913a7e7b05b26867071df4671639f1dbff1330",
+        "contentHash": "b2bf1b0de8adbcc30dca935f9a018aaccbad148e5d7cb23ecf7b203fb7f22475",
+        "width": 772,
+        "height": 292,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "pickleball"
+      }
     },
     {
       "aliases": [],
@@ -44916,6 +44932,7 @@
       ],
       "placement": "lower-third",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45347,7 +45364,7 @@
     },
     {
       "aliases": [],
-      "description": "Top-left horizontal versus strip on cream paper: navy event title bar, a label band (GAMES | GAME n | GAMES), side A name | games | points : points | games | side B name (flags, jersey chips, serve ball and winner check beside the scores). Time-out traces, cards and the labelled TIE score hang under each name; finished games hang under the centre as G1 11-8 tabs with the winner lit; the match state tab sits below. At the end games won take the centre under FINAL and the loser half steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Cream scorecard corner bug of fixed width: navy header (event · round) with GAMES and POINTS / GAME n / FINAL labels over their columns, two rows (jersey bar, flag, combined name, T/O trace, cards, second-server chip, serve ball, winner check, games won in a ring, points in a navy tile), and an attached footer with the best-of label and finished games as G1 11–8 boxes (winner in navy). At the end the points fold away and the games become red/grey result tiles. Team ties get a separate navy tie strip above the card.",
       "motif": "Cream versus strip: names outward, games and points meeting in a navy centre, tabs hanging below",
       "output": "html-replications/starter-tabletennis-corner-paper-card.html",
       "palette": [
@@ -45357,7 +45374,7 @@
         "#ff9a3c"
       ],
       "placement": "corner",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45374,8 +45391,18 @@
       ],
       "title": "Table Tennis Corner — Paper Card",
       "fileName": "starter-tabletennis-corner-paper-card.html",
-      "contentHash": "51b900bcacfb286286ea8055aace2f29f62d0d73a18c5350a7025f3cfda73949",
-      "documentPath": "published/51b900bcacfb286286ea8055aace2f29f62d0d73a18c5350a7025f3cfda73949.json"
+      "contentHash": "35241790f945f3906e71c5be27a8e8cd034370e3ddaf94c8f404283c8caeb9ab",
+      "documentPath": "published/35241790f945f3906e71c5be27a8e8cd034370e3ddaf94c8f404283c8caeb9ab.json",
+      "preview": {
+        "path": "previews/1f1ecab5b777ee174bbd0ff6ea479e18947c0c5cf9f899f6530031bbfcb925de.png",
+        "imageHash": "1f1ecab5b777ee174bbd0ff6ea479e18947c0c5cf9f899f6530031bbfcb925de",
+        "contentHash": "35241790f945f3906e71c5be27a8e8cd034370e3ddaf94c8f404283c8caeb9ab",
+        "width": 604,
+        "height": 284,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "tableTennis"
+      }
     },
     {
       "aliases": [],
@@ -45412,7 +45439,7 @@
     },
     {
       "aliases": [],
-      "description": "Top-left tour scorebug built as a labelled linescore: the header row carries event/round/best-of and the column labels (G1.., GAMES, GAME n / FINAL). Rows: jersey chip, flag, combined name (team name, logo and labelled TIE score in team matches), time-out trace (T/O active, T used), yellow/red cards, orange serve ball, winner check. Finished games only appear in the history (winner cell lit); the game in play is the coral points column, labelled GAME n (GAME n+1 between games). The warm-up / between-games / game-point / match-point tab hangs under the board. At the end games won become the coral FINAL column and the loser steps back. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Top-left corner bug of fixed width: header (event/round/best-of), two player rows (jersey bar, flag, combined name, T/O trace, cards, doubles second-server chip, serve ball, winner check), finished games as dim ledger columns (winner boxed) cut off by a dark gap from a labelled GAMES column, then the coral POINTS column whose header turns into GAME n / GAME n NEXT / FINAL. In a team tie a separate strip above the bug shows both teams, logos and the labelled tie score; the tie page without a player match shows only that strip. State tabs (warm-up, between games, game/match point) hang under the bug.",
       "motif": "Charcoal tour scorebug with a labelled column header (event | G1.. | GAMES | GAME n) and a coral live-points column",
       "output": "html-replications/starter-tabletennis-corner-tour-bug.html",
       "palette": [
@@ -45422,7 +45449,7 @@
         "#ff9a3c"
       ],
       "placement": "corner",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45439,8 +45466,18 @@
       ],
       "title": "Table Tennis Corner — Tour Bug",
       "fileName": "starter-tabletennis-corner-tour-bug.html",
-      "contentHash": "4e2cb31b66725ee1d64a31e32a442af5c2d1196c9225c9952d6375d7c7afb584",
-      "documentPath": "published/4e2cb31b66725ee1d64a31e32a442af5c2d1196c9225c9952d6375d7c7afb584.json"
+      "contentHash": "24dbfe62b8db1e8bd61073c9f2e1424c35b4329992d7d91550548e8ad08f93ab",
+      "documentPath": "published/24dbfe62b8db1e8bd61073c9f2e1424c35b4329992d7d91550548e8ad08f93ab.json",
+      "preview": {
+        "path": "previews/54c3a94ce060dad7c8cce504ed179460756a6c61f8e36a7de8bb339e53b916e9.png",
+        "imageHash": "54c3a94ce060dad7c8cce504ed179460756a6c61f8e36a7de8bb339e53b916e9",
+        "contentHash": "24dbfe62b8db1e8bd61073c9f2e1424c35b4329992d7d91550548e8ad08f93ab",
+        "width": 612,
+        "height": 249,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "tableTennis"
+      }
     },
     {
       "aliases": [],
@@ -45477,7 +45514,7 @@
     },
     {
       "aliases": [],
-      "description": "Courtside board for the players: two full-height court-end panels (court side A / B views, flip with ends switched or a flipped board) with jersey bar, flag, name (team line and labelled TIE score), giant points, this end's finished games (wins lit), a labelled GAMES tile, TIME-OUT / T/O USED trace, cards and serve ball; the status bar carries event/round/best-of, the GAME n tag (GAME n NEXT, FINAL), the match state and ENDS SWITCHED / VIEW FLIPPED. At the end games won replace the points and the winner's end gets a WINNER badge and gold outline. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Courtside arena split: two full-height court-end panels (resolved per end) with the player's name and flag, very large points, finished-game chips, a labelled GAMES tile, T/O trace, labelled yellow/red card chips and the serve ball; in a team tie each end carries its team band with the tie score, and the tie page without a player match shows each team and its tie score large. Bottom bar: event and round, GAME n / GAME n NEXT / FINAL tag, CHANGE ENDS / game point / match point banner and the view-flipped chip. Winner panel framed in gold, loser stepped back but readable.",
       "motif": "Two navy court ends with giant points, labelled games tiles and finished-game chips over a status bar with the game number",
       "output": "html-replications/starter-tabletennis-courtside-arena-split.html",
       "palette": [
@@ -45505,8 +45542,8 @@
       ],
       "title": "Table Tennis Courtside — Arena Split",
       "fileName": "starter-tabletennis-courtside-arena-split.html",
-      "contentHash": "df210ea1e2d451309ffa1e9b9315c87873651cccd37e7ea332f8610d2d1cb614",
-      "documentPath": "published/df210ea1e2d451309ffa1e9b9315c87873651cccd37e7ea332f8610d2d1cb614.json"
+      "contentHash": "63355f43552f191b539720fdf993dc8894b21d644e5c4746e22092e2d546871f",
+      "documentPath": "published/63355f43552f191b539720fdf993dc8894b21d644e5c4746e22092e2d546871f.json"
     },
     {
       "aliases": [],
@@ -45576,7 +45613,7 @@
     },
     {
       "aliases": [],
-      "description": "Courtside board for bright halls: two white court-end cards (court side views, flip with ends switched or a flipped board) with jersey bar, flag, name column (team line and labelled TIE score), serve ball / winner check in a fixed slot, giant points, this end's finished games (wins lit), time-out trace and cards; the centre spine shows VS / GAME n / NEXT GAME n / MATCH FINAL, both games-won tiles under a GAMES label and the match state; the event line runs along the foot with ENDS SWITCHED / VIEW FLIPPED. At the end games won replace the points. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Courtside daylight: two white player cards on a warm background, each with flag, name, serve ball and its own labelled GAMES pill, very large points, finished-game chips, T/O trace and labelled card chips; a centre spine shows VS, GAME n / NEXT GAME n / MATCH FINAL and the CHANGE ENDS / game point / match point banner. Team ties add a team band with the tie score per card; the tie page shows each team large. At the end the winner card is framed green with a check and the loser card steps back but stays readable.",
       "motif": "Light hall courtside: white end cards and a centre spine with the game number, both games tiles under a GAMES label and the state",
       "output": "html-replications/starter-tabletennis-courtside-daylight.html",
       "palette": [
@@ -45604,8 +45641,8 @@
       ],
       "title": "Table Tennis Courtside — Daylight",
       "fileName": "starter-tabletennis-courtside-daylight.html",
-      "contentHash": "a3685cc64691227ca88bc4bed6690239c1cc00001ad10037f8c1e6a992e9ad61",
-      "documentPath": "published/a3685cc64691227ca88bc4bed6690239c1cc00001ad10037f8c1e6a992e9ad61.json"
+      "contentHash": "bf80ff9fa702a8de91efbb8703162fc81cbfa5ee007d0baba4585fd59e0a2b6d",
+      "documentPath": "published/bf80ff9fa702a8de91efbb8703162fc81cbfa5ee007d0baba4585fd59e0a2b6d.json"
     },
     {
       "aliases": [],
@@ -45808,7 +45845,7 @@
     },
     {
       "aliases": [],
-      "description": "Courtside board drawn as a table top: a header bar with event/round/best-of, the GAME n tag (GAME n NEXT, FINAL), the match state and ENDS SWITCHED / VIEW FLIPPED; two green court ends (court side views, flip with ends switched or a flipped board) separated by the net, each with a white-lined GAMES box in the outer corner, flag and name (team line and labelled TIE score), giant points, this end's finished games (wins lit), time-out trace, cards and serve ball. At the end games won replace the points and the winner's end gets a WINNER badge. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Courtside table-green: the two ends drawn as halves of a table with a net, each with a boxed GAMES count, the player's name, flag and serve ball together, very large points, finished-game chips, T/O trace and labelled card chips; team ties add a team band with the tie score per end and the tie page shows each team large. Top bar: event and round, GAME n / NEXT / FINAL tag, CHANGE ENDS / game point / match point banner and view-flipped chip. At the end the winner keeps a gold frame and WINNER tag, the loser stays readable.",
       "motif": "Table-top courtside: green court ends with white edge lines and a net between them, header bar with game number and state",
       "output": "html-replications/starter-tabletennis-courtside-table-green.html",
       "palette": [
@@ -45836,8 +45873,8 @@
       ],
       "title": "Table Tennis Courtside — Table Green",
       "fileName": "starter-tabletennis-courtside-table-green.html",
-      "contentHash": "5ad855dd0b3ce5f4a2b784fabf303e2cca0754baf4c3b76c6fea21ea9d2dee41",
-      "documentPath": "published/5ad855dd0b3ce5f4a2b784fabf303e2cca0754baf4c3b76c6fea21ea9d2dee41.json"
+      "contentHash": "915376a0abd0704c3ff955473599ca616e241a3cd4c544c24e3ec5e2e88bec74",
+      "documentPath": "published/915376a0abd0704c3ff955473599ca616e241a3cd4c544c24e3ec5e2e88bec74.json"
     },
     {
       "aliases": [],
@@ -45885,6 +45922,7 @@
       ],
       "placement": "full-screen",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45939,7 +45977,7 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen result and live table: event title with round/best-of, a header showing GAME n IN PLAY / GAME n NEXT / FINAL RESULT, rows with jersey chip, flag, combined name (team line and labelled TIE score in team matches), time-out trace, cards, serve ball and winner check; G1..G9 columns appear as games start, the game in play is the lit yellow LIVE column (its numbers are the current points), finished games light the winner, games won close each row. The warm-up / between-games / game-point / match-point banner sits below. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Full-screen line score: event title (wraps on whole words) and round · best-of, an optional team tie strip, then a wide table with jersey bar, flag, combined name, T/O trace, cards, second-server chip and serve ball per row, the games in order with the game in play as a yellow LIVE column holding the biggest numbers, and a separated GAMES total that becomes the yellow result column at the end (winner row lit, loser readable). Banner slot for warm-up, between games, game and match point.",
       "motif": "Navy full-screen linescore: the game in play is a lit yellow LIVE column, finished games with winners lit, games won at the end",
       "output": "html-replications/starter-tabletennis-full-linescore.html",
       "palette": [
@@ -45949,7 +45987,7 @@
         "#ff9a3c"
       ],
       "placement": "full-screen",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45966,8 +46004,18 @@
       ],
       "title": "Table Tennis Full Screen — Linescore",
       "fileName": "starter-tabletennis-full-linescore.html",
-      "contentHash": "93bbc9e7bedcf885e95770c7c688fe6f78e2b687f750463b7d6e79d175ad79f8",
-      "documentPath": "published/93bbc9e7bedcf885e95770c7c688fe6f78e2b687f750463b7d6e79d175ad79f8.json"
+      "contentHash": "60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383",
+      "documentPath": "published/60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383.json",
+      "preview": {
+        "path": "previews/b67015f97513177b785ff48dabb078a305059657142a07ea74b67ded2406105c.png",
+        "imageHash": "b67015f97513177b785ff48dabb078a305059657142a07ea74b67ded2406105c",
+        "contentHash": "60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383",
+        "width": 1306,
+        "height": 736,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "tableTennis"
+      }
     },
     {
       "aliases": [],
@@ -46301,7 +46349,7 @@
     },
     {
       "aliases": [],
-      "description": "Bottom-centre head-to-head lower third: lime event tab, two facing teal name plates (jersey chip, flag, combined name, team line with labelled TIE score, serve ball / winner check), a white points box A : B in the middle, a sub-row with time-out traces, cards and labelled GAMES chips, the GAME n tag (GAME n+1 NEXT between games, FINAL at the end) under the points, the match-state tab on the top edge and finished games (winner lit) underneath. At the end games won take the points box. Native table tennis scoring. Stored names are blank and scores 0; preview values come from fixtures.",
+      "description": "Centred head-to-head lower third: player plates either side of a white A : B points box, state banners centred on that box, an event tab over plate A, a sub row with T/O trace, labelled cards and labelled GAMES chips plus the GAME n / FINAL tag under the score, and an attached strip under the score that shows the best-of label until the first game ends and then the finished games (winner boxed). Team ties get a separate tie strip above; the tie page without a player match shows only that strip.",
       "motif": "Bottom-centre teal head-to-head bar: white points box with a colon, labelled games chips, finished games below",
       "output": "html-replications/starter-tabletennis-lower-head-to-head.html",
       "palette": [
@@ -46311,7 +46359,7 @@
         "#ff9a3c"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46328,8 +46376,18 @@
       ],
       "title": "Table Tennis Lower Third — Head to Head",
       "fileName": "starter-tabletennis-lower-head-to-head.html",
-      "contentHash": "28c33c31931404bd827687a8273c32d36839021193dfad72cc38554299c408d0",
-      "documentPath": "published/28c33c31931404bd827687a8273c32d36839021193dfad72cc38554299c408d0.json"
+      "contentHash": "e986e469ba5275d9b6f699819c603dc0e806885d22859dba1b023e489dc50943",
+      "documentPath": "published/e986e469ba5275d9b6f699819c603dc0e806885d22859dba1b023e489dc50943.json",
+      "preview": {
+        "path": "previews/671573ae673f1a14b35c69a489a1f114ccbf9ecaec207e68260e2e20aa6544ae.png",
+        "imageHash": "671573ae673f1a14b35c69a489a1f114ccbf9ecaec207e68260e2e20aa6544ae",
+        "contentHash": "e986e469ba5275d9b6f699819c603dc0e806885d22859dba1b023e489dc50943",
+        "width": 876,
+        "height": 274,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "tableTennis"
+      }
     },
     {
       "aliases": [],
@@ -46410,6 +46468,7 @@
       ],
       "placement": "lower-third",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46772,6 +46831,7 @@
       ],
       "placement": "corner",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46795,7 +46855,7 @@
     },
     {
       "aliases": [],
-      "description": "Beach tour card: two side-by-side team columns on sand with orange points tiles and teal SETS pills; timeouts take over the team's column. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+      "description": "Beach-tour card with the two teams side by side on sand: orange points tiles, teal SETS pills, serve ball, timeout bars and a TIMEOUT badge under the name. Set ledger footer keeps every finished set (isGame{N}Current); at a break and at FINAL the tile shows sets won, the winner in gold.",
       "motif": "Beach tour card: two side-by-side team columns on sand with orange points tiles and teal SETS pills; timeouts take over the team's column.",
       "output": "html-replications/starter-volleyball-corner-beach-sun.html",
       "palette": [
@@ -46824,12 +46884,12 @@
       ],
       "title": "Volleyball Beach Sun",
       "fileName": "starter-volleyball-corner-beach-sun.html",
-      "contentHash": "43ff80eba249d5521b82124e89b1f0106dc15be6b98e3cca9da003bcfd311272",
-      "documentPath": "published/43ff80eba249d5521b82124e89b1f0106dc15be6b98e3cca9da003bcfd311272.json"
+      "contentHash": "892b8cc39d30e86ce4528ce2c8c7a5e728a1f8085db5dca0fcbd268b6d8d160c",
+      "documentPath": "published/892b8cc39d30e86ce4528ce2c8c7a5e728a1f8085db5dca0fcbd268b6d8d160c.json"
     },
     {
       "aliases": [],
-      "description": "White stacked rows under a black net-tape header with labelled SETS/PTS columns; red set tag doubles as the set/match point banner. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+      "description": "White stacked rows under a black net-tape band. Binds team names, kit colour bars, sets won (labelled) beside the black points column, serve ball, two timeout bars under each name, SET n LIVE tag (isGame{N}Current), deciding set, set/match point, END OF SET and FINAL. Finished sets enter the footer ledger as soon as they end; at a break and at FINAL the points column shows sets won and the winner is ticked.",
       "motif": "White stacked rows under a black net-tape header with labelled SETS/PTS columns; red set tag doubles as the set/match point banner.",
       "output": "html-replications/starter-volleyball-corner-net-tape.html",
       "palette": [
@@ -46839,7 +46899,7 @@
         "#f1f1f4"
       ],
       "placement": "corner",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46858,8 +46918,18 @@
       ],
       "title": "Volleyball Net Tape",
       "fileName": "starter-volleyball-corner-net-tape.html",
-      "contentHash": "9faf648fc0cfff77f2889eb126160b745b7928bd432b0b18f0d707cdd96a2484",
-      "documentPath": "published/9faf648fc0cfff77f2889eb126160b745b7928bd432b0b18f0d707cdd96a2484.json"
+      "contentHash": "212b4b72bbb29330d8535dede6469e0c4095aaef6de65b190fe3a7b34f6e6abb",
+      "documentPath": "published/212b4b72bbb29330d8535dede6469e0c4095aaef6de65b190fe3a7b34f6e6abb.json",
+      "preview": {
+        "path": "previews/c713cc04056637f1261a1c03908d4451f77f1ed53ab18858fcb7149b0e413715.png",
+        "imageHash": "c713cc04056637f1261a1c03908d4451f77f1ed53ab18858fcb7149b0e413715",
+        "contentHash": "212b4b72bbb29330d8535dede6469e0c4095aaef6de65b190fe3a7b34f6e6abb",
+        "width": 546,
+        "height": 242,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
     },
     {
       "aliases": [],
@@ -46874,6 +46944,7 @@
       ],
       "placement": "corner",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46908,6 +46979,7 @@
       ],
       "placement": "full-screen",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46931,7 +47003,7 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen set-by-set table under a big state title; finished-set winners boxed, the match winner's row outlined at FINAL. Bound to sets won, the set-by-set ledger with each finished set's winner boxed, the set in play as its own column, current set, deciding set, set break, FINAL, set/match point, running timeouts and the match winner (isAWinner/isBWinner). Stored names are blank and scores 0.",
+      "description": "Full-screen set-by-set table under a big state title: equal boxed set columns (winner filled), current set column while a set is live, gold SETS column, serve, timeout and WINNER tags beside the team name.",
       "motif": "Full-screen set-by-set table under a big state title; finished-set winners boxed, the match winner's row outlined at FINAL.",
       "output": "html-replications/starter-volleyball-full-set-break.html",
       "palette": [
@@ -46960,8 +47032,8 @@
       ],
       "title": "Volleyball Set Break",
       "fileName": "starter-volleyball-full-set-break.html",
-      "contentHash": "848bd2525d7488945ff87e7035e88a381a48a773ac6b246ebfe6a69abd183dfd",
-      "documentPath": "published/848bd2525d7488945ff87e7035e88a381a48a773ac6b246ebfe6a69abd183dfd.json"
+      "contentHash": "3fc30497c2416cca44a6a4ff5fc15d2e69b77344351ee0654f9f72778b07ccc8",
+      "documentPath": "published/3fc30497c2416cca44a6a4ff5fc15d2e69b77344351ee0654f9f72778b07ccc8.json"
     },
     {
       "aliases": [],
@@ -46976,6 +47048,7 @@
       ],
       "placement": "lower-third",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46999,7 +47072,7 @@
     },
     {
       "aliases": [],
-      "description": "Lower-third line score: finished sets in columns with the winner's score boxed, labelled SETS, and the set in play as the big SET n column. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+      "description": "Lower-third line score: finished sets in boxed columns (winner filled), sets won, and the set in play as the big SET n column; at a break and at FINAL every set sits in the ledger and the big column shows sets won. Serve, timeout bars, timeout tab, set/match point.",
       "motif": "Lower-third line score: finished sets in columns with the winner's score boxed, labelled SETS, and the set in play as the big SET n column.",
       "output": "html-replications/starter-volleyball-lower-box-score.html",
       "palette": [
@@ -47009,7 +47082,7 @@
         "#ffffff"
       ],
       "placement": "lower-third",
-      "published": false,
+      "published": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -47028,12 +47101,22 @@
       ],
       "title": "Volleyball Box Score",
       "fileName": "starter-volleyball-lower-box-score.html",
-      "contentHash": "1dffaf0342ab3981f82af471de0493224936f5754fd2e1ae03c20a739523412a",
-      "documentPath": "published/1dffaf0342ab3981f82af471de0493224936f5754fd2e1ae03c20a739523412a.json"
+      "contentHash": "3370bf9d0fe444bd554502b4eb3010953adb0d695a4be9c0556d9da6bcae886e",
+      "documentPath": "published/3370bf9d0fe444bd554502b4eb3010953adb0d695a4be9c0556d9da6bcae886e.json",
+      "preview": {
+        "path": "previews/a0fa6c941361a2003a62d4d492bbf24192b7ecb98381f06e0bbb99421f1a82a4.png",
+        "imageHash": "a0fa6c941361a2003a62d4d492bbf24192b7ecb98381f06e0bbb99421f1a82a4",
+        "contentHash": "3370bf9d0fe444bd554502b4eb3010953adb0d695a4be9c0556d9da6bcae886e",
+        "width": 752,
+        "height": 242,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "volleyball"
+      }
     },
     {
       "aliases": [],
-      "description": "Centred split bar with an attached event tab above and set-history tab below; the orange centre tile carries the state. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+      "description": "Centred split bar: event tab above, set-history tab below, orange centre tile carrying SET n LIVE, deciding set, set/match point, END OF SET and FINAL. Sets won beside the points; at a break and at FINAL the points boxes show sets won.",
       "motif": "Centred split bar with an attached event tab above and set-history tab below; the orange centre tile carries the state.",
       "output": "html-replications/starter-volleyball-lower-center-court.html",
       "palette": [
@@ -47062,8 +47145,8 @@
       ],
       "title": "Volleyball Center Court",
       "fileName": "starter-volleyball-lower-center-court.html",
-      "contentHash": "7f61a758afc549f0061e32d1e9063b981eb586e0ec7f530c5060418ecf4577cb",
-      "documentPath": "published/7f61a758afc549f0061e32d1e9063b981eb586e0ec7f530c5060418ecf4577cb.json"
+      "contentHash": "7dc0b4397118075c8d91c39d153a62969c0543af58d05fb13ae2b0850217213c",
+      "documentPath": "published/7dc0b4397118075c8d91c39d153a62969c0543af58d05fb13ae2b0850217213c.json"
     },
     {
       "aliases": [],
@@ -47078,6 +47161,7 @@
       ],
       "placement": "lower-third",
       "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
