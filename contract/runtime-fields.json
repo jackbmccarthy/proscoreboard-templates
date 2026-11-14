@@ -74,13 +74,13 @@
       "valueType": "color"
     },
     {
-      "description": "Whether side A is currently serving; nobody serves before the match starts (pre-match, warm-up), between games or sets, or once the match is complete.",
+      "description": "Whether side A is currently serving; nobody serves before the match starts (pre-match, warm-up), between games or sets, or once the match is complete (a running timeout keeps the server).",
       "field": "isACurrentlyServing",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Whether side B is currently serving; nobody serves before the match starts (pre-match, warm-up), between games or sets, or once the match is complete.",
+      "description": "Whether side B is currently serving; nobody serves before the match starts (pre-match, warm-up), between games or sets, or once the match is complete (a running timeout keeps the server).",
       "field": "isBCurrentlyServing",
       "group": "state",
       "valueType": "boolean"
@@ -122,13 +122,13 @@
       "valueType": "boolean"
     },
     {
-      "description": "Whether side A has used its timeout.",
+      "description": "Whether side A has used its timeout (volleyball, basketball: in the current set, half or period); off once the match is complete and, for volleyball and basketball, at a break before the allowance resets.",
       "field": "isATimeOutUsed",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Whether side B has used its timeout.",
+      "description": "Whether side B has used its timeout (volleyball, basketball: in the current set, half or period); off once the match is complete and, for volleyball and basketball, at a break before the allowance resets.",
       "field": "isBTimeOutUsed",
       "group": "state",
       "valueType": "boolean"
@@ -728,7 +728,7 @@
       "valueType": "boolean"
     },
     {
-      "description": "The game clock is running; never at a break or once the match is complete.",
+      "description": "The game clock is running; never at a break, during a timeout or once the match is complete.",
       "field": "isGameClockRunning",
       "group": "state",
       "valueType": "boolean"
@@ -794,13 +794,13 @@
       "valueType": "boolean"
     },
     {
-      "description": "Baseball/softball: side A is batting; off before the first pitch, between halves and once the game is complete.",
+      "description": "Baseball/softball: side A is batting; off before the first pitch, between halves and once the game is complete (kept during a timeout).",
       "field": "isABatting",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Baseball/softball: side B is batting; off before the first pitch, between halves and once the game is complete.",
+      "description": "Baseball/softball: side B is batting; off before the first pitch, between halves and once the game is complete (kept during a timeout).",
       "field": "isBBatting",
       "group": "state",
       "valueType": "boolean"
@@ -830,79 +830,79 @@
       "valueType": "boolean"
     },
     {
-      "description": "Basketball: the shot clock is in use; off at a period break and once the game is complete.",
+      "description": "Basketball: the shot clock is in use; off at a period break and once the game is complete. Kept during a timeout (shown stopped).",
       "field": "isShotClockActive",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Basketball: the shot clock is running; off at a period break and once the game is complete.",
+      "description": "Basketball: the shot clock is running; off at a period break, during a timeout and once the game is complete.",
       "field": "isShotClockRunning",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "A Timeout Left 1 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side A has at least 1 timeout left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isATimeoutLeft1",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "A Timeout Left 2 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side A has at least 2 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isATimeoutLeft2",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "A Timeout Left 3 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side A has at least 3 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isATimeoutLeft3",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "A Timeout Left 4 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side A has at least 4 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isATimeoutLeft4",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "A Timeout Left 5 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side A has at least 5 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isATimeoutLeft5",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Timeout Left 1 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side B has at least 1 timeout left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isBTimeoutLeft1",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Timeout Left 2 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side B has at least 2 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isBTimeoutLeft2",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Timeout Left 3 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side B has at least 3 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isBTimeoutLeft3",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Timeout Left 4 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side B has at least 4 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isBTimeoutLeft4",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Timeout Left 5 for explicitly versioned multi-sport matches.",
+      "description": "Volleyball, basketball: side B has at least 5 timeouts left (one pip each). Off once the match is complete and at a break before the allowance resets (volleyball every set; basketball FIBA half time and before overtime, every period under the period policy); kept during a timeout and between quarters of a FIBA half. Follows switched ends.",
       "field": "isBTimeoutLeft5",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Added Time Shown for explicitly versioned multi-sport matches.",
+      "description": "Soccer: the \"+N\" added-time badge of the half in play; off at half time, before and between extra-time halves, while a shootout waits and once the match is complete. addedTime text is blank then too.",
       "field": "addedTimeVisible",
       "group": "state",
       "valueType": "boolean"
@@ -1300,6 +1300,66 @@
     {
       "description": "Baseball/softball line score: inning 12 is in play (also between its halves); off before the first pitch and once the game is complete.",
       "field": "isInning12Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Soccer: added time of the half in play as \"+N\"; blank when none is set, at every break and once the match is complete (addedTimeMinutes keeps the number).",
+      "field": "addedTime",
+      "group": "state",
+      "valueType": "text"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 1 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game1 column when isGame1Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame1Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 2 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game2 column when isGame2Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame2Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 3 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game3 column when isGame3Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame3Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 4 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game4 column when isGame4Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame4Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 5 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game5 column when isGame5Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame5Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 6 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game6 column when isGame6Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame6Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 7 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game7 column when isGame7Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame7Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 8 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game8 column when isGame8Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame8Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 9 is in play (started, not finished; also during a timeout). Off between games or sets and once the match is complete or abandoned, when the game just played and the deciding game are history. A ledger shows a game9 column when isGame9Started is on and this is off; the big points (currentAGameScore) carry the game in play.",
+      "field": "isGame9Current",
       "group": "state",
       "valueType": "boolean"
     }
