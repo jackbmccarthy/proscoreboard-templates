@@ -45155,7 +45155,7 @@
   {
     "output": "html-replications/starter-volleyball-corner-rally-bar.html",
     "title": "Volleyball Rally Bar",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#08142e",
@@ -45181,7 +45181,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-volleyball-corner-net-tape.html",
@@ -45204,7 +45205,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "White stacked rows under a black net-tape header with labelled SETS/PTS columns; red set tag doubles as the set/match point banner. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+    "description": "White stacked rows under a black net-tape band. Binds team names, kit colour bars, sets won (labelled) beside the black points column, serve ball, two timeout bars under each name, SET n LIVE tag (isGame{N}Current), deciding set, set/match point, END OF SET and FINAL. Finished sets enter the footer ledger as soon as they end; at a break and at FINAL the points column shows sets won and the winner is ticked.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45235,7 +45236,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Beach tour card: two side-by-side team columns on sand with orange points tiles and teal SETS pills; timeouts take over the team's column. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+    "description": "Beach-tour card with the two teams side by side on sand: orange points tiles, teal SETS pills, serve ball, timeout bars and a TIMEOUT badge under the name. Set ledger footer keeps every finished set (isGame{N}Current); at a break and at FINAL the tile shows sets won, the winner in gold.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45248,7 +45249,7 @@
   {
     "output": "html-replications/starter-volleyball-corner-attack-line.html",
     "title": "Volleyball Attack Line",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#1b1d22",
@@ -45274,7 +45275,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-volleyball-lower-center-court.html",
@@ -45297,7 +45299,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Centred split bar with an attached event tab above and set-history tab below; the orange centre tile carries the state. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+    "description": "Centred split bar: event tab above, set-history tab below, orange centre tile carrying SET n LIVE, deciding set, set/match point, END OF SET and FINAL. Sets won beside the points; at a break and at FINAL the points boxes show sets won.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45328,7 +45330,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Lower-third line score: finished sets in columns with the winner's score boxed, labelled SETS, and the set in play as the big SET n column. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
+    "description": "Lower-third line score: finished sets in boxed columns (winner filled), sets won, and the set in play as the big SET n column; at a break and at FINAL every set sits in the ledger and the big column shows sets won. Serve, timeout bars, timeout tab, set/match point.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45341,7 +45343,7 @@
   {
     "output": "html-replications/starter-volleyball-lower-antenna.html",
     "title": "Volleyball Antenna Frame",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#ffffff",
@@ -45367,12 +45369,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-volleyball-lower-spike-slash.html",
     "title": "Volleyball Spike Slash",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#24093f",
@@ -45398,7 +45401,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-volleyball-full-set-break.html",
@@ -45421,7 +45425,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Full-screen set-by-set table under a big state title; finished-set winners boxed, the match winner's row outlined at FINAL. Bound to sets won, the set-by-set ledger with each finished set's winner boxed, the set in play as its own column, current set, deciding set, set break, FINAL, set/match point, running timeouts and the match winner (isAWinner/isBWinner). Stored names are blank and scores 0.",
+    "description": "Full-screen set-by-set table under a big state title: equal boxed set columns (winner filled), current set column while a set is live, gold SETS column, serve, timeout and WINNER tags beside the team name.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45434,7 +45438,7 @@
   {
     "output": "html-replications/starter-volleyball-full-match-summary.html",
     "title": "Volleyball Match Summary",
-    "published": true,
+    "published": false,
     "placement": "full-screen",
     "palette": [
       "#f4f5f8",
@@ -45460,12 +45464,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-corner-score-call.html",
     "title": "Pickleball Score Call",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#071629",
@@ -45492,12 +45497,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-corner-paddle.html",
     "title": "Pickleball Paddle",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#16181c",
@@ -45524,7 +45530,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-corner-kitchen.html",
@@ -45548,7 +45555,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "White stacked rows under a kitchen-green header with labelled GAMES/PTS columns; score call and finished games in the foot. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
+    "description": "White stacked rows under a kitchen-green band, team tie strip on top in team events. Labelled games beside the points, serve ball with doubles server number, labelled TO bars and cards under each name, GAME n LIVE tag, score call and finished games in the footer; at a break and at FINAL the points column shows games won.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45561,7 +45568,7 @@
   {
     "output": "html-replications/starter-pickleball-corner-side-out.html",
     "title": "Pickleball Side Out",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#1d1f26",
@@ -45588,12 +45595,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-lower-court-diagram.html",
     "title": "Pickleball Court Diagram",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#1b5e45",
@@ -45620,7 +45628,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-lower-game-ledger.html",
@@ -45644,7 +45653,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Lower-third line score: finished games in columns with the winner boxed, GAMES, and the game in play as the big GAME n column; call chip in the header. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
+    "description": "Lower-third line score: finished games boxed in columns, games won, the game in play as the big GAME n column, score-call chip in the header, TO bars and cards under each name, team tie strip on top in team events.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45657,7 +45666,7 @@
   {
     "output": "html-replications/starter-pickleball-lower-tour-band.html",
     "title": "Pickleball Tour Band",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#3a1773",
@@ -45684,12 +45693,13 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-lower-dink-strip.html",
     "title": "Pickleball Dink Strip",
-    "published": true,
+    "published": false,
     "placement": "lower-third",
     "palette": [
       "#fffdf3",
@@ -45716,7 +45726,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-pickleball-full-between-games.html",
@@ -45740,7 +45751,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Full-screen game-by-game table under a big state title, serving team and server number on the row, team tie on top. Bound to games won, the game-by-game ledger (games 1-9) with each finished game's winner boxed, the game in play as its own column (NEXT game during a break), game state, game/match point, serving team and server number, the match winner (isAWinner/isBWinner) and the team-match tie. Stored names are blank and scores 0.",
+    "description": "Full-screen game-by-game table under a big state title, team tie on top: equal boxed game columns, current game column while live, games won, serve with server number, TO bars, cards, timeout and WINNER tags beside each name.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45753,7 +45764,7 @@
   {
     "output": "html-replications/starter-pickleball-full-match-summary.html",
     "title": "Pickleball Match Summary",
-    "published": true,
+    "published": false,
     "placement": "full-screen",
     "palette": [
       "#f6f3fb",
@@ -45780,7 +45791,8 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "retired": true
   },
   {
     "output": "html-replications/starter-tabletennis-live-atlantic.html",
