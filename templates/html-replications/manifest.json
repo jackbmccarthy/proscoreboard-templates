@@ -45162,12 +45162,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#0b1d3a",
-      "#ffd23f",
-      "#1d4fbf",
+      "#08142e",
+      "#122a5c",
+      "#f2b705",
       "#ffffff"
     ],
-    "motif": "International tour scorebug: deep navy rows, gold sets box, white points boxes, gold state tab and set-history strip.",
+    "motif": "Score-first navy rows: white points tiles lead each row, a labelled gold SETS column closes it, set history underneath.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45177,7 +45177,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "International tour scorebug: deep navy rows, gold sets box, white points boxes, gold state tab and set-history strip. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "Score-first navy rows: white points tiles lead each row, a labelled gold SETS column closes it, set history underneath. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45193,12 +45193,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
+      "#0d0d0f",
+      "#e3262f",
       "#ffffff",
-      "#111111",
-      "#e2231a",
-      "#f2f2f2"
+      "#f1f1f4"
     ],
-    "motif": "White scorebug under a black net-tape band with a red state flag, black points boxes and grey set-history footer.",
+    "motif": "White stacked rows under a black net-tape header with labelled SETS/PTS columns; red set tag doubles as the set/match point banner.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45208,7 +45208,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "White scorebug under a black net-tape band with a red state flag, black points boxes and grey set-history footer. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "White stacked rows under a black net-tape header with labelled SETS/PTS columns; red set tag doubles as the set/match point banner. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45224,12 +45224,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#0f6e7a",
-      "#f2d7a1",
-      "#ff7a3d",
-      "#fffaf0"
+      "#fdf3df",
+      "#0f5e6b",
+      "#ff8a3d",
+      "#ffd65a"
     ],
-    "motif": "Beach-tour scorebug: rounded teal rows, sunset-orange points tiles, pill state tab and set-history pills.",
+    "motif": "Beach tour card: two side-by-side team columns on sand with orange points tiles and teal SETS pills; timeouts take over the team's column.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45239,7 +45239,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Beach-tour scorebug: rounded teal rows, sunset-orange points tiles, pill state tab and set-history pills. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "Beach tour card: two side-by-side team columns on sand with orange points tiles and teal SETS pills; timeouts take over the team's column. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45255,12 +45255,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#151821",
-      "#f5f5f0",
-      "#ff4f00",
-      "#2f3646"
+      "#1b1d22",
+      "#ffcc00",
+      "#30343c",
+      "#ffffff"
     ],
-    "motif": "Horizontal college-style bug: team, sets, points either side of a yellow set block, with event and set history underneath.",
+    "motif": "Horizontal split bar: charcoal team halves around a yellow centre set tile that carries SET n, deciding set, end of set, FINAL and SET/MATCH POINT.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45270,7 +45270,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Horizontal college-style bug: team, sets, points either side of a yellow set block, with event and set history underneath. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "Horizontal split bar: charcoal team halves around a yellow centre set tile that carries SET n, deciding set, end of set, FINAL and SET/MATCH POINT. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45286,12 +45286,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#1a3d8f",
-      "#e8742c",
-      "#ffffff",
-      "#0e2152"
+      "#0c2350",
+      "#081a3d",
+      "#ff9f1c",
+      "#ffffff"
     ],
-    "motif": "Centred broadcast band: names, sets and points either side of an orange set block, event tab above and set history below.",
+    "motif": "Centred split bar with an attached event tab above and set-history tab below; the orange centre tile carries the state.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45301,7 +45301,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Centred broadcast band: names, sets and points either side of an orange set block, event tab above and set history below. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "Centred split bar with an attached event tab above and set-history tab below; the orange centre tile carries the state. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45317,12 +45317,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#ffffff",
-      "#20232a",
-      "#c8102e",
-      "#eef0f4"
+      "#07110f",
+      "#13241f",
+      "#22c06b",
+      "#ffffff"
     ],
-    "motif": "Dark linescore: set columns appear as sets start, green state tab, SETS and PTS columns.",
+    "motif": "Lower-third line score: finished sets in columns with the winner's score boxed, labelled SETS, and the set in play as the big SET n column.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45332,7 +45332,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Dark linescore: set columns appear as sets start, green state tab, SETS and PTS columns. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "Lower-third line score: finished sets in columns with the winner's score boxed, labelled SETS, and the set in play as the big SET n column. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45348,12 +45348,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#062a2f",
-      "#e2231a",
       "#ffffff",
-      "#5fd3c4"
+      "#12151c",
+      "#d8262e",
+      "#ffcf33"
     ],
-    "motif": "Light linescore framed by a red/white antenna edge, set columns, SETS and black PTS column.",
+    "motif": "White team rows joined by a red-and-white antenna stripe to a dark headline panel with the state, set history and event.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45363,7 +45363,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Light linescore framed by a red/white antenna edge, set columns, SETS and black PTS column. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "White team rows joined by a red-and-white antenna stripe to a dark headline panel with the state, set history and event. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45379,12 +45379,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#0d0d12",
-      "#ff2e88",
-      "#ffffff",
-      "#3b3b4f"
+      "#24093f",
+      "#ff2d8a",
+      "#ffcc3d",
+      "#ffffff"
     ],
-    "motif": "Angled magenta/indigo centre band with italic names, set block, slanted event tab and set-history chips.",
+    "motif": "Full-width broadcast band with angled cuts: magenta event block, both teams on one line around the state tile, set history tab below.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45394,7 +45394,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Angled magenta/indigo centre band with italic names, set block, slanted event tab and set-history chips. Bound to current-set points, sets won, serving team, timeouts left as lit pips with a running timeout countdown, current set, deciding set, set break, FINAL (isComplete), set/match point and set history revealed per started set. Stored names are blank and scores 0.",
+    "description": "Full-width broadcast band with angled cuts: magenta event block, both teams on one line around the state tile, set history tab below. Bound to current-set points, labelled sets won, serving team (off outside rallies), timeouts left as pips with a running timeout countdown, current set, deciding set, set break, FINAL, set/match point, finished-set history with each set's winner boxed (isGame{N}AWon/BWon) and the match winner marked with the loser dimmed at FINAL (isAWinner/isBWinner). The set in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45410,12 +45410,12 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#08142e",
-      "#ffd23f",
-      "#1d4fbf",
+      "#0b2353",
+      "#071735",
+      "#ffc629",
       "#ffffff"
     ],
-    "motif": "Arena full screen: event, state headline with the live set score, and a set-by-set table with sets won.",
+    "motif": "Full-screen set-by-set table under a big state title; finished-set winners boxed, the match winner's row outlined at FINAL.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45425,7 +45425,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Arena full screen: event, state headline with the live set score, and a set-by-set table with sets won. Bound to sets won, set-by-set scores (columns revealed per started set), the live set score, current set, deciding set, set break, set/match point and FINAL (isComplete). Stored names are blank and scores 0.",
+    "description": "Full-screen set-by-set table under a big state title; finished-set winners boxed, the match winner's row outlined at FINAL. Bound to sets won, the set-by-set ledger with each finished set's winner boxed, the set in play as its own column, current set, deciding set, set break, FINAL, set/match point, running timeouts and the match winner (isAWinner/isBWinner). Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45441,12 +45441,12 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#f6f3ec",
-      "#1b1f2a",
-      "#c8102e",
-      "#1f5fbf"
+      "#f4f5f8",
+      "#141a24",
+      "#ff6a3d",
+      "#ffffff"
     ],
-    "motif": "Light result card: games won large, game-by-game chips and the team tie for team events.",
+    "motif": "Full-screen result card: two hero team panels with big sets won and a WINNER tag, set-by-set ledger below.",
     "tags": [
       "volleyball",
       "sport-native",
@@ -45456,7 +45456,7 @@
       "serve-indicator",
       "timeout-pips"
     ],
-    "description": "Light result card: games won large, game-by-game chips and the team tie for team events. Bound to sets won, set-by-set scores (columns revealed per started set), the live set score, current set, deciding set, set break, set/match point and FINAL (isComplete). Stored names are blank and scores 0.",
+    "description": "Full-screen result card: two hero team panels with big sets won and a WINNER tag, set-by-set ledger below. Bound to sets won, the set-by-set ledger with each finished set's winner boxed, the set in play as its own column, current set, deciding set, set break, FINAL, set/match point, running timeouts and the match winner (isAWinner/isBWinner). Stored names are blank and scores 0.",
     "sport": "volleyball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45472,12 +45472,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#10243e",
-      "#2fa36b",
-      "#d4f02b",
+      "#071629",
+      "#0f2747",
+      "#3ee0c5",
       "#ffffff"
     ],
-    "motif": "Navy tour bug with a lime state tab, white points boxes and a green score-call band with the game ledger.",
+    "motif": "Navy rows under an aqua SCORE CALL hero band; labelled GAMES/PTS columns and a finished-games foot.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45488,7 +45488,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Navy tour bug with a lime state tab, white points boxes and a green score-call band with the game ledger. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Navy rows under an aqua SCORE CALL hero band; labelled GAMES/PTS columns and a finished-games foot. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45504,12 +45504,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#1c1f24",
-      "#c6f432",
-      "#f4f4ef",
-      "#3a3f48"
+      "#16181c",
+      "#c8f031",
+      "#2a2e35",
+      "#ffffff"
     ],
-    "motif": "Black and lime tour bug: rounded rows, lime points, floating state tab, call and game chips.",
+    "motif": "Horizontal split bar: the lime centre tile carries the game state over a hero score call (server-receiver-server number).",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45520,7 +45520,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Black and lime tour bug: rounded rows, lime points, floating state tab, call and game chips. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Horizontal split bar: the lime centre tile carries the game state over a hero score call (server-receiver-server number). Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45536,12 +45536,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#2f6fb8",
-      "#2fa36b",
       "#ffffff",
-      "#ffcf3a"
+      "#0f3d2a",
+      "#1f8a57",
+      "#f5d547"
     ],
-    "motif": "White bug split by a green kitchen line, deep green points, yellow state tab and call/ledger footer.",
+    "motif": "White stacked rows under a kitchen-green header with labelled GAMES/PTS columns; score call and finished games in the foot.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45552,7 +45552,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "White bug split by a green kitchen line, deep green points, yellow state tab and call/ledger footer. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "White stacked rows under a kitchen-green header with labelled GAMES/PTS columns; score call and finished games in the foot. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45568,12 +45568,12 @@
     "published": true,
     "placement": "corner",
     "palette": [
-      "#2b1446",
-      "#ff8a3d",
-      "#ffffff",
-      "#5b3a86"
+      "#1d1f26",
+      "#fbf7f4",
+      "#ff7a59",
+      "#ffc93c"
     ],
-    "motif": "Coral linescore corner: game columns appear as games start, GMS and PTS columns, score call footer.",
+    "motif": "Points-first rows in coral tiles, labelled GAMES column, a coral CALL block and finished games in the dark foot.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45584,7 +45584,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Coral linescore corner: game columns appear as games start, GMS and PTS columns, score call footer. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Points-first rows in coral tiles, labelled GAMES column, a coral CALL block and finished games in the dark foot. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45600,12 +45600,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#123a5c",
-      "#2fa36b",
-      "#d4f02b",
-      "#ffffff"
+      "#1b5e45",
+      "#123528",
+      "#2f7bc0",
+      "#c6f432"
     ],
-    "motif": "Centred band with a mini court between the teams carrying the state and the score call.",
+    "motif": "Centred split bar whose centre tile is drawn as a court, with the score call on the kitchen line; event and history tabs attached.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45616,7 +45616,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Centred band with a mini court between the teams carrying the state and the score call. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Centred split bar whose centre tile is drawn as a court, with the score call on the kitchen line; event and history tabs attached. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45632,12 +45632,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#ffffff",
-      "#16302b",
-      "#2fa36b",
-      "#d4f02b"
+      "#06182c",
+      "#0f2b4b",
+      "#38bdf8",
+      "#ffffff"
     ],
-    "motif": "Dark teal linescore with game columns, GAMES and PTS, score call in the header.",
+    "motif": "Lower-third line score: finished games in columns with the winner boxed, GAMES, and the game in play as the big GAME n column; call chip in the header.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45648,7 +45648,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Dark teal linescore with game columns, GAMES and PTS, score call in the header. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Lower-third line score: finished games in columns with the winner boxed, GAMES, and the game in play as the big GAME n column; call chip in the header. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45664,12 +45664,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#062f3a",
-      "#ffd400",
-      "#00b3a4",
+      "#3a1773",
+      "#24094d",
+      "#ffb81c",
       "#ffffff"
     ],
-    "motif": "Purple two-row band under a gold event header, score call and game chips in the footer.",
+    "motif": "Purple team rows with a gold-edged headline panel: game state, score call, finished games and event.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45680,7 +45680,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Purple two-row band under a gold event header, score call and game chips in the footer. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Purple team rows with a gold-edged headline panel: game state, score call, finished games and event. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45696,12 +45696,12 @@
     "published": true,
     "placement": "lower-third",
     "palette": [
-      "#f7f5ef",
-      "#1d1d1b",
-      "#e94f37",
-      "#9bc53d"
+      "#fffdf3",
+      "#1b1b1f",
+      "#f4e04d",
+      "#ffffff"
     ],
-    "motif": "Light centred strip with names hugging their scores and the score call in a lime centre block.",
+    "motif": "Full-width cream band: dark event block, both teams on one line around a yellow call tile, finished games tab below.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45712,7 +45712,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Light centred strip with names hugging their scores and the score call in a lime centre block. Bound to points, games won, serving side with the doubles server number, a score call that reorders for the server, cards, timeout used/active countdown, warm-up, current game, game break, game/match point, game ledger and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Full-width cream band: dark event block, both teams on one line around a yellow call tile, finished games tab below. Bound to points, labelled games won, serving team with the doubles server number, the score call (server-receiver-server number), game state (warm-up, GAME n with live dot, end of game, FINAL), game/match point, timeouts as marks plus a countdown, yellow/red cards, finished games with each winner boxed (isGame{N}AWon/BWon), the match winner with the loser dimmed (isAWinner/isBWinner) and the team-match tie when present. The game in play is shown once, in the big points. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45728,12 +45728,12 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#0f2a1f",
-      "#d4f02b",
-      "#2fa36b",
+      "#0f3a2c",
+      "#0a281e",
+      "#d4f53c",
       "#ffffff"
     ],
-    "motif": "Court-green full screen: event, state headline and a game-by-game table with games won.",
+    "motif": "Full-screen game-by-game table under a big state title, serving team and server number on the row, team tie on top.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45744,7 +45744,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Court-green full screen: event, state headline and a game-by-game table with games won. Bound to games won, game-by-game scores (up to 9, revealed per started game), match format, current game, game break, game/match point and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Full-screen game-by-game table under a big state title, serving team and server number on the row, team tie on top. Bound to games won, the game-by-game ledger (games 1-9) with each finished game's winner boxed, the game in play as its own column (NEXT game during a break), game state, game/match point, serving team and server number, the match winner (isAWinner/isBWinner) and the team-match tie. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {
@@ -45760,12 +45760,12 @@
     "published": true,
     "placement": "full-screen",
     "palette": [
-      "#fbfaf6",
-      "#1d1d1b",
-      "#2fa36b",
-      "#e94f37"
+      "#f6f3fb",
+      "#20163a",
+      "#7c3aed",
+      "#ffffff"
     ],
-    "motif": "Light result card: games won large, game-by-game chips and the team tie for team events.",
+    "motif": "Full-screen result card: two hero player panels with big games won and a WINNER tag, game-by-game ledger below, team tie on top.",
     "tags": [
       "pickleball",
       "sport-native",
@@ -45776,7 +45776,7 @@
       "game-history",
       "penalty-cards"
     ],
-    "description": "Light result card: games won large, game-by-game chips and the team tie for team events. Bound to games won, game-by-game scores (up to 9, revealed per started game), match format, current game, game break, game/match point and the team tie (team events only). FINAL has no racket runtime flag yet. Stored names are blank and scores 0.",
+    "description": "Full-screen result card: two hero player panels with big games won and a WINNER tag, game-by-game ledger below, team tie on top. Bound to games won, the game-by-game ledger (games 1-9) with each finished game's winner boxed, the game in play as its own column (NEXT game during a break), game state, game/match point, serving team and server number, the match winner (isAWinner/isBWinner) and the team-match tie. Stored names are blank and scores 0.",
     "sport": "pickleball",
     "scoringMode": "native",
     "runtimeSupport": {

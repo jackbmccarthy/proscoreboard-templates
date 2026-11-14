@@ -18,8 +18,11 @@ const placements = list => list.reduce((acc, e) => (acc[e.placement] = (acc[e.pl
 
 for (const sport of ['volleyball', 'pickleball']) {
   test(`${sport} starters cover corner, lower-third and full-screen placements`, () => {
-    const list = starters(sport);
-    assert.deepEqual(placements(list), { corner: 4, 'lower-third': 4, 'full-screen': 2 });
+    // Quality over count (Jack, 2026-11-13): weak designs are retired, not padded to a fixed number. Active designs must still
+    // cover each placement, within the 10-per-placement cap (tools/curation.test.mjs).
+    const list = starters(sport).filter(e => e.retired !== true && e.published !== false);
+    const counts = placements(list);
+    for (const placement of ['corner', 'lower-third', 'full-screen']) assert.ok(counts[placement] >= 1 && counts[placement] <= 10, `${sport} ${placement}: ${counts[placement] ?? 0}`);
     for (const entry of list) {
       assert.equal(entry.published, true, entry.output);
       assert.equal(entry.scoringMode, 'native', entry.output);
