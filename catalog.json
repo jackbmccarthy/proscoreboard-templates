@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "61dfde104819a9269178fe393f3b6d1d3c3cb236278eb687e96024e72ba05ff4",
+  "revision": "7209296cd63eeacd8bb56cd1d2596752a11d2447bdbc6d8fcb54d2cf35344e65",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -25088,7 +25088,8 @@
         "#2a2e36"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25108,17 +25109,7 @@
       "title": "Split Court — Basketball full-screen",
       "fileName": "native-basketball-split-court.html",
       "contentHash": "0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07",
-      "documentPath": "published/0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07.json",
-      "preview": {
-        "path": "previews/06c394213522ca6b5cb796b441600e726aeafc75768c7fc1e2032ea581bb1037.png",
-        "imageHash": "06c394213522ca6b5cb796b441600e726aeafc75768c7fc1e2032ea581bb1037",
-        "contentHash": "0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07",
-        "width": 1346,
-        "height": 774,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "basketball"
-      }
+      "documentPath": "published/0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07.json"
     },
     {
       "aliases": [],
@@ -25527,7 +25518,8 @@
         "#ffd21f"
       ],
       "placement": "corner",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "multi-sport",
         "sportCounters": "live-bound",
@@ -25547,17 +25539,7 @@
       "title": "Touchline Bug — Soccer corner scorebug",
       "fileName": "native-soccer-touchline-bug.html",
       "contentHash": "59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707",
-      "documentPath": "published/59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707.json",
-      "preview": {
-        "path": "previews/9f8332f7869084a45bc9b5dc6e03f7909d2f7e3ecb96783b7f898312a8bfc810.png",
-        "imageHash": "9f8332f7869084a45bc9b5dc6e03f7909d2f7e3ecb96783b7f898312a8bfc810",
-        "contentHash": "59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707",
-        "width": 892,
-        "height": 151,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "soccer"
-      }
+      "documentPath": "published/59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707.json"
     },
     {
       "aliases": [],

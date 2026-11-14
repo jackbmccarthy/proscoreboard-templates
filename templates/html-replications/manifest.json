@@ -44809,7 +44809,7 @@
   {
     "output": "html-replications/native-basketball-split-court.html",
     "title": "Split Court — Basketball full-screen",
-    "published": true,
+    "published": false,
     "placement": "full-screen",
     "palette": [
       "#0d0f13",
@@ -44835,12 +44835,13 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-basketball-split-court"
+    "styleID": "sport-native-basketball-split-court",
+    "retired": true
   },
   {
     "output": "html-replications/native-soccer-touchline-bug.html",
     "title": "Touchline Bug — Soccer corner scorebug",
-    "published": true,
+    "published": false,
     "placement": "corner",
     "palette": [
       "#ffffff",
@@ -44866,7 +44867,8 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-soccer-touchline-bug"
+    "styleID": "sport-native-soccer-touchline-bug",
+    "retired": true
   },
   {
     "output": "html-replications/native-soccer-stand-stack.html",
