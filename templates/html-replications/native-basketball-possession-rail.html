@@ -28,10 +28,10 @@
     .fl b { color: #fff; margin-left: 4px; }
     .bonus { font-size: 14px; font-weight: 800; letter-spacing: 1.5px; color: #fff; background: #ff6a1f; padding: 2px 8px 1px; border-radius: 2px; }
     .bonus:empty { display: none; }
-    .to { position: absolute; left: 16px; right: 148px; bottom: 12px; height: 32px; align-items: center; justify-content: space-between; gap: 14px; padding: 0 4px 0 14px; background: #fff; color: #08090b; }
+    .to { position: absolute; left: 16px; right: 148px; bottom: 12px; height: 32px; align-items: center; justify-content: space-between; gap: 14px; padding: 0 4px 0 12px; background: #1d2026; border-left: 4px solid #e8ff3a; color: #e8ff3a; }
     .team.B .to { left: 148px; right: 16px; }
     .to-l { font-size: 18px; font-weight: 700; letter-spacing: 4px; }
-    .to-c { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; background: #08090b; color: #fff; padding: 3px 8px 1px; font-variant-numeric: tabular-nums; }
+    .to-c { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; background: transparent; color: #fff; padding: 3px 8px 1px; font-variant-numeric: tabular-nums; }
     .mid { display: grid; background: #15171b; border-left: 1px solid #2c3036; border-right: 1px solid #2c3036; }
     .mid > * { grid-area: 1 / 1; }
     .live { position: relative; display: flex; align-items: center; justify-content: center; }
@@ -48,13 +48,13 @@
     .gc { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 58px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
     .gc b { color: #e8ff3a; padding: 0 1px; }
     .sub { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; color: #9aa1ab; }
-    .per { font-size: 18px; font-weight: 700; color: #08090b; background: #fff; padding: 1px 8px 0; }
+    .per { font-size: 24px; font-weight: 700; line-height: 1; letter-spacing: 1px; color: #08090b; background: #fff; padding: 3px 12px 1px; border-radius: 2px; }
     .shot { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2px; width: 50px; height: 54px; padding: 0; background: #e8ff3a; color: #08090b; font-weight: 700; }
     .shot-v { font-family: "DIN Alternate", "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 26px; font-weight: 700; color: #e8ff3a; background: #08090b; min-width: 40px; line-height: 26px; text-align: center; }
     .run-shot { position: absolute; left: 0; right: 0; bottom: -4px; height: 2px; background: #e8ff3a; }
     .runbar { position: absolute; left: 60px; right: 60px; bottom: 0; height: 3px; background: #e8ff3a; }
     .prog { display: flex; gap: 3px; align-items: center; }
-    .q { position: relative; width: 14px; height: 4px; background: #393d44; }
+    .q { position: relative; width: 18px; height: 5px; background: #393d44; }
     .q > span { position: absolute; inset: 0; background: #e8ff3a; }
     .ot { width: 20px; height: 4px; margin-left: 2px; padding: 0; overflow: hidden; font-size: 16px; line-height: 4px; border-radius: 1px; background: #ff6a1f; color: transparent; }
     .state { z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; background: #f2f3f5; color: #08090b; }
@@ -72,13 +72,15 @@
     .fin-ot { display: none; }
     .osb:has(.isGame5Started[style*="opacity: 1"]) .fin-ot { display: block; }
     .osb:has(.isComplete[style*="opacity: 1"]) .final-dim { opacity: .5; }
-    .osb:has(.isComplete[style*="opacity: 1"]) .meta { visibility: hidden; }
+    .osb:has(.isComplete[style*="opacity: 1"]) .meta { display: none; }
+    .osb:has(.isComplete[style*="opacity: 1"]) .nm { font-size: 34px; }
     .tor:not(:has(.pip[style*="opacity: 1"])) { visibility: hidden; }
-    .win { position: absolute; left: 0; right: 0; bottom: 0; height: 8px; background: #e8ff3a; }
-    .kitw:has(> .win[style*="opacity: 1"]) .pts { background: #e8ff3a; color: #08090b; }
+    .win { position: absolute; left: 12px; right: 12px; bottom: 0; height: 6px; background: #e8ff3a; }
+    .kitw:has(> .win[style*="opacity: 1"]) .pts { background: #000; color: #e8ff3a; box-shadow: 0 0 0 2px #e8ff3a; }
     .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .nm, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .nm { color: #9aa1ab; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .pts, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .pts { color: #b4bac3; background: #000e; }
-    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .kitw, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .kitw { filter: saturate(.45) brightness(.7); }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .pts, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .pts { color: #b4bac3; background: #000; }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .kit, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .kit { filter: grayscale(1) brightness(.62); }
+    .osb:has(.isAWinner[style*="opacity: 1"]) .team.B .kit .pts, .osb:has(.isBWinner[style*="opacity: 1"]) .team.A .kit .pts { filter: brightness(1.6); }
     .pips { gap: 0 !important; }
     .pips > [class*="TimeoutLeft"] { margin-right: 4px; }
     .pips > [style*="opacity: 0"] { width: 0 !important; margin: 0 !important; }
