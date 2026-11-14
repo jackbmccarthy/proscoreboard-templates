@@ -74,13 +74,13 @@
       "valueType": "color"
     },
     {
-      "description": "Whether side A is currently serving.",
+      "description": "Whether side A is currently serving; nobody serves before the match starts (pre-match, warm-up), between games or sets, or once the match is complete.",
       "field": "isACurrentlyServing",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Whether side B is currently serving.",
+      "description": "Whether side B is currently serving; nobody serves before the match starts (pre-match, warm-up), between games or sets, or once the match is complete.",
       "field": "isBCurrentlyServing",
       "group": "state",
       "valueType": "boolean"
@@ -722,13 +722,13 @@
       "valueType": "text"
     },
     {
-      "description": "Match Complete (FINAL) for explicitly versioned multi-sport matches.",
+      "description": "Shown only once the match is complete (FINAL) in every sport; racket matches derive it from isComplete, isMatchComplete or status complete. Serve markers hide once it is true.",
       "field": "isComplete",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Game Clock Running for explicitly versioned multi-sport matches.",
+      "description": "The game clock is running; never at a break or once the match is complete.",
       "field": "isGameClockRunning",
       "group": "state",
       "valueType": "boolean"
@@ -794,13 +794,13 @@
       "valueType": "boolean"
     },
     {
-      "description": "A Batting for explicitly versioned multi-sport matches.",
+      "description": "Baseball/softball: side A is batting; off before the first pitch, between halves and once the game is complete.",
       "field": "isABatting",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Batting for explicitly versioned multi-sport matches.",
+      "description": "Baseball/softball: side B is batting; off before the first pitch, between halves and once the game is complete.",
       "field": "isBBatting",
       "group": "state",
       "valueType": "boolean"
@@ -818,25 +818,25 @@
       "valueType": "boolean"
     },
     {
-      "description": "A Possession for explicitly versioned multi-sport matches.",
+      "description": "Basketball: side A has possession; off once the game is complete (stays between periods for the alternating-possession arrow).",
       "field": "isAPossession",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "B Possession for explicitly versioned multi-sport matches.",
+      "description": "Basketball: side B has possession; off once the game is complete (stays between periods for the alternating-possession arrow).",
       "field": "isBPossession",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Shot Clock In Use for explicitly versioned multi-sport matches.",
+      "description": "Basketball: the shot clock is in use; off at a period break and once the game is complete.",
       "field": "isShotClockActive",
       "group": "state",
       "valueType": "boolean"
     },
     {
-      "description": "Shot Clock Running for explicitly versioned multi-sport matches.",
+      "description": "Basketball: the shot clock is running; off at a period break and once the game is complete.",
       "field": "isShotClockRunning",
       "group": "state",
       "valueType": "boolean"
@@ -953,6 +953,354 @@
       "description": "Shown only for a racket match played inside a team match.",
       "field": "isTeamMatch",
       "group": "match",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Soccer: shown only after a completed match that a penalty shootout decided (level after play); shootoutAScore/shootoutBScore keep the kicks scored.",
+      "field": "isDecidedOnPenalties",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Every sport: shown only once the match is complete (not abandoned) and side A won (racket: more games; volleyball: more sets; soccer level after play: the shootout winner). A draw shows neither. Follows switched ends.",
+      "field": "isAWinner",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Every sport: shown only once the match is complete (not abandoned) and side B won (racket: more games; volleyball: more sets; soccer level after play: the shootout winner). A draw shows neither. Follows switched ends.",
+      "field": "isBWinner",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 1 is finished and side A won it (highlight the winning game1AScore). Follows switched ends.",
+      "field": "isGame1AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 1 is finished and side B won it (highlight the winning game1BScore). Follows switched ends.",
+      "field": "isGame1BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 2 is finished and side A won it (highlight the winning game2AScore). Follows switched ends.",
+      "field": "isGame2AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 2 is finished and side B won it (highlight the winning game2BScore). Follows switched ends.",
+      "field": "isGame2BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 3 is finished and side A won it (highlight the winning game3AScore). Follows switched ends.",
+      "field": "isGame3AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 3 is finished and side B won it (highlight the winning game3BScore). Follows switched ends.",
+      "field": "isGame3BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 4 is finished and side A won it (highlight the winning game4AScore). Follows switched ends.",
+      "field": "isGame4AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 4 is finished and side B won it (highlight the winning game4BScore). Follows switched ends.",
+      "field": "isGame4BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 5 is finished and side A won it (highlight the winning game5AScore). Follows switched ends.",
+      "field": "isGame5AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 5 is finished and side B won it (highlight the winning game5BScore). Follows switched ends.",
+      "field": "isGame5BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 6 is finished and side A won it (highlight the winning game6AScore). Follows switched ends.",
+      "field": "isGame6AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 6 is finished and side B won it (highlight the winning game6BScore). Follows switched ends.",
+      "field": "isGame6BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 7 is finished and side A won it (highlight the winning game7AScore). Follows switched ends.",
+      "field": "isGame7AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 7 is finished and side B won it (highlight the winning game7BScore). Follows switched ends.",
+      "field": "isGame7BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 8 is finished and side A won it (highlight the winning game8AScore). Follows switched ends.",
+      "field": "isGame8AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 8 is finished and side B won it (highlight the winning game8BScore). Follows switched ends.",
+      "field": "isGame8BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 9 is finished and side A won it (highlight the winning game9AScore). Follows switched ends.",
+      "field": "isGame9AWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: game or set 9 is finished and side B won it (highlight the winning game9BScore). Follows switched ends.",
+      "field": "isGame9BWon",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Table tennis, pickleball, volleyball: between games or sets, the number of the game or set about to start (\"GAME 2 NEXT\"); blank while one is in play, once the match is decided or complete. currentGame keeps the one just finished.",
+      "field": "nextGame",
+      "group": "state",
+      "valueType": "number"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 1, so game1AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning1APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 1, so game1BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning1BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 1 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning1Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 2, so game2AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning2APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 2, so game2BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning2BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 2 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning2Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 3, so game3AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning3APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 3, so game3BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning3BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 3 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning3Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 4, so game4AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning4APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 4, so game4BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning4BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 4 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning4Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 5, so game5AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning5APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 5, so game5BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning5BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 5 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning5Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 6, so game6AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning6APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 6, so game6BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning6BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 6 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning6Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 7, so game7AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning7APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 7, so game7BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning7BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 7 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning7Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 8, so game8AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning8APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 8, so game8BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning8BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 8 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning8Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 9, so game9AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning9APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 9, so game9BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning9BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 9 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning9Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 10, so game10AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning10APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 10, so game10BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning10BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 10 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning10Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 11, so game11AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning11APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 11, so game11BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning11BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 11 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning11Current",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side A has batted (or is batting) in inning 12, so game12AScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning12APlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: side B has batted (or is batting) in inning 12, so game12BScore shows a number; an unplayed or not-required half stays blank. Follows switched ends.",
+      "field": "isInning12BPlayed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Baseball/softball line score: inning 12 is in play (also between its halves); off before the first pitch and once the game is complete.",
+      "field": "isInning12Current",
+      "group": "state",
       "valueType": "boolean"
     }
   ]
