@@ -50,16 +50,6 @@
       "sport": "basketball",
       "width": 1250
     },
-    "native-basketball-split-court.html": {
-      "contentHash": "0374256bb47702452e0fddb072edac60066a3e1ab28f5351edeeaed15469ec07",
-      "fixtureVersion": "sport-samples-v1",
-      "height": 774,
-      "imageHash": "06c394213522ca6b5cb796b441600e726aeafc75768c7fc1e2032ea581bb1037",
-      "path": "previews/06c394213522ca6b5cb796b441600e726aeafc75768c7fc1e2032ea581bb1037.png",
-      "rendererVersion": "1",
-      "sport": "basketball",
-      "width": 1346
-    },
     "native-basketball-varsity-card.html": {
       "contentHash": "8e69eeb929bf1344e35bdc53d2084cd26e49c5a461925f036a4160c636ef9401",
       "fixtureVersion": "sport-samples-v1",
@@ -109,16 +99,6 @@
       "rendererVersion": "1",
       "sport": "soccer",
       "width": 988
-    },
-    "native-soccer-touchline-bug.html": {
-      "contentHash": "59f5bbbb98f93c7d19aa796a5c6b66aab4c7cc435691c4a0aa7837df71a88707",
-      "fixtureVersion": "sport-samples-v1",
-      "height": 151,
-      "imageHash": "9f8332f7869084a45bc9b5dc6e03f7909d2f7e3ecb96783b7f898312a8bfc810",
-      "path": "previews/9f8332f7869084a45bc9b5dc6e03f7909d2f7e3ecb96783b7f898312a8bfc810.png",
-      "rendererVersion": "1",
-      "sport": "soccer",
-      "width": 892
     },
     "starter-baseball-ballpark-card.html": {
       "contentHash": "b71bf39ab323236a38fcc4fc87a166266f201316bc47814d9dbf61914f31465b",
@@ -210,6 +190,36 @@
       "sport": "pickleball",
       "width": 605
     },
+    "starter-pickleball-corner-rally-ledger.html": {
+      "contentHash": "76ad62ff3ba491be73571b623073782cfd4bb66f3a49c8d56ca5dda0280119d3",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 324,
+      "imageHash": "ba5e9a9ea630c3be233bbad865a4c0f68852d09d4b289af95907441cd99003f8",
+      "path": "previews/ba5e9a9ea630c3be233bbad865a4c0f68852d09d4b289af95907441cd99003f8.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 598
+    },
+    "starter-pickleball-corner-serve-pills.html": {
+      "contentHash": "c1de94bc0d137d781f144b6a057b01ecd5629b67ad326a4d8a20de40afbd03d5",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 337,
+      "imageHash": "3aefc318cc7ffbb3cf491327d827f2d248ea0e09ddf836a3aa585a97f343bd0b",
+      "path": "previews/3aefc318cc7ffbb3cf491327d827f2d248ea0e09ddf836a3aa585a97f343bd0b.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 566
+    },
+    "starter-pickleball-corner-split-court.html": {
+      "contentHash": "1db7fb7a4820c984ae24081b0310fab8daa3cfdb63f578de3c355004e23d4337",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 320,
+      "imageHash": "4c91682c48cd26bdc5105d7524fa3b6cf679761a2f3c717b05ff498b84bce6ca",
+      "path": "previews/4c91682c48cd26bdc5105d7524fa3b6cf679761a2f3c717b05ff498b84bce6ca.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 618
+    },
     "starter-pickleball-full-between-games.html": {
       "contentHash": "1d78d730b40ed9c2406aba135c36a8f6d26cccc5b7c122e2ee71587f84e29211",
       "fixtureVersion": "sport-samples-v1",
@@ -220,6 +230,26 @@
       "sport": "pickleball",
       "width": 1236
     },
+    "starter-pickleball-full-scorecard.html": {
+      "contentHash": "d19bb491206acffbba01b60171b32a390c7e7e0ddba0c310f641649d096ffc13",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 1156,
+      "imageHash": "8b465ce797a9342be1eab1431b79475bcbc6314b758470a1c305019c76453d89",
+      "path": "previews/8b465ce797a9342be1eab1431b79475bcbc6314b758470a1c305019c76453d89.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 1296
+    },
+    "starter-pickleball-lower-call-panel.html": {
+      "contentHash": "e829d7c12b43f8c6223f290b09ef01c297e919bba84da5db2ddbeb0d2b4b3fe0",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 273,
+      "imageHash": "4b71be379c7f03b0663fafbecfb76df214c5c767ea21b45889f42d7122f5eff9",
+      "path": "previews/4b71be379c7f03b0663fafbecfb76df214c5c767ea21b45889f42d7122f5eff9.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 1064
+    },
     "starter-pickleball-lower-game-ledger.html": {
       "contentHash": "b2bf1b0de8adbcc30dca935f9a018aaccbad148e5d7cb23ecf7b203fb7f22475",
       "fixtureVersion": "sport-samples-v1",
@@ -229,6 +259,26 @@
       "rendererVersion": "1",
       "sport": "pickleball",
       "width": 772
+    },
+    "starter-pickleball-lower-head-to-head.html": {
+      "contentHash": "ec764220ec28728a4e5834f41050be63e779d3a6c0bb2f59e693db6353bd5dd3",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 263,
+      "imageHash": "7935b361de779dbfea28901288a7f1176418bd0afceffae55e78e86710124405",
+      "path": "previews/7935b361de779dbfea28901288a7f1176418bd0afceffae55e78e86710124405.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 1018
+    },
+    "starter-pickleball-lower-scoreline.html": {
+      "contentHash": "f2816286e2ce59a70160e5deaede2a02e88714979e48b658056e47aaa2e2b4b6",
+      "fixtureVersion": "sport-samples-v1",
+      "height": 194,
+      "imageHash": "4de59fc14c7572dadd42bd0f415a5ed890db70a22f527032faefab020f6140de",
+      "path": "previews/4de59fc14c7572dadd42bd0f415a5ed890db70a22f527032faefab020f6140de.png",
+      "rendererVersion": "1",
+      "sport": "pickleball",
+      "width": 1258
     },
     "starter-softball-ballpark-card.html": {
       "contentHash": "26327389f02925346e560baa51429e0ff014a1c21c0030fb18b37fc3158607ab",

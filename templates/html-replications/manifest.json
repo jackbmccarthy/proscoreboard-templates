@@ -45797,6 +45797,230 @@
     "retired": true
   },
   {
+    "output": "html-replications/starter-pickleball-corner-rally-ledger.html",
+    "title": "Pickleball Rally Ledger",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#15181d",
+      "#c6f03a",
+      "#f4f6f8",
+      "#ffb020"
+    ],
+    "motif": "Graphite tennis-style line score: finished games inline on each row, GAMES, white points box; state, event and score call in the header.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Graphite corner line score: finished games boxed inline on each team row (winner lit), labelled GAMES, a white points box that turns amber or red on the team holding game or match point, serve ball with doubles server number, TO bars, cards and timeout clock under each name, GAME n LIVE tag and the score call in the header; at a break and at FINAL the points give way to big games won. Team tie strip on top in team events.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/starter-pickleball-corner-split-court.html",
+    "title": "Pickleball Split Court",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#0e1733",
+      "#18264d",
+      "#ff8a1f",
+      "#ffffff"
+    ],
+    "motif": "The two teams side by side as court halves, points facing each other across a centre card with the score call and finished games.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Navy corner board with the teams side by side as court halves: names over big white points tiles that face each other, serve ball with doubles server number and labelled games won on the outer side, TO bars, cards, timeout clock and WINNER tag under each tile; the centre card holds the score call and the finished games (winner lit). The points tile turns amber or red on the team holding game or match point and shows games won at a break and at FINAL. Team tie strip on top in team events.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/starter-pickleball-corner-serve-pills.html",
+    "title": "Pickleball Serve Pills",
+    "published": true,
+    "placement": "corner",
+    "palette": [
+      "#ffffff",
+      "#14213d",
+      "#ff5a4e",
+      "#eef1f6"
+    ],
+    "motif": "Two detached white team pills led by the serve ball and server number, dark header tab with column labels, call and finished games in the foot tab.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Light corner bug of detached pieces: a dark header tab (game state, event, GAMES/PTS labels), two white team pills that open with the serve ball and doubles server number, then name, TO bars, cards and timeout clock, coral games won and a navy points box that turns amber or red on the team holding game or match point, and a foot tab with the score call and finished games (winner lit). At a break and at FINAL the points give way to big games won. Team tie strip on top in team events.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/starter-pickleball-lower-head-to-head.html",
+    "title": "Pickleball Head to Head",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#22101b",
+      "#341a2b",
+      "#f2b33d",
+      "#ffffff"
+    ],
+    "motif": "Centred head-to-head bar: team A left, team B right, points facing each other in the middle; state tab above, call and finished games tab below.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Wine and gold centred lower third: team A on the left and team B on the right with names, TO bars, cards and timeout clock, serve ball with doubles server number, labelled games won and white points tiles that meet in the middle and turn gold or red on the team holding game or match point. Game state and event in the tab above (GAME POINT / MATCH POINT banner there too), the score call and finished games (winner lit) in the tab below; at a break and at FINAL the points give way to big games won and a WINNER tag. Team tie strip on top in team events.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/starter-pickleball-lower-call-panel.html",
+    "title": "Pickleball Call Panel",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#ffffff",
+      "#111633",
+      "#6d4aff",
+      "#ffb020"
+    ],
+    "motif": "White team rows beside a dark panel whose hero is the score call; state, point banner and finished games in the panel.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Lower third of white team rows (event, GAMES and PTS labels in the header strip; name, timeout clock, cards, TO bars, serve ball with doubles server number, violet games won and a navy points box that turns amber or red on the team holding game or match point) beside a navy panel: game state tag (GAME POINT / MATCH POINT banner in the same slot), the score call as the hero, finished games (winner lit) underneath; the hero shows the match format before play, NEXT GAME n at a break and the finished games large at FINAL. Team tie strip on top in team events.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/starter-pickleball-full-scorecard.html",
+    "title": "Pickleball Scorecard",
+    "published": true,
+    "placement": "full-screen",
+    "palette": [
+      "#f6f7fa",
+      "#10182b",
+      "#ff6a3d",
+      "#ffffff"
+    ],
+    "motif": "Light full-screen scorecard: big game-state title, head-to-head hero with games won between the names, and a row of game cards with the game in play as a LIVE card.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Light full-screen scorecard under a navy title band (event and round, big game state, GAME POINT / MATCH POINT banner): the two teams face each other with big games won between them (match winner boxed and tagged WINNER, loser dimmed), TO bars, cards, timeout clock and serve ball with doubles server number beside each name; below, one card per finished game (games 1-9) with its winner lit and, while a game is in play, a LIVE card with the points (amber or red on the team holding game or match point) and the score call. Team tie on top in team events; a team page shows the tie large.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
+    "output": "html-replications/starter-pickleball-lower-scoreline.html",
+    "title": "Pickleball Scoreline",
+    "published": true,
+    "placement": "lower-third",
+    "palette": [
+      "#fdfcf7",
+      "#1b1d24",
+      "#0f9d76",
+      "#ffb020"
+    ],
+    "motif": "One-line cream scoreline ribbon: state block, team A, points facing points, team B, score call and finished games, with the event in a tab above.",
+    "tags": [
+      "pickleball",
+      "sport-native",
+      "native-scoring",
+      "live-states",
+      "score-call",
+      "server-number",
+      "game-history",
+      "penalty-cards"
+    ],
+    "description": "Full-width cream lower third on one line: game state block, team A (name, TO bars, cards, serve ball with doubles server number, labelled games won) and its dark points box facing the points of team B, then the score call and the finished games (winner lit); the event tab above carries the GAME POINT / MATCH POINT banner and a timeout clock rides as a tab above the team that called it. Points turn amber or red on the team holding game or match point; at a break and at FINAL the points give way to big games won. Team tie strip on top in team events.",
+    "sport": "pickleball",
+    "scoringMode": "native",
+    "runtimeSupport": {
+      "sportRules": true,
+      "scores": "game-match",
+      "sportCounters": "native"
+    },
+    "aliases": []
+  },
+  {
     "output": "html-replications/starter-tabletennis-live-atlantic.html",
     "title": "Table Tennis Live — Atlantic",
     "published": false,
