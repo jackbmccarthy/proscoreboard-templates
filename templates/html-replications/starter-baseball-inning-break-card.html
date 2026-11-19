@@ -46,8 +46,8 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .ls-cur{position:absolute;inset:0;pointer-events:none}
 .tick{position:relative}.tick>.tick-on,.tick>.tick-cur{position:absolute;inset:0;border-radius:inherit}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
-.board{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Avenir Next Condensed","Bahnschrift SemiCondensed","Roboto Condensed","Arial Narrow",sans-serif;color:#f6f4ef;background:linear-gradient(160deg,rgba(62,16,24,.97),rgba(14,8,12,.98));--live:#ff3b30}
-.card{width:68rem;display:flex;flex-direction:column;gap:1.4rem}
+.board{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Avenir Next Condensed","Bahnschrift SemiCondensed","Roboto Condensed","Arial Narrow",sans-serif;color:#f6f4ef;background:transparent;--live:#ff3b30}
+.card{width:72.8rem;display:flex;flex-direction:column;gap:1.4rem;padding:2.4rem;margin:-2.4rem;border-radius:.9rem;background:linear-gradient(160deg,rgba(62,16,24,.97),rgba(14,8,12,.98)) fixed}
 .head{display:flex;flex-direction:column;align-items:center;gap:.7rem;text-align:center}
 .spk{display:flex;align-items:center;gap:1.2rem;font:700 1.1rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.24em;color:#ffd166}
 .head .ev{max-width:60rem;justify-content:center;font:700 1.2rem/1.25 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#c9b3b5;--evlh:1.25}

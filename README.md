@@ -172,6 +172,15 @@ Keep side A and side B service indicators separate. Game point and match point a
 match-level states, not A/B states: separate sibling labels in one shared slot, initially
 hidden, with match-point precedence and reduced-motion support.
 
+Everything behind the scoreboard is transparent (owner rule, 2026-11-18): scoreboards are
+composited over live video, so `html`, `:root`, `body` and any page-sized wrapper, stage or canvas
+(`position:fixed;inset:0`, `100vw` by `100vh`) never paint a background, shadow, vignette, overlay or
+backdrop filter, in any placement. The scoreboard's own panels, bars, chips, cards and conditional
+components keep their colours; a full-screen design is a card on a transparent page. A design whose
+whole frame is the graphic needs an owner decision in `tools/transparent-backdrop-exemptions.json`,
+bound to its content hash. `node tools/check-transparent-backdrop.mjs` (run by `npm test`) checks the
+embedded CSS of every active published template.
+
 Two-row layouts use flexible paired columns so corresponding A/B fields align. Preserve
 the intended responsive behavior and score hierarchy. Full-screen layouts may differ;
 do not force them into a universal two-row design. No HTML scripts, inline event handlers,

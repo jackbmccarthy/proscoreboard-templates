@@ -24,6 +24,10 @@ The standalone contract contains only safe static helpers and public runtime met
 - Preserve combined A/B competitor name fields. Keep side A/B service indicators separate.
   Game/match point are neutral match-level states with separate hidden sibling labels in a
   shared slot, match-point precedence, and reduced-motion support.
+- Everything behind the scoreboard is transparent: no background, shadow, overlay or backdrop filter on
+  `html`, `:root`, `body` or any viewport-sized wrapper/stage, in every placement. Keep the scoreboard's
+  own panel colours; move a ground a translucent panel relied on onto the panel itself. Full-bleed
+  exceptions need an owner decision in `tools/transparent-backdrop-exemptions.json` (content-hash bound).
 - Two-row templates use flexible paired column tracks. Full-screen layouts can vary;
   preserve their authored format rather than forcing a single layout convention.
 - No scripts in HTML, event-handler attributes, executable URLs or active embeds. Static

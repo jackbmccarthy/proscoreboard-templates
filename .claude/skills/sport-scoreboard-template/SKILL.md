@@ -74,8 +74,21 @@ values, append-only `published/`, no new dependencies, Node 22).
 ## 3. Authoring workflow
 
 1. Write `templates/html-replications/starter-<sport>-<placement>-<slug>.html` (full document,
-   transparent `html,body` background for overlays, embedded `<style>`, no scripts). The
-   `starter-` prefix makes the app save a private copy on import.
+   embedded `<style>`, no scripts). The `starter-` prefix makes the app save a private copy on import.
+   **Transparent page backdrop (owner rule, 2026-11-18).** The output is composited over live video,
+   so everything behind the scoreboard is transparent, for every placement including full-screen:
+   `html`, `:root`, `body`, `main` used as a page wrapper, and any stage/canvas that covers the
+   viewport (`position:fixed;inset:0`, `100vw`x`100vh`) get no background, box-shadow, vignette,
+   overlay or backdrop-filter. Paint colour only on the scoreboard's own panels, bars, chips and
+   cards (and its conditional cards). A full-screen design is a card on a transparent page, not a
+   painted frame. If a panel is translucent and was meant to sit on a page colour, give the panel
+   that ground itself (for a gradient that must line up across panels:
+   `background:linear-gradient(<tint>,<tint>),var(--panel-ground) fixed`). A design whose whole frame
+   is the graphic needs an owner decision in `tools/transparent-backdrop-exemptions.json` (bound to
+   its content hash). `node tools/check-transparent-backdrop.mjs` (also run by `npm test`) checks the
+   CSS; the server repo's `scripts/qa/template-transparency.mjs --templates-dir <checkout> --check`
+   renders every published template through the real output page and fails on any opaque pixel
+   outside the scoreboard.
 2. Add a manifest entry in `templates/html-replications/manifest.json`: `output`, `title`,
    `published: true`, `placement` (`corner`, `lower-third`, `full-screen`, `courtside`), `palette`,
    `motif`, `tags`, `description` (what is bound and what is hidden by default), `sport`,
@@ -100,7 +113,8 @@ values, append-only `published/`, no new dependencies, Node 22).
 
 - Look at **every** rendered PNG (`previews/<hash>.png`, path in `catalog.json`). Build a contact
   sheet per sport and placement to compare. Reject: truncated names, tiny unreadable text, empty
-  boxes, clutter that is not live data, wrong-sport furniture, inconsistent A/B alignment.
+  boxes, clutter that is not live data, wrong-sport furniture, inconsistent A/B alignment, any
+  colour behind the scoreboard (judge the full 1920x1080 frame on a checkerboard, not only the crop).
 - Keep variety across the ten: different structures (stacked rows, split, score-left, linescore),
   light and dark, different accent palettes. Ten palette swaps of one layout count as one design.
 - Retiring: set `"retired": true` and `"published": false` on the manifest entry and rebuild.
