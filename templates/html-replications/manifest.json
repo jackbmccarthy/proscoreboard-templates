@@ -44006,7 +44006,10 @@
       "baseOccupancy": "live",
       "countDots": "live",
       "finalState": "live"
-    }
+    },
+    "placementDefaultForSports": [
+      "baseball"
+    ]
   },
   {
     "output": "html-replications/starter-baseball-outfield-wall.html",
@@ -44066,7 +44069,10 @@
       "baseOccupancy": "live",
       "countDots": "live",
       "finalState": "live"
-    }
+    },
+    "defaultForSports": [
+      "baseball"
+    ]
   },
   {
     "output": "html-replications/starter-baseball-broadcast-bar.html",
@@ -44283,7 +44289,10 @@
       "baseOccupancy": "live",
       "countDots": "live",
       "finalState": "live"
-    }
+    },
+    "placementDefaultForSports": [
+      "softball"
+    ]
   },
   {
     "output": "html-replications/starter-softball-night-glass-bug.html",
@@ -44403,7 +44412,10 @@
       "baseOccupancy": "live",
       "countDots": "live",
       "finalState": "live"
-    }
+    },
+    "defaultForSports": [
+      "softball"
+    ]
   },
   {
     "output": "html-replications/starter-softball-matchup-panel.html",
@@ -44557,7 +44569,10 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-basketball-arena-stack"
+    "styleID": "sport-native-basketball-arena-stack",
+    "placementDefaultForSports": [
+      "basketball"
+    ]
   },
   {
     "output": "html-replications/native-basketball-hardwood-tab.html",
@@ -44777,7 +44792,10 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-basketball-possession-rail"
+    "styleID": "sport-native-basketball-possession-rail",
+    "defaultForSports": [
+      "basketball"
+    ]
   },
   {
     "output": "html-replications/native-basketball-box-score.html",
@@ -44808,7 +44826,10 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-basketball-box-score"
+    "styleID": "sport-native-basketball-box-score",
+    "placementDefaultForSports": [
+      "basketball"
+    ]
   },
   {
     "output": "html-replications/native-basketball-split-court.html",
@@ -44967,7 +44988,10 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-soccer-night-slant"
+    "styleID": "sport-native-soccer-night-slant",
+    "placementDefaultForSports": [
+      "soccer"
+    ]
   },
   {
     "output": "html-replications/native-soccer-match-strip.html",
@@ -45030,7 +45054,10 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-soccer-cup-tie"
+    "styleID": "sport-native-soccer-cup-tie",
+    "defaultForSports": [
+      "soccer"
+    ]
   },
   {
     "output": "html-replications/native-soccer-ground-led.html",
@@ -45156,7 +45183,10 @@
       "sportRules": true,
       "sportCounters": "live-bound"
     },
-    "styleID": "sport-native-soccer-full-time-poster"
+    "styleID": "sport-native-soccer-full-time-poster",
+    "placementDefaultForSports": [
+      "soccer"
+    ]
   },
   {
     "output": "html-replications/starter-volleyball-corner-rally-bar.html",
@@ -45250,7 +45280,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "placementDefaultForSports": [
+      "volleyball"
+    ]
   },
   {
     "output": "html-replications/starter-volleyball-corner-attack-line.html",
@@ -45313,7 +45346,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "defaultForSports": [
+      "volleyball"
+    ]
   },
   {
     "output": "html-replications/starter-volleyball-lower-box-score.html",
@@ -45439,7 +45475,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "placementDefaultForSports": [
+      "volleyball"
+    ]
   },
   {
     "output": "html-replications/starter-volleyball-full-match-summary.html",
@@ -45765,7 +45804,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "placementDefaultForSports": [
+      "pickleball"
+    ]
   },
   {
     "output": "html-replications/starter-pickleball-full-match-summary.html",
@@ -45830,7 +45872,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "placementDefaultForSports": [
+      "pickleball"
+    ]
   },
   {
     "output": "html-replications/starter-pickleball-corner-split-court.html",
@@ -45958,7 +46003,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "defaultForSports": [
+      "pickleball"
+    ]
   },
   {
     "output": "html-replications/starter-pickleball-full-scorecard.html",
@@ -46982,7 +47030,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "defaultForSports": [
+      "tableTennis"
+    ]
   },
   {
     "output": "html-replications/starter-tabletennis-corner-tour-bug.html",
@@ -47040,7 +47091,10 @@
       "scores": "game-match",
       "sportCounters": "native"
     },
-    "aliases": []
+    "aliases": [],
+    "placementDefaultForSports": [
+      "tableTennis"
+    ]
   },
   {
     "output": "html-replications/starter-tabletennis-corner-score-first.html",

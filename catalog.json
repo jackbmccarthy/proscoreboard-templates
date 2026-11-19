@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "14839e03b88c0f66e33d41e957603d8ed4ed6572feb0725c2a5c65ecd9fa9af2",
+  "revision": "ccd7442b5978c361ab3ede836575470480727ba4f33802c614c6622f5c80bec0",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -24807,6 +24807,9 @@
         "#f4f5f7"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "basketball"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "multi-sport",
@@ -24851,6 +24854,9 @@
         "#e8edf5"
       ],
       "placement": "full-screen",
+      "placementDefaultForSports": [
+        "basketball"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "multi-sport",
@@ -25034,6 +25040,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "basketball"
+      ],
       "description": "Bold sports-network lower third: angled team plates filled with the live kit colour carry big white scores and names, meeting a dark hexagonal hub with period, game clock and shot clock. A rail below shows team fouls, bonus, timeouts left, quarter pips and possession; timeout banners and a break message are live states. Live bindings: names (two-line wrap for long names), kit colours, scores, game clock, periodLabel, shot clock (shown while isShotClockActive, running cue on isShotClockRunning), game-clock running cue, team fouls, bonus, timeout pips (isA/BTimeoutLeft1-5, unlit pips collapse), possession arrows (isA/BPossession), timeout banner over the calling side (score and name stay visible), period progress (isGame1-5Started), END OF <period> / HALFTIME break layer and FINAL (+OVERTIME) layer on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Angled kit-coloured team plates meeting a dark hexagonal clock hub with a possession rail.",
       "output": "html-replications/native-basketball-possession-rail.html",
@@ -25192,6 +25201,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "soccer"
+      ],
       "description": "Cup-competition lower third in burgundy and gold: kit ribbons and team names lead into a gold-rimmed score capsule, with the round and event on a gold header, the running clock, added time and half on the right and card markers per team. A penalty shootout tray under the capsule is included hidden for shootout use; HT is a live state. Live bindings: names (two-line wrap), kit colours, central scores, running clock, half (periodLabel), added time (addedTimeVisible), live dot (isMatchStarted), clock-running cue, yellow/red cards with counts, half/extra-time progress (isGame1-4Started), state layers over the clock: HT / FT (extra time next) / ET HT / AET on isInBetweenGames, PENS score on isShootoutActive, FT on isComplete. Final: the winner (isAWinner/isBWinner) is emphasised and the loser dimmed; kit-colour slots keep a neutral two-tone when no jersey colour is set; names wrap only at word boundaries. Stored names and optional values are blank and scores 0; preview values come from repository fixtures.",
       "motif": "Cup-final burgundy and gold: laurel-capped score capsule, kit ribbons, clock and penalties tray.",
       "output": "html-replications/native-soccer-cup-tie.html",
@@ -25246,6 +25258,9 @@
         "#ffd21f"
       ],
       "placement": "full-screen",
+      "placementDefaultForSports": [
+        "soccer"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "multi-sport",
@@ -25439,6 +25454,9 @@
         "#ffd166"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "soccer"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "multi-sport",
@@ -44502,6 +44520,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "baseball"
+      ],
       "description": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs). 9-inning baseball layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
       "motif": "Fixed-width live line score strip under an event tab (PREGAME/LIVE/FINAL): team names with jersey slabs and at-bat light, per-inning runs (unplayed halves blank, current inning lit, extra innings share the fixed width), R-H-E, and a situation box (inning arrow, diamond, B-S count over labelled pips, outs).",
       "output": "html-replications/starter-baseball-linescore-strip.html",
@@ -44596,6 +44617,9 @@
         "#3fd0ff"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "baseball"
+      ],
       "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
@@ -44765,6 +44789,9 @@
         "#ffb020"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "pickleball"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "game-match",
@@ -44952,6 +44979,9 @@
         "#ffffff"
       ],
       "placement": "full-screen",
+      "placementDefaultForSports": [
+        "pickleball"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "game-match",
@@ -45058,6 +45088,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "pickleball"
+      ],
       "description": "Lower third of white team rows (event, GAMES and PTS labels in the header strip; name, timeout clock, cards, TO bars, serve ball with doubles server number, violet games won and a navy points box that turns amber or red on the team holding game or match point) beside a navy panel: game state tag (GAME POINT / MATCH POINT banner in the same slot), the score call as the hero, finished games (winner lit) underneath; the hero shows the match format before play, NEXT GAME n at a break and the finished games large at FINAL. Team tie strip on top in team events.",
       "motif": "White team rows beside a dark panel whose hero is the score call; state, point banner and finished games in the panel.",
       "output": "html-replications/starter-pickleball-lower-call-panel.html",
@@ -45345,6 +45378,9 @@
         "#0f6a73"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "softball"
+      ],
       "published": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
@@ -45380,6 +45416,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "softball"
+      ],
       "description": "Segmented network bar under an event tab with PREGAME/LIVE/FINAL: each team its own segment with jersey slab, uppercase name, at-bat light, boxed runs and compact H/E, then a situation segment (inning arrow, diamond, B-S count over labelled pips, outs) with an inning-progress rail. 7-inning softball layout with a SOFTBALL label. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner emphasised and the loser muted but legible (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current). Jersey slabs keep a fallback colour when a team has none. Every show/hide element sits in a fixed slot and starts hidden; stored names are blank and numbers are 0.",
       "motif": "Segmented network bar under an event tab with PREGAME/LIVE/FINAL: each team its own segment with jersey slab, uppercase name, at-bat light, boxed runs and compact H/E, then a situation segment (inning arrow, diamond, B-S count over labelled pips, outs) with an inning-progress rail.",
       "output": "html-replications/starter-softball-broadcast-bar.html",
@@ -45775,6 +45814,9 @@
         "#ff9a3c"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "tableTennis"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "game-match",
@@ -46744,6 +46786,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "tableTennis"
+      ],
       "description": "Centred head-to-head lower third: player plates either side of a white A : B points box, state banners centred on that box, an event tab over plate A, a sub row with T/O trace, labelled cards and labelled GAMES chips plus the GAME n / FINAL tag under the score, and an attached strip under the score that shows the best-of label until the first game ends and then the finished games (winner boxed). Team ties get a separate tie strip above; the tie page without a player match shows only that strip.",
       "motif": "Bottom-centre teal head-to-head bar: white points box with a colon, labelled games chips, finished games below",
       "output": "html-replications/starter-tabletennis-lower-head-to-head.html",
@@ -47260,6 +47305,9 @@
         "#ffd65a"
       ],
       "placement": "corner",
+      "placementDefaultForSports": [
+        "volleyball"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "game-match",
@@ -47418,6 +47466,9 @@
         "#ffffff"
       ],
       "placement": "full-screen",
+      "placementDefaultForSports": [
+        "volleyball"
+      ],
       "published": true,
       "runtimeSupport": {
         "scores": "game-match",
@@ -47531,6 +47582,9 @@
     },
     {
       "aliases": [],
+      "defaultForSports": [
+        "volleyball"
+      ],
       "description": "Centred split bar: event tab above, set-history tab below, orange centre tile carrying SET n LIVE, deciding set, set/match point, END OF SET and FINAL. Sets won beside the points; at a break and at FINAL the points boxes show sets won.",
       "motif": "Centred split bar with an attached event tab above and set-history tab below; the orange centre tile carries the state.",
       "output": "html-replications/starter-volleyball-lower-center-court.html",

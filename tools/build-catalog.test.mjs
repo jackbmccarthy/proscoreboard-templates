@@ -109,3 +109,16 @@ test('active documents require core fields, safe static HTML, size limits and lo
   await writeFile(file, Buffer.from([0xff, 0xfe]));
   await assert.rejects(buildCatalog({ root }), /encoded data/);
 });
+
+test('default markers name supported sports on published templates of the right placement', async (t) => {
+  const entry = (extra) => [{ output: 'html-replications/test-template.html', published: true, ...extra }];
+  for (const [extra, pattern] of [
+    [{ placement: 'lower-third', defaultForSports: ['curling'] }, /must list supported sports/],
+    [{ placement: 'lower-third', defaultForSports: 'pickleball' }, /must list supported sports/],
+    [{ placement: 'corner', defaultForSports: ['pickleball'] }, /reserved for lower-third/],
+    [{ placement: 'lower-third', placementDefaultForSports: ['pickleball'] }, /lower-third defaults use defaultForSports/],
+    [{ placement: 'corner', published: false, placementDefaultForSports: ['pickleball'] }, /published, active template/]
+  ]) await assert.rejects(buildCatalog({ root: await fixture(t, entry(extra)) }), pattern);
+  const { catalog } = await buildCatalog({ root: await fixture(t, entry({ placement: 'corner', placementDefaultForSports: ['pickleball'] })) });
+  assert.deepEqual(catalog.templates[0].placementDefaultForSports, ['pickleball']);
+});

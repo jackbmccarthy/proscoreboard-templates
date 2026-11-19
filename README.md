@@ -85,6 +85,13 @@ Neither editor sends feedback to an AI service or publishes on your behalf.
   Each entry preserves the optional `sport` presentation category from the manifest;
   consumers should continue to use `defaultForSports` only for default-template
   selection, not as the template's sport classification.
+- Defaults: `defaultForSports: ["<sport>"]` marks the sport's default scoreboard, always a
+  lower third (the server builds every new court's scoreboard from it).
+  `placementDefaultForSports: ["<sport>"]` marks the default for the template's own
+  placement (corner, full-screen, courtside), listed first in "Change scoreboard". Every
+  sport has one default lower third and at most one default per placement; a placement may
+  have none while it is redesigned (the server then reports "no default yet"). Picks come
+  from the approved (blind-reviewed >= 9) set in the server repo's `docs/qa/scoreboard-approvals/`.
 
 Run `node tools/build-catalog.mjs` after approved authoring changes. The builder reads
 every manifest entry, including retired entries, preserving all original metadata and

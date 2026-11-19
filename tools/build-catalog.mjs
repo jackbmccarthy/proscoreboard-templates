@@ -9,6 +9,7 @@ export const MAX_DOCUMENT_BYTES = 500_000;
 const MAX_JSON_BYTES = 8_000_000;
 const HASH_PATTERN = /^[a-f0-9]{64}$/;
 const FILE_PATTERN = /^[a-z0-9][a-z0-9-]{1,190}\.html$/;
+const DEFAULT_SPORTS = ['tableTennis', 'pickleball', 'volleyball', 'basketball', 'soccer', 'baseball', 'softball'];
 export const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 export const contentHash = ({ html, css }) => sha256(JSON.stringify([html, css]));
 
@@ -99,6 +100,15 @@ function validateEntry(entry, seen) {
   if (entry.aliases !== undefined && (!Array.isArray(entry.aliases) || entry.aliases.some((value) => typeof value !== 'string'))) throw new Error(`${fileName}: aliases must be strings.`);
   for (const alias of entry.aliases || []) assertSafeRelativePath(alias);
   for (const field of ['title', 'description', 'placement', 'motif']) if (entry[field] !== undefined && typeof entry[field] !== 'string') throw new Error(`${fileName}: ${field} must be text.`);
+  // defaultForSports marks the sport's default (lower-third) scoreboard; placementDefaultForSports marks
+  // the default for the template's own placement (corner, full-screen, courtside). Both name sports.
+  for (const field of ['defaultForSports', 'placementDefaultForSports']) {
+    if (entry[field] === undefined) continue;
+    if (!Array.isArray(entry[field]) || !entry[field].length || entry[field].some((sport) => !DEFAULT_SPORTS.includes(sport))) throw new Error(`${fileName}: ${field} must list supported sports.`);
+    if (entry.retired || entry.published === false) throw new Error(`${fileName}: ${field} requires a published, active template.`);
+  }
+  if (entry.defaultForSports !== undefined && entry.placement !== 'lower-third') throw new Error(`${fileName}: defaultForSports is reserved for lower-third templates; use placementDefaultForSports.`);
+  if (entry.placementDefaultForSports !== undefined && entry.placement === 'lower-third') throw new Error(`${fileName}: lower-third defaults use defaultForSports.`);
   for (const field of ['fileName', 'contentHash', 'documentPath', 'preview', 'previewURL']) if (Object.hasOwn(entry, field)) throw new Error(`${fileName}: ${field} is generated, not authored.`);
   return fileName;
 }
