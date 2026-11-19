@@ -44,3 +44,12 @@ no aggregate field.
   `isInBetweenGames`, which is also true at the break before extra time.
 - Preview fixture gap: `periodLabel` previews as `2` (live `H2`); cards, added time and HT are
   not in the fixture, so previews show them hidden.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: yellow/red cards, +N added time, half-time banner, penalty shootout strip.
+- Structural here: extra-time columns once played, final and decided-on-penalties presentation.
+- Audit of main d1669f9: 0 of 4 pass; cup tie, kit split and night slant collapse the card chips (`[style*="opacity: 0"]{width:0}`) so a card slides the name or the other hidden card; the full-time poster moves its header rows 113 px when the shootout strip appears.

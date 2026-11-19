@@ -19,3 +19,12 @@ same. The audit is in [softball-audit.md](softball-audit.md).
 - **Run-rule and time-limit endings** are common in softball. A "FINAL" summary must not assume 7
   innings were played. The line-score columns for unplayed innings stay blank via `isGame{N}Started`.
 - Base distances and pitching style do not change the graphic.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: count dots, outs dots, runner diamond, at-bat marker, half-inning break banner.
+- Structural here: line-score columns as innings are played (incl. extra innings), final.
+- Audit of main d1669f9: 8 of 8 pass. Advisory only: the half-inning label and the blanked count text at the break change text width; keep them in fixed-width boxes.

@@ -188,6 +188,27 @@ whole frame is the graphic needs an owner decision in `tools/transparent-backdro
 bound to its content hash. `node tools/check-transparent-backdrop.mjs` (run by `npm test`) checks the
 embedded CSS of every active published template.
 
+Conditional components never move other components (owner rule, 2026-11-18): "for a lot of the
+conditional components that only show during certain times, you don't want other components to move
+around it ... offset it with translate Y or X." A **transient** conditional (serve, possession,
+at-bat, game/set/match point, active timeout and its countdown, timeout used/remaining pips,
+yellow/red cards, between-games/period-break banner, warm-up, deciding set, BONUS, added time,
+shootout strip, shot clock shown/hidden, count/outs/runner dots) occupies zero-footprint space: an
+absolutely positioned or translated offset slot, an overlay over the area it replaces, or a fixed
+reserved slot that is the same size shown or hidden. Turning one on or off must not move or resize
+any other element, including other transients. **Structural** conditionals, decided by the match or
+competition configuration or changing only at a game/period/match boundary (country flags, logos,
+doubles vs singles, the team-match tie strip, ledger and extra-inning/overtime columns, final
+presentation, a full-screen card's break/summary layout), may change the layout between those
+configurations or states, never mid-rally. The field-by-field classification is the server repo's
+`docs/scoreboard/conditional-layout-classes.json`; CSS patterns are in
+`.claude/skills/sport-scoreboard-template/SKILL.md` section 2a. The server repo's
+`scripts/qa/template-layout-stability.mjs --templates-dir <checkout>` renders every published template
+through the real output page, toggles each transient (and serve + game point, timeout + game point,
+card + match point) and fails on any other element moving or resizing by more than 1 px. A static
+lint was evaluated against the 2026-11-18 audit and rejected (too many false positives and misses),
+so the rendered check is the gate.
+
 Two-row layouts use flexible paired columns so corresponding A/B fields align. Preserve
 the intended responsive behavior and score hierarchy. Full-screen layouts may differ;
 do not force them into a universal two-row design. No HTML scripts, inline event handlers,

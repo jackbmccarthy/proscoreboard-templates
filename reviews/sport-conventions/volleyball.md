@@ -33,3 +33,12 @@ Not volleyball: penalty cards in the status rail, "GAMES" labels, table-tennis s
   and the `set` stat alias as stand-ins. Beach (best of 3) deciding set cannot be distinguished.
 - `timeoutsRemainingA/B` are bindable but are not in the preview fixture, so previews show them blank.
 - Only one "timeout used" boolean per team exists, so the second used timeout cannot dim a second pip.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: serve marker, set point / match point, timeout card and countdown, timeout pips, between-sets banner and next set, deciding-set badge.
+- Structural here: set-history columns as sets are played, final, the full-screen set-break layout.
+- Audit of main d1669f9: 1 of 5 pass; corner and lower boards collapse or move the points columns at the set break, and lower-center-court grows the bar for SET POINT / DECIDING SET and widens it 115 px for the inline timeout badge.

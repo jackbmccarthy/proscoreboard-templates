@@ -70,3 +70,12 @@ How the new templates handle the text-only fields:
 Runtime gaps to close: per-base booleans (for example `isRunnerOnFirst/Second/Third`), or a
 `data-osb-value` attribute written for text fields. A count/outs pip representation, and an
 `isComplete` conditional binding.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: count dots, outs dots, runner diamond, at-bat marker, half-inning break banner.
+- Structural here: line-score columns as innings are played (incl. extra innings), final.
+- Audit of main d1669f9: 8 of 8 pass. Advisory only: the half-inning label ("Top 1" -> "Bottom 1") and the blanked count text at the break change text width and shift a neighbour; keep those labels in fixed-width boxes.

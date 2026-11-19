@@ -28,6 +28,14 @@ The standalone contract contains only safe static helpers and public runtime met
   `html`, `:root`, `body` or any viewport-sized wrapper/stage, in every placement. Keep the scoreboard's
   own panel colours; move a ground a translucent panel relied on onto the panel itself. Full-bleed
   exceptions need an owner decision in `tools/transparent-backdrop-exemptions.json` (content-hash bound).
+- Conditional components never move other components (owner rule, 2026-11-18). Transient conditionals
+  (serve, possession, at-bat, game/set/match point, timeout cards and pips, cards, break banners,
+  warm-up, deciding set, bonus, added time, shootout, shot clock, count/outs/runner dots) sit in
+  offset slots (absolute/translate), overlays, or fixed reserved slots that keep their size hidden
+  (opacity/visibility, never `display:none`/`width:0` inside a row with other content). Structural
+  conditionals (country flags, logos, doubles, team strip, ledger/extra-inning columns, final and
+  full-screen break layouts) may change layout between configurations/states only. Patterns: the
+  authoring skill section 2a; rendered check: the server repo's `scripts/qa/template-layout-stability.mjs`.
 - Two-row templates use flexible paired column tracks. Full-screen layouts can vary;
   preserve their authored format rather than forcing a single layout convention.
 - No scripts in HTML, event-handler attributes, executable URLs or active embeds. Static

@@ -62,6 +62,8 @@ values, append-only `published/`, no new dependencies, Node 22).
   one shared slot, with `slot:has(>.isMatchPoint[style*="opacity: 1"])>.isGamePoint{opacity:0!important}`
   and reduced-motion support for any animation. Service indicators stay separate per side
   (`isACurrentlyServing isA="true"` / `isBCurrentlyServing`).
+- **Conditional components never move other components (owner rule, 2026-11-18)**: see section 2a.
+  A conditional in a row that takes width only while shown fails the rendered check.
 - Core match fields (`combinedA/BName`, `jerseyColorA/B`, `currentA/BGameScore`,
   `currentA/BMatchScore`) are required by inspection. When a design legitimately shows other
   fields instead (courtside ends, a summary built on game history), keep the core fields in a
@@ -70,6 +72,77 @@ values, append-only `published/`, no new dependencies, Node 22).
 - Stored values are neutral: names and metadata empty, numbers `0`. Preview text comes from
   `getPreviewDefaults()` / fixtures, never from saved HTML. `neutralizeScoreboardTemplateHTML(html)`
   must return the file unchanged.
+
+## 2a. Layout stability: conditionals live in offset or reserved slots
+
+Owner rule (Jack, 2026-11-18): "for a lot of the conditional components that only show during
+certain times, you don't want other components to move around it ... offset it with translate Y or
+X ... There should be dedicated like offset spots for most of the things like that, where it becomes
+like a temporary box that appears for a little bit and then disappears." Country flags are the
+exception. The field-by-field classification is the server repo's
+`docs/scoreboard/conditional-layout-classes.json`.
+
+- **Transient** (appears and disappears during play): serve / second server, possession, at-bat,
+  game / set / match point (`is[AB]?GamePoint`, `is[AB]?MatchPoint`), active timeout cards and
+  countdowns, timeout used / remaining pips, yellow/red cards, between-games / period-break banners
+  and `nextGame`, warm-up, deciding set, BONUS, added time, shootout strip, shot clock shown/hidden,
+  count / outs / runner dots. Turning one on or off must not move or resize names, scores, games or
+  sets, line score, logos, clocks **or any other transient** (a yellow card must not push the hidden
+  red card either).
+- **Structural** (fixed by match/competition configuration, or changes only at a game/period/match
+  boundary): country flags (only when the competition uses flags), logos and player images present
+  or absent, singles vs doubles names, the team-match tie strip, home/away and switched ends, game /
+  set ledger and line-score columns as games/innings are played (incl. extra innings / overtime),
+  pre-match / final presentation, and the break/summary layout of a **full-screen** card. These may
+  change layout between configurations or states, never mid-rally.
+
+How the runtime hides things matters: most `is*` fields only set `opacity` (the box stays in
+layout), but `is[AB]?TimeOutActive`, `is[AB]TimeOutUsed` and `isGame{N}Started` are toggled with
+`display` (none while off), and text transients (`bonusA/B`, `addedTime`, `nextGame`,
+`timeOutTimerA/B`, `timeoutClock`) are empty strings while off, so their boxes collapse. Patterns:
+
+```css
+/* 1. Offset slot: the chip hangs off an anchor that never grows (absolute + translate). */
+.row{position:relative}
+.row>.gp{position:absolute;left:100%;top:50%;transform:translate(.6rem,-50%);white-space:nowrap}
+.bar>.tob{position:absolute;left:1rem;bottom:100%;transform:translateY(-.3rem)} /* timeout tab above the bar */
+
+/* 2. Reserved fixed slot: the same box shown or hidden; only opacity/visibility change. */
+.srv-slot{flex:0 0 1.4rem;height:1.4rem}            /* fixed track in the flex row */
+.srv-slot>.isACurrentlyServing{width:100%;height:100%}
+.cards{display:grid;grid-template-columns:repeat(2,1.1rem);gap:.25rem} /* both cards always laid out */
+.bonus-slot{inline-size:4.2rem}.bonusA:empty{visibility:hidden} /* text transient: fixed width */
+
+/* 3. Overlay: the break banner covers the area it replaces; the covered column keeps its width. */
+.pts{position:relative}
+.pts>.brk{position:absolute;inset:0;display:grid;place-items:center}
+.board:has(.isInBetweenGames[style*="opacity: 1"]) .pts>.num{visibility:hidden} /* not display:none */
+
+/* 4. Transform enter/exit: transforms never affect layout. */
+.gp{transition:transform .25s,opacity .25s}.gp[style*="opacity: 0"]{transform:translateY(40%)}
+@media (prefers-reduced-motion: reduce){.gp{transition:none}}
+```
+
+Never do this to a transient that shares a row with other content:
+`.chip[style*="opacity: 0"]{display:none}`, `{width:0}`, `{max-width:0}`, a `:has(<transient>)` rule
+that collapses a column or inserts a row, or an in-flow timeout badge / card inside the name
+sub-line. Use `visibility:hidden` / `opacity:0` (box kept) instead of `display:none` (box removed)
+whenever the element shares a row with stable content; use `display:none` only inside an
+offset/overlay slot of its own.
+
+Structural example (allowed): flags reserve their space only when the match uses flags, e.g.
+`.board:has(.countryA[src=""]) .flag-col{display:none}`; it changes once per match, not mid-rally.
+A pickleball score call that reads the server's score first may swap the two numbers when the serve
+changes (a reorder of one sentence, reported as a swap, not a failure).
+
+Check (renders through the real output page; a static lint was evaluated and rejected, see the
+server repo's docs/DECISIONS.md 2026-11-18): in the server repo,
+`node scripts/qa/template-layout-stability.mjs --templates-dir "<this checkout>" --only <id> --shots /tmp/ls`
+toggles every transient on/off (and serve + game point, timeout + game point, card + match point)
+and fails when any other element moves or resizes by more than 1 px, or when the in-flow box holding
+a transient changes size. `--shots` saves the "on" frame with the moved boxes outlined (cyan: before,
+red: after). Its `--ledger` result (`layout-stability.json`, bound to the content hash) is required by
+`scoreboard-approval.mjs --check-approved`.
 
 ## 3. Authoring workflow
 
@@ -114,7 +187,9 @@ values, append-only `published/`, no new dependencies, Node 22).
 - Look at **every** rendered PNG (`previews/<hash>.png`, path in `catalog.json`). Build a contact
   sheet per sport and placement to compare. Reject: truncated names, tiny unreadable text, empty
   boxes, clutter that is not live data, wrong-sport furniture, inconsistent A/B alignment, any
-  colour behind the scoreboard (judge the full 1920x1080 frame on a checkerboard, not only the crop).
+  colour behind the scoreboard (judge the full 1920x1080 frame on a checkerboard, not only the crop),
+  any component that slides or resizes when a transient (serve, game point, timeout, card, break
+  banner) appears or disappears (section 2a).
 - Keep variety across the ten: different structures (stacked rows, split, score-left, linescore),
   light and dark, different accent palettes. Ten palette swaps of one layout count as one design.
 - Retiring: set `"retired": true` and `"published": false` on the manifest entry and rebuild.

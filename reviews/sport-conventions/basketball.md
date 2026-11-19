@@ -48,3 +48,12 @@ line scores or halftime cards; shot clock and timeout banners are not needed the
   bonus, timeouts, possession and timeout banners have no fixture sample, so previews show
   them hidden. Adding samples would change the fixture recipe and require regenerating
   every preview, so it was not done here.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: possession arrow, BONUS, timeout card and countdown, timeout pips, shot clock shown/hidden, period-break banner, clock running indicators.
+- Structural here: overtime period columns once played, final.
+- Audit of main d1669f9: 2 of 6 pass; BONUS takes width in the fouls row (arena-led, possession-rail), and the period break hides the shot clock (arena-stack recentres the period label) or inserts a row (hardwood-tab).

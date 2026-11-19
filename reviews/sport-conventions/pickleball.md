@@ -34,3 +34,12 @@ Not pickleball: table-tennis "GAMES/POINTS" header-only layouts with a single se
 - No team-event boolean; team tie (`teamAName`/`teamAScore`) blocks are present but hidden by default.
 - `isSecondServer` is not in `contract/runtime-fields.json` or the preview fixture, so previews always show
   server 1.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: serve markers and the doubles second-server number, GAME POINT / MATCH POINT, timeout card and countdown, timeout used, cards, between-games banner, warm-up.
+- Structural here: doubles names, team-match strip, game-history columns, final, the full-screen between-games card layout. The score call that reads the server's score first may swap its two numbers when the serve changes (a reorder, not a push).
+- Audit of main d1669f9: 1 of 6 pass; corner and lower boards collapse/rearrange the points and call columns at the break, and the lower call panel and head-to-head put the timeout badge and cards inline in the name sub-line.

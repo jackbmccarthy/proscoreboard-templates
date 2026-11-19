@@ -44,3 +44,12 @@ Not table tennis: periods, clocks, innings, possession, "SETS" labels, server nu
 - Full screens whose big numbers are games won while live points are small and grey; full screens without server,
   timeouts or cards.
 - Near-clones: several placements built from one layout recoloured. Each design needs its own composition.
+
+## Layout stability (owner rule, 2026-11-18)
+
+Transient conditionals sit in offset slots, overlays or fixed reserved slots and never move other
+components (authoring skill section 2a; server check `scripts/qa/template-layout-stability.mjs`).
+
+- Transient here: serve markers (per side), GAME POINT / MATCH POINT (one shared slot), active timeout card and countdown, timeout used, yellow/red cards, between-games banner and next game, warm-up.
+- Structural here: country flags, doubles names, team-match tie strip, game-history columns as games start, final.
+- Audit of main d1669f9: 3 of 4 pass; `starter-tabletennis-full-linescore` grows its centred card 121 px for GAME/MATCH POINT (reserve a fixed footer strip or overlay the ribbon).
