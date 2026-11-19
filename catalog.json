@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "4ee305e6d8837f9ce519f743a589e89a41a263bb237fd33da6cfa594b539d64e",
+  "revision": "65672d8c1ced2dc77e517c2429be3f6ce937e43142bd4d9ccf7a1a297901e4c5",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -45607,8 +45607,8 @@
         "#170f40"
       ],
       "placement": "full-screen",
-      "published": false,
-      "retired": true,
+      "published": true,
+      "retired": false,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45629,7 +45629,17 @@
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
       "contentHash": "a9820fc5bc030a7530f22e94f59a5652ae46f4e74d0f163e80dd533b30084f11",
-      "documentPath": "published/a9820fc5bc030a7530f22e94f59a5652ae46f4e74d0f163e80dd533b30084f11.json"
+      "documentPath": "published/a9820fc5bc030a7530f22e94f59a5652ae46f4e74d0f163e80dd533b30084f11.json",
+      "preview": {
+        "path": "previews/df773b3eb81493ef60397d58b60aa581e45050a89f16eb8788fa726a994ab79c.png",
+        "imageHash": "df773b3eb81493ef60397d58b60aa581e45050a89f16eb8788fa726a994ab79c",
+        "contentHash": "a9820fc5bc030a7530f22e94f59a5652ae46f4e74d0f163e80dd533b30084f11",
+        "width": 1370,
+        "height": 746,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "softball"
+      }
     },
     {
       "aliases": [],
