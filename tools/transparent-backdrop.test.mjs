@@ -43,7 +43,7 @@ test('the subject of a selector is its last compound', () => {
 
 test('every active published scoreboard has a transparent page backdrop (or an owner-reviewed exemption for its exact content)', async () => {
   const results = await checkCatalog();
-  assert.ok(results.length >= 40);
+  assert.ok(results.length >= 30);
   const failures = results.filter((result) => (result.violations.length && !result.exempt) || result.staleExemption)
     .map((result) => `${result.fileName}${result.staleExemption ? ' (stale exemption)' : ''}: ${result.violations.map((v) => `${v.selector} ${v.paints.join('; ')}`).join(' | ')}`);
   assert.deepEqual(failures, []);

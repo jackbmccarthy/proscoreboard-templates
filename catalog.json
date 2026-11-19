@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "bf80714f1f7a3eaf90a86ddeedc46eb50d8d1caad8f6a18332485f361181a2da",
+  "revision": "14839e03b88c0f66e33d41e957603d8ed4ed6572feb0725c2a5c65ecd9fa9af2",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44443,7 +44443,8 @@
         "#ffc83d"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -44464,17 +44465,7 @@
       "title": "Baseball — Final Line Score",
       "fileName": "starter-baseball-final-line-score.html",
       "contentHash": "009e50511c116c5a6941f62a75b1375ae4ac6b9994a1449301d213897752d450",
-      "documentPath": "published/009e50511c116c5a6941f62a75b1375ae4ac6b9994a1449301d213897752d450.json",
-      "preview": {
-        "path": "previews/bc382b2636429ca919e24348a54a9745496082724b44f48338ef0f7e657666ab.png",
-        "imageHash": "bc382b2636429ca919e24348a54a9745496082724b44f48338ef0f7e657666ab",
-        "contentHash": "009e50511c116c5a6941f62a75b1375ae4ac6b9994a1449301d213897752d450",
-        "width": 1274,
-        "height": 504,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "baseball"
-      }
+      "documentPath": "published/009e50511c116c5a6941f62a75b1375ae4ac6b9994a1449301d213897752d450.json"
     },
     {
       "aliases": [],
@@ -44485,7 +44476,8 @@
         "#ffd166"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -44506,17 +44498,7 @@
       "title": "Baseball — Inning Break Card",
       "fileName": "starter-baseball-inning-break-card.html",
       "contentHash": "077b9b79851bca8338c7c83adc7724d4ea5439c2ac12a120b74b50c1fecb48b6",
-      "documentPath": "published/077b9b79851bca8338c7c83adc7724d4ea5439c2ac12a120b74b50c1fecb48b6.json",
-      "preview": {
-        "path": "previews/12ef5ec106a4f74f5e7414f091a48b5305d1c6dc5088b8978f0379755dca6faa.png",
-        "imageHash": "12ef5ec106a4f74f5e7414f091a48b5305d1c6dc5088b8978f0379755dca6faa",
-        "contentHash": "077b9b79851bca8338c7c83adc7724d4ea5439c2ac12a120b74b50c1fecb48b6",
-        "width": 1182,
-        "height": 716,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "baseball"
-      }
+      "documentPath": "published/077b9b79851bca8338c7c83adc7724d4ea5439c2ac12a120b74b50c1fecb48b6.json"
     },
     {
       "aliases": [],
@@ -45519,7 +45501,8 @@
         "#e4f23a"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45540,17 +45523,7 @@
       "title": "Softball — Final Line Score",
       "fileName": "starter-softball-final-line-score.html",
       "contentHash": "40711ad892ca1aeab8768c3d16ad76d4b5e7aaae620d0ea3c2a16f2798208b51",
-      "documentPath": "published/40711ad892ca1aeab8768c3d16ad76d4b5e7aaae620d0ea3c2a16f2798208b51.json",
-      "preview": {
-        "path": "previews/7623b42c0966863770f2efc2bf2c8ed2164f3005ee7efe5088b99d4d5f29aecc.png",
-        "imageHash": "7623b42c0966863770f2efc2bf2c8ed2164f3005ee7efe5088b99d4d5f29aecc",
-        "contentHash": "40711ad892ca1aeab8768c3d16ad76d4b5e7aaae620d0ea3c2a16f2798208b51",
-        "width": 1274,
-        "height": 504,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "softball"
-      }
+      "documentPath": "published/40711ad892ca1aeab8768c3d16ad76d4b5e7aaae620d0ea3c2a16f2798208b51.json"
     },
     {
       "aliases": [],
@@ -45561,7 +45534,8 @@
         "#e6f03c"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -45582,17 +45556,7 @@
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
       "contentHash": "82f1b9b039244efc31d961c018ed6a4e781bfa191cb9e692900c7293f991f9a4",
-      "documentPath": "published/82f1b9b039244efc31d961c018ed6a4e781bfa191cb9e692900c7293f991f9a4.json",
-      "preview": {
-        "path": "previews/2b2649ad657a55a186a2113e3ca59b7b017f165404c2b5972fcb39b3b2af0d3c.png",
-        "imageHash": "2b2649ad657a55a186a2113e3ca59b7b017f165404c2b5972fcb39b3b2af0d3c",
-        "contentHash": "82f1b9b039244efc31d961c018ed6a4e781bfa191cb9e692900c7293f991f9a4",
-        "width": 1182,
-        "height": 716,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "softball"
-      }
+      "documentPath": "published/82f1b9b039244efc31d961c018ed6a4e781bfa191cb9e692900c7293f991f9a4.json"
     },
     {
       "aliases": [],
@@ -45961,7 +45925,8 @@
         "#ff8a1c"
       ],
       "placement": "courtside",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -45980,17 +45945,7 @@
       "title": "Table Tennis Courtside — Arena Split",
       "fileName": "starter-tabletennis-courtside-arena-split.html",
       "contentHash": "ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736",
-      "documentPath": "published/ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736.json",
-      "preview": {
-        "path": "previews/287475b29bd8e84cd3c50a92a8e5087db75b5e3126429171ca040a5a14611e09.png",
-        "imageHash": "287475b29bd8e84cd3c50a92a8e5087db75b5e3126429171ca040a5a14611e09",
-        "contentHash": "ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736",
-        "width": 1297,
-        "height": 736,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736.json"
     },
     {
       "aliases": [],
@@ -46070,7 +46025,8 @@
         "#1aa260"
       ],
       "placement": "courtside",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46089,17 +46045,7 @@
       "title": "Table Tennis Courtside — Daylight",
       "fileName": "starter-tabletennis-courtside-daylight.html",
       "contentHash": "a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165",
-      "documentPath": "published/a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165.json",
-      "preview": {
-        "path": "previews/6fdd6831c2909a7294fd179191cebf38fe997a7c7404daddb9f1f5fb57c475bf.png",
-        "imageHash": "6fdd6831c2909a7294fd179191cebf38fe997a7c7404daddb9f1f5fb57c475bf",
-        "contentHash": "a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165",
-        "width": 1298,
-        "height": 737,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165.json"
     },
     {
       "aliases": [],
@@ -46312,7 +46258,8 @@
         "#ff8a1c"
       ],
       "placement": "courtside",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46331,17 +46278,7 @@
       "title": "Table Tennis Courtside — Table Green",
       "fileName": "starter-tabletennis-courtside-table-green.html",
       "contentHash": "93324d428c160ff7cee6efd54420280c69c91be4fdd906c4786fb6d5af2a581b",
-      "documentPath": "published/93324d428c160ff7cee6efd54420280c69c91be4fdd906c4786fb6d5af2a581b.json",
-      "preview": {
-        "path": "previews/e6d8ea5eafdd87a3956d435e184b1c71bb66a4d437473bab0443696370a08269.png",
-        "imageHash": "e6d8ea5eafdd87a3956d435e184b1c71bb66a4d437473bab0443696370a08269",
-        "contentHash": "93324d428c160ff7cee6efd54420280c69c91be4fdd906c4786fb6d5af2a581b",
-        "width": 1301,
-        "height": 755,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/93324d428c160ff7cee6efd54420280c69c91be4fdd906c4786fb6d5af2a581b.json"
     },
     {
       "aliases": [],
@@ -46454,7 +46391,8 @@
         "#ff9a3c"
       ],
       "placement": "full-screen",
-      "published": true,
+      "published": false,
+      "retired": true,
       "runtimeSupport": {
         "scores": "game-match",
         "sportCounters": "native",
@@ -46472,17 +46410,7 @@
       "title": "Table Tennis Full Screen — Linescore",
       "fileName": "starter-tabletennis-full-linescore.html",
       "contentHash": "60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383",
-      "documentPath": "published/60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383.json",
-      "preview": {
-        "path": "previews/b67015f97513177b785ff48dabb078a305059657142a07ea74b67ded2406105c.png",
-        "imageHash": "b67015f97513177b785ff48dabb078a305059657142a07ea74b67ded2406105c",
-        "contentHash": "60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383",
-        "width": 1306,
-        "height": 736,
-        "fixtureVersion": "sport-samples-v1",
-        "rendererVersion": "1",
-        "sport": "tableTennis"
-      }
+      "documentPath": "published/60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383.json"
     },
     {
       "aliases": [],

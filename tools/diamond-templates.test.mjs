@@ -15,11 +15,13 @@ const REQUIRED = ['currentAGameScore', 'currentBGameScore', 'jerseyColorA', 'jer
 const entries = manifest.filter(entry => /^html-replications\/starter-(?:baseball|softball)-/.test(entry.output));
 const classes = tag => (tag.attributes.class || '').split(/\s+/).filter(Boolean);
 
-test('sport-native diamond starters keep three corners, three lower thirds and two full screens per sport active', () => {
+test('sport-native diamond starters keep three corners and three lower thirds per sport active', () => {
   // 2026-11-14 round 2: the box bug and the ribbon (blind review <= 6.5) are retired, not deleted.
+  // 2026-11-18: the final line score and inning break card are retired (transparent-page versions scored 8 < 9 in blind
+  // review); they return only after a redesign passes.
   for (const sport of ['baseball', 'softball']) {
     const placements = entries.filter(entry => entry.sport === sport && !entry.retired).map(entry => entry.placement).sort();
-    assert.deepEqual(placements, [...Array(3).fill('corner'), 'full-screen', 'full-screen', ...Array(3).fill('lower-third')], sport);
+    assert.deepEqual(placements, [...Array(3).fill('corner'), ...Array(3).fill('lower-third')], sport);
   }
 });
 

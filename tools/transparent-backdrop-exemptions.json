@@ -1,27 +1,5 @@
 {
   "schemaVersion": 1,
   "rule": "Everything behind the scoreboard (html, :root, body and any page-sized wrapper) is transparent. An exemption records an owner decision that a design's whole frame is the graphic; it binds the exact content hash, so any edit to the design ends it.",
-  "exemptions": [
-    {
-      "fileName": "starter-tabletennis-courtside-daylight.html",
-      "contentHash": "a371381cd827e43226f2b33a75497d145247af7dc9d955df8df2d45858aaf165",
-      "decision": "pending",
-      "recorded": "2026-11-18",
-      "reason": "Courtside full-bleed board: the cream page colour (.board background #e9e5da on a position:fixed inset:0 main) shows between the two player cards and behind the event line. Listed for the owner's decision instead of being changed: either keep it as an intentional full-frame courtside display, or make the page transparent and give the cards/event line their own ground."
-    },
-    {
-      "fileName": "starter-tabletennis-courtside-arena-split.html",
-      "contentHash": "ea61132371b714928c3d383bc480afc8adaf1d26f6b05b60d1353359c2b35736",
-      "decision": "pending",
-      "recorded": "2026-11-18",
-      "reason": "Courtside full-bleed board: the two halves and the footer bar cover the frame; the .board page colour #060b14 shows only as the 4 px centre divider between the halves. Listed for the owner's decision instead of being changed (removing it would cut a transparent slit through a full-frame graphic)."
-    },
-    {
-      "fileName": "starter-tabletennis-full-linescore.html",
-      "contentHash": "60f89922cd030262839bc252e0cc652c054644876bf32c885f2093addf7f8383",
-      "decision": "pending",
-      "recorded": "2026-11-18",
-      "reason": "Full-screen full-bleed design: the radial navy gradient (.board, position:fixed inset:0) is the ground of the whole frame, the event title and round line float on it, and a full-width gold stripe (.board::before) runs along the top edge of the frame. There is no card element to carry the ground, so it is listed for the owner's decision instead of being changed: keep as a full-frame graphic, or restructure into a card (wrapper element around title, tie bar, line score and footer) on a transparent page."
-    }
-  ]
+  "exemptions": []
 }
