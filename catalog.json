@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "e291970c11fa8967484601282a4563ab46dbf7ba7ada9d35873600c67e3cf585",
+  "revision": "55e0321163914a67ded42ad4fb6de047f667ed3ab8716ef7dd0edd104cb0a307",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44525,8 +44525,8 @@
       ],
       "title": "Baseball — Inning Break Card",
       "fileName": "starter-baseball-inning-break-card.html",
-      "contentHash": "34d7473eb5ccf973428027527bc4c8080a237229b8621ad691ef76234d2c414e",
-      "documentPath": "published/34d7473eb5ccf973428027527bc4c8080a237229b8621ad691ef76234d2c414e.json"
+      "contentHash": "b2dc8df6f5d2b824e94b616066955fe2e374a3bde389c1df6c355f3beec13da6",
+      "documentPath": "published/b2dc8df6f5d2b824e94b616066955fe2e374a3bde389c1df6c355f3beec13da6.json"
     },
     {
       "aliases": [],
@@ -45543,8 +45543,8 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen softball scorebook on a transparent page: a violet card with the optic SOFTBALL tag, event · round and a PREGAME / LIVE / FINAL pill; a scorebook with one column per team (jersey bar, AWAY/HOME kicker with AT BAT or WIN pill, name, runs in a team-coloured tile) and one row per inning down the page (7 regulation innings, extra innings 8-10 added when played and marked apart from the current-inning highlight), H and E at the foot. The side column stacks the situation (inning with half arrow, diamond, count with B/S pips, outs) and, outside play, carries the state in the same space: UP NEXT · FIRST PITCH, an END OF chip with the half, FINAL after n innings. At the end the winner's runs tile is outlined optic yellow and the loser's column steps back. 7-inning layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner marked and the loser's text stepped back while its team colour stays (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey colours keep a fallback when a team has none. Every show/hide element starts hidden; stored names are blank and numbers are 0. Transparent page: the card carries its own ground.",
-      "motif": "Softball scorebook: the line score turned on its side like a scorebook page (a column per team with colour, name and runs; one row per inning down the page, 7 regulation innings; H and E at the foot), and a side column with the situation that carries the state outside play.",
+      "description": "Full-screen softball line score on a transparent page: a violet card with an optic-ruled deep header (SOFTBALL tag, event and round on their own lines, PREGAME / LIVE / FINAL pill), a horizontal line score (jersey bar, AWAY/HOME kicker with AT BAT or WIN pill, one-line name; 7 regulation innings, extra innings 8-10 joining as shaded columns with an EXTRA INNINGS legend only when played; current inning lit optic) with R-H-E grouped at the end and R in team-coloured tiles, and one situation strip whose clusters (inning with half arrow, diamond, count with B/S pips, outs) are sized to their content; outside play the same strip reads UP NEXT · FIRST PITCH, END OF the half, or GAME OVER · AFTER n INNINGS. At the end the winner's runs tile is outlined optic yellow and the loser steps back. 7-inning layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner marked and the loser's text stepped back while its team colour stays (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey colours keep a fallback when a team has none. Every show/hide element starts hidden; stored names are blank and numbers are 0. Transparent page: the card carries its own ground.",
+      "motif": "Softball line score: violet card with an optic-ruled header (SOFTBALL tag, event, round, status pill), a horizontal 7-inning line score with labelled EXTRA columns only when played, R-H-E grouped with R in team-coloured tiles, and one situation strip of content-sized clusters that carries the state outside play.",
       "output": "html-replications/starter-softball-final-line-score.html",
       "palette": [
         "#22175a",
@@ -45573,13 +45573,13 @@
       ],
       "title": "Softball — Final Line Score",
       "fileName": "starter-softball-final-line-score.html",
-      "contentHash": "013ae3014f5367b360422d26399a1e54c5803e88bb6968672d9e52b6b1ca8fe2",
-      "documentPath": "published/013ae3014f5367b360422d26399a1e54c5803e88bb6968672d9e52b6b1ca8fe2.json"
+      "contentHash": "0b693676cfe431b70b5f7b6300a8b85798294b6cb0a9c99335aa3a1a617ac335",
+      "documentPath": "published/0b693676cfe431b70b5f7b6300a8b85798294b6cb0a9c99335aa3a1a617ac335.json"
     },
     {
       "aliases": [],
-      "description": "Full-screen softball inning break card on a transparent page: a violet card whose top bar carries the optic SOFTBALL tag, event · round, a 7-inning progress ladder (innings played and the current one lit) and the PREGAME / LIVE pill; the two teams stacked as full-width rows (runs in team-coloured tiles, AWAY/HOME kicker, name, solid AT BAT or DUE UP pill; the winner outlined optic with an edge bar, the loser stepped back); a line score with team names (teamA/BName), 7 innings, extras 8-10 when played (marked apart from the current inning) and R-H-E; and a bottom tray of fixed height: four labelled situation tiles while live, otherwise FIRST PITCH, an END OF chip with the half, or FINAL with AFTER n INNINGS. 7-inning layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner marked and the loser's text stepped back while its team colour stays (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey colours keep a fallback when a team has none. Every show/hide element starts hidden; stored names are blank and numbers are 0. Transparent page: the card carries its own ground.",
-      "motif": "Softball break card: a top bar with the optic SOFTBALL tag, event and a 7-inning progress ladder; the teams as stacked full-width rows (runs tile, name, AT BAT / DUE UP); a line score with team names and R-H-E; and a tray of fixed height with the live situation or the state.",
+      "description": "Full-screen softball inning break card on a transparent page: SOFTBALL tag with event and round on top; on the left the two teams stacked as rows (dominant runs in team-coloured tiles, AWAY/HOME kicker, one-line name, solid AT BAT or DUE UP pill; the winner outlined optic with an edge bar, the loser stepped back) and a line score with team names (teamA/BName), 7 innings, extras 8-10 when played (shaded apart from the current inning) and R-H-E; on the right an optic side block with the PREGAME / LIVE / FINAL status, an inning tracker (1-7 lit as played, the current one marked, and an EXTRA pip for innings 8+) and the live situation stacked (inning, diamond, count with B/S pips, outs), which outside play carries UP NEXT · FIRST PITCH, END OF the half, or GAME OVER · AFTER n INNINGS in the same space. 7-inning layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner marked and the loser's text stepped back while its team colour stays (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey colours keep a fallback when a team has none. Every show/hide element starts hidden; stored names are blank and numbers are 0. Transparent page: the card carries its own ground.",
+      "motif": "Softball break card: violet card with stacked team rows (dominant runs tiles, name, AT BAT / DUE UP) and a line score with team names and R-H-E, beside an optic side block with the status, an inning tracker (1-7 and EXTRA) and the live situation stacked as a scorebug, or the state outside play.",
       "output": "html-replications/starter-softball-inning-break-card.html",
       "palette": [
         "#d4f53c",
@@ -45608,8 +45608,8 @@
       ],
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
-      "contentHash": "b5ba7aec54a7c707e61e365c31df19526dbbacae0e9fb00d2da10f7d07ac7256",
-      "documentPath": "published/b5ba7aec54a7c707e61e365c31df19526dbbacae0e9fb00d2da10f7d07ac7256.json"
+      "contentHash": "000bb52543e2223bd5e7072db67cfc165d5a919564c49e686d4e835db326934d",
+      "documentPath": "published/000bb52543e2223bd5e7072db67cfc165d5a919564c49e686d4e835db326934d.json"
     },
     {
       "aliases": [],
@@ -46333,8 +46333,8 @@
       ],
       "title": "Table Tennis Courtside — Table Green",
       "fileName": "starter-tabletennis-courtside-table-green.html",
-      "contentHash": "3c69df84f8886bd1291c69cdac6cbcaa3248d125e069386360b899f95660aaa5",
-      "documentPath": "published/3c69df84f8886bd1291c69cdac6cbcaa3248d125e069386360b899f95660aaa5.json"
+      "contentHash": "cc3de98eb5850b7e9f66cfc56541d768c133572a5f9bfb12ecb4c95e1098331e",
+      "documentPath": "published/cc3de98eb5850b7e9f66cfc56541d768c133572a5f9bfb12ecb4c95e1098331e.json"
     },
     {
       "aliases": [],
@@ -46465,8 +46465,8 @@
       ],
       "title": "Table Tennis Full Screen — Linescore",
       "fileName": "starter-tabletennis-full-linescore.html",
-      "contentHash": "9071067b0a90fc09028f029269843baf01dade9edef744f2917903a3ddecb040",
-      "documentPath": "published/9071067b0a90fc09028f029269843baf01dade9edef744f2917903a3ddecb040.json"
+      "contentHash": "991917e9345b34cb3fa3d51c5244eecc86ced21de385868379b5794ffa648674",
+      "documentPath": "published/991917e9345b34cb3fa3d51c5244eecc86ced21de385868379b5794ffa648674.json"
     },
     {
       "aliases": [],

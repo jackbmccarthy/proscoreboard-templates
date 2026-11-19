@@ -23,8 +23,8 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .osb-core-fields{display:none!important}
 /* a card centred on a transparent page */
-.board{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.25vw;font-family:"Avenir Next Condensed","DIN Condensed","Roboto Condensed","Arial Narrow",Arial,sans-serif;color:#fff;background:transparent;-webkit-font-smoothing:antialiased;--navy:#0d1830;--panel:#132244;--line:#26396a;--gold:#ffd23f;--mute:#a9bbdd}
-.card{display:flex;flex-direction:column;gap:1.1em;width:74em;padding:1.5em 1.8em 1.3em;border-radius:.8em;background:linear-gradient(180deg,#172a52 0%,#0b1429 100%);box-shadow:inset 0 .3em 0 var(--gold)}
+.board{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.4vw;font-family:"Avenir Next Condensed","DIN Condensed","Roboto Condensed","Arial Narrow",Arial,sans-serif;color:#fff;background:transparent;-webkit-font-smoothing:antialiased;--navy:#0d1830;--panel:#132244;--line:#26396a;--gold:#ffd23f;--mute:#a9bbdd}
+.card{display:flex;flex-direction:column;gap:1.1em;width:66em;padding:1.4em 1.6em 1.3em;border-radius:.8em;background:linear-gradient(180deg,#172a52 0%,#0b1429 100%);box-shadow:inset 0 .3em 0 var(--gold)}
 /* header: event, round and format; the match state on the right */
 .top{display:flex;align-items:center;justify-content:space-between;gap:2em;min-width:0}
 .title{display:flex;flex-direction:column;gap:.35em;min-width:0;text-transform:uppercase}
@@ -66,21 +66,22 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .row+.row,.hc+.hc,.cell+.cell{border-top:.08em solid var(--line)}
 .kit{flex:0 0 .55em;align-self:stretch;background:#55647e}
 .flag{flex:0 0 auto;width:2.6em;height:1.75em;object-fit:cover;border-radius:.15em;box-shadow:0 0 0 1px rgba(0,0,0,.35)}
-.nmw{display:flex;align-items:center;gap:.6em;flex:1 1 auto;min-width:0}
-.name{min-width:0;font-size:1.9em;line-height:1.02;font-weight:800;text-transform:uppercase;overflow-wrap:normal;word-break:normal;hyphens:none}
+.nmw{display:flex;align-items:center;gap:.6em;flex:0 1 auto;min-width:0}
+.name{min-width:0;font-size:1.8em;line-height:1.02;font-weight:800;text-transform:uppercase;overflow-wrap:normal;word-break:normal;hyphens:none}
 .wslot{width:2em;height:2em}
 .wslot:not(:has(>[style*="opacity: 1"])){display:none}
 /* state column (time-out, cards) and serve column: fixed slots of their own, aligned in both rows */
 .win{border-radius:50%;background:var(--gold)}
 .win::after{content:"";width:.5em;height:.95em;margin-top:-.2em;border:solid #111;border-width:0 .22em .22em 0;transform:rotate(45deg)}
-.marks{display:flex;align-items:center;justify-content:flex-end;gap:.55em;flex:0 0 14em;align-self:stretch;padding:0 .4em}
-.to-slot{width:9.4em;height:2.6em}
+.marks{display:flex;align-items:center;gap:.5em;flex:none;margin-right:auto;padding-left:.4em}
+.to-slot:not(:has(>[style*="opacity: 1"])),.card-slot:not(:has(>[style*="opacity: 1"])){display:none}
+.to-slot{width:9.2em;height:2.6em}
 
-.to-on,.to-used{gap:.4em;border-radius:.25em;font-size:1.3em;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+.to-on,.to-used{gap:.4em;border-radius:.25em;font-size:1.25em;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
 .to-on{background:var(--gold);color:#111}
 .to-used{background:#dfe7f6;color:var(--navy)}
 .tclock{display:inline-flex;align-items:center;justify-content:center;min-width:1.9em;height:1.45em;border-radius:.2em;background:#111;color:var(--gold);font-variant-numeric:tabular-nums}
-.card-slot{width:1.7em;height:2.4em}
+.card-slot{width:2em;height:2.7em}
 .cardk{border-radius:.16em;box-shadow:0 0 0 1px rgba(0,0,0,.35);transform:rotate(-8deg)}
 .yc{background:#ffd400}.rc{background:#e3262f}
 .sv{display:flex;align-items:center;justify-content:center;flex:0 0 4.2em;align-self:stretch}
@@ -90,9 +91,10 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .ball{border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 16%,#ff9a3c 45%,#d65f00 100%);box-shadow:0 0 0 .14em rgba(0,0,0,.3),0 0 .6em rgba(255,154,60,.5)}
 .hist{position:relative;display:flex}
 .hcol{display:flex;flex-direction:column;flex:0 0 auto;width:4.6em;border-left:.08em solid var(--line)}
-.hc{position:relative;display:flex;align-items:center;justify-content:center;height:calc(5.4em / 2);font-size:2em;font-family:"DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;font-weight:700;font-variant-numeric:tabular-nums;color:#8293b3}
-.hc .won{inset:.3em .3em;border-radius:.15em;background:#2a3d63}
+.hc{position:relative;display:flex;align-items:center;justify-content:center;height:calc(5.4em / 2.4);font-size:2.4em;font-family:"DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;font-weight:700;font-variant-numeric:tabular-nums;color:#8293b3}
+.hc .won{inset:.25em .3em;border-radius:.15em;background:#3d63b8}
 .hc:has(.won[style*="opacity: 1"]){color:#fff}
+.hc:not(:has(.won[style*="opacity: 1"])){color:#c3cee4}
 /* the game in play: the only started game nobody has won yet */
 .hcol:not(:has(.won[style*="opacity: 1"])){width:7.6em;background:var(--gold);border-left:0}
 .hcol:not(:has(.won[style*="opacity: 1"])) .hd{background:#e8b900;color:#111}
@@ -101,7 +103,7 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .hcol:not(:has(.won[style*="opacity: 1"])) .hc+.hc{border-top-color:#e8b900}
 /* frames for G1-G3 before they start */
 .ph{display:none;flex-direction:column;flex:0 0 auto;width:4.6em;border-left:.08em solid var(--line)}
-.ph .hc{color:#4a5e8c}
+.ph .hc{color:#5a6f9e!important}
 .hist:has(>.isGame1Started:is([style*="display:none"],[style*="display: none"]))>.ph1,.hist:has(>.isGame2Started:is([style*="display:none"],[style*="display: none"]))>.ph2,.hist:has(>.isGame3Started:is([style*="display:none"],[style*="display: none"]))>.ph3{display:flex}
 .ph1{order:1}.isGame1Started{order:1}.ph2{order:2}.isGame2Started{order:2}.ph3{order:3}.isGame3Started{order:3}.isGame4Started{order:4}.isGame5Started{order:5}.isGame6Started{order:6}.isGame7Started{order:7}.isGame8Started{order:8}.isGame9Started{order:9}
 .gcol{display:flex;flex-direction:column;flex:0 0 auto;width:6.4em;background:#1c2f5a;border-left:.3em solid var(--navy)}

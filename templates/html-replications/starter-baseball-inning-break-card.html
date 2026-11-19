@@ -42,14 +42,14 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .ls-cur{position:absolute;inset:0;pointer-events:none}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 .board{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Avenir Next Condensed","Bahnschrift SemiCondensed","Roboto Condensed","Arial Narrow",sans-serif;color:#f5f6f8;background:transparent;--live:#ff3b30;--gold:#ffcf4a;--ink:#17130a;--mute:#b9bfcc;--panel:rgba(255,255,255,.06)}
-.card{width:74rem;display:flex;flex-direction:column;gap:1.1rem;padding:1.6rem 2.2rem 2rem;border-radius:1rem;background:linear-gradient(165deg,#232937 0%,#10131b 100%);box-shadow:0 .8rem 2.2rem rgba(0,0,0,.4),inset 0 .3rem 0 var(--gold)}
+.card{width:78rem;display:flex;flex-direction:column;gap:1.1rem;padding:1.6rem 2.2rem 2rem;border-radius:1rem;background:linear-gradient(165deg,#232937 0%,#10131b 100%);box-shadow:0 .8rem 2.2rem rgba(0,0,0,.4),inset 0 .3rem 0 var(--gold)}
 .head{display:flex;flex-direction:column;align-items:center;gap:.55rem;text-align:center}
 .spk{display:flex;align-items:center;gap:1rem;font:700 1.25rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.24em;color:var(--gold)}
 .spk .st{font:700 1.2rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.16em}
 .spk .st-pre{padding:.4rem .8rem;border-radius:.25rem;box-shadow:inset 0 0 0 .1rem rgba(255,255,255,.35);color:var(--mute)}
 .spk .st-live{padding:.4rem .8rem;border-radius:.25rem;background:#c9241c;color:#fff}
 .spk .st-live-in>i{background:#fff;box-shadow:none}
-.board:has(.isComplete[style*="opacity: 1"]) .spk .st{visibility:hidden}
+.board:has(.isComplete[style*="opacity: 1"]) .spk .st{position:absolute;visibility:hidden}
 .ev{display:flex;align-items:baseline;justify-content:center;gap:.9rem;max-width:66rem;min-width:0;font:700 1.55rem/1.2 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);white-space:nowrap}
 .ev>span{min-width:0;overflow:hidden;text-overflow:ellipsis}.ev>.ev-r{flex:none}
 .ev-e:empty,.ev-r:empty,.ev-e:empty+.sep,.sep:has(+.ev-r:empty){display:none}
@@ -58,11 +58,11 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .teams{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
 .tp{position:relative;display:grid;grid-template-columns:1fr 9.4rem;align-items:stretch;height:8.4rem;border-radius:.6rem;background:var(--panel);box-shadow:inset 0 0 0 .08rem rgba(255,255,255,.08)}
 .tp.b{grid-template-columns:9.4rem 1fr}.tp.b .rb{order:1}.tp.b .tx{order:2;align-items:flex-end;text-align:right}
-.tx{display:flex;flex-direction:column;justify-content:center;gap:.55rem;min-width:0;padding:0 1.6rem}
+.tx{display:flex;flex-direction:column;justify-content:center;gap:.55rem;min-width:0;padding:0 1.3rem}
 .kk{display:grid;font:700 1.3rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}.kk>*{grid-area:1/1}
 .tp.b .kk{justify-items:end}
 .kk>.kv{opacity:0}.teams:has(.isBHome[style*="opacity: 1"]) .tp.a .kv,.teams:has(.isAHome[style*="opacity: 1"]) .tp.b .kv{opacity:1}
-.nm{font:700 2.5rem/1.02 "Avenir Next Condensed","Bahnschrift SemiCondensed","Roboto Condensed","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.01em}
+.nm{font:700 2.05rem/1.02 "Avenir Next Condensed","Bahnschrift SemiCondensed","Roboto Condensed","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:0;white-space:nowrap}
 .slot{display:grid;align-items:center;justify-items:start;min-height:2.2rem}.slot>*{grid-area:1/1}.tp.b .slot{justify-items:end}
 .batl{display:flex;align-items:center;gap:.5rem;padding:.4rem .8rem;border-radius:.3rem;background:var(--gold);color:var(--ink);font:700 1.25rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:0}
 .batl:has(>.bat[style*="opacity: 1"]){opacity:1}.batl .bat{width:.85rem;height:.85rem;border-radius:50%;background:var(--ink)}
@@ -82,28 +82,28 @@ body:has(.isComplete[style*="opacity: 1"]) .isMatchStarted{opacity:0!important}
 .tp.a .win{left:0;border-radius:.6rem 0 0 .6rem}.tp.b .win{right:0;border-radius:0 .6rem .6rem 0}
 .teams:has(.isBWinner[style*="opacity: 1"]) .tp.a,.teams:has(.isAWinner[style*="opacity: 1"]) .tp.b{opacity:.5}
 /* line score: rows keyed by the team colour, innings, then H and E */
-.lsw{--hh:2.4rem;--ch:3.5rem;display:flex;border-radius:.5rem;overflow:hidden;background:rgba(255,255,255,.045);box-shadow:inset 0 0 0 .08rem rgba(255,255,255,.07)}
-.ls-h{display:flex;align-items:center;justify-content:center;height:var(--hh);background:rgba(255,255,255,.1);color:#eef0f4;font:700 1.35rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif}
-.keys{flex:0 1 auto;min-width:14rem;max-width:26rem;display:flex;flex-direction:column}
+.lsw{--hh:2.8rem;--ch:4rem;display:flex;border-radius:.5rem;overflow:hidden;background:rgba(255,255,255,.045);box-shadow:inset 0 0 0 .08rem rgba(255,255,255,.07)}
+.ls-h{display:flex;align-items:center;justify-content:center;height:var(--hh);background:rgba(255,255,255,.1);color:#eef0f4;font:700 1.6rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif}
+.keys{flex:0 1 auto;min-width:14rem;max-width:30rem;display:flex;flex-direction:column}
 .key{height:var(--ch);display:flex;align-items:center;gap:.9rem;padding:0 1.2rem 0 .9rem}
 .key+.key{border-top:.07rem solid rgba(255,255,255,.08)}
 .key>.slab{flex:none;width:1.1rem;height:2.3rem;border-radius:.2rem}
-.lbl{min-width:0;font:700 1.45rem/1.05 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;overflow-wrap:normal;hyphens:none;text-wrap:balance}
+.lbl{min-width:0;font:700 1.8rem/1.05 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;overflow-wrap:normal;hyphens:none;text-wrap:balance}
 .ls-col{display:flex;flex-direction:column;flex:1 1 0;min-width:0;border-left:.07rem solid rgba(255,255,255,.08)}
 .ls-col::after{content:"";position:absolute;left:0;right:0;top:calc(var(--hh) + var(--ch));height:.07rem;background:rgba(255,255,255,.08)}
 .ls-p,.v{height:var(--ch)}
 .v+.v{border-top:.07rem solid rgba(255,255,255,.08)}
 .ls-p{display:flex;align-items:center;justify-content:center}
-.ls-p,.v{font:700 2rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;font-variant-numeric:tabular-nums}
+.ls-p,.v{font:700 2.35rem/1 "DIN Alternate","Bahnschrift","D-DIN","Roboto Condensed",Arial,sans-serif;font-variant-numeric:tabular-nums}
 .ls-cur{background:rgba(255,207,74,.14)}
 .ls-col:has(>.ls-cur[style*="opacity: 1"])>.ls-h{background:var(--gold);color:var(--ink)}
 .ls-extra .ls-h{color:var(--gold)}
 .lsw .ls{flex:1;min-width:0}
 .tot{flex:none;display:flex;border-left:.18rem solid rgba(255,255,255,.14)}
 .tot>span{display:flex;flex-direction:column;width:4.6rem;border-left:.07rem solid rgba(255,255,255,.08)}.tot>span:first-child{border-left:0}
-.v{display:flex;align-items:center;justify-content:center;color:#fff;font-size:2.2rem}
+.v{display:flex;align-items:center;justify-content:center;color:#fff;font-size:2.4rem}
 .card:has(.isBWinner[style*="opacity: 1"]) :is(.pa,.va,.ka),.card:has(.isAWinner[style*="opacity: 1"]) :is(.pb,.vb,.kb){color:#8c93a3!important}
-.tot>span:first-child .v{font-size:2.5rem;color:var(--gold)}
+.tot>span:first-child .v{font-size:2.8rem;color:var(--gold)}
 /* the situation tray: same place and height in every state */
 .sit{position:relative;display:grid;grid-template-columns:repeat(4,1fr);height:8.2rem;overflow:hidden;border-radius:.5rem;background:var(--panel);box-shadow:inset 0 0 0 .08rem rgba(255,255,255,.07)}
 .z{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;min-width:0}
