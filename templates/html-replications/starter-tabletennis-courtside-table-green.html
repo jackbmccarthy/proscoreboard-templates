@@ -36,8 +36,8 @@ html,body{height:100%;overflow:hidden}
 .bar{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:2vw;flex:0 0 14vh;padding:0 2.4vw;background:#08140f}
 .info{display:flex;flex-direction:column;justify-content:center;gap:.6vh;min-width:0;text-transform:uppercase;white-space:nowrap}
 .info>*{overflow:hidden;text-overflow:ellipsis}
-.ev{font-size:4.8vh;font-weight:800;letter-spacing:.06em}
-.rd{font-size:3.6vh;font-weight:700;letter-spacing:.08em;color:#bfe0cf}
+.ev{font-size:5.4vh;font-weight:800;letter-spacing:.06em}
+.rd{font-size:4.2vh;font-weight:700;letter-spacing:.08em;color:#bfe0cf}
 .rd:empty{display:none}
 .teamlbl{display:none;font-size:5.4vh;font-weight:800;letter-spacing:.08em}
 .clogo{width:9vh;height:9vh;object-fit:contain}.clogo:not([src]){display:none}
@@ -45,7 +45,7 @@ html,body{height:100%;overflow:hidden}
 .info:not(:has(.ev:not(:empty))):not(:has(.rd:not(:empty))) .teamlbl{display:block}
 .board:not(:has(.tname:not(:empty))) .teamlbl{display:none!important}
 .tagslot{width:36vh;height:9vh}
-.tagslot>*{border-radius:1vh;font-size:4.6vh;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+.tagslot>*{border-radius:1vh;font-size:5.2vh;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
 .gtag{background:#fff;color:var(--deep)}
 .pre{box-shadow:inset 0 0 0 .4vh #2d6b4f;color:#bfe0cf}
 .tagslot:has(>.gtag[style*="opacity: 1"]) .pre,.tagslot:has(>.fin[style*="opacity: 1"]) .pre,.board:has(.isWarmUpStarted[style*="opacity: 1"]) .pre{opacity:0}
@@ -54,10 +54,10 @@ html,body{height:100%;overflow:hidden}
 .chip{width:24vh;height:6.6vh}
 .fl{border-radius:.7vh;font-size:3.2vh;font-weight:800;letter-spacing:.06em;text-transform:uppercase;box-shadow:inset 0 0 0 .3vh #9cc9b2;color:#e7f5ee}
 .banner{width:44vh;height:9vh}
-.bn{border-radius:1vh;font-size:4.6vh;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.bn{border-radius:1vh;font-size:5.2vh;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
 .bn-warm{background:#fff;color:var(--deep)}
 .bn-break{box-shadow:inset 0 0 0 .5vh #fff;color:#fff}
-.banner>.bo{justify-content:flex-end;font-size:4.4vh;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#bfe0cf}
+.banner>.bo{justify-content:flex-end;font-size:5vh;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#bfe0cf}
 .board:not(:has(.isMatchStarted[style*="opacity: 1"])) .banner:has(>.isWarmUpStarted[style*="opacity: 1"])>.bo,
 .board:not(:has(.isComplete[style*="opacity: 1"])) .banner:has(>.isInBetweenGames[style*="opacity: 1"])>.bo{opacity:0}
 /* the table: one half per court end, the net between them */
@@ -67,20 +67,21 @@ html,body{height:100%;overflow:hidden}
 .eB{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"band band" "who gw" "marks marks" "pts pts" "hist hist"}
 .kit{position:absolute;left:0;right:0;bottom:0;height:1.2vh;background:#7aa08d}
 /* team tie strip */
-.tband{grid-area:band;display:none;align-items:center;gap:1.4vw;margin-bottom:1.6vh;padding:0 1.6vw;height:11vh;border-radius:.8vh;background:var(--deep);font-size:5vh;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.tband{grid-area:band;display:none;align-items:center;gap:1.4vw;margin-bottom:2.4vh;padding:0 1.6vw;height:12vh;border-radius:.8vh;background:var(--paper);color:var(--deep);box-shadow:0 .8vh 1.6vh rgba(0,0,0,.25);font-size:4.6vh;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
 .eB .tband{flex-direction:row-reverse;text-align:right}
 .board:has(.tname:not(:empty)) .tband{display:flex}
-.board:has(.tname:not(:empty)) .end{--bandh:12.6vh}
-.board:has(.tname:not(:empty)) .end:is([data-osb-resolved-court-side="A"]:has(:is(.isAGamePoint,.isAMatchPoint)[style*="opacity: 1"]),[data-osb-resolved-court-side="B"]:has(:is(.isBGamePoint,.isBMatchPoint)[style*="opacity: 1"])) .big{font-size:19vh}
+.board:has(.tname:not(:empty)) .end{--bandh:14.4vh}
 .board:has(.tname:not(:empty)):has(.isComplete[style*="opacity: 1"]) .gn{font-size:18vh!important}
 .board:has(.tname:not(:empty)):has(.name:not(:empty)) .eA .tband{margin-right:calc(-1.8vw - .6vw);border-radius:.8vh 0 0 .8vh}
 .board:has(.tname:not(:empty)):has(.name:not(:empty)) .eB .tband{margin-left:calc(-1.8vw - .6vw);border-radius:0 .8vh .8vh 0}
-.board:has(.tname:not(:empty)):has(.name:not(:empty)) .net{margin-top:calc(2.4vh + 11vh)}
+.board:has(.tname:not(:empty)):has(.name:not(:empty)) .net{margin-top:calc(2.4vh + 12vh)}
 .tband .tlogo{width:7.5vh;height:7.5vh;object-fit:contain;flex:0 0 auto}
-.tband .tname{flex:1 1 auto;min-width:0;line-height:1.05;overflow-wrap:normal;hyphens:none}
-.tband .tie{display:inline-flex;align-items:center;gap:1vw;flex:0 0 auto;height:8vh;padding:0 1.5vw;border-radius:.6vh;background:var(--paper);color:var(--deep)}
+.tband .tname{flex:1 1 auto;min-width:0;line-height:1.05;white-space:nowrap;font-size:3.9vh}
+.board:has(.tname:not(:empty)):not(:has(.name:not(:empty))) .tband .tname{font-size:7vh;white-space:normal}
+.tband .tie{display:inline-flex;align-items:center;gap:1vw;flex:0 0 auto;height:10vh;padding:0 1.6vw;border-radius:.6vh;background:var(--deep);color:#fff}
+.board:has(.name:not(:empty)) .eB .tband .tie i{display:none}
 .tband .tie i{font-style:normal;font-size:4vh;letter-spacing:.12em}
-.tband .tscore{font-size:6.4vh;font-variant-numeric:tabular-nums}
+.tband .tscore{font-size:8.4vh;font-variant-numeric:tabular-nums}
 /* GAMES box at the outer corner */
 .gw{grid-area:gw;align-self:start;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6vh;width:21vh;height:16.5vh;border:.5vh solid var(--paper);border-radius:1vh;font-weight:900;text-transform:uppercase}
 .gw i{font-style:normal;font-size:4.2vh;letter-spacing:.12em;line-height:1;color:#e3f3ea}
@@ -105,20 +106,18 @@ html,body{height:100%;overflow:hidden}
 .win{display:none;align-items:center;height:8.6vh;padding:0 1.8vw;border-radius:.8vh;background:var(--gold);color:#111;font-size:5vh;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
 .win[style*="opacity: 1"]{display:inline-flex}
 /* game point / match point: in the leading player's own panel (the neutral label, shown at the end whose side has the point) */
-.ptslot{display:none;position:absolute!important;z-index:2;top:calc(2.4vh + var(--bandh) + 29.5vh);left:calc(50% - 8.5vh);width:46vh;height:9vh;transform:translateX(-50%)}
-.eB .ptslot{left:calc(50% + 8.5vh)}
+.ptslot{display:none;position:absolute!important;z-index:3;bottom:2.6vh;left:1.8vw;right:1.8vw;width:auto;height:11vh}
+.end:is([data-osb-resolved-court-side="A"]:has(:is(.isAGamePoint,.isAMatchPoint)[style*="opacity: 1"]),[data-osb-resolved-court-side="B"]:has(:is(.isBGamePoint,.isBMatchPoint)[style*="opacity: 1"])) .hist{visibility:hidden}
 .end[data-osb-resolved-court-side="A"]:has(:is(.isAGamePoint,.isAMatchPoint)[style*="opacity: 1"]) .ptslot,.end[data-osb-resolved-court-side="B"]:has(:is(.isBGamePoint,.isBMatchPoint)[style*="opacity: 1"]) .ptslot{display:inline-block}
-.pt{border-radius:.8vh;background:var(--paper);color:var(--deep);box-shadow:0 .6vh 1.6vh rgba(0,0,0,.3);font-size:6vh;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
-.end:is([data-osb-resolved-court-side="A"]:has(:is(.isAGamePoint,.isAMatchPoint)[style*="opacity: 1"]),[data-osb-resolved-court-side="B"]:has(:is(.isBGamePoint,.isBMatchPoint)[style*="opacity: 1"])) .pts{padding-top:13vh}
-.end:is([data-osb-resolved-court-side="A"]:has(:is(.isAGamePoint,.isAMatchPoint)[style*="opacity: 1"]),[data-osb-resolved-court-side="B"]:has(:is(.isBGamePoint,.isBMatchPoint)[style*="opacity: 1"])) .big{font-size:24vh}
+.pt{border-radius:.8vh;background:var(--paper);color:var(--deep);box-shadow:0 .6vh 1.6vh rgba(0,0,0,.3);font-size:7vh;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
 .pside{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 .end[data-osb-resolved-court-side="A"]:has(:is(.isAGamePoint,.isAMatchPoint)[style*="opacity: 1"]),.end[data-osb-resolved-court-side="B"]:has(:is(.isBGamePoint,.isBMatchPoint)[style*="opacity: 1"]){box-shadow:inset 0 0 0 .7vh var(--paper)}
 /* points, and the serve marker inside the server's own half */
-.pts{grid-area:pts;position:relative;display:grid;grid-template-columns:minmax(0,1fr) 17vh;align-items:center;justify-items:center;min-height:0}
-.eB .pts{grid-template-columns:17vh minmax(0,1fr)}.eB .pts>.big{order:2}
+.pts{grid-area:pts;position:relative;display:grid;grid-template-columns:minmax(0,1fr) 20vh;align-items:center;justify-items:center;min-height:0}
+.eB .pts{grid-template-columns:20vh minmax(0,1fr)}.eB .pts>.big{order:2}
 .big{font-size:34vh;line-height:.78;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.02em;text-shadow:0 1vh 2.4vh rgba(0,0,0,.25)}
-.ss{width:17vh;height:22vh}
-.srv{flex-direction:column;gap:1.2vh;border-radius:2vh;background:rgba(0,0,0,.28);font-size:4vh;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.ss{width:20vh;height:24vh}
+.srv{flex-direction:column;gap:1.2vh;border-radius:2vh;background:rgba(0,0,0,.28);font-size:5vh;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
 .s2{padding:.4vh 1vh;border-radius:.6vh;background:var(--paper);color:var(--deep);font-size:3.4vh}
 .ball{flex:0 0 auto;width:9vh;height:9vh;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 16%,#ff8a1c 46%,#d65f00 100%);box-shadow:0 0 0 .4vh rgba(0,0,0,.25),0 0 2.4vh rgba(255,138,28,.55)}
 /* finished games along the outer baseline, mirrored */
@@ -140,8 +139,12 @@ html,body{height:100%;overflow:hidden}
 .board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .pts{grid-area:hist;grid-template-columns:auto auto;justify-content:center;column-gap:1.2vw;align-self:center;justify-self:center;height:8vh;padding:0 1.6vw;border-radius:.8vh;background:var(--deep)}
 .board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .pts>.ss{display:none}.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .big{font-size:5.6vh;line-height:1;color:#cfe6da;text-shadow:none}.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .nxl{display:inline}
 .nxl{display:none;font-size:4vh;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#cfe6da}
-.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .gw{width:24vh;height:18vh;box-shadow:inset 0 0 0 .5vh var(--gold)}.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .gn{font-size:12vh}
+.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .gw{width:24vh;height:18vh}.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .gn{font-size:12vh}
+
 .board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])).board:has(.tname:not(:empty)) .hg{height:13vh}.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])).board:has(.tname:not(:empty)) .gs{font-size:9vh}
+.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame1Started .wA[style*="opacity: 1"]):not(:has(.isGame2Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame1Started .wB[style*="opacity: 1"]):not(:has(.isGame2Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame2Started .wA[style*="opacity: 1"]):not(:has(.isGame3Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame2Started .wB[style*="opacity: 1"]):not(:has(.isGame3Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame3Started .wA[style*="opacity: 1"]):not(:has(.isGame4Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame3Started .wB[style*="opacity: 1"]):not(:has(.isGame4Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame4Started .wA[style*="opacity: 1"]):not(:has(.isGame5Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame4Started .wB[style*="opacity: 1"]):not(:has(.isGame5Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame5Started .wA[style*="opacity: 1"]):not(:has(.isGame6Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame5Started .wB[style*="opacity: 1"]):not(:has(.isGame6Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame6Started .wA[style*="opacity: 1"]):not(:has(.isGame7Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame6Started .wB[style*="opacity: 1"]):not(:has(.isGame7Started .won[style*="opacity: 1"])) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="A"]:has(.isGame7Started .wA[style*="opacity: 1"]) .gw,.board:has(.isInBetweenGames[style*="opacity: 1"]):not(:has(.isComplete[style*="opacity: 1"])) .end[data-osb-resolved-court-side="B"]:has(.isGame7Started .wB[style*="opacity: 1"]) .gw{box-shadow:inset 0 0 0 .6vh var(--gold);color:var(--gold)}
+.board:has(.isComplete[style*="opacity: 1"]) .card{opacity:.4!important}
+.end:has(.tob[style*="opacity: 1"]) .ptslot{visibility:hidden}
 /* team tie */
 .board:has(.tname:not(:empty)) .big{font-size:25vh}
 .board:has(.tname:not(:empty)) .ss{height:17vh}.board:has(.tname:not(:empty)) .ball{width:7vh;height:7vh}

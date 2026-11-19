@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "ed9ddf9323f33470d9fbb5fb171f3b0991ad3e77823bee6f10d57740babe91d7",
+  "revision": "4ee305e6d8837f9ce519f743a589e89a41a263bb237fd33da6cfa594b539d64e",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -45598,8 +45598,8 @@
     },
     {
       "aliases": [],
-      "description": "Full-screen softball inning break card on a transparent page: SOFTBALL tag with event and round on top; on the left the two teams stacked as rows (dominant runs in team-coloured tiles, AWAY/HOME kicker, one-line name, solid AT BAT or DUE UP pill; the winner outlined optic with an edge bar, the loser stepped back) and a line score with team names (teamA/BName), 7 innings, extras 8-10 when played (shaded apart from the current inning) and R-H-E; on the right an optic side block with the PREGAME / LIVE / FINAL status, an inning tracker (1-7 lit as played, the current one marked, and an EXTRA pip for innings 8+) and the live situation stacked (inning, diamond, count with B/S pips, outs), which outside play carries UP NEXT · FIRST PITCH, END OF the half, or GAME OVER · AFTER n INNINGS in the same space. 7-inning layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner marked and the loser's text stepped back while its team colour stays (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey colours keep a fallback when a team has none. Every show/hide element starts hidden; stored names are blank and numbers are 0. Transparent page: the card carries its own ground.",
-      "motif": "Softball break card: violet card with stacked team rows (dominant runs tiles, name, AT BAT / DUE UP) and a line score with team names and R-H-E, beside an optic side block with the status, an inning tracker (1-7 and EXTRA) and the live situation stacked as a scorebug, or the state outside play.",
+      "description": "Full-screen softball inning break card on a transparent page: SOFTBALL tag with event and round on top; the two teams stacked as rows (dominant runs in team-coloured tiles, AWAY/HOME kicker, one-line name, solid AT BAT or DUE UP pill; the winner outlined optic with an edge bar, the loser stepped back) beside an optic block with the PREGAME / LIVE status, an inning tracker (1-7 and an EXTRA pip for innings 8+, played innings lit and the current one marked in ink) and the live situation (a large bases box with inning, count with B/S pips and outs beside it), which outside play carries UP NEXT · FIRST PITCH, END OF the half, or FINAL with AFTER n INNINGS in the same space. Below, a full-width line score with team names (teamA/BName), 7 innings, extras 8-10 when played (shaded apart from the current inning) and R-H-E. 7-inning layout. Live-bound: runs, hits, errors, inning, inning half (lit arrow), period label, balls, strikes, outs, per-base runners (isRunnerOnFirst/Second/Third), count and out dots (isBall1-3, isStrike1-2, isOut1-2), at-bat and home marks (isA/BBatting, isA/BHome), PREGAME/LIVE (isMatchStarted), inning break (isInBetweenGames), FINAL (isComplete) with the winner marked and the loser's text stepped back while its team colour stays (isAWinner/isBWinner), inning progress (isGame{N}Started, isInning{N}Current), per-inning line score with played halves (isInning{N}A/BPlayed). Jersey colours keep a fallback when a team has none. Every show/hide element starts hidden; stored names are blank and numbers are 0. Transparent page: the card carries its own ground.",
+      "motif": "Softball break card: stacked team rows with dominant runs tiles beside an optic block (status, an inning tracker 1-7 plus EXTRA with the current inning marked, the live situation as a bases box with inning, count and outs, or the state), and a full-width line score with team names and R-H-E below.",
       "output": "html-replications/starter-softball-inning-break-card.html",
       "palette": [
         "#d4f53c",
@@ -45628,8 +45628,8 @@
       ],
       "title": "Softball — Inning Break Card",
       "fileName": "starter-softball-inning-break-card.html",
-      "contentHash": "000bb52543e2223bd5e7072db67cfc165d5a919564c49e686d4e835db326934d",
-      "documentPath": "published/000bb52543e2223bd5e7072db67cfc165d5a919564c49e686d4e835db326934d.json"
+      "contentHash": "a9820fc5bc030a7530f22e94f59a5652ae46f4e74d0f163e80dd533b30084f11",
+      "documentPath": "published/a9820fc5bc030a7530f22e94f59a5652ae46f4e74d0f163e80dd533b30084f11.json"
     },
     {
       "aliases": [],
@@ -46324,8 +46324,8 @@
     },
     {
       "aliases": [],
-      "description": "Courtside table-green, sized for venue distance: the two ends drawn as mirrored halves of a table with a net, each half clipped to itself. Each end has a large boxed GAMES count in its outer corner, flag and name, a full-width status strip (WINNER, T/O USED, yellow and red card glyphs and the neutral GAME POINT / MATCH POINT label when that end's player has the point, via isA/BGamePoint and isA/BMatchPoint), very large points with their own SERVE column on the inner side, and finished-game chips along the outer baseline. An active time-out is a yellow TIME-OUT banner with its countdown (timeOutTimerA/B). Between games the next game's 0-0 is hidden and the finished games fill the points area. Team ties add a team band with the tie score per end; the tie page shows TEAM MATCH (and the competition logo when there is one) in the header and each team large. Header: event and round, PRE-MATCH / GAME n / GAME n NEXT / FINAL tag dead centre, the match format or WARM-UP / CHANGE ENDS on the right (no warm-up timer exists in the runtime), and the view-flipped chip. At the end the big number is GAMES WON, the winner end framed gold with a WINNER chip and the loser end framed white and readable.",
-      "motif": "Table-top courtside: mirrored green court ends with white edge lines and a net, large GAMES boxes in the outer corners, a full-width status strip per half, points with a SERVE column beside them, game/match point and time-out countdown in that player's own half, the finished game filling the half between games",
+      "description": "Courtside table-green, sized for venue distance: the two ends drawn as mirrored halves of a table with a net. Each end has a large boxed GAMES count in its outer corner, flag and name, a status strip (WINNER, T/O USED, yellow and red card glyphs; cards step back at the end), very large points with their own SERVE column on the inner side, and finished-game chips along the outer baseline. The neutral GAME POINT / MATCH POINT label appears as a banner over that player's baseline (isA/BGamePoint, isA/BMatchPoint pick the half), so both big numbers stay aligned; an active time-out is a yellow TIME-OUT banner with its countdown (timeOutTimerA/B) and takes precedence. Between games the finished games fill the points area, the GAMES box of the game's winner is lit gold, and the next game's 0 waits as a small \"Gn next\" chip. Team ties add a separate paper tie band across the board with one-line team names and large tie scores; the tie page shows TEAM MATCH (and the competition logo when there is one) and each team large. Header: event and round, PRE-MATCH / GAME n / GAME n NEXT / FINAL tag, the match format or WARM-UP / CHANGE ENDS (no warm-up timer exists in the runtime), and the view-flipped chip. At the end the big number is GAMES WON, the winner end framed gold with a WINNER chip and the loser end framed white.",
+      "motif": "Table-top courtside: mirrored green court ends with white edge lines and a net, large GAMES boxes in the outer corners, a status strip per half, points with a SERVE column, game/match point as a banner over the baseline that never moves the points, a time-out countdown, and a separate paper tie band for team ties",
       "output": "html-replications/starter-tabletennis-courtside-table-green.html",
       "palette": [
         "#13623f",
@@ -46353,8 +46353,8 @@
       ],
       "title": "Table Tennis Courtside — Table Green",
       "fileName": "starter-tabletennis-courtside-table-green.html",
-      "contentHash": "cc3de98eb5850b7e9f66cfc56541d768c133572a5f9bfb12ecb4c95e1098331e",
-      "documentPath": "published/cc3de98eb5850b7e9f66cfc56541d768c133572a5f9bfb12ecb4c95e1098331e.json"
+      "contentHash": "b6e1e04776e176d074c21d34cfe02b86f029c582874f9c0b882f13383b5ac6b0",
+      "documentPath": "published/b6e1e04776e176d074c21d34cfe02b86f029c582874f9c0b882f13383b5ac6b0.json"
     },
     {
       "aliases": [],
