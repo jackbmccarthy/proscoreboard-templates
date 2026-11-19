@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "79b4e4908d0e8c2ebf8498fb9f115c8d8a21db4d2fa1591ae3f9c618aa936fbe",
+  "revision": "e291970c11fa8967484601282a4563ab46dbf7ba7ada9d35873600c67e3cf585",
   "templates": [
     {
       "motif": "score-ribbon",
@@ -44461,8 +44461,8 @@
         "#ffc83d"
       ],
       "placement": "full-screen",
-      "published": false,
-      "retired": true,
+      "published": true,
+      "retired": false,
       "runtimeSupport": {
         "baseOccupancy": "live",
         "countDots": "live",
@@ -44483,7 +44483,17 @@
       "title": "Baseball — Final Line Score",
       "fileName": "starter-baseball-final-line-score.html",
       "contentHash": "87bd3409d45da49192b2c1ee486168fe878d203a3ff6d5ef992c4bad083af645",
-      "documentPath": "published/87bd3409d45da49192b2c1ee486168fe878d203a3ff6d5ef992c4bad083af645.json"
+      "documentPath": "published/87bd3409d45da49192b2c1ee486168fe878d203a3ff6d5ef992c4bad083af645.json",
+      "preview": {
+        "path": "previews/4cda67a16522cda92f282c781ce405b3f133069338a8a66897d8c544eec28916.png",
+        "imageHash": "4cda67a16522cda92f282c781ce405b3f133069338a8a66897d8c544eec28916",
+        "contentHash": "87bd3409d45da49192b2c1ee486168fe878d203a3ff6d5ef992c4bad083af645",
+        "width": 1344,
+        "height": 764,
+        "fixtureVersion": "sport-samples-v1",
+        "rendererVersion": "1",
+        "sport": "baseball"
+      }
     },
     {
       "aliases": [],
