@@ -18,8 +18,8 @@ const classes = tag => (tag.attributes.class || '').split(/\s+/).filter(Boolean)
 test('sport-native diamond starters keep three corners and three lower thirds per sport active', () => {
   // 2026-11-14 round 2: the box bug and the ribbon (blind review <= 6.5) are retired, not deleted.
   // 2026-11-18: the final line score and inning break card are retired (transparent-page versions scored 8 < 9 in blind
-  // review); they return only after a redesign passes. 2026-11-18 round 3: the baseball final line score passed (9) and is back.
-  const fullScreen = { baseball: 1, softball: 0 };
+  // review); they return only after a redesign passes. 2026-11-18 round 3: the baseball final line score passed (9) and is back; round 4: the baseball inning break card and softball final line score passed.
+  const fullScreen = { baseball: 2, softball: 1 };
   for (const sport of ['baseball', 'softball']) {
     const placements = entries.filter(entry => entry.sport === sport && !entry.retired).map(entry => entry.placement).sort();
     assert.deepEqual(placements, [...Array(3).fill('corner'), ...Array(fullScreen[sport]).fill('full-screen'), ...Array(3).fill('lower-third')], sport);
