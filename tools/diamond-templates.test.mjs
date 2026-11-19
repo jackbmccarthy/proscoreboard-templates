@@ -33,7 +33,10 @@ test('diamond starters bind the sport fields, group the count and keep stored va
     const inspection = inspectTemplate(html);
     assert.deepEqual(inspection.errors, [], label);
     // Deliberate repeats (a winner line that restates the winner's name and score, a team-coloured runs box) are allowed.
-    assert.deepEqual(inspection.warnings.filter(w => !/ is repeated \d+ times; all instances receive runtime updates\.$/.test(w)), ['This template has no service indicators.'], label);
+    // The inning break cards show each team's name once: one element carries both combined{A,B}Name and team{A,B}Name
+    // (the same name on a team match), so the line score below is keyed by team colour instead of repeating it.
+    const shared = /inning-break-card/.test(label) ? ['Multiple runtime fields share a span element; confirm their updates do not conflict.'] : [];
+    assert.deepEqual(inspection.warnings.filter(w => !/ is repeated \d+ times; all instances receive runtime updates\.$/.test(w)), [...shared, 'This template has no service indicators.'], label);
     assert.equal(neutralizeScoreboardTemplateHTML(html), html, label);
     const tags = readTemplateHTMLTags(html).filter(tag => !tag.closing);
     const present = new Set(tags.flatMap(tag => [...classes(tag), tag.attributes['data-osb-field']].filter(Boolean)));
