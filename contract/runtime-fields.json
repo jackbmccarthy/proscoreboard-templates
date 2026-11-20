@@ -680,13 +680,13 @@
       "valueType": "text"
     },
     {
-      "description": "A Timeouts Remaining for explicitly versioned multi-sport matches.",
+      "description": "Timeouts side A has left in the period in play (timeoutAllowance minus taken and FIBA-forfeited). Table tennis, pickleball: 1, or 0 once used. Soccer, baseball, softball and basketball pickup: 0. Follows switched ends.",
       "field": "timeoutsRemainingA",
       "group": "state",
       "valueType": "number"
     },
     {
-      "description": "B Timeouts Remaining for explicitly versioned multi-sport matches.",
+      "description": "Timeouts side B has left in the period in play (timeoutAllowance minus taken and FIBA-forfeited). Table tennis, pickleball: 1, or 0 once used. Soccer, baseball, softball and basketball pickup: 0. Follows switched ends.",
       "field": "timeoutsRemainingB",
       "group": "state",
       "valueType": "number"
@@ -1392,6 +1392,120 @@
       "field": "halfInning",
       "group": "state",
       "valueType": "text"
+    },
+    {
+      "description": "Every sport: timeouts each side has in the period in play. Table tennis, pickleball: 1 per match. Volleyball: timeoutsPerPeriod per set (deciding set too). Basketball FIBA: 2 in the first half, 3 in the second, 1 per overtime period; period policy: timeoutsPerPeriod; pickup mode 0. Soccer, baseball, softball: 0. Keeps the value at FINAL.",
+      "field": "timeoutAllowance",
+      "group": "state",
+      "valueType": "number"
+    },
+    {
+      "description": "Every sport: the period in play has at least one timeout per side (timeoutAllowance >= 1); off in soccer, baseball, softball and basketball pickup. Structural: do not draw a slot or \"TO\" caption from it alone (at an allowance of 1 nothing shows until the timeout is used).",
+      "field": "hasTimeoutAllowance",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 1 exists (1 <= timeoutAllowance and the allowance is at least 2; never at an allowance of 1, where only is{S}SingleTimeoutUsed shows). Bind the slot frame of both sides to it, with is{S}TimeoutLeft1 or is{S}TimeoutSlot1Used inside. Off once the match is complete and at a break before the allowance resets, like the pips.",
+      "field": "isTimeoutSlot1",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 2 exists (2 <= timeoutAllowance and the allowance is at least 2; never at an allowance of 1, where only is{S}SingleTimeoutUsed shows). Bind the slot frame of both sides to it, with is{S}TimeoutLeft2 or is{S}TimeoutSlot2Used inside. Off once the match is complete and at a break before the allowance resets, like the pips.",
+      "field": "isTimeoutSlot2",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 3 exists (3 <= timeoutAllowance and the allowance is at least 2; never at an allowance of 1, where only is{S}SingleTimeoutUsed shows). Bind the slot frame of both sides to it, with is{S}TimeoutLeft3 or is{S}TimeoutSlot3Used inside. Off once the match is complete and at a break before the allowance resets, like the pips.",
+      "field": "isTimeoutSlot3",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 4 exists (4 <= timeoutAllowance and the allowance is at least 2; never at an allowance of 1, where only is{S}SingleTimeoutUsed shows). Bind the slot frame of both sides to it, with is{S}TimeoutLeft4 or is{S}TimeoutSlot4Used inside. Off once the match is complete and at a break before the allowance resets, like the pips.",
+      "field": "isTimeoutSlot4",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 5 exists (5 <= timeoutAllowance and the allowance is at least 2; never at an allowance of 1, where only is{S}SingleTimeoutUsed shows). Bind the slot frame of both sides to it, with is{S}TimeoutLeft5 or is{S}TimeoutSlot5Used inside. Off once the match is complete and at a break before the allowance resets, like the pips.",
+      "field": "isTimeoutSlot5",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 1 exists (isTimeoutSlot1) and side A has spent it (1 <= timeoutAllowance - timeoutsRemainingA: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isATimeoutSlot1Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 2 exists (isTimeoutSlot2) and side A has spent it (2 <= timeoutAllowance - timeoutsRemainingA: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isATimeoutSlot2Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 3 exists (isTimeoutSlot3) and side A has spent it (3 <= timeoutAllowance - timeoutsRemainingA: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isATimeoutSlot3Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 4 exists (isTimeoutSlot4) and side A has spent it (4 <= timeoutAllowance - timeoutsRemainingA: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isATimeoutSlot4Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 5 exists (isTimeoutSlot5) and side A has spent it (5 <= timeoutAllowance - timeoutsRemainingA: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isATimeoutSlot5Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Every sport with an allowance of exactly 1 (table tennis, pickleball, basketball FIBA overtime, a one-timeout rule): side A has used its single timeout (volleyball, basketball: from the moment it starts; table tennis, pickleball: once it has ended, while isATimeOutActive shows the running timeout), the one small \"used\" marker; off while unused, at any other allowance and once the match is complete. Follows switched ends.",
+      "field": "isASingleTimeoutUsed",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 1 exists (isTimeoutSlot1) and side B has spent it (1 <= timeoutAllowance - timeoutsRemainingB: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isBTimeoutSlot1Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 2 exists (isTimeoutSlot2) and side B has spent it (2 <= timeoutAllowance - timeoutsRemainingB: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isBTimeoutSlot2Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 3 exists (isTimeoutSlot3) and side B has spent it (3 <= timeoutAllowance - timeoutsRemainingB: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isBTimeoutSlot3Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 4 exists (isTimeoutSlot4) and side B has spent it (4 <= timeoutAllowance - timeoutsRemainingB: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isBTimeoutSlot4Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Volleyball, basketball: timeout slot 5 exists (isTimeoutSlot5) and side B has spent it (5 <= timeoutAllowance - timeoutsRemainingB: taken, or forfeited under FIBA). Off once the match is complete and at a break before the allowance resets. Follows switched ends.",
+      "field": "isBTimeoutSlot5Used",
+      "group": "state",
+      "valueType": "boolean"
+    },
+    {
+      "description": "Every sport with an allowance of exactly 1 (table tennis, pickleball, basketball FIBA overtime, a one-timeout rule): side B has used its single timeout (volleyball, basketball: from the moment it starts; table tennis, pickleball: once it has ended, while isBTimeOutActive shows the running timeout), the one small \"used\" marker; off while unused, at any other allowance and once the match is complete. Follows switched ends.",
+      "field": "isBSingleTimeoutUsed",
+      "group": "state",
+      "valueType": "boolean"
     }
   ]
 }
