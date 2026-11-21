@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { assertSafeRelativePath, contentHash, DEFAULT_ROOT, validatePublishedDocument } from './build-catalog.mjs';
 import { applySportFixture, FIXTURE_VERSION, getSportFixture } from './preview-fixtures.mjs';
 import { validateSafeScoreboardTemplateDocument } from '../contract/index.mjs';
+import { googleFontCacheDirectory, googleFontOffline, googleFontResponse, isGoogleFontURL } from './google-font-cache.mjs';
 
 export const RENDERER_VERSION = '1';
 export const VIEWPORT = Object.freeze({ width: 1280, height: 720 });
@@ -22,7 +23,7 @@ export function canonical(value) {
 }
 
 export async function recipeHash() {
-  const sources = await Promise.all(['render-previews.mjs', 'preview-fixtures.mjs'].map(name => readFile(new URL(name, import.meta.url))));
+  const sources = await Promise.all(['render-previews.mjs', 'preview-fixtures.mjs', 'google-font-cache.mjs'].map(name => readFile(new URL(name, import.meta.url))));
   return sha256(Buffer.concat(sources.map(source => Buffer.concat([Buffer.from(`${source.length}:`), source]))));
 }
 
@@ -191,20 +192,30 @@ function measureDesign() {
   return { bounds, paintedElements: rectangles.length, overflow, clipped, viewport: { width: innerWidth, height: innerHeight }, document: { width: document.documentElement.scrollWidth, height: document.documentElement.scrollHeight } };
 }
 
-export async function renderDesign(browser, root, document, sport) {
+// Same-origin studio/public assets and Google Fonts (served from the on-disk cache, see
+// google-font-cache.mjs) are the only requests a design may make; everything else is blocked.
+export async function renderDesign(browser, root, document, sport, { googleFonts = {} } = {}) {
   validateSafeScoreboardTemplateDocument(document);
   const context = await browser.newContext({ viewport: VIEWPORT, deviceScaleFactor: 1, javaScriptEnabled: false, serviceWorkers: 'block', locale: 'en-US', timezoneId: 'UTC', colorScheme: 'light', reducedMotion: 'reduce' });
   const page = await context.newPage();
-  const diagnostics = { blockedRequests: [], missingAssets: [], pageErrors: [] };
+  const diagnostics = { blockedRequests: [], missingAssets: [], pageErrors: [], googleFontErrors: [] };
+  const fontOptions = { cache: googleFonts.cache || googleFontCacheDirectory(root), offline: googleFonts.offline ?? googleFontOffline(), ...(googleFonts.fetcher ? { fetcher: googleFonts.fetcher } : {}) };
   const fixture = getSportFixture(sport);
   page.on('pageerror', error => diagnostics.pageErrors.push(error.message));
   await context.route('**/*', async route => {
     const url = new URL(route.request().url());
+    if (route.request().method() === 'GET' && isGoogleFontURL(url)) {
+      try {
+        const google = await googleFontResponse(url.href, fontOptions);
+        await route.fulfill({ status: google.status, contentType: google.contentType, body: google.body, headers: { 'Access-Control-Allow-Origin': '*' } });
+      } catch (error) { diagnostics.googleFontErrors.push(error.message); await route.abort('internetdisconnected'); }
+      return;
+    }
     if (url.origin !== ORIGIN || route.request().method() !== 'GET') {
       diagnostics.blockedRequests.push(url.href); await route.abort('blockedbyclient'); return;
     }
     if (url.pathname === '/design.html') {
-      await route.fulfill({ contentType: 'text/html; charset=utf-8', body: document.html, headers: { 'Content-Security-Policy': "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; script-src 'none'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'" } });
+      await route.fulfill({ contentType: 'text/html; charset=utf-8', body: document.html, headers: { 'Content-Security-Policy': "default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' data: https://fonts.gstatic.com; script-src 'none'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'" } });
       return;
     }
     try {
@@ -226,19 +237,25 @@ export async function renderDesign(browser, root, document, sport) {
       for (const [field, type] of Object.entries(types)) for (const element of document.querySelectorAll(`[data-osb-field="${field}"],.${field}`)) element.dataset.previewType = type;
     }, fixture.fieldTypes);
     await page.evaluate(async () => {
+      // Lay out first so every face the design uses has started loading (bundled or Google), then wait.
+      void document.body.offsetHeight;
       await document.fonts.ready;
       await Promise.all([...document.images].map(image => image.decode().catch(() => {})));
     });
     // CSP may stop remote URLs before routing: inspect authored resource declarations too.
     const resources = await page.evaluate(() => ({
       failedImages: [...document.images].filter(image => image.getAttribute('src') && (!image.complete || !image.naturalWidth)).map(image => image.src),
+      fonts: [...document.fonts].filter(face => face.status === 'loaded').map(face => `${face.family.replace(/^["']|["']$/g, '')} ${face.weight} ${face.style}`).sort(),
       remote: [...document.querySelectorAll('[src],[href]')].flatMap(element => ['src', 'href'].map(name => element.getAttribute(name)).filter(value => value && /^(https?:)?\/\//i.test(value))).concat([...document.querySelectorAll('style')].flatMap(style => [...style.textContent.matchAll(/(?:url\(\s*["']?|@import\s+["'])(https?:\/\/[^\s"')]+)/gi)].map(match => match[1]))),
     }));
-    diagnostics.blockedRequests.push(...resources.remote);
+    const googleFont = value => { try { return isGoogleFontURL(new URL(value)); } catch { return false; } };
+    diagnostics.blockedRequests.push(...resources.remote.filter(value => !googleFont(value)));
+    diagnostics.fonts = [...new Set(resources.fonts)];
     for (const url of resources.failedImages) diagnostics.missingAssets.push({ url, error: 'Image failed to decode.' });
     const geometry = await page.evaluate(measureDesign);
     diagnostics.geometry = geometry;
     diagnostics.bindings = bindings.changes;
+    if (diagnostics.googleFontErrors.length) throw new Error(`Google Fonts unavailable: ${diagnostics.googleFontErrors[0]}`);
     if (geometry.clipped.length) throw new Error(`Numeric fields clipped: ${geometry.clipped.join(', ')}`);
     if (diagnostics.blockedRequests.length || diagnostics.missingAssets.length || diagnostics.pageErrors.length) throw new Error('Blocked remote or missing local assets/page errors.');
     const padding = 8, bounds = geometry.bounds;

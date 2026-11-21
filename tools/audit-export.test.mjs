@@ -20,7 +20,11 @@ test('export audit reports hidden files, secrets, absolute paths and symlinks wi
   await mkdir(path.join(root, '.claude/skills/example'), { recursive: true });
   await writeFile(path.join(root, '.claude/skills/example/SKILL.md'), '# shared skill');
   await writeFile(path.join(root, '.claude/settings.local.json'), '{}');
+  await mkdir(path.join(root, '.template-cache/google-fonts'), { recursive: true });
+  await writeFile(path.join(root, '.template-cache/google-fonts/cached.body'), 'cached font');
   const report = await auditExport(root);
+  assert.ok(report.findings.some((finding) => finding.file === '.template-cache' && finding.category === 'excluded-local-cache' && finding.severity === 'info'));
+  assert.ok(!report.findings.some((finding) => finding.file.startsWith('.template-cache/')), 'the local preview cache is skipped, not walked');
   assert.ok(!report.findings.some((finding) => finding.file.startsWith('.claude/skills')), 'project skills are exportable');
   assert.ok(report.findings.some((finding) => finding.file === '.claude/settings.local.json' && finding.category === 'excluded-local-agent-state'));
   for (const category of ['excluded-os-metadata', 'excluded-hidden-file', 'github-token', 'local-absolute-path', 'symlink']) assert.ok(report.findings.some((finding) => finding.category === category), category);

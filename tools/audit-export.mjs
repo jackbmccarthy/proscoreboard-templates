@@ -27,6 +27,8 @@ export async function auditExport(root = DEFAULT_ROOT) {
       if (!relative && entry.name === '.git') continue;
       if (entry.isSymbolicLink()) { report(file, 'symlink', 'error'); continue; }
       if (entry.name === '.DS_Store' || entry.name.startsWith('._')) { report(file, 'excluded-os-metadata', 'info'); continue; }
+      // The gitignored preview cache (Google Fonts responses) is local state, never part of the export.
+      if (file === '.template-cache') { report(file, 'excluded-local-cache', 'info'); continue; }
       if (file === 'templates/references' || file === 'sources' || /\.(?:zip|tar|gz|7z)$/i.test(entry.name)) report(file, 'excluded-original-assets', 'error');
       // Project skills (.claude/skills) are shared authoring instructions; any other agent state stays local.
       if (relative === '.claude' && entry.name !== 'skills') { report(file, 'excluded-local-agent-state', 'error'); continue; }

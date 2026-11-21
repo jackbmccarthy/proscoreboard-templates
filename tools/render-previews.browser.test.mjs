@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { mkdtemp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
@@ -6,6 +7,7 @@ import test from 'node:test';
 import { pathToFileURL } from 'node:url';
 import { contentHash } from './build-catalog.mjs';
 import { applySportFixture, getSportFixture } from './preview-fixtures.mjs';
+import { googleFontCacheKey } from './google-font-cache.mjs';
 import { renderDesign, renderPreviews } from './render-previews.mjs';
 
 const modulePath = process.env.PLAYWRIGHT_MODULE_PATH;
@@ -102,4 +104,35 @@ browserTest('generation checkpoints metadata, reuses exact images, and removes s
   const failed = await renderPreviews({ root }); assert.equal(failed.failed, 1);
   const manifest = JSON.parse(await readFile(path.join(root, 'previews/manifest.json')));
   assert.deepEqual(manifest.entries, {});
+});
+
+browserTest('Google Fonts imports render with the imported face from the on-disk cache and fail clearly offline when uncached', async (t, browser) => {
+  const root = await mkdtemp(path.join(os.tmpdir(), 'preview-google-fonts-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await mkdir(path.join(root, 'studio/public'), { recursive: true });
+  const cssURL = 'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap';
+  const fontURL = 'https://fonts.gstatic.com/s/robotoslab/v34/fixture-700.woff2';
+  // Seed the cache as a first online run would. The face bytes are the bundled OFL Barlow 700 file, so no
+  // network is used; the family name and URLs are what a real Roboto Slab import resolves to.
+  const cache = path.join(root, '.template-cache/google-fonts');
+  await mkdir(cache, { recursive: true });
+  const seed = async (url, contentType, body) => {
+    await writeFile(path.join(cache, `${googleFontCacheKey(url)}.body`), body);
+    await writeFile(path.join(cache, `${googleFontCacheKey(url)}.json`), JSON.stringify({ url, contentType, bytes: body.length, sha256: createHash('sha256').update(body).digest('hex') }));
+  };
+  await seed(cssURL, 'text/css; charset=utf-8', Buffer.from(`@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(${fontURL}) format('woff2')}`));
+  await seed(fontURL, 'font/woff2', await readFile(new URL('../studio/public/fonts/scoreboard/barlow-700-latin.woff2', import.meta.url)));
+  const html = family => `<!doctype html><html><style>@import url("${cssURL}");html,body{margin:0;background:transparent}.board{width:420px;height:110px;background:#24343b;color:white;font:700 40px ${family}}</style><body><div class="board"><span class="combinedAName"></span> <span class="currentAGameScore">0</span></div></body></html>`;
+  const offline = { googleFonts: { offline: true } };
+  const first = await renderDesign(browser, root, { html: html("'Roboto Slab', serif"), css: '' }, 'basketball', offline);
+  assert.ok(first.diagnostics.fonts.includes('Roboto Slab 700 normal'), `loaded faces: ${first.diagnostics.fonts}`);
+  assert.deepEqual(first.diagnostics.blockedRequests, []);
+  assert.deepEqual(first.diagnostics.googleFontErrors, []);
+  const second = await renderDesign(browser, root, { html: html("'Roboto Slab', serif"), css: '' }, 'basketball', offline);
+  assert.ok(first.bytes.equals(second.bytes), 'cached Google Fonts renders must match byte for byte');
+  const fallback = await renderDesign(browser, root, { html: html('serif'), css: '' }, 'basketball', offline);
+  assert.ok(!first.bytes.equals(fallback.bytes), 'the imported face, not the fallback, is painted');
+  await assert.rejects(() => renderDesign(browser, root, { html: html("'Roboto Slab', serif"), css: '' }, 'basketball', { googleFonts: { offline: true, cache: path.join(root, 'empty-cache') } }),
+    /Google Fonts unavailable: Google Fonts request https:\/\/fonts\.googleapis\.com\/css2\?family=Roboto\+Slab.* is not cached in .*empty-cache.*OSB_GOOGLE_FONT_OFFLINE=1.*run once online/);
+  await assert.rejects(() => renderDesign(browser, root, { html: html('serif').replace(cssURL, 'https://example.invalid/css2?family=X'), css: '' }, 'basketball', offline), /stylesheet dependency|Blocked remote/);
 });

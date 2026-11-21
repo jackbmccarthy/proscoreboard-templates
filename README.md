@@ -209,6 +209,16 @@ card + match point) and fails on any other element moving or resizing by more th
 lint was evaluated against the 2026-11-18 audit and rejected (too many false positives and misses),
 so the rendered check is the gate.
 
+Fonts (owner rule, 2026-11-20): use Google Fonts or generic web font families. A Google Font is
+allowed as a leading `@import url("https://fonts.googleapis.com/css2?family=...");` in the template
+CSS (no other stylesheet imports), and it renders in previews: `tools/render-previews.mjs` serves
+fonts.googleapis.com stylesheets and fonts.gstatic.com files from an on-disk cache
+(`.template-cache/google-fonts`, gitignored local state; override with `OSB_GOOGLE_FONT_CACHE`),
+fetching each response once with a fixed Chrome user agent, and waits for `document.fonts.ready`
+before the screenshot, so a cached run is byte-identical. Every other remote request stays blocked.
+With `OSB_GOOGLE_FONT_OFFLINE=1` (or no network) and no cached copy, the render fails naming the
+request; run once online to fill the cache. Always give a generic fallback family.
+
 Two-row layouts use flexible paired columns so corresponding A/B fields align. Preserve
 the intended responsive behavior and score hierarchy. Full-screen layouts may differ;
 do not force them into a universal two-row design. No HTML scripts, inline event handlers,
